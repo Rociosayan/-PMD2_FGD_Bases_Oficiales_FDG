@@ -1,0 +1,7 @@
+﻿id_sede,codigo_sede,nombre_sede,distrito_sede,responsable
+1,S001,Sede Principal 1,Miraflores,Calidad
+2,S002,Sede Principal 2,Miraflores,Operaciones
+3,S003,Sede Sur 3,Callao,Operaciones
+4,S004,Sede Sur 4,Surco,Comercial
+5,S005,Sede Sur 5,Callao,Comercial
+6,S006,Sede Oeste 6,San Miguel,Administraci?n

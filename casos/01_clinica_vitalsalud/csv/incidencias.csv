@@ -1,0 +1,96 @@
+﻿id_incidencia,codigo_incidencia,id_operacion,tipo_incidencia,severidad,fecha_reporte,estado_incidencia
+1,I00001,195,Dato inconsistente,Media,2026-01-14,En revisi?n
+2,I00002,172,Reprogramaci?n,Alta,2026-03-22,Abierta
+3,I00003,324,Demora,Baja,2026-04-27,Cerrada
+4,I00004,122,Dato inconsistente,Alta,2026-06-04,Abierta
+5,I00005,249,Reclamo,Alta,2026-03-28,Cerrada
+6,I00006,3,Demora,Alta,2026-06-27,Cerrada
+7,I00007,170,Falla de registro,Baja,2026-01-03,En revisi?n
+8,I00008,6,Reclamo,Media,2026-04-19,En revisi?n
+9,I00009,5,Reclamo,Media,2026-01-10,Abierta
+10,I00010,422,Dato inconsistente,Baja,2026-02-13,Cerrada
+11,I00011,446,Reclamo,Alta,2026-03-23,Abierta
+12,I00012,196,Demora,Baja,2026-04-09,Abierta
+13,I00013,79,Reclamo,Alta,2026-01-29,En revisi?n
+14,I00014,435,Demora,Media,2026-03-21,Abierta
+15,I00015,482,Reclamo,Media,2026-03-23,Cerrada
+16,I00016,1,Dato inconsistente,Baja,2026-06-23,En revisi?n
+17,I00017,49,Demora,Baja,2026-02-14,Abierta
+18,I00018,106,Dato inconsistente,Media,2026-05-12,Abierta
+19,I00019,290,Falla de registro,Baja,2026-02-20,Abierta
+20,I00020,382,Demora,Alta,2026-01-29,En revisi?n
+21,I00021,427,Falla de registro,Baja,2026-01-24,Cerrada
+22,I00022,56,Reprogramaci?n,Media,2026-05-12,En revisi?n
+23,I00023,159,Reprogramaci?n,Media,2026-06-04,Abierta
+24,I00024,52,Reclamo,Media,2026-05-19,Abierta
+25,I00025,68,Falla de registro,Alta,2026-05-15,Abierta
+26,I00026,426,Reclamo,Media,2026-02-05,Cerrada
+27,I00027,124,Dato inconsistente,Media,2026-02-11,En revisi?n
+28,I00028,80,Demora,Alta,2026-02-13,Cerrada
+29,I00029,328,Falla de registro,Baja,2026-03-14,Abierta
+30,I00030,177,Reclamo,Media,2026-03-04,En revisi?n
+31,I00031,434,Falla de registro,Alta,2026-03-01,Abierta
+32,I00032,30,Dato inconsistente,Alta,2026-06-01,En revisi?n
+33,I00033,37,Reclamo,Media,2026-05-02,Abierta
+34,I00034,380,Dato inconsistente,Baja,2026-01-29,Abierta
+35,I00035,457,Dato inconsistente,Baja,2026-06-09,Cerrada
+36,I00036,241,Reprogramaci?n,Media,2026-05-26,Cerrada
+37,I00037,266,Reprogramaci?n,Alta,2026-06-16,Cerrada
+38,I00038,497,Reclamo,Baja,2026-03-08,Abierta
+39,I00039,336,Reprogramaci?n,Alta,2026-04-17,Abierta
+40,I00040,488,Reprogramaci?n,Baja,2026-05-20,Abierta
+41,I00041,197,Reclamo,Alta,2026-02-05,En revisi?n
+42,I00042,330,Reprogramaci?n,Alta,2026-02-24,Abierta
+43,I00043,373,Reclamo,Media,2026-03-04,Cerrada
+44,I00044,128,Demora,Media,2026-04-02,En revisi?n
+45,I00045,100,Reclamo,Baja,2026-06-06,En revisi?n
+46,I00046,363,Reprogramaci?n,Baja,2026-02-02,Abierta
+47,I00047,403,Reclamo,Baja,2026-04-03,En revisi?n
+48,I00048,370,Dato inconsistente,Baja,2026-01-17,Cerrada
+49,I00049,208,Reclamo,Alta,2026-04-05,En revisi?n
+50,I00050,286,Falla de registro,Alta,2026-01-20,Cerrada
+51,I00051,421,Reprogramaci?n,Media,2026-01-27,Abierta
+52,I00052,233,Reclamo,Alta,2026-04-21,Abierta
+53,I00053,326,Reclamo,Alta,2026-05-21,Cerrada
+54,I00054,202,Demora,Alta,2026-02-21,Cerrada
+55,I00055,383,Demora,Alta,2026-05-21,Abierta
+56,I00056,160,Falla de registro,Baja,2026-04-21,Cerrada
+57,I00057,433,Falla de registro,Alta,2026-04-03,En revisi?n
+58,I00058,278,Demora,Baja,2026-04-15,En revisi?n
+59,I00059,400,Dato inconsistente,Alta,2026-05-24,Cerrada
+60,I00060,431,Reclamo,Baja,2026-05-23,En revisi?n
+61,I00061,469,Falla de registro,Media,2026-06-29,Cerrada
+62,I00062,242,Dato inconsistente,Baja,2026-03-25,En revisi?n
+63,I00063,408,Reclamo,Media,2026-06-01,En revisi?n
+64,I00064,205,Falla de registro,Baja,2026-03-28,Abierta
+65,I00065,458,Falla de registro,Baja,2026-05-12,Abierta
+66,I00066,369,Falla de registro,Media,2026-05-07,En revisi?n
+67,I00067,39,Reprogramaci?n,Baja,2026-03-12,En revisi?n
+68,I00068,127,Demora,Baja,2026-04-21,Cerrada
+69,I00069,478,Dato inconsistente,Baja,2026-02-14,En revisi?n
+70,I00070,82,Reprogramaci?n,Baja,2026-06-27,Cerrada
+71,I00071,12,Reclamo,Baja,2026-04-13,En revisi?n
+72,I00072,256,Dato inconsistente,Media,2026-03-10,Cerrada
+73,I00073,225,Dato inconsistente,Alta,2026-01-12,En revisi?n
+74,I00074,337,Reclamo,Alta,2026-04-10,En revisi?n
+75,I00075,416,Reclamo,Baja,2026-04-23,Cerrada
+76,I00076,296,Reprogramaci?n,Alta,2026-02-15,En revisi?n
+77,I00077,135,Dato inconsistente,Alta,2026-04-05,Cerrada
+78,I00078,64,Falla de registro,Baja,2026-06-12,Abierta
+79,I00079,341,Reprogramaci?n,Baja,2026-05-01,En revisi?n
+80,I00080,193,Falla de registro,Baja,2026-06-29,Cerrada
+81,I00081,180,Demora,Baja,2026-02-05,Abierta
+82,I00082,165,Reprogramaci?n,Baja,2026-03-28,Cerrada
+83,I00083,255,Demora,Baja,2026-03-23,Cerrada
+84,I00084,67,Dato inconsistente,Alta,2026-06-21,Cerrada
+85,I00085,260,Falla de registro,Alta,2026-01-21,Abierta
+86,I00086,179,Reclamo,Media,2026-01-26,En revisi?n
+87,I00087,143,Reprogramaci?n,Media,2026-05-23,Abierta
+88,I00088,245,Reclamo,Baja,2026-01-12,Abierta
+89,I00089,447,Demora,Baja,2026-04-18,En revisi?n
+90,I00090,348,Falla de registro,Alta,2026-01-23,En revisi?n
+91,I00091,224,Reprogramaci?n,Media,2026-04-01,Abierta
+92,I00092,331,Reprogramaci?n,Alta,2026-06-13,Abierta
+93,I00093,418,Falla de registro,Baja,2026-05-14,Abierta
+94,I00094,428,Demora,Alta,2026-06-28,Abierta
+95,I00095,500,Falla de registro,Baja,2026-05-11,En revisi?n

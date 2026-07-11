@@ -1,0 +1,81 @@
+﻿id_entidad,codigo_entidad,nombre_entidad,segmento,distrito,fecha_registro
+1,E0001,Entidad 001,Regular,Callao,2026-02-26
+2,E0002,Entidad 002,Corporativo,San Miguel,2026-03-14
+3,E0003,Entidad 003,Regular,San Miguel,2026-01-15
+4,E0004,Entidad 004,Nuevo,Miraflores,2026-03-25
+5,E0005,Entidad 005,Regular,Callao,2026-03-21
+6,E0006,Entidad 006,Corporativo,San Miguel,2026-04-17
+7,E0007,Entidad 007,Nuevo,San Miguel,2026-03-05
+8,E0008,Entidad 008,Preferente,San Miguel,2026-04-19
+9,E0009,Entidad 009,Nuevo,Callao,2026-03-05
+10,E0010,Entidad 010,Nuevo,Los Olivos,2026-02-25
+11,E0011,Entidad 011,Nuevo,Ate,2026-01-24
+12,E0012,Entidad 012,Corporativo,Comas,2026-02-03
+13,E0013,Entidad 013,Regular,San Miguel,2026-04-10
+14,E0014,Entidad 014,Preferente,Ate,2026-01-22
+15,E0015,Entidad 015,Preferente,Callao,2026-01-24
+16,E0016,Entidad 016,Regular,Lince,2026-04-02
+17,E0017,Entidad 017,Regular,Surco,2026-02-14
+18,E0018,Entidad 018,Preferente,Comas,2026-01-08
+19,E0019,Entidad 019,Preferente,Lince,2026-03-07
+20,E0020,Entidad 020,Nuevo,Callao,2026-04-21
+21,E0021,Entidad 021,Regular,San Miguel,2026-04-04
+22,E0022,Entidad 022,Preferente,San Miguel,2026-02-15
+23,E0023,Entidad 023,Nuevo,Ate,2026-01-04
+24,E0024,Entidad 024,Regular,Lince,2026-01-01
+25,E0025,Entidad 025,Corporativo,Los Olivos,2026-03-25
+26,E0026,Entidad 026,Nuevo,Comas,2026-01-04
+27,E0027,Entidad 027,Regular,San Miguel,2026-04-13
+28,E0028,Entidad 028,Regular,Surco,2026-01-21
+29,E0029,Entidad 029,Preferente,Los Olivos,2026-03-15
+30,E0030,Entidad 030,Preferente,Ate,2026-04-20
+31,E0031,Entidad 031,Nuevo,Surco,2026-04-09
+32,E0032,Entidad 032,Nuevo,Los Olivos,2026-02-23
+33,E0033,Entidad 033,Regular,Comas,2026-03-19
+34,E0034,Entidad 034,Regular,Callao,2026-03-14
+35,E0035,Entidad 035,Preferente,San Miguel,2026-03-31
+36,E0036,Entidad 036,Nuevo,Miraflores,2026-03-29
+37,E0037,Entidad 037,Nuevo,Los Olivos,2026-03-17
+38,E0038,Entidad 038,Corporativo,Surco,2026-02-01
+39,E0039,Entidad 039,Corporativo,Los Olivos,2026-02-20
+40,E0040,Entidad 040,Regular,Lince,2026-03-11
+41,E0041,Entidad 041,Preferente,Lince,2026-03-12
+42,E0042,Entidad 042,Regular,Callao,2026-04-11
+43,E0043,Entidad 043,Nuevo,San Miguel,2026-01-07
+44,E0044,Entidad 044,Corporativo,Callao,2026-03-20
+45,E0045,Entidad 045,Corporativo,Callao,2026-02-04
+46,E0046,Entidad 046,Corporativo,Surco,2026-02-21
+47,E0047,Entidad 047,Corporativo,Miraflores,2026-03-02
+48,E0048,Entidad 048,Regular,Miraflores,2026-04-07
+49,E0049,Entidad 049,Preferente,Callao,2026-01-06
+50,E0050,Entidad 050,Regular,Miraflores,2026-04-11
+51,E0051,Entidad 051,Regular,Callao,2026-04-11
+52,E0052,Entidad 052,Preferente,Lince,2026-01-06
+53,E0053,Entidad 053,Corporativo,Miraflores,2026-02-20
+54,E0054,Entidad 054,Corporativo,Lince,2026-01-11
+55,E0055,Entidad 055,Preferente,Lince,2026-03-12
+56,E0056,Entidad 056,Regular,Lince,2026-03-23
+57,E0057,Entidad 057,Corporativo,Ate,2026-01-22
+58,E0058,Entidad 058,Regular,Surco,2026-01-11
+59,E0059,Entidad 059,Corporativo,Lince,2026-03-18
+60,E0060,Entidad 060,Preferente,Los Olivos,2026-03-16
+61,E0061,Entidad 061,Regular,Comas,2026-03-27
+62,E0062,Entidad 062,Corporativo,Los Olivos,2026-04-05
+63,E0063,Entidad 063,Preferente,Lince,2026-04-05
+64,E0064,Entidad 064,Regular,Surco,2026-04-13
+65,E0065,Entidad 065,Nuevo,Callao,2026-03-19
+66,E0066,Entidad 066,Preferente,Miraflores,2026-01-06
+67,E0067,Entidad 067,Regular,San Miguel,2026-03-23
+68,E0068,Entidad 068,Regular,Los Olivos,2026-04-20
+69,E0069,Entidad 069,Preferente,Ate,2026-03-23
+70,E0070,Entidad 070,Preferente,Miraflores,2026-04-20
+71,E0071,Entidad 071,Corporativo,Miraflores,2026-04-16
+72,E0072,Entidad 072,Regular,Ate,2026-02-21
+73,E0073,Entidad 073,Nuevo,Miraflores,2026-02-25
+74,E0074,Entidad 074,Regular,Miraflores,2026-04-02
+75,E0075,Entidad 075,Regular,Miraflores,2026-03-06
+76,E0076,Entidad 076,Corporativo,Comas,2026-02-14
+77,E0077,Entidad 077,Preferente,Los Olivos,2026-02-07
+78,E0078,Entidad 078,Preferente,Lince,2026-03-19
+79,E0079,Entidad 079,Preferente,Los Olivos,2026-01-30
+80,E0080,Entidad 080,Corporativo,Ate,2026-04-12

@@ -1,0 +1,16 @@
+﻿id_producto,codigo_producto,nombre_producto,categoria,precio_base,activo
+1,P0001,Servicio/Producto 01,Especializado,88.77,1
+2,P0002,Servicio/Producto 02,Especializado,102.52,1
+3,P0003,Servicio/Producto 03,Especializado,371.44,1
+4,P0004,Servicio/Producto 04,B?sico,315.34,1
+5,P0005,Servicio/Producto 05,B?sico,259.18,1
+6,P0006,Servicio/Producto 06,Especializado,202.06,1
+7,P0007,Servicio/Producto 07,Premium,158.9,1
+8,P0008,Servicio/Producto 08,Est?ndar,43.23,1
+9,P0009,Servicio/Producto 09,B?sico,366.37,1
+10,P0010,Servicio/Producto 10,B?sico,165.31,1
+11,P0011,Servicio/Producto 11,Premium,62.48,1
+12,P0012,Servicio/Producto 12,Especializado,120.82,1
+13,P0013,Servicio/Producto 13,B?sico,164.16,1
+14,P0014,Servicio/Producto 14,Premium,370.9,1
+15,P0015,Servicio/Producto 15,Est?ndar,45.2,1
