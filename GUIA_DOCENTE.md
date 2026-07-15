@@ -4,6 +4,8 @@ Estas bases están diseñadas para que los estudiantes trabajen con SQLite en Go
 
 Los registros son ficticios. Las anomalías controladas se mantienen intencionalmente para que los equipos puedan detectarlas, medirlas y proponer reglas de calidad y gobierno de datos.
 
+Para la clasificación, diferenciar entre dato `Personal`, dato `Confidencial` y dato `Sensible legal`. El hecho de que un atributo sea delicado para el negocio no lo convierte automáticamente en un dato sensible. La última columna de `clientes` debe analizarse según el contexto de cada caso.
+
 Uso sugerido por semanas:
 
 - Semana 10: lectura de SQLite y exploración de tablas.

@@ -8,24 +8,24 @@ empleados,id_empleado,INTEGER,PK,No sensible,Personal que atiende operaciones (c
 empleados,codigo_empleado,TEXT,,No sensible,Personal que atiende operaciones (contiene datos personales).
 empleados,nombres,TEXT,,Personal,Personal que atiende operaciones (contiene datos personales).
 empleados,apellidos,TEXT,,Personal,Personal que atiende operaciones (contiene datos personales).
-empleados,num_documento,TEXT,,Sensible (identificador),Personal que atiende operaciones (contiene datos personales).
+empleados,num_documento,TEXT,,Personal,Personal que atiende operaciones (contiene datos personales).
 empleados,cargo,TEXT,,No sensible,Personal que atiende operaciones (contiene datos personales).
 empleados,id_sede,INTEGER,FK,No sensible,Personal que atiende operaciones (contiene datos personales).
 empleados,correo,TEXT,,Personal,Personal que atiende operaciones (contiene datos personales).
-empleados,sueldo,REAL,,Sensible (RRHH),Personal que atiende operaciones (contiene datos personales).
+empleados,sueldo,REAL,,Sensible legal,Personal que atiende operaciones (contiene datos personales).
 empleados,fecha_ingreso,TEXT,,No sensible,Personal que atiende operaciones (contiene datos personales).
-clientes,id_cliente,INTEGER,PK,No sensible,Clientes de la empresa (contiene PII y dato sensible).
-clientes,codigo_cliente,TEXT,,No sensible,Clientes de la empresa (contiene PII y dato sensible).
-clientes,tipo_documento,TEXT,,No sensible,Clientes de la empresa (contiene PII y dato sensible).
-clientes,num_documento,TEXT,,Sensible (identificador),Clientes de la empresa (contiene PII y dato sensible).
-clientes,nombres,TEXT,,Personal,Clientes de la empresa (contiene PII y dato sensible).
-clientes,apellidos,TEXT,,Personal,Clientes de la empresa (contiene PII y dato sensible).
-clientes,correo,TEXT,,Personal,Clientes de la empresa (contiene PII y dato sensible).
-clientes,telefono,TEXT,,Personal,Clientes de la empresa (contiene PII y dato sensible).
-clientes,distrito,TEXT,,Personal,Clientes de la empresa (contiene PII y dato sensible).
-clientes,segmento,TEXT,,No sensible,Clientes de la empresa (contiene PII y dato sensible).
-clientes,fecha_registro,TEXT,,No sensible,Clientes de la empresa (contiene PII y dato sensible).
-clientes,linea_credito,REAL,,Sensible (dato del rubro),Clientes de la empresa (contiene PII y dato sensible).
+clientes,id_cliente,INTEGER,PK,No sensible,Clientes de la empresa (contiene datos personales y un dato contextual del rubro).
+clientes,codigo_cliente,TEXT,,No sensible,Clientes de la empresa (contiene datos personales y un dato contextual del rubro).
+clientes,tipo_documento,TEXT,,No sensible,Clientes de la empresa (contiene datos personales y un dato contextual del rubro).
+clientes,num_documento,TEXT,,Personal,Clientes de la empresa (contiene datos personales y un dato contextual del rubro).
+clientes,nombres,TEXT,,Personal,Clientes de la empresa (contiene datos personales y un dato contextual del rubro).
+clientes,apellidos,TEXT,,Personal,Clientes de la empresa (contiene datos personales y un dato contextual del rubro).
+clientes,correo,TEXT,,Personal,Clientes de la empresa (contiene datos personales y un dato contextual del rubro).
+clientes,telefono,TEXT,,Personal,Clientes de la empresa (contiene datos personales y un dato contextual del rubro).
+clientes,distrito,TEXT,,Personal,Clientes de la empresa (contiene datos personales y un dato contextual del rubro).
+clientes,segmento,TEXT,,No sensible,Clientes de la empresa (contiene datos personales y un dato contextual del rubro).
+clientes,fecha_registro,TEXT,,No sensible,Clientes de la empresa (contiene datos personales y un dato contextual del rubro).
+clientes,linea_credito,REAL,,Confidencial,Clientes de la empresa (contiene datos personales y un dato contextual del rubro).
 productos_servicios,id_producto,INTEGER,PK,No sensible,Catálogo de productos metálicos.
 productos_servicios,codigo_producto,TEXT,,No sensible,Catálogo de productos metálicos.
 productos_servicios,nombre_producto,TEXT,,No sensible,Catálogo de productos metálicos.
