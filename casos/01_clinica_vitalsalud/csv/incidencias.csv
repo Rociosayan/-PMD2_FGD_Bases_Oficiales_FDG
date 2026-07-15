@@ -1,96 +1,146 @@
-﻿id_incidencia,codigo_incidencia,id_operacion,tipo_incidencia,severidad,fecha_reporte,estado_incidencia
-1,I00001,195,Dato inconsistente,Media,2026-01-14,En revisi?n
-2,I00002,172,Reprogramaci?n,Alta,2026-03-22,Abierta
-3,I00003,324,Demora,Baja,2026-04-27,Cerrada
-4,I00004,122,Dato inconsistente,Alta,2026-06-04,Abierta
-5,I00005,249,Reclamo,Alta,2026-03-28,Cerrada
-6,I00006,3,Demora,Alta,2026-06-27,Cerrada
-7,I00007,170,Falla de registro,Baja,2026-01-03,En revisi?n
-8,I00008,6,Reclamo,Media,2026-04-19,En revisi?n
-9,I00009,5,Reclamo,Media,2026-01-10,Abierta
-10,I00010,422,Dato inconsistente,Baja,2026-02-13,Cerrada
-11,I00011,446,Reclamo,Alta,2026-03-23,Abierta
-12,I00012,196,Demora,Baja,2026-04-09,Abierta
-13,I00013,79,Reclamo,Alta,2026-01-29,En revisi?n
-14,I00014,435,Demora,Media,2026-03-21,Abierta
-15,I00015,482,Reclamo,Media,2026-03-23,Cerrada
-16,I00016,1,Dato inconsistente,Baja,2026-06-23,En revisi?n
-17,I00017,49,Demora,Baja,2026-02-14,Abierta
-18,I00018,106,Dato inconsistente,Media,2026-05-12,Abierta
-19,I00019,290,Falla de registro,Baja,2026-02-20,Abierta
-20,I00020,382,Demora,Alta,2026-01-29,En revisi?n
-21,I00021,427,Falla de registro,Baja,2026-01-24,Cerrada
-22,I00022,56,Reprogramaci?n,Media,2026-05-12,En revisi?n
-23,I00023,159,Reprogramaci?n,Media,2026-06-04,Abierta
-24,I00024,52,Reclamo,Media,2026-05-19,Abierta
-25,I00025,68,Falla de registro,Alta,2026-05-15,Abierta
-26,I00026,426,Reclamo,Media,2026-02-05,Cerrada
-27,I00027,124,Dato inconsistente,Media,2026-02-11,En revisi?n
-28,I00028,80,Demora,Alta,2026-02-13,Cerrada
-29,I00029,328,Falla de registro,Baja,2026-03-14,Abierta
-30,I00030,177,Reclamo,Media,2026-03-04,En revisi?n
-31,I00031,434,Falla de registro,Alta,2026-03-01,Abierta
-32,I00032,30,Dato inconsistente,Alta,2026-06-01,En revisi?n
-33,I00033,37,Reclamo,Media,2026-05-02,Abierta
-34,I00034,380,Dato inconsistente,Baja,2026-01-29,Abierta
-35,I00035,457,Dato inconsistente,Baja,2026-06-09,Cerrada
-36,I00036,241,Reprogramaci?n,Media,2026-05-26,Cerrada
-37,I00037,266,Reprogramaci?n,Alta,2026-06-16,Cerrada
-38,I00038,497,Reclamo,Baja,2026-03-08,Abierta
-39,I00039,336,Reprogramaci?n,Alta,2026-04-17,Abierta
-40,I00040,488,Reprogramaci?n,Baja,2026-05-20,Abierta
-41,I00041,197,Reclamo,Alta,2026-02-05,En revisi?n
-42,I00042,330,Reprogramaci?n,Alta,2026-02-24,Abierta
-43,I00043,373,Reclamo,Media,2026-03-04,Cerrada
-44,I00044,128,Demora,Media,2026-04-02,En revisi?n
-45,I00045,100,Reclamo,Baja,2026-06-06,En revisi?n
-46,I00046,363,Reprogramaci?n,Baja,2026-02-02,Abierta
-47,I00047,403,Reclamo,Baja,2026-04-03,En revisi?n
-48,I00048,370,Dato inconsistente,Baja,2026-01-17,Cerrada
-49,I00049,208,Reclamo,Alta,2026-04-05,En revisi?n
-50,I00050,286,Falla de registro,Alta,2026-01-20,Cerrada
-51,I00051,421,Reprogramaci?n,Media,2026-01-27,Abierta
-52,I00052,233,Reclamo,Alta,2026-04-21,Abierta
-53,I00053,326,Reclamo,Alta,2026-05-21,Cerrada
-54,I00054,202,Demora,Alta,2026-02-21,Cerrada
-55,I00055,383,Demora,Alta,2026-05-21,Abierta
-56,I00056,160,Falla de registro,Baja,2026-04-21,Cerrada
-57,I00057,433,Falla de registro,Alta,2026-04-03,En revisi?n
-58,I00058,278,Demora,Baja,2026-04-15,En revisi?n
-59,I00059,400,Dato inconsistente,Alta,2026-05-24,Cerrada
-60,I00060,431,Reclamo,Baja,2026-05-23,En revisi?n
-61,I00061,469,Falla de registro,Media,2026-06-29,Cerrada
-62,I00062,242,Dato inconsistente,Baja,2026-03-25,En revisi?n
-63,I00063,408,Reclamo,Media,2026-06-01,En revisi?n
-64,I00064,205,Falla de registro,Baja,2026-03-28,Abierta
-65,I00065,458,Falla de registro,Baja,2026-05-12,Abierta
-66,I00066,369,Falla de registro,Media,2026-05-07,En revisi?n
-67,I00067,39,Reprogramaci?n,Baja,2026-03-12,En revisi?n
-68,I00068,127,Demora,Baja,2026-04-21,Cerrada
-69,I00069,478,Dato inconsistente,Baja,2026-02-14,En revisi?n
-70,I00070,82,Reprogramaci?n,Baja,2026-06-27,Cerrada
-71,I00071,12,Reclamo,Baja,2026-04-13,En revisi?n
-72,I00072,256,Dato inconsistente,Media,2026-03-10,Cerrada
-73,I00073,225,Dato inconsistente,Alta,2026-01-12,En revisi?n
-74,I00074,337,Reclamo,Alta,2026-04-10,En revisi?n
-75,I00075,416,Reclamo,Baja,2026-04-23,Cerrada
-76,I00076,296,Reprogramaci?n,Alta,2026-02-15,En revisi?n
-77,I00077,135,Dato inconsistente,Alta,2026-04-05,Cerrada
-78,I00078,64,Falla de registro,Baja,2026-06-12,Abierta
-79,I00079,341,Reprogramaci?n,Baja,2026-05-01,En revisi?n
-80,I00080,193,Falla de registro,Baja,2026-06-29,Cerrada
-81,I00081,180,Demora,Baja,2026-02-05,Abierta
-82,I00082,165,Reprogramaci?n,Baja,2026-03-28,Cerrada
-83,I00083,255,Demora,Baja,2026-03-23,Cerrada
-84,I00084,67,Dato inconsistente,Alta,2026-06-21,Cerrada
-85,I00085,260,Falla de registro,Alta,2026-01-21,Abierta
-86,I00086,179,Reclamo,Media,2026-01-26,En revisi?n
-87,I00087,143,Reprogramaci?n,Media,2026-05-23,Abierta
-88,I00088,245,Reclamo,Baja,2026-01-12,Abierta
-89,I00089,447,Demora,Baja,2026-04-18,En revisi?n
-90,I00090,348,Falla de registro,Alta,2026-01-23,En revisi?n
-91,I00091,224,Reprogramaci?n,Media,2026-04-01,Abierta
-92,I00092,331,Reprogramaci?n,Alta,2026-06-13,Abierta
-93,I00093,418,Falla de registro,Baja,2026-05-14,Abierta
-94,I00094,428,Demora,Alta,2026-06-28,Abierta
-95,I00095,500,Falla de registro,Baja,2026-05-11,En revisi?n
+id_incidencia,codigo_incidencia,id_operacion,tipo_incidencia,severidad,fecha_reporte,estado_incidencia
+1,I00001,3,Demora en atención,Baja,2026-04-04,Abierta
+2,I00002,18,Cita reprogramada,Baja,2026-05-10,En revisión
+3,I00003,21,Resultado pendiente,Media,2026-03-11,En revisión
+4,I00004,27,Observación de facturación,Baja,2026-05-12,Abierta
+5,I00005,31,Historia clínica incompleta,Alta,2026-06-02,En revisión
+6,I00006,32,Demora en atención,Alta,2026-06-13,Abierta
+7,I00007,46,Cita reprogramada,Alta,2026-02-19,En revisión
+8,I00008,58,Resultado pendiente,Baja,2026-02-01,En revisión
+9,I00009,61,Observación de facturación,Baja,2026-02-16,En revisión
+10,I00010,65,Historia clínica incompleta,Baja,2026-05-28,En revisión
+11,I00011,71,Demora en atención,Alta,2026-04-20,En revisión
+12,I00012,73,Cita reprogramada,Alta,2026-05-25,En revisión
+13,I00013,82,Resultado pendiente,Alta,2026-04-11,Cerrada
+14,I00014,86,Observación de facturación,Alta,2026-05-23,Cerrada
+15,I00015,89,Historia clínica incompleta,Baja,2026-02-21,Cerrada
+16,I00016,95,Demora en atención,Media,2026-06-05,En revisión
+17,I00017,104,Cita reprogramada,Alta,2026-04-13,En revisión
+18,I00018,106,Resultado pendiente,Media,2026-02-01,En revisión
+19,I00019,107,Observación de facturación,Media,2026-05-26,Abierta
+20,I00020,111,Historia clínica incompleta,Baja,2026-04-19,Abierta
+21,I00021,113,Demora en atención,Baja,2026-06-11,Abierta
+22,I00022,118,Cita reprogramada,Alta,2026-04-10,En revisión
+23,I00023,122,Resultado pendiente,Alta,2026-06-23,Cerrada
+24,I00024,139,Observación de facturación,Alta,2026-06-17,Abierta
+25,I00025,148,Historia clínica incompleta,Media,2026-05-01,Cerrada
+26,I00026,156,Demora en atención,Media,2026-03-04,Abierta
+27,I00027,174,Cita reprogramada,Media,2026-06-02,Cerrada
+28,I00028,183,Resultado pendiente,Baja,2026-03-24,Cerrada
+29,I00029,186,Observación de facturación,Alta,2026-05-21,Cerrada
+30,I00030,188,Historia clínica incompleta,Media,2026-02-12,En revisión
+31,I00031,199,Demora en atención,Baja,2026-03-17,En revisión
+32,I00032,201,Cita reprogramada,Media,2026-02-10,Cerrada
+33,I00033,209,Resultado pendiente,Baja,2026-02-17,Cerrada
+34,I00034,210,Observación de facturación,Alta,2026-04-09,En revisión
+35,I00035,219,Historia clínica incompleta,Alta,2026-03-06,Abierta
+36,I00036,222,Demora en atención,Alta,2026-06-22,Abierta
+37,I00037,228,Cita reprogramada,Media,2026-03-04,En revisión
+38,I00038,231,Resultado pendiente,Media,2026-03-16,En revisión
+39,I00039,232,Observación de facturación,Baja,2026-03-20,Cerrada
+40,I00040,233,Historia clínica incompleta,Media,2026-02-21,En revisión
+41,I00041,237,Demora en atención,Baja,2026-02-23,Cerrada
+42,I00042,238,Cita reprogramada,Media,2026-02-07,Cerrada
+43,I00043,241,Resultado pendiente,Alta,2026-06-22,En revisión
+44,I00044,243,Observación de facturación,Baja,2026-02-19,En revisión
+45,I00045,245,Historia clínica incompleta,Media,2026-04-18,Abierta
+46,I00046,251,Demora en atención,Media,2026-03-16,Cerrada
+47,I00047,252,Cita reprogramada,Baja,2026-06-15,Abierta
+48,I00048,254,Resultado pendiente,Baja,2026-06-15,En revisión
+49,I00049,260,Observación de facturación,Media,2026-02-08,Abierta
+50,I00050,272,Historia clínica incompleta,Alta,2026-04-06,Cerrada
+51,I00051,281,Demora en atención,Alta,2026-03-27,Cerrada
+52,I00052,293,Cita reprogramada,Baja,2026-03-06,En revisión
+53,I00053,296,Resultado pendiente,Alta,2026-02-16,Abierta
+54,I00054,305,Observación de facturación,Baja,2026-04-16,Cerrada
+55,I00055,306,Historia clínica incompleta,Media,2026-02-09,Abierta
+56,I00056,307,Demora en atención,Alta,2026-03-10,Abierta
+57,I00057,312,Cita reprogramada,Media,2026-04-08,En revisión
+58,I00058,320,Resultado pendiente,Media,2026-02-18,Cerrada
+59,I00059,323,Observación de facturación,Baja,2026-06-03,Cerrada
+60,I00060,325,Historia clínica incompleta,Alta,2026-03-07,En revisión
+61,I00061,333,Demora en atención,Media,2026-04-22,Cerrada
+62,I00062,343,Cita reprogramada,Baja,2026-06-07,Abierta
+63,I00063,344,Resultado pendiente,Baja,2026-06-18,Abierta
+64,I00064,358,Observación de facturación,Alta,2026-03-24,En revisión
+65,I00065,367,Historia clínica incompleta,Baja,2026-02-06,Abierta
+66,I00066,369,Demora en atención,Alta,2026-02-01,Cerrada
+67,I00067,372,Cita reprogramada,Alta,2026-04-13,Abierta
+68,I00068,393,Resultado pendiente,Alta,2026-05-05,Abierta
+69,I00069,395,Observación de facturación,Media,2026-06-25,Abierta
+70,I00070,400,Historia clínica incompleta,Media,2026-05-20,Abierta
+71,I00071,406,Demora en atención,Alta,2026-03-02,Cerrada
+72,I00072,407,Cita reprogramada,Baja,2026-03-14,Cerrada
+73,I00073,409,Resultado pendiente,Media,2026-04-11,Abierta
+74,I00074,411,Observación de facturación,Baja,2026-05-13,Cerrada
+75,I00075,418,Historia clínica incompleta,Media,2026-06-03,Abierta
+76,I00076,429,Demora en atención,Baja,2026-05-15,Abierta
+77,I00077,436,Cita reprogramada,Alta,2026-02-05,Cerrada
+78,I00078,440,Resultado pendiente,Media,2026-05-01,Abierta
+79,I00079,441,Observación de facturación,Alta,2026-02-14,Abierta
+80,I00080,446,Historia clínica incompleta,Baja,2026-03-28,En revisión
+81,I00081,460,Demora en atención,Alta,2026-03-17,En revisión
+82,I00082,461,Cita reprogramada,Alta,2026-05-09,Cerrada
+83,I00083,463,Resultado pendiente,Alta,2026-04-11,En revisión
+84,I00084,489,Observación de facturación,Alta,2026-05-23,Abierta
+85,I00085,526,Historia clínica incompleta,Alta,2026-06-02,En revisión
+86,I00086,535,Demora en atención,Baja,2026-03-06,En revisión
+87,I00087,555,Cita reprogramada,Baja,2026-03-10,Cerrada
+88,I00088,558,Resultado pendiente,Alta,2026-04-28,Cerrada
+89,I00089,562,Observación de facturación,Media,2026-04-16,Cerrada
+90,I00090,570,Historia clínica incompleta,Alta,2026-06-13,En revisión
+91,I00091,571,Demora en atención,Baja,2026-05-17,En revisión
+92,I00092,573,Cita reprogramada,Media,2026-06-19,Cerrada
+93,I00093,574,Resultado pendiente,Baja,2026-02-20,Cerrada
+94,I00094,577,Observación de facturación,Media,2026-03-11,Cerrada
+95,I00095,584,Historia clínica incompleta,Alta,2026-03-10,Cerrada
+96,I00096,587,Demora en atención,Media,2026-05-19,Cerrada
+97,I00097,589,Cita reprogramada,Alta,2026-02-23,Cerrada
+98,I00098,593,Resultado pendiente,Media,2026-03-02,Cerrada
+99,I00099,601,Observación de facturación,Media,2026-04-14,Abierta
+100,I00100,620,Historia clínica incompleta,Baja,2026-06-06,Abierta
+101,I00101,623,Demora en atención,Media,2026-04-09,Cerrada
+102,I00102,627,Cita reprogramada,Alta,2026-06-16,En revisión
+103,I00103,630,Resultado pendiente,Baja,2026-03-02,En revisión
+104,I00104,640,Observación de facturación,Media,2026-06-12,Cerrada
+105,I00105,643,Historia clínica incompleta,Alta,2026-05-10,Abierta
+106,I00106,644,Demora en atención,Media,2026-04-28,Abierta
+107,I00107,645,Cita reprogramada,Baja,2026-03-05,Abierta
+108,I00108,661,Resultado pendiente,Baja,2026-03-21,En revisión
+109,I00109,682,Observación de facturación,Media,2026-06-20,Abierta
+110,I00110,695,Historia clínica incompleta,Baja,2026-06-19,Abierta
+111,I00111,699,Demora en atención,Baja,2026-02-06,En revisión
+112,I00112,723,Cita reprogramada,Baja,2026-06-16,Cerrada
+113,I00113,726,Resultado pendiente,Alta,2026-06-21,Cerrada
+114,I00114,727,Observación de facturación,Alta,2026-05-14,Abierta
+115,I00115,732,Historia clínica incompleta,Baja,2026-02-20,Abierta
+116,I00116,741,Demora en atención,Media,2026-05-07,En revisión
+117,I00117,749,Cita reprogramada,Media,2026-05-04,Abierta
+118,I00118,751,Resultado pendiente,Alta,2026-02-28,Cerrada
+119,I00119,764,Observación de facturación,Media,2026-03-16,Cerrada
+120,I00120,787,Historia clínica incompleta,Baja,2026-06-11,Cerrada
+121,I00121,803,Demora en atención,Alta,2026-05-26,Abierta
+122,I00122,808,Cita reprogramada,Alta,2026-05-21,En revisión
+123,I00123,812,Resultado pendiente,Media,2026-06-21,Abierta
+124,I00124,814,Observación de facturación,Alta,2026-03-09,En revisión
+125,I00125,822,Historia clínica incompleta,Alta,2026-06-27,Cerrada
+126,I00126,825,Demora en atención,Alta,2026-05-06,Abierta
+127,I00127,830,Cita reprogramada,Media,2026-02-02,Abierta
+128,I00128,863,Resultado pendiente,Baja,2026-02-07,Abierta
+129,I00129,884,Observación de facturación,Alta,2026-04-25,En revisión
+130,I00130,887,Historia clínica incompleta,Media,2026-03-21,Abierta
+131,I00131,914,Demora en atención,Baja,2026-05-17,Cerrada
+132,I00132,915,Cita reprogramada,Alta,2026-03-02,Cerrada
+133,I00133,919,Resultado pendiente,Alta,2026-04-26,Cerrada
+134,I00134,921,Observación de facturación,Alta,2026-06-17,Cerrada
+135,I00135,923,Historia clínica incompleta,Alta,2026-04-13,Cerrada
+136,I00136,935,Demora en atención,Baja,2026-06-03,Cerrada
+137,I00137,954,Cita reprogramada,Alta,2026-05-01,Cerrada
+138,I00138,956,Resultado pendiente,Media,2026-05-18,En revisión
+139,I00139,964,Observación de facturación,Alta,2026-03-15,En revisión
+140,I00140,970,Historia clínica incompleta,Alta,2026-03-12,En revisión
+141,I00141,979,Demora en atención,Baja,2026-03-19,En revisión
+142,I00142,984,Cita reprogramada,Alta,2026-06-08,Cerrada
+143,I00143,986,Resultado pendiente,Media,2026-05-13,Abierta
+144,I00144,989,Observación de facturación,Baja,2026-02-08,Cerrada
+145,I00145,999,Historia clínica incompleta,Baja,2026-02-27,Abierta

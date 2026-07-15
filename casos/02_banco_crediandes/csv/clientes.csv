@@ -1,0 +1,209 @@
+id_cliente,codigo_cliente,tipo_documento,num_documento,nombres,apellidos,correo,telefono,distrito,segmento,fecha_registro,saldo_cuenta
+1,C0001,RUC,79445224,María,Huamán Aguirre,maría1@correo.com,957089377,Los Olivos,Banca personal,2026-03-07,13099.69
+2,C0002,CE,73432294,Rosa,Rivera Chávez,rosa2@correo.com,952019261,Independencia,Banca preferente,2026-02-20,21025.77
+3,C0003,DNI,76548137,Andrés,Vargas Quispe,andrés3@correo.com,947605318,San Juan de Lurigancho,Microempresa,2026-05-20,10142.43
+4,C0004,DNI,14636974,Natalia,Salazar Gutiérrez,natalia4@correo.com,937594274,Rímac,Pyme,2026-03-18,11315.95
+5,C0005,DNI,76571824,Elena,Villanueva Flores,elena5@correo.com,973182172,Miraflores,Banca personal,2026-04-21,2440.61
+6,C0006,CE,72088698,Víctor,Sánchez Díaz,víctor6@correo.com,927010413,Ate,Banca preferente,2026-03-15,38801.72
+7,C0007,CE,12044205,Lucía,Ramos Paredes,lucía7@correo.com,920090392,Comas,Microempresa,2026-05-06,2106.79
+8,C0008,DNI,63186535,Óscar,Mendoza Vargas,óscar8@correo.com,914072928,Breña,Pyme,2026-03-11,16773.99
+9,C0009,DNI,49052214,Álvaro,Villanueva Bautista,álvaro9@correo.com,930812292,Callao,Banca personal,2026-05-17,40650.96
+10,C0010,RUC,48310916,Karla,Cruz Rivera,karla10@correo.com,,Rímac,Banca preferente,2026-02-23,15250.33
+11,C0011,RUC,79615572,Gabriela,Rojas Villanueva,gabriela11@correo.com,944909802,La Molina,Microempresa,2026-04-02,44514.88
+12,C0012,DNI,76645467,Verónica,Castillo Ríos,verónica12@correo.com,960521721,San Borja,Pyme,2026-04-25,26438.78
+13,C0013,RUC,41206382,Paola,Mendoza Ríos,paola13correo.com,970483123,La Molina,Banca personal,2026-02-15,8264.52
+14,C0014,RUC,92758992,Álvaro,Zevallos Cárdenas,álvaro14@correo.com,952539845,Callao,Banca preferente,2026-02-06,30053.34
+15,C0015,DNI,34880173,Ricardo,Ramos Mendoza,ricardo15@correo.com,928789315,Surco,Microempresa,2026-03-14,44030.43
+16,C0016,CE,91814604,Rosa,Ninaquispe Díaz,,960048041,Callao,Pyme,2026-02-18,16725.75
+17,C0017,DNI,13556568,Raúl,Mendoza Paredes,raúl17@correo.com,929772533,Los Olivos,Banca personal,2026-04-28,40087.26
+18,C0018,DNI,437251,Pedro,Chávez Salazar,pedro18@correo.com,944195755,Chorrillos,Banca preferente,2026-04-15,4939.74
+19,C0019,DNI,35708911,Ana,Salazar Salazar,ana19@correo.com,947311459,La Molina,Microempresa,2026-05-22,18594.52
+20,C0020,CE,79903352,Luis,Ramos Bautista,luis20@correo.com,995244112,Miraflores,Pyme,2026-03-06,16424.39
+21,C0021,DNI,983877,Natalia,Ninaquispe Cárdenas,natalia21@correo.com,933539808,Callao,Banca personal,2026-05-25,26297.97
+22,C0022,DNI,28790551,Manuel,Ponce Paredes,manuel22correo.com,982322073,Lince,Banca preferente,2026-04-23,44672.55
+23,C0023,DNI,52341430,Claudia,Palomino Villanueva,claudia23@correo.com,943636957,Independencia,Microempresa,2026-03-22,43323.4
+24,C0024,DNI,16806025,Iván,Paredes Salazar,iván24@correo.com,970648299,Lince,Pyme,2026-02-02,37101.93
+25,C0025,CE,46148381,Diego,Lévano Cárdenas,diego25@correo.com,983169450,La Molina,Banca personal,2026-04-13,28140.97
+26,C0026,DNI,72512682,Milagros,Cruz Romero,milagros26@correo.com,931788625,Independencia,Banca preferente,2026-04-27,23088.03
+27,C0027,DNI,99957906,Jorge,Paredes Cárdenas,jorge27@correo.com,976923532,San Miguel,Microempresa,2026-05-03,21266.05
+28,C0028,DNI,10480477,Daniela,Flores Castillo,,,Breña,Pyme,2026-01-13,33114.19
+29,C0029,CE,69510529,Melissa,Palomino Villanueva,melissa29@correo.com,976355123,Villa El Salvador,Banca personal,2026-04-06,7975.81
+30,C0030,RUC,69056288,Álvaro,Ríos Aguirre,álvaro30@correo.com,996191756,Comas,Banca preferente,2026-05-21,3009.97
+31,C0031,CE,50571102,Miguel,Rivera Vargas,miguel31@correo.com,994166696,La Molina,Microempresa,2026-02-10,33014.98
+32,C0032,RUC,62769814,Bruno,Cruz Díaz,bruno32@correo.com,998518780,La Molina,Pyme,2026-02-17,11421.71
+33,C0033,DNI,18056186,Sofía,Vargas Ríos,sofía33@correo.com,989953346,Chorrillos,Banca personal,2026-05-12,38146.05
+34,C0034,DNI,59084089,Andrés,Cárdenas Quispe,andrés34@correo.com,946280312,Lince,Banca preferente,2026-05-02,10307.22
+35,C0035,DNI,89663944,Jorge,Paredes Salazar,jorge35@correo.com,934873253,Lince,Microempresa,2026-03-18,4652.29
+36,C0036,DNI,85854329,Patricia,Salazar Cárdenas,patricia36@correo.com,983482299,Ate,Pyme,2026-02-12,7736.96
+37,C0037,DNI,87494759,Pedro,Lévano Lévano,pedro37@correo.com,990698606,Independencia,Banca personal,2026-03-02,21825.09
+38,C0038,RUC,87829272,Hugo,Bautista Ramos,hugo38@correo.com,953058348,Los Olivos,Banca preferente,2026-03-02,41639.41
+39,C0039,DNI,27981088,Hugo,Cornejo Díaz,hugo39@correo.com,929840090,Los Olivos,Microempresa,2026-01-09,5997.97
+40,C0040,CE,56146101,Jorge,Díaz Mendoza,jorge40correo.com,962981881,Villa El Salvador,Pyme,2026-01-03,37244.59
+41,C0041,RUC,45973767,Óscar,Chávez Villanueva,óscar41@correo.com,960901579,Villa El Salvador,Banca personal,2026-05-25,13786.63
+42,C0042,RUC,58520332,Miguel,Rojas Rivera,,998756767,Breña,Banca preferente,2026-01-17,31947.17
+43,C0043,DNI,75899005,Raúl,Rivera Zevallos,raúl43@correo.com,958949321,Chorrillos,Microempresa,2026-01-28,9717.42
+44,C0044,RUC,51743904,Julia,Zevallos Lévano,julia44correo.com,973560882,,Pyme,2026-01-01,20497.4
+45,C0045,DNI,89534572,Natalia,Chávez Ninaquispe,natalia45@correo.com,958395739,Independencia,Banca personal,2026-05-20,41455.23
+46,C0046,DNI,63328557,Andrés,Mendoza Chávez,andrés46@correo.com,989048112,Lince,Banca preferente,2026-03-23,34989.55
+47,C0047,DNI,10393090,Diego,Chávez Cruz,diego47@correo.com,996527677,Chorrillos,Microempresa,2026-01-10,34317.19
+48,C0048,RUC,61383980,Julia,Gutiérrez Paredes,,946973925,Comas,Pyme,2026-04-23,5248.3
+49,C0049,CE,19341251,Álvaro,Paredes Cornejo,álvaro49@correo.com,966113088,San Juan de Lurigancho,Banca personal,2026-01-13,24902.27
+50,C0050,DNI,40524401,Natalia,Villanueva Cárdenas,natalia50@correo.com,918253497,San Juan de Lurigancho,Banca preferente,2026-02-21,5618.55
+51,C0051,DNI,28493353,Lucía,Cruz Vargas,lucía51@correo.com,917963789,Miraflores,Microempresa,2026-03-07,5825.19
+52,C0052,CE,50183173,Rosa,Castillo Espinoza,rosa52@correo.com,991664501,Comas,Pyme,2026-05-24,40666.17
+53,C0053,CE,47544014,Isabel,Palomino Cornejo,isabel53@correo.com,934087678,San Borja,Banca personal,2026-04-20,18452.85
+54,C0054,DNI,42744294,Paola,Ponce Lévano,paola54@correo.com,921933702,San Juan de Lurigancho,Banca preferente,2026-02-12,20649.92
+55,C0055,DNI,18115829,Rosa,Romero Bautista,rosa55@correo.com,911982156,Rímac,Microempresa,2026-01-14,11221.42
+56,C0056,CE,17339000,Karla,Rojas Torres,karla56@correo.com,969912930,,Pyme,2026-05-06,31689.87
+57,C0057,DNI,65179048,Verónica,Villanueva Díaz,verónica57@correo.com,923588644,La Molina,Banca personal,2026-03-11,40210.56
+58,C0058,RUC,76789452,Andrés,Villanueva Ninaquispe,,979139683,Villa El Salvador,Banca preferente,2026-01-23,23991.17
+59,C0059,DNI,43156553,Diego,Mendoza Díaz,diego59@correo.com,979623363,Miraflores,Microempresa,2026-02-16,7007.5
+60,C0060,DNI,76326248,Bruno,Paredes Chávez,bruno60@correo.com,950673540,San Juan de Lurigancho,Pyme,2026-02-13,32314.02
+61,C0061,RUC,92524094,José,Ríos Cornejo,josé61@correo.com,966836209,Surco,Banca personal,2026-03-23,43010.43
+62,C0062,CE,52773181,Andrés,Paredes Ninaquispe,andrés62@correo.com,920612673,Breña,Banca preferente,2026-02-24,15710.5
+63,C0063,DNI,78688865,Claudia,Torres Sánchez,claudia63@correo.com,989151875,Breña,Microempresa,2026-03-27,15945.86
+64,C0064,RUC,32909402,Patricia,Ríos Cruz,patricia64@correo.com,922180763,Villa El Salvador,Pyme,2026-02-25,6224.53
+65,C0065,DNI,39075385,Pedro,Ponce Aguirre,pedro65@correo.com,984707535,Lince,Banca personal,2026-04-09,13261.47
+66,C0066,DNI,91069679,José,Rivera Mendoza,josé66@correo.com,968183344,San Miguel,Banca preferente,2026-04-21,23510.87
+67,C0067,CE,26439677,Ricardo,Paredes Espinoza,ricardo67@correo.com,977751978,Breña,Microempresa,2026-03-23,8181.4
+68,C0068,DNI,756911,Diego,Torres Huamán,diego68@correo.com,930729815,Surco,Pyme,2026-03-14,33209.77
+69,C0069,DNI,41025614,Daniela,Romero Zevallos,daniela69@correo.com,999983411,La Molina,Banca personal,2026-03-25,44163.2
+70,C0070,DNI,61890542,Miguel,Díaz Lévano,miguel70@correo.com,921376676,Chorrillos,Banca preferente,2026-01-15,32404.83
+71,C0071,DNI,91028011,Miguel,Villanueva Mendoza,miguel71@correo.com,944456944,Villa El Salvador,Microempresa,2026-04-28,11551.71
+72,C0072,DNI,32920446,Claudia,Lévano Chávez,claudia72@correo.com,925945030,Ate,Pyme,2026-03-07,6060.1
+73,C0073,DNI,94756149,Paola,Gutiérrez Cárdenas,paola73@correo.com,973788434,Villa El Salvador,Banca personal,2026-05-28,32871.51
+74,C0074,DNI,41877246,Milagros,Vargas Salazar,milagros74@correo.com,989660235,San Borja,Banca preferente,2026-05-11,21027.2
+75,C0075,DNI,83748973,Natalia,Espinoza Lévano,natalia75@correo.com,,Surco,Microempresa,2026-04-21,36903.01
+76,C0076,DNI,78591490,Ana,Díaz Ramos,ana76@correo.com,923420897,Ate,Pyme,2026-05-01,12933.51
+77,C0077,RUC,36724583,Pedro,Ponce Ninaquispe,pedro77@correo.com,958063502,Ate,Banca personal,2026-01-12,40742.29
+78,C0078,RUC,55759491,Raúl,Cornejo Quispe,raúl78@correo.com,944788759,Los Olivos,Banca preferente,2026-02-21,35945.88
+79,C0079,DNI,39067526,Miguel,Vargas Espinoza,miguel79@correo.com,944307599,San Miguel,Microempresa,2026-03-09,28490.75
+80,C0080,CE,504973,Rosa,Bautista Chávez,rosa80@correo.com,,Independencia,Pyme,2026-03-06,15470.42
+81,C0081,RUC,79092027,Isabel,Ponce Bautista,isabel81@correo.com,943877999,San Juan de Lurigancho,Banca personal,2026-03-17,13182.41
+82,C0082,CE,69817077,Milagros,Rojas Sánchez,milagros82@correo.com,974160863,Independencia,Banca preferente,2026-01-07,35937.49
+83,C0083,CE,73260311,Manuel,Ninaquispe Torres,manuel83@correo.com,914021757,Ate,Microempresa,2026-01-03,25598.82
+84,C0084,DNI,24785376,Pedro,Romero Vargas,pedro84@correo.com,997017556,Villa El Salvador,Pyme,2026-04-25,8364.28
+85,C0085,RUC,47550445,Elena,Ríos Aguirre,elena85@correo.com,953529073,Surco,Banca personal,2026-03-03,38645.07
+86,C0086,DNI,80728526,Luis,Flores Romero,luis86@correo.com,,Villa El Salvador,Banca preferente,2026-04-05,28603.82
+87,C0087,RUC,49932495,Claudia,Salazar Ramos,claudia87@correo.com,939921566,Rímac,Microempresa,2026-02-03,14462.89
+88,C0088,DNI,63822431,Jorge,Villanueva Aguirre,jorge88@correo.com,982653340,Breña,Pyme,2026-02-04,42828.04
+89,C0089,DNI,56419294,Ana,Torres Bautista,ana89@correo.com,920115802,Independencia,Banca personal,2026-02-09,9151.96
+90,C0090,CE,86206552,Karla,Sánchez Torres,karla90@correo.com,925201873,Breña,Banca preferente,2026-02-19,34467.0
+91,C0091,CE,61145899,Pamela,Díaz Díaz,pamela91@correo.com,915679476,Independencia,Microempresa,2026-05-09,36267.39
+92,C0092,DNI,30717072,Raúl,Huamán Torres,raúl92correo.com,959271327,Ate,Pyme,2026-02-18,33245.78
+93,C0093,DNI,75198800,Melissa,Lévano Castillo,melissa93@correo.com,,Chorrillos,Banca personal,2026-03-04,8909.38
+94,C0094,RUC,34475406,Ricardo,Aguirre Torres,ricardo94@correo.com,978386850,Lince,Banca preferente,2026-03-19,42569.28
+95,C0095,DNI,12280562,Jorge,Cornejo Vargas,jorge95@correo.com,962376934,San Miguel,Microempresa,2026-01-05,13835.5
+96,C0096,DNI,23545548,Álvaro,Díaz Huamán,álvaro96correo.com,912101045,Ate,Pyme,2026-02-02,24564.47
+97,C0097,DNI,70430898,Miguel,Bautista Romero,miguel97@correo.com,968753572,San Miguel,Banca personal,2026-01-25,13716.9
+98,C0098,DNI,24251401,Bruno,Gutiérrez Espinoza,bruno98@correo.com,,La Molina,Banca preferente,2026-01-07,16735.9
+99,C0099,CE,92856353,Fernando,Zevallos Castillo,fernando99@correo.com,943375625,Villa El Salvador,Microempresa,2026-03-14,18355.57
+100,C0100,RUC,40356173,Iván,Torres Romero,iván100@correo.com,966542071,Chorrillos,Pyme,2026-01-11,25423.56
+101,C0101,CE,50791701,Patricia,Díaz Cornejo,patricia101@correo.com,,Surco,Banca personal,2026-01-27,42847.64
+102,C0102,DNI,74516644,Lucía,Chávez Ponce,lucía102correo.com,942772848,Comas,Banca preferente,2026-05-21,22482.1
+103,C0103,CE,80866386,Gabriela,Díaz Cornejo,gabriela103@correo.com,938857157,La Molina,Microempresa,2026-01-28,37352.71
+104,C0104,CE,40527911,Ana,Quispe Ríos,ana104@correo.com,993543956,Chorrillos,Pyme,2026-04-26,3332.98
+105,C0105,DNI,86852016,Claudia,Palomino Cruz,claudia105@correo.com,933959990,Comas,Banca personal,2026-05-17,30072.15
+106,C0106,DNI,62677398,Víctor,Vargas Salazar,víctor106@correo.com,954676206,Ate,Banca preferente,2026-04-15,29954.85
+107,C0107,DNI,61969602,Ricardo,Cornejo Rivera,,965180332,La Molina,Microempresa,2026-02-13,34881.38
+108,C0108,DNI,78516313,María,Flores Palomino,maría108@correo.com,942367043,San Juan de Lurigancho,Pyme,2026-03-19,17864.76
+109,C0109,DNI,59138626,Ricardo,Villanueva Chávez,,964643887,Breña,Banca personal,2026-05-18,1384.14
+110,C0110,DNI,68800748,Natalia,Paredes Palomino,natalia110@correo.com,983153594,San Miguel,Banca preferente,2026-01-13,40582.83
+111,C0111,DNI,42023711,Natalia,Ríos Ramos,natalia111@correo.com,994067895,Callao,Microempresa,2026-03-24,16202.08
+112,C0112,CE,76092100,Víctor,Chávez Quispe,víctor112@correo.com,948627766,Los Olivos,Pyme,2026-02-28,40366.0
+113,C0113,DNI,93157697,Carmen,Rojas Castillo,carmen113@correo.com,996181903,Lince,Banca personal,2026-04-09,14776.84
+114,C0114,DNI,50260801,Luis,Ríos Aguirre,luis114@correo.com,912892573,Miraflores,Banca preferente,2026-01-26,34793.4
+115,C0115,DNI,48569879,Karla,Mendoza Rivera,karla115@correo.com,988642840,Los Olivos,Microempresa,2026-03-25,14133.5
+116,C0116,CE,93873420,Miguel,Cruz Flores,miguel116@correo.com,947235874,San Juan de Lurigancho,Pyme,2026-01-08,21728.2
+117,C0117,DNI,37417419,Elena,Díaz Cárdenas,elena117@correo.com,938150712,,Banca personal,2026-02-27,7931.59
+118,C0118,RUC,19531695,Sergio,Torres Quispe,sergio118@correo.com,970710803,Miraflores,Banca preferente,2026-05-02,40756.14
+119,C0119,DNI,84569506,Víctor,Torres Paredes,víctor119@correo.com,,Miraflores,Microempresa,2026-03-06,5224.16
+120,C0120,DNI,90153580,Pamela,Vargas Cornejo,pamela120@correo.com,997870339,San Miguel,Pyme,2026-02-04,23562.59
+121,C0121,RUC,79635114,Hugo,Díaz Vargas,,966827880,Rímac,Banca personal,2026-05-12,843.57
+122,C0122,DNI,88538400,Julia,Lévano Flores,julia122@correo.com,,Breña,Banca preferente,2026-03-22,24589.35
+123,C0123,CE,67469331,Ricardo,Romero Lévano,ricardo123@correo.com,910893666,Villa El Salvador,Microempresa,2026-04-12,739.29
+124,C0124,DNI,11482873,Jorge,Salazar Gutiérrez,jorge124@correo.com,969146467,Rímac,Pyme,2026-01-23,43129.26
+125,C0125,DNI,50213964,Gabriela,Rivera Ponce,gabriela125@correo.com,995132422,Independencia,Banca personal,2026-05-02,35820.42
+126,C0126,DNI,70366092,Daniela,Quispe Cornejo,daniela126@correo.com,958850433,Ate,Banca preferente,2026-01-22,8343.92
+127,C0127,RUC,92928212,Carlos,Mendoza Díaz,carlos127@correo.com,984938321,,Microempresa,2026-03-01,15126.67
+128,C0128,DNI,996613,Jorge,Palomino Ríos,jorge128@correo.com,929559715,Miraflores,Pyme,2026-04-07,21350.26
+129,C0129,DNI,81990485,Melissa,Huamán Vargas,melissa129@correo.com,987015190,,Banca personal,2026-03-05,41289.95
+130,C0130,DNI,99025642,Renzo,Rojas Aguirre,renzo130@correo.com,941153311,San Miguel,Banca preferente,2026-02-24,29565.16
+131,C0131,DNI,86281279,Luis,Salazar Quispe,luis131@correo.com,969127069,Breña,Microempresa,2026-03-28,16975.73
+132,C0132,DNI,878615,Isabel,Castillo Huamán,isabel132@correo.com,912715777,,Pyme,2026-05-13,19006.03
+133,C0133,DNI,74788677,Manuel,Chávez Cruz,manuel133@correo.com,963490773,Callao,Banca personal,2026-02-05,4037.29
+134,C0134,DNI,18047369,Manuel,Ponce Rojas,manuel134@correo.com,927354486,La Molina,Banca preferente,2026-05-08,31676.46
+135,C0135,RUC,81363641,Andrés,Paredes Gutiérrez,andrés135@correo.com,941929189,San Borja,Microempresa,2026-04-24,3156.58
+136,C0136,DNI,17135805,Hugo,Ninaquispe Gutiérrez,hugo136@correo.com,,Lince,Pyme,2026-05-22,30698.16
+137,C0137,DNI,50186655,Lucía,Salazar Rivera,,982965361,San Juan de Lurigancho,Banca personal,2026-01-18,12675.93
+138,C0138,CE,28420515,Ana,Romero Mendoza,,949530867,San Miguel,Banca preferente,2026-04-25,42269.81
+139,C0139,DNI,74401083,Iván,Villanueva Lévano,iván139@correo.com,954665504,San Borja,Microempresa,2026-01-23,7193.89
+140,C0140,RUC,12684905,Álvaro,Romero Vargas,álvaro140@correo.com,992810216,,Pyme,2026-02-03,37681.11
+141,C0141,RUC,35662358,José,Zevallos Chávez,josé141@correo.com,956523268,Surco,Banca personal,2026-02-25,12777.75
+142,C0142,DNI,19650357,Lucía,Mendoza Sánchez,lucía142@correo.com,912821326,San Juan de Lurigancho,Banca preferente,2026-04-16,2403.4
+143,C0143,RUC,28156163,Julia,Rojas Zevallos,julia143@correo.com,988090014,Comas,Microempresa,2026-02-20,20458.17
+144,C0144,RUC,44312861,Víctor,Chávez Aguirre,víctor144@correo.com,927887803,San Borja,Pyme,2026-02-24,40728.93
+145,C0145,DNI,48494981,Bruno,Salazar Ríos,bruno145@correo.com,983792437,San Juan de Lurigancho,Banca personal,2026-02-05,10090.11
+146,C0146,DNI,25206371,Iván,Villanueva Vargas,iván146@correo.com,932976935,Ate,Banca preferente,2026-04-24,27080.06
+147,C0147,CE,90540578,Sergio,Sánchez Zevallos,,976621716,Breña,Microempresa,2026-05-18,2954.92
+148,C0148,DNI,15414288,Ricardo,Palomino Mendoza,ricardo148@correo.com,951352026,Miraflores,Pyme,2026-03-25,1865.16
+149,C0149,RUC,58103454,Manuel,Rojas Flores,manuel149@correo.com,997989172,Ate,Banca personal,2026-05-18,44489.11
+150,C0150,CE,91527282,Renzo,Zevallos Ponce,renzo150@correo.com,959451881,Lince,Banca preferente,2026-02-26,43303.04
+151,C0151,DNI,16782783,Luis,Rivera Gutiérrez,luis151@correo.com,914258866,Ate,Microempresa,2026-04-19,32638.21
+152,C0152,RUC,95667419,Manuel,Espinoza Ponce,manuel152@correo.com,973382493,Ate,Pyme,2026-04-19,13853.87
+153,C0153,DNI,60317335,Isabel,Ríos Cárdenas,isabel153@correo.com,959085632,Surco,Banca personal,2026-04-20,43737.96
+154,C0154,RUC,21500760,Ricardo,Torres Cárdenas,ricardo154@correo.com,941584835,Chorrillos,Banca preferente,2026-03-17,10155.58
+155,C0155,RUC,52199802,Daniela,Ramos Mendoza,daniela155@correo.com,916227909,Miraflores,Microempresa,2026-01-06,32382.87
+156,C0156,DNI,96610682,Patricia,Aguirre Bautista,patricia156@correo.com,914235220,Rímac,Pyme,2026-04-27,24615.29
+157,C0157,DNI,24034422,Renzo,Mendoza Bautista,renzo157@correo.com,917081296,La Molina,Banca personal,2026-02-13,35481.13
+158,C0158,DNI,58203696,Sergio,Salazar Gutiérrez,sergio158@correo.com,950140692,La Molina,Banca preferente,2026-04-20,3472.76
+159,C0159,DNI,10814741,Carmen,Huamán Sánchez,carmen159@correo.com,946889745,,Microempresa,2026-04-14,12412.94
+160,C0160,RUC,72470522,Julia,Torres Salazar,julia160@correo.com,966519682,San Juan de Lurigancho,Pyme,2026-02-17,33370.58
+161,C0161,DNI,70824610,Verónica,Lévano Sánchez,verónica161@correo.com,931752614,Comas,Banca personal,2026-04-17,3867.24
+162,C0162,DNI,72197281,Pedro,Rivera Aguirre,pedro162@correo.com,997396659,Ate,Banca preferente,2026-03-22,21365.44
+163,C0163,RUC,97215394,Miguel,Ríos Aguirre,miguel163@correo.com,994379076,San Borja,Microempresa,2026-02-03,42917.85
+164,C0164,DNI,39742959,Patricia,Chávez Cruz,,,Miraflores,Pyme,2026-05-14,9743.62
+165,C0165,DNI,61746657,Jorge,Espinoza Díaz,jorge165@correo.com,977267093,San Juan de Lurigancho,Banca personal,2026-01-09,40321.75
+166,C0166,CE,44510994,María,Ríos Romero,maría166@correo.com,933919429,Villa El Salvador,Banca preferente,2026-02-23,11501.29
+167,C0167,DNI,35995273,Rosa,Bautista Cruz,rosa167@correo.com,917903664,San Miguel,Microempresa,2026-04-10,16196.99
+168,C0168,CE,39407066,Andrés,Cornejo Ramos,andrés168@correo.com,942900153,San Juan de Lurigancho,Pyme,2026-03-14,37812.46
+169,C0169,CE,42177237,Bruno,Bautista Quispe,bruno169@correo.com,999195848,La Molina,Banca personal,2026-01-05,34002.07
+170,C0170,DNI,25201177,Manuel,Romero Sánchez,manuel170@correo.com,950616133,Callao,Banca preferente,2026-01-15,35599.17
+171,C0171,DNI,39819225,Miguel,Ríos Huamán,miguel171@correo.com,912975498,San Juan de Lurigancho,Microempresa,2026-01-19,31378.04
+172,C0172,DNI,40531709,Diego,Ninaquispe Gutiérrez,,937024834,Rímac,Pyme,2026-03-05,24930.14
+173,C0173,DNI,28210220,Karla,Cornejo Ponce,karla173@correo.com,,Breña,Banca personal,2026-05-04,38947.86
+174,C0174,DNI,71414165,Pedro,Torres Castillo,pedro174@correo.com,955350341,San Borja,Banca preferente,2026-03-23,44402.3
+175,C0175,DNI,39250353,Ricardo,Huamán Rojas,ricardo175@correo.com,920103394,La Molina,Microempresa,2026-02-07,29744.21
+176,C0176,DNI,41143199,Carmen,Quispe Mendoza,carmen176@correo.com,936903146,San Miguel,Pyme,2026-02-18,19925.66
+177,C0177,DNI,53635735,Sofía,Sánchez Sánchez,sofía177@correo.com,963230662,Rímac,Banca personal,2026-03-10,1401.66
+178,C0178,DNI,84889940,Patricia,Aguirre Aguirre,patricia178@correo.com,,Chorrillos,Banca preferente,2026-05-08,21301.44
+179,C0179,DNI,78056624,Claudia,Huamán Aguirre,claudia179@correo.com,998735738,San Juan de Lurigancho,Microempresa,2026-04-17,18522.09
+180,C0180,DNI,12072983,Julia,Castillo Huamán,julia180@correo.com,974396081,Rímac,Pyme,2026-02-27,5205.8
+181,C0181,RUC,17896265,Fernando,Salazar Romero,fernando181correo.com,,Independencia,Banca personal,2026-04-25,29990.47
+182,C0182,DNI,62705475,Luis,Romero Espinoza,luis182@correo.com,918009320,La Molina,Banca preferente,2026-05-02,26341.93
+183,C0183,RUC,13566414,Karla,Villanueva Ramos,karla183@correo.com,934627780,Chorrillos,Microempresa,2026-05-18,30797.91
+184,C0184,RUC,57895051,Julia,Castillo Paredes,julia184correo.com,994975556,San Miguel,Pyme,2026-05-09,20541.65
+185,C0185,DNI,792108,Bruno,Lévano Ninaquispe,bruno185@correo.com,990958778,Chorrillos,Banca personal,2026-04-22,9624.34
+186,C0186,CE,53679834,Raúl,Gutiérrez Flores,raúl186@correo.com,954219316,Los Olivos,Banca preferente,2026-01-23,24282.02
+187,C0187,CE,31405905,Daniela,Rivera Flores,daniela187@correo.com,998698514,Ate,Microempresa,2026-03-08,1762.14
+188,C0188,DNI,694721,Óscar,Aguirre Rivera,óscar188@correo.com,936736287,Miraflores,Pyme,2026-02-09,33267.56
+189,C0189,DNI,71296935,Jorge,Chávez Mendoza,jorge189@correo.com,926640305,San Miguel,Banca personal,2026-04-04,34581.01
+190,C0190,RUC,62674658,Óscar,Ríos Ninaquispe,óscar190@correo.com,933508512,Miraflores,Banca preferente,2026-04-22,18954.45
+191,C0191,DNI,77657086,Lucía,Cornejo Romero,lucía191@correo.com,983768476,Breña,Microempresa,2026-04-10,42779.66
+192,C0192,RUC,44868595,Rosa,Espinoza Chávez,rosa192@correo.com,949363877,San Juan de Lurigancho,Pyme,2026-04-28,5295.61
+193,C0193,CE,35157593,Rosa,Espinoza Paredes,rosa193@correo.com,987343366,,Banca personal,2026-05-05,43561.81
+194,C0194,CE,19681430,Daniela,Bautista Palomino,daniela194@correo.com,912578223,Callao,Banca preferente,2026-02-09,29795.55
+195,C0195,DNI,33764574,Patricia,Aguirre Ramos,patricia195@correo.com,960820195,San Miguel,Microempresa,2026-03-25,22622.8
+196,C0196,DNI,12741860,Natalia,Mendoza Aguirre,,,Comas,Pyme,2026-04-27,23991.42
+197,C0197,CE,10212977,Patricia,Villanueva Cárdenas,patricia197@correo.com,989163227,Comas,Banca personal,2026-03-01,6627.45
+198,C0198,CE,464397,Diego,Chávez Bautista,diego198@correo.com,991222050,Surco,Banca preferente,2026-04-08,269.11
+199,C0199,DNI,96442590,María,Palomino Sánchez,maría199@correo.com,944169271,Callao,Microempresa,2026-01-07,34346.33
+200,C0200,DNI,42948581,Rosa,Chávez Ríos,rosa200@correo.com,946181838,Rímac,Pyme,2026-03-09,22220.07
+201,C0201,CE,93873420,Miguel,Cruz Flores,miguel116@correo.com,947235874,San Juan de Lurigancho,Banca personal,2026-01-08,21728.2
+202,C0202,DNI,23545548,Álvaro,Díaz Huamán,álvaro96correo.com,912101045,Ate,Banca preferente,2026-02-02,24564.47
+203,C0203,CE,193412,Álvaro,Paredes Cornejo,álvaro49correo.com,966113088,San Juan de Lurigancho,Microempresa,2026-01-13,24902.27
+204,C0204,CE,56146101,Jorge,Díaz Mendoza,jorge40@correo.com,962981881,Villa El Salvador,Pyme,2026-01-03,37244.59
+205,C0205,DNI,74788677,Manuel,Chávez Cruz,manuel133@correo.com,963490773,Callao,Banca personal,2026-02-05,4037.29
+206,C0206,CE,73260311,Manuel,Ninaquispe Torres,manuel83@correo.com,914021757,Ate,Banca preferente,2026-01-03,25598.82
+207,C0207,DNI,58203696,Sergio,Salazar Gutiérrez,sergio158@correo.com,950140692,La Molina,Microempresa,2026-04-20,3472.76
+208,C0208,DNI,17135805,Hugo,Ninaquispe Gutiérrez,hugo136correo.com,,Lince,Pyme,2026-05-22,30698.16

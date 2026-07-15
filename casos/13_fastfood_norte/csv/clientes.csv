@@ -1,0 +1,209 @@
+id_cliente,codigo_cliente,tipo_documento,num_documento,nombres,apellidos,correo,telefono,distrito,segmento,fecha_registro,direccion_delivery
+1,C0001,DNI,99116779,Raúl,Castillo Bautista,raúl1@correo.com,991710072,Independencia,Cliente de salón,2026-01-25,Av. El Sol 475
+2,C0002,DNI,69346457,María,Villanueva Aguirre,maría2@correo.com,983749960,San Juan de Lurigancho,Cliente delivery,2026-03-18,Av. Los Pinos 1798
+3,C0003,RUC,20542607,Rosa,Chávez Espinoza,rosa3@correo.com,,Rímac,Cliente frecuente,2026-04-05,Av. Brasil 931
+4,C0004,DNI,49135317,Karla,Díaz Cruz,karla4@correo.com,989821369,Chorrillos,Cuenta corporativa,2026-02-05,Av. Grau 1731
+5,C0005,DNI,91220950,Karla,Palomino Cruz,karla5@correo.com,950498994,Callao,Cliente de salón,2026-02-12,Av. Brasil 2175
+6,C0006,DNI,81748530,Milagros,Ramos Salazar,milagros6@correo.com,951372818,Rímac,Cliente delivery,2026-05-07,Av. La Marina 197
+7,C0007,CE,99470943,Melissa,Torres Sánchez,melissa7@correo.com,986766073,Los Olivos,Cliente frecuente,2026-02-23,Av. El Sol 1580
+8,C0008,DNI,23922662,Raúl,Ramos Palomino,raúl8@correo.com,,Rímac,Cuenta corporativa,2026-05-15,Av. Los Pinos 1647
+9,C0009,CE,55661578,Isabel,Zevallos Quispe,isabel9@correo.com,964838575,Miraflores,Cliente de salón,2026-04-17,Av. El Sol 1231
+10,C0010,DNI,84550548,Isabel,Cruz Mendoza,isabel10@correo.com,935124489,San Juan de Lurigancho,Cliente delivery,2026-03-24,Av. El Sol 1607
+11,C0011,CE,17671884,Carlos,Flores Zevallos,carlos11@correo.com,976403475,Miraflores,Cliente frecuente,2026-02-28,Av. Brasil 610
+12,C0012,RUC,888646,Carmen,Castillo Villanueva,carmen12@correo.com,999098044,Rímac,Cuenta corporativa,2026-05-05,Av. El Sol 2244
+13,C0013,RUC,90654843,Iván,Villanueva Chávez,iván13@correo.com,912272374,Chorrillos,Cliente de salón,2026-03-12,Av. Los Pinos 399
+14,C0014,RUC,88927439,Renzo,Ramos Vargas,renzo14correo.com,911451017,San Borja,Cliente delivery,2026-05-19,Av. Grau 2066
+15,C0015,CE,261851,Pedro,Chávez Rojas,pedro15@correo.com,929277121,La Molina,Cliente frecuente,2026-01-23,Av. El Sol 1163
+16,C0016,DNI,71468310,Bruno,Ramos Cárdenas,bruno16@correo.com,953701534,Ate,Cuenta corporativa,2026-03-01,Av. La Marina 1688
+17,C0017,DNI,639222,Lucía,Espinoza Bautista,lucía17correo.com,986621010,Breña,Cliente de salón,2026-05-27,Av. El Sol 1475
+18,C0018,RUC,93177198,Natalia,Cruz Cornejo,natalia18@correo.com,,Comas,Cliente delivery,2026-02-20,Av. El Sol 1345
+19,C0019,DNI,84732604,Raúl,Quispe Quispe,raúl19@correo.com,982243070,San Miguel,Cliente frecuente,2026-05-01,Av. Grau 2065
+20,C0020,CE,43277341,Natalia,Ramos Lévano,natalia20@correo.com,985042713,Los Olivos,Cuenta corporativa,2026-03-01,Av. Grau 778
+21,C0021,DNI,43248520,Karla,Mendoza Quispe,karla21@correo.com,987956590,Surco,Cliente de salón,2026-03-03,Av. El Sol 2155
+22,C0022,RUC,51764483,Paola,Torres Romero,paola22@correo.com,967298844,La Molina,Cliente delivery,2026-02-01,Av. Grau 1218
+23,C0023,DNI,85706869,Melissa,Cárdenas Cruz,melissa23@correo.com,967041599,San Borja,Cliente frecuente,2026-01-11,Av. Brasil 1846
+24,C0024,RUC,384392,Gabriela,Lévano Rojas,gabriela24@correo.com,965110313,Breña,Cuenta corporativa,2026-02-26,Av. Grau 820
+25,C0025,DNI,32324309,Ricardo,Ríos Huamán,ricardo25@correo.com,922295552,Surco,Cliente de salón,2026-05-07,Av. Los Pinos 2342
+26,C0026,CE,905844,Daniela,Rivera Sánchez,daniela26@correo.com,,Comas,Cliente delivery,2026-01-04,Av. Grau 671
+27,C0027,CE,49781063,Carmen,Rivera Ramos,carmen27@correo.com,965837475,Los Olivos,Cliente frecuente,2026-04-24,Av. Grau 2352
+28,C0028,RUC,43772489,Sofía,Espinoza Paredes,sofía28@correo.com,912759893,San Juan de Lurigancho,Cuenta corporativa,2026-04-22,Av. Grau 599
+29,C0029,DNI,29665183,María,Ponce Díaz,maría29@correo.com,910345967,,Cliente de salón,2026-05-01,Av. La Marina 1477
+30,C0030,DNI,18839834,Hugo,Aguirre Bautista,hugo30@correo.com,945810953,Lince,Cliente delivery,2026-03-24,Av. Grau 2039
+31,C0031,RUC,43948318,Verónica,Aguirre Rojas,verónica31@correo.com,916307509,Villa El Salvador,Cliente frecuente,2026-05-23,Av. La Marina 1293
+32,C0032,DNI,81552308,Ricardo,Chávez Sánchez,ricardo32correo.com,926981480,,Cuenta corporativa,2026-01-20,Av. La Marina 1237
+33,C0033,CE,28364397,Natalia,Bautista Cruz,,989647282,San Miguel,Cliente de salón,2026-01-26,Av. Brasil 2076
+34,C0034,DNI,15570686,Julia,Huamán Palomino,julia34@correo.com,921924898,San Borja,Cliente delivery,2026-03-09,Av. Brasil 1558
+35,C0035,CE,55979469,Hugo,Lévano Chávez,hugo35@correo.com,,La Molina,Cliente frecuente,2026-01-17,Av. Brasil 1422
+36,C0036,RUC,93154467,Paola,Villanueva Sánchez,paola36@correo.com,975932797,Los Olivos,Cuenta corporativa,2026-05-21,Av. El Sol 839
+37,C0037,CE,28856779,Andrés,Zevallos Cruz,andrés37@correo.com,969471564,Chorrillos,Cliente de salón,2026-05-03,Av. Grau 1480
+38,C0038,DNI,82920275,Verónica,Ponce Gutiérrez,verónica38@correo.com,987431071,Callao,Cliente delivery,2026-01-05,Av. Los Pinos 566
+39,C0039,DNI,51486587,Lucía,Romero Vargas,lucía39@correo.com,944889797,Chorrillos,Cliente frecuente,2026-02-10,Av. Grau 586
+40,C0040,DNI,85025799,Patricia,Vargas Romero,patricia40@correo.com,980256986,Chorrillos,Cuenta corporativa,2026-03-28,Av. Los Pinos 806
+41,C0041,RUC,73721936,Isabel,Ninaquispe Palomino,,967470922,Breña,Cliente de salón,2026-04-06,Av. Los Pinos 2238
+42,C0042,CE,72972017,Karla,Palomino Ramos,karla42@correo.com,947636179,Breña,Cliente delivery,2026-03-26,Av. El Sol 616
+43,C0043,DNI,98843601,Miguel,Lévano Quispe,miguel43@correo.com,915428835,Miraflores,Cliente frecuente,2026-02-08,Av. Brasil 758
+44,C0044,RUC,88493606,José,Díaz Huamán,josé44@correo.com,925002966,Ate,Cuenta corporativa,2026-01-16,Av. El Sol 691
+45,C0045,RUC,38409826,Julia,Rivera Villanueva,,924721997,Ate,Cliente de salón,2026-04-26,Av. Grau 1584
+46,C0046,DNI,95528294,Sofía,Flores Lévano,sofía46@correo.com,987206304,Lince,Cliente delivery,2026-05-01,Av. Brasil 288
+47,C0047,CE,98235869,Iván,Rojas Sánchez,iván47@correo.com,965584980,Comas,Cliente frecuente,2026-02-06,Av. Los Pinos 149
+48,C0048,CE,13048710,José,Ramos Cruz,josé48@correo.com,921135297,Rímac,Cuenta corporativa,2026-05-10,Av. Grau 215
+49,C0049,DNI,28569457,Andrés,Castillo Gutiérrez,andrés49@correo.com,915951509,Miraflores,Cliente de salón,2026-04-26,Av. La Marina 1220
+50,C0050,CE,94537183,Óscar,Díaz Castillo,óscar50@correo.com,926258910,Comas,Cliente delivery,2026-05-25,Av. Brasil 998
+51,C0051,RUC,78649974,Isabel,Villanueva Rojas,isabel51@correo.com,910622904,Rímac,Cliente frecuente,2026-05-09,Av. Los Pinos 2017
+52,C0052,RUC,28007497,Elena,Cornejo Ramos,elena52@correo.com,933060488,Rímac,Cuenta corporativa,2026-03-01,Av. Brasil 524
+53,C0053,CE,51898698,Verónica,Quispe Ninaquispe,verónica53@correo.com,980669518,Los Olivos,Cliente de salón,2026-03-22,Av. Brasil 949
+54,C0054,DNI,77006013,Manuel,Ninaquispe Lévano,manuel54@correo.com,956215374,Ate,Cliente delivery,2026-04-20,Av. Grau 836
+55,C0055,RUC,22411796,Manuel,Huamán Rojas,manuel55@correo.com,919446571,Chorrillos,Cliente frecuente,2026-04-01,Av. Los Pinos 993
+56,C0056,CE,82899213,Carlos,Ninaquispe Sánchez,carlos56@correo.com,982346797,Rímac,Cuenta corporativa,2026-01-08,Av. El Sol 1639
+57,C0057,RUC,724954,Melissa,Bautista Espinoza,melissa57@correo.com,968683223,La Molina,Cliente de salón,2026-05-11,Av. Brasil 2105
+58,C0058,CE,91953598,Luis,Bautista Torres,luis58@correo.com,,Ate,Cliente delivery,2026-04-09,Av. Grau 569
+59,C0059,DNI,98656716,Fernando,Cornejo Cárdenas,fernando59@correo.com,,Miraflores,Cliente frecuente,2026-05-01,Av. Brasil 2229
+60,C0060,CE,18543339,Víctor,Torres Gutiérrez,víctor60@correo.com,984391089,La Molina,Cuenta corporativa,2026-01-21,Av. Los Pinos 540
+61,C0061,DNI,52173270,Víctor,Romero Flores,víctor61@correo.com,944322358,Miraflores,Cliente de salón,2026-03-10,Av. Brasil 1293
+62,C0062,DNI,91038311,Sergio,Vargas Huamán,sergio62@correo.com,990855298,Ate,Cliente delivery,2026-02-08,Av. Brasil 1565
+63,C0063,DNI,60164882,Carmen,Huamán Quispe,,928794126,Callao,Cliente frecuente,2026-03-04,Av. La Marina 2367
+64,C0064,DNI,42365138,Diego,Ninaquispe Ponce,diego64@correo.com,945582049,Callao,Cuenta corporativa,2026-04-28,Av. Grau 1682
+65,C0065,DNI,29757110,Verónica,Quispe Flores,verónica65@correo.com,989234938,Lince,Cliente de salón,2026-01-17,Av. Grau 677
+66,C0066,DNI,16433430,Sofía,Mendoza Mendoza,sofía66@correo.com,962580296,Villa El Salvador,Cliente delivery,2026-03-24,Av. Los Pinos 2144
+67,C0067,CE,33477621,Jorge,Palomino Gutiérrez,jorge67@correo.com,920729796,Villa El Salvador,Cliente frecuente,2026-03-04,Av. La Marina 1801
+68,C0068,CE,88233945,Iván,Castillo Bautista,iván68@correo.com,962418595,San Miguel,Cuenta corporativa,2026-01-10,Av. La Marina 2338
+69,C0069,DNI,29382244,José,Cárdenas Quispe,josé69@correo.com,935330614,Comas,Cliente de salón,2026-04-23,Av. Grau 1723
+70,C0070,DNI,31817074,María,Ninaquispe Huamán,maría70@correo.com,945123446,Chorrillos,Cliente delivery,2026-04-18,Av. Brasil 1882
+71,C0071,DNI,28298692,Sergio,Lévano Mendoza,sergio71correo.com,958657726,,Cliente frecuente,2026-05-15,Av. Los Pinos 2216
+72,C0072,DNI,35587460,Ricardo,Zevallos Aguirre,ricardo72@correo.com,976972590,Ate,Cuenta corporativa,2026-02-19,Av. Brasil 2055
+73,C0073,DNI,10642772,Iván,Romero Ríos,iván73@correo.com,921972970,Chorrillos,Cliente de salón,2026-05-20,Av. Grau 2095
+74,C0074,DNI,19023181,Iván,Ramos Bautista,iván74correo.com,,Ate,Cliente delivery,2026-03-24,Av. Grau 709
+75,C0075,RUC,81658846,Óscar,Ríos Bautista,óscar75@correo.com,960286021,Ate,Cliente frecuente,2026-04-11,Av. El Sol 2153
+76,C0076,CE,18938451,Gabriela,Ponce Ninaquispe,gabriela76@correo.com,925805926,La Molina,Cuenta corporativa,2026-03-17,Av. La Marina 1202
+77,C0077,DNI,11989920,Álvaro,Gutiérrez Romero,álvaro77@correo.com,951325930,Miraflores,Cliente de salón,2026-01-25,Av. El Sol 2382
+78,C0078,RUC,66895224,Isabel,Mendoza Castillo,,940166208,Los Olivos,Cliente delivery,2026-05-16,Av. Grau 1208
+79,C0079,DNI,20465852,Andrés,Romero Aguirre,andrés79@correo.com,919633046,Breña,Cliente frecuente,2026-03-21,Av. Grau 1061
+80,C0080,DNI,65717127,Claudia,Lévano Vargas,claudia80@correo.com,915840919,Surco,Cuenta corporativa,2026-05-16,Av. Brasil 1733
+81,C0081,CE,10875435,Manuel,Espinoza Díaz,manuel81@correo.com,916651509,San Borja,Cliente de salón,2026-04-04,Av. Los Pinos 1276
+82,C0082,DNI,37223771,Manuel,Vargas Paredes,manuel82correo.com,989738704,San Juan de Lurigancho,Cliente delivery,2026-04-07,Av. El Sol 1939
+83,C0083,DNI,15848938,Carlos,Rivera Rivera,carlos83@correo.com,961525456,Rímac,Cliente frecuente,2026-02-22,Av. Brasil 1934
+84,C0084,RUC,32482959,Luis,Quispe Bautista,luis84@correo.com,952173027,Rímac,Cuenta corporativa,2026-03-28,Av. El Sol 2465
+85,C0085,DNI,53581180,Claudia,Ramos Ríos,claudia85@correo.com,945782735,San Juan de Lurigancho,Cliente de salón,2026-04-17,Av. El Sol 2169
+86,C0086,RUC,38013477,Pedro,Salazar Paredes,pedro86@correo.com,,Comas,Cliente delivery,2026-02-26,Av. Los Pinos 1376
+87,C0087,RUC,99035909,Lucía,Ponce Rojas,lucía87@correo.com,996842811,Callao,Cliente frecuente,2026-04-21,Av. Grau 1202
+88,C0088,DNI,60305568,Pamela,Paredes Sánchez,pamela88@correo.com,977894492,Villa El Salvador,Cuenta corporativa,2026-01-06,Av. La Marina 191
+89,C0089,RUC,84809130,Ana,Torres Vargas,ana89@correo.com,,Chorrillos,Cliente de salón,2026-02-06,Av. El Sol 866
+90,C0090,RUC,31172344,Fernando,Vargas Huamán,fernando90@correo.com,959528892,Ate,Cliente delivery,2026-04-03,Av. El Sol 1180
+91,C0091,DNI,64689098,Pamela,Ninaquispe Romero,pamela91@correo.com,990112903,Rímac,Cliente frecuente,2026-01-08,Av. Los Pinos 369
+92,C0092,DNI,22957023,Carmen,Paredes Cárdenas,carmen92@correo.com,992045214,Ate,Cuenta corporativa,2026-03-08,Av. Grau 1798
+93,C0093,DNI,35991119,Claudia,Chávez Villanueva,claudia93@correo.com,956984876,Independencia,Cliente de salón,2026-02-07,Av. El Sol 221
+94,C0094,RUC,87115757,Iván,Torres Quispe,iván94@correo.com,911852158,Villa El Salvador,Cliente delivery,2026-03-02,Av. Grau 1595
+95,C0095,RUC,53097693,Daniela,Ninaquispe Torres,daniela95@correo.com,915350717,Rímac,Cliente frecuente,2026-04-28,Av. Los Pinos 920
+96,C0096,DNI,91989793,Patricia,Quispe Cornejo,patricia96@correo.com,918364559,,Cuenta corporativa,2026-04-19,Av. Los Pinos 193
+97,C0097,DNI,15601321,Manuel,Ríos Ninaquispe,manuel97@correo.com,940073625,San Juan de Lurigancho,Cliente de salón,2026-01-10,Av. Los Pinos 387
+98,C0098,DNI,66333390,Sergio,Ríos Cruz,sergio98@correo.com,994946825,Callao,Cliente delivery,2026-05-07,Av. Brasil 1166
+99,C0099,RUC,23610820,Verónica,Romero Bautista,verónica99@correo.com,928812324,Lince,Cliente frecuente,2026-02-17,Av. Grau 133
+100,C0100,DNI,47777648,Pamela,Sánchez Bautista,pamela100@correo.com,998760617,Breña,Cuenta corporativa,2026-01-25,Av. La Marina 1985
+101,C0101,CE,54140147,Sofía,Díaz Flores,sofía101@correo.com,916681383,Rímac,Cliente de salón,2026-02-10,Av. El Sol 684
+102,C0102,DNI,83495614,Carlos,Ninaquispe Flores,carlos102@correo.com,979496461,Lince,Cliente delivery,2026-03-04,Av. Los Pinos 1008
+103,C0103,DNI,20028850,Iván,Huamán Ponce,iván103@correo.com,,Independencia,Cliente frecuente,2026-01-04,Av. El Sol 1673
+104,C0104,RUC,44845513,Paola,Romero Ninaquispe,paola104@correo.com,939351482,Rímac,Cuenta corporativa,2026-03-07,Av. Los Pinos 2485
+105,C0105,DNI,91102637,Diego,Castillo Rojas,,944995824,Comas,Cliente de salón,2026-03-02,Av. Brasil 1648
+106,C0106,DNI,10557715,Pedro,Palomino Bautista,pedro106@correo.com,962949028,Breña,Cliente delivery,2026-02-06,Av. La Marina 437
+107,C0107,DNI,26994689,Víctor,Rojas Mendoza,víctor107@correo.com,950207078,Chorrillos,Cliente frecuente,2026-05-26,Av. Brasil 536
+108,C0108,CE,58923972,Karla,Huamán Lévano,karla108@correo.com,,Chorrillos,Cuenta corporativa,2026-05-25,Av. La Marina 671
+109,C0109,DNI,52457970,Carlos,Aguirre Ponce,carlos109@correo.com,930221478,Rímac,Cliente de salón,2026-01-22,Av. La Marina 152
+110,C0110,DNI,20014679,Ana,Ríos Chávez,ana110@correo.com,918404576,Independencia,Cliente delivery,2026-01-10,Av. Grau 2017
+111,C0111,DNI,33735908,Manuel,Salazar Lévano,manuel111@correo.com,933717306,Surco,Cliente frecuente,2026-02-08,Av. Los Pinos 1739
+112,C0112,CE,34677285,Andrés,Ríos Vargas,andrés112@correo.com,967371920,La Molina,Cuenta corporativa,2026-02-24,Av. La Marina 316
+113,C0113,CE,45913915,Diego,Espinoza Díaz,diego113@correo.com,937990911,San Borja,Cliente de salón,2026-02-09,Av. Brasil 1093
+114,C0114,RUC,27487228,Andrés,Rivera Torres,andrés114@correo.com,987887630,San Miguel,Cliente delivery,2026-01-10,Av. Brasil 1166
+115,C0115,DNI,58139919,Raúl,Sánchez Rivera,raúl115@correo.com,948305191,Los Olivos,Cliente frecuente,2026-05-13,Av. Brasil 1170
+116,C0116,CE,77292193,Víctor,Vargas Cruz,víctor116@correo.com,952992404,Lince,Cuenta corporativa,2026-02-13,Av. La Marina 2349
+117,C0117,CE,72729722,Manuel,Quispe Chávez,manuel117@correo.com,953954260,Surco,Cliente de salón,2026-04-06,Av. Brasil 2002
+118,C0118,CE,41180769,Pamela,Torres Torres,pamela118@correo.com,924434045,Surco,Cliente delivery,2026-04-10,Av. La Marina 2381
+119,C0119,RUC,10484339,Pamela,Castillo Romero,pamela119@correo.com,952603225,Rímac,Cliente frecuente,2026-01-02,Av. Brasil 833
+120,C0120,RUC,52675631,Jorge,Sánchez Ramos,jorge120@correo.com,976647201,Lince,Cuenta corporativa,2026-03-09,Av. Grau 812
+121,C0121,CE,68850308,Gabriela,Ponce Flores,gabriela121@correo.com,926746113,La Molina,Cliente de salón,2026-04-11,Av. Grau 179
+122,C0122,DNI,16394878,Rosa,Rojas Vargas,rosa122@correo.com,934608547,Independencia,Cliente delivery,2026-02-18,Av. Grau 684
+123,C0123,DNI,40706270,Carmen,Huamán Romero,carmen123@correo.com,913996649,San Juan de Lurigancho,Cliente frecuente,2026-03-02,Av. La Marina 404
+124,C0124,CE,86362036,Karla,Gutiérrez Rivera,karla124@correo.com,937675369,,Cuenta corporativa,2026-02-15,Av. Brasil 2417
+125,C0125,DNI,75181471,Raúl,Lévano Ponce,raúl125@correo.com,981394362,Comas,Cliente de salón,2026-04-09,Av. Grau 819
+126,C0126,CE,82958911,Raúl,Cruz Rojas,raúl126@correo.com,917800572,Miraflores,Cliente delivery,2026-01-07,Av. El Sol 410
+127,C0127,DNI,24119000,Fernando,Bautista Salazar,fernando127@correo.com,918706831,Ate,Cliente frecuente,2026-01-15,Av. La Marina 676
+128,C0128,DNI,14877084,José,Chávez Cruz,josé128@correo.com,932147017,Chorrillos,Cuenta corporativa,2026-05-23,Av. Brasil 350
+129,C0129,DNI,23371465,Pamela,Zevallos Ninaquispe,pamela129@correo.com,994056285,San Miguel,Cliente de salón,2026-04-05,Av. El Sol 2461
+130,C0130,DNI,388184,Paola,Villanueva Sánchez,paola130@correo.com,952113974,Ate,Cliente delivery,2026-05-04,Av. Los Pinos 1571
+131,C0131,DNI,88755217,Carlos,Cornejo Castillo,carlos131@correo.com,957224218,Ate,Cliente frecuente,2026-05-23,Av. Grau 1529
+132,C0132,CE,63078497,José,Palomino Romero,josé132correo.com,979139518,Villa El Salvador,Cuenta corporativa,2026-05-22,Av. La Marina 1688
+133,C0133,DNI,99139961,Jorge,Ponce Gutiérrez,jorge133@correo.com,938520637,Surco,Cliente de salón,2026-03-20,Av. Los Pinos 1509
+134,C0134,DNI,75434581,Melissa,Cárdenas Zevallos,,964466901,Villa El Salvador,Cliente delivery,2026-05-16,Av. La Marina 630
+135,C0135,DNI,70170648,Patricia,Quispe Paredes,patricia135@correo.com,982659151,Comas,Cliente frecuente,2026-05-10,Av. Grau 190
+136,C0136,CE,55262599,Renzo,Flores Zevallos,renzo136@correo.com,973488516,Independencia,Cuenta corporativa,2026-03-09,Av. Grau 1988
+137,C0137,DNI,68315323,Carmen,Cruz Villanueva,carmen137@correo.com,988020489,,Cliente de salón,2026-01-12,Av. La Marina 718
+138,C0138,DNI,56969769,Isabel,Salazar Lévano,isabel138@correo.com,912792138,Miraflores,Cliente delivery,2026-04-16,Av. Brasil 134
+139,C0139,DNI,41369851,Ana,Ríos Rivera,,997998278,San Juan de Lurigancho,Cliente frecuente,2026-01-28,Av. Los Pinos 696
+140,C0140,DNI,27863398,Paola,Salazar Salazar,paola140@correo.com,988374384,Chorrillos,Cuenta corporativa,2026-05-28,Av. Brasil 1473
+141,C0141,RUC,54204164,Raúl,Ponce Aguirre,raúl141@correo.com,965422857,Miraflores,Cliente de salón,2026-01-11,Av. Brasil 2453
+142,C0142,DNI,84588527,Bruno,Paredes Rojas,bruno142@correo.com,924808393,Rímac,Cliente delivery,2026-02-27,Av. Los Pinos 186
+143,C0143,DNI,43583050,Pedro,Bautista Salazar,pedro143@correo.com,963317582,San Miguel,Cliente frecuente,2026-04-15,Av. Grau 1296
+144,C0144,DNI,338967,Rosa,Díaz Vargas,rosa144correo.com,953412457,Independencia,Cuenta corporativa,2026-04-16,Av. Los Pinos 1926
+145,C0145,CE,47950254,Isabel,Flores Espinoza,,924470873,Breña,Cliente de salón,2026-05-06,Av. La Marina 466
+146,C0146,DNI,94896272,Miguel,Ninaquispe Ponce,miguel146@correo.com,924138053,La Molina,Cliente delivery,2026-02-16,Av. El Sol 182
+147,C0147,CE,15851116,Natalia,Lévano Castillo,natalia147@correo.com,998861132,Los Olivos,Cliente frecuente,2026-05-07,Av. El Sol 1303
+148,C0148,DNI,75561634,María,Torres Rojas,maría148@correo.com,930601170,Miraflores,Cuenta corporativa,2026-03-08,Av. Brasil 908
+149,C0149,DNI,60383569,Melissa,Zevallos Vargas,melissa149@correo.com,996570589,Chorrillos,Cliente de salón,2026-03-03,Av. Grau 2341
+150,C0150,CE,89319301,Manuel,Ponce Romero,manuel150@correo.com,955735646,Callao,Cliente delivery,2026-05-15,Av. El Sol 763
+151,C0151,DNI,64474708,Pamela,Aguirre Aguirre,pamela151@correo.com,923848464,La Molina,Cliente frecuente,2026-04-18,Av. Los Pinos 236
+152,C0152,CE,65700562,Julia,Vargas Lévano,julia152@correo.com,934327778,Lince,Cuenta corporativa,2026-05-04,Av. Los Pinos 823
+153,C0153,DNI,59539601,Daniela,Rojas Palomino,daniela153@correo.com,952691676,Villa El Salvador,Cliente de salón,2026-02-22,Av. El Sol 1428
+154,C0154,CE,13547684,Karla,Aguirre Bautista,karla154@correo.com,991657164,San Juan de Lurigancho,Cliente delivery,2026-03-06,Av. Brasil 2246
+155,C0155,DNI,83845832,Pamela,Flores Ponce,pamela155@correo.com,928091840,,Cliente frecuente,2026-03-16,Av. El Sol 2491
+156,C0156,DNI,37107441,Verónica,Ninaquispe Cruz,verónica156correo.com,915594352,San Borja,Cuenta corporativa,2026-01-11,Av. Brasil 2366
+157,C0157,CE,16525223,Paola,Díaz Romero,paola157@correo.com,927631778,Chorrillos,Cliente de salón,2026-05-22,Av. La Marina 1660
+158,C0158,CE,26521650,Isabel,Villanueva Vargas,isabel158@correo.com,910128162,La Molina,Cliente delivery,2026-05-17,Av. El Sol 446
+159,C0159,DNI,88188324,Jorge,Mendoza Salazar,jorge159@correo.com,,Surco,Cliente frecuente,2026-04-19,Av. Los Pinos 2393
+160,C0160,CE,48827225,Luis,Ninaquispe Lévano,luis160@correo.com,983425427,Chorrillos,Cuenta corporativa,2026-02-06,Av. El Sol 414
+161,C0161,RUC,32673433,Luis,Rojas Zevallos,luis161@correo.com,,Miraflores,Cliente de salón,2026-04-26,Av. Grau 1774
+162,C0162,DNI,38118117,Ana,Villanueva Cruz,,948966762,Miraflores,Cliente delivery,2026-02-25,Av. Los Pinos 283
+163,C0163,CE,85580906,Milagros,Romero Bautista,,,Los Olivos,Cliente frecuente,2026-02-09,Av. La Marina 1163
+164,C0164,CE,77653242,Sofía,Sánchez Flores,sofía164@correo.com,983367148,Rímac,Cuenta corporativa,2026-02-17,Av. Brasil 514
+165,C0165,DNI,16291766,Diego,Lévano Díaz,diego165@correo.com,,Los Olivos,Cliente de salón,2026-03-06,Av. El Sol 1567
+166,C0166,RUC,405650,Milagros,Ponce Rivera,milagros166@correo.com,922315514,La Molina,Cliente delivery,2026-05-25,Av. Brasil 1400
+167,C0167,DNI,28935459,Sergio,Díaz Quispe,sergio167@correo.com,947660792,San Juan de Lurigancho,Cliente frecuente,2026-03-13,Av. Los Pinos 2099
+168,C0168,DNI,12160389,Daniela,Paredes Bautista,daniela168@correo.com,971921209,Independencia,Cuenta corporativa,2026-04-20,Av. La Marina 708
+169,C0169,CE,98636227,Milagros,Torres Castillo,milagros169@correo.com,944633792,,Cliente de salón,2026-04-28,Av. El Sol 247
+170,C0170,RUC,34120546,Lucía,Mendoza Cornejo,lucía170@correo.com,976756143,Lince,Cliente delivery,2026-05-15,Av. La Marina 811
+171,C0171,RUC,54896430,Andrés,Palomino Quispe,andrés171@correo.com,946587483,Rímac,Cliente frecuente,2026-01-17,Av. La Marina 640
+172,C0172,RUC,74700353,Claudia,Flores Salazar,claudia172@correo.com,940435393,Breña,Cuenta corporativa,2026-02-18,Av. Los Pinos 1788
+173,C0173,DNI,95663171,Sergio,Ramos Romero,sergio173@correo.com,928415436,Villa El Salvador,Cliente de salón,2026-03-14,Av. Los Pinos 1561
+174,C0174,RUC,67560692,Bruno,Villanueva Cornejo,bruno174@correo.com,986531777,Callao,Cliente delivery,2026-01-25,Av. El Sol 660
+175,C0175,DNI,55663891,Melissa,Vargas Ninaquispe,melissa175correo.com,914402977,San Borja,Cliente frecuente,2026-04-25,Av. Brasil 2076
+176,C0176,CE,37280305,Elena,Espinoza Gutiérrez,elena176@correo.com,913054118,Villa El Salvador,Cuenta corporativa,2026-02-22,Av. Grau 999
+177,C0177,RUC,91430716,Hugo,Flores Sánchez,hugo177@correo.com,995249544,Breña,Cliente de salón,2026-04-13,Av. El Sol 1153
+178,C0178,RUC,10841891,Natalia,Cárdenas Rivera,natalia178@correo.com,960154374,San Miguel,Cliente delivery,2026-01-09,Av. Grau 1603
+179,C0179,DNI,71412200,María,Cornejo Palomino,,999698210,Breña,Cliente frecuente,2026-04-22,Av. El Sol 2420
+180,C0180,DNI,80324848,Carlos,Palomino Rivera,carlos180@correo.com,919693382,Comas,Cuenta corporativa,2026-05-24,Av. Brasil 402
+181,C0181,DNI,68898491,Álvaro,Vargas Lévano,álvaro181@correo.com,915543159,Miraflores,Cliente de salón,2026-04-24,Av. La Marina 2185
+182,C0182,CE,41952964,Luis,Aguirre Espinoza,,928746819,Callao,Cliente delivery,2026-02-03,Av. Los Pinos 1023
+183,C0183,RUC,56962686,Carmen,Espinoza Paredes,,942449768,San Borja,Cliente frecuente,2026-03-27,Av. La Marina 164
+184,C0184,DNI,70877158,Elena,Chávez Romero,elena184@correo.com,972753612,Comas,Cuenta corporativa,2026-02-02,Av. El Sol 1670
+185,C0185,DNI,91050207,Paola,Ninaquispe Díaz,paola185@correo.com,953258287,Rímac,Cliente de salón,2026-01-16,Av. Brasil 470
+186,C0186,DNI,27557930,María,Sánchez Zevallos,maría186@correo.com,911099226,La Molina,Cliente delivery,2026-01-20,Av. Brasil 1602
+187,C0187,RUC,629092,Isabel,Bautista Aguirre,isabel187@correo.com,918745325,San Borja,Cliente frecuente,2026-02-18,Av. Grau 1297
+188,C0188,DNI,40772613,Álvaro,Palomino Palomino,álvaro188@correo.com,956590327,Callao,Cuenta corporativa,2026-04-20,Av. El Sol 869
+189,C0189,DNI,70685233,Bruno,Romero Romero,bruno189@correo.com,935501025,Chorrillos,Cliente de salón,2026-05-15,Av. Grau 1522
+190,C0190,CE,85142705,Karla,Espinoza Bautista,karla190@correo.com,914417534,Villa El Salvador,Cliente delivery,2026-03-05,Av. La Marina 755
+191,C0191,DNI,16158014,Iván,Bautista Vargas,iván191@correo.com,910675916,Ate,Cliente frecuente,2026-03-21,Av. Grau 831
+192,C0192,DNI,50439470,Pamela,Flores Cárdenas,pamela192@correo.com,985080220,,Cuenta corporativa,2026-04-03,Av. Grau 1737
+193,C0193,CE,44884213,Daniela,Ponce Castillo,daniela193@correo.com,975135109,Los Olivos,Cliente de salón,2026-04-14,Av. La Marina 2185
+194,C0194,DNI,34797234,Carlos,Villanueva Rivera,carlos194correo.com,934693136,Surco,Cliente delivery,2026-05-18,Av. Los Pinos 2472
+195,C0195,DNI,10104833,Rosa,Huamán Rivera,rosa195@correo.com,953710173,La Molina,Cliente frecuente,2026-04-10,Av. La Marina 1655
+196,C0196,CE,26082668,Julia,Rojas Bautista,julia196@correo.com,987770456,Ate,Cuenta corporativa,2026-03-16,Av. Grau 343
+197,C0197,DNI,56599986,María,Chávez Palomino,maría197@correo.com,912740502,Independencia,Cliente de salón,2026-01-02,Av. La Marina 1368
+198,C0198,DNI,46881959,Fernando,Cruz Lévano,fernando198@correo.com,971610767,Surco,Cliente delivery,2026-02-21,Av. Los Pinos 471
+199,C0199,DNI,91252631,Natalia,Ramos Vargas,natalia199@correo.com,998258852,San Borja,Cliente frecuente,2026-04-25,Av. Brasil 344
+200,C0200,DNI,76441403,Óscar,Ponce Gutiérrez,óscar200@correo.com,977447780,Villa El Salvador,Cuenta corporativa,2026-03-21,Av. Brasil 2457
+201,C0201,DNI,33735908,Manuel,Salazar Lévano,manuel111@correo.com,933717306,Surco,Cliente de salón,2026-02-08,Av. Los Pinos 1739
+202,C0202,DNI,16394878,Rosa,Rojas Vargas,rosa122@correo.com,934608547,Independencia,Cliente delivery,2026-02-18,Av. Grau 684
+203,C0203,RUC,81658846,Óscar,Ríos Bautista,óscar75@correo.com,960286021,Ate,Cliente frecuente,2026-04-11,Av. El Sol 2153
+204,C0204,RUC,10484339,Pamela,Castillo Romero,pamela119@correo.com,952603225,Rímac,Cuenta corporativa,2026-01-02,Av. Brasil 833
+205,C0205,DNI,14877084,José,Chávez Cruz,josé128@correo.com,932147017,Chorrillos,Cliente de salón,2026-05-23,Av. Brasil 350
+206,C0206,CE,55979469,Hugo,Lévano Chávez,hugo35@correo.com,,La Molina,Cliente delivery,2026-01-17,Av. Brasil 1422
+207,C0207,DNI,35587460,Ricardo,Zevallos Aguirre,ricardo72@correo.com,976972590,Ate,Cliente frecuente,2026-02-19,Av. Brasil 2055
+208,C0208,RUC,90654843,Iván,Villanueva Chávez,iván13@correo.com,912272374,Chorrillos,Cuenta corporativa,2026-03-12,Av. Los Pinos 399

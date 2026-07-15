@@ -1,16 +1,31 @@
-﻿id_producto,codigo_producto,nombre_producto,categoria,precio_base,activo
-1,P0001,Servicio/Producto 01,Premium,275.25,1
-2,P0002,Servicio/Producto 02,Premium,83.82,1
-3,P0003,Servicio/Producto 03,B?sico,74.55,1
-4,P0004,Servicio/Producto 04,Est?ndar,196.03,1
-5,P0005,Servicio/Producto 05,Especializado,51.44,1
-6,P0006,Servicio/Producto 06,Especializado,74.87,1
-7,P0007,Servicio/Producto 07,Est?ndar,97.39,1
-8,P0008,Servicio/Producto 08,Especializado,332.49,1
-9,P0009,Servicio/Producto 09,Especializado,241.75,1
-10,P0010,Servicio/Producto 10,B?sico,173.44,1
-11,P0011,Servicio/Producto 11,Premium,40.68,1
-12,P0012,Servicio/Producto 12,Est?ndar,31.84,1
-13,P0013,Servicio/Producto 13,Premium,49.53,1
-14,P0014,Servicio/Producto 14,Premium,50.07,1
-15,P0015,Servicio/Producto 15,Especializado,106.94,1
+id_producto,codigo_producto,nombre_producto,categoria,precio_base,activo
+1,MT0001,Viga metálica IPR a medida,Estructura,180.00,1
+2,MT0002,Columna estructural soldada,Estructura,273.21,1
+3,MT0003,Cercha metálica liviana,Estructura,414.68,1
+4,MT0004,Escalera industrial galvanizada,Estructura,629.40,1
+5,MT0005,Baranda de acero inoxidable,Estructura,955.32,1
+6,MT0006,Plataforma metálica modular,Estructura,1450.00,1
+7,MT0007,Eje mecanizado de acero,Repuesto,35.00,1
+8,MT0008,Piñón industrial templado,Repuesto,56.39,1
+9,MT0009,Polea de transmisión,Repuesto,90.86,1
+10,MT0010,Buje de bronce mecanizado,Repuesto,146.39,1
+11,MT0011,Rodillo transportador,Repuesto,235.85,1
+12,MT0012,Brida de acero al carbono,Repuesto,380.00,1
+13,MT0013,Matriz de corte simple,Herramienta,18.00,1
+14,MT0014,Troquel de punzonado,Herramienta,30.71,1
+15,MT0015,Plantilla de soldadura,Herramienta,52.38,0
+16,MT0016,Broca industrial HSS,Herramienta,89.35,1
+17,MT0017,Disco de corte 14 pulgadas,Herramienta,152.42,1
+18,MT0018,Prensa manual de banco,Herramienta,260.00,1
+19,MT0019,Plancha de acero A36,Insumo,12.00,1
+20,MT0020,Tubo cuadrado galvanizado,Insumo,20.85,1
+21,MT0021,Electrodo E7018 caja 20 kg,Insumo,36.23,1
+22,MT0022,Alambre MIG 15 kg,Insumo,62.94,1
+23,MT0023,Pintura epóxica industrial,Insumo,109.36,1
+24,MT0024,Perno estructural ASTM A325,Insumo,190.00,1
+25,MT0025,Corte láser de plancha,Servicio,95.00,1
+26,MT0026,Plegado CNC,Servicio,144.74,1
+27,MT0027,Soldadura TIG especializada,Servicio,220.53,1
+28,MT0028,Granallado y pintado,Servicio,336.01,1
+29,MT0029,Mantenimiento de estructura,Servicio,511.94,1
+30,MT0030,Diseño y modelado CAD,Servicio,780.00,1

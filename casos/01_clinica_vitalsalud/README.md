@@ -1,31 +1,41 @@
-# Cl?nica VitalSalud
+# Clínica VitalSalud
 
-**Sector:** Salud
+**Sector:** Salud  |  **Código del caso:** `01_clinica_vitalsalud`
 
-## Objetivo del caso
-Evaluar atenciones, pagos, servicios y sedes para mejorar la gesti?n operativa.
+## Contexto
+Clínica VitalSalud es una red privada de atención ambulatoria con sedes en Los Olivos, Surco y San Miguel. Registra a sus pacientes, su personal,
+su catálogo de servicios médicos, las operaciones del negocio, los pagos y las incidencias.
+La dirección necesita **ordenar, auditar y gobernar** estos datos (semanas 9 a 15 del curso).
 
 ## Archivos
-- `01_clinica_vitalsalud.db`: base SQLite oficial del caso.
-- `schema.sql`: estructura de tablas y claves.
-- `csv/`: tablas exportadas para revisi?n o carga alternativa.
+- `01_clinica_vitalsalud.db` — base SQLite oficial del caso.
+- `schema.sql` — estructura de las 8 tablas y sus claves.
+- `csv/` — cada tabla exportada a CSV (carga alternativa).
+- `diccionario_datos.csv` — metadatos: tabla, columna, tipo, clave y sensibilidad.
 
-## Tablas principales
-- `entidades`: clientes, pacientes, ciudadanos, usuarios u objetos principales del caso.
-- `sedes`: puntos de atenci?n, locales o unidades operativas.
-- `productos_servicios`: cat?logo de productos o servicios.
-- `operaciones`: transacciones o eventos centrales.
-- `incidencias`: observaciones, reclamos o problemas asociados.
-- `pagos`: pagos o movimientos monetarios.
+## Tablas
+| Tabla | Descripción |
+|---|---|
+| `sedes` | Locales / puntos de atención. |
+| `empleados` | Personal (incluye datos personales y sueldo). |
+| `clientes` | Pacientes — incluye PII y el dato sensible `diagnostico`. |
+| `productos_servicios` | Catálogo de servicios médicos. |
+| `operaciones` | Transacciones (tabla de hechos). |
+| `detalle_operacion` | Líneas por operación (N:M con productos). |
+| `pagos` | Pagos por operación. |
+| `incidencias` | Reclamos / observaciones. |
 
-## Uso en Colab
+> ⚠️ **Aviso:** la base contiene, de forma intencional, problemas de calidad
+> (nulos, duplicados, inconsistencias, valores inválidos, huérfanos y formatos mezclados)
+> y **datos personales/sensibles** para que el equipo los audite y proponga gobierno de datos.
+> Los datos son ficticios.
+
+## Carga en Google Colab
 ```python
 import requests, sqlite3, pandas as pd
 caso = "01_clinica_vitalsalud"
-url = f"https://raw.githubusercontent.com/Rociosayan/PMD2_FGD_Bases_Oficiales_FDG/main/casos/{caso}/{caso}.db"
-r = requests.get(url)
-open("base.sqlite", "wb").write(r.content)
+url = "https://raw.githubusercontent.com/Rociosayan/-PMD2_FGD_Bases_Oficiales_FDG/main/casos/01_clinica_vitalsalud/01_clinica_vitalsalud.db"
+open("base.sqlite","wb").write(requests.get(url).content)
 conn = sqlite3.connect("base.sqlite")
-tablas = pd.read_sql_query("SELECT name FROM sqlite_schema WHERE type='table' ORDER BY name", conn)
-display(tablas)
+display(pd.read_sql_query("SELECT name FROM sqlite_master WHERE type='table' ORDER BY name", conn))
 ```

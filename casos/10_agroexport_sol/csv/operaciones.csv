@@ -1,501 +1,1011 @@
-﻿id_operacion,codigo_operacion,id_entidad,id_sede,id_producto,fecha_operacion,cantidad,monto_total,estado,canal
-1,O00001,42,4,6,2026-01-23,6,1277.9,Observado,Call Center
-2,O00002,40,3,15,2026-01-08,4,158.9,Completado,Call Center
-3,O00003,21,4,8,2026-02-28,4,158.82,Completado,Call Center
-4,O00004,9,3,10,2026-05-25,6,1116.97,Completado,Presencial
-5,O00005,16,3,7,2026-03-15,1,146.52,Completado,Call Center
-6,O00006,5,5,13,2026-02-08,1,176.0,Pendiente,Call Center
-7,O00007,46,5,14,2026-06-23,3,1035.34,Completado,Presencial
-8,O00008,21,1,5,2026-05-09,2,563.46,Observado,Web
-9,O00009,36,6,4,2026-03-05,2,627.64,Completado,Call Center
-10,O00010,49,3,5,2026-05-24,5,1451.38,Completado,App
-11,O00011,24,2,3,2026-04-18,4,1499.61,Completado,Presencial
-12,O00012,23,1,12,2026-02-24,6,818.66,Completado,Presencial
-13,O00013,6,1,12,2026-03-05,5,635.77,Completado,Presencial
-14,O00014,70,4,4,2026-06-24,3,931.75,Completado,Presencial
-15,O00015,15,3,14,2026-01-27,2,874.0,Cancelado,Call Center
-16,O00016,65,2,3,2026-04-04,5,1707.79,Completado,Call Center
-17,O00017,69,2,1,2026-02-09,2,219.6,Cancelado,Call Center
-18,O00018,27,2,3,2026-01-28,4,1274.86,Completado,Presencial
-19,O00019,14,1,9,2026-04-05,2,825.81,Completado,App
-20,O00020,38,4,9,2026-03-23,6,2171.21,Completado,Call Center
-21,O00021,55,1,15,2026-05-08,6,275.72,Completado,Call Center
-22,O00022,57,1,7,2026-01-17,6,1017.15,Completado,Web
-23,O00023,55,2,6,2026-04-28,2,449.98,Completado,Call Center
-24,O00024,44,1,7,2026-05-27,6,1103.68,Completado,Call Center
-25,O00025,55,1,2,2026-04-24,5,443.18,Completado,App
-26,O00026,11,1,6,2026-06-20,5,1057.48,Completado,Web
-27,O00027,80,3,1,2026-04-01,1,80.33,Completado,App
-28,O00028,4,2,1,2026-04-02,5,498.5,Completado,Presencial
-29,O00029,47,4,9,2026-02-24,4,1425.53,Completado,App
-30,O00030,33,5,6,2026-02-10,1,189.7,Completado,Web
-31,O00031,29,3,11,2026-01-25,3,218.44,Observado,Web
-32,O00032,80,3,15,2026-01-24,2,100.47,Completado,App
-33,O00033,43,6,5,2026-01-30,1,227.05,Completado,App
-34,O00034,63,2,10,2026-01-14,1,190.81,Completado,Web
-35,O00035,61,3,13,2026-05-17,1,157.22,Completado,Web
-36,O00036,69,5,14,2026-03-08,2,688.68,Completado,Presencial
-37,O00037,37,5,5,2026-04-20,1,243.59,Completado,Web
-38,O00038,60,2,8,2026-03-09,5,229.82,Completado,App
-39,O00039,50,3,12,2026-02-07,2,272.05,Completado,Presencial
-40,O00040,8,1,9,2026-01-23,6,2123.06,Completado,App
-41,O00041,79,1,12,2026-01-10,1,126.12,Cancelado,App
-42,O00042,66,3,2,2026-02-20,1,93.91,Completado,Call Center
-43,O00043,21,3,10,2026-01-01,2,283.81,Completado,Call Center
-44,O00044,14,3,2,2026-01-06,1,112.59,Completado,Web
-45,O00045,35,3,11,2026-02-10,3,172.34,Observado,Web
-46,O00046,16,4,11,2026-03-25,2,108.27,Completado,Call Center
-47,O00047,62,6,9,2026-05-08,6,2169.39,Completado,App
-48,O00048,79,6,15,2026-04-11,4,163.73,Completado,App
-49,O00049,73,2,9,2026-06-22,5,1579.22,Observado,App
-50,O00050,63,6,11,2026-03-21,5,353.2,Completado,App
-51,O00051,24,3,3,2026-01-31,1,456.3,Completado,App
-52,O00052,56,2,15,2026-04-13,3,155.87,Completado,Web
-53,O00053,3,3,3,2026-04-04,5,2106.95,Completado,App
-54,O00054,23,5,1,2026-02-22,1,93.68,Observado,Call Center
-55,O00055,66,5,5,2026-03-15,1,305.55,Completado,Call Center
-56,O00056,80,2,10,2026-04-19,1,148.4,Completado,App
-57,O00057,32,2,4,2026-01-15,1,355.22,Cancelado,Web
-58,O00058,29,6,7,2026-06-19,5,982.48,Completado,Presencial
-59,O00059,78,5,9,2026-01-04,5,2186.12,Pendiente,Call Center
-60,O00060,45,2,9,2026-01-23,1,394.27,Completado,Call Center
-61,O00061,60,3,2,2026-01-02,1,97.99,Completado,Web
-62,O00062,77,6,8,2026-01-02,4,156.71,Pendiente,Presencial
-63,O00063,77,6,11,2026-04-01,2,130.45,Completado,Presencial
-64,O00064,8,3,9,2026-02-02,5,2043.06,Completado,Presencial
-65,O00065,60,6,3,2026-05-17,5,2126.94,Pendiente,Web
-66,O00066,16,4,5,2026-01-27,5,1408.2,Completado,Presencial
-67,O00067,13,5,3,2026-03-11,6,2032.25,Pendiente,Call Center
-68,O00068,7,1,8,2026-02-03,4,168.85,Completado,Web
-69,O00069,44,3,12,2026-05-07,3,422.96,Completado,Call Center
-70,O00070,20,2,10,2026-02-26,4,662.92,Completado,App
-71,O00071,73,1,7,2026-05-30,4,667.15,Cancelado,App
-72,O00072,50,6,4,2026-04-02,1,345.31,Completado,Web
-73,O00073,25,6,7,2026-06-04,5,821.01,Pendiente,Web
-74,O00074,38,3,7,2026-04-26,2,385.7,Pendiente,Web
-75,O00075,20,3,2,2026-03-06,2,204.31,Completado,App
-76,O00076,11,5,8,2026-04-25,4,156.6,Completado,Call Center
-77,O00077,2,5,12,2026-03-04,3,447.38,Completado,Call Center
-78,O00078,63,6,4,2026-02-22,6,2058.06,Completado,Call Center
-79,O00079,62,1,5,2026-06-05,3,706.38,Completado,App
-80,O00080,36,5,7,2026-04-05,2,301.07,Cancelado,Presencial
-81,O00081,6,2,15,2026-03-01,2,94.86,Completado,Call Center
-82,O00082,54,5,1,2026-04-09,1,79.8,Completado,Web
-83,O00083,54,6,7,2026-06-25,2,291.34,Completado,Presencial
-84,O00084,75,1,9,2026-06-28,6,2665.1,Completado,Presencial
-85,O00085,8,2,12,2026-05-08,1,127.83,Observado,Call Center
-86,O00086,34,5,2,2026-03-18,6,761.47,Completado,Presencial
-87,O00087,71,5,12,2026-01-05,6,820.53,Completado,Web
-88,O00088,62,5,3,2026-04-28,6,2020.48,Completado,Call Center
-89,O00089,14,6,7,2026-06-19,1,158.82,Completado,Call Center
-90,O00090,79,2,12,2026-03-03,2,232.86,Completado,Call Center
-91,O00091,21,3,9,2026-02-28,3,1299.17,Completado,Presencial
-92,O00092,15,3,11,2026-04-24,1,68.57,Completado,Web
-93,O00093,59,2,4,2026-01-13,4,1344.47,Completado,Presencial
-94,O00094,25,1,15,2026-01-07,3,124.67,Completado,Web
-95,O00095,26,6,12,2026-03-11,5,617.54,Completado,Call Center
-96,O00096,25,5,14,2026-04-13,1,370.14,Completado,Presencial
-97,O00097,75,1,13,2026-06-22,4,774.79,Completado,Web
-98,O00098,40,5,3,2026-04-05,2,846.92,Observado,App
-99,O00099,1,2,12,2026-06-25,4,549.52,Completado,Web
-100,O00100,57,1,8,2026-01-03,6,248.49,Completado,Presencial
-101,O00101,22,2,8,2026-05-07,1,37.19,Pendiente,Presencial
-102,O00102,70,4,5,2026-05-05,2,453.78,Completado,Web
-103,O00103,50,1,5,2026-02-11,4,1005.93,Observado,Call Center
-104,O00104,67,5,7,2026-01-17,5,983.55,Completado,Web
-105,O00105,65,4,2,2026-05-07,6,749.95,Completado,Web
-106,O00106,52,1,3,2026-01-16,3,1049.11,Cancelado,Web
-107,O00107,39,4,13,2026-04-16,5,993.45,Observado,Call Center
-108,O00108,11,1,5,2026-04-27,5,1425.34,Completado,Call Center
-109,O00109,74,2,8,2026-01-01,6,318.94,Completado,App
-110,O00110,29,2,9,2026-01-07,6,2231.64,Completado,Presencial
-111,O00111,19,2,3,2026-05-31,1,395.07,Completado,Call Center
-112,O00112,27,5,1,2026-05-07,6,571.55,Completado,Call Center
-113,O00113,78,5,1,2026-03-17,6,621.9,Completado,Web
-114,O00114,53,1,15,2026-01-21,1,46.7,Completado,App
-115,O00115,16,6,5,2026-04-03,4,991.63,Completado,Web
-116,O00116,46,1,5,2026-06-17,3,855.82,Cancelado,Web
-117,O00117,6,3,9,2026-01-18,4,1529.25,Completado,Web
-118,O00118,67,2,9,2026-06-05,1,420.68,Observado,Call Center
-119,O00119,59,2,2,2026-06-13,5,618.37,Cancelado,Presencial
-120,O00120,10,1,7,2026-06-28,4,746.05,Completado,Call Center
-121,O00121,24,1,11,2026-04-26,1,63.31,Completado,Presencial
-122,O00122,61,2,7,2026-05-27,5,707.56,Completado,Presencial
-123,O00123,54,2,4,2026-04-13,5,1557.95,Completado,App
-124,O00124,44,6,7,2026-06-14,5,698.38,Observado,App
-125,O00125,35,5,7,2026-02-26,4,739.58,Completado,Call Center
-126,O00126,48,6,3,2026-04-11,6,2443.94,Completado,App
-127,O00127,52,2,1,2026-02-18,3,244.92,Completado,Call Center
-128,O00128,15,6,2,2026-04-21,4,463.15,Completado,Call Center
-129,O00129,16,3,1,2026-06-29,1,103.8,Completado,Presencial
-130,O00130,39,5,4,2026-04-14,3,854.08,Completado,Call Center
-131,O00131,35,6,8,2026-06-09,3,125.5,Completado,Web
-132,O00132,46,1,9,2026-04-12,1,439.58,Completado,App
-133,O00133,68,4,9,2026-03-09,4,1824.89,Completado,App
-134,O00134,70,2,9,2026-03-04,5,2099.92,Completado,Web
-135,O00135,10,3,8,2026-01-01,3,113.65,Completado,App
-136,O00136,9,2,11,2026-05-04,5,287.65,Completado,App
-137,O00137,77,6,10,2026-03-02,4,809.26,Completado,Presencial
-138,O00138,63,6,12,2026-05-03,6,904.69,Cancelado,Web
-139,O00139,25,3,8,2026-06-04,5,237.06,Completado,App
-140,O00140,18,4,8,2026-06-01,5,185.26,Cancelado,Presencial
-141,O00141,53,5,14,2026-01-03,6,2381.43,Observado,Web
-142,O00142,2,3,6,2026-05-15,3,713.57,Cancelado,Web
-143,O00143,66,5,9,2026-04-09,2,783.28,Completado,Presencial
-144,O00144,30,2,5,2026-01-13,4,1254.74,Cancelado,Call Center
-145,O00145,70,3,9,2026-01-04,4,1354.91,Completado,App
-146,O00146,7,5,5,2026-01-12,3,950.6,Completado,App
-147,O00147,72,2,8,2026-02-24,1,39.62,Cancelado,Call Center
-148,O00148,5,3,13,2026-02-09,1,161.75,Completado,App
-149,O00149,48,2,15,2026-02-21,1,45.96,Completado,Call Center
-150,O00150,25,6,9,2026-04-02,3,942.55,Completado,Call Center
-151,O00151,45,3,11,2026-05-27,5,347.37,Completado,Web
-152,O00152,10,5,15,2026-06-13,6,315.93,Pendiente,Call Center
-153,O00153,69,2,4,2026-03-07,1,362.54,Completado,Web
-154,O00154,22,1,10,2026-04-29,3,469.69,Completado,Presencial
-155,O00155,17,1,5,2026-01-09,2,631.62,Pendiente,Call Center
-156,O00156,1,1,9,2026-03-23,5,1997.61,Completado,Call Center
-157,O00157,80,3,1,2026-02-07,3,328.78,Observado,App
-158,O00158,24,1,7,2026-02-15,3,532.77,Completado,App
-159,O00159,67,5,14,2026-01-11,1,442.72,Completado,Presencial
-160,O00160,22,5,10,2026-04-08,3,456.8,Completado,Web
-161,O00161,28,1,2,2026-04-09,5,469.56,Completado,Presencial
-162,O00162,66,2,11,2026-05-09,3,178.89,Completado,App
-163,O00163,74,2,7,2026-04-22,3,483.3,Completado,Call Center
-164,O00164,54,5,14,2026-06-13,3,1162.38,Observado,Call Center
-165,O00165,58,4,7,2026-01-14,3,558.79,Completado,Call Center
-166,O00166,47,4,13,2026-05-13,1,163.92,Completado,Presencial
-167,O00167,8,1,8,2026-01-05,1,52.26,Pendiente,Presencial
-168,O00168,71,4,11,2026-05-06,1,54.26,Pendiente,App
-169,O00169,56,5,5,2026-02-28,6,1553.94,Completado,Web
-170,O00170,14,4,7,2026-04-04,6,1099.04,Observado,Call Center
-171,O00171,33,6,15,2026-02-18,1,56.28,Completado,Call Center
-172,O00172,32,3,12,2026-03-14,4,439.27,Completado,App
-173,O00173,61,4,14,2026-04-20,5,1998.38,Cancelado,App
-174,O00174,60,3,10,2026-02-05,4,732.51,Completado,Presencial
-175,O00175,45,3,7,2026-03-28,3,558.5,Completado,Call Center
-176,O00176,3,5,8,2026-03-06,4,168.52,Completado,App
-177,O00177,46,6,14,2026-05-20,5,1716.43,Completado,Presencial
-178,O00178,41,2,9,2026-05-14,1,374.18,Completado,Web
-179,O00179,7,4,7,2026-03-07,3,440.05,Cancelado,Presencial
-180,O00180,20,1,12,2026-03-24,1,112.17,Completado,Web
-181,O00181,77,1,6,2026-04-13,4,947.46,Completado,App
-182,O00182,66,1,8,2026-04-02,3,115.14,Cancelado,Call Center
-183,O00183,44,2,15,2026-03-28,1,47.02,Completado,Presencial
-184,O00184,64,2,11,2026-06-19,1,72.94,Completado,App
-185,O00185,10,2,13,2026-06-22,3,546.76,Completado,App
-186,O00186,33,1,15,2026-03-30,4,224.79,Observado,Web
-187,O00187,6,1,5,2026-03-30,5,1516.88,Completado,Presencial
-188,O00188,51,1,3,2026-02-14,2,719.93,Completado,Call Center
-189,O00189,55,1,5,2026-05-24,5,1420.93,Completado,Web
-190,O00190,12,5,6,2026-01-21,4,759.79,Pendiente,Call Center
-191,O00191,77,4,3,2026-02-22,5,1824.89,Completado,App
-192,O00192,17,6,1,2026-04-04,6,461.91,Completado,Call Center
-193,O00193,11,1,14,2026-06-04,1,346.41,Completado,Call Center
-194,O00194,73,2,10,2026-05-15,4,708.06,Completado,Presencial
-195,O00195,49,6,8,2026-01-12,3,141.24,Completado,Call Center
-196,O00196,44,3,2,2026-03-04,2,198.23,Completado,App
-197,O00197,52,3,2,2026-06-06,1,110.12,Pendiente,Presencial
-198,O00198,30,4,9,2026-01-13,4,1502.87,Completado,Presencial
-199,O00199,33,6,2,2026-02-19,5,622.27,Completado,App
-200,O00200,56,2,6,2026-06-22,5,1069.03,Observado,Call Center
-201,O00201,4,5,10,2026-04-09,6,1012.01,Completado,Call Center
-202,O00202,23,3,11,2026-06-27,4,288.41,Pendiente,Web
-203,O00203,54,4,5,2026-02-27,1,259.98,Completado,Web
-204,O00204,38,4,13,2026-02-20,5,830.91,Completado,Presencial
-205,O00205,7,5,5,2026-03-30,1,222.99,Completado,Web
-206,O00206,20,1,13,2026-01-06,2,314.77,Completado,Presencial
-207,O00207,41,3,13,2026-03-26,1,171.16,Completado,Web
-208,O00208,5,4,4,2026-02-18,2,649.5,Completado,App
-209,O00209,41,6,14,2026-03-05,6,2049.97,Completado,Presencial
-210,O00210,6,5,3,2026-05-04,3,1254.39,Cancelado,Call Center
-211,O00211,53,5,3,2026-03-28,1,450.34,Cancelado,Presencial
-212,O00212,67,6,8,2026-01-18,2,76.4,Completado,Web
-213,O00213,50,4,1,2026-02-20,4,370.06,Completado,App
-214,O00214,25,4,11,2026-02-28,5,288.0,Completado,Web
-215,O00215,42,4,2,2026-04-29,2,244.03,Completado,App
-216,O00216,7,5,14,2026-03-10,5,2032.92,Observado,Call Center
-217,O00217,32,3,7,2026-05-18,4,573.4,Completado,Call Center
-218,O00218,76,2,5,2026-05-23,1,254.17,Completado,Presencial
-219,O00219,56,2,13,2026-03-06,4,776.61,Cancelado,App
-220,O00220,42,4,7,2026-02-10,1,148.76,Completado,Web
-221,O00221,34,4,8,2026-06-15,3,161.43,Completado,Web
-222,O00222,32,3,6,2026-06-10,6,1094.09,Completado,App
-223,O00223,29,4,6,2026-05-17,5,1124.19,Observado,App
-224,O00224,79,6,9,2026-03-16,3,1127.32,Cancelado,Call Center
-225,O00225,66,6,14,2026-05-03,4,1775.04,Completado,Presencial
-226,O00226,19,6,8,2026-04-27,5,262.17,Completado,Presencial
-227,O00227,59,6,10,2026-05-07,5,957.12,Completado,Web
-228,O00228,77,3,4,2026-02-19,6,2339.36,Observado,Web
-229,O00229,16,3,13,2026-04-18,3,456.21,Completado,Call Center
-230,O00230,30,5,9,2026-06-02,5,1866.25,Pendiente,Web
-231,O00231,4,3,9,2026-03-23,2,646.17,Completado,Call Center
-232,O00232,72,6,9,2026-02-20,2,684.54,Pendiente,Presencial
-233,O00233,38,4,11,2026-05-03,4,234.69,Completado,App
-234,O00234,32,2,1,2026-01-07,6,649.13,Completado,Web
-235,O00235,22,6,9,2026-06-03,4,1761.85,Completado,Presencial
-236,O00236,21,1,5,2026-04-01,4,938.85,Completado,Presencial
-237,O00237,64,5,11,2026-02-07,2,136.41,Pendiente,Web
-238,O00238,38,2,5,2026-03-10,2,635.89,Completado,Call Center
-239,O00239,79,2,9,2026-02-10,5,1754.72,Observado,Web
-240,O00240,6,2,2,2026-03-12,6,585.03,Completado,Presencial
-241,O00241,60,1,6,2026-01-20,1,195.82,Pendiente,Call Center
-242,O00242,11,5,5,2026-05-11,1,309.42,Observado,Web
-243,O00243,7,5,10,2026-04-15,5,878.81,Cancelado,Call Center
-244,O00244,32,4,3,2026-03-12,6,2244.73,Completado,Presencial
-245,O00245,22,1,9,2026-06-27,1,315.06,Completado,Web
-246,O00246,56,5,2,2026-04-23,6,626.24,Completado,Web
-247,O00247,80,2,12,2026-05-23,2,292.63,Completado,App
-248,O00248,66,4,1,2026-03-02,5,411.9,Completado,App
-249,O00249,5,2,12,2026-04-14,4,545.68,Completado,App
-250,O00250,69,2,14,2026-06-09,2,914.01,Completado,Call Center
-251,O00251,77,2,10,2026-04-28,5,755.2,Completado,App
-252,O00252,77,1,11,2026-02-16,2,118.17,Observado,Call Center
-253,O00253,8,1,10,2026-06-22,1,195.42,Observado,Presencial
-254,O00254,32,3,7,2026-03-22,6,1144.27,Completado,Call Center
-255,O00255,13,4,15,2026-03-02,1,48.73,Pendiente,App
-256,O00256,20,2,2,2026-03-11,3,264.16,Completado,Call Center
-257,O00257,60,3,2,2026-03-01,1,127.81,Observado,Call Center
-258,O00258,58,5,6,2026-06-19,6,1456.4,Completado,Web
-259,O00259,48,1,7,2026-04-16,4,697.17,Pendiente,Web
-260,O00260,74,2,8,2026-04-18,2,103.65,Cancelado,App
-261,O00261,29,6,12,2026-05-19,6,780.39,Observado,App
-262,O00262,17,6,9,2026-01-13,1,433.17,Pendiente,App
-263,O00263,42,3,12,2026-04-19,6,644.45,Completado,Presencial
-264,O00264,20,4,14,2026-05-19,1,324.21,Completado,Presencial
-265,O00265,80,4,1,2026-02-06,2,156.98,Completado,Call Center
-266,O00266,30,3,8,2026-01-11,4,180.98,Completado,Presencial
-267,O00267,62,6,3,2026-06-05,6,2184.2,Completado,Web
-268,O00268,15,6,9,2026-06-05,1,442.49,Cancelado,App
-269,O00269,48,5,11,2026-05-12,6,326.63,Completado,Call Center
-270,O00270,63,3,3,2026-01-25,4,1799.76,Cancelado,Call Center
-271,O00271,64,4,12,2026-05-25,2,291.97,Observado,Call Center
-272,O00272,18,5,8,2026-06-02,4,179.7,Completado,App
-273,O00273,60,5,7,2026-02-24,6,1078.93,Completado,Presencial
-274,O00274,13,1,10,2026-03-04,6,1070.27,Completado,Presencial
-275,O00275,17,2,13,2026-01-07,1,170.95,Pendiente,Presencial
-276,O00276,70,4,10,2026-01-29,3,601.59,Completado,Web
-277,O00277,51,3,13,2026-01-30,3,509.01,Completado,Web
-278,O00278,28,1,8,2026-03-01,6,312.64,Completado,App
-279,O00279,5,6,12,2026-04-11,5,573.91,Cancelado,App
-280,O00280,66,4,2,2026-02-09,3,280.61,Completado,Web
-281,O00281,14,5,5,2026-02-19,3,872.36,Completado,Presencial
-282,O00282,10,3,9,2026-03-06,1,383.12,Cancelado,Web
-283,O00283,22,6,5,2026-01-26,3,971.61,Completado,Presencial
-284,O00284,46,1,1,2026-06-11,5,511.36,Completado,Presencial
-285,O00285,1,2,4,2026-03-09,5,1543.26,Completado,Presencial
-286,O00286,72,2,4,2026-02-21,5,1832.44,Completado,Presencial
-287,O00287,24,5,15,2026-02-12,3,137.19,Completado,Presencial
-288,O00288,75,2,3,2026-01-06,4,1591.91,Completado,Call Center
-289,O00289,19,4,13,2026-05-06,2,386.58,Observado,App
-290,O00290,77,1,5,2026-01-22,6,1817.48,Observado,Presencial
-291,O00291,13,2,2,2026-01-13,4,399.28,Completado,Web
-292,O00292,61,1,13,2026-05-31,1,150.71,Completado,App
-293,O00293,45,1,5,2026-06-04,6,1630.38,Completado,Call Center
-294,O00294,71,5,9,2026-02-02,4,1423.77,Completado,Web
-295,O00295,42,5,1,2026-04-16,2,215.08,Observado,Web
-296,O00296,72,3,15,2026-04-25,2,103.33,Completado,Presencial
-297,O00297,71,1,11,2026-01-23,2,152.47,Completado,Call Center
-298,O00298,37,6,8,2026-01-13,2,91.14,Completado,Presencial
-299,O00299,68,1,9,2026-05-25,1,322.19,Completado,App
-300,O00300,38,5,13,2026-04-17,6,936.53,Completado,Call Center
-301,O00301,47,6,8,2026-03-22,1,42.05,Observado,App
-302,O00302,79,6,10,2026-03-26,6,1198.02,Completado,Call Center
-303,O00303,25,5,5,2026-04-24,1,255.89,Observado,Presencial
-304,O00304,77,6,4,2026-06-10,6,2058.62,Completado,App
-305,O00305,22,1,10,2026-06-22,3,584.75,Completado,Call Center
-306,O00306,62,1,8,2026-02-10,4,185.46,Completado,Presencial
-307,O00307,80,6,10,2026-01-11,2,328.82,Completado,Call Center
-308,O00308,43,1,1,2026-05-03,2,163.77,Pendiente,App
-309,O00309,61,5,13,2026-01-23,2,353.27,Completado,Web
-310,O00310,70,6,10,2026-04-02,3,522.87,Completado,Web
-311,O00311,39,6,3,2026-05-24,3,1099.49,Pendiente,Call Center
-312,O00312,8,1,2,2026-06-10,5,615.47,Pendiente,Call Center
-313,O00313,45,3,15,2026-01-28,3,142.89,Completado,Presencial
-314,O00314,53,3,2,2026-06-01,6,598.99,Completado,Web
-315,O00315,20,3,6,2026-02-04,5,1149.03,Cancelado,Presencial
-316,O00316,59,3,7,2026-06-12,1,176.33,Completado,Web
-317,O00317,34,6,14,2026-02-06,6,2166.65,Cancelado,Web
-318,O00318,11,2,2,2026-01-07,1,112.33,Completado,Call Center
-319,O00319,66,4,9,2026-04-16,3,1162.23,Pendiente,Call Center
-320,O00320,42,6,6,2026-04-14,5,1165.25,Observado,Call Center
-321,O00321,5,3,14,2026-04-15,6,2533.8,Completado,App
-322,O00322,52,2,4,2026-03-07,1,274.47,Cancelado,Presencial
-323,O00323,7,1,14,2026-05-19,4,1300.72,Completado,App
-324,O00324,64,3,11,2026-04-30,1,67.63,Completado,Web
-325,O00325,18,6,13,2026-05-27,5,827.34,Completado,Web
-326,O00326,57,4,10,2026-04-04,3,468.71,Observado,Presencial
-327,O00327,75,4,12,2026-02-22,3,436.99,Cancelado,Presencial
-328,O00328,55,3,10,2026-03-08,5,1028.98,Pendiente,Call Center
-329,O00329,25,1,10,2026-03-31,5,770.89,Pendiente,App
-330,O00330,22,6,3,2026-01-18,3,1163.03,Observado,Web
-331,O00331,61,2,12,2026-03-09,2,256.68,Completado,Presencial
-332,O00332,54,6,3,2026-06-04,4,1629.2,Completado,Call Center
-333,O00333,68,3,15,2026-03-30,3,118.61,Completado,Web
-334,O00334,11,4,13,2026-01-11,3,533.0,Completado,Presencial
-335,O00335,63,1,8,2026-05-19,3,126.3,Completado,App
-336,O00336,71,5,2,2026-05-21,3,372.7,Completado,Web
-337,O00337,17,3,6,2026-04-30,3,757.03,Completado,App
-338,O00338,15,4,10,2026-01-18,1,171.91,Completado,Web
-339,O00339,11,1,9,2026-05-04,2,642.21,Completado,Web
-340,O00340,20,3,14,2026-01-29,5,1645.65,Completado,App
-341,O00341,4,6,2,2026-03-01,5,567.46,Completado,App
-342,O00342,29,5,10,2026-03-14,4,688.72,Completado,App
-343,O00343,31,6,11,2026-04-14,1,64.96,Observado,App
-344,O00344,52,5,4,2026-01-20,4,1261.01,Completado,Web
-345,O00345,9,5,6,2026-04-16,3,736.92,Cancelado,App
-346,O00346,30,3,1,2026-01-21,2,187.67,Completado,Call Center
-347,O00347,22,3,7,2026-06-12,5,804.83,Completado,Web
-348,O00348,48,3,1,2026-02-26,1,84.86,Completado,Presencial
-349,O00349,56,4,12,2026-01-03,4,545.66,Completado,App
-350,O00350,76,6,5,2026-01-16,2,505.46,Completado,Web
-351,O00351,75,5,4,2026-02-08,6,2240.77,Completado,App
-352,O00352,45,2,10,2026-03-26,5,977.89,Completado,App
-353,O00353,41,2,14,2026-04-11,4,1576.49,Completado,App
-354,O00354,25,6,11,2026-01-24,2,115.64,Observado,Presencial
-355,O00355,41,5,1,2026-01-04,5,490.77,Completado,Presencial
-356,O00356,71,1,12,2026-03-06,5,690.17,Pendiente,App
-357,O00357,44,5,10,2026-01-08,2,362.05,Completado,Call Center
-358,O00358,51,1,5,2026-05-01,1,235.13,Completado,Web
-359,O00359,4,4,13,2026-01-01,2,386.57,Pendiente,App
-360,O00360,31,4,4,2026-01-07,6,1858.37,Cancelado,Presencial
-361,O00361,4,1,5,2026-01-08,4,892.56,Completado,Web
-362,O00362,60,5,10,2026-04-09,1,183.63,Completado,App
-363,O00363,14,2,6,2026-05-05,4,1003.31,Completado,Call Center
-364,O00364,2,5,15,2026-05-09,6,255.59,Completado,App
-365,O00365,4,1,6,2026-01-02,3,680.55,Cancelado,App
-366,O00366,52,5,5,2026-04-22,1,291.51,Completado,Web
-367,O00367,68,1,3,2026-06-19,2,689.9,Pendiente,Presencial
-368,O00368,45,5,5,2026-01-07,2,583.11,Completado,App
-369,O00369,33,4,9,2026-01-21,3,1328.44,Observado,App
-370,O00370,14,3,8,2026-03-04,5,213.98,Pendiente,Call Center
-371,O00371,49,5,9,2026-04-23,2,748.92,Observado,Call Center
-372,O00372,37,6,4,2026-06-01,3,1162.14,Completado,Call Center
-373,O00373,63,2,6,2026-01-20,3,673.32,Completado,Web
-374,O00374,25,4,13,2026-03-09,1,168.72,Completado,App
-375,O00375,57,3,12,2026-01-15,6,780.31,Observado,Call Center
-376,O00376,9,3,7,2026-05-06,4,623.39,Completado,Call Center
-377,O00377,37,2,12,2026-04-28,5,555.27,Completado,App
-378,O00378,41,2,8,2026-06-29,4,176.9,Pendiente,Web
-379,O00379,80,1,12,2026-05-25,3,385.63,Completado,Web
-380,O00380,41,5,9,2026-05-07,5,1727.64,Completado,Presencial
-381,O00381,21,6,5,2026-04-15,3,918.81,Pendiente,Presencial
-382,O00382,46,4,14,2026-05-23,4,1720.96,Completado,Call Center
-383,O00383,74,6,13,2026-06-30,5,977.63,Completado,App
-384,O00384,45,3,12,2026-03-30,3,343.11,Completado,Web
-385,O00385,74,3,6,2026-01-06,1,223.44,Completado,Web
-386,O00386,18,5,11,2026-02-18,1,71.32,Pendiente,Presencial
-387,O00387,74,5,1,2026-04-17,1,99.46,Completado,Web
-388,O00388,35,5,14,2026-01-19,6,2104.03,Completado,Web
-389,O00389,24,4,6,2026-03-18,3,708.91,Observado,Presencial
-390,O00390,64,1,9,2026-05-14,1,410.49,Completado,App
-391,O00391,56,5,4,2026-03-11,4,1416.39,Completado,Web
-392,O00392,77,5,5,2026-03-24,1,230.38,Completado,Call Center
-393,O00393,43,2,6,2026-06-17,2,407.28,Completado,Call Center
-394,O00394,8,4,9,2026-04-29,4,1248.86,Completado,App
-395,O00395,44,4,4,2026-01-18,1,376.63,Completado,App
-396,O00396,5,3,15,2026-06-14,4,214.06,Pendiente,App
-397,O00397,28,2,15,2026-02-13,2,109.62,Completado,App
-398,O00398,56,6,10,2026-04-25,3,461.97,Completado,App
-399,O00399,44,4,4,2026-06-01,5,1682.38,Observado,App
-400,O00400,49,3,6,2026-03-07,1,182.16,Completado,Web
-401,O00401,16,6,9,2026-04-03,1,446.29,Observado,App
-402,O00402,32,1,15,2026-03-27,2,90.83,Cancelado,Call Center
-403,O00403,8,5,12,2026-04-12,6,780.44,Observado,App
-404,O00404,64,1,12,2026-01-23,1,103.93,Completado,Call Center
-405,O00405,38,3,9,2026-05-31,3,1106.94,Completado,Call Center
-406,O00406,42,1,14,2026-05-12,2,666.41,Completado,Web
-407,O00407,20,5,14,2026-04-16,3,1178.65,Completado,App
-408,O00408,13,3,7,2026-06-24,4,749.37,Completado,App
-409,O00409,48,1,6,2026-06-07,2,440.6,Completado,Presencial
-410,O00410,62,6,15,2026-06-21,3,145.4,Pendiente,Presencial
-411,O00411,26,1,8,2026-06-05,1,37.25,Completado,App
-412,O00412,70,4,5,2026-06-23,6,1628.91,Observado,App
-413,O00413,8,3,9,2026-01-31,2,780.22,Pendiente,Presencial
-414,O00414,10,4,2,2026-04-30,1,88.31,Completado,Presencial
-415,O00415,25,3,7,2026-06-08,5,691.7,Cancelado,App
-416,O00416,13,6,1,2026-01-09,2,197.17,Pendiente,App
-417,O00417,54,6,13,2026-06-08,4,796.35,Completado,Call Center
-418,O00418,38,5,3,2026-03-21,2,702.53,Completado,App
-419,O00419,29,2,7,2026-04-11,2,309.63,Completado,Web
-420,O00420,52,4,6,2026-05-09,3,703.16,Completado,Web
-421,O00421,6,1,10,2026-05-16,6,1074.42,Pendiente,Web
-422,O00422,76,4,12,2026-06-15,4,488.95,Pendiente,Call Center
-423,O00423,72,5,15,2026-03-10,5,281.53,Completado,Call Center
-424,O00424,1,3,10,2026-05-29,6,853.29,Completado,App
-425,O00425,19,5,7,2026-02-13,2,318.66,Completado,Web
-426,O00426,80,6,10,2026-01-24,3,560.98,Completado,Web
-427,O00427,64,3,11,2026-02-08,2,133.63,Completado,Call Center
-428,O00428,37,5,4,2026-06-21,5,1804.26,Pendiente,Call Center
-429,O00429,14,3,1,2026-03-18,3,255.04,Completado,Web
-430,O00430,23,3,5,2026-01-12,1,317.64,Observado,Web
-431,O00431,18,6,15,2026-02-15,6,267.61,Completado,Call Center
-432,O00432,45,4,2,2026-06-25,6,640.62,Completado,App
-433,O00433,25,4,6,2026-04-06,3,614.45,Completado,Call Center
-434,O00434,45,3,9,2026-06-01,1,361.27,Cancelado,Presencial
-435,O00435,16,4,6,2026-01-18,6,1074.51,Cancelado,Presencial
-436,O00436,3,4,4,2026-01-06,5,1495.98,Observado,Presencial
-437,O00437,67,4,2,2026-03-11,5,596.96,Pendiente,Web
-438,O00438,75,2,12,2026-02-24,1,109.82,Completado,Presencial
-439,O00439,43,3,6,2026-01-07,2,401.39,Completado,Presencial
-440,O00440,61,3,8,2026-04-26,4,211.34,Pendiente,Call Center
-441,O00441,23,3,11,2026-01-27,2,135.68,Cancelado,Web
-442,O00442,24,1,10,2026-04-21,4,655.21,Completado,Call Center
-443,O00443,75,3,13,2026-02-22,2,285.22,Pendiente,App
-444,O00444,65,3,3,2026-01-29,6,2737.35,Pendiente,Presencial
-445,O00445,8,4,8,2026-05-26,5,219.19,Completado,Call Center
-446,O00446,31,5,14,2026-02-15,4,1601.61,Cancelado,App
-447,O00447,64,5,14,2026-05-27,3,1163.55,Completado,Presencial
-448,O00448,20,6,2,2026-05-03,4,370.4,Completado,Presencial
-449,O00449,48,1,12,2026-01-19,1,119.64,Completado,Web
-450,O00450,5,4,6,2026-04-17,5,934.18,Cancelado,Presencial
-451,O00451,44,1,3,2026-01-20,1,377.46,Completado,App
-452,O00452,52,4,3,2026-02-12,5,1789.62,Completado,Presencial
-453,O00453,33,1,3,2026-04-19,6,1990.46,Completado,Web
-454,O00454,79,3,2,2026-02-28,6,581.31,Observado,App
-455,O00455,51,4,12,2026-04-04,6,744.49,Pendiente,Web
-456,O00456,8,5,1,2026-03-16,1,87.57,Pendiente,Web
-457,O00457,26,5,7,2026-03-14,2,372.87,Completado,Web
-458,O00458,22,5,9,2026-06-14,3,1178.43,Completado,App
-459,O00459,10,6,14,2026-05-08,5,2021.63,Completado,Call Center
-460,O00460,32,5,7,2026-06-04,1,186.24,Completado,Presencial
-461,O00461,16,2,4,2026-06-30,3,1173.38,Completado,Presencial
-462,O00462,16,6,5,2026-03-24,2,536.25,Completado,Presencial
-463,O00463,14,6,15,2026-02-24,3,167.19,Completado,Web
-464,O00464,20,2,9,2026-01-09,4,1374.37,Completado,Call Center
-465,O00465,59,6,7,2026-06-11,3,486.08,Completado,Call Center
-466,O00466,38,5,12,2026-06-02,3,418.92,Completado,Presencial
-467,O00467,77,6,10,2026-05-20,3,578.02,Observado,Call Center
-468,O00468,36,3,13,2026-06-17,3,487.53,Observado,Presencial
-469,O00469,70,6,10,2026-04-04,4,657.8,Completado,Call Center
-470,O00470,59,6,2,2026-01-10,3,329.95,Cancelado,App
-471,O00471,67,6,5,2026-05-13,2,546.43,Completado,Presencial
-472,O00472,5,4,14,2026-04-12,1,360.53,Completado,Call Center
-473,O00473,4,6,8,2026-01-29,1,49.24,Completado,Web
-474,O00474,73,4,8,2026-05-30,4,210.52,Completado,Call Center
-475,O00475,58,1,2,2026-05-25,5,638.11,Observado,Presencial
-476,O00476,36,2,8,2026-04-02,3,124.34,Completado,Presencial
-477,O00477,39,6,5,2026-06-03,6,1809.58,Completado,Call Center
-478,O00478,36,5,1,2026-04-18,6,551.84,Completado,Presencial
-479,O00479,4,5,15,2026-05-02,2,107.23,Completado,App
-480,O00480,24,5,1,2026-06-26,3,236.46,Completado,Call Center
-481,O00481,58,6,13,2026-04-17,5,702.21,Completado,Call Center
-482,O00482,61,1,6,2026-01-02,1,204.75,Completado,Call Center
-483,O00483,23,2,5,2026-06-27,1,263.98,Completado,Call Center
-484,O00484,51,6,13,2026-03-14,6,857.04,Observado,App
-485,O00485,25,4,12,2026-06-05,2,222.68,Observado,Web
-486,O00486,75,4,12,2026-04-21,5,538.04,Completado,Call Center
-487,O00487,25,5,4,2026-06-28,5,1608.85,Completado,Web
-488,O00488,53,6,3,2026-06-23,4,1504.0,Completado,Presencial
-489,O00489,5,5,13,2026-03-04,6,880.46,Completado,Call Center
-490,O00490,26,5,1,2026-03-17,1,90.36,Completado,App
-491,O00491,22,3,4,2026-04-04,3,844.78,Completado,Call Center
-492,O00492,37,2,12,2026-03-07,4,418.16,Completado,App
-493,O00493,47,3,7,2026-01-24,6,1074.75,Completado,Presencial
-494,O00494,19,1,11,2026-04-22,2,124.98,Completado,Call Center
-495,O00495,61,2,12,2026-04-01,2,278.47,Completado,Web
-496,O00496,26,1,12,2026-04-16,6,868.29,Observado,Presencial
-497,O00497,80,4,14,2026-02-11,6,2273.89,Completado,App
-498,O00498,52,4,9,2026-06-05,5,1587.81,Completado,Web
-499,O00499,18,5,4,2026-05-14,1,340.23,Completado,Call Center
-500,O00500,60,5,6,2026-04-29,6,1280.67,Completado,App
+id_operacion,codigo_operacion,id_cliente,id_sede,id_empleado,fecha_operacion,canal,estado,monto_total
+1,O00001,124,1,16,2026-04-23,Contrato exportador,Completado,104.00
+2,O00002,102,5,27,2026-06-23,Portal B2B,Completado,359.20
+3,O00003,70,6,14,15/04/2026,Orden de compra,Completado,655.00
+4,O00004,24,6,32,2026-02-22,Feria internacional,Completado,483.00
+5,O00005,139,1,18,2026-04-06,Contrato exportador,Pendiente,225.80
+6,O00006,171,3,38,2026-06-17,Portal B2B,Pendiente,36.00
+7,O00007,43,3,10,2026-03-11,Orden de compra,Observado,467.35
+8,O00008,125,5,12,2026-02-20,Feria internacional,Completado,767.16
+9,O00009,102,6,36,2026-05-18,Contrato exportador,Completado,416.40
+10,O00010,152,6,5,2026-03-05,Portal B2B,Completado,392.00
+11,O00011,33,1,1,2026-03-24,Orden de compra,Completado,171.20
+12,O00012,128,4,32,09/06/2026,Feria internacional,Completado,97.20
+13,O00013,136,5,30,15/06/2026,Contrato exportador,Completado,465.60
+14,O00014,43,2,16,2026-01-28,Portal B2B,Completado,264.00
+15,O00015,18,1,1,2026-03-21,Orden de compra,Cancelado,108.00
+16,O00016,56,1,36,2026-01-27,Feria internacional,Completado,240.00
+17,O00017,19,3,,2026-03-16,Contrato exportador,Completado,262.00
+18,O00018,136,4,,2026-02-21,Portal B2B,Completado,542.40
+19,O00019,16,2,7,2026-02-23,Orden de compra,Pendiente,472.40
+20,O00020,74,6,27,2026-01-17,Feria internacional,Completado,374.00
+21,O00021,69,4,27,2026-02-19,Contrato exportador,Cancelado,624.72
+22,O00022,25,3,9,2026-05-07,Portal B2B,Completado,176.00
+23,O00023,126,2,31,2026-01-11,Orden de compra,Completado,592.00
+24,O00024,175,1,10,21/03/2026,Feria internacional,Observado,2427.02
+25,O00025,88,4,31,2026-06-21,Contrato exportador,Completado,220.24
+26,O00026,44,4,39,2026-02-05,Portal B2B,Completado,239.20
+27,O00027,33,6,32,2026-02-17,Orden de compra,Completado,145.20
+28,O00028,1,1,32,2026-03-12,Feria internacional,Observado,445.20
+29,O00029,61,2,26,2026-04-17,Contrato exportador,Cancelado,148.40
+30,O00030,81,3,2,2026-06-24,Portal B2B,Completado,307.20
+31,O00031,197,2,23,2026-06-22,Orden de compra,Pendiente,1732.41
+32,O00032,129,4,32,2026-02-26,Feria internacional,Observado,727.28
+33,O00033,186,5,8,2026-05-03,Contrato exportador,Observado,208.80
+34,O00034,131,5,33,2026-05-16,Portal B2B,Completado,292.80
+35,O00035,9162,4,25,2026-02-24,Orden de compra,Pendiente,108.00
+36,O00036,9212,6,34,2026-01-07,Feria internacional,Completado,186.40
+37,O00037,39,4,7,2026-06-16,Contrato exportador,Completado,704.68
+38,O00038,99,5,28,2026-02-18,Portal B2B,Completado,204.09
+39,O00039,174,3,35,2026-03-19,Orden de compra,Pendiente,74.80
+40,O00040,45,3,28,2026-06-01,Feria internacional,Observado,554.00
+41,O00041,72,2,18,2026-05-21,Contrato exportador,Completado,327.20
+42,O00042,148,5,27,04/05/2026,Portal B2B,Completado,250.40
+43,O00043,175,6,30,2026-04-12,Orden de compra,Completado,536.00
+44,O00044,139,6,33,2026-03-15,Feria internacional,Completado,226.83
+45,O00045,54,3,34,22/01/2026,Contrato exportador,Observado,842.00
+46,O00046,168,6,9,2026-04-24,Portal B2B,Completado,312.00
+47,O00047,180,5,15,2026-06-26,Orden de compra,Completado,365.60
+48,O00048,15,3,11,2026-05-14,Feria internacional,Cancelado,591.90
+49,O00049,75,1,28,2026-03-01,Contrato exportador,Completado,341.80
+50,O00050,127,1,24,2026-05-20,Portal B2B,Completado,855.64
+51,O00051,54,6,32,2026-03-25,Orden de compra,Pendiente,709.60
+52,O00052,127,4,39,2026-05-26,Feria internacional,Observado,510.00
+53,O00053,31,3,3,2026-04-07,Contrato exportador,Completado,359.60
+54,O00054,103,2,28,2026-03-14,Portal B2B,Completado,389.20
+55,O00055,80,6,11,2026-02-11,Orden de compra,Completado,216.00
+56,O00056,151,2,32,2026-06-21,Feria internacional,Pendiente,394.36
+57,O00057,29,1,12,2026-03-15,Contrato exportador,Pendiente,18.00
+58,O00058,54,6,29,2026-04-04,Portal B2B,Completado,472.24
+59,O00059,29,6,22,2026-05-12,Orden de compra,Completado,207.39
+60,O00060,19,2,24,2026-04-09,Feria internacional,Pendiente,280.60
+61,O00061,31,1,23,2026-03-22,Contrato exportador,Completado,120.00
+62,O00062,114,2,5,2026-06-21,Portal B2B,Completado,562.40
+63,O00063,196,6,8,2026-01-03,Orden de compra,Completado,647.44
+64,O00064,156,6,15,2026-04-06,Feria internacional,Pendiente,250.80
+65,O00065,114,6,7,2026-02-23,Contrato exportador,Cancelado,718.40
+66,O00066,4,3,10,2026-02-08,Portal B2B,Completado,118.72
+67,O00067,184,5,2,2026-03-23,Orden de compra,Completado,328.00
+68,O00068,88,6,7,2026-02-04,Feria internacional,Completado,414.40
+69,O00069,8,4,16,2026-06-21,Contrato exportador,Completado,398.00
+70,O00070,171,5,5,2026-02-21,Portal B2B,Pendiente,426.40
+71,O00071,192,2,14,2026-02-04,Orden de compra,Completado,176.00
+72,O00072,152,1,36,2026-01-05,Feria internacional,Pendiente,237.20
+73,O00073,168,2,13,2026-03-06,Contrato exportador,Completado,2477.37
+74,O00074,130,6,6,17/01/2026,Portal B2B,Pendiente,298.72
+75,O00075,10,3,28,2026-01-02,Orden de compra,Cancelado,196.00
+76,O00076,44,6,22,2026-01-20,Feria internacional,Completado,210.00
+77,O00077,171,2,11,2026-05-24,Contrato exportador,Cancelado,255.20
+78,O00078,24,5,,2026-02-24,Portal B2B,Completado,42.00
+79,O00079,7,4,,2026-02-23,Orden de compra,Completado,36.00
+80,O00080,120,3,22,2026-01-19,Feria internacional,Pendiente,258.00
+81,O00081,121,4,17,2026-05-16,Contrato exportador,Completado,312.00
+82,O00082,6,1,13,2026-04-12,Portal B2B,Completado,605.66
+83,O00083,74,3,17,2026-06-23,Orden de compra,Cancelado,260.00
+84,O00084,153,3,31,2026-02-23,Feria internacional,Pendiente,211.20
+85,O00085,134,4,26,2026-03-11,Contrato exportador,Completado,588.64
+86,O00086,28,1,11,2026-06-07,Portal B2B,Pendiente,-798.54
+87,O00087,25,1,35,2026-03-19,Orden de compra,Completado,463.20
+88,O00088,169,2,21,2026-03-12,Feria internacional,Pendiente,471.32
+89,O00089,103,6,19,2026-06-05,Contrato exportador,Completado,508.00
+90,O00090,149,5,25,2026-01-20,Portal B2B,Completado,240.00
+91,O00091,30,6,3,2026-05-12,Orden de compra,Completado,3005.34
+92,O00092,75,1,27,2026-01-28,Feria internacional,Observado,60.00
+93,O00093,185,3,23,2026-06-19,Contrato exportador,Completado,383.37
+94,O00094,44,4,30,2026-03-17,Portal B2B,Completado,890.95
+95,O00095,133,5,25,2026-01-06,Orden de compra,Pendiente,780.91
+96,O00096,103,1,5,2026-05-14,Feria internacional,Pendiente,110.40
+97,O00097,35,4,19,2026-05-18,Contrato exportador,Pendiente,1285.18
+98,O00098,190,3,37,27/01/2026,Portal B2B,Completado,171.20
+99,O00099,170,5,30,2026-05-07,Orden de compra,Completado,577.60
+100,O00100,65,2,6,2026-05-23,Feria internacional,Observado,838.00
+101,O00101,32,2,10,2026-06-13,Contrato exportador,Pendiente,248.86
+102,O00102,32,5,29,2026-04-28,Portal B2B,Completado,360.20
+103,O00103,58,2,18,2026-05-06,Orden de compra,Completado,854.00
+104,O00104,176,1,6,2026-01-15,Feria internacional,Completado,452.32
+105,O00105,130,3,9,21/04/2026,Contrato exportador,Completado,165.60
+106,O00106,78,2,38,2026-03-07,Portal B2B,Pendiente,2225.73
+107,O00107,46,5,35,2026-01-26,Orden de compra,Completado,140.00
+108,O00108,146,2,37,2026-02-22,Feria internacional,Completado,238.72
+109,O00109,111,1,7,2026-05-10,Contrato exportador,Pendiente,667.20
+110,O00110,52,6,10,2026-03-26,Portal B2B,Pendiente,55.06
+111,O00111,23,2,34,2026-04-19,Orden de compra,Pendiente,259.39
+112,O00112,128,1,15,2026-06-07,Feria internacional,Completado,572.09
+113,O00113,150,5,27,2026-06-14,Contrato exportador,Pendiente,246.40
+114,O00114,143,5,31,2026-06-22,Portal B2B,Cancelado,5054.94
+115,O00115,75,3,19,2026-06-01,Orden de compra,Completado,141.59
+116,O00116,183,4,19,2026-02-18,Feria internacional,Completado,611.20
+117,O00117,190,6,14,2026-01-22,Contrato exportador,Completado,22.00
+118,O00118,58,6,39,2026-03-05,Portal B2B,Completado,175.20
+119,O00119,182,4,6,04/03/2026,Orden de compra,Completado,540.69
+120,O00120,49,6,2,2026-04-19,Feria internacional,Pendiente,482.00
+121,O00121,59,4,35,2026-05-01,Contrato exportador,Completado,225.96
+122,O00122,91,2,33,14/06/2026,Portal B2B,Completado,290.00
+123,O00123,182,2,10,2026-03-10,Orden de compra,Completado,354.19
+124,O00124,68,1,38,2026-02-12,Feria internacional,Observado,126.00
+125,O00125,144,5,20,2026-04-26,Contrato exportador,Completado,277.58
+126,O00126,135,2,4,18/05/2026,Portal B2B,Cancelado,339.40
+127,O00127,9046,4,14,2026-01-28,Orden de compra,Pendiente,275.60
+128,O00128,182,1,2,23/05/2026,Feria internacional,Cancelado,85.60
+129,O00129,94,4,26,2026-06-02,Contrato exportador,Completado,548.34
+130,O00130,24,2,30,2026-01-03,Portal B2B,Completado,467.80
+131,O00131,117,3,30,2026-05-09,Orden de compra,Pendiente,42.00
+132,O00132,108,5,30,2026-05-11,Feria internacional,Completado,526.92
+133,O00133,171,4,31,2026-06-21,Contrato exportador,Completado,209.36
+134,O00134,15,3,20,2026-04-21,Portal B2B,Completado,403.20
+135,O00135,8,2,5,2026-06-04,Orden de compra,Pendiente,568.60
+136,O00136,185,6,8,2026-06-04,Feria internacional,Pendiente,128.40
+137,O00137,179,4,20,2026-01-12,Contrato exportador,Completado,408.00
+138,O00138,79,4,29,2026-05-26,Portal B2B,Completado,138.00
+139,O00139,128,4,10,2026-04-11,Orden de compra,Completado,736.90
+140,O00140,152,4,10,2026-01-20,Feria internacional,Pendiente,243.60
+141,O00141,3,4,38,2026-02-09,Contrato exportador,Observado,436.80
+142,O00142,87,2,,2026-05-22,Portal B2B,Completado,295.20
+143,O00143,28,1,17,2026-02-21,Orden de compra,Observado,1372.17
+144,O00144,154,4,2,2026-01-19,Feria internacional,Cancelado,404.00
+145,O00145,86,1,35,2026-05-22,Contrato exportador,Cancelado,462.80
+146,O00146,43,5,32,2026-01-17,Portal B2B,Pendiente,303.60
+147,O00147,104,6,9,2026-06-03,Orden de compra,Completado,16.00
+148,O00148,185,4,23,2026-06-03,Feria internacional,Completado,70.40
+149,O00149,78,2,30,2026-04-15,Contrato exportador,Completado,260.40
+150,O00150,133,4,8,2026-06-22,Portal B2B,Completado,128.00
+151,O00151,27,1,28,2026-03-11,Orden de compra,Completado,224.95
+152,O00152,196,2,32,2026-02-07,Feria internacional,Completado,570.00
+153,O00153,3,2,36,2026-05-19,Contrato exportador,Observado,165.60
+154,O00154,33,1,3,2026-04-01,Portal B2B,Completado,225.00
+155,O00155,128,4,14,2026-04-06,Orden de compra,Completado,281.18
+156,O00156,158,6,28,2026-03-12,Feria internacional,Cancelado,220.20
+157,O00157,76,1,8,2026-05-20,Contrato exportador,Completado,576.00
+158,O00158,39,3,16,2026-01-01,Portal B2B,Completado,378.32
+159,O00159,65,4,24,2026-02-17,Orden de compra,Completado,216.00
+160,O00160,82,1,7,2026-03-08,Feria internacional,Completado,283.49
+161,O00161,112,5,28,17/06/2026,Contrato exportador,Cancelado,509.20
+162,O00162,9209,5,9,2026-03-17,Portal B2B,Cancelado,738.68
+163,O00163,152,5,33,2026-04-06,Orden de compra,Completado,566.40
+164,O00164,184,3,38,2026-02-18,Feria internacional,Completado,655.00
+165,O00165,26,6,11,2026-02-21,Contrato exportador,Completado,2111.08
+166,O00166,107,1,25,2026-01-14,Portal B2B,Pendiente,1639.26
+167,O00167,6,6,34,2026-03-23,Orden de compra,Pendiente,260.00
+168,O00168,110,3,30,2026-01-27,Feria internacional,Completado,267.20
+169,O00169,67,3,40,2026-04-26,Contrato exportador,Cancelado,200.40
+170,O00170,123,2,24,2026-02-01,Portal B2B,Completado,438.40
+171,O00171,169,6,27,2026-03-04,Orden de compra,Cancelado,220.80
+172,O00172,183,5,2,2026-01-25,Feria internacional,Completado,390.40
+173,O00173,114,1,6,2026-05-15,Contrato exportador,Pendiente,140.80
+174,O00174,39,6,15,2026-05-15,Portal B2B,Pendiente,399.60
+175,O00175,110,2,10,2026-06-17,Orden de compra,Completado,257.8
+176,O00176,157,3,28,13/04/2026,Feria internacional,Cancelado,343.20
+177,O00177,59,4,39,2026-02-13,Contrato exportador,Completado,703.78
+178,O00178,107,5,9,2026-03-06,Portal B2B,Cancelado,85.80
+179,O00179,58,4,6,2026-06-06,Orden de compra,Completado,119.20
+180,O00180,6,2,11,2026-03-24,Feria internacional,Completado,186.00
+181,O00181,187,2,9,2026-02-15,Contrato exportador,Pendiente,656.49
+182,O00182,140,4,34,2026-02-16,Portal B2B,Completado,496.00
+183,O00183,58,2,6,2026-05-16,Orden de compra,Pendiente,491.34
+184,O00184,166,3,6,2026-05-09,Feria internacional,Completado,300.00
+185,O00185,178,2,21,2026-03-11,Contrato exportador,Observado,401.00
+186,O00186,44,1,38,2026-04-13,Portal B2B,Completado,120.00
+187,O00187,192,5,7,2026-05-17,Orden de compra,Completado,447.20
+188,O00188,195,4,30,2026-05-18,Feria internacional,Pendiente,340.80
+189,O00189,178,5,35,22/03/2026,Contrato exportador,Observado,232.00
+190,O00190,198,2,13,2026-06-03,Portal B2B,Completado,320.00
+191,O00191,79,1,10,11/06/2026,Orden de compra,Cancelado,2487.0
+192,O00192,63,3,18,2026-02-09,Feria internacional,Observado,584.78
+193,O00193,102,3,,2026-05-22,Contrato exportador,Observado,259.20
+194,O00194,20,4,13,2026-05-11,Portal B2B,Completado,80.00
+195,O00195,57,3,15,04/03/2026,Orden de compra,Pendiente,507.30
+196,O00196,122,5,17,2026-06-23,Feria internacional,Cancelado,365.56
+197,O00197,23,4,36,2026-05-16,Contrato exportador,Completado,642.43
+198,O00198,77,1,5,2026-01-09,Portal B2B,Completado,208.40
+199,O00199,79,3,10,2026-03-16,Orden de compra,Cancelado,29.68
+200,O00200,120,2,32,2026-06-12,Feria internacional,Completado,252.40
+201,O00201,19,1,36,2026-01-25,Contrato exportador,Completado,549.63
+202,O00202,167,3,8,07/04/2026,Portal B2B,Completado,620.80
+203,O00203,89,4,35,2026-04-24,Orden de compra,Pendiente,28.00
+204,O00204,84,4,24,2026-01-02,Feria internacional,Pendiente,43.58
+205,O00205,147,4,32,2026-01-07,Contrato exportador,Completado,579.40
+206,O00206,164,4,16,2026-03-02,Portal B2B,Completado,195.60
+207,O00207,123,1,37,2026-06-09,Orden de compra,Completado,356.58
+208,O00208,73,4,17,2026-02-22,Feria internacional,Completado,66.00
+209,O00209,118,4,23,2026-04-25,Contrato exportador,Completado,140.80
+210,O00210,194,6,21,2026-02-02,Portal B2B,Completado,253.17
+211,O00211,119,5,18,2026-01-10,Orden de compra,Completado,101.37
+212,O00212,170,6,13,2026-01-15,Feria internacional,Pendiente,521.94
+213,O00213,154,2,11,2026-03-19,Contrato exportador,Observado,429.60
+214,O00214,17,5,29,2026-01-15,Portal B2B,Completado,202.15
+215,O00215,96,3,6,2026-06-19,Orden de compra,Pendiente,129.47
+216,O00216,53,3,22,2026-06-16,Feria internacional,Completado,355.00
+217,O00217,85,2,19,2026-04-18,Contrato exportador,Completado,348.00
+218,O00218,74,4,32,2026-02-22,Portal B2B,Completado,144.00
+219,O00219,10,2,32,2026-05-13,Orden de compra,Completado,96.80
+220,O00220,16,4,6,2026-04-02,Feria internacional,Cancelado,473.63
+221,O00221,35,6,12,2026-03-20,Contrato exportador,Observado,136.80
+222,O00222,77,6,40,2026-04-05,Portal B2B,Completado,180.46
+223,O00223,152,3,36,2026-02-25,Orden de compra,Completado,330.00
+224,O00224,123,6,21,13/04/2026,Feria internacional,Completado,345.20
+225,O00225,141,1,40,27/01/2026,Contrato exportador,Completado,215.80
+226,O00226,28,2,9,2026-01-16,Portal B2B,Cancelado,513.78
+227,O00227,155,5,15,2026-05-25,Orden de compra,Observado,331.20
+228,O00228,174,5,8,2026-06-24,Feria internacional,Pendiente,55.20
+229,O00229,45,5,25,2026-03-03,Contrato exportador,Completado,462.00
+230,O00230,134,1,35,2026-05-04,Portal B2B,Observado,539.80
+231,O00231,6,2,26,2026-04-03,Orden de compra,Observado,327.06
+232,O00232,106,5,38,2026-06-02,Feria internacional,Completado,82.80
+233,O00233,118,3,,2026-03-07,Contrato exportador,Observado,422.58
+234,O00234,190,6,15,2026-05-05,Portal B2B,Completado,566.36
+235,O00235,81,4,2,2026-02-09,Orden de compra,Cancelado,445.01
+236,O00236,170,6,25,2026-01-05,Feria internacional,Completado,68.00
+237,O00237,107,3,10,2026-04-01,Contrato exportador,Completado,294.00
+238,O00238,126,5,7,2026-04-27,Portal B2B,Completado,121.29
+239,O00239,158,1,10,21/04/2026,Orden de compra,Pendiente,453.04
+240,O00240,169,2,19,2026-05-14,Feria internacional,Completado,507.18
+241,O00241,138,2,,2026-05-14,Contrato exportador,Completado,316.15
+242,O00242,117,4,33,2026-04-08,Portal B2B,Completado,206.68
+243,O00243,56,6,37,2026-02-12,Orden de compra,Completado,151.20
+244,O00244,74,5,16,2026-04-12,Feria internacional,Completado,298.00
+245,O00245,98,3,34,2026-01-06,Contrato exportador,Cancelado,218.40
+246,O00246,174,3,40,2026-05-25,Portal B2B,Completado,179.77
+247,O00247,78,1,18,2026-05-06,Orden de compra,Cancelado,94.40
+248,O00248,82,2,7,2026-05-14,Feria internacional,Completado,170.40
+249,O00249,132,3,15,2026-06-16,Contrato exportador,Pendiente,251.80
+250,O00250,97,1,3,2026-06-06,Portal B2B,Completado,330.40
+251,O00251,139,5,9,09/02/2026,Orden de compra,Completado,721.24
+252,O00252,31,3,9,2026-05-08,Feria internacional,Observado,386.40
+253,O00253,92,4,23,2026-04-27,Contrato exportador,Completado,35.20
+254,O00254,81,1,30,2026-01-04,Portal B2B,Completado,192.40
+255,O00255,169,2,17,2026-03-17,Orden de compra,Completado,579.40
+256,O00256,150,2,40,2026-05-14,Feria internacional,Completado,480.12
+257,O00257,155,4,35,2026-01-27,Contrato exportador,Pendiente,484.86
+258,O00258,166,3,4,2026-06-03,Portal B2B,Completado,605.60
+259,O00259,183,1,37,2026-06-27,Orden de compra,Cancelado,394.36
+260,O00260,116,4,11,2026-05-16,Feria internacional,Completado,4453.52
+261,O00261,9,2,1,2026-06-23,Contrato exportador,Pendiente,577.40
+262,O00262,192,2,7,2026-01-21,Portal B2B,Completado,460.74
+263,O00263,177,1,12,2026-01-06,Orden de compra,Completado,396.20
+264,O00264,159,4,5,2026-02-27,Feria internacional,Completado,795.04
+265,O00265,132,2,31,2026-04-25,Contrato exportador,Completado,589.75
+266,O00266,161,5,33,2026-01-24,Portal B2B,Completado,497.20
+267,O00267,86,6,2,2026-02-01,Orden de compra,Pendiente,167.60
+268,O00268,152,2,11,2026-01-22,Feria internacional,Completado,56.00
+269,O00269,182,1,39,2026-06-10,Contrato exportador,Completado,486.00
+270,O00270,57,1,15,2026-02-19,Portal B2B,Pendiente,262.76
+271,O00271,43,4,25,22/02/2026,Orden de compra,Pendiente,140.80
+272,O00272,92,2,5,2026-03-17,Feria internacional,Cancelado,386.00
+273,O00273,41,5,33,04/05/2026,Contrato exportador,Completado,227.20
+274,O00274,186,3,,2026-05-19,Portal B2B,Pendiente,579.20
+275,O00275,23,6,1,2026-03-22,Orden de compra,Observado,361.60
+276,O00276,153,5,10,2026-05-04,Feria internacional,Completado,674.92
+277,O00277,80,3,13,2026-04-18,Contrato exportador,Pendiente,554.60
+278,O00278,186,1,29,2026-04-17,Portal B2B,Completado,185.36
+279,O00279,67,5,36,2026-03-07,Orden de compra,Completado,325.20
+280,O00280,99,4,36,2026-06-20,Feria internacional,Completado,648.50
+281,O00281,91,5,22,2026-04-11,Contrato exportador,Cancelado,168.00
+282,O00282,168,5,34,2026-06-03,Portal B2B,Completado,125.40
+283,O00283,15,5,24,2026-02-25,Orden de compra,Completado,55.06
+284,O00284,112,6,35,2026-01-22,Feria internacional,Pendiente,329.60
+285,O00285,9596,3,28,2026-05-02,Contrato exportador,Completado,420.00
+286,O00286,52,6,10,06/01/2026,Portal B2B,Completado,627.20
+287,O00287,173,5,15,2026-02-28,Orden de compra,Completado,450.00
+288,O00288,45,1,6,2026-01-27,Feria internacional,Pendiente,320.95
+289,O00289,88,3,31,2026-01-27,Contrato exportador,Pendiente,360.40
+290,O00290,193,5,34,2026-05-24,Portal B2B,Completado,464.12
+291,O00291,3,5,18,2026-05-14,Orden de compra,Pendiente,456.00
+292,O00292,97,5,13,2026-05-09,Feria internacional,Completado,308.40
+293,O00293,185,3,16,2026-02-23,Contrato exportador,Pendiente,-401.8
+294,O00294,57,4,28,2026-02-03,Portal B2B,Completado,418.00
+295,O00295,10,4,24,2026-04-26,Orden de compra,Pendiente,168.00
+296,O00296,195,4,36,03/06/2026,Feria internacional,Completado,276.00
+297,O00297,46,3,12,2026-05-26,Contrato exportador,Pendiente,88.00
+298,O00298,47,4,24,2026-05-28,Portal B2B,Observado,523.66
+299,O00299,44,3,8,2026-05-05,Orden de compra,Completado,114.00
+300,O00300,194,2,22,2026-01-07,Feria internacional,Completado,138.00
+301,O00301,170,2,28,2026-06-07,Contrato exportador,Completado,634.30
+302,O00302,88,3,19,2026-06-27,Portal B2B,Completado,705.63
+303,O00303,193,1,12,28/02/2026,Orden de compra,Pendiente,85.60
+304,O00304,66,6,12,2026-01-28,Feria internacional,Pendiente,348.00
+305,O00305,115,5,20,2026-01-27,Contrato exportador,Pendiente,334.60
+306,O00306,45,3,33,2026-04-17,Portal B2B,Completado,627.78
+307,O00307,1,3,23,2026-05-13,Orden de compra,Completado,3160.66
+308,O00308,123,3,26,2026-02-08,Feria internacional,Cancelado,176.00
+309,O00309,91,6,3,2026-06-12,Contrato exportador,Completado,114.40
+310,O00310,121,6,18,06/02/2026,Portal B2B,Completado,447.06
+311,O00311,51,4,39,2026-05-26,Orden de compra,Completado,417.04
+312,O00312,188,1,40,26/05/2026,Feria internacional,Pendiente,737.00
+313,O00313,79,5,3,2026-02-10,Contrato exportador,Pendiente,347.60
+314,O00314,144,1,36,2026-03-04,Portal B2B,Completado,386.40
+315,O00315,70,6,20,18/06/2026,Orden de compra,Observado,317.20
+316,O00316,38,2,37,2026-03-27,Feria internacional,Completado,513.00
+317,O00317,176,2,28,2026-05-03,Contrato exportador,Completado,90.00
+318,O00318,71,5,1,2026-01-15,Portal B2B,Completado,271.20
+319,O00319,23,6,8,2026-02-08,Orden de compra,Completado,72.00
+320,O00320,56,6,34,2026-02-04,Feria internacional,Observado,378.80
+321,O00321,116,3,1,2026-03-23,Contrato exportador,Completado,535.40
+322,O00322,126,5,35,2026-06-25,Portal B2B,Completado,206.40
+323,O00323,113,1,40,14/01/2026,Orden de compra,Completado,223.20
+324,O00324,179,5,3,2026-05-05,Feria internacional,Pendiente,148.40
+325,O00325,43,2,22,2026-04-24,Contrato exportador,Completado,108.17
+326,O00326,75,2,31,2026-06-27,Portal B2B,Completado,314.00
+327,O00327,54,4,25,2026-04-23,Orden de compra,Observado,218.00
+328,O00328,59,4,7,2026-04-10,Feria internacional,Pendiente,419.30
+329,O00329,106,1,10,2026-05-02,Contrato exportador,Completado,566.46
+330,O00330,191,1,18,2026-04-26,Portal B2B,Completado,532.00
+331,O00331,13,2,24,2026-04-01,Orden de compra,Completado,112.00
+332,O00332,190,1,39,2026-01-02,Feria internacional,Completado,549.18
+333,O00333,109,4,20,2026-06-23,Contrato exportador,Pendiente,2563.93
+334,O00334,82,5,20,2026-03-24,Portal B2B,Cancelado,178.08
+335,O00335,58,6,1,2026-06-08,Orden de compra,Completado,515.60
+336,O00336,171,2,18,2026-03-14,Feria internacional,Completado,660.40
+337,O00337,179,4,5,2026-04-25,Contrato exportador,Completado,234.20
+338,O00338,69,2,11,2026-02-02,Portal B2B,Completado,116.00
+339,O00339,87,6,29,2026-06-05,Orden de compra,Completado,253.12
+340,O00340,23,1,29,2026-02-07,Feria internacional,Completado,330.00
+341,O00341,180,6,4,2026-02-14,Contrato exportador,Pendiente,498.00
+342,O00342,74,6,9,2026-03-26,Portal B2B,Completado,61.89
+343,O00343,100,5,16,2026-06-26,Orden de compra,Cancelado,626.52
+344,O00344,158,5,15,2026-04-18,Feria internacional,Cancelado,338.40
+345,O00345,164,1,31,2026-05-23,Contrato exportador,Pendiente,85.60
+346,O00346,144,6,1,2026-02-21,Portal B2B,Observado,130.74
+347,O00347,149,3,2,2026-02-05,Orden de compra,Observado,752.40
+348,O00348,63,2,19,2026-02-08,Feria internacional,Completado,549.20
+349,O00349,127,2,18,2026-01-08,Contrato exportador,Completado,726.80
+350,O00350,109,2,6,2026-06-06,Portal B2B,Completado,105.40
+351,O00351,182,5,37,2026-01-17,Orden de compra,Completado,747.33
+352,O00352,64,1,10,2026-05-26,Feria internacional,Completado,110.40
+353,O00353,94,2,39,2026-01-11,Contrato exportador,Completado,722.00
+354,O00354,124,6,15,2026-05-15,Portal B2B,Completado,314.00
+355,O00355,91,3,1,2026-01-24,Orden de compra,Completado,229.72
+356,O00356,167,1,15,2026-06-22,Feria internacional,Cancelado,718.00
+357,O00357,66,6,22,2026-06-07,Contrato exportador,Observado,374.00
+358,O00358,195,6,34,2026-06-23,Portal B2B,Observado,87.16
+359,O00359,81,3,2,2026-04-23,Orden de compra,Completado,178.80
+360,O00360,112,2,3,2026-06-26,Feria internacional,Pendiente,-3977.81
+361,O00361,174,5,1,2026-01-11,Contrato exportador,Completado,174.00
+362,O00362,126,2,35,2026-06-10,Portal B2B,Completado,55.20
+363,O00363,186,1,25,2026-01-15,Orden de compra,Completado,450.00
+364,O00364,116,1,39,2026-06-08,Feria internacional,Completado,682.32
+365,O00365,196,3,8,2026-05-14,Contrato exportador,Completado,91.60
+366,O00366,164,1,19,2026-02-17,Portal B2B,Completado,87.16
+367,O00367,38,1,15,2026-05-26,Orden de compra,Pendiente,70.40
+368,O00368,122,5,18,2026-05-15,Feria internacional,Completado,330.36
+369,O00369,87,1,32,2026-03-13,Contrato exportador,Completado,542.00
+370,O00370,165,1,35,2026-02-24,Portal B2B,Cancelado,494.58
+371,O00371,80,5,14,2026-01-01,Orden de compra,Completado,37.20
+372,O00372,9,4,4,2026-02-13,Feria internacional,Pendiente,464.00
+373,O00373,92,6,39,2026-02-19,Contrato exportador,Observado,148.80
+374,O00374,198,4,23,2026-02-09,Portal B2B,Pendiente,178.08
+375,O00375,9,5,18,2026-03-10,Orden de compra,Completado,324.00
+376,O00376,15,3,26,2026-01-02,Feria internacional,Completado,316.40
+377,O00377,17,2,28,2026-03-05,Contrato exportador,Cancelado,297.60
+378,O00378,80,2,8,2026-02-07,Portal B2B,Completado,472.24
+379,O00379,174,4,11,2026-04-18,Orden de compra,Completado,176.00
+380,O00380,27,1,23,2026-02-07,Feria internacional,Cancelado,405.72
+381,O00381,124,1,22,03/03/2026,Contrato exportador,Completado,332.40
+382,O00382,171,5,10,2026-03-28,Portal B2B,Completado,233.60
+383,O00383,14,1,1,2026-02-26,Orden de compra,Cancelado,476.90
+384,O00384,7,5,30,2026-04-20,Feria internacional,Completado,375.00
+385,O00385,28,1,17,2026-04-11,Contrato exportador,Completado,445.60
+386,O00386,87,6,27,2026-03-11,Portal B2B,Completado,194.00
+387,O00387,11,4,10,2026-04-06,Orden de compra,Completado,72.00
+388,O00388,164,4,23,2026-01-15,Feria internacional,Pendiente,632.80
+389,O00389,191,6,39,2026-01-28,Contrato exportador,Completado,298.00
+390,O00390,26,6,14,09/04/2026,Portal B2B,Completado,266.26
+391,O00391,26,4,17,2026-05-28,Orden de compra,Pendiente,270.00
+392,O00392,14,6,25,2026-06-05,Feria internacional,Completado,242.58
+393,O00393,175,1,28,2026-02-01,Contrato exportador,Observado,252.00
+394,O00394,99,6,5,2026-03-22,Portal B2B,Completado,385.00
+395,O00395,116,4,5,2026-04-18,Orden de compra,Completado,625.92
+396,O00396,31,6,25,2026-05-17,Feria internacional,Completado,48.40
+397,O00397,62,2,24,14/02/2026,Contrato exportador,Completado,282.00
+398,O00398,98,1,1,2026-01-27,Portal B2B,Completado,515.40
+399,O00399,70,3,16,2026-02-02,Orden de compra,Pendiente,70.40
+400,O00400,150,3,4,2026-05-20,Feria internacional,Completado,450.57
+401,O00401,151,6,5,2026-02-06,Contrato exportador,Cancelado,352.15
+402,O00402,179,6,27,2026-02-21,Portal B2B,Completado,121.29
+403,O00403,56,3,16,2026-04-02,Orden de compra,Pendiente,424.40
+404,O00404,6,4,18,2026-02-26,Feria internacional,Completado,286.72
+405,O00405,199,3,17,2026-05-23,Contrato exportador,Completado,346.00
+406,O00406,155,1,20,2026-01-25,Portal B2B,Pendiente,415.00
+407,O00407,159,5,21,2026-06-14,Orden de compra,Completado,487.20
+408,O00408,199,5,22,2026-04-09,Feria internacional,Observado,571.00
+409,O00409,171,4,30,2026-03-12,Contrato exportador,Observado,250.92
+410,O00410,138,4,25,2026-02-24,Portal B2B,Completado,269.20
+411,O00411,29,2,16,2026-01-05,Orden de compra,Pendiente,325.68
+412,O00412,110,2,27,2026-06-17,Feria internacional,Completado,52.00
+413,O00413,33,2,10,2026-03-19,Contrato exportador,Completado,543.00
+414,O00414,113,3,35,2026-03-20,Portal B2B,Completado,452.00
+415,O00415,75,4,12,2026-05-19,Orden de compra,Completado,510.80
+416,O00416,142,3,7,2026-02-03,Feria internacional,Completado,459.60
+417,O00417,121,3,26,2026-04-02,Contrato exportador,Pendiente,408.00
+418,O00418,138,6,24,2026-03-12,Portal B2B,Pendiente,100.00
+419,O00419,125,6,30,2026-01-03,Orden de compra,Completado,216.00
+420,O00420,172,6,36,2026-06-21,Feria internacional,Completado,274.88
+421,O00421,72,2,3,25/04/2026,Contrato exportador,Pendiente,500.66
+422,O00422,157,4,,2026-03-27,Portal B2B,Completado,127.20
+423,O00423,197,1,1,2026-01-02,Orden de compra,Pendiente,348.80
+424,O00424,118,3,,2026-06-07,Feria internacional,Observado,216.00
+425,O00425,4,6,8,2026-01-04,Contrato exportador,Completado,5916.62
+426,O00426,103,2,,2026-06-23,Portal B2B,Completado,186.00
+427,O00427,90,2,37,2026-01-19,Orden de compra,Completado,197.60
+428,O00428,98,6,30,2026-02-04,Feria internacional,Completado,648.00
+429,O00429,197,1,7,2026-06-14,Contrato exportador,Completado,531.75
+430,O00430,112,3,3,2026-04-01,Portal B2B,Pendiente,347.20
+431,O00431,23,3,20,2026-06-08,Orden de compra,Pendiente,293.00
+432,O00432,152,1,29,2026-03-27,Feria internacional,Completado,163.60
+433,O00433,160,4,13,2026-05-24,Contrato exportador,Completado,145.20
+434,O00434,73,1,4,2026-04-06,Portal B2B,Completado,232.40
+435,O00435,172,1,33,2026-05-06,Orden de compra,Cancelado,176.20
+436,O00436,119,3,26,2026-05-05,Feria internacional,Completado,511.28
+437,O00437,115,5,32,2026-03-02,Contrato exportador,Pendiente,619.60
+438,O00438,36,6,7,2026-01-22,Portal B2B,Observado,275.00
+439,O00439,123,3,35,2026-03-03,Orden de compra,Completado,543.60
+440,O00440,57,4,8,2026-02-01,Feria internacional,Completado,243.20
+441,O00441,17,6,,2026-04-05,Contrato exportador,Completado,220.00
+442,O00442,9197,5,8,2026-04-28,Portal B2B,Cancelado,397.00
+443,O00443,100,3,25,2026-05-14,Orden de compra,Completado,350.00
+444,O00444,100,3,20,2026-02-01,Feria internacional,Completado,510.52
+445,O00445,38,6,2,2026-05-18,Contrato exportador,Cancelado,494.40
+446,O00446,18,6,22,03/01/2026,Portal B2B,Completado,269.60
+447,O00447,138,6,7,25/01/2026,Orden de compra,Completado,84.00
+448,O00448,4,2,6,2026-02-20,Feria internacional,Pendiente,501.46
+449,O00449,14,2,21,2026-02-24,Contrato exportador,Observado,62.80
+450,O00450,85,5,12,2026-05-12,Portal B2B,Completado,291.36
+451,O00451,199,1,7,2026-06-18,Orden de compra,Cancelado,253.00
+452,O00452,36,5,21,2026-03-26,Feria internacional,Completado,276.00
+453,O00453,17,1,20,2026-04-07,Contrato exportador,Completado,132.00
+454,O00454,69,5,26,2026-04-03,Portal B2B,Completado,281.60
+455,O00455,36,4,36,2026-03-02,Orden de compra,Completado,88.00
+456,O00456,184,1,16,2026-01-22,Feria internacional,Pendiente,610.80
+457,O00457,51,5,26,2026-02-09,Contrato exportador,Completado,431.44
+458,O00458,54,6,23,2026-01-17,Portal B2B,Pendiente,1360.83
+459,O00459,32,5,28,2026-06-14,Orden de compra,Completado,325.70
+460,O00460,92,6,14,2026-03-02,Feria internacional,Pendiente,534.00
+461,O00461,94,1,24,2026-05-24,Contrato exportador,Completado,419.98
+462,O00462,161,2,37,2026-06-03,Portal B2B,Completado,338.80
+463,O00463,154,5,15,2026-03-13,Orden de compra,Observado,256.00
+464,O00464,31,5,19,2026-06-04,Feria internacional,Pendiente,517.20
+465,O00465,176,1,17,05/06/2026,Contrato exportador,Completado,32.00
+466,O00466,179,2,37,2026-05-05,Portal B2B,Completado,415.80
+467,O00467,119,1,16,2026-06-06,Orden de compra,Completado,253.20
+468,O00468,7,4,24,2026-06-04,Feria internacional,Completado,232.00
+469,O00469,157,3,15,2026-02-10,Contrato exportador,Observado,664.40
+470,O00470,31,1,27,2026-02-05,Portal B2B,Observado,450.00
+471,O00471,172,1,33,2026-01-23,Orden de compra,Completado,83.60
+472,O00472,6,4,40,2026-02-25,Feria internacional,Completado,376.02
+473,O00473,143,1,25,11/03/2026,Contrato exportador,Completado,439.37
+474,O00474,5,6,23,2026-02-14,Portal B2B,Completado,353.66
+475,O00475,54,6,13,2026-02-01,Orden de compra,Cancelado,204.00
+476,O00476,68,1,16,2026-05-24,Feria internacional,Completado,4477.85
+477,O00477,73,4,14,2026-03-27,Contrato exportador,Cancelado,253.20
+478,O00478,104,6,22,2026-01-11,Portal B2B,Completado,299.40
+479,O00479,60,1,7,2026-02-01,Orden de compra,Observado,184.80
+480,O00480,63,2,26,2026-05-10,Feria internacional,Completado,16.00
+481,O00481,24,2,39,2026-04-12,Contrato exportador,Completado,140.80
+482,O00482,175,1,35,2026-01-06,Portal B2B,Cancelado,361.00
+483,O00483,191,1,10,2026-05-15,Orden de compra,Cancelado,336.14
+484,O00484,42,6,39,2026-04-16,Feria internacional,Pendiente,637.00
+485,O00485,20,2,2,2026-01-08,Contrato exportador,Completado,290.40
+486,O00486,45,5,25,2026-03-10,Portal B2B,Pendiente,336.00
+487,O00487,147,6,6,2026-06-28,Orden de compra,Pendiente,1928.06
+488,O00488,71,2,3,2026-01-09,Feria internacional,Pendiente,1422.49
+489,O00489,57,6,34,2026-06-26,Contrato exportador,Completado,466.80
+490,O00490,83,1,14,2026-02-27,Portal B2B,Observado,5977.99
+491,O00491,89,3,33,2026-05-21,Orden de compra,Pendiente,330.00
+492,O00492,143,3,18,2026-02-07,Feria internacional,Completado,64.00
+493,O00493,100,4,11,2026-03-11,Contrato exportador,Completado,303.20
+494,O00494,73,3,16,2026-02-21,Portal B2B,Pendiente,237.84
+495,O00495,77,3,16,2026-03-19,Orden de compra,Cancelado,141.00
+496,O00496,80,3,13,2026-06-28,Feria internacional,Completado,586.00
+497,O00497,165,4,34,2026-06-12,Contrato exportador,Pendiente,501.20
+498,O00498,108,4,2,2026-02-06,Portal B2B,Pendiente,54.00
+499,O00499,82,3,17,2026-05-25,Orden de compra,Completado,396.79
+500,O00500,22,4,24,2026-03-16,Feria internacional,Cancelado,152.00
+501,O00501,98,3,2,2026-06-10,Contrato exportador,Completado,674.14
+502,O00502,2,3,23,2026-05-03,Portal B2B,Completado,407.19
+503,O00503,101,1,10,2026-04-07,Orden de compra,Completado,8611.5
+504,O00504,88,1,1,12/01/2026,Feria internacional,Pendiente,513.60
+505,O00505,135,2,5,2026-05-20,Contrato exportador,Completado,192.80
+506,O00506,27,1,2,2026-01-02,Portal B2B,Pendiente,136.00
+507,O00507,139,6,27,2026-01-23,Orden de compra,Cancelado,278.40
+508,O00508,114,4,34,2026-01-24,Feria internacional,Completado,2103.97
+509,O00509,121,5,40,2026-02-16,Contrato exportador,Completado,376.60
+510,O00510,70,4,20,2026-06-14,Portal B2B,Completado,656.96
+511,O00511,16,2,5,2026-06-09,Orden de compra,Completado,1035.80
+512,O00512,198,4,10,2026-02-14,Feria internacional,Cancelado,151.20
+513,O00513,133,2,40,2026-04-01,Contrato exportador,Completado,597.70
+514,O00514,75,4,24,2026-06-07,Portal B2B,Observado,108.46
+515,O00515,131,1,23,2026-01-15,Orden de compra,Completado,283.58
+516,O00516,87,1,38,2026-06-14,Feria internacional,Completado,108.00
+517,O00517,5,1,19,2026-02-19,Contrato exportador,Completado,368.00
+518,O00518,33,5,13,2026-06-12,Portal B2B,Pendiente,105.60
+519,O00519,114,3,14,12/03/2026,Orden de compra,Completado,136.00
+520,O00520,190,5,37,2026-03-19,Feria internacional,Completado,84.00
+521,O00521,181,3,9,2026-05-23,Contrato exportador,Pendiente,653.80
+522,O00522,53,6,38,2026-01-15,Portal B2B,Completado,266.00
+523,O00523,24,3,30,2026-06-17,Orden de compra,Completado,194.40
+524,O00524,198,1,7,2026-03-14,Feria internacional,Completado,125.40
+525,O00525,198,6,6,2026-04-19,Contrato exportador,Completado,114.96
+526,O00526,12,4,29,2026-04-14,Portal B2B,Completado,6066.86
+527,O00527,23,5,24,2026-04-09,Orden de compra,Completado,415.06
+528,O00528,95,5,19,2026-01-27,Feria internacional,Completado,896.00
+529,O00529,74,5,11,2026-04-24,Contrato exportador,Completado,2102.78
+530,O00530,181,2,25,2026-04-19,Portal B2B,Completado,430.00
+531,O00531,11,2,7,2026-04-10,Orden de compra,Completado,352.86
+532,O00532,107,3,33,2026-03-17,Feria internacional,Observado,487.38
+533,O00533,74,6,27,2026-03-26,Contrato exportador,Cancelado,82.80
+534,O00534,107,2,33,2026-02-06,Portal B2B,Pendiente,520.08
+535,O00535,87,3,36,2026-03-03,Orden de compra,Cancelado,325.29
+536,O00536,83,5,37,13/02/2026,Feria internacional,Completado,105.20
+537,O00537,155,2,26,2026-06-03,Contrato exportador,Completado,397.20
+538,O00538,88,4,20,2026-06-18,Portal B2B,Cancelado,503.26
+539,O00539,3,5,21,2026-02-09,Orden de compra,Pendiente,168.00
+540,O00540,56,2,1,2026-03-09,Feria internacional,Completado,20.00
+541,O00541,82,5,26,2026-06-11,Contrato exportador,Completado,2551.26
+542,O00542,128,2,39,2026-04-05,Portal B2B,Cancelado,164.00
+543,O00543,9,3,36,2026-01-06,Orden de compra,Completado,242.00
+544,O00544,163,3,14,2026-04-23,Feria internacional,Pendiente,325.00
+545,O00545,94,4,3,06/05/2026,Contrato exportador,Completado,381.60
+546,O00546,28,5,38,2026-05-16,Portal B2B,Pendiente,357.28
+547,O00547,29,5,38,2026-06-13,Orden de compra,Observado,282.34
+548,O00548,81,5,8,2026-01-05,Feria internacional,Observado,396.80
+549,O00549,148,6,15,18/05/2026,Contrato exportador,Completado,160.40
+550,O00550,169,1,22,2026-03-09,Portal B2B,Completado,496.00
+551,O00551,182,4,9,2026-01-22,Orden de compra,Pendiente,379.06
+552,O00552,126,5,19,2026-03-21,Feria internacional,Cancelado,44.00
+553,O00553,91,4,40,2026-01-19,Contrato exportador,Completado,22.80
+554,O00554,105,5,36,2026-05-24,Portal B2B,Pendiente,222.00
+555,O00555,100,5,1,2026-04-16,Orden de compra,Observado,120.00
+556,O00556,38,5,9,2026-05-08,Feria internacional,Pendiente,156.40
+557,O00557,151,2,13,2026-01-02,Contrato exportador,Completado,673.92
+558,O00558,124,3,8,23/04/2026,Portal B2B,Completado,-737.64
+559,O00559,20,3,1,2026-03-03,Orden de compra,Completado,215.96
+560,O00560,145,2,33,2026-05-26,Feria internacional,Observado,402.17
+561,O00561,136,5,29,2026-06-24,Contrato exportador,Pendiente,1075.47
+562,O00562,120,4,31,2026-01-18,Portal B2B,Completado,53.20
+563,O00563,155,3,25,2026-02-18,Orden de compra,Completado,427.20
+564,O00564,131,6,31,2026-06-09,Feria internacional,Completado,278.80
+565,O00565,177,3,21,2026-03-23,Contrato exportador,Cancelado,252.00
+566,O00566,178,1,11,2026-04-18,Portal B2B,Pendiente,342.00
+567,O00567,39,4,17,2026-03-13,Orden de compra,Completado,582.12
+568,O00568,99,2,22,2026-03-15,Feria internacional,Completado,407.40
+569,O00569,72,5,34,2026-02-03,Contrato exportador,Completado,476.80
+570,O00570,181,5,21,14/05/2026,Portal B2B,Completado,44.00
+571,O00571,129,1,27,2026-01-11,Orden de compra,Completado,334.80
+572,O00572,109,2,25,2026-06-02,Feria internacional,Completado,369.23
+573,O00573,165,5,14,2026-04-22,Contrato exportador,Pendiente,512.00
+574,O00574,86,3,32,2026-01-10,Portal B2B,Completado,170.40
+575,O00575,27,2,39,2026-02-23,Orden de compra,Completado,144.80
+576,O00576,105,6,1,2026-01-05,Feria internacional,Cancelado,226.00
+577,O00577,198,5,35,2026-06-04,Contrato exportador,Pendiente,636.15
+578,O00578,142,4,26,21/05/2026,Portal B2B,Pendiente,362.40
+579,O00579,66,4,26,2026-02-05,Orden de compra,Observado,140.00
+580,O00580,127,3,8,2026-05-26,Feria internacional,Completado,194.20
+581,O00581,157,2,5,2026-05-28,Contrato exportador,Completado,42.00
+582,O00582,54,3,37,25/02/2026,Portal B2B,Completado,739.96
+583,O00583,171,2,11,2026-04-05,Orden de compra,Cancelado,381.89
+584,O00584,44,4,7,2026-03-03,Feria internacional,Cancelado,446.40
+585,O00585,155,6,28,2026-06-28,Contrato exportador,Completado,275.30
+586,O00586,133,5,34,2026-04-07,Portal B2B,Completado,380.12
+587,O00587,102,1,31,2026-05-07,Orden de compra,Completado,358.00
+588,O00588,101,4,27,2026-04-17,Feria internacional,Completado,610.00
+589,O00589,61,3,15,2026-03-15,Contrato exportador,Completado,585.60
+590,O00590,171,6,32,2026-05-21,Portal B2B,Cancelado,18.00
+591,O00591,141,2,22,2026-06-18,Orden de compra,Completado,168.80
+592,O00592,147,1,29,2026-03-06,Feria internacional,Cancelado,329.92
+593,O00593,112,3,40,2026-05-08,Contrato exportador,Completado,110.40
+594,O00594,198,6,1,2026-04-17,Portal B2B,Completado,83.60
+595,O00595,7,5,27,2026-04-18,Orden de compra,Completado,159.34
+596,O00596,184,3,34,2026-04-10,Feria internacional,Observado,406.00
+597,O00597,150,1,29,2026-05-23,Contrato exportador,Completado,108.00
+598,O00598,82,3,7,2026-05-27,Portal B2B,Observado,50.40
+599,O00599,16,4,28,2026-03-12,Orden de compra,Completado,357.00
+600,O00600,187,3,36,2026-03-08,Feria internacional,Completado,132.00
+601,O00601,59,5,25,2026-05-03,Contrato exportador,Completado,850.40
+602,O00602,179,4,27,03/03/2026,Portal B2B,Cancelado,440.00
+603,O00603,50,5,29,2026-05-06,Orden de compra,Observado,228.00
+604,O00604,105,4,3,2026-01-28,Feria internacional,Observado,11901.76
+605,O00605,114,6,24,2026-04-12,Contrato exportador,Completado,167.80
+606,O00606,80,1,7,2026-01-08,Portal B2B,Observado,618.48
+607,O00607,130,4,26,2026-03-08,Orden de compra,Completado,678.00
+608,O00608,98,5,8,2026-01-02,Feria internacional,Completado,192.55
+609,O00609,158,1,10,2026-03-23,Contrato exportador,Cancelado,325.60
+610,O00610,149,1,1,2026-04-18,Portal B2B,Pendiente,233.68
+611,O00611,9,2,20,2026-03-02,Orden de compra,Completado,257.40
+612,O00612,134,6,29,2026-02-14,Feria internacional,Observado,4228.49
+613,O00613,114,5,3,2026-05-24,Contrato exportador,Observado,633.57
+614,O00614,199,4,11,2026-06-06,Portal B2B,Observado,528.40
+615,O00615,58,1,4,2026-05-11,Orden de compra,Pendiente,497.31
+616,O00616,46,5,18,2026-04-04,Feria internacional,Completado,338.80
+617,O00617,127,2,35,2026-02-21,Contrato exportador,Completado,118.72
+618,O00618,36,6,32,09/05/2026,Portal B2B,Pendiente,472.40
+619,O00619,147,6,13,2026-01-20,Orden de compra,Completado,403.60
+620,O00620,117,4,22,2026-01-18,Feria internacional,Completado,36.00
+621,O00621,6,6,15,2026-05-05,Contrato exportador,Completado,578.40
+622,O00622,5,2,26,2026-05-12,Portal B2B,Completado,450.00
+623,O00623,155,4,34,2026-01-02,Orden de compra,Completado,114.00
+624,O00624,163,6,29,2026-04-17,Feria internacional,Pendiente,356.80
+625,O00625,192,3,18,2026-06-07,Contrato exportador,Completado,208.00
+626,O00626,90,6,1,2026-01-19,Portal B2B,Completado,252.48
+627,O00627,101,4,13,2026-06-20,Orden de compra,Pendiente,781.80
+628,O00628,9274,2,25,2026-05-23,Feria internacional,Completado,3757.91
+629,O00629,168,2,14,2026-01-04,Contrato exportador,Completado,376.20
+630,O00630,100,2,20,2026-03-09,Portal B2B,Completado,180.00
+631,O00631,160,1,27,2026-01-04,Orden de compra,Observado,208.40
+632,O00632,128,3,23,2026-01-12,Feria internacional,Completado,5501.36
+633,O00633,96,6,4,2026-02-24,Contrato exportador,Completado,615.56
+634,O00634,186,3,9,2026-03-16,Portal B2B,Observado,698.86
+635,O00635,37,3,26,2026-06-23,Orden de compra,Completado,668.18
+636,O00636,2,6,36,2026-05-03,Feria internacional,Completado,348.00
+637,O00637,189,4,3,2026-06-10,Contrato exportador,Cancelado,100.00
+638,O00638,166,1,8,2026-01-25,Portal B2B,Completado,827.28
+639,O00639,131,4,23,2026-04-03,Orden de compra,Cancelado,315.40
+640,O00640,182,3,28,2026-05-13,Feria internacional,Completado,389.60
+641,O00641,14,6,11,2026-05-04,Contrato exportador,Completado,28.00
+642,O00642,9590,6,17,2026-04-09,Portal B2B,Completado,362.00
+643,O00643,26,6,26,2026-04-06,Orden de compra,Cancelado,5646.76
+644,O00644,18,5,35,2026-01-23,Feria internacional,Observado,561.29
+645,O00645,85,5,4,2026-03-12,Contrato exportador,Pendiente,150.40
+646,O00646,142,5,29,2026-03-03,Portal B2B,Pendiente,229.35
+647,O00647,120,5,12,2026-02-04,Orden de compra,Completado,44.00
+648,O00648,39,2,5,2026-01-15,Feria internacional,Cancelado,1045.9
+649,O00649,149,6,34,2026-03-05,Contrato exportador,Completado,2269.82
+650,O00650,42,5,31,2026-02-24,Portal B2B,Pendiente,333.64
+651,O00651,98,1,20,2026-02-12,Orden de compra,Completado,156.40
+652,O00652,147,1,3,2026-05-09,Feria internacional,Completado,288.80
+653,O00653,53,6,6,2026-01-18,Contrato exportador,Completado,637.20
+654,O00654,37,5,9,2026-04-16,Portal B2B,Completado,359.40
+655,O00655,55,4,6,2026-02-16,Orden de compra,Completado,50.40
+656,O00656,172,6,27,2026-02-04,Feria internacional,Pendiente,230.40
+657,O00657,124,3,28,2026-02-27,Contrato exportador,Cancelado,495.00
+658,O00658,130,4,21,2026-03-08,Portal B2B,Completado,569.90
+659,O00659,136,2,1,14/04/2026,Orden de compra,Completado,446.12
+660,O00660,64,4,5,2026-01-28,Feria internacional,Completado,82.80
+661,O00661,174,4,5,2026-04-06,Contrato exportador,Completado,742.08
+662,O00662,134,1,21,2026-04-07,Portal B2B,Pendiente,129.60
+663,O00663,179,4,27,2026-03-20,Orden de compra,Completado,461.00
+664,O00664,141,2,7,2026-06-19,Feria internacional,Cancelado,271.20
+665,O00665,123,1,12,2026-06-17,Contrato exportador,Completado,250.89
+666,O00666,52,5,6,2026-01-12,Portal B2B,Completado,287.60
+667,O00667,97,6,2,2026-01-27,Orden de compra,Completado,114.40
+668,O00668,65,5,12,03/06/2026,Feria internacional,Cancelado,244.00
+669,O00669,13,6,11,2026-01-26,Contrato exportador,Completado,360.00
+670,O00670,58,1,6,2026-05-22,Portal B2B,Observado,292.00
+671,O00671,131,6,39,2026-03-06,Orden de compra,Observado,622.40
+672,O00672,183,5,4,2026-01-02,Feria internacional,Completado,300.00
+673,O00673,115,4,22,2026-03-19,Contrato exportador,Pendiente,144.00
+674,O00674,81,4,20,2026-06-16,Portal B2B,Observado,22.00
+675,O00675,199,3,36,2026-06-10,Orden de compra,Cancelado,168.80
+676,O00676,80,1,33,2026-06-28,Feria internacional,Pendiente,260.40
+677,O00677,1,2,16,2026-01-22,Contrato exportador,Completado,178.08
+678,O00678,25,6,10,2026-04-28,Portal B2B,Completado,186.40
+679,O00679,197,5,29,2026-06-14,Orden de compra,Cancelado,379.52
+680,O00680,108,5,12,2026-02-12,Feria internacional,Observado,799.00
+681,O00681,165,4,14,2026-01-07,Contrato exportador,Observado,358.20
+682,O00682,132,3,31,2026-02-22,Portal B2B,Completado,526.00
+683,O00683,23,3,1,2026-01-01,Orden de compra,Cancelado,1501.42
+684,O00684,51,4,28,2026-01-23,Feria internacional,Pendiente,940.80
+685,O00685,16,4,15,2026-05-22,Contrato exportador,Completado,422.00
+686,O00686,81,6,39,2026-06-14,Portal B2B,Completado,499.20
+687,O00687,24,1,,2026-02-12,Orden de compra,Observado,386.97
+688,O00688,144,6,19,2026-04-28,Feria internacional,Completado,261.72
+689,O00689,161,3,15,2026-01-26,Contrato exportador,Completado,221.80
+690,O00690,97,2,,2026-03-26,Portal B2B,Completado,280.06
+691,O00691,174,2,9,2026-04-18,Orden de compra,Completado,636.88
+692,O00692,8,1,16,2026-01-10,Feria internacional,Observado,232.36
+693,O00693,61,3,8,22/03/2026,Contrato exportador,Completado,2332.41
+694,O00694,2,4,19,2026-06-26,Portal B2B,Completado,341.94
+695,O00695,178,2,29,2026-02-02,Orden de compra,Pendiente,662.80
+696,O00696,106,5,21,2026-01-10,Feria internacional,Pendiente,425.80
+697,O00697,19,6,6,2026-01-16,Contrato exportador,Completado,345.16
+698,O00698,146,6,19,2026-04-17,Portal B2B,Completado,301.86
+699,O00699,101,1,34,2026-01-03,Orden de compra,Completado,518.00
+700,O00700,75,5,18,2026-04-11,Feria internacional,Observado,-3173.64
+701,O00701,63,4,21,2026-05-02,Contrato exportador,Cancelado,396.00
+702,O00702,117,4,30,12/02/2026,Portal B2B,Observado,552.00
+703,O00703,134,2,40,10/01/2026,Orden de compra,Completado,330.60
+704,O00704,108,6,7,2026-03-26,Feria internacional,Pendiente,517.80
+705,O00705,21,6,5,2026-04-02,Contrato exportador,Completado,308.40
+706,O00706,175,6,33,2026-01-27,Portal B2B,Cancelado,520.40
+707,O00707,169,4,5,2026-05-28,Orden de compra,Completado,165.12
+708,O00708,44,5,20,2026-03-25,Feria internacional,Cancelado,408.00
+709,O00709,59,4,21,2026-06-26,Contrato exportador,Pendiente,199.23
+710,O00710,158,5,11,2026-06-11,Portal B2B,Completado,432.12
+711,O00711,28,4,5,21/05/2026,Orden de compra,Completado,1995.11
+712,O00712,113,6,14,2026-01-17,Feria internacional,Completado,526.78
+713,O00713,174,4,35,19/02/2026,Contrato exportador,Observado,623.00
+714,O00714,8,3,15,2026-06-19,Portal B2B,Cancelado,330.40
+715,O00715,108,4,40,2026-05-10,Orden de compra,Completado,462.40
+716,O00716,28,4,34,13/05/2026,Feria internacional,Pendiente,171.60
+717,O00717,48,3,33,14/05/2026,Contrato exportador,Completado,584.20
+718,O00718,9021,3,31,2026-01-18,Portal B2B,Completado,327.00
+719,O00719,187,1,15,2026-04-24,Orden de compra,Completado,316.80
+720,O00720,150,4,28,2026-03-17,Feria internacional,Observado,156.08
+721,O00721,161,1,38,2026-03-19,Contrato exportador,Completado,55.20
+722,O00722,191,1,17,2026-03-14,Portal B2B,Completado,316.24
+723,O00723,9817,6,7,2026-06-21,Orden de compra,Completado,83.60
+724,O00724,41,1,40,2026-03-17,Feria internacional,Completado,3501.79
+725,O00725,170,2,29,2026-01-04,Contrato exportador,Pendiente,367.60
+726,O00726,94,2,11,2026-05-22,Portal B2B,Pendiente,470.40
+727,O00727,33,2,32,22/06/2026,Orden de compra,Completado,84.00
+728,O00728,27,3,40,2026-04-04,Feria internacional,Pendiente,240.74
+729,O00729,46,6,6,2026-05-18,Contrato exportador,Completado,298.80
+730,O00730,99,1,26,2026-04-23,Portal B2B,Cancelado,644.00
+731,O00731,182,5,39,2026-04-24,Orden de compra,Cancelado,375.00
+732,O00732,2,3,11,2026-06-26,Feria internacional,Pendiente,240.00
+733,O00733,81,3,9,2026-06-27,Contrato exportador,Pendiente,604.40
+734,O00734,16,6,25,2026-01-17,Portal B2B,Completado,726.00
+735,O00735,27,2,,2026-01-25,Orden de compra,Cancelado,286.12
+736,O00736,111,6,22,2026-01-08,Feria internacional,Completado,759.20
+737,O00737,190,6,35,24/05/2026,Contrato exportador,Pendiente,752.80
+738,O00738,197,4,,2026-06-28,Portal B2B,Completado,488.72
+739,O00739,137,1,16,2026-04-22,Orden de compra,Completado,541.80
+740,O00740,170,5,5,2026-06-11,Feria internacional,Completado,644.40
+741,O00741,5,3,7,22/02/2026,Contrato exportador,Completado,148.40
+742,O00742,74,5,11,2026-02-08,Portal B2B,Cancelado,801.60
+743,O00743,170,2,13,2026-03-06,Orden de compra,Completado,290.37
+744,O00744,148,5,17,11/01/2026,Feria internacional,Completado,584.60
+745,O00745,144,4,21,2026-05-17,Contrato exportador,Pendiente,96.80
+746,O00746,132,1,23,17/06/2026,Portal B2B,Completado,661.04
+747,O00747,166,1,11,2026-05-09,Orden de compra,Completado,505.00
+748,O00748,8,4,36,2026-01-27,Feria internacional,Completado,414.80
+749,O00749,128,3,36,2026-01-04,Contrato exportador,Observado,167.63
+750,O00750,48,2,30,2026-05-06,Portal B2B,Pendiente,138.00
+751,O00751,138,5,20,2026-04-03,Orden de compra,Completado,435.18
+752,O00752,42,6,35,2026-06-28,Feria internacional,Pendiente,242.58
+753,O00753,131,1,7,2026-05-13,Contrato exportador,Completado,72.00
+754,O00754,99,2,25,2026-02-12,Portal B2B,Cancelado,482.00
+755,O00755,85,5,5,2026-04-20,Orden de compra,Completado,552.00
+756,O00756,104,3,11,2026-06-02,Feria internacional,Completado,520.12
+757,O00757,101,4,36,2026-03-18,Contrato exportador,Pendiente,238.60
+758,O00758,188,5,30,27/06/2026,Portal B2B,Pendiente,332.00
+759,O00759,40,4,39,2026-04-05,Orden de compra,Completado,464.80
+760,O00760,198,6,27,2026-05-03,Feria internacional,Completado,281.60
+761,O00761,117,6,21,2026-02-24,Contrato exportador,Completado,292.80
+762,O00762,127,4,5,2026-01-11,Portal B2B,Pendiente,345.80
+763,O00763,140,5,26,2026-04-03,Orden de compra,Pendiente,440.00
+764,O00764,39,5,25,2026-06-03,Feria internacional,Cancelado,138.00
+765,O00765,30,2,8,2026-02-16,Contrato exportador,Cancelado,483.20
+766,O00766,81,1,26,2026-01-09,Portal B2B,Cancelado,249.60
+767,O00767,75,2,25,2026-01-23,Orden de compra,Observado,140.00
+768,O00768,79,6,39,2026-04-27,Feria internacional,Completado,872.72
+769,O00769,90,3,39,2026-03-28,Contrato exportador,Observado,234.00
+770,O00770,59,2,14,2026-03-28,Portal B2B,Cancelado,615.00
+771,O00771,124,2,10,2026-05-14,Orden de compra,Completado,193.60
+772,O00772,12,4,32,2026-06-27,Feria internacional,Completado,431.20
+773,O00773,153,6,36,2026-04-26,Contrato exportador,Completado,582.89
+774,O00774,38,3,33,2026-05-22,Portal B2B,Completado,393.12
+775,O00775,15,3,1,2026-04-16,Orden de compra,Completado,823.68
+776,O00776,56,5,1,2026-05-04,Feria internacional,Completado,72.00
+777,O00777,85,4,26,2026-01-08,Contrato exportador,Completado,91.98
+778,O00778,9,1,9,2026-04-17,Portal B2B,Completado,418.89
+779,O00779,42,4,17,2026-05-04,Orden de compra,Completado,130.74
+780,O00780,78,4,37,2026-01-01,Feria internacional,Completado,518.00
+781,O00781,95,3,14,2026-01-03,Contrato exportador,Cancelado,269.20
+782,O00782,22,2,18,28/06/2026,Portal B2B,Pendiente,244.00
+783,O00783,56,3,16,2026-04-11,Orden de compra,Completado,437.39
+784,O00784,119,3,9,2026-03-19,Feria internacional,Cancelado,265.58
+785,O00785,24,3,21,2026-06-15,Contrato exportador,Completado,-1657.78
+786,O00786,8,2,1,2026-02-23,Portal B2B,Completado,300.49
+787,O00787,186,6,28,2026-04-26,Orden de compra,Completado,252.00
+788,O00788,97,1,31,2026-02-10,Feria internacional,Pendiente,68.40
+789,O00789,128,3,12,2026-04-14,Contrato exportador,Completado,145.20
+790,O00790,154,6,27,2026-04-13,Portal B2B,Completado,290.08
+791,O00791,13,3,5,2026-05-23,Orden de compra,Cancelado,352.40
+792,O00792,29,5,4,03/05/2026,Feria internacional,Completado,395.20
+793,O00793,37,1,3,2026-06-04,Contrato exportador,Cancelado,315.58
+794,O00794,200,1,33,2026-01-17,Portal B2B,Cancelado,110.40
+795,O00795,182,3,39,2026-03-07,Orden de compra,Cancelado,16.00
+796,O00796,31,6,13,2026-01-09,Feria internacional,Pendiente,485.80
+797,O00797,69,4,21,2026-05-21,Contrato exportador,Observado,2941.34
+798,O00798,83,4,19,2026-01-17,Portal B2B,Completado,271.20
+799,O00799,136,6,34,2026-04-11,Orden de compra,Completado,314.40
+800,O00800,133,2,37,2026-06-18,Feria internacional,Observado,486.52
+801,O00801,23,5,22,2026-03-24,Contrato exportador,Completado,500.40
+802,O00802,19,5,15,2026-04-11,Portal B2B,Completado,362.40
+803,O00803,27,1,35,2026-04-03,Orden de compra,Cancelado,731.20
+804,O00804,165,5,1,2026-01-23,Feria internacional,Completado,327.60
+805,O00805,81,3,34,2026-01-18,Contrato exportador,Pendiente,85.60
+806,O00806,157,1,11,2026-02-15,Portal B2B,Observado,167.20
+807,O00807,185,4,7,2026-04-13,Orden de compra,Completado,6661.1
+808,O00808,170,2,2,2026-06-06,Feria internacional,Cancelado,410.86
+809,O00809,157,3,15,2026-04-04,Contrato exportador,Cancelado,223.20
+810,O00810,173,3,32,2026-04-15,Portal B2B,Observado,261.60
+811,O00811,20,2,31,2026-05-21,Orden de compra,Completado,569.60
+812,O00812,180,1,8,2026-04-10,Feria internacional,Pendiente,475.60
+813,O00813,191,2,26,2026-06-23,Contrato exportador,Completado,128.40
+814,O00814,169,6,8,2026-03-16,Portal B2B,Cancelado,233.44
+815,O00815,44,6,5,2026-05-06,Orden de compra,Observado,224.96
+816,O00816,189,4,36,13/06/2026,Feria internacional,Completado,165.18
+817,O00817,45,3,37,2026-04-16,Contrato exportador,Pendiente,343.80
+818,O00818,144,3,37,2026-01-09,Portal B2B,Cancelado,210.56
+819,O00819,161,4,8,2026-05-10,Orden de compra,Pendiente,180.80
+820,O00820,33,6,6,2026-03-09,Feria internacional,Completado,124.40
+821,O00821,42,6,,2026-01-14,Contrato exportador,Completado,129.60
+822,O00822,24,3,20,2026-05-27,Portal B2B,Pendiente,345.60
+823,O00823,107,5,12,2026-04-08,Orden de compra,Completado,526.87
+824,O00824,192,4,32,2026-05-13,Feria internacional,Cancelado,169.60
+825,O00825,9424,1,34,2026-04-14,Contrato exportador,Observado,280.52
+826,O00826,67,4,24,2026-01-22,Portal B2B,Observado,167.36
+827,O00827,130,2,7,2026-01-04,Orden de compra,Cancelado,277.20
+828,O00828,70,3,33,2026-01-15,Feria internacional,Completado,428.95
+829,O00829,45,5,11,2026-03-19,Contrato exportador,Completado,162.00
+830,O00830,76,2,6,2026-04-19,Portal B2B,Completado,44.00
+831,O00831,29,4,14,2026-05-17,Orden de compra,Completado,120.00
+832,O00832,8,6,8,2026-02-10,Feria internacional,Completado,509.20
+833,O00833,198,5,36,2026-02-15,Contrato exportador,Cancelado,225.00
+834,O00834,67,4,39,2026-05-07,Portal B2B,Cancelado,248.08
+835,O00835,133,6,35,2026-01-04,Orden de compra,Pendiente,287.00
+836,O00836,11,3,10,2026-05-05,Feria internacional,Pendiente,378.80
+837,O00837,130,4,32,2026-06-28,Contrato exportador,Completado,405.68
+838,O00838,2,3,31,19/06/2026,Portal B2B,Completado,479.00
+839,O00839,164,6,16,2026-02-24,Orden de compra,Cancelado,138.00
+840,O00840,147,2,39,2026-01-08,Feria internacional,Completado,586.60
+841,O00841,140,3,6,2026-05-10,Contrato exportador,Cancelado,292.20
+842,O00842,34,1,5,2026-05-21,Portal B2B,Observado,333.60
+843,O00843,79,4,36,2026-01-20,Orden de compra,Completado,3220.01
+844,O00844,72,4,21,2026-04-03,Feria internacional,Cancelado,225.00
+845,O00845,16,1,15,2026-04-14,Contrato exportador,Completado,682.95
+846,O00846,134,5,16,2026-02-15,Portal B2B,Completado,629.72
+847,O00847,114,4,9,2026-03-12,Orden de compra,Completado,2249.53
+848,O00848,46,1,40,2026-06-10,Feria internacional,Pendiente,-2645.59
+849,O00849,22,3,38,2026-04-21,Contrato exportador,Completado,562.88
+850,O00850,191,4,,2026-06-06,Portal B2B,Completado,140.80
+851,O00851,88,1,11,2026-03-24,Orden de compra,Completado,2874.57
+852,O00852,30,6,10,2026-06-23,Feria internacional,Completado,65.37
+853,O00853,72,5,4,2026-01-03,Contrato exportador,Completado,334.56
+854,O00854,116,1,4,2026-01-24,Portal B2B,Completado,193.60
+855,O00855,118,6,20,2026-03-04,Orden de compra,Pendiente,28.60
+856,O00856,38,6,19,2026-05-12,Feria internacional,Completado,796.36
+857,O00857,161,1,32,2026-04-26,Contrato exportador,Cancelado,473.23
+858,O00858,167,5,10,2026-02-12,Portal B2B,Cancelado,396.00
+859,O00859,33,4,33,2026-01-21,Orden de compra,Completado,283.60
+860,O00860,119,3,16,2026-03-12,Feria internacional,Completado,726.04
+861,O00861,190,4,20,2026-03-09,Contrato exportador,Cancelado,250.80
+862,O00862,136,2,,2026-03-04,Portal B2B,Completado,100.00
+863,O00863,109,5,4,2026-05-08,Orden de compra,Completado,455.80
+864,O00864,134,5,27,2026-04-04,Feria internacional,Cancelado,639.36
+865,O00865,100,2,35,2026-02-05,Contrato exportador,Pendiente,55.20
+866,O00866,7,2,18,2026-03-09,Portal B2B,Pendiente,625.80
+867,O00867,116,2,26,2026-04-13,Orden de compra,Cancelado,376.00
+868,O00868,8,5,9,2026-06-19,Feria internacional,Completado,601.60
+869,O00869,36,3,30,2026-03-01,Contrato exportador,Cancelado,252.00
+870,O00870,70,3,15,2026-05-01,Portal B2B,Completado,309.20
+871,O00871,110,5,31,2026-03-25,Orden de compra,Completado,87.16
+872,O00872,14,4,37,2026-02-26,Feria internacional,Completado,515.96
+873,O00873,54,4,34,2026-06-01,Contrato exportador,Completado,498.00
+874,O00874,21,5,25,2026-04-01,Portal B2B,Observado,390.98
+875,O00875,78,4,36,2026-04-10,Orden de compra,Observado,7704.51
+876,O00876,39,1,31,2026-05-22,Feria internacional,Pendiente,211.20
+877,O00877,169,4,31,2026-02-25,Contrato exportador,Completado,425.24
+878,O00878,193,2,11,2026-01-18,Portal B2B,Cancelado,112.00
+879,O00879,22,4,4,2026-06-21,Orden de compra,Completado,167.60
+880,O00880,53,2,28,2026-03-05,Feria internacional,Completado,461.00
+881,O00881,43,5,20,2026-01-14,Contrato exportador,Pendiente,556.00
+882,O00882,45,4,18,2026-06-27,Portal B2B,Completado,224.00
+883,O00883,125,4,2,2026-02-25,Orden de compra,Completado,84.00
+884,O00884,73,6,3,2026-03-20,Feria internacional,Cancelado,745.60
+885,O00885,4,2,16,2026-03-11,Contrato exportador,Completado,214.00
+886,O00886,112,5,26,2026-01-27,Portal B2B,Completado,534.98
+887,O00887,24,5,3,2026-03-28,Orden de compra,Completado,290.40
+888,O00888,162,6,3,2026-05-12,Feria internacional,Completado,398.82
+889,O00889,142,3,11,2026-06-20,Contrato exportador,Observado,236.40
+890,O00890,76,2,24,2026-04-12,Portal B2B,Completado,274.60
+891,O00891,154,6,5,2026-05-10,Orden de compra,Completado,114.40
+892,O00892,67,6,28,2026-01-11,Feria internacional,Completado,2399.45
+893,O00893,146,1,22,2026-02-04,Contrato exportador,Observado,568.95
+894,O00894,3,3,32,16/05/2026,Portal B2B,Pendiente,204.00
+895,O00895,197,4,4,2026-01-28,Orden de compra,Pendiente,86.00
+896,O00896,27,6,15,2026-02-28,Feria internacional,Observado,603.00
+897,O00897,148,6,2,2026-01-23,Contrato exportador,Completado,411.20
+898,O00898,197,6,35,2026-02-27,Portal B2B,Completado,154.08
+899,O00899,109,2,3,2026-01-07,Orden de compra,Completado,600.34
+900,O00900,69,2,13,2026-05-14,Feria internacional,Completado,300.00
+901,O00901,26,2,9,2026-04-01,Contrato exportador,Completado,561.43
+902,O00902,16,4,15,2026-05-02,Portal B2B,Completado,100.00
+903,O00903,127,1,23,2026-01-08,Orden de compra,Completado,132.62
+904,O00904,51,6,36,2026-01-06,Feria internacional,Cancelado,700.24
+905,O00905,159,5,1,2026-06-26,Contrato exportador,Cancelado,392.40
+906,O00906,189,4,29,2026-03-07,Portal B2B,Observado,661.00
+907,O00907,63,5,18,2026-06-26,Orden de compra,Pendiente,49.39
+908,O00908,42,5,25,2026-05-05,Feria internacional,Completado,689.66
+909,O00909,12,6,24,2026-06-13,Contrato exportador,Completado,1004.58
+910,O00910,9849,2,32,2026-06-09,Portal B2B,Completado,22.80
+911,O00911,142,2,21,2026-02-11,Orden de compra,Cancelado,264.00
+912,O00912,32,2,34,18/02/2026,Feria internacional,Pendiente,85.80
+913,O00913,193,6,31,2026-03-08,Contrato exportador,Completado,419.60
+914,O00914,70,1,40,23/01/2026,Portal B2B,Pendiente,442.12
+915,O00915,154,1,30,2026-03-18,Orden de compra,Completado,204.80
+916,O00916,191,4,39,2026-05-23,Feria internacional,Pendiente,524.40
+917,O00917,141,5,27,2026-01-07,Contrato exportador,Completado,266.40
+918,O00918,154,4,39,2026-04-14,Portal B2B,Completado,400.38
+919,O00919,13,6,1,2026-01-18,Orden de compra,Completado,722.00
+920,O00920,196,5,26,2026-05-14,Feria internacional,Completado,757.60
+921,O00921,96,3,1,2026-05-26,Contrato exportador,Completado,3831.5
+922,O00922,57,6,7,2026-01-05,Portal B2B,Cancelado,752.36
+923,O00923,171,4,24,17/04/2026,Orden de compra,Completado,-888.93
+924,O00924,113,5,9,2026-01-26,Feria internacional,Pendiente,818.36
+925,O00925,1,2,14,2026-02-09,Contrato exportador,Completado,80.00
+926,O00926,121,6,33,2026-02-23,Portal B2B,Completado,556.95
+927,O00927,64,2,36,2026-01-28,Orden de compra,Completado,256.36
+928,O00928,153,5,21,2026-06-04,Feria internacional,Completado,256.80
+929,O00929,73,6,1,2026-02-19,Contrato exportador,Completado,762.80
+930,O00930,164,5,14,2026-01-06,Portal B2B,Cancelado,348.00
+931,O00931,5,1,14,2026-03-01,Orden de compra,Completado,206.60
+932,O00932,115,1,3,2026-04-18,Feria internacional,Cancelado,817.20
+933,O00933,196,4,37,2026-04-11,Contrato exportador,Completado,125.68
+934,O00934,194,2,18,2026-06-11,Portal B2B,Completado,153.20
+935,O00935,98,1,14,2026-04-06,Orden de compra,Pendiente,497.70
+936,O00936,150,1,19,2026-02-28,Feria internacional,Completado,765.40
+937,O00937,153,6,,2026-06-10,Contrato exportador,Completado,548.60
+938,O00938,99,1,37,2026-04-13,Portal B2B,Completado,286.60
+939,O00939,146,2,1,2026-06-02,Orden de compra,Pendiente,210.80
+940,O00940,27,3,28,2026-04-21,Feria internacional,Cancelado,320.80
+941,O00941,6,5,35,2026-06-05,Contrato exportador,Pendiente,171.60
+942,O00942,49,6,27,17/03/2026,Portal B2B,Completado,581.60
+943,O00943,11,5,,2026-06-10,Orden de compra,Pendiente,44.00
+944,O00944,164,3,24,2026-01-16,Feria internacional,Cancelado,264.00
+945,O00945,184,4,32,2026-03-23,Contrato exportador,Completado,308.76
+946,O00946,196,5,2,2026-02-18,Portal B2B,Completado,65.37
+947,O00947,43,1,30,2026-04-05,Orden de compra,Completado,202.15
+948,O00948,180,5,29,2026-05-17,Feria internacional,Completado,595.20
+949,O00949,75,3,34,2026-02-12,Contrato exportador,Observado,56.00
+950,O00950,53,3,30,2026-05-09,Portal B2B,Cancelado,118.80
+951,O00951,157,2,36,2026-04-28,Orden de compra,Completado,330.00
+952,O00952,101,5,13,2026-06-04,Feria internacional,Completado,602.40
+953,O00953,132,2,38,2026-04-25,Contrato exportador,Observado,110.00
+954,O00954,180,3,34,2026-04-18,Portal B2B,Completado,150.40
+955,O00955,164,6,11,2026-02-23,Orden de compra,Completado,250.80
+956,O00956,9429,2,33,2026-04-26,Feria internacional,Completado,70.40
+957,O00957,73,2,33,2026-03-27,Contrato exportador,Observado,407.72
+958,O00958,83,4,13,2026-06-10,Portal B2B,Completado,417.60
+959,O00959,99,3,6,2026-02-05,Orden de compra,Cancelado,498.80
+960,O00960,65,4,9,2026-05-17,Feria internacional,Cancelado,768.80
+961,O00961,95,4,33,04/03/2026,Contrato exportador,Pendiente,176.00
+962,O00962,168,5,10,2026-05-11,Portal B2B,Completado,571.72
+963,O00963,112,2,21,2026-04-08,Orden de compra,Completado,496.72
+964,O00964,176,6,8,2026-03-20,Feria internacional,Cancelado,197.60
+965,O00965,39,5,8,2026-01-22,Contrato exportador,Completado,853.20
+966,O00966,196,6,40,2026-01-09,Portal B2B,Pendiente,335.60
+967,O00967,29,4,36,2026-05-22,Orden de compra,Completado,266.08
+968,O00968,58,4,32,2026-06-05,Feria internacional,Cancelado,180.00
+969,O00969,84,1,36,2026-03-08,Contrato exportador,Completado,28.00
+970,O00970,135,5,15,21/04/2026,Portal B2B,Completado,224.00
+971,O00971,133,2,2,2026-06-28,Orden de compra,Observado,251.20
+972,O00972,71,5,38,25/02/2026,Feria internacional,Completado,360.40
+973,O00973,62,2,11,2026-06-14,Contrato exportador,Observado,749.79
+974,O00974,126,6,35,2026-01-12,Portal B2B,Observado,434.40
+975,O00975,100,3,27,2026-03-26,Orden de compra,Cancelado,204.80
+976,O00976,9396,5,1,2026-04-10,Feria internacional,Completado,80.00
+977,O00977,8,2,36,2026-04-13,Contrato exportador,Completado,588.00
+978,O00978,99,4,18,2026-04-17,Portal B2B,Completado,432.00
+979,O00979,118,5,25,2026-04-28,Orden de compra,Completado,468.38
+980,O00980,60,3,33,2026-06-17,Feria internacional,Completado,719.82
+981,O00981,147,3,37,2026-01-11,Contrato exportador,Cancelado,467.20
+982,O00982,11,5,24,2026-04-24,Portal B2B,Completado,168.00
+983,O00983,4,1,2,2026-06-28,Orden de compra,Observado,544.00
+984,O00984,56,2,19,2026-04-07,Feria internacional,Pendiente,786.60
+985,O00985,131,1,7,2026-01-15,Contrato exportador,Completado,751.56
+986,O00986,119,2,1,03/06/2026,Portal B2B,Completado,218.74
+987,O00987,48,3,6,2026-04-25,Orden de compra,Completado,211.20
+988,O00988,70,2,35,04/06/2026,Feria internacional,Completado,375.00
+989,O00989,156,2,26,2026-01-14,Contrato exportador,Completado,56.00
+990,O00990,9550,2,38,2026-02-06,Portal B2B,Completado,530.72
+991,O00991,193,6,20,2026-05-01,Orden de compra,Completado,675.00
+992,O00992,117,4,28,2026-04-10,Feria internacional,Completado,84.00
+993,O00993,33,3,24,2026-06-06,Contrato exportador,Completado,84.00
+994,O00994,166,4,34,2026-01-07,Portal B2B,Pendiente,98.00
+995,O00995,140,2,5,2026-05-13,Orden de compra,Pendiente,614.00
+996,O00996,177,2,3,2026-04-12,Feria internacional,Completado,108.00
+997,O00997,10,2,6,2026-02-05,Contrato exportador,Completado,50.40
+998,O00998,121,6,7,2026-02-10,Portal B2B,Completado,290.40
+999,O00999,39,3,39,2026-05-22,Orden de compra,Completado,408.24
+1000,O01000,32,2,22,2026-01-02,Feria internacional,Completado,202.60
+1001,O01001,70,6,14,2026-04-15,Contrato exportador,Completado,4704.62
+1002,O01002,61,3,15,2026-03-15,Portal B2B,Completado,3147.99
+1003,O01003,18,6,22,2026-01-03,Orden de compra,Completado,3004.76
+1004,O01004,131,6,39,2026-03-06,Feria internacional,Observado,5718.08
+1005,O01005,116,3,1,2026-03-23,Contrato exportador,Completado,2524.49
+1006,O01006,151,2,32,2026-06-21,Portal B2B,Pendiente,5357.86
+1007,O01007,9,5,18,2026-03-10,Orden de compra,Completado,1001.27
+1008,O01008,116,1,4,2026-01-24,Feria internacional,Completado,2240.48
+1009,O01009,180,3,34,2026-04-18,Contrato exportador,Completado,789.56
+1010,O01010,146,1,22,2026-02-04,Portal B2B,Observado,3617.35

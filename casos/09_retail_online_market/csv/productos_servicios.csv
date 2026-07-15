@@ -1,16 +1,31 @@
-﻿id_producto,codigo_producto,nombre_producto,categoria,precio_base,activo
-1,P0001,Servicio/Producto 01,Premium,266.99,1
-2,P0002,Servicio/Producto 02,Est?ndar,149.79,1
-3,P0003,Servicio/Producto 03,Especializado,330.78,1
-4,P0004,Servicio/Producto 04,B?sico,38.26,1
-5,P0005,Servicio/Producto 05,Especializado,67.76,1
-6,P0006,Servicio/Producto 06,B?sico,355.75,1
-7,P0007,Servicio/Producto 07,Est?ndar,127.24,1
-8,P0008,Servicio/Producto 08,Est?ndar,126.08,1
-9,P0009,Servicio/Producto 09,Premium,192.49,1
-10,P0010,Servicio/Producto 10,Especializado,254.65,1
-11,P0011,Servicio/Producto 11,B?sico,159.45,1
-12,P0012,Servicio/Producto 12,B?sico,192.58,1
-13,P0013,Servicio/Producto 13,Premium,291.18,1
-14,P0014,Servicio/Producto 14,B?sico,296.65,1
-15,P0015,Servicio/Producto 15,Especializado,229.45,1
+id_producto,codigo_producto,nombre_producto,categoria,precio_base,activo
+1,OM0001,Mouse ergonómico inalámbrico,Tecnología,35.00,1
+2,OM0002,Audífonos Bluetooth inalámbricos,Tecnología,77.39,1
+3,OM0003,Teclado mecánico compacto,Tecnología,171.12,1
+4,OM0004,Monitor LED 24 pulgadas,Tecnología,378.38,1
+5,OM0005,Tablet 10 pulgadas 128 GB,Tecnología,836.66,1
+6,OM0006,Smartphone 5G 256 GB,Tecnología,1850.00,1
+7,OM0007,Juego de sábanas queen,Hogar,18.00,1
+8,OM0008,Organizador modular de cocina,Hogar,34.71,0
+9,OM0009,Olla arrocera digital,Hogar,66.94,1
+10,OM0010,Licuadora de vidrio 1.5 L,Hogar,129.08,0
+11,OM0011,Freidora de aire 4 L,Hogar,248.91,0
+12,OM0012,Aspiradora vertical,Hogar,480.00,1
+13,OM0013,Polo de algodón unisex,Moda,25.00,1
+14,OM0014,Vestido midi estampado,Moda,39.93,1
+15,OM0015,Jean corte recto,Moda,63.79,1
+16,OM0016,Mochila ejecutiva antirrobo,Moda,101.90,1
+17,OM0017,Casaca impermeable ligera,Moda,162.77,1
+18,OM0018,Zapatillas urbanas,Moda,260.00,1
+19,OM0019,Serum facial vitamina C,Belleza,12.00,1
+20,OM0020,Protector solar facial FPS 50,Belleza,21.27,0
+21,OM0021,Set de brochas profesionales,Belleza,37.70,1
+22,OM0022,Máquina cortadora de cabello,Belleza,66.84,1
+23,OM0023,Secadora de cabello iónica,Belleza,118.47,1
+24,OM0024,Perfume floral 100 ml,Belleza,210.00,0
+25,OM0025,Mat de yoga antideslizante,Deportes,20.00,1
+26,OM0026,Balón de fútbol profesional,Deportes,40.12,1
+27,OM0027,Zapatillas para running,Deportes,80.50,1
+28,OM0028,Mancuernas ajustables 20 kg,Deportes,161.50,1
+29,OM0029,Reloj deportivo GPS,Deportes,323.99,1
+30,OM0030,Bicicleta urbana aro 26,Deportes,650.00,1

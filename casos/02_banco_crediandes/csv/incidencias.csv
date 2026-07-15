@@ -1,96 +1,138 @@
-﻿id_incidencia,codigo_incidencia,id_operacion,tipo_incidencia,severidad,fecha_reporte,estado_incidencia
-1,I00001,429,Falla de registro,Baja,2026-02-13,En revisi?n
-2,I00002,61,Reclamo,Alta,2026-02-07,Abierta
-3,I00003,408,Demora,Alta,2026-01-21,Abierta
-4,I00004,439,Demora,Baja,2026-05-12,Abierta
-5,I00005,102,Reclamo,Alta,2026-06-02,En revisi?n
-6,I00006,151,Falla de registro,Alta,2026-04-18,En revisi?n
-7,I00007,112,Demora,Baja,2026-02-25,Cerrada
-8,I00008,403,Dato inconsistente,Media,2026-06-15,En revisi?n
-9,I00009,399,Falla de registro,Alta,2026-02-06,Abierta
-10,I00010,182,Demora,Baja,2026-02-22,En revisi?n
-11,I00011,340,Demora,Baja,2026-01-30,Abierta
-12,I00012,154,Dato inconsistente,Baja,2026-06-15,Abierta
-13,I00013,390,Demora,Media,2026-04-30,En revisi?n
-14,I00014,495,Dato inconsistente,Baja,2026-02-27,Cerrada
-15,I00015,174,Dato inconsistente,Media,2026-03-04,Abierta
-16,I00016,219,Demora,Baja,2026-02-28,Abierta
-17,I00017,331,Demora,Alta,2026-05-31,Abierta
-18,I00018,250,Demora,Alta,2026-01-09,Abierta
-19,I00019,85,Reclamo,Alta,2026-01-09,Abierta
-20,I00020,391,Reclamo,Media,2026-04-04,Abierta
-21,I00021,210,Reclamo,Alta,2026-02-17,Abierta
-22,I00022,367,Reprogramaci?n,Baja,2026-06-15,Abierta
-23,I00023,394,Reclamo,Baja,2026-01-12,Abierta
-24,I00024,287,Falla de registro,Media,2026-01-24,Abierta
-25,I00025,325,Reprogramaci?n,Alta,2026-02-03,Abierta
-26,I00026,282,Reprogramaci?n,Media,2026-03-26,En revisi?n
-27,I00027,484,Demora,Baja,2026-06-29,En revisi?n
-28,I00028,381,Falla de registro,Media,2026-04-27,En revisi?n
-29,I00029,41,Reprogramaci?n,Media,2026-02-12,En revisi?n
-30,I00030,465,Demora,Baja,2026-05-13,Cerrada
-31,I00031,255,Falla de registro,Alta,2026-04-09,Cerrada
-32,I00032,30,Reprogramaci?n,Alta,2026-03-31,Cerrada
-33,I00033,122,Reprogramaci?n,Baja,2026-05-15,Abierta
-34,I00034,222,Reprogramaci?n,Media,2026-03-30,Abierta
-35,I00035,218,Falla de registro,Media,2026-03-24,Abierta
-36,I00036,383,Demora,Alta,2026-03-19,Abierta
-37,I00037,45,Reclamo,Baja,2026-06-15,En revisi?n
-38,I00038,95,Reprogramaci?n,Alta,2026-02-21,Abierta
-39,I00039,398,Falla de registro,Baja,2026-01-24,Cerrada
-40,I00040,117,Reclamo,Media,2026-01-30,Abierta
-41,I00041,407,Dato inconsistente,Baja,2026-06-28,Cerrada
-42,I00042,283,Demora,Media,2026-05-02,En revisi?n
-43,I00043,346,Reclamo,Baja,2026-05-27,En revisi?n
-44,I00044,420,Demora,Alta,2026-05-31,Abierta
-45,I00045,103,Demora,Media,2026-05-27,En revisi?n
-46,I00046,300,Demora,Media,2026-04-21,Abierta
-47,I00047,490,Demora,Baja,2026-02-19,En revisi?n
-48,I00048,60,Falla de registro,Media,2026-03-19,Cerrada
-49,I00049,3,Reclamo,Alta,2026-06-10,Cerrada
-50,I00050,199,Demora,Media,2026-06-03,En revisi?n
-51,I00051,129,Reclamo,Media,2026-03-01,Cerrada
-52,I00052,120,Falla de registro,Alta,2026-06-15,Abierta
-53,I00053,47,Reclamo,Alta,2026-02-24,Abierta
-54,I00054,116,Reclamo,Baja,2026-05-30,Cerrada
-55,I00055,478,Falla de registro,Media,2026-01-13,En revisi?n
-56,I00056,91,Reclamo,Alta,2026-03-21,Abierta
-57,I00057,307,Reprogramaci?n,Baja,2026-01-18,Cerrada
-58,I00058,97,Reclamo,Alta,2026-06-28,Abierta
-59,I00059,280,Reprogramaci?n,Alta,2026-01-12,En revisi?n
-60,I00060,386,Falla de registro,Alta,2026-05-30,En revisi?n
-61,I00061,253,Falla de registro,Alta,2026-05-15,En revisi?n
-62,I00062,16,Dato inconsistente,Media,2026-05-11,Cerrada
-63,I00063,450,Dato inconsistente,Alta,2026-02-25,Abierta
-64,I00064,397,Reprogramaci?n,Media,2026-03-02,Cerrada
-65,I00065,338,Dato inconsistente,Media,2026-05-25,Abierta
-66,I00066,286,Falla de registro,Baja,2026-03-29,Abierta
-67,I00067,443,Falla de registro,Baja,2026-06-19,Abierta
-68,I00068,313,Reprogramaci?n,Baja,2026-05-31,En revisi?n
-69,I00069,433,Falla de registro,Alta,2026-06-05,Abierta
-70,I00070,440,Falla de registro,Alta,2026-06-22,Cerrada
-71,I00071,10,Reprogramaci?n,Baja,2026-02-17,Abierta
-72,I00072,297,Demora,Alta,2026-01-06,En revisi?n
-73,I00073,105,Reclamo,Media,2026-02-07,Cerrada
-74,I00074,241,Reprogramaci?n,Alta,2026-01-08,Abierta
-75,I00075,135,Dato inconsistente,Alta,2026-04-17,Abierta
-76,I00076,306,Dato inconsistente,Media,2026-03-14,Cerrada
-77,I00077,410,Demora,Media,2026-06-25,Cerrada
-78,I00078,485,Reclamo,Media,2026-05-04,Abierta
-79,I00079,426,Reclamo,Media,2026-03-08,Abierta
-80,I00080,58,Reprogramaci?n,Baja,2026-04-27,Abierta
-81,I00081,299,Falla de registro,Media,2026-06-20,Cerrada
-82,I00082,292,Reclamo,Baja,2026-06-28,Abierta
-83,I00083,181,Dato inconsistente,Media,2026-03-09,Cerrada
-84,I00084,317,Demora,Baja,2026-05-03,Abierta
-85,I00085,119,Reprogramaci?n,Alta,2026-02-13,Cerrada
-86,I00086,42,Dato inconsistente,Alta,2026-05-04,Cerrada
-87,I00087,365,Reclamo,Media,2026-04-16,Abierta
-88,I00088,9,Falla de registro,Alta,2026-02-11,Cerrada
-89,I00089,423,Reclamo,Media,2026-03-30,Abierta
-90,I00090,152,Falla de registro,Alta,2026-03-10,En revisi?n
-91,I00091,155,Reclamo,Alta,2026-02-17,Cerrada
-92,I00092,92,Dato inconsistente,Media,2026-04-23,Cerrada
-93,I00093,185,Demora,Baja,2026-02-06,En revisi?n
-94,I00094,26,Demora,Alta,2026-01-25,En revisi?n
-95,I00095,405,Dato inconsistente,Baja,2026-05-08,Abierta
+id_incidencia,codigo_incidencia,id_operacion,tipo_incidencia,severidad,fecha_reporte,estado_incidencia
+1,I00001,4,Transferencia observada,Alta,2026-03-11,Abierta
+2,I00002,9,Cargo no reconocido,Media,2026-04-21,En revisión
+3,I00003,17,Retención de tarjeta,Alta,2026-04-04,Abierta
+4,I00004,18,Desembolso pendiente,Media,2026-02-05,Abierta
+5,I00005,20,Bloqueo de cuenta,Baja,2026-06-08,Abierta
+6,I00006,27,Transferencia observada,Media,2026-06-03,Abierta
+7,I00007,35,Cargo no reconocido,Alta,2026-04-14,En revisión
+8,I00008,43,Retención de tarjeta,Baja,2026-06-03,En revisión
+9,I00009,47,Desembolso pendiente,Alta,2026-05-25,Abierta
+10,I00010,49,Bloqueo de cuenta,Alta,2026-02-14,Abierta
+11,I00011,50,Transferencia observada,Baja,2026-06-16,Abierta
+12,I00012,51,Cargo no reconocido,Baja,2026-02-08,Abierta
+13,I00013,54,Retención de tarjeta,Baja,2026-03-10,Abierta
+14,I00014,64,Desembolso pendiente,Alta,2026-03-13,En revisión
+15,I00015,87,Bloqueo de cuenta,Baja,2026-02-23,Cerrada
+16,I00016,89,Transferencia observada,Alta,2026-05-01,Cerrada
+17,I00017,93,Cargo no reconocido,Baja,2026-05-11,Abierta
+18,I00018,107,Retención de tarjeta,Baja,2026-02-07,Cerrada
+19,I00019,109,Desembolso pendiente,Baja,2026-05-09,Abierta
+20,I00020,113,Bloqueo de cuenta,Media,2026-02-14,En revisión
+21,I00021,152,Transferencia observada,Alta,2026-03-18,Cerrada
+22,I00022,153,Cargo no reconocido,Alta,2026-06-25,Abierta
+23,I00023,154,Retención de tarjeta,Baja,2026-04-13,Cerrada
+24,I00024,156,Desembolso pendiente,Alta,2026-04-08,Abierta
+25,I00025,171,Bloqueo de cuenta,Media,2026-02-10,Abierta
+26,I00026,180,Transferencia observada,Alta,2026-02-10,En revisión
+27,I00027,181,Cargo no reconocido,Media,2026-04-20,Abierta
+28,I00028,184,Retención de tarjeta,Baja,2026-06-10,Cerrada
+29,I00029,192,Desembolso pendiente,Alta,2026-03-11,En revisión
+30,I00030,207,Bloqueo de cuenta,Alta,2026-04-20,Cerrada
+31,I00031,214,Transferencia observada,Media,2026-04-24,Cerrada
+32,I00032,215,Cargo no reconocido,Media,2026-06-21,En revisión
+33,I00033,221,Retención de tarjeta,Baja,2026-05-21,Abierta
+34,I00034,237,Desembolso pendiente,Alta,2026-02-28,Cerrada
+35,I00035,240,Bloqueo de cuenta,Alta,2026-04-24,Cerrada
+36,I00036,243,Transferencia observada,Alta,2026-05-08,Abierta
+37,I00037,248,Cargo no reconocido,Baja,2026-04-06,En revisión
+38,I00038,263,Retención de tarjeta,Alta,2026-06-20,En revisión
+39,I00039,269,Desembolso pendiente,Alta,2026-03-24,En revisión
+40,I00040,273,Bloqueo de cuenta,Baja,2026-02-27,Cerrada
+41,I00041,281,Transferencia observada,Media,2026-06-07,En revisión
+42,I00042,286,Cargo no reconocido,Alta,2026-06-25,En revisión
+43,I00043,290,Retención de tarjeta,Alta,2026-02-23,En revisión
+44,I00044,292,Desembolso pendiente,Media,2026-02-22,Abierta
+45,I00045,297,Bloqueo de cuenta,Media,2026-05-12,Cerrada
+46,I00046,307,Transferencia observada,Baja,2026-05-17,En revisión
+47,I00047,320,Cargo no reconocido,Media,2026-04-13,Cerrada
+48,I00048,322,Retención de tarjeta,Media,2026-02-02,Abierta
+49,I00049,330,Desembolso pendiente,Alta,2026-06-04,Abierta
+50,I00050,334,Bloqueo de cuenta,Alta,2026-02-19,Cerrada
+51,I00051,335,Transferencia observada,Media,2026-06-02,Abierta
+52,I00052,338,Cargo no reconocido,Baja,2026-05-25,En revisión
+53,I00053,339,Retención de tarjeta,Media,2026-04-04,Cerrada
+54,I00054,340,Desembolso pendiente,Alta,2026-04-25,Abierta
+55,I00055,341,Bloqueo de cuenta,Media,2026-06-09,En revisión
+56,I00056,352,Transferencia observada,Alta,2026-06-03,Abierta
+57,I00057,364,Cargo no reconocido,Alta,2026-02-14,Abierta
+58,I00058,368,Retención de tarjeta,Alta,2026-03-19,En revisión
+59,I00059,370,Desembolso pendiente,Media,2026-04-23,Cerrada
+60,I00060,376,Bloqueo de cuenta,Baja,2026-05-16,Abierta
+61,I00061,388,Transferencia observada,Alta,2026-04-16,Abierta
+62,I00062,401,Cargo no reconocido,Media,2026-06-21,Abierta
+63,I00063,403,Retención de tarjeta,Baja,2026-05-12,Abierta
+64,I00064,406,Desembolso pendiente,Baja,2026-04-25,Abierta
+65,I00065,422,Bloqueo de cuenta,Media,2026-02-14,Cerrada
+66,I00066,428,Transferencia observada,Media,2026-03-09,Abierta
+67,I00067,429,Cargo no reconocido,Media,2026-02-18,Abierta
+68,I00068,430,Retención de tarjeta,Alta,2026-06-09,Abierta
+69,I00069,432,Desembolso pendiente,Alta,2026-05-21,Abierta
+70,I00070,434,Bloqueo de cuenta,Media,2026-02-09,Abierta
+71,I00071,459,Transferencia observada,Media,2026-06-09,Cerrada
+72,I00072,470,Cargo no reconocido,Baja,2026-03-12,Cerrada
+73,I00073,480,Retención de tarjeta,Baja,2026-04-12,En revisión
+74,I00074,485,Desembolso pendiente,Media,2026-02-10,Abierta
+75,I00075,490,Bloqueo de cuenta,Media,2026-03-12,En revisión
+76,I00076,491,Transferencia observada,Alta,2026-06-27,Abierta
+77,I00077,496,Cargo no reconocido,Media,2026-05-25,En revisión
+78,I00078,501,Retención de tarjeta,Baja,2026-02-16,En revisión
+79,I00079,502,Desembolso pendiente,Alta,2026-03-14,Abierta
+80,I00080,503,Bloqueo de cuenta,Baja,2026-06-19,Abierta
+81,I00081,512,Transferencia observada,Alta,2026-02-05,Abierta
+82,I00082,514,Cargo no reconocido,Alta,2026-03-04,Abierta
+83,I00083,526,Retención de tarjeta,Baja,2026-05-18,Cerrada
+84,I00084,536,Desembolso pendiente,Media,2026-03-15,Abierta
+85,I00085,538,Bloqueo de cuenta,Alta,2026-04-23,En revisión
+86,I00086,549,Transferencia observada,Baja,2026-04-13,Cerrada
+87,I00087,553,Cargo no reconocido,Baja,2026-03-04,Cerrada
+88,I00088,561,Retención de tarjeta,Media,2026-05-09,Cerrada
+89,I00089,592,Desembolso pendiente,Media,2026-05-04,Cerrada
+90,I00090,604,Bloqueo de cuenta,Alta,2026-06-28,En revisión
+91,I00091,619,Transferencia observada,Alta,2026-04-20,Abierta
+92,I00092,622,Cargo no reconocido,Baja,2026-03-13,Cerrada
+93,I00093,625,Retención de tarjeta,Alta,2026-04-15,En revisión
+94,I00094,629,Desembolso pendiente,Alta,2026-02-06,Abierta
+95,I00095,634,Bloqueo de cuenta,Alta,2026-06-10,Abierta
+96,I00096,636,Transferencia observada,Media,2026-03-12,Abierta
+97,I00097,640,Cargo no reconocido,Alta,2026-05-21,Cerrada
+98,I00098,642,Retención de tarjeta,Alta,2026-06-24,En revisión
+99,I00099,645,Desembolso pendiente,Media,2026-02-04,Abierta
+100,I00100,646,Bloqueo de cuenta,Baja,2026-05-14,Cerrada
+101,I00101,678,Transferencia observada,Media,2026-02-11,Abierta
+102,I00102,683,Cargo no reconocido,Baja,2026-02-20,Cerrada
+103,I00103,693,Retención de tarjeta,Media,2026-05-15,En revisión
+104,I00104,717,Desembolso pendiente,Alta,2026-02-16,Abierta
+105,I00105,733,Bloqueo de cuenta,Baja,2026-03-16,En revisión
+106,I00106,755,Transferencia observada,Alta,2026-03-03,Cerrada
+107,I00107,758,Cargo no reconocido,Media,2026-02-06,Abierta
+108,I00108,761,Retención de tarjeta,Baja,2026-06-10,En revisión
+109,I00109,783,Desembolso pendiente,Baja,2026-06-06,Cerrada
+110,I00110,791,Bloqueo de cuenta,Alta,2026-05-07,En revisión
+111,I00111,795,Transferencia observada,Media,2026-04-03,Cerrada
+112,I00112,812,Cargo no reconocido,Alta,2026-05-07,En revisión
+113,I00113,814,Retención de tarjeta,Baja,2026-06-24,Abierta
+114,I00114,822,Desembolso pendiente,Baja,2026-04-19,Cerrada
+115,I00115,841,Bloqueo de cuenta,Alta,2026-03-04,Abierta
+116,I00116,846,Transferencia observada,Baja,2026-05-12,En revisión
+117,I00117,861,Cargo no reconocido,Media,2026-02-25,Abierta
+118,I00118,862,Retención de tarjeta,Alta,2026-02-21,Abierta
+119,I00119,863,Desembolso pendiente,Baja,2026-02-24,En revisión
+120,I00120,865,Bloqueo de cuenta,Baja,2026-04-26,Abierta
+121,I00121,873,Transferencia observada,Alta,2026-02-08,Cerrada
+122,I00122,875,Cargo no reconocido,Baja,2026-02-10,En revisión
+123,I00123,877,Retención de tarjeta,Media,2026-04-10,Abierta
+124,I00124,881,Desembolso pendiente,Media,2026-06-05,Cerrada
+125,I00125,885,Bloqueo de cuenta,Media,2026-04-06,Cerrada
+126,I00126,887,Transferencia observada,Media,2026-04-26,Abierta
+127,I00127,892,Cargo no reconocido,Media,2026-02-26,En revisión
+128,I00128,896,Retención de tarjeta,Alta,2026-04-09,En revisión
+129,I00129,902,Desembolso pendiente,Baja,2026-06-09,En revisión
+130,I00130,934,Bloqueo de cuenta,Media,2026-06-11,En revisión
+131,I00131,944,Transferencia observada,Alta,2026-02-10,Cerrada
+132,I00132,957,Cargo no reconocido,Media,2026-05-22,En revisión
+133,I00133,963,Retención de tarjeta,Baja,2026-05-07,En revisión
+134,I00134,969,Desembolso pendiente,Media,2026-03-27,Abierta
+135,I00135,970,Bloqueo de cuenta,Alta,2026-03-08,En revisión
+136,I00136,975,Transferencia observada,Media,2026-02-28,Cerrada
+137,I00137,995,Cargo no reconocido,Alta,2026-04-02,Cerrada

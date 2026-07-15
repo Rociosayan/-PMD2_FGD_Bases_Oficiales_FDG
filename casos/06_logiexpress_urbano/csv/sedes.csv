@@ -1,7 +1,7 @@
-﻿id_sede,codigo_sede,nombre_sede,distrito_sede,responsable
-1,S001,Sede Este 1,Ate,Comercial
-2,S002,Sede Centro 2,Ate,Administraci?n
-3,S003,Sede Principal 3,Los Olivos,Operaciones
-4,S004,Sede Principal 4,Comas,Calidad
-5,S005,Sede Sur 5,Los Olivos,Comercial
-6,S006,Sede Este 6,Los Olivos,Calidad
+id_sede,codigo_sede,nombre_sede,distrito_sede,responsable
+1,LXS01,Centro LogiExpress Cercado de Lima,Cercado de Lima,Julia Romero
+2,LXS02,Centro LogiExpress San Miguel,San Miguel,Pamela Castillo
+3,LXS03,Centro LogiExpress Jesús María,Jesús María,Manuel Aguirre
+4,LXS04,Centro LogiExpress Los Olivos,Los Olivos,Carlos Salazar
+5,LXS05,Centro LogiExpress Santiago de Surco,Santiago de Surco,Luis Mendoza
+6,LXS06,Centro LogiExpress San Borja,San Borja,José Mendoza

@@ -1,501 +1,1011 @@
-﻿id_operacion,codigo_operacion,id_entidad,id_sede,id_producto,fecha_operacion,cantidad,monto_total,estado,canal
-1,O00001,41,6,9,2026-04-21,1,273.32,Pendiente,Presencial
-2,O00002,66,1,2,2026-01-07,3,883.2,Completado,Web
-3,O00003,22,5,10,2026-06-02,4,442.71,Completado,Web
-4,O00004,48,6,1,2026-03-15,3,431.13,Completado,Web
-5,O00005,65,6,9,2026-02-28,6,1373.38,Observado,Call Center
-6,O00006,59,5,11,2026-01-16,6,1248.65,Completado,Call Center
-7,O00007,36,6,13,2026-04-04,5,2086.69,Cancelado,Call Center
-8,O00008,1,3,9,2026-04-19,2,435.86,Completado,Web
-9,O00009,34,5,5,2026-05-26,1,73.49,Completado,App
-10,O00010,13,5,12,2026-05-01,5,975.91,Completado,Web
-11,O00011,73,6,1,2026-05-11,2,284.56,Completado,App
-12,O00012,38,5,5,2026-06-19,4,296.82,Completado,App
-13,O00013,3,4,6,2026-06-02,3,745.46,Completado,Call Center
-14,O00014,33,1,12,2026-05-02,3,635.99,Completado,Web
-15,O00015,69,3,9,2026-04-23,5,1124.32,Cancelado,App
-16,O00016,4,2,2,2026-02-17,6,1726.45,Completado,Presencial
-17,O00017,56,2,15,2026-01-19,5,1942.0,Completado,Web
-18,O00018,32,5,14,2026-03-09,2,165.6,Completado,App
-19,O00019,6,3,6,2026-01-08,6,1600.18,Cancelado,App
-20,O00020,56,4,11,2026-06-22,3,602.23,Completado,Web
-21,O00021,48,3,10,2026-05-03,3,320.78,Completado,Presencial
-22,O00022,58,1,7,2026-04-06,4,159.1,Completado,App
-23,O00023,14,6,14,2026-04-21,6,493.42,Pendiente,App
-24,O00024,49,6,8,2026-06-23,6,1809.12,Completado,Presencial
-25,O00025,36,2,4,2026-04-26,4,1188.94,Completado,App
-26,O00026,45,4,4,2026-01-24,3,660.42,Completado,Web
-27,O00027,31,6,2,2026-06-05,5,1316.41,Completado,Call Center
-28,O00028,46,5,8,2026-03-14,3,948.06,Completado,Web
-29,O00029,41,6,2,2026-06-29,3,965.97,Cancelado,Call Center
-30,O00030,4,1,6,2026-01-21,3,589.19,Completado,App
-31,O00031,46,3,6,2026-05-20,2,381.05,Completado,Presencial
-32,O00032,62,6,6,2026-03-01,1,259.31,Completado,App
-33,O00033,17,5,14,2026-03-22,6,535.58,Completado,Web
-34,O00034,7,2,10,2026-06-16,3,317.54,Completado,Call Center
-35,O00035,45,1,11,2026-02-21,1,208.08,Completado,Call Center
-36,O00036,30,3,7,2026-06-25,6,251.09,Observado,Call Center
-37,O00037,47,3,2,2026-02-15,5,1364.32,Completado,Web
-38,O00038,58,2,13,2026-04-14,5,1816.34,Completado,Call Center
-39,O00039,42,5,13,2026-02-04,3,1066.29,Completado,Presencial
-40,O00040,9,5,2,2026-01-12,5,1530.04,Completado,Presencial
-41,O00041,74,5,8,2026-05-25,5,1210.59,Completado,Web
-42,O00042,13,2,12,2026-04-30,3,597.33,Observado,App
-43,O00043,66,5,7,2026-06-16,4,135.01,Completado,Presencial
-44,O00044,35,5,1,2026-01-14,4,608.19,Completado,Web
-45,O00045,69,5,9,2026-06-14,2,426.19,Completado,Call Center
-46,O00046,17,6,13,2026-03-25,3,1193.91,Completado,Presencial
-47,O00047,54,5,13,2026-06-06,4,1368.69,Cancelado,Presencial
-48,O00048,50,1,2,2026-02-07,6,1955.29,Completado,Presencial
-49,O00049,73,3,9,2026-06-06,4,864.67,Completado,App
-50,O00050,68,3,7,2026-06-13,2,73.62,Completado,App
-51,O00051,46,2,4,2026-03-11,1,313.78,Completado,Web
-52,O00052,17,1,11,2026-04-17,6,1066.01,Completado,Presencial
-53,O00053,44,1,10,2026-04-26,4,444.38,Completado,Call Center
-54,O00054,33,3,4,2026-05-21,5,1565.19,Pendiente,Presencial
-55,O00055,46,5,14,2026-05-04,4,342.4,Completado,Call Center
-56,O00056,51,2,8,2026-05-25,4,1346.27,Completado,Web
-57,O00057,31,6,4,2026-05-01,4,1014.22,Completado,Web
-58,O00058,68,3,3,2026-02-04,1,74.18,Completado,Call Center
-59,O00059,31,2,12,2026-03-15,1,183.02,Observado,Call Center
-60,O00060,57,5,6,2026-01-20,6,1452.34,Completado,Presencial
-61,O00061,61,2,2,2026-04-27,2,615.8,Completado,Presencial
-62,O00062,26,1,7,2026-04-23,6,215.92,Completado,Call Center
-63,O00063,45,3,6,2026-03-11,2,387.25,Observado,App
-64,O00064,1,4,13,2026-02-07,3,1182.22,Completado,Call Center
-65,O00065,74,2,4,2026-04-16,6,1300.72,Completado,Presencial
-66,O00066,68,5,13,2026-05-07,3,1228.01,Completado,Web
-67,O00067,11,3,7,2026-01-07,4,131.42,Completado,Presencial
-68,O00068,63,4,4,2026-03-29,6,1501.98,Completado,Call Center
-69,O00069,37,3,14,2026-03-04,4,329.95,Completado,Web
-70,O00070,58,1,2,2026-04-22,4,1195.4,Completado,Presencial
-71,O00071,66,5,15,2026-04-02,5,2130.32,Completado,Presencial
-72,O00072,9,3,10,2026-01-16,3,330.73,Completado,App
-73,O00073,34,5,14,2026-03-28,5,328.08,Completado,App
-74,O00074,14,4,1,2026-06-19,1,130.92,Pendiente,Web
-75,O00075,64,6,14,2026-04-25,4,262.03,Completado,Web
-76,O00076,52,5,3,2026-06-29,3,222.14,Completado,Presencial
-77,O00077,43,4,13,2026-03-15,6,2207.13,Completado,App
-78,O00078,14,2,8,2026-04-01,3,696.55,Completado,Web
-79,O00079,2,2,8,2026-01-01,4,1301.51,Observado,Web
-80,O00080,27,2,5,2026-04-15,5,287.47,Completado,Web
-81,O00081,47,6,4,2026-06-16,6,1712.21,Completado,Call Center
-82,O00082,46,4,13,2026-06-30,4,1585.99,Completado,App
-83,O00083,10,1,10,2026-03-04,5,516.57,Completado,Web
-84,O00084,17,3,5,2026-03-17,5,372.85,Cancelado,Presencial
-85,O00085,80,4,10,2026-06-23,6,668.66,Completado,Web
-86,O00086,50,1,12,2026-02-04,1,189.18,Completado,App
-87,O00087,27,4,7,2026-03-08,2,63.08,Completado,App
-88,O00088,44,5,14,2026-06-11,2,173.05,Completado,Presencial
-89,O00089,42,2,12,2026-04-24,6,985.87,Observado,App
-90,O00090,49,1,4,2026-03-31,1,301.0,Completado,App
-91,O00091,32,2,11,2026-06-05,4,848.05,Completado,Call Center
-92,O00092,21,4,6,2026-01-28,1,237.26,Completado,Web
-93,O00093,30,5,3,2026-05-11,2,188.1,Observado,Web
-94,O00094,68,5,14,2026-05-12,3,270.3,Completado,Call Center
-95,O00095,25,2,13,2026-01-04,6,2340.46,Completado,Presencial
-96,O00096,58,5,6,2026-05-16,3,770.65,Completado,Web
-97,O00097,14,3,14,2026-04-24,5,372.82,Observado,Presencial
-98,O00098,17,4,2,2026-03-12,2,620.32,Completado,Web
-99,O00099,15,1,10,2026-05-02,6,576.97,Completado,Presencial
-100,O00100,48,6,6,2026-03-20,1,190.75,Completado,Presencial
-101,O00101,32,5,15,2026-03-03,5,1609.28,Completado,Call Center
-102,O00102,67,3,6,2026-04-14,1,200.19,Completado,Call Center
-103,O00103,47,6,14,2026-05-01,6,412.62,Completado,Presencial
-104,O00104,77,4,12,2026-02-03,5,947.28,Completado,Call Center
-105,O00105,28,3,1,2026-06-02,6,999.23,Observado,Call Center
-106,O00106,64,1,11,2026-02-06,5,1111.28,Observado,Presencial
-107,O00107,76,2,10,2026-02-01,2,199.17,Completado,Web
-108,O00108,17,1,12,2026-04-18,1,177.53,Completado,Web
-109,O00109,36,1,7,2026-05-05,1,42.85,Completado,App
-110,O00110,74,2,11,2026-01-15,5,1015.55,Completado,Call Center
-111,O00111,80,6,8,2026-02-14,1,247.08,Observado,Web
-112,O00112,59,6,5,2026-03-03,5,267.57,Completado,App
-113,O00113,40,5,13,2026-03-03,1,346.37,Completado,Presencial
-114,O00114,80,3,1,2026-01-10,2,272.21,Completado,Web
-115,O00115,13,4,7,2026-02-22,5,216.75,Pendiente,Presencial
-116,O00116,5,6,9,2026-02-21,5,1360.58,Cancelado,Presencial
-117,O00117,32,2,13,2026-04-21,5,1599.45,Completado,Call Center
-118,O00118,80,3,1,2026-06-29,3,471.09,Observado,Call Center
-119,O00119,80,4,4,2026-03-12,4,866.93,Completado,Call Center
-120,O00120,74,1,4,2026-05-30,1,299.65,Completado,Web
-121,O00121,8,1,1,2026-04-16,6,975.42,Completado,Presencial
-122,O00122,72,3,2,2026-01-08,2,639.23,Pendiente,Call Center
-123,O00123,9,4,10,2026-01-10,6,539.65,Completado,Web
-124,O00124,75,3,6,2026-06-07,6,1571.6,Observado,Call Center
-125,O00125,31,3,10,2026-04-26,4,421.38,Completado,Call Center
-126,O00126,13,5,6,2026-04-04,6,1279.46,Completado,Web
-127,O00127,47,1,1,2026-01-30,2,293.21,Completado,Presencial
-128,O00128,16,1,10,2026-06-02,4,322.04,Cancelado,Web
-129,O00129,64,1,9,2026-03-09,5,1019.14,Completado,Call Center
-130,O00130,3,4,3,2026-05-06,1,78.58,Cancelado,Call Center
-131,O00131,32,1,3,2026-02-10,6,503.69,Observado,App
-132,O00132,71,4,11,2026-04-17,1,233.16,Completado,App
-133,O00133,22,4,8,2026-05-28,2,598.05,Completado,App
-134,O00134,76,6,3,2026-04-27,5,399.22,Observado,Web
-135,O00135,79,4,5,2026-02-14,1,58.67,Completado,App
-136,O00136,14,5,14,2026-02-28,3,214.55,Completado,Call Center
-137,O00137,32,4,15,2026-05-02,4,1682.09,Completado,Web
-138,O00138,59,6,6,2026-02-07,1,250.99,Completado,Presencial
-139,O00139,3,5,5,2026-03-13,5,277.35,Completado,App
-140,O00140,70,3,4,2026-06-12,6,1748.69,Completado,App
-141,O00141,2,4,7,2026-05-05,6,198.03,Completado,Web
-142,O00142,70,5,8,2026-05-18,6,1906.44,Completado,Web
-143,O00143,33,5,6,2026-02-21,4,1042.72,Completado,Presencial
-144,O00144,42,6,2,2026-02-17,4,1213.3,Completado,App
-145,O00145,48,2,10,2026-04-01,5,558.78,Completado,Call Center
-146,O00146,32,3,4,2026-01-30,2,562.14,Completado,App
-147,O00147,29,2,14,2026-03-25,6,495.54,Observado,App
-148,O00148,62,6,5,2026-06-05,3,219.84,Completado,Web
-149,O00149,77,3,2,2026-03-10,6,1745.7,Cancelado,Web
-150,O00150,9,2,2,2026-06-23,4,982.86,Completado,App
-151,O00151,52,6,15,2026-05-21,4,1636.53,Completado,Presencial
-152,O00152,46,6,6,2026-01-21,1,267.65,Completado,Web
-153,O00153,51,6,1,2026-02-18,4,587.76,Pendiente,Web
-154,O00154,65,4,3,2026-01-06,4,311.31,Completado,Web
-155,O00155,66,2,4,2026-04-13,5,1183.48,Cancelado,Call Center
-156,O00156,76,3,12,2026-02-04,4,862.05,Completado,App
-157,O00157,57,1,12,2026-02-23,4,714.48,Pendiente,Presencial
-158,O00158,80,2,12,2026-01-11,3,625.39,Pendiente,Call Center
-159,O00159,5,2,7,2026-01-26,2,65.01,Completado,Web
-160,O00160,40,2,5,2026-06-18,6,385.35,Completado,Web
-161,O00161,6,1,10,2026-02-11,4,393.13,Completado,Call Center
-162,O00162,3,2,14,2026-04-19,2,130.63,Completado,App
-163,O00163,18,2,2,2026-01-17,5,1315.47,Completado,App
-164,O00164,11,3,7,2026-05-31,2,60.89,Completado,App
-165,O00165,2,5,15,2026-03-05,3,1278.08,Completado,Web
-166,O00166,50,2,1,2026-04-04,3,461.28,Observado,App
-167,O00167,34,4,4,2026-01-09,2,561.34,Completado,Web
-168,O00168,69,5,6,2026-06-04,5,1166.24,Completado,Presencial
-169,O00169,49,6,4,2026-04-06,3,910.29,Completado,Web
-170,O00170,34,1,7,2026-05-25,6,197.62,Completado,Web
-171,O00171,13,2,12,2026-03-26,4,799.58,Pendiente,App
-172,O00172,54,3,11,2026-02-05,1,218.48,Observado,Presencial
-173,O00173,3,1,6,2026-02-27,5,1112.36,Completado,Presencial
-174,O00174,35,4,1,2026-01-28,5,671.96,Completado,App
-175,O00175,47,5,10,2026-06-28,6,595.46,Pendiente,Call Center
-176,O00176,12,1,2,2026-04-11,2,599.43,Completado,Presencial
-177,O00177,31,6,5,2026-05-09,1,68.47,Pendiente,Call Center
-178,O00178,42,1,8,2026-05-06,3,926.45,Completado,App
-179,O00179,39,1,6,2026-03-17,5,1161.43,Completado,Call Center
-180,O00180,63,6,14,2026-03-04,6,550.71,Pendiente,App
-181,O00181,31,1,4,2026-05-14,6,1388.6,Completado,Call Center
-182,O00182,11,1,8,2026-02-10,2,489.53,Completado,Presencial
-183,O00183,44,6,2,2026-03-12,5,1668.73,Completado,Call Center
-184,O00184,64,5,9,2026-01-26,1,205.02,Completado,App
-185,O00185,36,2,10,2026-04-27,4,428.18,Completado,Call Center
-186,O00186,12,3,1,2026-03-12,2,298.02,Observado,Web
-187,O00187,15,3,3,2026-03-18,3,228.51,Observado,Presencial
-188,O00188,18,4,15,2026-06-03,1,352.91,Completado,App
-189,O00189,32,1,3,2026-03-25,3,290.68,Completado,Presencial
-190,O00190,59,5,1,2026-01-14,5,819.91,Completado,Presencial
-191,O00191,37,3,10,2026-03-14,2,204.45,Pendiente,Web
-192,O00192,68,4,2,2026-01-28,2,485.77,Completado,Presencial
-193,O00193,19,1,7,2026-01-19,3,125.04,Observado,Call Center
-194,O00194,54,5,5,2026-06-30,1,74.17,Observado,App
-195,O00195,53,1,1,2026-02-13,1,148.68,Completado,App
-196,O00196,75,2,10,2026-05-10,4,369.47,Completado,Call Center
-197,O00197,52,3,5,2026-04-09,1,58.31,Completado,Call Center
-198,O00198,60,6,7,2026-06-26,1,43.08,Completado,App
-199,O00199,31,2,6,2026-04-12,5,973.44,Completado,App
-200,O00200,66,3,13,2026-04-27,6,2210.83,Completado,Presencial
-201,O00201,45,1,4,2026-05-17,6,1645.61,Observado,Call Center
-202,O00202,9,5,9,2026-06-12,4,935.94,Observado,Web
-203,O00203,78,1,7,2026-04-24,4,147.21,Completado,App
-204,O00204,71,4,11,2026-05-21,2,403.84,Completado,App
-205,O00205,44,1,10,2026-02-10,4,419.33,Completado,Presencial
-206,O00206,10,1,5,2026-01-01,3,178.4,Completado,Call Center
-207,O00207,60,5,4,2026-01-06,3,766.49,Completado,Web
-208,O00208,53,2,12,2026-06-13,5,1073.24,Completado,Call Center
-209,O00209,44,4,4,2026-04-24,1,282.97,Observado,Call Center
-210,O00210,27,1,8,2026-04-18,6,1683.31,Completado,App
-211,O00211,63,2,3,2026-02-01,1,83.65,Completado,Web
-212,O00212,24,3,12,2026-02-01,4,647.03,Completado,App
-213,O00213,75,5,4,2026-02-09,5,1514.29,Completado,App
-214,O00214,25,6,9,2026-04-02,2,486.85,Completado,App
-215,O00215,26,2,5,2026-01-27,1,75.46,Completado,Presencial
-216,O00216,59,5,8,2026-05-09,2,570.6,Observado,Web
-217,O00217,47,5,9,2026-03-26,4,1069.87,Pendiente,Presencial
-218,O00218,56,1,1,2026-02-15,2,244.74,Completado,Presencial
-219,O00219,48,3,14,2026-04-14,2,134.15,Completado,Call Center
-220,O00220,73,5,7,2026-01-18,2,71.24,Observado,Call Center
-221,O00221,60,4,2,2026-06-28,4,1178.04,Completado,Web
-222,O00222,42,3,1,2026-03-26,3,366.19,Completado,App
-223,O00223,10,6,5,2026-06-13,2,125.35,Completado,App
-224,O00224,5,1,12,2026-01-03,1,163.8,Observado,Web
-225,O00225,16,5,5,2026-02-02,4,277.01,Completado,Call Center
-226,O00226,57,5,10,2026-06-27,6,503.82,Completado,App
-227,O00227,15,1,1,2026-06-04,3,362.28,Completado,Call Center
-228,O00228,48,6,15,2026-05-10,3,1211.48,Observado,App
-229,O00229,23,6,12,2026-01-19,4,682.23,Completado,Presencial
-230,O00230,80,1,1,2026-03-30,3,496.16,Completado,Call Center
-231,O00231,9,2,2,2026-03-13,2,569.83,Cancelado,Presencial
-232,O00232,13,2,5,2026-06-29,5,298.14,Completado,Web
-233,O00233,59,1,9,2026-01-04,4,967.68,Completado,Web
-234,O00234,2,2,4,2026-05-11,1,276.57,Completado,Presencial
-235,O00235,41,2,10,2026-02-08,3,237.76,Completado,Call Center
-236,O00236,44,2,9,2026-05-05,3,724.6,Completado,Web
-237,O00237,41,1,8,2026-05-16,2,488.14,Observado,Call Center
-238,O00238,15,6,3,2026-02-21,5,449.45,Completado,Web
-239,O00239,52,1,3,2026-06-13,6,524.88,Completado,Call Center
-240,O00240,77,1,9,2026-02-28,5,1114.68,Completado,App
-241,O00241,14,1,4,2026-05-22,4,1191.74,Completado,Web
-242,O00242,71,3,14,2026-06-14,2,167.66,Completado,Presencial
-243,O00243,18,6,15,2026-01-03,1,410.43,Completado,Web
-244,O00244,47,6,2,2026-01-26,4,1310.02,Completado,App
-245,O00245,14,1,8,2026-05-01,2,572.64,Completado,App
-246,O00246,37,2,8,2026-02-22,5,1412.85,Completado,Web
-247,O00247,11,2,4,2026-02-14,2,431.34,Completado,Presencial
-248,O00248,30,1,11,2026-03-28,2,414.29,Completado,Presencial
-249,O00249,19,6,6,2026-05-07,2,485.21,Completado,Presencial
-250,O00250,15,4,3,2026-02-02,1,73.28,Completado,App
-251,O00251,3,1,4,2026-05-14,4,1138.17,Completado,Call Center
-252,O00252,55,2,13,2026-02-06,6,2113.11,Observado,App
-253,O00253,52,6,8,2026-01-25,2,624.06,Observado,App
-254,O00254,57,6,5,2026-06-12,6,455.96,Pendiente,Presencial
-255,O00255,8,5,1,2026-01-20,4,556.5,Observado,Web
-256,O00256,49,2,2,2026-02-25,4,1306.59,Cancelado,App
-257,O00257,80,4,6,2026-05-16,6,1405.3,Completado,Presencial
-258,O00258,27,1,5,2026-04-16,1,54.71,Completado,Web
-259,O00259,65,1,14,2026-01-03,3,231.16,Completado,Web
-260,O00260,21,5,7,2026-02-15,4,120.9,Completado,Web
-261,O00261,26,6,14,2026-04-24,3,266.93,Observado,App
-262,O00262,62,6,12,2026-06-13,5,935.84,Completado,Call Center
-263,O00263,38,1,14,2026-03-08,1,62.85,Completado,App
-264,O00264,59,5,4,2026-05-09,5,1287.47,Completado,Presencial
-265,O00265,62,4,2,2026-04-20,3,800.51,Completado,Presencial
-266,O00266,50,2,6,2026-04-14,5,1269.57,Pendiente,App
-267,O00267,7,4,15,2026-04-20,3,1243.73,Completado,Presencial
-268,O00268,59,2,14,2026-01-10,1,92.05,Completado,Call Center
-269,O00269,32,4,4,2026-04-11,6,1598.53,Completado,Presencial
-270,O00270,37,6,13,2026-03-16,6,1926.27,Completado,App
-271,O00271,75,4,12,2026-06-12,6,1028.26,Completado,App
-272,O00272,73,4,6,2026-01-04,2,471.69,Completado,App
-273,O00273,47,3,4,2026-01-26,6,1434.13,Cancelado,Call Center
-274,O00274,40,3,3,2026-04-22,6,603.64,Completado,Call Center
-275,O00275,65,6,2,2026-02-05,1,246.35,Cancelado,Presencial
-276,O00276,65,6,2,2026-04-02,4,1146.17,Observado,App
-277,O00277,80,6,10,2026-06-02,2,156.67,Observado,Call Center
-278,O00278,52,6,6,2026-02-18,1,222.13,Completado,Presencial
-279,O00279,79,1,7,2026-05-21,5,210.02,Completado,Presencial
-280,O00280,23,5,7,2026-03-14,4,141.7,Pendiente,App
-281,O00281,1,6,13,2026-05-02,3,1260.97,Completado,Web
-282,O00282,58,5,11,2026-05-05,3,555.65,Completado,App
-283,O00283,57,5,10,2026-02-26,6,544.16,Pendiente,Presencial
-284,O00284,75,2,6,2026-01-15,1,201.09,Observado,Presencial
-285,O00285,70,3,4,2026-04-17,2,441.02,Completado,Presencial
-286,O00286,29,4,10,2026-05-14,2,178.61,Completado,Presencial
-287,O00287,5,2,4,2026-06-30,6,1813.92,Observado,App
-288,O00288,10,2,2,2026-01-26,5,1416.5,Completado,Presencial
-289,O00289,57,3,6,2026-04-24,3,817.49,Completado,App
-290,O00290,28,1,2,2026-04-30,6,1746.05,Completado,App
-291,O00291,25,2,1,2026-06-03,6,785.2,Observado,Call Center
-292,O00292,26,4,14,2026-04-13,3,233.43,Pendiente,Call Center
-293,O00293,38,6,4,2026-02-20,2,513.6,Completado,Web
-294,O00294,30,6,12,2026-01-15,5,1137.88,Observado,Call Center
-295,O00295,36,5,4,2026-02-20,4,1239.29,Completado,Presencial
-296,O00296,62,6,15,2026-06-15,5,2097.57,Completado,App
-297,O00297,8,2,7,2026-06-27,2,71.66,Completado,App
-298,O00298,61,6,1,2026-06-07,6,970.07,Completado,App
-299,O00299,5,5,13,2026-03-14,5,1982.79,Completado,Call Center
-300,O00300,61,2,9,2026-05-19,5,1064.5,Completado,Web
-301,O00301,49,4,12,2026-06-16,4,874.19,Completado,App
-302,O00302,8,4,10,2026-01-06,2,174.24,Completado,Call Center
-303,O00303,61,5,12,2026-01-15,6,1203.89,Completado,Call Center
-304,O00304,69,2,3,2026-05-13,6,594.89,Completado,Call Center
-305,O00305,72,2,15,2026-01-17,5,2010.7,Observado,Web
-306,O00306,49,3,13,2026-05-26,5,1726.52,Completado,App
-307,O00307,74,4,4,2026-01-17,3,775.11,Completado,Web
-308,O00308,38,5,6,2026-01-16,6,1294.56,Completado,Call Center
-309,O00309,63,6,14,2026-05-05,2,128.19,Observado,Web
-310,O00310,8,4,6,2026-03-06,3,694.68,Completado,Presencial
-311,O00311,70,1,2,2026-05-05,2,679.21,Observado,Web
-312,O00312,1,1,12,2026-05-02,2,411.24,Completado,Web
-313,O00313,33,4,5,2026-04-28,2,148.68,Pendiente,Presencial
-314,O00314,68,3,4,2026-02-13,1,236.14,Cancelado,Presencial
-315,O00315,63,1,3,2026-06-29,3,288.47,Observado,Web
-316,O00316,34,3,15,2026-06-27,4,1575.24,Completado,App
-317,O00317,4,1,1,2026-03-09,4,556.58,Completado,Web
-318,O00318,76,5,13,2026-03-03,2,662.09,Pendiente,Call Center
-319,O00319,62,3,1,2026-06-17,3,492.1,Completado,Presencial
-320,O00320,16,1,8,2026-03-01,4,1348.52,Observado,Call Center
-321,O00321,70,1,2,2026-02-17,2,488.4,Completado,App
-322,O00322,57,4,5,2026-06-05,6,361.93,Pendiente,App
-323,O00323,61,1,14,2026-05-08,1,90.34,Pendiente,App
-324,O00324,51,6,11,2026-01-31,4,939.25,Completado,Call Center
-325,O00325,80,2,6,2026-06-08,6,1671.34,Completado,Web
-326,O00326,21,6,11,2026-03-03,1,244.09,Completado,Web
-327,O00327,18,3,3,2026-02-24,6,566.64,Completado,Call Center
-328,O00328,58,4,4,2026-06-23,3,758.54,Observado,Presencial
-329,O00329,65,1,4,2026-04-24,1,248.83,Observado,App
-330,O00330,39,6,9,2026-04-17,2,538.9,Completado,Presencial
-331,O00331,30,3,10,2026-03-30,6,534.27,Completado,Presencial
-332,O00332,8,5,3,2026-01-30,5,456.42,Completado,Presencial
-333,O00333,38,6,4,2026-06-30,5,1086.67,Completado,Presencial
-334,O00334,26,1,9,2026-02-14,6,1704.31,Completado,Web
-335,O00335,50,6,1,2026-05-13,3,416.47,Completado,Call Center
-336,O00336,41,4,10,2026-06-17,1,85.17,Pendiente,Presencial
-337,O00337,24,3,2,2026-01-24,4,963.9,Completado,Presencial
-338,O00338,54,6,12,2026-02-16,4,648.32,Completado,Presencial
-339,O00339,19,3,7,2026-03-31,5,178.21,Completado,Presencial
-340,O00340,3,6,13,2026-05-13,4,1206.71,Completado,App
-341,O00341,67,5,14,2026-02-04,6,476.48,Cancelado,Presencial
-342,O00342,21,1,7,2026-03-12,3,98.55,Completado,Call Center
-343,O00343,71,1,10,2026-02-01,3,321.23,Completado,App
-344,O00344,19,6,13,2026-06-21,2,601.73,Completado,Web
-345,O00345,23,2,4,2026-03-12,1,244.18,Observado,Presencial
-346,O00346,40,3,6,2026-06-26,3,806.34,Cancelado,App
-347,O00347,69,3,13,2026-02-08,5,1663.64,Completado,Call Center
-348,O00348,41,4,13,2026-01-31,2,708.42,Completado,Presencial
-349,O00349,9,6,2,2026-01-17,4,1313.72,Cancelado,Call Center
-350,O00350,15,5,8,2026-04-25,3,795.56,Completado,Presencial
-351,O00351,75,3,13,2026-01-05,4,1720.18,Completado,Call Center
-352,O00352,11,2,7,2026-04-24,1,39.72,Cancelado,Presencial
-353,O00353,24,5,3,2026-05-19,2,170.01,Completado,Presencial
-354,O00354,11,1,3,2026-01-06,5,402.0,Completado,Web
-355,O00355,43,5,11,2026-01-13,6,1220.98,Observado,Presencial
-356,O00356,60,3,5,2026-03-25,5,315.76,Cancelado,App
-357,O00357,17,2,14,2026-02-14,1,85.58,Completado,Web
-358,O00358,77,4,5,2026-01-25,3,226.32,Completado,Web
-359,O00359,12,1,8,2026-03-05,6,1967.35,Completado,Call Center
-360,O00360,20,3,9,2026-05-28,4,1009.8,Completado,Web
-361,O00361,62,6,9,2026-02-18,1,272.16,Observado,Call Center
-362,O00362,2,4,7,2026-02-26,4,131.92,Completado,Call Center
-363,O00363,71,5,5,2026-04-23,3,222.38,Completado,App
-364,O00364,77,6,1,2026-02-20,5,713.62,Completado,App
-365,O00365,48,1,9,2026-03-12,6,1663.3,Observado,Presencial
-366,O00366,1,4,4,2026-04-25,1,306.11,Completado,Presencial
-367,O00367,79,5,14,2026-01-24,5,435.92,Completado,Web
-368,O00368,50,2,5,2026-05-04,2,129.55,Pendiente,App
-369,O00369,3,2,12,2026-01-12,2,451.12,Completado,Web
-370,O00370,17,5,2,2026-06-01,4,1036.48,Completado,Presencial
-371,O00371,18,3,5,2026-02-22,2,151.48,Observado,App
-372,O00372,18,1,4,2026-06-14,1,224.94,Completado,Web
-373,O00373,40,5,13,2026-02-23,5,1835.83,Completado,Call Center
-374,O00374,35,3,4,2026-05-14,3,880.81,Pendiente,Call Center
-375,O00375,49,5,11,2026-05-05,1,226.27,Observado,Presencial
-376,O00376,51,4,9,2026-01-30,2,454.51,Completado,Web
-377,O00377,25,2,1,2026-01-08,6,718.32,Completado,App
-378,O00378,78,6,8,2026-05-30,1,279.16,Observado,App
-379,O00379,75,3,3,2026-01-03,6,572.27,Completado,Web
-380,O00380,65,3,2,2026-06-19,6,1459.23,Completado,Presencial
-381,O00381,61,6,7,2026-01-09,4,133.59,Completado,Presencial
-382,O00382,29,1,6,2026-03-24,4,1101.14,Pendiente,Web
-383,O00383,28,6,14,2026-01-19,4,343.07,Observado,Call Center
-384,O00384,46,2,7,2026-02-08,4,157.17,Completado,Presencial
-385,O00385,3,2,14,2026-02-09,4,312.79,Cancelado,Web
-386,O00386,52,2,1,2026-06-24,3,391.37,Cancelado,App
-387,O00387,3,6,1,2026-05-31,6,737.23,Completado,Web
-388,O00388,38,5,6,2026-02-03,6,1260.8,Completado,Call Center
-389,O00389,79,4,9,2026-01-10,1,251.82,Pendiente,Web
-390,O00390,6,1,8,2026-03-07,4,1287.29,Completado,Call Center
-391,O00391,47,1,14,2026-03-01,3,226.51,Completado,Presencial
-392,O00392,29,3,14,2026-05-24,4,295.25,Completado,Call Center
-393,O00393,5,1,14,2026-06-26,5,315.47,Completado,App
-394,O00394,31,1,14,2026-05-20,4,264.52,Completado,Call Center
-395,O00395,5,1,15,2026-05-19,4,1398.04,Completado,Call Center
-396,O00396,43,1,15,2026-04-09,3,1215.02,Completado,Presencial
-397,O00397,12,4,11,2026-06-30,5,879.25,Completado,Web
-398,O00398,21,6,10,2026-04-08,1,100.34,Completado,App
-399,O00399,53,2,15,2026-01-19,4,1707.11,Completado,Presencial
-400,O00400,45,2,14,2026-02-21,3,231.88,Completado,Call Center
-401,O00401,44,3,3,2026-05-29,5,504.27,Completado,Web
-402,O00402,2,6,11,2026-02-27,1,242.04,Completado,Web
-403,O00403,14,5,11,2026-03-15,6,1260.61,Completado,Call Center
-404,O00404,48,6,7,2026-02-07,4,159.89,Completado,Call Center
-405,O00405,72,6,5,2026-05-09,4,286.6,Completado,Web
-406,O00406,46,3,14,2026-01-27,1,87.03,Completado,Call Center
-407,O00407,71,3,11,2026-06-12,6,1170.69,Completado,Presencial
-408,O00408,2,5,12,2026-04-04,5,964.1,Observado,Presencial
-409,O00409,51,5,14,2026-01-09,4,287.75,Completado,Presencial
-410,O00410,43,2,10,2026-04-12,1,96.85,Completado,Web
-411,O00411,60,4,13,2026-01-20,6,1995.22,Completado,Call Center
-412,O00412,78,2,15,2026-02-10,5,1648.08,Cancelado,App
-413,O00413,24,2,4,2026-06-01,3,680.77,Completado,Web
-414,O00414,64,3,4,2026-05-15,5,1425.68,Completado,App
-415,O00415,34,4,13,2026-04-21,4,1403.66,Completado,Web
-416,O00416,10,3,2,2026-05-25,6,1532.74,Completado,Presencial
-417,O00417,14,4,1,2026-01-12,4,686.48,Observado,Web
-418,O00418,9,3,13,2026-02-06,1,303.86,Observado,Call Center
-419,O00419,54,6,15,2026-03-25,6,2317.91,Completado,Presencial
-420,O00420,4,5,5,2026-03-20,1,57.61,Completado,Call Center
-421,O00421,65,5,11,2026-01-20,3,603.2,Completado,App
-422,O00422,14,1,9,2026-04-29,6,1488.46,Completado,Web
-423,O00423,61,6,5,2026-05-24,2,142.97,Completado,Web
-424,O00424,7,6,6,2026-01-30,6,1657.45,Observado,Call Center
-425,O00425,71,2,11,2026-03-25,4,966.6,Cancelado,Call Center
-426,O00426,24,5,9,2026-05-23,4,954.02,Completado,Call Center
-427,O00427,70,3,7,2026-02-15,5,206.02,Completado,App
-428,O00428,59,4,9,2026-04-19,5,1061.93,Observado,App
-429,O00429,57,5,14,2026-06-30,4,281.3,Completado,Call Center
-430,O00430,54,5,15,2026-01-14,6,2456.3,Completado,Presencial
-431,O00431,53,6,4,2026-02-26,2,490.7,Completado,Presencial
-432,O00432,48,2,15,2026-05-24,5,1934.67,Completado,Presencial
-433,O00433,62,4,4,2026-05-22,2,576.92,Completado,Presencial
-434,O00434,14,6,5,2026-03-14,2,139.15,Completado,Web
-435,O00435,52,4,11,2026-05-26,3,689.06,Completado,App
-436,O00436,70,4,12,2026-06-08,4,800.13,Completado,Web
-437,O00437,33,3,11,2026-06-01,2,490.09,Completado,Web
-438,O00438,66,6,14,2026-04-10,5,350.76,Pendiente,App
-439,O00439,64,2,13,2026-06-01,6,2333.71,Observado,Web
-440,O00440,55,6,10,2026-04-09,4,386.23,Completado,Web
-441,O00441,64,2,5,2026-04-13,2,146.89,Completado,Call Center
-442,O00442,74,6,7,2026-02-21,5,201.74,Completado,App
-443,O00443,58,3,1,2026-05-08,2,279.31,Completado,Web
-444,O00444,64,5,13,2026-01-20,6,1851.55,Completado,App
-445,O00445,26,2,6,2026-01-14,3,833.9,Observado,Call Center
-446,O00446,15,2,5,2026-04-06,3,181.78,Completado,Web
-447,O00447,73,4,7,2026-02-13,3,107.14,Completado,App
-448,O00448,27,3,9,2026-05-31,4,930.68,Cancelado,Presencial
-449,O00449,79,6,15,2026-03-20,2,698.78,Completado,Call Center
-450,O00450,65,3,12,2026-04-23,1,163.76,Completado,Presencial
-451,O00451,51,1,14,2026-03-30,6,443.21,Completado,Presencial
-452,O00452,40,5,8,2026-06-25,1,323.21,Completado,Presencial
-453,O00453,16,6,13,2026-05-17,6,2533.99,Cancelado,App
-454,O00454,15,2,7,2026-01-09,2,65.52,Completado,Web
-455,O00455,75,4,3,2026-01-03,6,501.97,Completado,Call Center
-456,O00456,30,1,13,2026-03-23,4,1443.11,Completado,Call Center
-457,O00457,42,1,13,2026-03-22,6,2043.88,Completado,App
-458,O00458,41,3,15,2026-05-28,6,2489.14,Completado,Presencial
-459,O00459,49,6,11,2026-05-13,4,832.85,Completado,Presencial
-460,O00460,35,5,3,2026-01-31,6,450.73,Completado,Call Center
-461,O00461,71,5,8,2026-01-12,2,601.9,Completado,Presencial
-462,O00462,41,5,13,2026-05-06,6,2516.34,Observado,Call Center
-463,O00463,72,1,9,2026-06-28,6,1627.88,Completado,App
-464,O00464,25,6,12,2026-03-12,2,436.39,Completado,Web
-465,O00465,40,3,13,2026-02-12,1,416.94,Cancelado,App
-466,O00466,36,5,11,2026-06-19,4,705.02,Completado,Call Center
-467,O00467,48,6,8,2026-05-21,2,566.96,Completado,Presencial
-468,O00468,9,4,5,2026-01-05,6,463.69,Completado,App
-469,O00469,76,3,5,2026-03-18,2,139.14,Completado,Call Center
-470,O00470,42,4,15,2026-02-02,2,657.96,Completado,Web
-471,O00471,3,3,3,2026-06-19,3,310.78,Completado,Call Center
-472,O00472,9,1,2,2026-02-17,3,717.81,Completado,Web
-473,O00473,25,3,10,2026-04-09,6,478.04,Completado,Presencial
-474,O00474,38,6,1,2026-01-12,6,998.03,Cancelado,App
-475,O00475,54,6,10,2026-04-10,2,153.34,Completado,App
-476,O00476,21,5,12,2026-02-28,3,670.84,Completado,App
-477,O00477,35,3,4,2026-03-03,6,1378.71,Completado,Call Center
-478,O00478,19,5,13,2026-02-01,3,1138.29,Completado,App
-479,O00479,22,1,11,2026-01-01,5,928.46,Pendiente,Web
-480,O00480,67,3,3,2026-06-06,3,275.58,Cancelado,Web
-481,O00481,66,4,7,2026-01-30,6,212.15,Completado,App
-482,O00482,52,4,3,2026-04-16,1,89.48,Completado,Call Center
-483,O00483,27,4,1,2026-06-24,5,702.33,Cancelado,Call Center
-484,O00484,1,1,5,2026-02-12,4,265.66,Completado,Presencial
-485,O00485,61,5,2,2026-06-22,5,1260.23,Completado,Web
-486,O00486,1,2,9,2026-06-06,4,796.67,Completado,Presencial
-487,O00487,41,5,9,2026-06-28,2,509.79,Completado,Web
-488,O00488,43,6,9,2026-02-01,3,836.57,Completado,Call Center
-489,O00489,80,5,7,2026-03-06,4,147.86,Completado,App
-490,O00490,6,5,8,2026-05-24,1,328.4,Completado,App
-491,O00491,18,5,12,2026-06-05,3,578.69,Completado,App
-492,O00492,5,3,13,2026-05-30,1,330.6,Completado,Call Center
-493,O00493,76,1,13,2026-01-23,4,1188.38,Observado,Web
-494,O00494,27,1,4,2026-06-27,2,446.19,Pendiente,Call Center
-495,O00495,16,1,12,2026-04-20,3,601.92,Completado,Presencial
-496,O00496,26,5,8,2026-02-07,5,1606.58,Completado,App
-497,O00497,48,2,13,2026-04-18,5,1582.75,Observado,Presencial
-498,O00498,21,4,13,2026-05-12,4,1590.58,Completado,App
-499,O00499,43,1,6,2026-05-03,1,218.32,Completado,Call Center
-500,O00500,7,4,7,2026-04-15,2,87.2,Completado,Web
+id_operacion,codigo_operacion,id_cliente,id_sede,id_empleado,fecha_operacion,canal,estado,monto_total
+1,O00001,144,2,16,2026-04-26,Centro de atención,Completado,3295.20
+2,O00002,33,5,24,2026-01-01,Portal del cliente,Completado,2552.00
+3,O00003,191,1,5,25/06/2026,App EnergyHome,Completado,3035.60
+4,O00004,155,2,12,2026-04-19,Visita técnica,Cancelado,4975.60
+5,O00005,129,5,9,2026-02-17,Centro de atención,Completado,5000.00
+6,O00006,47,5,17,25/03/2026,Portal del cliente,Pendiente,7501.00
+7,O00007,12,3,21,11/01/2026,App EnergyHome,Pendiente,810.00
+8,O00008,42,1,30,2026-06-24,Visita técnica,Completado,188.80
+9,O00009,37,4,18,2026-01-06,Centro de atención,Completado,1115.00
+10,O00010,31,2,33,2026-02-19,Portal del cliente,Completado,5988.00
+11,O00011,148,6,13,2026-05-22,App EnergyHome,Completado,1556.48
+12,O00012,16,1,17,2026-02-23,Visita técnica,Pendiente,672.00
+13,O00013,47,1,7,2026-02-25,Centro de atención,Pendiente,1108.00
+14,O00014,114,4,25,2026-01-05,Portal del cliente,Completado,3072.00
+15,O00015,116,2,3,2026-06-10,App EnergyHome,Completado,5005.00
+16,O00016,123,5,34,2026-06-09,Visita técnica,Completado,1440.00
+17,O00017,72,4,39,2026-06-20,Centro de atención,Completado,4782.72
+18,O00018,183,6,39,2026-05-12,Portal del cliente,Observado,8660.00
+19,O00019,33,1,14,2026-06-02,App EnergyHome,Completado,2788.50
+20,O00020,87,2,16,2026-01-04,Visita técnica,Cancelado,2637.60
+21,O00021,120,3,35,2026-06-11,Centro de atención,Completado,867.57
+22,O00022,42,5,40,2026-02-07,Portal del cliente,Completado,3311.60
+23,O00023,144,6,20,2026-06-08,App EnergyHome,Pendiente,3244.28
+24,O00024,132,4,25,06/03/2026,Visita técnica,Completado,1080.00
+25,O00025,132,3,10,2026-05-10,Centro de atención,Completado,1610.17
+26,O00026,49,1,6,2026-03-06,Portal del cliente,Completado,2099.10
+27,O00027,100,2,35,2026-06-17,App EnergyHome,Pendiente,2088.00
+28,O00028,14,6,14,2026-02-10,Visita técnica,Completado,5859.50
+29,O00029,187,6,32,2026-04-28,Centro de atención,Completado,1495.10
+30,O00030,10,5,26,2026-01-07,Portal del cliente,Cancelado,4166.10
+31,O00031,1,6,40,2026-06-26,App EnergyHome,Completado,4486.00
+32,O00032,88,6,6,2026-02-11,Visita técnica,Observado,4464.00
+33,O00033,45,3,19,2026-04-26,Centro de atención,Completado,1515.88
+34,O00034,9,2,13,20/04/2026,Portal del cliente,Completado,1416.00
+35,O00035,199,1,10,2026-04-14,App EnergyHome,Completado,1680.00
+36,O00036,175,6,21,2026-01-14,Visita técnica,Pendiente,6661.20
+37,O00037,123,5,3,2026-04-23,Centro de atención,Pendiente,3691.00
+38,O00038,93,5,18,2026-06-03,Portal del cliente,Completado,1543.20
+39,O00039,54,5,39,2026-04-13,App EnergyHome,Completado,597.36
+40,O00040,79,3,28,2026-06-02,Visita técnica,Completado,3438.00
+41,O00041,192,3,8,2026-01-13,Centro de atención,Completado,6343.48
+42,O00042,145,6,27,2026-06-08,Portal del cliente,Completado,7564.00
+43,O00043,5,6,3,2026-04-12,App EnergyHome,Completado,369.00
+44,O00044,142,1,22,2026-01-20,Visita técnica,Completado,2640.00
+45,O00045,138,3,2,2026-06-10,Centro de atención,Pendiente,3985.00
+46,O00046,198,6,27,13/02/2026,Portal del cliente,Observado,3923.51
+47,O00047,177,6,19,2026-01-20,App EnergyHome,Pendiente,1970.00
+48,O00048,56,4,13,2026-03-12,Visita técnica,Observado,1445.95
+49,O00049,97,4,4,2026-02-16,Centro de atención,Completado,6307.80
+50,O00050,72,3,25,2026-03-04,Portal del cliente,Completado,3480.00
+51,O00051,74,1,28,2026-05-17,App EnergyHome,Completado,7921.04
+52,O00052,132,4,9,2026-03-17,Visita técnica,Completado,4858.72
+53,O00053,12,2,20,2026-04-17,Centro de atención,Completado,6930.38
+54,O00054,103,4,29,2026-01-25,Portal del cliente,Completado,5861.40
+55,O00055,7,4,7,2026-06-03,App EnergyHome,Completado,4191.50
+56,O00056,148,6,40,2026-03-24,Visita técnica,Pendiente,3550.20
+57,O00057,29,2,35,2026-01-14,Centro de atención,Completado,6674.20
+58,O00058,177,5,24,2026-03-17,Portal del cliente,Completado,690.00
+59,O00059,30,4,25,2026-03-16,App EnergyHome,Completado,274.20
+60,O00060,67,4,1,2026-05-28,Visita técnica,Pendiente,9646.76
+61,O00061,117,6,21,2026-03-14,Centro de atención,Observado,5427.57
+62,O00062,79,3,39,2026-02-03,Portal del cliente,Completado,432.00
+63,O00063,41,6,38,2026-05-11,App EnergyHome,Pendiente,7680.00
+64,O00064,173,4,4,2026-05-20,Visita técnica,Completado,2720.38
+65,O00065,77,2,6,2026-03-11,Centro de atención,Completado,3446.40
+66,O00066,85,6,29,2026-03-22,Portal del cliente,Completado,328.30
+67,O00067,150,3,20,2026-03-04,App EnergyHome,Completado,2775.00
+68,O00068,54,4,6,2026-03-04,Visita técnica,Pendiente,3641.60
+69,O00069,108,5,21,2026-05-24,Centro de atención,Observado,2157.56
+70,O00070,110,6,12,2026-03-05,Portal del cliente,Completado,2660.54
+71,O00071,43,5,26,2026-02-27,App EnergyHome,Pendiente,1425.60
+72,O00072,111,6,21,2026-04-14,Visita técnica,Completado,6765.36
+73,O00073,45,1,24,2026-01-10,Centro de atención,Completado,1967.40
+74,O00074,23,4,32,2026-01-23,Portal del cliente,Completado,3030.00
+75,O00075,11,6,,2026-02-01,App EnergyHome,Completado,3435.62
+76,O00076,69,2,30,2026-06-05,Visita técnica,Completado,1676.36
+77,O00077,147,6,21,2026-06-01,Centro de atención,Observado,8670.16
+78,O00078,10,6,14,2026-05-28,Portal del cliente,Completado,7401.70
+79,O00079,189,2,2,2026-04-21,App EnergyHome,Completado,2152.00
+80,O00080,13,6,31,2026-06-15,Visita técnica,Pendiente,1921.80
+81,O00081,143,1,37,2026-03-13,Centro de atención,Completado,2772.00
+82,O00082,115,2,7,2026-06-09,Portal del cliente,Completado,3787.96
+83,O00083,173,3,37,2026-04-22,App EnergyHome,Pendiente,3656.48
+84,O00084,67,6,30,2026-02-11,Visita técnica,Pendiente,1149.40
+85,O00085,104,5,8,05/02/2026,Centro de atención,Pendiente,1194.72
+86,O00086,16,1,,2026-06-01,Portal del cliente,Pendiente,3359.00
+87,O00087,166,3,27,22/06/2026,App EnergyHome,Completado,472.00
+88,O00088,23,3,22,2026-02-01,Visita técnica,Completado,2490.36
+89,O00089,8,4,24,2026-02-21,Centro de atención,Completado,5641.16
+90,O00090,97,3,37,2026-02-12,Portal del cliente,Completado,840.00
+91,O00091,41,4,39,2026-03-18,App EnergyHome,Completado,7925.60
+92,O00092,200,3,35,2026-05-16,Visita técnica,Pendiente,3604.76
+93,O00093,178,5,1,2026-01-27,Centro de atención,Observado,3816.00
+94,O00094,122,1,37,2026-02-09,Portal del cliente,Completado,1560.00
+95,O00095,183,1,12,2026-05-11,App EnergyHome,Completado,1680.00
+96,O00096,139,3,36,2026-04-03,Visita técnica,Pendiente,4653.35
+97,O00097,53,2,36,2026-05-04,Centro de atención,Completado,6349.00
+98,O00098,93,2,39,2026-04-11,Portal del cliente,Completado,765.00
+99,O00099,84,6,33,2026-06-21,App EnergyHome,Completado,7500.00
+100,O00100,41,5,23,2026-04-05,Visita técnica,Cancelado,837.00
+101,O00101,21,5,38,2026-05-10,Centro de atención,Completado,4679.40
+102,O00102,195,4,7,2026-05-06,Portal del cliente,Completado,1401.24
+103,O00103,48,4,18,2026-05-15,App EnergyHome,Completado,4304.00
+104,O00104,23,4,4,2026-04-14,Visita técnica,Completado,1735.14
+105,O00105,193,3,4,2026-01-09,Centro de atención,Completado,1140.00
+106,O00106,78,3,8,2026-01-02,Portal del cliente,Cancelado,2842.48
+107,O00107,166,3,37,2026-03-24,App EnergyHome,Completado,7386.26
+108,O00108,76,4,21,2026-03-14,Visita técnica,Observado,10248.00
+109,O00109,142,6,21,21/04/2026,Centro de atención,Pendiente,2229.00
+110,O00110,123,6,37,2026-02-15,Portal del cliente,Cancelado,233.90
+111,O00111,172,1,34,2026-03-07,App EnergyHome,Observado,1194.72
+112,O00112,125,6,7,2026-04-06,Visita técnica,Cancelado,264.00
+113,O00113,120,4,20,2026-03-02,Centro de atención,Completado,459.00
+114,O00114,73,1,16,2026-04-22,Portal del cliente,Observado,7219.20
+115,O00115,117,3,10,2026-01-21,App EnergyHome,Completado,1292.60
+116,O00116,114,6,25,2026-01-19,Visita técnica,Completado,1687.41
+117,O00117,168,6,25,2026-02-04,Centro de atención,Pendiente,411.30
+118,O00118,104,5,31,2026-03-18,Portal del cliente,Completado,756.00
+119,O00119,48,5,12,2026-06-04,App EnergyHome,Completado,6960.00
+120,O00120,50,1,33,2026-01-04,Visita técnica,Completado,4046.76
+121,O00121,2,1,16,2026-04-13,Centro de atención,Completado,1436.18
+122,O00122,189,5,18,2026-05-05,Portal del cliente,Completado,843.38
+123,O00123,63,3,39,2026-02-28,App EnergyHome,Cancelado,1270.00
+124,O00124,35,6,30,2026-04-20,Visita técnica,Completado,472.00
+125,O00125,193,4,40,2026-06-21,Centro de atención,Cancelado,6136.76
+126,O00126,200,2,29,01/01/2026,Portal del cliente,Completado,5473.50
+127,O00127,72,6,26,2026-02-19,App EnergyHome,Pendiente,3786.00
+128,O00128,122,3,14,2026-06-17,Visita técnica,Cancelado,7342.40
+129,O00129,129,1,30,2026-02-23,Centro de atención,Pendiente,2248.00
+130,O00130,188,3,,2026-03-24,Portal del cliente,Cancelado,1180.27
+131,O00131,84,3,24,2026-06-13,App EnergyHome,Completado,2479.12
+132,O00132,61,4,27,2026-06-18,Visita técnica,Completado,5838.00
+133,O00133,20,5,15,2026-01-24,Centro de atención,Pendiente,7080.85
+134,O00134,156,6,35,2026-01-22,Portal del cliente,Observado,4741.50
+135,O00135,191,6,19,2026-05-09,App EnergyHome,Cancelado,1264.30
+136,O00136,94,1,34,2026-02-12,Visita técnica,Completado,714.00
+137,O00137,10,6,8,2026-02-24,Centro de atención,Completado,4826.80
+138,O00138,115,4,24,2026-01-17,Portal del cliente,Completado,5104.00
+139,O00139,147,4,5,2026-06-19,App EnergyHome,Pendiente,996.00
+140,O00140,129,2,28,2026-04-10,Visita técnica,Cancelado,2644.08
+141,O00141,191,3,6,2026-03-02,Centro de atención,Completado,8617.60
+142,O00142,145,1,26,2026-04-07,Portal del cliente,Pendiente,4820.54
+143,O00143,64,2,20,2026-03-16,App EnergyHome,Completado,3466.00
+144,O00144,25,2,33,2026-04-05,Visita técnica,Cancelado,6737.60
+145,O00145,156,1,39,2026-01-12,Centro de atención,Pendiente,1000.12
+146,O00146,140,5,33,2026-04-18,Portal del cliente,Cancelado,1668.48
+147,O00147,49,4,6,2026-01-19,App EnergyHome,Completado,4032.40
+148,O00148,9404,2,13,2026-01-08,Visita técnica,Completado,1779.00
+149,O00149,30,3,32,2026-03-08,Centro de atención,Pendiente,597.36
+150,O00150,4,5,12,2026-01-04,Portal del cliente,Completado,2266.20
+151,O00151,97,3,13,2026-06-25,App EnergyHome,Completado,2601.70
+152,O00152,42,5,29,2026-05-27,Visita técnica,Pendiente,2479.00
+153,O00153,92,6,9,2026-06-09,Centro de atención,Completado,1301.60
+154,O00154,171,4,30,2026-02-16,Portal del cliente,Observado,647.60
+155,O00155,48,2,10,2026-05-21,App EnergyHome,Completado,2334.18
+156,O00156,77,4,26,2026-04-20,Visita técnica,Completado,980.00
+157,O00157,167,4,19,2026-05-07,Centro de atención,Completado,396.00
+158,O00158,7,4,36,2026-03-11,Portal del cliente,Pendiente,1194.72
+159,O00159,169,1,36,2026-03-05,App EnergyHome,Cancelado,3905.70
+160,O00160,83,2,4,2026-06-14,Visita técnica,Completado,6478.28
+161,O00161,99,5,13,2026-05-08,Centro de atención,Completado,540.00
+162,O00162,93,6,25,2026-01-07,Portal del cliente,Completado,7636.00
+163,O00163,17,1,,2026-06-07,App EnergyHome,Completado,192.00
+164,O00164,116,1,37,2026-03-01,Visita técnica,Cancelado,486.00
+165,O00165,44,2,23,2026-04-27,Centro de atención,Pendiente,1897.09
+166,O00166,56,2,35,2026-06-15,Portal del cliente,Completado,576.00
+167,O00167,40,5,6,2026-04-25,App EnergyHome,Completado,720.00
+168,O00168,90,6,34,2026-02-21,Visita técnica,Pendiente,1565.00
+169,O00169,42,6,,2026-04-03,Centro de atención,Completado,822.60
+170,O00170,200,6,12,23/03/2026,Portal del cliente,Completado,4818.00
+171,O00171,12,3,34,2026-05-02,App EnergyHome,Observado,5518.09
+172,O00172,63,2,2,12/02/2026,Visita técnica,Cancelado,922.00
+173,O00173,174,5,13,2026-04-13,Centro de atención,Completado,3992.00
+174,O00174,63,4,2,2026-03-10,Portal del cliente,Observado,1295.45
+175,O00175,153,3,15,2026-03-28,App EnergyHome,Observado,3378.37
+176,O00176,44,1,4,2026-05-07,Visita técnica,Completado,7770.94
+177,O00177,168,5,21,2026-06-09,Centro de atención,Pendiente,2016.00
+178,O00178,177,6,20,2026-02-21,Portal del cliente,Pendiente,2119.14
+179,O00179,118,1,39,2026-06-07,App EnergyHome,Completado,1450.00
+180,O00180,52,2,24,17/06/2026,Visita técnica,Pendiente,2574.00
+181,O00181,120,1,19,2026-04-23,Centro de atención,Pendiente,1250.00
+182,O00182,145,2,7,2026-04-09,Portal del cliente,Cancelado,2670.00
+183,O00183,180,6,10,10/06/2026,App EnergyHome,Pendiente,4150.24
+184,O00184,177,5,12,2026-03-07,Visita técnica,Observado,4146.60
+185,O00185,199,3,2,2026-02-09,Centro de atención,Completado,3608.00
+186,O00186,92,1,5,20/03/2026,Portal del cliente,Completado,411.30
+187,O00187,140,4,8,2026-01-12,App EnergyHome,Pendiente,6992.00
+188,O00188,45,6,21,10/04/2026,Visita técnica,Completado,7766.48
+189,O00189,184,6,,2026-01-03,Centro de atención,Completado,289.19
+190,O00190,109,3,29,2026-01-26,Portal del cliente,Completado,252.00
+191,O00191,9,5,31,2026-05-24,App EnergyHome,Cancelado,2544.00
+192,O00192,51,1,24,2026-01-17,Visita técnica,Pendiente,768.00
+193,O00193,7,4,32,2026-06-18,Centro de atención,Completado,726.00
+194,O00194,93,1,20,2026-03-08,Portal del cliente,Completado,5000.00
+195,O00195,120,4,10,2026-03-09,App EnergyHome,Pendiente,1856.12
+196,O00196,17,1,10,2026-03-17,Visita técnica,Completado,4111.60
+197,O00197,76,6,5,2026-05-15,Centro de atención,Completado,450.00
+198,O00198,148,6,40,2026-04-25,Portal del cliente,Pendiente,1454.60
+199,O00199,57,1,11,2026-06-06,App EnergyHome,Completado,3156.00
+200,O00200,62,4,26,2026-05-04,Visita técnica,Completado,2315.50
+201,O00201,80,6,39,2026-02-22,Centro de atención,Completado,4016.00
+202,O00202,172,3,27,2026-06-06,Portal del cliente,Completado,3878.00
+203,O00203,144,3,18,2026-01-07,App EnergyHome,Pendiente,542.18
+204,O00204,56,6,4,2026-01-02,Visita técnica,Pendiente,2400.00
+205,O00205,86,6,11,2026-04-06,Centro de atención,Completado,7266.00
+206,O00206,72,2,22,2026-05-14,Portal del cliente,Pendiente,4521.27
+207,O00207,91,5,8,2026-02-24,App EnergyHome,Completado,5703.80
+208,O00208,191,1,27,2026-03-15,Visita técnica,Cancelado,756.00
+209,O00209,91,5,39,2026-06-07,Centro de atención,Completado,4923.04
+210,O00210,192,5,38,2026-02-03,Portal del cliente,Completado,1542.54
+211,O00211,6,3,6,2026-06-27,App EnergyHome,Completado,90.00
+212,O00212,186,6,7,2026-05-01,Visita técnica,Pendiente,2400.00
+213,O00213,16,3,36,2026-04-08,Centro de atención,Completado,5192.50
+214,O00214,76,5,7,2026-03-01,Portal del cliente,Pendiente,5374.72
+215,O00215,5,4,22,2026-04-27,App EnergyHome,Completado,5734.78
+216,O00216,18,2,19,18/03/2026,Visita técnica,Pendiente,2349.12
+217,O00217,115,3,26,2026-03-07,Centro de atención,Completado,672.00
+218,O00218,144,3,32,2026-02-28,Portal del cliente,Completado,4109.36
+219,O00219,40,1,18,2026-04-11,App EnergyHome,Pendiente,796.48
+220,O00220,179,4,35,2026-06-23,Visita técnica,Pendiente,672.00
+221,O00221,169,1,25,2026-02-06,Centro de atención,Completado,3490.00
+222,O00222,158,4,1,2026-03-09,Portal del cliente,Completado,2370.00
+223,O00223,39,5,19,2026-05-27,App EnergyHome,Completado,4435.60
+224,O00224,26,3,28,2026-02-23,Visita técnica,Completado,2020.00
+225,O00225,91,6,9,2026-04-02,Centro de atención,Completado,5715.66
+226,O00226,19,3,19,2026-01-04,Portal del cliente,Observado,1140.00
+227,O00227,180,6,8,2026-03-17,App EnergyHome,Pendiente,360.00
+228,O00228,30,2,22,2026-05-23,Visita técnica,Completado,4928.74
+229,O00229,151,3,23,22/06/2026,Centro de atención,Pendiente,5312.00
+230,O00230,74,6,13,24/01/2026,Portal del cliente,Completado,3788.00
+231,O00231,44,4,26,2026-06-08,App EnergyHome,Pendiente,1144.12
+232,O00232,194,4,22,2026-03-03,Visita técnica,Pendiente,5312.82
+233,O00233,56,6,5,2026-06-18,Centro de atención,Completado,7690.80
+234,O00234,30,1,9,2026-06-23,Portal del cliente,Completado,1305.81
+235,O00235,18,2,21,2026-05-26,App EnergyHome,Pendiente,8451.00
+236,O00236,1,2,34,2026-05-24,Visita técnica,Cancelado,1960.00
+237,O00237,130,4,8,2026-05-19,Centro de atención,Completado,6661.45
+238,O00238,39,6,30,2026-03-23,Portal del cliente,Completado,3647.40
+239,O00239,112,4,32,2026-03-02,App EnergyHome,Completado,4817.00
+240,O00240,31,6,39,2026-02-24,Visita técnica,Completado,2830.60
+241,O00241,137,3,27,2026-02-07,Centro de atención,Pendiente,3966.00
+242,O00242,108,2,39,2026-04-12,Portal del cliente,Completado,2674.10
+243,O00243,48,3,3,2026-03-19,App EnergyHome,Completado,1783.44
+244,O00244,134,2,18,2026-06-03,Visita técnica,Completado,566.40
+245,O00245,115,1,1,2026-02-24,Centro de atención,Observado,3157.30
+246,O00246,103,1,8,2026-03-22,Portal del cliente,Observado,3988.00
+247,O00247,169,2,24,2026-05-26,App EnergyHome,Completado,4394.03
+248,O00248,132,3,39,2026-04-14,Visita técnica,Observado,3103.00
+249,O00249,164,6,24,2026-06-16,Centro de atención,Completado,5594.00
+250,O00250,97,6,20,22/02/2026,Portal del cliente,Completado,99.00
+251,O00251,27,5,22,2026-03-07,App EnergyHome,Completado,2373.09
+252,O00252,59,2,24,2026-01-03,Visita técnica,Completado,3161.62
+253,O00253,171,1,13,2026-04-02,Centro de atención,Completado,4908.24
+254,O00254,101,1,35,2026-02-28,Portal del cliente,Pendiente,2111.17
+255,O00255,40,5,28,2026-01-16,App EnergyHome,Observado,1994.00
+256,O00256,3,5,9,2026-02-02,Visita técnica,Observado,630.00
+257,O00257,97,4,34,2026-05-13,Centro de atención,Completado,4852.00
+258,O00258,27,2,24,2026-01-05,Portal del cliente,Completado,1662.00
+259,O00259,9772,2,31,2026-06-28,App EnergyHome,Completado,5121.16
+260,O00260,131,4,36,2026-02-15,Visita técnica,Completado,3503.46
+261,O00261,184,6,17,2026-04-11,Centro de atención,Pendiente,270.00
+262,O00262,90,5,18,2026-06-02,Portal del cliente,Completado,5206.93
+263,O00263,158,4,10,2026-03-28,App EnergyHome,Completado,1229.48
+264,O00264,84,1,36,2026-02-25,Visita técnica,Cancelado,1366.55
+265,O00265,169,1,29,2026-04-07,Centro de atención,Completado,16520.00
+266,O00266,45,3,2,2026-01-11,Portal del cliente,Completado,3463.75
+267,O00267,194,2,33,2026-03-03,App EnergyHome,Completado,360.00
+268,O00268,110,2,17,2026-01-22,Visita técnica,Completado,2542.00
+269,O00269,124,5,10,2026-06-22,Centro de atención,Completado,3802.00
+270,O00270,43,3,34,2026-01-25,Portal del cliente,Completado,1992.00
+271,O00271,123,5,39,2026-02-13,App EnergyHome,Pendiente,4763.04
+272,O00272,110,4,7,2026-06-24,Visita técnica,Completado,380.00
+273,O00273,75,6,10,2026-04-24,Centro de atención,Observado,1495.10
+274,O00274,12,3,27,2026-02-11,Portal del cliente,Observado,72.00
+275,O00275,60,5,32,2026-05-24,App EnergyHome,Observado,7492.32
+276,O00276,76,3,15,2026-06-01,Visita técnica,Completado,297.00
+277,O00277,58,2,33,2026-01-19,Centro de atención,Completado,4042.16
+278,O00278,60,3,14,2026-02-01,Portal del cliente,Completado,270.00
+279,O00279,18,3,33,2026-02-12,App EnergyHome,Completado,6705.6
+280,O00280,137,4,22,01/02/2026,Visita técnica,Completado,4534.33
+281,O00281,159,4,1,2026-04-11,Centro de atención,Completado,4493.91
+282,O00282,102,1,40,2026-03-21,Portal del cliente,Completado,99.00
+283,O00283,156,1,35,2026-01-20,App EnergyHome,Completado,2246.18
+284,O00284,21,5,9,2026-06-17,Visita técnica,Completado,4092.71
+285,O00285,54,1,25,2026-03-23,Centro de atención,Completado,2653.19
+286,O00286,89,3,30,2026-05-01,Portal del cliente,Observado,1757.50
+287,O00287,85,6,1,2026-05-24,App EnergyHome,Completado,8393.20
+288,O00288,77,3,19,2026-06-23,Visita técnica,Cancelado,6222.00
+289,O00289,152,5,36,2026-05-10,Centro de atención,Completado,1561.70
+290,O00290,58,3,11,2026-06-22,Portal del cliente,Observado,3324.00
+291,O00291,180,5,12,2026-01-02,App EnergyHome,Completado,2717.00
+292,O00292,183,2,24,2026-01-19,Visita técnica,Completado,1056.00
+293,O00293,155,3,34,2026-04-03,Centro de atención,Completado,1404.00
+294,O00294,47,5,35,2026-02-01,Portal del cliente,Observado,130.00
+295,O00295,3,6,26,2026-02-26,App EnergyHome,Cancelado,264.00
+296,O00296,189,1,28,2026-06-08,Visita técnica,Completado,672.00
+297,O00297,30,3,3,07/02/2026,Centro de atención,Completado,2256.00
+298,O00298,121,6,9,2026-05-18,Portal del cliente,Pendiente,792.00
+299,O00299,67,5,26,2026-06-02,App EnergyHome,Completado,5197.72
+300,O00300,20,2,5,17/02/2026,Visita técnica,Cancelado,804.00
+301,O00301,79,1,7,2026-02-06,Centro de atención,Completado,1592.96
+302,O00302,120,2,39,23/02/2026,Portal del cliente,Cancelado,4307.00
+303,O00303,125,6,35,2026-01-26,App EnergyHome,Completado,607.90
+304,O00304,112,2,17,2026-05-02,Visita técnica,Cancelado,3857.45
+305,O00305,102,2,20,2026-03-25,Centro de atención,Completado,1261.24
+306,O00306,67,4,8,2026-04-17,Portal del cliente,Cancelado,377.60
+307,O00307,118,2,24,2026-05-25,App EnergyHome,Pendiente,1453.08
+308,O00308,118,2,25,2026-05-20,Visita técnica,Observado,-4019.6
+309,O00309,47,6,25,02/05/2026,Centro de atención,Completado,6844.36
+310,O00310,156,5,18,2026-03-14,Portal del cliente,Cancelado,1652.00
+311,O00311,188,3,11,2026-05-23,App EnergyHome,Completado,384.00
+312,O00312,46,5,27,01/04/2026,Visita técnica,Completado,4247.60
+313,O00313,10,4,40,2026-02-06,Centro de atención,Completado,2016.00
+314,O00314,191,1,39,2026-04-08,Portal del cliente,Cancelado,3786.50
+315,O00315,82,6,20,2026-06-24,App EnergyHome,Completado,6892.00
+316,O00316,42,2,25,2026-02-10,Visita técnica,Pendiente,4218.20
+317,O00317,9668,6,13,2026-01-05,Centro de atención,Completado,188.80
+318,O00318,145,6,25,2026-05-04,Portal del cliente,Cancelado,751.00
+319,O00319,53,3,25,2026-05-05,App EnergyHome,Pendiente,3270.38
+320,O00320,151,4,3,2026-02-10,Visita técnica,Completado,90.00
+321,O00321,134,4,32,2026-06-03,Centro de atención,Completado,1790.00
+322,O00322,59,6,5,2026-01-13,Portal del cliente,Pendiente,3754.90
+323,O00323,199,2,4,2026-03-22,App EnergyHome,Completado,2157.70
+324,O00324,186,5,7,2026-03-06,Visita técnica,Observado,3983.90
+325,O00325,72,4,24,08/05/2026,Centro de atención,Completado,7656.00
+326,O00326,40,2,24,2026-02-17,Portal del cliente,Pendiente,3915.60
+327,O00327,28,3,21,2026-05-18,App EnergyHome,Pendiente,290.18
+328,O00328,57,1,24,28/05/2026,Visita técnica,Observado,2725.95
+329,O00329,174,2,19,2026-03-13,Centro de atención,Completado,3604.40
+330,O00330,152,4,29,03/02/2026,Portal del cliente,Observado,472.00
+331,O00331,48,2,7,2026-02-06,App EnergyHome,Cancelado,13066.00
+332,O00332,136,5,27,2026-03-22,Visita técnica,Completado,5000.00
+333,O00333,63,6,8,2026-02-01,Centro de atención,Pendiente,5585.50
+334,O00334,4,2,25,2026-01-21,Portal del cliente,Pendiente,6311.24
+335,O00335,72,2,5,2026-03-16,App EnergyHome,Completado,5311.60
+336,O00336,111,5,31,2026-06-22,Visita técnica,Completado,13706.00
+337,O00337,6,1,25,2026-01-09,Centro de atención,Completado,3920.00
+338,O00338,153,3,5,2026-05-03,Portal del cliente,Completado,3732.14
+339,O00339,33,3,17,2026-01-17,App EnergyHome,Completado,10792.24
+340,O00340,136,3,26,2026-02-14,Visita técnica,Pendiente,6246.00
+341,O00341,59,1,15,2026-05-01,Centro de atención,Completado,3640.00
+342,O00342,156,3,,2026-05-08,Portal del cliente,Completado,7292.50
+343,O00343,19,2,6,25/01/2026,App EnergyHome,Cancelado,2952.00
+344,O00344,165,5,28,2026-03-09,Visita técnica,Completado,3933.30
+345,O00345,164,5,20,2026-02-04,Centro de atención,Observado,8185.50
+346,O00346,70,4,10,2026-06-22,Portal del cliente,Cancelado,264.00
+347,O00347,21,3,17,2026-04-18,App EnergyHome,Completado,3192.80
+348,O00348,9974,3,27,2026-06-17,Visita técnica,Completado,1082.00
+349,O00349,112,3,35,2026-01-17,Centro de atención,Cancelado,760.00
+350,O00350,121,2,25,2026-04-17,Portal del cliente,Completado,12293.00
+351,O00351,163,2,20,2026-05-18,App EnergyHome,Completado,940.36
+352,O00352,72,6,18,2026-01-05,Visita técnica,Completado,1296.00
+353,O00353,71,1,20,2026-04-14,Centro de atención,Pendiente,2060.70
+354,O00354,7,2,23,2026-06-09,Portal del cliente,Pendiente,5184.00
+355,O00355,197,2,25,2026-05-24,App EnergyHome,Completado,4452.51
+356,O00356,140,5,30,2026-02-25,Visita técnica,Completado,9145.00
+357,O00357,103,4,8,2026-02-27,Centro de atención,Cancelado,6147.40
+358,O00358,95,6,32,2026-05-13,Portal del cliente,Completado,4900.00
+359,O00359,51,2,30,2026-01-21,App EnergyHome,Completado,16662.00
+360,O00360,169,2,28,2026-02-02,Visita técnica,Completado,6762.32
+361,O00361,155,2,5,2026-03-18,Centro de atención,Completado,1900.00
+362,O00362,80,1,39,2026-04-21,Portal del cliente,Cancelado,6507.00
+363,O00363,194,2,27,2026-06-04,App EnergyHome,Completado,1967.70
+364,O00364,148,6,14,2026-01-14,Visita técnica,Completado,3107.60
+365,O00365,132,5,29,2026-06-23,Centro de atención,Completado,2002.20
+366,O00366,145,6,29,2026-01-12,Portal del cliente,Completado,297.00
+367,O00367,9997,3,9,2026-05-16,App EnergyHome,Pendiente,3730.26
+368,O00368,21,5,8,2026-05-17,Visita técnica,Pendiente,1818.72
+369,O00369,98,6,12,15/03/2026,Centro de atención,Completado,1523.40
+370,O00370,142,3,23,10/01/2026,Portal del cliente,Cancelado,2727.60
+371,O00371,94,3,36,2026-01-24,App EnergyHome,Completado,264.00
+372,O00372,194,6,7,2026-02-18,Visita técnica,Completado,1519.30
+373,O00373,66,2,34,2026-02-19,Centro de atención,Pendiente,1445.95
+374,O00374,13,4,34,2026-04-10,Portal del cliente,Completado,2867.00
+375,O00375,80,5,1,2026-01-22,App EnergyHome,Completado,1388.40
+376,O00376,31,2,8,27/02/2026,Visita técnica,Completado,325.00
+377,O00377,165,5,24,2026-04-23,Centro de atención,Pendiente,1456.00
+378,O00378,16,4,24,2026-02-22,Portal del cliente,Completado,2520.00
+379,O00379,46,6,40,2026-05-10,App EnergyHome,Completado,1369.19
+380,O00380,169,6,2,2026-03-23,Visita técnica,Cancelado,3263.55
+381,O00381,137,1,12,2026-01-14,Centro de atención,Observado,1779.00
+382,O00382,100,2,14,2026-03-03,Portal del cliente,Completado,7385.71
+383,O00383,55,3,40,2026-01-21,App EnergyHome,Completado,11437.60
+384,O00384,114,1,28,2026-06-21,Visita técnica,Completado,2210.16
+385,O00385,65,4,8,2026-05-14,Centro de atención,Cancelado,9759.19
+386,O00386,24,6,36,2026-06-20,Portal del cliente,Pendiente,2097.00
+387,O00387,170,2,5,2026-04-26,App EnergyHome,Pendiente,4656.40
+388,O00388,5,2,8,2026-02-09,Visita técnica,Pendiente,11268.00
+389,O00389,47,4,27,2026-06-24,Centro de atención,Cancelado,2320.40
+390,O00390,165,1,28,2026-03-09,Portal del cliente,Completado,9135.30
+391,O00391,67,4,26,2026-06-06,App EnergyHome,Completado,2215.10
+392,O00392,132,3,21,2026-03-17,Visita técnica,Completado,3982.67
+393,O00393,40,5,39,2026-01-07,Centro de atención,Completado,1886.40
+394,O00394,137,3,39,11/01/2026,Portal del cliente,Completado,7368.00
+395,O00395,41,5,7,2026-04-01,App EnergyHome,Cancelado,630.00
+396,O00396,17,2,25,2026-03-21,Visita técnica,Cancelado,1076.00
+397,O00397,112,2,11,2026-02-19,Centro de atención,Completado,5792.98
+398,O00398,2,1,17,2026-03-12,Portal del cliente,Cancelado,6710.00
+399,O00399,151,5,6,2026-03-08,App EnergyHome,Completado,672.00
+400,O00400,196,4,22,2026-06-14,Visita técnica,Completado,636.00
+401,O00401,40,1,22,2026-06-15,Centro de atención,Completado,3588.00
+402,O00402,51,6,13,2026-05-25,Portal del cliente,Completado,2202.24
+403,O00403,176,5,27,2026-04-13,App EnergyHome,Cancelado,1329.00
+404,O00404,114,4,4,2026-05-16,Visita técnica,Completado,2768.83
+405,O00405,149,3,35,2026-06-23,Centro de atención,Completado,908.40
+406,O00406,149,2,31,13/02/2026,Portal del cliente,Cancelado,2280.00
+407,O00407,49,5,33,2026-02-17,App EnergyHome,Completado,4148.24
+408,O00408,122,2,15,2026-01-01,Visita técnica,Cancelado,1880.00
+409,O00409,68,5,30,2026-06-24,Centro de atención,Completado,7733.90
+410,O00410,4,1,19,2026-05-02,Portal del cliente,Completado,2184.00
+411,O00411,168,6,25,2026-06-05,App EnergyHome,Completado,3272.00
+412,O00412,10,4,13,2026-01-07,Visita técnica,Completado,8020.40
+413,O00413,168,4,4,2026-01-26,Centro de atención,Completado,1242.00
+414,O00414,144,2,38,2026-01-01,Portal del cliente,Pendiente,1350.60
+415,O00415,16,3,39,28/05/2026,App EnergyHome,Completado,792.00
+416,O00416,134,2,40,2026-06-15,Visita técnica,Completado,1875.00
+417,O00417,104,1,35,2026-04-16,Centro de atención,Completado,9138.14
+418,O00418,185,6,29,2026-05-18,Portal del cliente,Cancelado,918.00
+419,O00419,170,3,7,2026-03-22,App EnergyHome,Completado,495.00
+420,O00420,191,3,5,2026-05-12,Visita técnica,Observado,4543.30
+421,O00421,26,2,23,2026-06-24,Centro de atención,Completado,252.00
+422,O00422,81,5,26,2026-02-14,Portal del cliente,Pendiente,2527.00
+423,O00423,187,2,26,2026-04-21,App EnergyHome,Completado,407.10
+424,O00424,66,1,12,2026-04-05,Visita técnica,Completado,3039.50
+425,O00425,98,3,7,2026-01-02,Centro de atención,Completado,1152.00
+426,O00426,141,5,35,2026-02-01,Portal del cliente,Pendiente,2262.48
+427,O00427,54,1,9,2026-06-26,App EnergyHome,Completado,4222.90
+428,O00428,164,5,30,2026-01-16,Visita técnica,Cancelado,867.57
+429,O00429,102,3,34,2026-01-24,Centro de atención,Completado,5504.00
+430,O00430,34,2,37,2026-02-25,Portal del cliente,Completado,7718.36
+431,O00431,14,4,27,2026-05-24,App EnergyHome,Completado,3577.36
+432,O00432,67,3,9,2026-02-28,Visita técnica,Completado,2016.00
+433,O00433,20,6,21,2026-01-22,Centro de atención,Completado,370.00
+434,O00434,125,3,34,2026-03-24,Portal del cliente,Completado,3851.40
+435,O00435,157,1,29,2026-04-14,App EnergyHome,Completado,1995.00
+436,O00436,30,5,39,2026-06-26,Visita técnica,Completado,1125.00
+437,O00437,4,1,25,2026-06-17,Centro de atención,Completado,3930.50
+438,O00438,198,4,27,2026-02-12,Portal del cliente,Cancelado,5504.00
+439,O00439,108,6,,2026-06-26,App EnergyHome,Completado,4458.86
+440,O00440,105,5,,07/04/2026,Visita técnica,Completado,900.00
+441,O00441,183,5,20,2026-06-13,Centro de atención,Completado,4639.00
+442,O00442,19,3,32,2026-01-09,Portal del cliente,Completado,2262.48
+443,O00443,122,4,18,2026-04-14,App EnergyHome,Completado,1960.00
+444,O00444,82,4,1,2026-06-07,Visita técnica,Completado,1156.76
+445,O00445,40,6,29,2026-02-09,Centro de atención,Completado,1772.40
+446,O00446,45,5,37,2026-03-18,Portal del cliente,Completado,145.09
+447,O00447,6,6,13,2026-02-04,App EnergyHome,Pendiente,4679.58
+448,O00448,186,3,36,2026-02-05,Visita técnica,Completado,4478.54
+449,O00449,134,4,26,2026-02-07,Centro de atención,Completado,2249.50
+450,O00450,101,3,25,2026-03-27,Portal del cliente,Observado,980.43
+451,O00451,101,6,22,2026-04-24,App EnergyHome,Completado,2593.77
+452,O00452,190,6,10,2026-03-19,Visita técnica,Pendiente,2313.43
+453,O00453,71,5,23,08/06/2026,Centro de atención,Completado,1947.76
+454,O00454,15,2,37,2026-03-27,Portal del cliente,Observado,11250.00
+455,O00455,168,4,15,2026-04-11,App EnergyHome,Cancelado,576.00
+456,O00456,59,3,39,2026-01-05,Visita técnica,Completado,3056.00
+457,O00457,44,3,34,2026-01-25,Centro de atención,Pendiente,1531.12
+458,O00458,26,6,23,2026-05-01,Portal del cliente,Completado,701.70
+459,O00459,91,1,34,2026-03-03,App EnergyHome,Completado,5854.00
+460,O00460,49,2,25,2026-01-01,Visita técnica,Completado,11380.00
+461,O00461,78,3,29,2026-01-07,Centro de atención,Completado,1479.57
+462,O00462,131,5,30,2026-06-05,Portal del cliente,Pendiente,8032.16
+463,O00463,194,2,21,2026-06-24,App EnergyHome,Completado,6042.00
+464,O00464,26,5,28,2026-05-21,Visita técnica,Completado,2880.00
+465,O00465,7,5,25,2026-06-13,Centro de atención,Pendiente,4786.50
+466,O00466,65,1,10,2026-06-13,Portal del cliente,Completado,8006.48
+467,O00467,17,6,30,2026-01-13,App EnergyHome,Completado,1403.40
+468,O00468,16,3,35,2026-04-04,Visita técnica,Pendiente,4640.00
+469,O00469,148,6,16,2026-02-25,Centro de atención,Completado,5314.72
+470,O00470,131,4,28,2026-02-20,Portal del cliente,Completado,4799.2
+471,O00471,82,2,5,2026-03-06,App EnergyHome,Cancelado,725.45
+472,O00472,7,3,7,2026-06-23,Visita técnica,Completado,1920.00
+473,O00473,82,1,8,2026-04-13,Centro de atención,Completado,2814.80
+474,O00474,4,1,25,2026-01-10,Portal del cliente,Completado,4919.50
+475,O00475,156,3,11,2026-01-06,App EnergyHome,Observado,4020.00
+476,O00476,129,4,40,2026-01-23,Visita técnica,Pendiente,4146.00
+477,O00477,196,3,10,2026-06-13,Centro de atención,Observado,7500.00
+478,O00478,10,5,12,25/01/2026,Portal del cliente,Completado,3243.46
+479,O00479,93,2,24,2026-06-26,App EnergyHome,Pendiente,289.19
+480,O00480,155,1,2,2026-02-01,Visita técnica,Completado,4296.79
+481,O00481,101,4,1,2026-02-11,Centro de atención,Completado,1456.00
+482,O00482,90,3,17,2026-03-16,Portal del cliente,Completado,5722.36
+483,O00483,131,1,33,2026-04-17,App EnergyHome,Completado,3935.60
+484,O00484,12,4,,2026-01-16,Visita técnica,Cancelado,2714.54
+485,O00485,90,2,36,2026-05-12,Centro de atención,Cancelado,2521.60
+486,O00486,154,4,27,2026-01-09,Portal del cliente,Completado,4063.20
+487,O00487,13,2,9,2026-01-13,App EnergyHome,Completado,953.80
+488,O00488,33,1,3,11/03/2026,Visita técnica,Completado,3029.36
+489,O00489,164,4,7,2026-03-13,Centro de atención,Pendiente,5094.00
+490,O00490,52,6,5,2026-02-04,Portal del cliente,Completado,1475.40
+491,O00491,126,2,36,2026-06-09,App EnergyHome,Pendiente,11868.00
+492,O00492,54,5,33,2026-04-22,Visita técnica,Completado,1405.00
+493,O00493,171,2,3,2026-03-28,Centro de atención,Pendiente,4767.00
+494,O00494,24,2,21,2026-04-19,Portal del cliente,Completado,2001.10
+495,O00495,199,2,15,2026-01-26,App EnergyHome,Completado,3298.00
+496,O00496,156,4,10,2026-01-04,Visita técnica,Cancelado,1854.52
+497,O00497,93,4,29,2026-02-23,Centro de atención,Observado,3848.08
+498,O00498,35,2,15,2026-03-14,Portal del cliente,Observado,1508.32
+499,O00499,175,6,36,2026-01-26,App EnergyHome,Pendiente,1160.40
+500,O00500,174,5,20,2026-02-03,Visita técnica,Completado,5339.04
+501,O00501,88,3,19,2026-05-20,Centro de atención,Cancelado,1999.00
+502,O00502,100,4,34,2026-02-01,Portal del cliente,Completado,2277.45
+503,O00503,172,2,36,2026-04-09,App EnergyHome,Observado,576.00
+504,O00504,141,4,8,2026-01-10,Visita técnica,Pendiente,882.72
+505,O00505,187,3,20,2026-01-08,Centro de atención,Completado,2556.29
+506,O00506,139,6,18,2026-01-10,Portal del cliente,Pendiente,2038.16
+507,O00507,43,4,23,2026-02-08,App EnergyHome,Observado,4624.00
+508,O00508,85,4,6,2026-04-10,Visita técnica,Completado,3360.00
+509,O00509,181,5,8,2026-06-23,Centro de atención,Completado,7458.83
+510,O00510,27,2,3,2026-03-21,Portal del cliente,Completado,94.40
+511,O00511,5,1,18,2026-04-16,App EnergyHome,Completado,3482.00
+512,O00512,84,2,6,2026-01-20,Visita técnica,Completado,2233.19
+513,O00513,75,5,35,2026-03-24,Centro de atención,Observado,-1411.96
+514,O00514,9527,6,22,2026-01-06,Portal del cliente,Observado,2820.00
+515,O00515,58,5,31,2026-01-28,App EnergyHome,Cancelado,264.00
+516,O00516,80,6,3,2026-05-03,Visita técnica,Completado,5532.80
+517,O00517,7,5,7,2026-05-12,Centro de atención,Completado,4137.40
+518,O00518,75,1,2,2026-04-08,Portal del cliente,Pendiente,4322.00
+519,O00519,179,4,21,2026-06-21,App EnergyHome,Completado,2040.00
+520,O00520,163,2,26,2026-01-06,Visita técnica,Completado,972.00
+521,O00521,21,4,14,2026-04-08,Centro de atención,Completado,1706.40
+522,O00522,157,4,22,2026-01-21,Portal del cliente,Completado,2891.90
+523,O00523,5,6,22,2026-03-24,App EnergyHome,Cancelado,2671.49
+524,O00524,9268,1,26,2026-06-11,Visita técnica,Completado,407.10
+525,O00525,116,4,16,2026-02-12,Centro de atención,Completado,6015.48
+526,O00526,199,6,25,2026-04-18,Portal del cliente,Completado,2442.18
+527,O00527,165,3,12,22/05/2026,App EnergyHome,Completado,3413.00
+528,O00528,15,5,9,2026-04-04,Visita técnica,Completado,1454.72
+529,O00529,70,2,15,2026-05-14,Centro de atención,Observado,5370.18
+530,O00530,185,4,22,2026-02-05,Portal del cliente,Completado,7500.00
+531,O00531,83,2,4,2026-03-25,App EnergyHome,Completado,4380.20
+532,O00532,181,4,20,2026-01-14,Visita técnica,Pendiente,3074.75
+533,O00533,39,6,36,2026-03-20,Centro de atención,Completado,3577.14
+534,O00534,120,1,30,2026-05-15,Portal del cliente,Observado,2216.00
+535,O00535,125,3,39,2026-04-16,App EnergyHome,Cancelado,1061.70
+536,O00536,7,1,18,2026-01-03,Visita técnica,Pendiente,4013.00
+537,O00537,149,3,29,2026-04-20,Centro de atención,Pendiente,13800.00
+538,O00538,113,4,28,2026-04-28,Portal del cliente,Completado,2953.70
+539,O00539,35,5,7,2026-05-09,App EnergyHome,Observado,2184.00
+540,O00540,87,1,17,2026-03-04,Visita técnica,Pendiente,274.20
+541,O00541,114,3,22,2026-03-17,Centro de atención,Pendiente,1116.00
+542,O00542,7,5,29,2026-04-22,Portal del cliente,Completado,2229.32
+543,O00543,107,2,15,2026-02-13,App EnergyHome,Pendiente,1396.40
+544,O00544,21,6,13,2026-01-08,Visita técnica,Pendiente,576.03
+545,O00545,72,5,,2026-06-16,Centro de atención,Completado,902.00
+546,O00546,24,1,32,2026-05-27,Portal del cliente,Completado,6097.36
+547,O00547,38,1,10,2026-03-03,App EnergyHome,Completado,435.27
+548,O00548,176,3,13,2026-01-08,Visita técnica,Pendiente,3920.00
+549,O00549,145,5,40,2026-02-27,Centro de atención,Completado,5750.40
+550,O00550,98,3,34,2026-01-17,Portal del cliente,Observado,4072.67
+551,O00551,33,3,25,2026-06-15,App EnergyHome,Completado,336.00
+552,O00552,148,2,12,2026-06-26,Visita técnica,Cancelado,1624.56
+553,O00553,5,2,34,2026-05-02,Centro de atención,Completado,4542.80
+554,O00554,111,4,20,2026-03-18,Portal del cliente,Completado,639.00
+555,O00555,167,1,13,15/03/2026,App EnergyHome,Completado,2724.55
+556,O00556,157,3,17,2026-03-04,Visita técnica,Cancelado,5879.70
+557,O00557,109,5,10,2026-06-09,Centro de atención,Completado,6510.95
+558,O00558,79,5,14,2026-03-22,Portal del cliente,Observado,6515.90
+559,O00559,78,4,6,2026-03-09,App EnergyHome,Completado,8150.00
+560,O00560,190,4,8,2026-04-15,Visita técnica,Cancelado,2683.40
+561,O00561,130,1,38,2026-01-27,Centro de atención,Completado,6999.10
+562,O00562,167,3,27,2026-06-10,Portal del cliente,Pendiente,2161.38
+563,O00563,169,5,38,2026-04-15,App EnergyHome,Completado,1840.36
+564,O00564,199,4,4,2026-06-28,Visita técnica,Completado,2215.14
+565,O00565,68,2,24,2026-06-28,Centro de atención,Pendiente,1080.00
+566,O00566,9363,6,5,2026-06-24,Portal del cliente,Completado,2497.67
+567,O00567,93,2,10,2026-02-17,App EnergyHome,Completado,4870.26
+568,O00568,196,1,11,2026-04-05,Visita técnica,Cancelado,2897.80
+569,O00569,107,4,9,2026-06-05,Centro de atención,Pendiente,6108.36
+570,O00570,24,2,2,2026-05-02,Portal del cliente,Completado,985.28
+571,O00571,76,1,5,2026-05-18,App EnergyHome,Pendiente,504.00
+572,O00572,163,3,34,2026-05-09,Visita técnica,Completado,1266.00
+573,O00573,94,2,18,2026-06-14,Centro de atención,Pendiente,576.00
+574,O00574,42,3,2,2026-02-23,Portal del cliente,Pendiente,1248.00
+575,O00575,50,5,35,2026-02-06,App EnergyHome,Completado,1436.80
+576,O00576,148,5,40,2026-06-01,Visita técnica,Completado,7956.30
+577,O00577,194,4,16,2026-06-25,Centro de atención,Completado,188.39
+578,O00578,34,3,33,2026-03-12,Portal del cliente,Cancelado,4245.00
+579,O00579,177,6,38,2026-06-23,App EnergyHome,Pendiente,1056.36
+580,O00580,196,5,5,2026-03-05,Visita técnica,Observado,720.00
+581,O00581,106,3,,2026-03-23,Centro de atención,Completado,280.97
+582,O00582,170,5,3,2026-06-23,Portal del cliente,Completado,6250.00
+583,O00583,167,2,13,2026-06-15,App EnergyHome,Completado,2475.00
+584,O00584,173,1,16,04/01/2026,Visita técnica,Completado,459.00
+585,O00585,41,5,2,2026-03-18,Centro de atención,Completado,8237.0
+586,O00586,152,2,19,2026-02-12,Portal del cliente,Pendiente,4392.16
+587,O00587,130,6,38,01/02/2026,App EnergyHome,Completado,796.48
+588,O00588,139,5,21,11/01/2026,Visita técnica,Completado,2130.00
+589,O00589,55,5,34,2026-05-12,Centro de atención,Completado,6024.00
+590,O00590,88,5,8,2026-01-27,Portal del cliente,Observado,600.00
+591,O00591,197,4,2,2026-01-14,App EnergyHome,Pendiente,2722.57
+592,O00592,181,4,29,2026-01-08,Visita técnica,Completado,3316.00
+593,O00593,178,1,,2026-05-16,Centro de atención,Cancelado,2484.00
+594,O00594,186,1,7,18/01/2026,Portal del cliente,Completado,3348.20
+595,O00595,21,5,28,2026-02-17,App EnergyHome,Observado,469.19
+596,O00596,169,5,12,2026-04-08,Visita técnica,Cancelado,3803.45
+597,O00597,23,5,23,2026-01-21,Centro de atención,Completado,3094.72
+598,O00598,71,1,29,2026-04-04,Portal del cliente,Completado,3790.71
+599,O00599,138,6,37,2026-03-14,App EnergyHome,Pendiente,2426.84
+600,O00600,55,2,12,2026-06-24,Visita técnica,Completado,2567.60
+601,O00601,10,5,10,2026-05-07,Centro de atención,Observado,6558.94
+602,O00602,179,6,28,2026-06-17,Portal del cliente,Observado,3344.50
+603,O00603,9021,6,31,2026-02-25,App EnergyHome,Pendiente,2400.00
+604,O00604,53,6,23,2026-03-28,Visita técnica,Completado,597.36
+605,O00605,50,4,8,2026-04-16,Centro de atención,Completado,7859.40
+606,O00606,124,3,4,2026-05-14,Portal del cliente,Cancelado,1192.77
+607,O00607,160,3,1,2026-06-19,App EnergyHome,Completado,4344.32
+608,O00608,132,2,2,2026-04-06,Visita técnica,Completado,2003.95
+609,O00609,11,4,37,2026-06-18,Centro de atención,Completado,192.00
+610,O00610,13,6,12,2026-02-21,Portal del cliente,Pendiente,666.00
+611,O00611,36,2,35,2026-04-09,App EnergyHome,Pendiente,6520.00
+612,O00612,95,1,3,2026-04-09,Visita técnica,Observado,2580.00
+613,O00613,169,4,30,2026-05-22,Centro de atención,Cancelado,3234.72
+614,O00614,63,3,11,2026-05-07,Portal del cliente,Cancelado,5467.48
+615,O00615,136,3,12,2026-02-12,App EnergyHome,Completado,1680.00
+616,O00616,176,2,32,2026-03-10,Visita técnica,Completado,2759.84
+617,O00617,46,6,7,2026-01-01,Centro de atención,Observado,2148.80
+618,O00618,175,3,17,2026-02-15,Portal del cliente,Completado,6145.00
+619,O00619,50,4,36,2026-05-19,App EnergyHome,Completado,4353.50
+620,O00620,117,5,33,2026-05-04,Visita técnica,Observado,-1205.1
+621,O00621,169,6,14,2026-04-14,Centro de atención,Pendiente,6393.60
+622,O00622,76,5,30,2026-02-28,Portal del cliente,Observado,6492.00
+623,O00623,44,6,16,2026-02-23,App EnergyHome,Cancelado,435.27
+624,O00624,144,1,22,2026-04-04,Visita técnica,Completado,1251.57
+625,O00625,39,1,11,2026-01-14,Centro de atención,Observado,4344.00
+626,O00626,61,6,20,2026-02-10,Portal del cliente,Completado,6990.00
+627,O00627,149,4,34,2026-01-04,App EnergyHome,Cancelado,4076.00
+628,O00628,93,6,28,2026-04-23,Visita técnica,Completado,-2364.35
+629,O00629,197,6,37,2026-01-07,Centro de atención,Completado,5428.00
+630,O00630,39,4,2,2026-01-09,Portal del cliente,Completado,993.50
+631,O00631,193,4,6,2026-02-05,App EnergyHome,Completado,1619.26
+632,O00632,196,2,33,2026-01-18,Visita técnica,Completado,2452.2
+633,O00633,9889,3,17,2026-01-09,Centro de atención,Completado,1336.36
+634,O00634,141,2,5,2026-03-07,Portal del cliente,Cancelado,180.00
+635,O00635,30,6,40,2026-03-17,App EnergyHome,Completado,6347.02
+636,O00636,188,3,11,2026-04-09,Visita técnica,Pendiente,1652.00
+637,O00637,174,1,26,2026-01-26,Centro de atención,Completado,2087.95
+638,O00638,1,3,32,2026-03-26,Portal del cliente,Completado,396.00
+639,O00639,200,3,28,2026-01-08,App EnergyHome,Completado,3786.10
+640,O00640,60,5,34,17/03/2026,Visita técnica,Completado,432.00
+641,O00641,28,6,13,2026-01-10,Centro de atención,Completado,747.00
+642,O00642,173,4,28,2026-01-19,Portal del cliente,Completado,3899.25
+643,O00643,181,5,24,2026-03-09,App EnergyHome,Observado,2981.10
+644,O00644,118,6,35,2026-04-24,Visita técnica,Completado,4776.00
+645,O00645,162,1,25,2026-06-11,Centro de atención,Completado,2004.16
+646,O00646,54,4,14,2026-03-20,Portal del cliente,Completado,3499.00
+647,O00647,7,6,18,2026-01-27,App EnergyHome,Cancelado,1394.50
+648,O00648,142,6,8,2026-03-27,Visita técnica,Completado,1261.67
+649,O00649,30,6,17,2026-05-14,Centro de atención,Completado,1868.32
+650,O00650,167,3,29,2026-04-24,Portal del cliente,Completado,6215.80
+651,O00651,166,1,15,2026-02-17,App EnergyHome,Completado,5840.69
+652,O00652,48,4,20,2026-01-11,Visita técnica,Pendiente,4583.60
+653,O00653,54,6,11,2026-04-03,Centro de atención,Pendiente,3126.52
+654,O00654,145,5,39,2026-05-09,Portal del cliente,Observado,2085.90
+655,O00655,182,6,3,2026-06-25,App EnergyHome,Observado,2543.70
+656,O00656,165,1,34,2026-02-17,Visita técnica,Completado,2243.80
+657,O00657,6,4,31,22/06/2026,Centro de atención,Completado,2481.00
+658,O00658,39,2,17,2026-06-16,Portal del cliente,Completado,6884.40
+659,O00659,33,3,3,2026-01-04,App EnergyHome,Completado,2556.00
+660,O00660,76,5,36,19/06/2026,Visita técnica,Completado,630.00
+661,O00661,198,1,17,2026-03-11,Centro de atención,Completado,5208.00
+662,O00662,56,3,31,2026-03-21,Portal del cliente,Completado,10158.00
+663,O00663,144,1,32,2026-02-02,App EnergyHome,Completado,972.00
+664,O00664,172,1,1,2026-01-03,Visita técnica,Pendiente,3046.98
+665,O00665,70,6,34,2026-02-25,Centro de atención,Cancelado,2675.10
+666,O00666,144,3,26,2026-06-11,Portal del cliente,Pendiente,94.40
+667,O00667,193,3,14,2026-04-03,App EnergyHome,Completado,3278.00
+668,O00668,8,2,34,2026-05-04,Visita técnica,Completado,995.60
+669,O00669,61,5,3,2026-06-05,Centro de atención,Completado,796.48
+670,O00670,197,3,32,2026-02-09,Portal del cliente,Observado,8486.32
+671,O00671,32,5,15,2026-03-16,App EnergyHome,Completado,5443.11
+672,O00672,12,3,1,14/02/2026,Visita técnica,Completado,2700.80
+673,O00673,178,4,3,2026-06-06,Centro de atención,Completado,1302.00
+674,O00674,98,4,12,2026-06-21,Portal del cliente,Completado,4716.00
+675,O00675,95,4,6,2026-04-19,App EnergyHome,Observado,2016.00
+676,O00676,118,5,10,2026-04-11,Visita técnica,Pendiente,4507.80
+677,O00677,137,5,26,2026-01-22,Centro de atención,Completado,1131.24
+678,O00678,157,6,25,2026-05-24,Portal del cliente,Completado,4286.00
+679,O00679,78,5,3,2026-04-21,App EnergyHome,Completado,360.00
+680,O00680,91,3,8,2026-05-07,Visita técnica,Pendiente,1873.98
+681,O00681,91,2,21,2026-02-15,Centro de atención,Completado,2032.72
+682,O00682,65,3,12,2026-05-11,Portal del cliente,Pendiente,3026.86
+683,O00683,66,3,34,19/05/2026,App EnergyHome,Pendiente,396.00
+684,O00684,44,2,19,2026-05-24,Visita técnica,Pendiente,7072.00
+685,O00685,105,3,15,2026-04-25,Centro de atención,Completado,411.30
+686,O00686,29,5,38,2026-05-11,Portal del cliente,Pendiente,3330.00
+687,O00687,50,3,1,2026-03-24,App EnergyHome,Cancelado,594.00
+688,O00688,35,4,22,2026-01-01,Visita técnica,Pendiente,5923.00
+689,O00689,18,4,28,07/02/2026,Centro de atención,Cancelado,3177.00
+690,O00690,134,6,37,2026-02-19,Portal del cliente,Pendiente,5678.48
+691,O00691,22,5,5,2026-04-26,App EnergyHome,Completado,2258.97
+692,O00692,166,4,32,2026-05-13,Visita técnica,Pendiente,2262.48
+693,O00693,61,1,32,2026-02-05,Centro de atención,Completado,1930.14
+694,O00694,143,6,5,21/01/2026,Portal del cliente,Completado,-5260.93
+695,O00695,92,6,23,2026-01-15,App EnergyHome,Cancelado,428.90
+696,O00696,125,6,31,2026-04-03,Visita técnica,Completado,3420.00
+697,O00697,185,2,32,2026-03-20,Centro de atención,Completado,126.00
+698,O00698,54,5,20,2026-01-03,Portal del cliente,Completado,3343.90
+699,O00699,90,3,25,2026-02-10,App EnergyHome,Pendiente,5010.00
+700,O00700,144,1,6,2026-03-20,Visita técnica,Completado,7744.40
+701,O00701,192,2,2,2026-05-01,Centro de atención,Completado,540.00
+702,O00702,139,3,25,2026-02-03,Portal del cliente,Pendiente,2007.57
+703,O00703,155,3,5,2026-05-01,App EnergyHome,Cancelado,3440.00
+704,O00704,199,3,23,2026-01-05,Visita técnica,Pendiente,8431.98
+705,O00705,32,3,32,2026-06-06,Centro de atención,Completado,720.00
+706,O00706,139,5,3,2026-05-11,Portal del cliente,Completado,773.80
+707,O00707,182,6,19,2026-02-06,App EnergyHome,Completado,6577.00
+708,O00708,199,6,29,2026-05-10,Visita técnica,Observado,3253.20
+709,O00709,41,3,6,2026-01-26,Centro de atención,Pendiente,3143.70
+710,O00710,186,3,39,2026-05-15,Portal del cliente,Completado,1685.70
+711,O00711,2,4,31,10/01/2026,App EnergyHome,Completado,2625.00
+712,O00712,55,4,33,2026-03-05,Visita técnica,Completado,2063.59
+713,O00713,5,1,28,2026-06-09,Centro de atención,Pendiente,10084.60
+714,O00714,20,4,10,08/05/2026,Portal del cliente,Pendiente,9531.40
+715,O00715,168,1,,2026-06-04,App EnergyHome,Pendiente,4952.00
+716,O00716,84,6,12,2026-03-25,Visita técnica,Completado,489.00
+717,O00717,162,5,19,21/02/2026,Centro de atención,Completado,4958.18
+718,O00718,30,2,16,2026-04-08,Portal del cliente,Pendiente,8353.50
+719,O00719,174,2,16,2026-04-04,App EnergyHome,Observado,3714.40
+720,O00720,195,4,31,2026-01-05,Visita técnica,Completado,5432.00
+721,O00721,57,1,29,2026-03-07,Centro de atención,Completado,1021.72
+722,O00722,86,5,40,2026-01-12,Portal del cliente,Completado,5130.32
+723,O00723,143,6,31,2026-04-19,App EnergyHome,Observado,8164.00
+724,O00724,67,6,3,2026-02-11,Visita técnica,Completado,9876.00
+725,O00725,137,5,6,2026-04-17,Centro de atención,Completado,980.00
+726,O00726,66,6,16,2026-01-01,Portal del cliente,Pendiente,2136.84
+727,O00727,56,2,31,11/01/2026,App EnergyHome,Pendiente,4229.08
+728,O00728,46,1,32,2026-05-17,Visita técnica,Cancelado,5131.90
+729,O00729,1,3,34,2026-06-11,Centro de atención,Completado,1101.00
+730,O00730,47,3,8,2026-01-16,Portal del cliente,Completado,3920.00
+731,O00731,132,2,24,2026-05-28,App EnergyHome,Cancelado,384.00
+732,O00732,89,5,20,2026-04-18,Visita técnica,Cancelado,1144.50
+733,O00733,67,3,39,2026-03-08,Centro de atención,Completado,4550.40
+734,O00734,144,2,9,2026-04-27,Portal del cliente,Cancelado,1796.00
+735,O00735,178,6,8,09/01/2026,App EnergyHome,Observado,6152.09
+736,O00736,44,1,1,2026-05-26,Visita técnica,Pendiente,1680.00
+737,O00737,81,6,15,2026-03-04,Centro de atención,Completado,2642.90
+738,O00738,187,5,36,2026-06-01,Portal del cliente,Completado,3555.27
+739,O00739,30,6,9,2026-05-06,App EnergyHome,Completado,1563.28
+740,O00740,43,4,39,2026-06-17,Visita técnica,Completado,1849.00
+741,O00741,133,1,18,2026-04-12,Centro de atención,Completado,1804.00
+742,O00742,174,4,19,2026-02-12,Portal del cliente,Pendiente,7956.00
+743,O00743,87,3,1,2026-03-07,App EnergyHome,Cancelado,554.00
+744,O00744,150,5,33,2026-05-05,Visita técnica,Pendiente,5009.10
+745,O00745,17,1,36,2026-04-27,Centro de atención,Pendiente,2215.70
+746,O00746,62,2,21,2026-05-23,Portal del cliente,Pendiente,4733.90
+747,O00747,73,1,25,2026-05-24,App EnergyHome,Observado,2521.60
+748,O00748,156,2,34,2026-04-15,Visita técnica,Completado,289.19
+749,O00749,49,4,19,2026-06-11,Centro de atención,Completado,198.00
+750,O00750,2,4,5,2026-06-23,Portal del cliente,Completado,3633.12
+751,O00751,192,3,29,2026-04-07,App EnergyHome,Completado,5128.00
+752,O00752,168,2,11,2026-04-12,Visita técnica,Completado,1804.00
+753,O00753,113,4,5,2026-04-10,Centro de atención,Completado,4481.24
+754,O00754,116,4,34,2026-06-18,Portal del cliente,Completado,816.00
+755,O00755,157,2,1,2026-05-10,App EnergyHome,Pendiente,5000.00
+756,O00756,51,2,27,2026-04-19,Visita técnica,Completado,1666.10
+757,O00757,66,1,28,2026-04-25,Centro de atención,Completado,2638.00
+758,O00758,122,4,6,02/02/2026,Portal del cliente,Completado,6839.00
+759,O00759,14,1,5,2026-02-03,App EnergyHome,Pendiente,1831.39
+760,O00760,141,1,2,2026-03-22,Visita técnica,Completado,2214.00
+761,O00761,191,4,10,2026-01-18,Centro de atención,Completado,5880.00
+762,O00762,166,5,1,2026-04-19,Portal del cliente,Cancelado,528.00
+763,O00763,148,1,24,2026-06-14,App EnergyHome,Completado,6467.36
+764,O00764,179,5,,2026-04-09,Visita técnica,Pendiente,1283.60
+765,O00765,4,3,29,2026-04-09,Centro de atención,Cancelado,10596.18
+766,O00766,69,5,25,2026-01-13,Portal del cliente,Completado,1275.27
+767,O00767,192,3,2,2026-05-01,App EnergyHome,Cancelado,725.45
+768,O00768,82,1,11,2026-03-13,Visita técnica,Completado,2122.00
+769,O00769,22,4,7,04/02/2026,Centro de atención,Observado,1494.00
+770,O00770,126,6,14,2026-04-06,Portal del cliente,Completado,12390.00
+771,O00771,86,2,18,2026-06-04,App EnergyHome,Pendiente,3777.40
+772,O00772,100,4,20,2026-03-21,Visita técnica,Completado,1039.20
+773,O00773,54,6,9,2026-01-15,Centro de atención,Pendiente,-1292.23
+774,O00774,195,4,16,2026-05-21,Portal del cliente,Observado,1282.53
+775,O00775,107,3,23,2026-03-14,App EnergyHome,Completado,1940.00
+776,O00776,188,5,35,2026-05-28,Visita técnica,Completado,288.00
+777,O00777,175,6,32,2026-02-13,Centro de atención,Observado,630.00
+778,O00778,27,2,20,2026-05-05,Portal del cliente,Completado,6174.00
+779,O00779,111,5,18,2026-05-06,App EnergyHome,Observado,2400.00
+780,O00780,152,2,11,2026-02-26,Visita técnica,Pendiente,3340.00
+781,O00781,108,5,9,2026-04-06,Centro de atención,Completado,8013.27
+782,O00782,138,2,9,2026-03-27,Portal del cliente,Completado,1285.09
+783,O00783,67,5,5,2026-03-28,App EnergyHome,Cancelado,8112.36
+784,O00784,9293,2,17,2026-02-07,Visita técnica,Completado,1008.27
+785,O00785,40,6,21,2026-01-04,Centro de atención,Completado,5272.18
+786,O00786,5,3,15,2026-06-06,Portal del cliente,Completado,3060.18
+787,O00787,119,1,17,2026-01-06,App EnergyHome,Completado,720.00
+788,O00788,160,5,21,2026-05-23,Visita técnica,Cancelado,5800.00
+789,O00789,103,2,5,2026-06-10,Centro de atención,Pendiente,1385.00
+790,O00790,113,5,28,2026-05-09,Portal del cliente,Cancelado,3782.00
+791,O00791,130,5,37,2026-02-09,App EnergyHome,Completado,1778.32
+792,O00792,166,5,33,2026-02-24,Visita técnica,Completado,5650.00
+793,O00793,140,6,35,25/03/2026,Centro de atención,Completado,2402.08
+794,O00794,26,1,25,2026-04-02,Portal del cliente,Observado,467.80
+795,O00795,83,2,24,2026-06-18,App EnergyHome,Pendiente,462.00
+796,O00796,120,2,13,2026-01-11,Visita técnica,Completado,1795.80
+797,O00797,192,6,28,2026-01-02,Centro de atención,Completado,336.00
+798,O00798,118,4,6,2026-05-15,Portal del cliente,Completado,2036.36
+799,O00799,9789,4,17,25/06/2026,App EnergyHome,Completado,6423.40
+800,O00800,197,6,37,2026-01-04,Visita técnica,Pendiente,2016.00
+801,O00801,119,6,9,2026-04-09,Centro de atención,Pendiente,380.00
+802,O00802,187,3,14,2026-01-22,Portal del cliente,Completado,290.18
+803,O00803,27,1,16,2026-04-09,App EnergyHome,Completado,3008.76
+804,O00804,179,3,37,2026-01-22,Visita técnica,Completado,1131.24
+805,O00805,165,4,31,2026-03-24,Centro de atención,Completado,589.00
+806,O00806,151,3,7,2026-02-13,Portal del cliente,Completado,621.00
+807,O00807,61,5,18,2026-03-20,App EnergyHome,Completado,1344.00
+808,O00808,68,6,26,2026-03-14,Visita técnica,Pendiente,5016.60
+809,O00809,90,6,18,2026-05-11,Centro de atención,Pendiente,768.00
+810,O00810,79,3,11,01/05/2026,Portal del cliente,Completado,472.00
+811,O00811,200,5,19,2026-06-24,App EnergyHome,Completado,2940.00
+812,O00812,7,1,3,2026-01-02,Visita técnica,Pendiente,240.00
+813,O00813,181,2,8,2026-04-16,Centro de atención,Completado,2281.99
+814,O00814,112,1,4,2026-06-09,Portal del cliente,Completado,1503.54
+815,O00815,8,5,31,2026-03-15,App EnergyHome,Pendiente,-3534.54
+816,O00816,7,6,38,2026-02-16,Visita técnica,Pendiente,967.90
+817,O00817,200,4,23,2026-02-05,Centro de atención,Completado,1098.00
+818,O00818,194,1,5,2026-06-09,Portal del cliente,Completado,1520.00
+819,O00819,100,3,18,2026-02-15,App EnergyHome,Completado,2376.05
+820,O00820,148,4,30,2026-05-12,Visita técnica,Pendiente,1869.00
+821,O00821,136,2,26,09/04/2026,Centro de atención,Cancelado,5407.70
+822,O00822,169,6,40,2026-02-05,Portal del cliente,Completado,5712.00
+823,O00823,136,4,39,2026-01-07,App EnergyHome,Completado,10795.12
+824,O00824,189,3,31,28/05/2026,Visita técnica,Pendiente,11532.40
+825,O00825,175,2,22,2026-02-19,Centro de atención,Pendiente,701.70
+826,O00826,62,1,29,2026-06-01,Portal del cliente,Pendiente,1840.00
+827,O00827,114,4,16,2026-01-15,App EnergyHome,Completado,2716.0
+828,O00828,115,3,35,2026-02-26,Visita técnica,Cancelado,839.80
+829,O00829,162,1,28,2026-05-22,Centro de atención,Cancelado,1831.90
+830,O00830,133,2,26,2026-01-17,Portal del cliente,Observado,3404.40
+831,O00831,129,6,25,2026-04-24,App EnergyHome,Completado,1008.00
+832,O00832,136,6,35,2026-03-02,Visita técnica,Completado,4958.04
+833,O00833,107,3,28,2026-01-24,Centro de atención,Completado,526.20
+834,O00834,156,3,25,10/05/2026,Portal del cliente,Completado,1700.00
+835,O00835,125,4,21,2026-06-26,App EnergyHome,Cancelado,233.90
+836,O00836,169,4,16,2026-03-16,Visita técnica,Observado,3608.00
+837,O00837,199,6,31,2026-02-08,Centro de atención,Completado,3391.60
+838,O00838,200,6,37,2026-03-02,Portal del cliente,Completado,4745.08
+839,O00839,75,6,40,2026-06-04,App EnergyHome,Completado,2806.80
+840,O00840,75,4,14,2026-03-21,Visita técnica,Completado,5454.00
+841,O00841,85,3,40,2026-05-07,Centro de atención,Completado,6024.00
+842,O00842,59,4,17,2026-05-01,Portal del cliente,Pendiente,765.00
+843,O00843,61,2,40,2026-01-01,App EnergyHome,Completado,1632.00
+844,O00844,53,5,12,22/02/2026,Visita técnica,Completado,1335.59
+845,O00845,53,2,9,2026-06-24,Centro de atención,Completado,283.20
+846,O00846,109,5,30,2026-03-04,Portal del cliente,Completado,1950.72
+847,O00847,182,2,24,2026-04-01,App EnergyHome,Pendiente,4647.10
+848,O00848,14,3,28,2026-03-26,Visita técnica,Completado,935.60
+849,O00849,193,2,9,2026-05-12,Centro de atención,Cancelado,390.00
+850,O00850,30,2,24,2026-03-10,Portal del cliente,Pendiente,5122.00
+851,O00851,145,1,34,2026-01-24,App EnergyHome,Pendiente,1394.00
+852,O00852,135,1,13,2026-04-23,Visita técnica,Completado,260.00
+853,O00853,185,6,9,2026-01-14,Centro de atención,Pendiente,2370.00
+854,O00854,11,6,31,2026-06-26,Portal del cliente,Completado,5534.00
+855,O00855,60,5,8,2026-02-12,App EnergyHome,Completado,5000.00
+856,O00856,9455,4,3,2026-02-04,Visita técnica,Completado,1196.00
+857,O00857,145,4,,2026-03-23,Centro de atención,Observado,1204.16
+858,O00858,60,1,14,02/06/2026,Portal del cliente,Observado,2796.00
+859,O00859,82,4,15,2026-02-02,App EnergyHome,Pendiente,841.48
+860,O00860,120,3,15,2026-02-04,Visita técnica,Pendiente,4614.40
+861,O00861,129,1,7,2026-01-10,Centro de atención,Completado,144.00
+862,O00862,169,1,16,2026-01-01,Portal del cliente,Observado,1260.00
+863,O00863,117,5,20,2026-04-27,App EnergyHome,Pendiente,2720.00
+864,O00864,9,3,35,2026-05-14,Visita técnica,Completado,5468.00
+865,O00865,155,6,19,2026-03-08,Centro de atención,Pendiente,6456.00
+866,O00866,146,3,1,2026-04-02,Portal del cliente,Cancelado,1320.00
+867,O00867,116,6,11,2026-04-26,App EnergyHome,Pendiente,1680.00
+868,O00868,146,5,33,2026-01-26,Visita técnica,Completado,3559.09
+869,O00869,194,2,5,2026-06-25,Centro de atención,Pendiente,4690.00
+870,O00870,9,5,12,2026-04-23,Portal del cliente,Completado,6482.10
+871,O00871,74,4,39,2026-04-16,App EnergyHome,Completado,1435.60
+872,O00872,69,5,,17/03/2026,Visita técnica,Pendiente,909.0
+873,O00873,21,6,27,2026-05-05,Centro de atención,Completado,6817.50
+874,O00874,85,5,,2026-04-16,Portal del cliente,Pendiente,989.68
+875,O00875,164,2,14,2026-01-13,App EnergyHome,Completado,3253.71
+876,O00876,137,4,31,2026-03-02,Visita técnica,Completado,4304.00
+877,O00877,199,4,25,2026-06-27,Centro de atención,Completado,1026.00
+878,O00878,165,1,34,2026-05-08,Portal del cliente,Pendiente,297.00
+879,O00879,4,1,1,2026-05-24,App EnergyHome,Pendiente,1596.00
+880,O00880,130,5,13,2026-02-19,Visita técnica,Pendiente,1256.14
+881,O00881,37,5,6,2026-01-28,Centro de atención,Completado,4044.00
+882,O00882,132,2,37,2026-02-08,Portal del cliente,Completado,8862.00
+883,O00883,52,3,11,2026-02-18,App EnergyHome,Pendiente,3076.48
+884,O00884,115,1,25,2026-03-26,Visita técnica,Completado,554.00
+885,O00885,123,2,8,2026-04-11,Centro de atención,Cancelado,1514.25
+886,O00886,103,3,39,2026-03-08,Portal del cliente,Observado,2592.00
+887,O00887,53,1,10,2026-05-05,App EnergyHome,Completado,900.00
+888,O00888,11,2,14,06/03/2026,Visita técnica,Completado,7301.45
+889,O00889,180,5,16,2026-06-19,Centro de atención,Pendiente,3520.40
+890,O00890,151,2,36,2026-02-18,Portal del cliente,Pendiente,3886.40
+891,O00891,26,1,23,2026-01-24,App EnergyHome,Completado,2544.00
+892,O00892,60,4,36,28/02/2026,Visita técnica,Completado,3295.40
+893,O00893,2,5,20,2026-02-06,Centro de atención,Cancelado,2216.00
+894,O00894,145,1,23,2026-02-27,Portal del cliente,Completado,1662.00
+895,O00895,25,5,23,2026-02-02,App EnergyHome,Pendiente,918.00
+896,O00896,9669,3,40,2026-01-02,Visita técnica,Completado,289.19
+897,O00897,186,1,13,2026-03-09,Centro de atención,Pendiente,3003.90
+898,O00898,170,2,33,2026-03-19,Portal del cliente,Pendiente,4918.00
+899,O00899,56,5,29,2026-02-08,App EnergyHome,Completado,4448.60
+900,O00900,55,3,20,10/04/2026,Visita técnica,Cancelado,3072.00
+901,O00901,120,5,37,2026-04-24,Centro de atención,Completado,4303.72
+902,O00902,156,6,8,2026-06-15,Portal del cliente,Completado,6156.76
+903,O00903,114,1,12,2026-01-13,App EnergyHome,Observado,7272.49
+904,O00904,196,6,11,2026-02-03,Visita técnica,Completado,7060.00
+905,O00905,165,3,26,2026-04-01,Centro de atención,Completado,2846.70
+906,O00906,179,6,,2026-01-12,Portal del cliente,Observado,45.00
+907,O00907,99,2,28,2026-02-28,App EnergyHome,Completado,3121.00
+908,O00908,79,2,37,2026-01-24,Visita técnica,Completado,871.90
+909,O00909,2,5,35,21/05/2026,Centro de atención,Pendiente,4568.95
+910,O00910,108,5,14,2026-01-08,Portal del cliente,Pendiente,326.7
+911,O00911,146,2,18,2026-06-05,App EnergyHome,Cancelado,7107.57
+912,O00912,4,3,13,2026-05-11,Visita técnica,Completado,6856.18
+913,O00913,109,6,36,2026-01-18,Centro de atención,Pendiente,310.00
+914,O00914,59,1,23,2026-06-10,Portal del cliente,Completado,2145.00
+915,O00915,38,2,5,2026-06-19,App EnergyHome,Completado,5271.60
+916,O00916,22,3,28,13/02/2026,Visita técnica,Cancelado,4476.00
+917,O00917,142,6,10,2026-04-17,Centro de atención,Completado,5416.00
+918,O00918,60,5,12,2026-06-23,Portal del cliente,Completado,3423.57
+919,O00919,92,4,4,2026-06-26,App EnergyHome,Completado,3787.57
+920,O00920,22,6,7,2026-04-21,Visita técnica,Observado,1920.00
+921,O00921,61,2,16,2026-04-06,Centro de atención,Pendiente,1149.68
+922,O00922,167,6,22,2026-01-03,Portal del cliente,Completado,2246.35
+923,O00923,143,6,12,2026-04-11,App EnergyHome,Completado,2152.00
+924,O00924,126,6,18,2026-06-03,Visita técnica,Pendiente,274.20
+925,O00925,110,3,34,2026-01-10,Centro de atención,Completado,3879.36
+926,O00926,171,6,,2026-06-05,Portal del cliente,Completado,5229.92
+927,O00927,177,5,,2026-02-26,App EnergyHome,Pendiente,10518.00
+928,O00928,168,2,2,2026-03-18,Visita técnica,Completado,1140.00
+929,O00929,94,4,2,2026-01-02,Centro de atención,Observado,1696.00
+930,O00930,17,1,20,2026-04-18,Portal del cliente,Completado,5938.00
+931,O00931,85,4,31,2026-03-10,App EnergyHome,Completado,1440.00
+932,O00932,115,4,33,2026-02-10,Visita técnica,Pendiente,4526.38
+933,O00933,42,6,15,2026-05-24,Centro de atención,Pendiente,2989.20
+934,O00934,170,3,31,2026-01-18,Portal del cliente,Cancelado,5178.86
+935,O00935,46,2,19,2026-06-16,App EnergyHome,Completado,5841.00
+936,O00936,153,6,30,2026-03-06,Visita técnica,Completado,1250.00
+937,O00937,54,4,8,2026-03-24,Centro de atención,Pendiente,2505.24
+938,O00938,25,5,12,2026-05-08,Portal del cliente,Pendiente,7000.18
+939,O00939,177,3,26,2026-01-21,App EnergyHome,Observado,2694.48
+940,O00940,185,2,36,2026-03-27,Visita técnica,Pendiente,2016.00
+941,O00941,147,3,10,2026-02-23,Centro de atención,Completado,8568.32
+942,O00942,149,4,10,2026-06-07,Portal del cliente,Completado,2321.00
+943,O00943,10,5,20,2026-04-08,App EnergyHome,Completado,2376.00
+944,O00944,63,1,28,2026-06-05,Visita técnica,Observado,2609.50
+945,O00945,69,6,12,24/04/2026,Centro de atención,Completado,6297.08
+946,O00946,54,3,11,27/04/2026,Portal del cliente,Completado,3554.50
+947,O00947,2,6,25,2026-06-05,App EnergyHome,Completado,720.00
+948,O00948,22,4,23,2026-02-07,Visita técnica,Completado,396.00
+949,O00949,82,3,7,2026-05-18,Centro de atención,Completado,130.00
+950,O00950,23,1,38,2026-02-24,Portal del cliente,Completado,6250.00
+951,O00951,117,4,31,2026-01-18,App EnergyHome,Observado,7332.00
+952,O00952,38,2,33,2026-02-04,Visita técnica,Pendiente,2246.00
+953,O00953,123,2,15,2026-04-22,Centro de atención,Completado,1823.70
+954,O00954,103,2,15,2026-05-08,Portal del cliente,Completado,2430.00
+955,O00955,139,2,34,2026-02-20,App EnergyHome,Pendiente,5412.00
+956,O00956,161,3,7,2026-01-20,Visita técnica,Cancelado,3361.14
+957,O00957,101,5,16,2026-06-05,Centro de atención,Completado,4082.67
+958,O00958,83,1,40,2026-03-26,Portal del cliente,Completado,1905.08
+959,O00959,87,6,33,2026-06-20,App EnergyHome,Completado,1756.40
+960,O00960,63,1,26,2026-02-16,Visita técnica,Pendiente,796.48
+961,O00961,6,5,32,2026-04-26,Centro de atención,Cancelado,2438.00
+962,O00962,169,2,34,2026-03-13,Portal del cliente,Pendiente,2262.39
+963,O00963,178,5,38,2026-01-06,App EnergyHome,Completado,-1356.04
+964,O00964,129,1,22,07/06/2026,Visita técnica,Completado,390.00
+965,O00965,97,5,30,2026-06-04,Centro de atención,Observado,145.09
+966,O00966,9167,2,15,2026-01-01,Portal del cliente,Pendiente,2309.50
+967,O00967,17,1,37,2026-04-25,App EnergyHome,Pendiente,5083.48
+968,O00968,8,4,34,2026-01-26,Visita técnica,Completado,1749.76
+969,O00969,101,3,9,2026-05-28,Centro de atención,Pendiente,1981.64
+970,O00970,8,3,16,2026-01-21,Portal del cliente,Completado,580.36
+971,O00971,139,4,8,2026-01-26,App EnergyHome,Observado,760.00
+972,O00972,114,5,33,2026-04-21,Visita técnica,Observado,5902.00
+973,O00973,129,3,5,2026-04-05,Centro de atención,Pendiente,4640.00
+974,O00974,34,4,39,2026-02-10,Portal del cliente,Completado,2016.00
+975,O00975,135,3,38,2026-04-04,App EnergyHome,Pendiente,6697.32
+976,O00976,78,1,4,2026-05-02,Visita técnica,Completado,297.00
+977,O00977,171,2,27,21/04/2026,Centro de atención,Completado,3615.80
+978,O00978,186,5,22,2026-02-22,Portal del cliente,Completado,6250.00
+979,O00979,41,2,26,2026-03-26,App EnergyHome,Completado,3091.24
+980,O00980,146,2,6,2026-05-15,Visita técnica,Pendiente,1016.40
+981,O00981,135,5,18,2026-05-01,Centro de atención,Cancelado,3285.00
+982,O00982,24,1,39,2026-02-03,Portal del cliente,Pendiente,216.00
+983,O00983,25,6,33,2026-06-25,App EnergyHome,Pendiente,1555.00
+984,O00984,184,2,37,2026-03-21,Visita técnica,Pendiente,7179.50
+985,O00985,1,2,28,2026-03-08,Centro de atención,Completado,8307.80
+986,O00986,185,4,35,2026-05-04,Portal del cliente,Completado,4030.00
+987,O00987,38,3,14,2026-04-12,App EnergyHome,Observado,1210.00
+988,O00988,33,1,40,2026-06-20,Visita técnica,Cancelado,2583.70
+989,O00989,2,5,8,2026-06-19,Centro de atención,Completado,3162.61
+990,O00990,179,3,6,2026-05-08,Portal del cliente,Completado,4528.00
+991,O00991,185,4,11,2026-03-28,App EnergyHome,Completado,5524.76
+992,O00992,78,4,,2026-04-04,Visita técnica,Completado,5003.09
+993,O00993,23,5,22,03/04/2026,Centro de atención,Completado,99.00
+994,O00994,117,4,13,2026-02-25,Portal del cliente,Completado,900.00
+995,O00995,28,2,36,2026-04-19,App EnergyHome,Pendiente,144.00
+996,O00996,5,1,17,2026-03-19,Visita técnica,Completado,4416.00
+997,O00997,3,5,1,2026-06-13,Centro de atención,Completado,2476.00
+998,O00998,167,4,35,20/04/2026,Portal del cliente,Pendiente,4913.00
+999,O00999,154,3,29,2026-04-08,App EnergyHome,Completado,7213.00
+1000,O01000,71,4,21,2026-04-17,Visita técnica,Completado,1806.72
+1001,O01001,80,6,39,2026-02-22,Centro de atención,Completado,1608.31
+1002,O01002,125,6,7,2026-04-06,Portal del cliente,Cancelado,637.78
+1003,O01003,178,4,3,2026-06-06,App EnergyHome,Completado,3051.74
+1004,O01004,170,2,33,2026-03-19,Visita técnica,Pendiente,2423.76
+1005,O01005,74,1,28,2026-05-17,Centro de atención,Completado,8221.08
+1006,O01006,34,2,37,2026-02-25,Portal del cliente,Completado,5034.63
+1007,O01007,16,1,17,2026-02-23,App EnergyHome,Pendiente,83.02
+1008,O01008,124,3,4,2026-05-14,Visita técnica,Cancelado,2719.75
+1009,O01009,134,2,18,2026-06-03,Centro de atención,Completado,2047.38
+1010,O01010,193,3,4,2026-01-09,Portal del cliente,Completado,1883.64

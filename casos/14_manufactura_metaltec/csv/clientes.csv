@@ -1,0 +1,209 @@
+id_cliente,codigo_cliente,tipo_documento,num_documento,nombres,apellidos,correo,telefono,distrito,segmento,fecha_registro,linea_credito
+1,C0001,RUC,11253842,Diego,Ninaquispe Palomino,diego1@correo.com,,Ate,Construcción,2026-03-05,22827.59
+2,C0002,DNI,45422100,Andrés,Villanueva Vargas,andrés2@correo.com,974003713,Comas,Minería,2026-01-15,23978.74
+3,C0003,RUC,59562201,Pedro,Palomino Salazar,pedro3@correo.com,932033087,San Miguel,Industria,2026-04-03,33324.01
+4,C0004,DNI,62748152,Víctor,Palomino Torres,víctor4@correo.com,944031848,Chorrillos,Taller asociado,2026-05-01,38458.67
+5,C0005,DNI,51672448,Ricardo,Bautista Aguirre,ricardo5@correo.com,955804811,La Molina,Construcción,2026-04-25,15993.87
+6,C0006,DNI,98368996,Sergio,Zevallos Bautista,sergio6@correo.com,919216704,,Minería,2026-05-05,9774.03
+7,C0007,DNI,36231403,Carlos,Ponce Romero,carlos7@correo.com,949327840,San Borja,Industria,2026-03-08,9288.87
+8,C0008,DNI,96666012,Fernando,Bautista Salazar,fernando8@correo.com,954137086,San Borja,Taller asociado,2026-03-08,12514.81
+9,C0009,DNI,15192875,Miguel,Ríos Bautista,miguel9@correo.com,944055930,Ate,Construcción,2026-04-13,26482.99
+10,C0010,DNI,22204132,Isabel,Ponce Salazar,isabel10@correo.com,,Surco,Minería,2026-01-27,28797.36
+11,C0011,CE,27908880,Pedro,Espinoza Lévano,pedro11@correo.com,,San Juan de Lurigancho,Industria,2026-04-07,40044.7
+12,C0012,RUC,53257549,Óscar,Lévano Ninaquispe,óscar12@correo.com,952022691,Villa El Salvador,Taller asociado,2026-02-04,30056.34
+13,C0013,RUC,29751036,Melissa,Gutiérrez Díaz,melissa13@correo.com,948372424,Surco,Construcción,2026-01-14,23661.99
+14,C0014,DNI,96665090,Miguel,Castillo Zevallos,miguel14@correo.com,966335886,Callao,Minería,2026-05-26,33621.97
+15,C0015,DNI,10010669,Álvaro,Villanueva Salazar,álvaro15@correo.com,952659790,San Borja,Industria,2026-04-24,37637.57
+16,C0016,CE,24677608,Gabriela,Cruz Ponce,gabriela16@correo.com,995205301,Ate,Taller asociado,2026-02-12,991.11
+17,C0017,DNI,27308302,Julia,Rojas Rivera,julia17@correo.com,941689081,Lince,Construcción,2026-04-20,23907.7
+18,C0018,DNI,22544196,Jorge,Cornejo Vargas,jorge18@correo.com,957893511,Ate,Minería,2026-05-17,26702.68
+19,C0019,CE,15573745,Bruno,Paredes Gutiérrez,,956960600,,Industria,2026-03-10,16049.35
+20,C0020,DNI,74881293,Hugo,Palomino Bautista,hugo20@correo.com,959395719,San Juan de Lurigancho,Taller asociado,2026-03-17,44138.37
+21,C0021,DNI,95889041,Hugo,Espinoza Gutiérrez,hugo21@correo.com,910440464,La Molina,Construcción,2026-04-19,31143.59
+22,C0022,DNI,36919636,Daniela,Villanueva Gutiérrez,daniela22@correo.com,956178804,Lince,Minería,2026-01-25,16964.72
+23,C0023,DNI,78921157,Sergio,Salazar Torres,sergio23@correo.com,979184758,Ate,Industria,2026-01-24,5282.98
+24,C0024,CE,77922291,María,Quispe Torres,maría24@correo.com,947882070,San Borja,Taller asociado,2026-02-08,22398.92
+25,C0025,CE,69823680,José,Romero Espinoza,josé25@correo.com,969285671,Rímac,Construcción,2026-04-28,29118.59
+26,C0026,DNI,24536379,Sofía,Huamán Ponce,sofía26@correo.com,934584137,Los Olivos,Minería,2026-01-08,35163.93
+27,C0027,RUC,81725444,Claudia,Romero Quispe,claudia27@correo.com,981590000,Rímac,Industria,2026-03-03,29893.64
+28,C0028,CE,26901620,Óscar,Huamán Romero,óscar28@correo.com,953360843,Rímac,Taller asociado,2026-05-15,29209.22
+29,C0029,CE,54705015,Sergio,Chávez Rojas,sergio29@correo.com,956057801,Rímac,Construcción,2026-05-28,20333.39
+30,C0030,CE,33903504,Natalia,Ninaquispe Aguirre,natalia30@correo.com,964305918,Los Olivos,Minería,2026-02-03,21780.55
+31,C0031,RUC,35956863,Milagros,Sánchez Paredes,milagros31@correo.com,974547483,,Industria,2026-05-26,23801.04
+32,C0032,DNI,94817193,Patricia,Quispe Rivera,patricia32correo.com,975247957,La Molina,Taller asociado,2026-04-02,11483.77
+33,C0033,CE,29298577,Patricia,Sánchez Palomino,,967418665,Independencia,Construcción,2026-05-13,44684.76
+34,C0034,DNI,76099151,Sergio,Salazar Cárdenas,sergio34@correo.com,951554199,Chorrillos,Minería,2026-01-28,33834.51
+35,C0035,RUC,18563852,Carlos,Díaz Gutiérrez,carlos35@correo.com,980872521,Independencia,Industria,2026-02-09,37657.04
+36,C0036,DNI,79572934,Elena,Aguirre Bautista,elena36correo.com,998943115,Breña,Taller asociado,2026-05-13,40662.22
+37,C0037,DNI,20285764,Elena,Romero Espinoza,elena37@correo.com,995857942,Chorrillos,Construcción,2026-03-19,29616.39
+38,C0038,DNI,97497258,Lucía,Palomino Vargas,lucía38@correo.com,967836289,Rímac,Minería,2026-01-08,12941.18
+39,C0039,DNI,58956090,Sergio,Gutiérrez Sánchez,sergio39@correo.com,978552467,La Molina,Industria,2026-05-23,18211.83
+40,C0040,CE,50795143,Melissa,Espinoza Villanueva,melissa40@correo.com,958187070,Callao,Taller asociado,2026-01-24,36340.73
+41,C0041,DNI,32961315,Gabriela,Chávez Salazar,gabriela41@correo.com,953484018,Breña,Construcción,2026-01-14,10235.92
+42,C0042,CE,66544369,Gabriela,Espinoza Rivera,gabriela42@correo.com,977471660,Los Olivos,Minería,2026-05-16,5735.13
+43,C0043,DNI,72711548,José,Flores Ninaquispe,josé43@correo.com,918301900,Surco,Industria,2026-05-17,41482.5
+44,C0044,CE,72617798,Ana,Lévano Sánchez,ana44@correo.com,931093449,San Juan de Lurigancho,Taller asociado,2026-05-16,28330.77
+45,C0045,RUC,44893507,Ricardo,Cornejo Gutiérrez,ricardo45correo.com,913891747,San Miguel,Construcción,2026-05-15,1519.15
+46,C0046,DNI,58173953,Sergio,Mendoza Aguirre,sergio46@correo.com,915736850,Villa El Salvador,Minería,2026-03-24,43401.38
+47,C0047,CE,41119005,Claudia,Quispe Gutiérrez,claudia47@correo.com,955648968,Callao,Industria,2026-04-10,13359.22
+48,C0048,DNI,75984355,Carlos,Ramos Vargas,carlos48@correo.com,921916233,Callao,Taller asociado,2026-02-22,18265.48
+49,C0049,DNI,251701,Álvaro,Ramos Paredes,álvaro49@correo.com,954042212,Comas,Construcción,2026-01-25,41527.38
+50,C0050,CE,44050651,Lucía,Cruz Aguirre,lucía50@correo.com,953172010,Surco,Minería,2026-03-06,18746.67
+51,C0051,CE,53350327,Lucía,Sánchez Zevallos,lucía51@correo.com,968124173,Villa El Salvador,Industria,2026-04-28,7189.43
+52,C0052,CE,40827303,Diego,Ramos Aguirre,,949462723,La Molina,Taller asociado,2026-01-24,8118.61
+53,C0053,DNI,57870084,Ana,Lévano Villanueva,ana53@correo.com,993219052,Callao,Construcción,2026-03-26,31974.8
+54,C0054,RUC,91940624,Luis,Cruz Rivera,luis54@correo.com,934767430,Surco,Minería,2026-02-27,10240.9
+55,C0055,DNI,53923508,Andrés,Cornejo Sánchez,andrés55correo.com,976822328,,Industria,2026-05-06,6737.13
+56,C0056,DNI,217140,Rosa,Díaz Chávez,rosa56@correo.com,,Rímac,Taller asociado,2026-05-02,17360.62
+57,C0057,CE,63666636,Elena,Rojas Palomino,elena57@correo.com,935403130,Los Olivos,Construcción,2026-04-12,16974.25
+58,C0058,CE,69654472,Luis,Aguirre Castillo,luis58@correo.com,991138771,Breña,Minería,2026-05-22,36377.55
+59,C0059,DNI,384250,Daniela,Cárdenas Aguirre,,,Villa El Salvador,Industria,2026-05-22,31468.0
+60,C0060,DNI,79991862,Isabel,Bautista Ríos,isabel60@correo.com,936182156,Surco,Taller asociado,2026-03-10,21255.29
+61,C0061,CE,59438142,Gabriela,Ramos Paredes,gabriela61@correo.com,919214245,Ate,Construcción,2026-03-24,1189.11
+62,C0062,DNI,73331220,Daniela,Lévano Huamán,daniela62@correo.com,938726367,Lince,Minería,2026-01-11,30307.84
+63,C0063,DNI,41118337,María,Bautista Lévano,maría63@correo.com,978031646,San Juan de Lurigancho,Industria,2026-04-17,22192.48
+64,C0064,DNI,47235774,Diego,Rojas Torres,diego64@correo.com,988633624,Los Olivos,Taller asociado,2026-03-18,17003.7
+65,C0065,CE,87559334,Manuel,Romero Salazar,manuel65@correo.com,936217873,Independencia,Construcción,2026-04-02,1903.66
+66,C0066,DNI,50417834,Pamela,Salazar Huamán,pamela66@correo.com,967812535,San Miguel,Minería,2026-04-06,25829.03
+67,C0067,DNI,22330385,Verónica,Ponce Flores,verónica67@correo.com,982105854,Los Olivos,Industria,2026-01-13,11937.59
+68,C0068,DNI,99386141,Bruno,Díaz Mendoza,bruno68@correo.com,988086762,Breña,Taller asociado,2026-02-14,2754.66
+69,C0069,DNI,56099547,Karla,Mendoza Ponce,karla69@correo.com,960763937,Villa El Salvador,Construcción,2026-01-10,35155.46
+70,C0070,DNI,92995773,Álvaro,Cárdenas Ninaquispe,álvaro70correo.com,941269308,San Miguel,Minería,2026-04-03,41387.62
+71,C0071,DNI,280849,Melissa,Mendoza Ponce,melissa71@correo.com,982523037,San Miguel,Industria,2026-04-01,43344.57
+72,C0072,DNI,72610254,Pedro,Chávez Villanueva,pedro72@correo.com,949707248,Chorrillos,Taller asociado,2026-01-21,14687.83
+73,C0073,DNI,62247542,Carlos,Bautista Ninaquispe,carlos73@correo.com,947628948,San Miguel,Construcción,2026-05-07,43857.18
+74,C0074,DNI,76009422,Julia,Sánchez Gutiérrez,julia74@correo.com,979759342,Villa El Salvador,Minería,2026-04-19,37777.36
+75,C0075,RUC,90340393,Natalia,Castillo Sánchez,natalia75@correo.com,970603560,San Miguel,Industria,2026-03-03,28215.38
+76,C0076,DNI,17613453,Diego,Villanueva Ponce,diego76@correo.com,941926430,Lince,Taller asociado,2026-01-16,8655.68
+77,C0077,RUC,82686394,Karla,Romero Vargas,karla77@correo.com,993141291,Rímac,Construcción,2026-03-07,35269.96
+78,C0078,DNI,81889750,Miguel,Ríos Chávez,miguel78@correo.com,997153006,Lince,Minería,2026-05-03,30417.2
+79,C0079,DNI,50833491,Carmen,Ríos Chávez,carmen79@correo.com,975274704,San Miguel,Industria,2026-05-19,13777.48
+80,C0080,CE,35964378,Renzo,Palomino Sánchez,renzo80@correo.com,956699758,,Taller asociado,2026-04-11,32652.52
+81,C0081,CE,73713733,Sofía,Cornejo Torres,sofía81@correo.com,981545449,Comas,Construcción,2026-04-19,14355.23
+82,C0082,CE,27247959,Carmen,Gutiérrez Ponce,carmen82@correo.com,972968632,Callao,Minería,2026-01-16,5036.64
+83,C0083,CE,15971145,Ricardo,Ramos Flores,ricardo83@correo.com,981394356,San Miguel,Industria,2026-04-08,275.94
+84,C0084,DNI,88619367,Luis,Ponce Gutiérrez,luis84@correo.com,915261855,,Taller asociado,2026-02-16,1548.09
+85,C0085,RUC,61861969,Paola,Palomino Zevallos,,930316557,Callao,Construcción,2026-01-28,33326.86
+86,C0086,DNI,43872041,Manuel,Ríos Rojas,manuel86@correo.com,,Surco,Minería,2026-04-24,19850.29
+87,C0087,CE,10497228,Álvaro,Vargas Díaz,álvaro87@correo.com,982403995,Comas,Industria,2026-03-17,10033.41
+88,C0088,DNI,69768769,Milagros,Flores Aguirre,,,Comas,Taller asociado,2026-05-22,29761.14
+89,C0089,CE,31731516,Luis,Torres Cárdenas,luis89@correo.com,942493541,Callao,Construcción,2026-04-12,10894.7
+90,C0090,DNI,70310706,Ana,Flores Cárdenas,,936853422,Breña,Minería,2026-02-25,21654.01
+91,C0091,RUC,70986718,Daniela,Flores Salazar,daniela91@correo.com,957582488,San Juan de Lurigancho,Industria,2026-01-09,2831.27
+92,C0092,RUC,40793346,Milagros,Mendoza Sánchez,milagros92@correo.com,978664267,Surco,Taller asociado,2026-01-08,42336.28
+93,C0093,DNI,11750625,Sergio,Díaz Quispe,sergio93@correo.com,966742059,Ate,Construcción,2026-02-03,981.95
+94,C0094,DNI,64145191,Hugo,Cornejo Ríos,hugo94@correo.com,978400823,Villa El Salvador,Minería,2026-02-24,36297.44
+95,C0095,DNI,81254271,Gabriela,Huamán Huamán,gabriela95@correo.com,917972499,Miraflores,Industria,2026-02-05,37213.69
+96,C0096,DNI,60431061,Sofía,Torres Villanueva,sofía96@correo.com,995705321,Lince,Taller asociado,2026-04-09,27347.93
+97,C0097,DNI,24631379,Verónica,Palomino Palomino,verónica97@correo.com,986073918,Chorrillos,Construcción,2026-01-27,3189.21
+98,C0098,CE,49856924,Iván,Rivera Flores,iván98@correo.com,984553309,Rímac,Minería,2026-05-14,22456.95
+99,C0099,DNI,17536728,Hugo,Cárdenas Flores,hugo99@correo.com,919028827,Breña,Industria,2026-03-25,24791.02
+100,C0100,DNI,21919064,Óscar,Ponce Sánchez,óscar100@correo.com,996225623,Breña,Taller asociado,2026-04-02,18190.15
+101,C0101,RUC,38663334,Raúl,Aguirre Paredes,raúl101@correo.com,943050595,,Construcción,2026-03-17,40446.34
+102,C0102,DNI,62121843,Lucía,Ponce Torres,lucía102@correo.com,953006752,Callao,Minería,2026-03-19,40241.7
+103,C0103,DNI,36869329,Carlos,Cornejo Díaz,carlos103@correo.com,981628436,La Molina,Industria,2026-03-17,32396.29
+104,C0104,CE,18216591,Hugo,Lévano Rojas,hugo104@correo.com,952708220,Chorrillos,Taller asociado,2026-02-01,7413.16
+105,C0105,DNI,50957129,Bruno,Gutiérrez Rojas,bruno105@correo.com,,Los Olivos,Construcción,2026-05-02,28417.21
+106,C0106,CE,19119848,Verónica,Palomino Cornejo,,928041673,Callao,Minería,2026-03-20,21766.81
+107,C0107,RUC,65037494,Paola,Mendoza Gutiérrez,paola107@correo.com,942852131,Miraflores,Industria,2026-05-16,305.37
+108,C0108,DNI,86976129,Álvaro,Palomino Ponce,,945117813,Miraflores,Taller asociado,2026-01-16,39387.89
+109,C0109,RUC,955148,Diego,Torres Torres,diego109@correo.com,990761090,Ate,Construcción,2026-01-20,17350.87
+110,C0110,DNI,94181407,Jorge,Aguirre Vargas,jorge110@correo.com,973014923,San Borja,Minería,2026-04-13,3607.32
+111,C0111,RUC,62024704,Karla,Cruz Rojas,karla111@correo.com,914383220,Comas,Industria,2026-02-28,39930.66
+112,C0112,DNI,94088629,Manuel,Sánchez Romero,,963219024,San Miguel,Taller asociado,2026-04-02,12685.09
+113,C0113,DNI,97527080,Pamela,Mendoza Huamán,pamela113correo.com,958482154,Miraflores,Construcción,2026-05-24,12934.61
+114,C0114,DNI,36915026,Gabriela,Bautista Rojas,gabriela114@correo.com,954250797,Rímac,Minería,2026-02-12,37309.18
+115,C0115,DNI,68645205,Verónica,Zevallos Huamán,verónica115@correo.com,,Surco,Industria,2026-02-03,7462.3
+116,C0116,DNI,16203822,Iván,Cornejo Ponce,iván116@correo.com,973850143,San Miguel,Taller asociado,2026-01-24,1482.78
+117,C0117,RUC,58509286,Miguel,Gutiérrez Rivera,miguel117@correo.com,941005334,Rímac,Construcción,2026-02-09,1186.17
+118,C0118,RUC,12222515,Pamela,Quispe Sánchez,,917246539,Chorrillos,Minería,2026-04-12,34770.48
+119,C0119,DNI,86683285,Jorge,Rivera Díaz,jorge119@correo.com,917764000,La Molina,Industria,2026-04-09,23085.62
+120,C0120,DNI,54855703,Diego,Ponce Castillo,diego120@correo.com,981546794,San Juan de Lurigancho,Taller asociado,2026-04-13,25925.27
+121,C0121,RUC,37142198,Rosa,Rojas Gutiérrez,rosa121@correo.com,922430083,San Borja,Construcción,2026-05-16,20484.44
+122,C0122,DNI,70576851,Pedro,Gutiérrez Cruz,pedro122@correo.com,997351084,Miraflores,Minería,2026-03-22,3928.27
+123,C0123,DNI,345497,Carlos,Cornejo Cornejo,carlos123@correo.com,965212652,Comas,Industria,2026-01-23,2481.64
+124,C0124,DNI,68633768,Andrés,Palomino Bautista,andrés124@correo.com,971799249,San Borja,Taller asociado,2026-03-23,20243.69
+125,C0125,DNI,23256475,José,Salazar Salazar,josé125@correo.com,954849269,Villa El Salvador,Construcción,2026-02-10,17912.66
+126,C0126,RUC,32126083,Jorge,Chávez Paredes,jorge126@correo.com,996852834,Rímac,Minería,2026-05-23,13447.29
+127,C0127,DNI,259654,Miguel,Ninaquispe Rojas,miguel127@correo.com,913691881,Rímac,Industria,2026-04-08,31963.8
+128,C0128,DNI,205772,Carlos,Chávez Ríos,carlos128@correo.com,986620596,Surco,Taller asociado,2026-03-21,30139.37
+129,C0129,RUC,40471652,José,Mendoza Salazar,josé129@correo.com,949189912,Miraflores,Construcción,2026-02-27,14211.49
+130,C0130,DNI,76245229,Julia,Mendoza Lévano,julia130@correo.com,924675822,La Molina,Minería,2026-03-24,5291.25
+131,C0131,RUC,50515557,Diego,Bautista Flores,diego131@correo.com,977417109,Miraflores,Industria,2026-01-26,6647.71
+132,C0132,DNI,71416393,Elena,Castillo Salazar,elena132@correo.com,933877600,Breña,Taller asociado,2026-02-01,16136.66
+133,C0133,DNI,62757789,Ana,Cornejo Cárdenas,ana133@correo.com,948922414,Surco,Construcción,2026-03-06,27768.82
+134,C0134,DNI,27600422,Álvaro,Torres Romero,álvaro134@correo.com,,San Juan de Lurigancho,Minería,2026-03-07,26717.77
+135,C0135,CE,13122462,Claudia,Huamán Díaz,claudia135@correo.com,914601865,La Molina,Industria,2026-05-23,29626.01
+136,C0136,CE,11230736,Manuel,Torres Ríos,manuel136@correo.com,,Rímac,Taller asociado,2026-03-28,33435.05
+137,C0137,RUC,84554022,Pamela,Rivera Cárdenas,pamela137@correo.com,910173335,Miraflores,Construcción,2026-03-27,16360.87
+138,C0138,DNI,19652093,Pamela,Romero Rivera,pamela138@correo.com,914500873,Rímac,Minería,2026-03-21,43222.78
+139,C0139,DNI,94109313,Manuel,Mendoza Palomino,manuel139@correo.com,991123459,La Molina,Industria,2026-04-16,30047.8
+140,C0140,RUC,68326169,Andrés,Flores Villanueva,andrés140@correo.com,988776057,San Juan de Lurigancho,Taller asociado,2026-03-17,40647.39
+141,C0141,CE,78056694,Rosa,Ramos Sánchez,rosa141@correo.com,959790307,Lince,Construcción,2026-02-09,44038.91
+142,C0142,DNI,86848087,Ricardo,Palomino Gutiérrez,ricardo142@correo.com,978535509,Chorrillos,Minería,2026-03-06,4306.25
+143,C0143,DNI,94190798,Julia,Ramos Aguirre,julia143@correo.com,969773913,Comas,Industria,2026-04-10,21510.93
+144,C0144,RUC,87317154,Carlos,Lévano Lévano,carlos144@correo.com,943485029,Callao,Taller asociado,2026-01-22,17619.2
+145,C0145,DNI,65801119,Renzo,Castillo Quispe,renzo145@correo.com,910845488,San Borja,Construcción,2026-04-26,1867.25
+146,C0146,DNI,56993506,Carmen,Rojas Paredes,carmen146@correo.com,970171406,Rímac,Minería,2026-01-28,10327.56
+147,C0147,DNI,82226343,Verónica,Paredes Paredes,verónica147@correo.com,914883871,Lince,Industria,2026-01-06,20992.82
+148,C0148,DNI,85323474,Álvaro,Salazar Salazar,álvaro148@correo.com,957965583,Los Olivos,Taller asociado,2026-03-21,24590.61
+149,C0149,DNI,77711551,Pamela,Rivera Flores,pamela149@correo.com,981810341,,Construcción,2026-05-15,5970.21
+150,C0150,CE,47534463,Carmen,Mendoza Rojas,carmen150@correo.com,922930895,Ate,Minería,2026-04-14,4072.44
+151,C0151,CE,17133734,Álvaro,Bautista Sánchez,álvaro151@correo.com,924426508,Surco,Industria,2026-05-01,8579.6
+152,C0152,DNI,18985505,Daniela,Huamán Torres,daniela152@correo.com,968713408,Rímac,Taller asociado,2026-04-02,7414.29
+153,C0153,DNI,51974521,Ana,Espinoza Cárdenas,ana153@correo.com,912049223,San Miguel,Construcción,2026-03-26,199.37
+154,C0154,RUC,60707359,Daniela,Ninaquispe Ninaquispe,daniela154@correo.com,929568247,San Miguel,Minería,2026-02-11,37657.65
+155,C0155,DNI,56402152,Julia,Bautista Ninaquispe,,944343927,Independencia,Industria,2026-03-10,8734.45
+156,C0156,DNI,90827131,Verónica,Villanueva Villanueva,verónica156@correo.com,956559035,La Molina,Taller asociado,2026-02-20,23034.31
+157,C0157,DNI,29882926,Isabel,Ríos Quispe,isabel157@correo.com,973672396,Comas,Construcción,2026-04-10,2366.51
+158,C0158,DNI,52094832,Karla,Torres Palomino,karla158@correo.com,976701904,Callao,Minería,2026-04-16,38261.39
+159,C0159,RUC,28727108,Jorge,Lévano Palomino,jorge159@correo.com,963318498,Villa El Salvador,Industria,2026-03-05,34314.2
+160,C0160,DNI,24373278,Claudia,Cornejo Mendoza,claudia160@correo.com,965451212,Breña,Taller asociado,2026-03-20,40338.28
+161,C0161,RUC,82873100,Isabel,Espinoza Zevallos,isabel161@correo.com,934280837,Lince,Construcción,2026-02-19,29141.13
+162,C0162,DNI,58859591,Bruno,Cruz Torres,bruno162@correo.com,952116861,Los Olivos,Minería,2026-04-25,3126.51
+163,C0163,RUC,24314616,Víctor,Huamán Castillo,víctor163@correo.com,991252880,San Miguel,Industria,2026-01-10,22672.16
+164,C0164,DNI,16852465,Sergio,Cárdenas Ponce,sergio164@correo.com,951641336,Los Olivos,Taller asociado,2026-01-07,16942.51
+165,C0165,DNI,20424794,Andrés,Chávez Cruz,andrés165@correo.com,962558865,San Juan de Lurigancho,Construcción,2026-04-20,502.19
+166,C0166,DNI,44891792,Carmen,Aguirre Villanueva,carmen166@correo.com,989667378,Chorrillos,Minería,2026-05-25,1690.23
+167,C0167,DNI,38148136,Karla,Ponce Rojas,karla167@correo.com,947340956,San Borja,Industria,2026-04-22,27343.63
+168,C0168,RUC,80313535,Verónica,Zevallos Romero,,,Rímac,Taller asociado,2026-04-23,5936.74
+169,C0169,CE,50215397,Milagros,Paredes Bautista,milagros169@correo.com,968259034,Breña,Construcción,2026-01-05,42180.55
+170,C0170,DNI,77289144,Karla,Ramos Ríos,karla170@correo.com,,Breña,Minería,2026-03-27,36858.29
+171,C0171,DNI,30880912,Andrés,Zevallos Cruz,andrés171@correo.com,932127635,Surco,Industria,2026-04-26,22339.82
+172,C0172,DNI,79547123,Paola,Torres Gutiérrez,paola172@correo.com,929702583,Comas,Taller asociado,2026-01-16,6873.98
+173,C0173,DNI,35243055,Pedro,Castillo Flores,pedro173@correo.com,999705010,San Borja,Construcción,2026-04-18,31970.18
+174,C0174,CE,35929396,Isabel,Zevallos Romero,isabel174correo.com,953036939,Chorrillos,Minería,2026-03-09,16441.53
+175,C0175,DNI,66905942,Raúl,Lévano Salazar,raúl175@correo.com,911444862,Lince,Industria,2026-02-13,21008.35
+176,C0176,DNI,15624152,Milagros,Rojas Salazar,milagros176@correo.com,987023099,Miraflores,Taller asociado,2026-04-27,10963.64
+177,C0177,DNI,73919333,Carlos,Quispe Rivera,carlos177@correo.com,966006486,Villa El Salvador,Construcción,2026-05-06,6861.48
+178,C0178,DNI,94917524,Julia,Villanueva Huamán,julia178@correo.com,954527737,Callao,Minería,2026-05-06,23898.58
+179,C0179,DNI,30503651,Ricardo,Chávez Cornejo,ricardo179@correo.com,964781133,Callao,Industria,2026-02-14,36594.91
+180,C0180,DNI,17904395,Iván,Cárdenas Quispe,iván180@correo.com,918766474,Surco,Taller asociado,2026-05-19,11930.84
+181,C0181,CE,18441209,Lucía,Quispe Lévano,lucía181@correo.com,954282351,Comas,Construcción,2026-03-08,8175.18
+182,C0182,CE,17747294,Lucía,Cárdenas Ramos,lucía182@correo.com,957440663,Los Olivos,Minería,2026-05-01,11149.45
+183,C0183,DNI,37144060,Paola,Díaz Chávez,paola183@correo.com,974398345,Callao,Industria,2026-01-20,20083.78
+184,C0184,RUC,62623404,Víctor,Espinoza Chávez,,,San Juan de Lurigancho,Taller asociado,2026-02-18,36425.26
+185,C0185,DNI,64932090,Pamela,Rivera Bautista,pamela185@correo.com,965118985,Los Olivos,Construcción,2026-04-20,37667.14
+186,C0186,CE,96775208,Bruno,Castillo Flores,bruno186@correo.com,999282040,San Juan de Lurigancho,Minería,2026-04-12,7238.61
+187,C0187,DNI,82129535,Patricia,Bautista Castillo,patricia187@correo.com,974958057,Breña,Industria,2026-02-14,5981.58
+188,C0188,DNI,28433333,Verónica,Cárdenas Paredes,verónica188@correo.com,970589681,,Taller asociado,2026-02-09,14690.92
+189,C0189,DNI,92429733,Julia,Ríos Espinoza,julia189@correo.com,999168978,Rímac,Construcción,2026-01-01,20288.63
+190,C0190,DNI,62611581,Patricia,Romero Rivera,patricia190@correo.com,988323990,Los Olivos,Minería,2026-04-21,40540.0
+191,C0191,CE,562317,Ana,Paredes Rivera,ana191@correo.com,944530211,Independencia,Industria,2026-05-01,12441.35
+192,C0192,RUC,85035201,Natalia,Cruz Cornejo,natalia192@correo.com,,Ate,Taller asociado,2026-02-24,14584.66
+193,C0193,RUC,53873264,Ana,Palomino Flores,ana193correo.com,944441567,La Molina,Construcción,2026-05-20,44173.17
+194,C0194,DNI,38985643,Miguel,Espinoza Sánchez,miguel194@correo.com,999774106,San Miguel,Minería,2026-04-26,23234.15
+195,C0195,CE,34845731,Carlos,Aguirre Salazar,carlos195@correo.com,962244634,Rímac,Industria,2026-01-13,8111.6
+196,C0196,DNI,29716341,Claudia,Salazar Torres,claudia196@correo.com,925384037,San Miguel,Taller asociado,2026-03-26,29220.44
+197,C0197,CE,16063506,Hugo,Lévano Espinoza,hugo197@correo.com,987738205,Surco,Construcción,2026-04-18,44242.69
+198,C0198,DNI,56490785,Pamela,Rojas Torres,pamela198@correo.com,955463351,San Miguel,Minería,2026-03-03,42225.87
+199,C0199,RUC,31087135,Sofía,Ponce Vargas,sofía199@correo.com,,Los Olivos,Industria,2026-02-07,22633.05
+200,C0200,DNI,93391322,Renzo,Torres Zevallos,renzo200@correo.com,998974019,San Juan de Lurigancho,Taller asociado,2026-02-20,917.99
+201,C0201,DNI,86848087,Ricardo,Palomino Gutiérrez,ricardo142@correo.com,978535509,Chorrillos,Construcción,2026-03-06,4306.25
+202,C0202,CE,348457,Carlos,Aguirre Salazar,carlos195@correo.com,962244634,Rímac,Minería,2026-01-13,8111.6
+203,C0203,RUC,60707359,Daniela,Ninaquispe Ninaquispe,daniela154@correo.com,929568247,San Miguel,Industria,2026-02-11,37657.65
+204,C0204,DNI,57870084,Ana,Lévano Villanueva,ana53@correo.com,993219052,Callao,Taller asociado,2026-03-26,31974.8
+205,C0205,DNI,88619367,Luis,Ponce Gutiérrez,luis84@correo.com,915261855,,Construcción,2026-02-16,1548.09
+206,C0206,DNI,51672448,Ricardo,Bautista Aguirre,ricardo5@correo.com,955804811,La Molina,Minería,2026-04-25,15993.87
+207,C0207,RUC,31087135,Sofía,Ponce Vargas,sofía199@correo.com,,Los Olivos,Industria,2026-02-07,22633.05
+208,C0208,CE,24677608,Gabriela,Cruz Ponce,gabriela16@correo.com,995205301,Ate,Taller asociado,2026-02-12,991.11

@@ -1,501 +1,1011 @@
-﻿id_operacion,codigo_operacion,id_entidad,id_sede,id_producto,fecha_operacion,cantidad,monto_total,estado,canal
-1,O00001,66,4,5,2026-01-06,2,715.34,Cancelado,Web
-2,O00002,33,2,12,2026-03-22,5,1710.37,Completado,Call Center
-3,O00003,33,4,6,2026-02-15,1,30.67,Completado,Call Center
-4,O00004,61,1,2,2026-05-02,2,112.96,Completado,Web
-5,O00005,2,3,12,2026-01-27,6,2257.19,Completado,Presencial
-6,O00006,64,1,6,2026-05-11,4,95.39,Completado,App
-7,O00007,63,6,15,2026-03-10,4,472.43,Completado,Call Center
-8,O00008,37,6,12,2026-03-10,6,1733.41,Completado,Web
-9,O00009,3,1,9,2026-01-18,6,308.6,Completado,App
-10,O00010,2,2,13,2026-05-15,5,423.34,Completado,Web
-11,O00011,48,5,10,2026-06-29,1,29.46,Observado,Web
-12,O00012,63,5,14,2026-02-21,6,180.31,Completado,Call Center
-13,O00013,15,2,2,2026-03-04,4,266.65,Observado,App
-14,O00014,49,4,15,2026-05-30,3,401.38,Completado,Web
-15,O00015,31,6,6,2026-04-24,3,94.41,Completado,Presencial
-16,O00016,15,6,13,2026-04-08,1,80.17,Completado,Presencial
-17,O00017,69,1,13,2026-02-14,2,137.73,Completado,Presencial
-18,O00018,23,1,14,2026-05-26,6,181.84,Completado,Call Center
-19,O00019,80,6,14,2026-05-01,5,169.71,Completado,Web
-20,O00020,67,3,3,2026-05-16,1,77.47,Completado,Call Center
-21,O00021,55,5,6,2026-03-22,6,184.06,Completado,App
-22,O00022,47,1,9,2026-04-27,3,174.22,Observado,Presencial
-23,O00023,52,3,6,2026-03-12,5,139.92,Completado,Call Center
-24,O00024,48,1,8,2026-03-30,6,1709.68,Completado,App
-25,O00025,26,4,4,2026-06-27,4,1113.73,Observado,App
-26,O00026,4,4,9,2026-05-25,4,204.83,Completado,Call Center
-27,O00027,36,2,10,2026-05-18,1,29.37,Completado,App
-28,O00028,45,1,9,2026-03-05,4,273.37,Observado,Presencial
-29,O00029,44,2,13,2026-01-27,3,236.74,Cancelado,Web
-30,O00030,38,6,3,2026-03-28,4,299.34,Completado,App
-31,O00031,49,5,2,2026-04-16,6,357.46,Completado,Presencial
-32,O00032,18,2,8,2026-01-18,2,724.17,Pendiente,App
-33,O00033,19,5,8,2026-02-28,4,1055.48,Completado,Presencial
-34,O00034,2,1,9,2026-05-25,3,150.98,Completado,Web
-35,O00035,48,4,2,2026-04-24,1,66.3,Completado,Call Center
-36,O00036,66,2,7,2026-05-10,2,638.63,Completado,Call Center
-37,O00037,28,2,11,2026-02-03,1,210.32,Cancelado,Presencial
-38,O00038,61,2,7,2026-04-27,6,1941.1,Completado,Web
-39,O00039,57,6,15,2026-02-21,5,676.44,Completado,Call Center
-40,O00040,4,4,2,2026-02-15,1,64.57,Observado,Web
-41,O00041,58,5,5,2026-04-23,1,314.66,Observado,Presencial
-42,O00042,25,6,8,2026-05-31,3,909.34,Completado,App
-43,O00043,54,6,12,2026-03-25,6,2215.43,Completado,App
-44,O00044,17,3,10,2026-05-26,4,121.65,Completado,Presencial
-45,O00045,8,5,1,2026-03-20,2,730.45,Completado,App
-46,O00046,2,4,9,2026-02-22,2,129.26,Completado,Web
-47,O00047,54,5,5,2026-01-15,5,1958.17,Completado,Presencial
-48,O00048,28,6,9,2026-03-28,4,260.17,Completado,Web
-49,O00049,21,5,4,2026-02-11,5,1609.92,Completado,Presencial
-50,O00050,67,1,10,2026-06-10,1,28.34,Pendiente,App
-51,O00051,50,4,6,2026-04-28,5,171.05,Completado,Call Center
-52,O00052,68,6,1,2026-06-11,3,1152.28,Completado,Presencial
-53,O00053,33,5,3,2026-03-14,1,83.67,Completado,App
-54,O00054,1,4,13,2026-01-19,4,337.55,Completado,Presencial
-55,O00055,62,6,13,2026-03-04,2,143.64,Completado,Presencial
-56,O00056,61,4,15,2026-06-30,5,594.61,Pendiente,Presencial
-57,O00057,77,2,7,2026-05-19,5,1128.13,Completado,Web
-58,O00058,13,3,2,2026-05-29,2,100.53,Completado,App
-59,O00059,35,1,8,2026-01-24,6,2199.87,Completado,Presencial
-60,O00060,4,4,2,2026-03-16,6,305.13,Cancelado,Web
-61,O00061,21,1,6,2026-06-07,3,74.41,Observado,Web
-62,O00062,30,1,15,2026-05-07,1,131.27,Completado,Presencial
-63,O00063,29,3,3,2026-03-31,2,128.8,Completado,Web
-64,O00064,75,3,15,2026-06-22,4,538.02,Completado,App
-65,O00065,37,6,5,2026-02-16,4,1549.82,Completado,Presencial
-66,O00066,8,5,12,2026-06-08,4,1276.2,Completado,App
-67,O00067,30,5,3,2026-04-08,2,132.6,Completado,Web
-68,O00068,40,2,14,2026-04-17,1,37.06,Completado,Presencial
-69,O00069,51,2,2,2026-03-01,2,133.63,Cancelado,Web
-70,O00070,17,4,3,2026-01-24,4,242.62,Completado,Presencial
-71,O00071,77,2,2,2026-04-09,2,129.34,Completado,App
-72,O00072,71,6,12,2026-05-23,1,278.19,Completado,Web
-73,O00073,39,6,4,2026-03-01,4,1241.44,Completado,Web
-74,O00074,6,2,4,2026-06-02,1,288.27,Completado,App
-75,O00075,10,2,4,2026-04-04,3,840.48,Cancelado,App
-76,O00076,74,2,2,2026-04-11,4,198.74,Completado,Web
-77,O00077,35,5,8,2026-04-02,1,363.1,Observado,Presencial
-78,O00078,52,6,4,2026-04-01,1,263.06,Completado,App
-79,O00079,73,2,4,2026-02-15,1,281.3,Cancelado,Web
-80,O00080,35,4,8,2026-01-09,5,1857.16,Completado,App
-81,O00081,74,6,10,2026-03-15,5,149.48,Completado,Web
-82,O00082,19,2,12,2026-03-07,1,295.22,Completado,Call Center
-83,O00083,20,1,1,2026-02-06,1,387.78,Completado,Web
-84,O00084,62,3,3,2026-01-07,3,210.88,Completado,Web
-85,O00085,30,3,2,2026-04-17,2,111.81,Cancelado,App
-86,O00086,27,1,6,2026-03-01,4,106.58,Completado,Presencial
-87,O00087,38,1,15,2026-06-11,5,609.79,Pendiente,Web
-88,O00088,42,4,11,2026-06-30,3,629.69,Completado,Call Center
-89,O00089,26,4,10,2026-05-20,1,22.66,Completado,Web
-90,O00090,75,5,5,2026-03-22,2,682.33,Pendiente,Web
-91,O00091,30,4,6,2026-04-05,6,186.23,Pendiente,App
-92,O00092,54,4,6,2026-03-12,1,30.83,Completado,App
-93,O00093,44,4,6,2026-05-13,5,171.29,Observado,Web
-94,O00094,66,6,5,2026-03-04,2,715.7,Completado,Call Center
-95,O00095,19,1,11,2026-02-27,6,1484.22,Completado,Call Center
-96,O00096,4,6,7,2026-06-16,4,1122.08,Pendiente,App
-97,O00097,40,3,3,2026-05-18,4,319.12,Completado,App
-98,O00098,42,1,11,2026-02-14,2,430.82,Completado,Web
-99,O00099,31,3,8,2026-05-29,1,368.22,Completado,Web
-100,O00100,26,4,2,2026-03-05,4,285.64,Completado,Web
-101,O00101,40,5,14,2026-05-02,5,189.34,Completado,Presencial
-102,O00102,21,1,3,2026-06-09,3,228.75,Completado,Call Center
-103,O00103,40,2,8,2026-04-26,2,718.64,Observado,Web
-104,O00104,46,1,13,2026-04-18,2,162.63,Completado,App
-105,O00105,80,4,7,2026-03-12,5,1371.34,Observado,Web
-106,O00106,30,2,14,2026-06-13,2,62.32,Completado,App
-107,O00107,51,5,3,2026-06-03,6,427.42,Completado,Presencial
-108,O00108,16,5,12,2026-03-26,6,2323.29,Pendiente,Call Center
-109,O00109,13,3,15,2026-04-14,4,468.87,Completado,Presencial
-110,O00110,2,3,14,2026-04-23,6,182.36,Completado,Web
-111,O00111,5,3,3,2026-05-24,3,184.87,Completado,Presencial
-112,O00112,72,6,11,2026-03-05,2,508.0,Cancelado,Web
-113,O00113,71,3,13,2026-05-01,2,170.4,Completado,Call Center
-114,O00114,54,6,13,2026-01-24,6,472.58,Completado,App
-115,O00115,68,1,6,2026-01-18,1,23.33,Completado,Call Center
-116,O00116,36,5,11,2026-04-10,4,835.49,Observado,App
-117,O00117,20,1,11,2026-01-27,5,1157.86,Cancelado,Presencial
-118,O00118,65,1,1,2026-05-31,6,1900.84,Completado,App
-119,O00119,67,1,12,2026-02-11,3,1087.45,Pendiente,App
-120,O00120,25,1,14,2026-03-25,6,173.73,Completado,Presencial
-121,O00121,16,4,10,2026-05-02,1,25.04,Completado,Call Center
-122,O00122,63,4,6,2026-06-02,1,31.57,Completado,Call Center
-123,O00123,4,5,4,2026-02-14,6,1478.41,Completado,Web
-124,O00124,75,5,15,2026-01-27,4,542.63,Completado,Presencial
-125,O00125,16,2,9,2026-05-13,5,283.18,Completado,Web
-126,O00126,17,6,7,2026-06-30,2,470.2,Cancelado,App
-127,O00127,65,4,6,2026-01-12,1,23.89,Completado,Presencial
-128,O00128,74,4,3,2026-02-09,2,149.67,Completado,App
-129,O00129,77,3,14,2026-03-02,5,138.21,Completado,App
-130,O00130,40,1,15,2026-05-10,4,520.0,Completado,Presencial
-131,O00131,52,3,7,2026-03-17,6,1926.35,Completado,Web
-132,O00132,41,4,14,2026-05-16,6,197.95,Completado,Web
-133,O00133,54,2,3,2026-03-25,5,313.27,Observado,App
-134,O00134,42,5,1,2026-01-23,3,830.82,Completado,App
-135,O00135,56,6,15,2026-03-02,5,705.55,Pendiente,Presencial
-136,O00136,56,6,9,2026-01-18,3,184.17,Completado,Presencial
-137,O00137,49,3,4,2026-04-11,4,1061.94,Completado,Call Center
-138,O00138,22,4,2,2026-01-20,2,116.07,Cancelado,Presencial
-139,O00139,6,4,3,2026-05-14,5,364.08,Cancelado,App
-140,O00140,40,2,12,2026-04-12,3,891.47,Observado,Web
-141,O00141,63,5,6,2026-01-28,3,81.27,Observado,Call Center
-142,O00142,56,6,3,2026-04-12,4,333.58,Completado,Presencial
-143,O00143,46,1,12,2026-05-24,5,1768.75,Completado,Web
-144,O00144,45,6,6,2026-01-16,6,198.5,Completado,Presencial
-145,O00145,66,1,12,2026-05-02,2,785.91,Completado,Call Center
-146,O00146,19,2,11,2026-02-05,5,1146.08,Completado,Call Center
-147,O00147,21,1,14,2026-03-03,2,79.11,Completado,Web
-148,O00148,18,3,1,2026-01-04,4,1140.95,Completado,App
-149,O00149,70,5,11,2026-01-17,1,216.43,Completado,Web
-150,O00150,28,1,13,2026-03-03,4,315.15,Completado,Web
-151,O00151,30,2,11,2026-05-10,6,1145.76,Completado,Call Center
-152,O00152,58,5,7,2026-01-31,4,1000.85,Completado,Web
-153,O00153,21,5,13,2026-06-07,2,151.89,Completado,Presencial
-154,O00154,74,2,1,2026-01-26,6,1818.82,Completado,Web
-155,O00155,67,1,10,2026-05-30,3,70.0,Completado,App
-156,O00156,53,2,15,2026-02-27,4,589.48,Completado,Presencial
-157,O00157,59,5,5,2026-03-06,3,954.84,Completado,Call Center
-158,O00158,34,1,6,2026-05-24,5,132.86,Completado,App
-159,O00159,69,4,4,2026-06-23,4,990.97,Completado,Call Center
-160,O00160,78,2,9,2026-02-27,2,113.84,Observado,App
-161,O00161,31,4,11,2026-03-24,1,257.04,Observado,Web
-162,O00162,7,6,1,2026-01-02,5,1909.59,Completado,App
-163,O00163,53,4,3,2026-02-24,2,140.77,Observado,App
-164,O00164,2,6,15,2026-03-03,5,704.66,Completado,Presencial
-165,O00165,75,6,15,2026-01-19,4,588.84,Cancelado,App
-166,O00166,45,6,2,2026-05-28,5,311.29,Completado,Presencial
-167,O00167,61,5,9,2026-03-02,3,209.63,Completado,Call Center
-168,O00168,9,6,3,2026-02-02,5,370.15,Cancelado,Presencial
-169,O00169,20,6,13,2026-06-20,4,364.56,Completado,App
-170,O00170,55,5,9,2026-03-22,3,201.72,Completado,Presencial
-171,O00171,41,2,1,2026-03-04,1,273.96,Pendiente,Presencial
-172,O00172,8,1,5,2026-04-19,3,1107.57,Observado,Presencial
-173,O00173,26,4,11,2026-01-07,3,692.97,Observado,Presencial
-174,O00174,68,1,10,2026-06-22,2,56.81,Completado,Call Center
-175,O00175,52,2,13,2026-03-30,5,459.04,Completado,Presencial
-176,O00176,57,3,11,2026-02-08,6,1228.81,Completado,Call Center
-177,O00177,20,3,10,2026-01-31,1,23.61,Cancelado,Call Center
-178,O00178,58,3,9,2026-04-24,6,413.83,Completado,Presencial
-179,O00179,26,2,1,2026-06-11,1,338.49,Completado,Web
-180,O00180,32,6,7,2026-03-12,4,1032.48,Pendiente,Web
-181,O00181,15,3,4,2026-01-26,1,298.45,Pendiente,App
-182,O00182,64,1,10,2026-03-03,4,104.77,Cancelado,Presencial
-183,O00183,43,2,13,2026-04-03,3,276.93,Pendiente,Presencial
-184,O00184,46,2,9,2026-01-05,4,212.04,Completado,Web
-185,O00185,51,6,15,2026-06-23,4,558.48,Completado,Web
-186,O00186,14,6,6,2026-04-21,2,64.91,Observado,Web
-187,O00187,3,1,11,2026-01-24,5,902.14,Completado,Call Center
-188,O00188,10,3,2,2026-05-17,1,56.75,Observado,App
-189,O00189,60,6,11,2026-03-25,4,914.79,Completado,Web
-190,O00190,79,3,11,2026-02-10,2,483.35,Observado,Call Center
-191,O00191,6,6,13,2026-03-24,3,261.12,Completado,App
-192,O00192,5,3,5,2026-03-06,5,1711.99,Completado,App
-193,O00193,23,1,5,2026-06-15,5,1505.43,Observado,Call Center
-194,O00194,16,4,13,2026-02-04,4,321.37,Observado,Web
-195,O00195,54,1,14,2026-01-11,3,114.41,Observado,App
-196,O00196,59,4,12,2026-06-05,3,1102.71,Completado,Presencial
-197,O00197,55,5,14,2026-05-10,3,111.96,Completado,App
-198,O00198,75,2,6,2026-03-05,1,33.82,Cancelado,Call Center
-199,O00199,47,6,4,2026-05-27,2,468.37,Completado,App
-200,O00200,63,2,12,2026-06-18,2,538.59,Observado,Presencial
-201,O00201,42,2,14,2026-01-01,6,224.14,Pendiente,Call Center
-202,O00202,31,4,12,2026-06-06,1,333.47,Completado,Call Center
-203,O00203,12,4,15,2026-04-03,1,131.23,Observado,App
-204,O00204,79,3,15,2026-02-10,5,638.73,Completado,Call Center
-205,O00205,19,5,15,2026-06-01,5,515.47,Observado,App
-206,O00206,67,5,4,2026-06-10,2,536.07,Cancelado,Web
-207,O00207,26,5,5,2026-02-09,5,1870.0,Pendiente,Web
-208,O00208,10,5,12,2026-02-13,1,356.92,Completado,App
-209,O00209,21,1,12,2026-02-22,3,1065.41,Completado,Call Center
-210,O00210,28,2,14,2026-05-06,1,31.39,Completado,App
-211,O00211,59,2,13,2026-01-12,1,73.05,Cancelado,Web
-212,O00212,61,3,11,2026-03-27,6,1430.97,Completado,Presencial
-213,O00213,68,3,1,2026-06-23,1,273.89,Completado,Call Center
-214,O00214,7,3,1,2026-06-03,6,2202.13,Observado,Call Center
-215,O00215,28,4,13,2026-05-10,5,365.29,Completado,Presencial
-216,O00216,63,4,15,2026-04-13,1,135.62,Completado,Call Center
-217,O00217,55,4,7,2026-04-24,5,1338.9,Completado,Presencial
-218,O00218,80,3,2,2026-05-14,5,337.99,Completado,Web
-219,O00219,38,5,4,2026-05-24,5,1335.0,Observado,Presencial
-220,O00220,24,4,6,2026-04-26,5,154.05,Pendiente,App
-221,O00221,27,5,3,2026-02-23,1,66.42,Completado,App
-222,O00222,78,4,6,2026-03-29,5,166.1,Completado,Presencial
-223,O00223,60,4,15,2026-04-16,2,209.64,Completado,Presencial
-224,O00224,65,6,2,2026-03-11,2,142.4,Completado,App
-225,O00225,74,3,1,2026-02-04,1,275.73,Completado,Call Center
-226,O00226,53,3,9,2026-04-06,3,204.58,Observado,Call Center
-227,O00227,64,4,4,2026-04-27,4,1269.44,Observado,Presencial
-228,O00228,26,4,3,2026-02-14,4,256.9,Completado,Presencial
-229,O00229,36,2,15,2026-01-24,5,726.6,Completado,App
-230,O00230,70,2,1,2026-06-19,6,2287.89,Observado,Call Center
-231,O00231,69,3,6,2026-06-03,6,190.15,Completado,Call Center
-232,O00232,74,3,8,2026-03-25,2,626.18,Completado,Call Center
-233,O00233,13,4,14,2026-05-20,4,130.14,Completado,Web
-234,O00234,30,1,10,2026-02-18,1,29.54,Completado,Web
-235,O00235,10,6,11,2026-01-16,5,930.1,Completado,App
-236,O00236,57,4,15,2026-06-20,6,705.77,Cancelado,Web
-237,O00237,53,5,14,2026-05-14,4,119.21,Completado,App
-238,O00238,22,4,1,2026-02-16,3,1062.1,Completado,Web
-239,O00239,12,6,4,2026-02-01,6,1850.75,Cancelado,Call Center
-240,O00240,14,6,11,2026-02-08,6,1233.6,Observado,Call Center
-241,O00241,49,2,4,2026-02-16,2,570.17,Completado,Web
-242,O00242,64,4,6,2026-03-23,5,154.59,Completado,App
-243,O00243,40,4,9,2026-03-10,2,140.92,Cancelado,Call Center
-244,O00244,71,4,11,2026-02-28,5,999.32,Completado,App
-245,O00245,42,4,11,2026-05-05,2,414.48,Completado,Web
-246,O00246,63,5,8,2026-03-13,3,787.3,Observado,Call Center
-247,O00247,65,6,2,2026-04-06,2,118.36,Completado,Call Center
-248,O00248,33,4,4,2026-06-26,3,826.69,Cancelado,App
-249,O00249,51,3,1,2026-02-25,6,1992.31,Pendiente,App
-250,O00250,20,4,8,2026-05-14,1,346.66,Completado,Call Center
-251,O00251,45,6,1,2026-03-04,1,334.55,Completado,App
-252,O00252,58,5,2,2026-05-08,4,230.24,Completado,Call Center
-253,O00253,5,4,7,2026-03-13,6,1690.23,Completado,App
-254,O00254,18,4,1,2026-04-15,1,286.52,Completado,App
-255,O00255,76,4,5,2026-05-29,1,331.13,Completado,Web
-256,O00256,4,2,11,2026-02-04,6,1526.0,Completado,Call Center
-257,O00257,73,2,7,2026-04-19,2,582.0,Completado,Web
-258,O00258,16,1,1,2026-06-12,3,811.9,Completado,App
-259,O00259,47,4,7,2026-06-01,2,458.9,Pendiente,Call Center
-260,O00260,9,5,1,2026-01-26,5,1829.12,Completado,Call Center
-261,O00261,13,3,7,2026-02-01,2,463.25,Pendiente,Web
-262,O00262,57,1,14,2026-02-25,1,29.61,Completado,Call Center
-263,O00263,3,6,6,2026-04-25,3,99.38,Completado,Presencial
-264,O00264,40,1,7,2026-04-19,6,1516.08,Completado,Presencial
-265,O00265,34,2,7,2026-06-24,3,921.08,Observado,Web
-266,O00266,13,4,2,2026-04-19,3,207.92,Completado,Web
-267,O00267,77,2,13,2026-02-15,1,73.28,Completado,Presencial
-268,O00268,33,3,9,2026-02-18,2,135.04,Completado,App
-269,O00269,47,1,13,2026-06-20,4,292.19,Completado,Presencial
-270,O00270,7,1,13,2026-03-23,5,451.12,Completado,App
-271,O00271,40,5,3,2026-01-04,5,347.5,Completado,Call Center
-272,O00272,68,4,13,2026-01-06,2,141.03,Completado,App
-273,O00273,27,2,2,2026-01-11,2,118.11,Completado,Presencial
-274,O00274,6,6,13,2026-02-20,3,274.55,Completado,App
-275,O00275,1,4,8,2026-05-04,4,1467.77,Completado,Presencial
-276,O00276,71,2,15,2026-06-12,6,642.94,Completado,App
-277,O00277,14,4,4,2026-06-26,1,261.31,Observado,Presencial
-278,O00278,53,2,2,2026-01-08,5,355.23,Completado,Call Center
-279,O00279,21,5,8,2026-03-26,5,1474.54,Completado,Call Center
-280,O00280,51,5,2,2026-02-15,5,340.41,Completado,Presencial
-281,O00281,80,2,5,2026-03-27,2,637.84,Completado,Web
-282,O00282,39,2,11,2026-01-18,2,491.6,Completado,Web
-283,O00283,39,1,4,2026-02-08,5,1252.96,Completado,Call Center
-284,O00284,29,5,12,2026-05-03,1,291.33,Observado,Web
-285,O00285,8,5,4,2026-06-11,2,488.44,Observado,Web
-286,O00286,67,4,7,2026-01-09,3,864.79,Completado,Web
-287,O00287,44,2,4,2026-04-30,1,232.59,Completado,Web
-288,O00288,75,4,2,2026-01-19,5,339.11,Completado,Call Center
-289,O00289,53,5,14,2026-01-30,4,134.69,Completado,Call Center
-290,O00290,6,3,12,2026-02-22,5,1837.18,Observado,Web
-291,O00291,68,3,3,2026-04-25,3,180.31,Completado,App
-292,O00292,42,2,8,2026-05-24,6,2031.01,Completado,Call Center
-293,O00293,30,3,9,2026-06-30,5,275.57,Completado,Presencial
-294,O00294,9,2,8,2026-04-17,4,1382.49,Completado,App
-295,O00295,77,1,1,2026-03-20,6,1665.55,Completado,Web
-296,O00296,54,5,1,2026-05-15,4,1407.07,Completado,Presencial
-297,O00297,6,5,9,2026-04-29,4,217.7,Observado,Call Center
-298,O00298,61,4,7,2026-02-22,2,648.18,Completado,App
-299,O00299,4,3,8,2026-02-17,6,1898.49,Pendiente,Presencial
-300,O00300,46,3,3,2026-01-11,6,475.55,Completado,Call Center
-301,O00301,79,3,6,2026-06-26,4,132.3,Completado,App
-302,O00302,52,2,10,2026-03-30,1,29.2,Completado,Web
-303,O00303,44,2,12,2026-06-24,5,1916.07,Pendiente,Web
-304,O00304,73,1,12,2026-02-18,2,784.63,Observado,App
-305,O00305,12,2,9,2026-01-16,5,279.26,Completado,Call Center
-306,O00306,38,5,13,2026-06-16,6,495.89,Completado,App
-307,O00307,1,1,10,2026-02-07,4,99.19,Observado,Presencial
-308,O00308,80,6,4,2026-01-01,6,1842.37,Completado,App
-309,O00309,75,3,5,2026-03-07,6,1756.86,Observado,Call Center
-310,O00310,52,3,2,2026-06-08,5,334.34,Completado,Call Center
-311,O00311,43,2,15,2026-06-11,1,128.17,Cancelado,Web
-312,O00312,37,6,1,2026-05-21,5,1374.29,Completado,Call Center
-313,O00313,35,1,9,2026-06-21,6,413.42,Cancelado,Presencial
-314,O00314,6,3,6,2026-04-28,5,146.14,Completado,Web
-315,O00315,29,1,9,2026-04-26,5,310.28,Cancelado,App
-316,O00316,19,3,6,2026-04-30,3,70.94,Completado,Call Center
-317,O00317,54,5,11,2026-03-09,3,778.16,Completado,Web
-318,O00318,40,1,13,2026-03-09,2,132.24,Observado,Presencial
-319,O00319,76,5,11,2026-06-04,6,1290.93,Completado,Web
-320,O00320,59,2,11,2026-01-02,6,1104.38,Observado,Presencial
-321,O00321,27,6,12,2026-05-14,4,1514.94,Completado,Presencial
-322,O00322,33,2,11,2026-06-29,1,196.5,Completado,Web
-323,O00323,43,5,1,2026-01-19,4,1224.88,Completado,Call Center
-324,O00324,75,5,2,2026-06-05,3,156.09,Completado,App
-325,O00325,61,1,5,2026-04-19,5,2075.5,Completado,Presencial
-326,O00326,80,6,13,2026-03-08,6,410.34,Completado,App
-327,O00327,77,5,4,2026-01-01,2,622.82,Observado,Web
-328,O00328,35,4,11,2026-05-25,5,1287.56,Observado,Presencial
-329,O00329,15,5,2,2026-06-03,3,164.83,Observado,Call Center
-330,O00330,46,1,1,2026-02-10,1,292.09,Observado,Presencial
-331,O00331,44,4,9,2026-05-07,3,199.49,Observado,Call Center
-332,O00332,32,2,9,2026-03-21,3,168.72,Completado,Presencial
-333,O00333,9,3,15,2026-02-03,4,500.22,Completado,Call Center
-334,O00334,31,3,8,2026-02-27,6,1684.14,Completado,App
-335,O00335,36,2,2,2026-01-10,4,241.73,Pendiente,Web
-336,O00336,36,2,3,2026-05-05,6,379.26,Completado,Call Center
-337,O00337,57,3,15,2026-01-12,4,575.9,Completado,Call Center
-338,O00338,51,3,6,2026-05-05,4,108.65,Completado,Presencial
-339,O00339,48,6,15,2026-06-17,3,426.67,Completado,Call Center
-340,O00340,36,6,12,2026-04-24,4,1435.31,Completado,Call Center
-341,O00341,64,2,3,2026-02-13,2,156.28,Completado,Web
-342,O00342,7,6,3,2026-02-01,3,181.51,Observado,Presencial
-343,O00343,25,4,10,2026-01-01,1,29.42,Completado,App
-344,O00344,50,4,10,2026-05-13,5,121.81,Observado,App
-345,O00345,21,4,15,2026-02-02,5,580.19,Completado,Call Center
-346,O00346,37,2,11,2026-04-08,3,733.93,Observado,App
-347,O00347,46,5,7,2026-04-22,3,743.87,Completado,Web
-348,O00348,49,1,8,2026-04-06,5,1346.11,Pendiente,App
-349,O00349,28,6,4,2026-01-14,6,1562.87,Completado,App
-350,O00350,70,4,7,2026-01-24,5,1225.46,Completado,Presencial
-351,O00351,65,1,14,2026-01-02,3,97.49,Completado,Call Center
-352,O00352,65,1,1,2026-03-03,3,1065.4,Completado,Web
-353,O00353,74,3,9,2026-02-22,1,57.19,Completado,App
-354,O00354,80,5,13,2026-01-04,6,472.51,Completado,Presencial
-355,O00355,75,6,12,2026-04-08,4,1383.85,Completado,Web
-356,O00356,26,1,3,2026-04-04,1,69.46,Cancelado,Presencial
-357,O00357,10,4,1,2026-01-05,2,732.22,Completado,Web
-358,O00358,59,3,15,2026-01-04,6,848.72,Completado,Presencial
-359,O00359,76,4,9,2026-04-14,3,184.04,Completado,Presencial
-360,O00360,76,5,13,2026-05-26,2,172.41,Completado,App
-361,O00361,8,4,14,2026-05-19,2,66.44,Completado,Presencial
-362,O00362,31,3,14,2026-06-30,2,60.26,Completado,Web
-363,O00363,62,4,15,2026-03-03,4,535.14,Completado,Presencial
-364,O00364,77,4,3,2026-05-30,1,80.25,Completado,Call Center
-365,O00365,77,1,13,2026-04-03,1,78.7,Pendiente,App
-366,O00366,28,3,8,2026-04-09,5,1665.5,Completado,Web
-367,O00367,20,1,6,2026-03-16,4,104.4,Completado,Presencial
-368,O00368,61,1,5,2026-03-18,3,1220.62,Completado,Web
-369,O00369,79,1,3,2026-06-05,1,59.33,Completado,Call Center
-370,O00370,58,3,4,2026-06-21,3,880.53,Completado,Presencial
-371,O00371,20,2,15,2026-03-07,2,273.05,Completado,Presencial
-372,O00372,66,1,10,2026-02-11,1,26.91,Completado,Web
-373,O00373,80,2,10,2026-06-19,5,132.59,Completado,Presencial
-374,O00374,77,4,13,2026-03-29,2,140.25,Cancelado,Call Center
-375,O00375,45,2,13,2026-06-28,2,179.74,Completado,Call Center
-376,O00376,53,4,7,2026-04-14,5,1524.96,Completado,App
-377,O00377,70,1,4,2026-04-05,2,638.95,Completado,App
-378,O00378,18,3,15,2026-01-28,5,569.98,Completado,App
-379,O00379,4,4,1,2026-06-23,6,1771.89,Completado,Call Center
-380,O00380,22,5,3,2026-05-24,5,416.56,Observado,Call Center
-381,O00381,25,6,3,2026-02-23,1,73.63,Completado,App
-382,O00382,80,6,8,2026-06-09,2,558.76,Completado,Presencial
-383,O00383,46,4,3,2026-02-08,6,403.45,Observado,Web
-384,O00384,11,2,11,2026-04-08,2,370.66,Completado,Call Center
-385,O00385,1,4,9,2026-02-05,4,264.74,Completado,Web
-386,O00386,17,5,6,2026-05-08,3,80.08,Completado,Call Center
-387,O00387,28,3,9,2026-04-20,5,290.8,Completado,Call Center
-388,O00388,2,1,1,2026-03-17,6,2170.52,Cancelado,Presencial
-389,O00389,42,3,9,2026-06-14,1,59.5,Completado,Presencial
-390,O00390,49,5,14,2026-01-22,2,56.05,Completado,Call Center
-391,O00391,21,3,9,2026-06-27,2,101.67,Completado,Web
-392,O00392,5,5,12,2026-02-19,2,785.02,Completado,App
-393,O00393,25,6,4,2026-06-05,1,228.61,Observado,Presencial
-394,O00394,70,6,6,2026-06-19,5,163.65,Completado,Web
-395,O00395,12,3,4,2026-03-05,3,726.08,Pendiente,Presencial
-396,O00396,26,1,1,2026-04-29,5,1378.44,Pendiente,Web
-397,O00397,54,1,8,2026-04-28,6,2009.05,Completado,Presencial
-398,O00398,34,3,8,2026-02-15,3,776.99,Completado,Web
-399,O00399,73,6,3,2026-02-22,2,135.58,Cancelado,Web
-400,O00400,61,6,7,2026-06-26,6,1917.25,Completado,Call Center
-401,O00401,74,4,13,2026-03-10,2,171.63,Completado,Web
-402,O00402,2,3,10,2026-05-24,4,124.36,Completado,App
-403,O00403,13,2,11,2026-02-11,2,383.31,Completado,Call Center
-404,O00404,19,2,10,2026-02-22,5,132.16,Completado,Call Center
-405,O00405,8,3,1,2026-04-21,4,1538.82,Pendiente,App
-406,O00406,33,5,8,2026-06-05,4,1365.98,Completado,Web
-407,O00407,69,5,4,2026-03-18,4,897.36,Completado,App
-408,O00408,4,6,14,2026-04-25,5,148.48,Completado,Presencial
-409,O00409,52,5,2,2026-03-08,6,297.01,Completado,Presencial
-410,O00410,63,3,15,2026-03-29,1,124.53,Completado,Call Center
-411,O00411,13,6,10,2026-03-11,4,120.72,Cancelado,Presencial
-412,O00412,73,3,2,2026-05-08,2,135.22,Pendiente,Call Center
-413,O00413,47,4,9,2026-02-08,6,357.28,Completado,Web
-414,O00414,48,4,1,2026-06-13,2,609.52,Completado,Presencial
-415,O00415,40,4,9,2026-02-08,4,202.51,Observado,Call Center
-416,O00416,20,5,4,2026-01-23,1,285.99,Cancelado,App
-417,O00417,19,5,4,2026-04-23,3,664.65,Completado,App
-418,O00418,48,6,11,2026-04-05,3,719.17,Completado,Presencial
-419,O00419,19,6,13,2026-06-27,4,308.2,Completado,App
-420,O00420,56,6,6,2026-04-11,4,111.6,Completado,App
-421,O00421,46,5,1,2026-02-20,3,1140.35,Completado,Web
-422,O00422,60,1,5,2026-01-27,3,1047.66,Completado,App
-423,O00423,61,1,8,2026-01-04,4,1328.01,Cancelado,Web
-424,O00424,42,5,9,2026-02-27,6,420.81,Completado,Web
-425,O00425,69,3,6,2026-03-01,5,155.45,Completado,App
-426,O00426,78,4,2,2026-04-14,1,55.17,Completado,Web
-427,O00427,38,5,2,2026-02-21,2,116.43,Completado,App
-428,O00428,39,4,6,2026-05-04,5,130.48,Completado,Call Center
-429,O00429,4,5,11,2026-05-26,5,1124.28,Completado,Presencial
-430,O00430,36,5,14,2026-01-21,3,99.92,Completado,Call Center
-431,O00431,29,6,14,2026-02-18,6,217.17,Pendiente,Call Center
-432,O00432,76,1,11,2026-06-21,3,659.2,Observado,Presencial
-433,O00433,25,5,14,2026-06-09,2,64.05,Completado,Call Center
-434,O00434,24,1,6,2026-04-13,2,64.67,Observado,Web
-435,O00435,56,3,1,2026-06-16,1,365.72,Completado,Call Center
-436,O00436,18,2,10,2026-02-08,2,57.56,Completado,Call Center
-437,O00437,13,2,11,2026-05-01,1,245.5,Observado,Web
-438,O00438,30,2,4,2026-06-07,3,806.68,Observado,App
-439,O00439,63,2,3,2026-01-03,1,73.13,Pendiente,App
-440,O00440,24,2,6,2026-02-21,4,108.1,Completado,Call Center
-441,O00441,21,5,2,2026-05-21,3,203.41,Observado,Web
-442,O00442,29,1,15,2026-02-12,2,247.18,Completado,Presencial
-443,O00443,57,6,10,2026-01-24,3,78.06,Completado,Web
-444,O00444,8,5,13,2026-04-18,4,292.29,Completado,App
-445,O00445,65,6,1,2026-03-30,6,1765.77,Completado,Presencial
-446,O00446,64,4,14,2026-06-19,1,32.65,Completado,Presencial
-447,O00447,16,2,10,2026-01-28,5,152.05,Completado,App
-448,O00448,44,2,2,2026-06-23,3,160.36,Completado,Web
-449,O00449,60,3,1,2026-03-17,4,1092.24,Completado,Web
-450,O00450,56,6,12,2026-03-20,2,756.49,Observado,App
-451,O00451,16,4,6,2026-01-05,2,59.4,Completado,Call Center
-452,O00452,77,4,14,2026-05-03,4,126.78,Observado,Presencial
-453,O00453,80,6,13,2026-03-28,1,75.03,Completado,Call Center
-454,O00454,35,3,15,2026-05-24,5,685.62,Completado,Presencial
-455,O00455,26,3,4,2026-01-18,1,240.32,Completado,Call Center
-456,O00456,12,1,4,2026-04-04,2,521.02,Pendiente,Call Center
-457,O00457,46,6,15,2026-05-23,4,422.09,Completado,Presencial
-458,O00458,3,3,2,2026-04-08,5,325.73,Completado,Presencial
-459,O00459,69,2,7,2026-01-26,6,1930.08,Completado,Web
-460,O00460,19,3,5,2026-03-19,6,2048.35,Completado,Presencial
-461,O00461,20,2,8,2026-01-20,4,1312.22,Completado,Presencial
-462,O00462,35,3,1,2026-01-11,3,990.58,Completado,App
-463,O00463,53,2,1,2026-03-27,4,1191.81,Cancelado,Web
-464,O00464,5,2,12,2026-05-12,6,2168.68,Completado,Web
-465,O00465,18,4,15,2026-02-12,1,107.46,Completado,Presencial
-466,O00466,63,5,5,2026-01-12,1,368.8,Cancelado,Presencial
-467,O00467,55,4,11,2026-03-31,1,230.26,Completado,Call Center
-468,O00468,43,2,7,2026-04-25,1,265.25,Observado,Presencial
-469,O00469,67,4,9,2026-05-02,3,177.51,Completado,Presencial
-470,O00470,34,1,14,2026-05-30,4,140.63,Completado,Presencial
-471,O00471,26,2,12,2026-04-04,2,577.32,Completado,Call Center
-472,O00472,74,1,11,2026-02-23,4,884.33,Completado,App
-473,O00473,73,2,7,2026-05-07,3,961.54,Observado,Presencial
-474,O00474,79,5,3,2026-01-28,3,208.79,Completado,Presencial
-475,O00475,24,5,2,2026-03-21,4,201.4,Completado,App
-476,O00476,44,4,2,2026-05-07,6,386.81,Completado,App
-477,O00477,17,1,2,2026-01-20,5,319.25,Completado,Call Center
-478,O00478,50,2,3,2026-03-12,2,118.69,Completado,Web
-479,O00479,21,6,1,2026-02-01,2,538.94,Completado,Web
-480,O00480,37,3,11,2026-04-22,5,936.05,Observado,Presencial
-481,O00481,43,4,10,2026-05-03,5,154.13,Completado,Web
-482,O00482,52,2,4,2026-03-31,5,1190.18,Completado,App
-483,O00483,34,1,4,2026-06-19,1,237.85,Completado,Call Center
-484,O00484,69,2,13,2026-04-19,4,365.14,Completado,Presencial
-485,O00485,41,1,6,2026-03-25,4,123.97,Completado,Web
-486,O00486,34,2,9,2026-05-15,1,52.96,Completado,Call Center
-487,O00487,16,3,12,2026-05-11,5,1846.66,Completado,Call Center
-488,O00488,9,6,5,2026-04-12,1,308.63,Observado,Presencial
-489,O00489,33,3,8,2026-01-03,4,1244.11,Completado,App
-490,O00490,49,6,10,2026-03-20,4,108.01,Cancelado,Web
-491,O00491,48,4,3,2026-05-31,5,398.81,Observado,Call Center
-492,O00492,38,3,9,2026-06-19,1,56.1,Completado,Call Center
-493,O00493,11,6,6,2026-03-21,6,170.11,Observado,Presencial
-494,O00494,13,1,4,2026-06-25,6,1554.99,Completado,App
-495,O00495,26,6,6,2026-01-08,6,186.65,Completado,Call Center
-496,O00496,2,3,7,2026-01-20,2,648.04,Completado,App
-497,O00497,58,6,2,2026-05-07,3,163.08,Completado,Web
-498,O00498,50,4,14,2026-06-20,2,55.27,Completado,Web
-499,O00499,20,2,11,2026-06-22,2,358.48,Pendiente,Call Center
-500,O00500,31,6,10,2026-02-16,1,27.97,Completado,Web
+id_operacion,codigo_operacion,id_cliente,id_sede,id_empleado,fecha_operacion,canal,estado,monto_total
+1,O00001,109,3,36,2026-04-23,Mostrador,Completado,294.30
+2,O00002,8,5,35,2026-02-23,Auto rápido,Cancelado,325.60
+3,O00003,77,1,25,2026-06-22,App FastFood Norte,Cancelado,95.40
+4,O00004,60,1,34,2026-01-01,Delivery,Completado,288.40
+5,O00005,112,5,36,2026-02-11,Mostrador,Pendiente,3046.09
+6,O00006,151,5,10,10/05/2026,Auto rápido,Completado,155.80
+7,O00007,149,6,12,2026-02-14,App FastFood Norte,Observado,321.00
+8,O00008,173,2,24,2026-01-17,Delivery,Completado,411.60
+9,O00009,135,5,24,2026-02-14,Mostrador,Completado,288.00
+10,O00010,107,1,20,2026-01-12,Auto rápido,Pendiente,123.40
+11,O00011,160,1,7,2026-06-18,App FastFood Norte,Observado,99.80
+12,O00012,189,1,37,07/02/2026,Delivery,Completado,218.50
+13,O00013,164,3,21,2026-04-16,Mostrador,Completado,84.00
+14,O00014,150,1,31,2026-01-18,Auto rápido,Pendiente,36.60
+15,O00015,131,2,37,2026-03-01,App FastFood Norte,Completado,197.40
+16,O00016,177,1,23,2026-05-26,Delivery,Observado,596.60
+17,O00017,108,5,12,2026-04-19,Mostrador,Pendiente,266.40
+18,O00018,70,3,16,2026-01-09,Auto rápido,Completado,61.80
+19,O00019,44,6,34,2026-03-21,App FastFood Norte,Completado,49.90
+20,O00020,59,1,11,2026-05-02,Delivery,Pendiente,48.30
+21,O00021,181,4,2,2026-02-06,Mostrador,Pendiente,131.10
+22,O00022,197,2,35,2026-05-12,Auto rápido,Pendiente,39.60
+23,O00023,147,6,21,2026-02-09,App FastFood Norte,Pendiente,425.20
+24,O00024,28,4,8,2026-02-28,Delivery,Observado,208.40
+25,O00025,126,4,23,2026-04-21,Mostrador,Completado,94.50
+26,O00026,117,4,17,17/01/2026,Auto rápido,Completado,189.60
+27,O00027,40,6,5,2026-01-03,App FastFood Norte,Completado,118.60
+28,O00028,42,3,15,2026-01-19,Delivery,Observado,206.70
+29,O00029,184,1,6,2026-02-21,Mostrador,Completado,49.50
+30,O00030,185,1,34,2026-06-17,Auto rápido,Completado,246.80
+31,O00031,162,4,33,2026-02-11,App FastFood Norte,Pendiente,404.60
+32,O00032,170,4,29,2026-06-01,Delivery,Pendiente,95.40
+33,O00033,78,5,14,2026-01-01,Mostrador,Observado,25.80
+34,O00034,55,4,11,2026-06-09,Auto rápido,Completado,292.30
+35,O00035,85,1,21,20/04/2026,App FastFood Norte,Observado,256.70
+36,O00036,164,3,1,2026-01-21,Delivery,Completado,30.50
+37,O00037,54,5,,2026-06-16,Mostrador,Completado,94.50
+38,O00038,114,3,,2026-03-10,Auto rápido,Pendiente,308.40
+39,O00039,158,2,2,2026-01-08,App FastFood Norte,Completado,155.20
+40,O00040,194,4,27,2026-06-13,Delivery,Completado,99.60
+41,O00041,69,5,14,18/01/2026,Mostrador,Completado,63.60
+42,O00042,72,5,25,2026-01-20,Auto rápido,Completado,335.40
+43,O00043,169,4,30,2026-04-26,App FastFood Norte,Completado,-300.05
+44,O00044,175,6,15,2026-02-27,Delivery,Completado,64.50
+45,O00045,174,2,17,2026-05-10,Mostrador,Cancelado,173.10
+46,O00046,39,1,6,2026-01-16,Auto rápido,Cancelado,24.50
+47,O00047,192,5,28,2026-05-18,App FastFood Norte,Completado,230.10
+48,O00048,110,1,32,2026-01-10,Delivery,Observado,305.40
+49,O00049,74,6,36,2026-04-08,Mostrador,Cancelado,279.30
+50,O00050,48,4,8,2026-03-02,Auto rápido,Pendiente,124.50
+51,O00051,58,6,13,2026-05-03,App FastFood Norte,Completado,669.20
+52,O00052,175,6,8,2026-02-08,Delivery,Pendiente,137.40
+53,O00053,176,5,31,2026-06-24,Mostrador,Completado,186.90
+54,O00054,50,3,2,2026-06-06,Auto rápido,Pendiente,297.20
+55,O00055,133,3,32,2026-04-23,App FastFood Norte,Pendiente,257.30
+56,O00056,141,4,23,08/06/2026,Delivery,Completado,250.50
+57,O00057,116,4,5,2026-06-04,Mostrador,Completado,808.36
+58,O00058,92,6,34,2026-04-03,Auto rápido,Completado,74.70
+59,O00059,41,2,18,03/01/2026,App FastFood Norte,Completado,269.90
+60,O00060,112,1,14,2026-05-12,Delivery,Completado,113.50
+61,O00061,4,2,26,2026-06-19,Mostrador,Cancelado,21.00
+62,O00062,137,1,8,2026-02-07,Auto rápido,Completado,88.30
+63,O00063,30,1,28,17/05/2026,App FastFood Norte,Pendiente,133.90
+64,O00064,107,5,10,2026-04-17,Delivery,Cancelado,389.20
+65,O00065,184,6,26,2026-01-18,Mostrador,Completado,109.50
+66,O00066,3,5,21,2026-01-19,Auto rápido,Completado,164.70
+67,O00067,147,1,,2026-01-13,App FastFood Norte,Completado,74.30
+68,O00068,78,4,18,2026-01-24,Delivery,Completado,422.70
+69,O00069,9273,3,9,2026-01-01,Mostrador,Cancelado,240.90
+70,O00070,72,6,35,2026-06-27,Auto rápido,Cancelado,42.50
+71,O00071,147,5,30,08/05/2026,App FastFood Norte,Pendiente,125.40
+72,O00072,188,5,4,2026-06-25,Delivery,Observado,197.40
+73,O00073,119,3,27,2026-01-05,Mostrador,Observado,222.60
+74,O00074,138,4,15,05/05/2026,Auto rápido,Completado,160.20
+75,O00075,124,5,19,2026-05-06,App FastFood Norte,Pendiente,79.50
+76,O00076,82,3,31,2026-04-26,Delivery,Cancelado,3290.16
+77,O00077,181,2,8,12/02/2026,Mostrador,Completado,147.30
+78,O00078,154,5,33,2026-04-28,Auto rápido,Observado,216.80
+79,O00079,90,4,17,2026-06-19,App FastFood Norte,Completado,150.00
+80,O00080,191,3,19,2026-05-05,Delivery,Pendiente,37.50
+81,O00081,155,5,32,2026-06-12,Mostrador,Pendiente,200.20
+82,O00082,196,3,3,2026-04-09,Auto rápido,Completado,401.90
+83,O00083,120,2,1,2026-03-26,App FastFood Norte,Completado,59.60
+84,O00084,131,4,35,2026-02-22,Delivery,Pendiente,197.40
+85,O00085,184,5,32,2026-03-16,Mostrador,Completado,1776.38
+86,O00086,6,1,7,2026-06-19,Auto rápido,Completado,299.40
+87,O00087,128,5,39,2026-05-18,App FastFood Norte,Completado,52.60
+88,O00088,160,5,15,2026-01-16,Delivery,Completado,4220.89
+89,O00089,124,1,40,2026-04-17,Mostrador,Cancelado,256.70
+90,O00090,17,3,17,2026-03-22,Auto rápido,Pendiente,4250.59
+91,O00091,192,6,5,2026-04-20,App FastFood Norte,Completado,74.70
+92,O00092,172,1,19,2026-02-17,Delivery,Completado,131.10
+93,O00093,86,5,38,2026-05-24,Mostrador,Completado,380.00
+94,O00094,188,6,27,2026-02-01,Auto rápido,Completado,75.60
+95,O00095,138,2,15,2026-01-01,App FastFood Norte,Cancelado,343.80
+96,O00096,196,2,39,2026-01-06,Delivery,Completado,444.20
+97,O00097,4,2,38,2026-04-23,Mostrador,Completado,410.70
+98,O00098,109,1,7,2026-02-18,Auto rápido,Observado,75.60
+99,O00099,197,1,29,16/03/2026,App FastFood Norte,Completado,194.70
+100,O00100,99,1,3,2026-03-20,Delivery,Completado,86.20
+101,O00101,87,2,25,2026-03-14,Mostrador,Completado,341.50
+102,O00102,171,1,14,2026-03-11,Auto rápido,Pendiente,242.80
+103,O00103,4,3,27,2026-04-28,App FastFood Norte,Completado,4308.67
+104,O00104,183,2,21,2026-02-27,Delivery,Completado,220.00
+105,O00105,48,1,11,2026-01-18,Mostrador,Completado,341.70
+106,O00106,90,5,16,2026-06-27,Auto rápido,Completado,1171.3
+107,O00107,107,1,2,2026-02-06,App FastFood Norte,Completado,9.90
+108,O00108,47,4,25,2026-03-18,Delivery,Completado,405.50
+109,O00109,91,1,7,2026-04-27,Mostrador,Pendiente,181.90
+110,O00110,187,4,16,2026-04-15,Auto rápido,Completado,330.10
+111,O00111,138,1,10,2026-05-16,App FastFood Norte,Pendiente,149.40
+112,O00112,9,1,17,2026-05-27,Delivery,Observado,3321.97
+113,O00113,28,5,35,2026-03-28,Mostrador,Pendiente,24.50
+114,O00114,141,5,35,2026-06-21,Auto rápido,Completado,290.10
+115,O00115,90,6,15,2026-04-27,App FastFood Norte,Completado,114.20
+116,O00116,70,5,34,2026-01-08,Delivery,Completado,10.50
+117,O00117,41,1,31,2026-05-20,Mostrador,Completado,205.10
+118,O00118,129,4,33,2026-01-09,Auto rápido,Pendiente,17.80
+119,O00119,24,2,12,2026-05-07,App FastFood Norte,Completado,20.10
+120,O00120,113,3,3,2026-05-19,Delivery,Pendiente,93.90
+121,O00121,18,2,3,2026-01-07,Mostrador,Completado,451.60
+122,O00122,128,3,3,2026-03-22,Auto rápido,Completado,24.20
+123,O00123,43,6,11,2026-04-19,App FastFood Norte,Completado,7.80
+124,O00124,180,6,24,21/01/2026,Delivery,Completado,388.53
+125,O00125,27,3,13,2026-04-01,Mostrador,Observado,90.90
+126,O00126,41,5,14,2026-03-04,Auto rápido,Completado,179.90
+127,O00127,132,2,27,2026-05-12,App FastFood Norte,Cancelado,375.30
+128,O00128,138,3,7,2026-03-05,Delivery,Completado,152.50
+129,O00129,125,3,4,2026-05-06,Mostrador,Pendiente,20.10
+130,O00130,75,1,32,2026-05-24,Auto rápido,Completado,391.10
+131,O00131,6,1,34,2026-01-26,App FastFood Norte,Completado,164.20
+132,O00132,76,3,25,2026-04-24,Delivery,Completado,81.10
+133,O00133,190,2,15,2026-05-06,Mostrador,Completado,150.60
+134,O00134,12,6,26,2026-05-09,Auto rápido,Completado,36.30
+135,O00135,30,3,2,2026-05-22,App FastFood Norte,Completado,76.20
+136,O00136,157,2,22,2026-04-22,Delivery,Pendiente,38.70
+137,O00137,139,4,23,2026-01-03,Mostrador,Completado,31.50
+138,O00138,48,2,29,2026-05-14,Auto rápido,Completado,52.40
+139,O00139,166,5,20,2026-03-04,App FastFood Norte,Completado,88.50
+140,O00140,14,4,21,2026-05-22,Delivery,Completado,57.80
+141,O00141,40,3,32,2026-02-05,Mostrador,Completado,341.50
+142,O00142,131,4,19,2026-01-06,Auto rápido,Observado,116.90
+143,O00143,100,5,26,2026-03-05,App FastFood Norte,Completado,75.50
+144,O00144,14,3,39,2026-03-24,Delivery,Completado,41.80
+145,O00145,169,3,19,02/05/2026,Mostrador,Completado,126.30
+146,O00146,193,6,19,2026-01-09,Auto rápido,Completado,125.50
+147,O00147,194,4,29,2026-05-25,App FastFood Norte,Pendiente,107.90
+148,O00148,24,3,17,2026-02-20,Delivery,Cancelado,135.00
+149,O00149,32,5,33,2026-01-21,Mostrador,Completado,143.00
+150,O00150,148,6,37,2026-02-06,Auto rápido,Pendiente,94.50
+151,O00151,95,6,11,2026-04-21,App FastFood Norte,Completado,405.20
+152,O00152,138,2,22,2026-03-13,Delivery,Pendiente,174.80
+153,O00153,129,3,33,2026-03-14,Mostrador,Cancelado,102.30
+154,O00154,35,1,10,2026-01-16,Auto rápido,Completado,150.00
+155,O00155,128,2,31,2026-05-27,App FastFood Norte,Pendiente,176.80
+156,O00156,20,4,18,2026-06-10,Delivery,Pendiente,8.30
+157,O00157,183,1,15,2026-06-25,Mostrador,Completado,203.90
+158,O00158,78,3,16,25/01/2026,Auto rápido,Completado,130.20
+159,O00159,118,6,31,2026-04-06,App FastFood Norte,Completado,331.80
+160,O00160,175,5,13,2026-06-14,Delivery,Completado,18.90
+161,O00161,191,5,21,2026-05-27,Mostrador,Completado,131.60
+162,O00162,9765,6,37,2026-05-18,Auto rápido,Completado,286.80
+163,O00163,40,6,18,2026-03-17,App FastFood Norte,Completado,56.90
+164,O00164,91,3,30,2026-04-01,Delivery,Completado,300.00
+165,O00165,110,2,15,2026-03-19,Mostrador,Completado,56.40
+166,O00166,47,6,17,2026-02-21,Auto rápido,Completado,57.60
+167,O00167,130,3,3,2026-05-15,App FastFood Norte,Completado,269.00
+168,O00168,150,4,33,2026-06-05,Delivery,Completado,172.40
+169,O00169,91,3,8,2026-01-28,Mostrador,Completado,240.70
+170,O00170,86,5,5,2026-06-18,Auto rápido,Cancelado,117.20
+171,O00171,197,2,16,2026-05-16,App FastFood Norte,Pendiente,509.00
+172,O00172,127,3,13,2026-04-12,Delivery,Completado,237.80
+173,O00173,95,6,1,2026-06-25,Mostrador,Cancelado,42.50
+174,O00174,116,2,17,2026-01-10,Auto rápido,Completado,104.50
+175,O00175,52,5,27,15/02/2026,App FastFood Norte,Pendiente,148.10
+176,O00176,75,4,21,2026-05-16,Delivery,Completado,323.60
+177,O00177,192,6,7,2026-04-14,Mostrador,Completado,467.90
+178,O00178,133,5,17,2026-03-24,Auto rápido,Pendiente,302.60
+179,O00179,28,6,7,2026-04-12,App FastFood Norte,Cancelado,64.50
+180,O00180,99,6,2,2026-04-21,Delivery,Completado,142.70
+181,O00181,65,3,29,2026-02-09,Mostrador,Pendiente,300.00
+182,O00182,60,5,34,2026-04-21,Auto rápido,Completado,124.50
+183,O00183,72,6,34,2026-01-06,App FastFood Norte,Completado,86.70
+184,O00184,44,4,32,2026-03-02,Delivery,Completado,10.50
+185,O00185,93,4,16,2026-05-17,Mostrador,Pendiente,317.90
+186,O00186,18,3,8,15/03/2026,Auto rápido,Completado,369.00
+187,O00187,18,6,31,2026-05-17,App FastFood Norte,Cancelado,165.7
+188,O00188,17,5,2,2026-01-16,Delivery,Completado,38.10
+189,O00189,195,1,23,2026-03-17,Mostrador,Completado,28.90
+190,O00190,110,2,19,2026-05-06,Auto rápido,Completado,240.80
+191,O00191,34,4,4,2026-02-24,App FastFood Norte,Cancelado,229.80
+192,O00192,7,2,13,2026-01-13,Delivery,Completado,12.70
+193,O00193,200,6,27,2026-04-16,Mostrador,Completado,126.80
+194,O00194,32,6,33,2026-03-24,Auto rápido,Completado,514.90
+195,O00195,49,6,35,2026-01-12,App FastFood Norte,Completado,24.90
+196,O00196,155,5,33,2026-06-13,Delivery,Completado,112.50
+197,O00197,151,3,31,2026-02-17,Mostrador,Pendiente,115.20
+198,O00198,29,5,21,2026-05-28,Auto rápido,Completado,263.80
+199,O00199,13,1,19,2026-02-10,App FastFood Norte,Completado,184.60
+200,O00200,20,5,8,2026-06-12,Delivery,Pendiente,209.70
+201,O00201,77,5,1,2026-02-17,Mostrador,Completado,173.80
+202,O00202,162,5,16,2026-02-06,Auto rápido,Completado,13.40
+203,O00203,91,3,10,2026-02-27,App FastFood Norte,Completado,165.70
+204,O00204,125,6,8,2026-01-19,Delivery,Pendiente,61.60
+205,O00205,12,4,25,2026-03-18,Mostrador,Pendiente,50.70
+206,O00206,44,1,36,2026-05-19,Auto rápido,Completado,99.80
+207,O00207,49,2,2,2026-02-20,App FastFood Norte,Completado,230.20
+208,O00208,86,1,24,2026-03-22,Delivery,Completado,71.40
+209,O00209,110,5,25,2026-03-19,Mostrador,Completado,47.70
+210,O00210,149,5,4,2026-04-23,Auto rápido,Pendiente,419.90
+211,O00211,142,6,39,2026-01-24,App FastFood Norte,Cancelado,29.40
+212,O00212,41,2,32,2026-01-03,Delivery,Observado,448.40
+213,O00213,87,3,29,2026-01-09,Mostrador,Pendiente,107.10
+214,O00214,34,5,20,2026-05-11,Auto rápido,Completado,398.60
+215,O00215,171,2,13,2026-05-18,App FastFood Norte,Cancelado,9.90
+216,O00216,196,1,37,2026-05-18,Delivery,Completado,277.10
+217,O00217,145,2,15,2026-06-23,Mostrador,Completado,59.40
+218,O00218,97,2,26,2026-01-06,Auto rápido,Completado,277.90
+219,O00219,110,5,35,2026-06-14,App FastFood Norte,Completado,288.20
+220,O00220,46,1,2,2026-01-19,Delivery,Completado,478.50
+221,O00221,150,3,23,2026-03-06,Mostrador,Cancelado,54.70
+222,O00222,43,2,30,2026-05-15,Auto rápido,Cancelado,436.50
+223,O00223,56,3,8,2026-01-06,App FastFood Norte,Completado,76.60
+224,O00224,25,6,24,2026-05-19,Delivery,Completado,101.30
+225,O00225,30,5,4,12/04/2026,Mostrador,Completado,125.40
+226,O00226,14,3,19,17/04/2026,Auto rápido,Completado,199.60
+227,O00227,46,3,30,2026-01-05,App FastFood Norte,Completado,23.00
+228,O00228,54,2,14,2026-06-18,Delivery,Completado,152.90
+229,O00229,130,5,15,2026-04-11,Mostrador,Completado,388.10
+230,O00230,146,5,30,2026-05-16,Auto rápido,Completado,293.90
+231,O00231,135,1,5,2026-04-15,App FastFood Norte,Completado,207.80
+232,O00232,177,1,24,2026-03-22,Delivery,Pendiente,283.00
+233,O00233,156,1,40,2026-05-02,Mostrador,Completado,240.30
+234,O00234,189,2,11,2026-06-08,Auto rápido,Pendiente,79.50
+235,O00235,127,3,1,2026-03-01,App FastFood Norte,Observado,370.90
+236,O00236,59,3,23,2026-05-21,Delivery,Completado,93.90
+237,O00237,184,2,17,2026-01-02,Mostrador,Completado,99.60
+238,O00238,181,4,10,2026-05-11,Auto rápido,Pendiente,186.60
+239,O00239,146,6,31,2026-04-25,App FastFood Norte,Completado,31.30
+240,O00240,87,1,,2026-03-17,Delivery,Completado,131.60
+241,O00241,118,2,33,2026-03-10,Mostrador,Completado,169.20
+242,O00242,120,5,23,2026-03-18,Auto rápido,Completado,24.90
+243,O00243,167,6,26,23/04/2026,App FastFood Norte,Completado,379.50
+244,O00244,22,4,24,2026-03-14,Delivery,Completado,75.70
+245,O00245,107,6,1,2026-04-11,Mostrador,Completado,134.00
+246,O00246,177,3,32,14/03/2026,Auto rápido,Completado,86.20
+247,O00247,96,2,23,2026-04-21,App FastFood Norte,Completado,311.00
+248,O00248,35,5,8,2026-04-19,Delivery,Completado,151.50
+249,O00249,85,6,13,03/02/2026,Mostrador,Pendiente,290.30
+250,O00250,113,4,4,2026-06-28,Auto rápido,Completado,222.40
+251,O00251,163,3,1,2026-05-19,App FastFood Norte,Completado,202.40
+252,O00252,57,2,36,2026-05-27,Delivery,Observado,228.60
+253,O00253,58,3,28,2026-02-18,Mostrador,Completado,248.10
+254,O00254,145,3,18,2026-03-04,Auto rápido,Completado,218.50
+255,O00255,6,2,36,2026-04-07,App FastFood Norte,Completado,249.60
+256,O00256,20,6,23,20/06/2026,Delivery,Cancelado,292.60
+257,O00257,171,5,1,2026-06-09,Mostrador,Completado,235.70
+258,O00258,112,3,1,2026-01-19,Auto rápido,Completado,468.40
+259,O00259,184,6,16,2026-05-21,App FastFood Norte,Cancelado,133.40
+260,O00260,59,2,24,2026-06-04,Delivery,Completado,76.70
+261,O00261,29,4,27,2026-06-18,Mostrador,Completado,234.40
+262,O00262,32,4,33,2026-06-21,Auto rápido,Completado,109.70
+263,O00263,129,4,38,2026-03-12,App FastFood Norte,Observado,170.80
+264,O00264,178,1,10,2026-03-20,Delivery,Pendiente,94.60
+265,O00265,109,6,16,2026-01-03,Mostrador,Cancelado,1458.12
+266,O00266,96,5,12,2026-04-21,Auto rápido,Pendiente,67.60
+267,O00267,112,3,22,2026-06-19,App FastFood Norte,Completado,3376.53
+268,O00268,77,5,38,2026-03-23,Delivery,Cancelado,221.80
+269,O00269,71,3,30,2026-03-07,Mostrador,Observado,75.60
+270,O00270,19,6,38,2026-05-12,Auto rápido,Cancelado,250.40
+271,O00271,139,1,14,2026-05-03,App FastFood Norte,Completado,167.00
+272,O00272,161,3,,2026-04-01,Delivery,Pendiente,102.30
+273,O00273,3,3,27,2026-04-03,Mostrador,Completado,44.70
+274,O00274,80,1,12,2026-03-24,Auto rápido,Completado,9.90
+275,O00275,21,4,32,2026-06-10,App FastFood Norte,Completado,33.50
+276,O00276,163,3,18,2026-04-04,Delivery,Cancelado,143.80
+277,O00277,114,4,21,2026-06-06,Mostrador,Completado,94.50
+278,O00278,122,4,6,2026-01-18,Auto rápido,Completado,25.40
+279,O00279,112,2,27,2026-01-24,App FastFood Norte,Observado,73.40
+280,O00280,57,3,23,2026-03-17,Delivery,Completado,3725.48
+281,O00281,172,5,16,2026-04-26,Mostrador,Pendiente,335.50
+282,O00282,48,1,21,2026-03-10,Auto rápido,Completado,283.40
+283,O00283,172,1,21,2026-01-12,App FastFood Norte,Completado,121.20
+284,O00284,179,2,36,01/04/2026,Delivery,Completado,3592.02
+285,O00285,85,1,26,2026-05-05,Mostrador,Completado,98.70
+286,O00286,136,3,21,2026-06-05,Auto rápido,Completado,94.50
+287,O00287,26,2,23,2026-01-28,App FastFood Norte,Pendiente,209.70
+288,O00288,126,3,13,2026-04-21,Delivery,Completado,312.90
+289,O00289,184,4,1,2026-06-09,Mostrador,Cancelado,56.30
+290,O00290,58,4,6,2026-06-16,Auto rápido,Completado,435.10
+291,O00291,199,5,32,2026-02-23,App FastFood Norte,Completado,18.90
+292,O00292,104,4,26,2026-01-17,Delivery,Completado,224.60
+293,O00293,8,5,8,2026-04-05,Mostrador,Completado,29.70
+294,O00294,9211,2,,2026-04-23,Auto rápido,Completado,156.10
+295,O00295,138,1,26,2026-06-12,App FastFood Norte,Completado,61.60
+296,O00296,189,3,27,20/02/2026,Delivery,Pendiente,75.30
+297,O00297,104,1,19,2026-02-01,Mostrador,Observado,58.60
+298,O00298,53,4,25,2026-03-07,Auto rápido,Pendiente,194.00
+299,O00299,53,5,3,2026-05-22,App FastFood Norte,Completado,285.80
+300,O00300,128,4,16,2026-03-14,Delivery,Pendiente,68.10
+301,O00301,22,4,37,12/04/2026,Mostrador,Completado,174.80
+302,O00302,15,4,11,2026-06-19,Auto rápido,Completado,89.90
+303,O00303,51,4,4,2026-01-21,App FastFood Norte,Pendiente,155.10
+304,O00304,197,6,4,2026-02-07,Delivery,Pendiente,61.60
+305,O00305,9135,4,29,2026-05-02,Mostrador,Pendiente,166.90
+306,O00306,175,2,2,2026-05-18,Auto rápido,Completado,104.50
+307,O00307,112,4,14,2026-01-27,App FastFood Norte,Pendiente,212.70
+308,O00308,131,5,18,2026-01-10,Delivery,Pendiente,61.20
+309,O00309,191,4,32,2026-04-14,Mostrador,Observado,58.60
+310,O00310,162,1,16,2026-03-12,Auto rápido,Observado,166.00
+311,O00311,175,4,26,2026-03-23,App FastFood Norte,Completado,364.60
+312,O00312,6,1,27,2026-04-16,Delivery,Cancelado,269.80
+313,O00313,41,3,27,2026-03-07,Mostrador,Completado,105.30
+314,O00314,35,3,18,2026-05-16,Auto rápido,Completado,9.90
+315,O00315,79,5,14,2026-01-04,App FastFood Norte,Completado,308.80
+316,O00316,112,1,36,2026-06-02,Delivery,Completado,516.90
+317,O00317,46,1,38,2026-06-12,Mostrador,Completado,1560.03
+318,O00318,196,3,7,2026-06-06,Auto rápido,Pendiente,385.60
+319,O00319,71,5,5,2026-05-08,App FastFood Norte,Observado,146.10
+320,O00320,80,1,38,23/05/2026,Delivery,Cancelado,282.00
+321,O00321,135,3,14,2026-06-25,Mostrador,Completado,224.60
+322,O00322,88,5,14,2026-04-26,Auto rápido,Completado,254.80
+323,O00323,104,4,23,2026-04-28,App FastFood Norte,Completado,457.90
+324,O00324,161,1,27,2026-03-13,Delivery,Cancelado,88.20
+325,O00325,43,1,36,2026-05-24,Mostrador,Completado,108.10
+326,O00326,137,1,29,2026-02-12,Auto rápido,Completado,49.90
+327,O00327,176,4,24,2026-02-22,App FastFood Norte,Completado,76.50
+328,O00328,63,3,32,2026-03-24,Delivery,Completado,106.50
+329,O00329,190,3,1,2026-03-02,Mostrador,Completado,200.20
+330,O00330,4,2,21,2026-06-21,Auto rápido,Completado,109.30
+331,O00331,65,4,20,2026-02-16,App FastFood Norte,Observado,33.50
+332,O00332,52,5,18,2026-02-25,Delivery,Pendiente,225.00
+333,O00333,41,1,8,2026-06-27,Mostrador,Pendiente,38.10
+334,O00334,94,2,9,2026-04-20,Auto rápido,Completado,59.30
+335,O00335,126,3,,2026-04-25,App FastFood Norte,Pendiente,63.00
+336,O00336,84,1,7,2026-06-05,Delivery,Completado,49.80
+337,O00337,11,2,30,2026-05-10,Mostrador,Pendiente,269.10
+338,O00338,173,5,15,2026-02-04,Auto rápido,Completado,435.00
+339,O00339,63,6,29,2026-01-11,App FastFood Norte,Completado,122.40
+340,O00340,103,5,11,2026-01-25,Delivery,Completado,49.80
+341,O00341,171,4,29,2026-05-11,Mostrador,Pendiente,-909.69
+342,O00342,18,3,33,2026-01-01,Auto rápido,Completado,30.90
+343,O00343,1,5,10,21/02/2026,App FastFood Norte,Completado,101.00
+344,O00344,43,1,32,2026-02-21,Delivery,Observado,381.10
+345,O00345,192,1,27,2026-03-02,Mostrador,Pendiente,455.30
+346,O00346,34,5,30,14/05/2026,Auto rápido,Completado,284.60
+347,O00347,55,6,7,2026-02-04,App FastFood Norte,Completado,222.00
+348,O00348,61,2,9,2026-01-14,Delivery,Completado,121.60
+349,O00349,188,2,5,2026-01-14,Mostrador,Observado,345.60
+350,O00350,83,6,16,2026-03-28,Auto rápido,Pendiente,169.70
+351,O00351,178,1,16,2026-05-07,App FastFood Norte,Completado,1923.58
+352,O00352,78,2,4,2026-04-08,Delivery,Completado,617.16
+353,O00353,15,2,1,2026-06-15,Mostrador,Pendiente,8.30
+354,O00354,74,5,22,2026-04-11,Auto rápido,Cancelado,161.10
+355,O00355,92,4,38,2026-06-16,App FastFood Norte,Completado,173.90
+356,O00356,96,3,14,2026-05-20,Delivery,Completado,146.60
+357,O00357,52,5,22,2026-03-23,Mostrador,Observado,141.70
+358,O00358,172,4,31,2026-05-15,Auto rápido,Completado,215.90
+359,O00359,4,1,27,2026-04-19,App FastFood Norte,Completado,163.70
+360,O00360,10,5,32,2026-05-01,Delivery,Cancelado,158.30
+361,O00361,106,2,3,2026-03-27,Mostrador,Completado,75.60
+362,O00362,74,6,7,2026-05-20,Auto rápido,Observado,164.30
+363,O00363,199,6,22,2026-03-28,App FastFood Norte,Completado,75.00
+364,O00364,104,4,25,2026-04-11,Delivery,Completado,5753.91
+365,O00365,60,1,7,2026-04-01,Mostrador,Cancelado,226.00
+366,O00366,66,2,29,2026-04-24,Auto rápido,Pendiente,112.30
+367,O00367,168,2,8,2026-05-04,App FastFood Norte,Pendiente,215.90
+368,O00368,89,6,16,2026-04-06,Delivery,Completado,232.80
+369,O00369,122,6,40,2026-03-10,Mostrador,Completado,120.20
+370,O00370,198,2,40,2026-06-02,Auto rápido,Completado,89.40
+371,O00371,7,2,26,2026-05-28,App FastFood Norte,Completado,164.80
+372,O00372,40,3,39,2026-04-13,Delivery,Completado,9.90
+373,O00373,199,1,24,2026-02-18,Mostrador,Completado,59.40
+374,O00374,155,4,20,2026-01-15,Auto rápido,Cancelado,116.70
+375,O00375,40,3,8,2026-06-03,App FastFood Norte,Completado,89.40
+376,O00376,26,4,,2026-02-17,Delivery,Pendiente,225.90
+377,O00377,50,6,1,2026-04-24,Mostrador,Completado,106.70
+378,O00378,199,2,19,2026-01-23,Auto rápido,Cancelado,15.60
+379,O00379,17,5,15,2026-02-21,App FastFood Norte,Observado,15.90
+380,O00380,2,1,7,2026-06-16,Delivery,Completado,369.20
+381,O00381,193,1,33,2026-05-18,Mostrador,Pendiente,12.90
+382,O00382,14,5,,2026-06-10,Auto rápido,Completado,186.10
+383,O00383,17,1,39,2026-01-13,App FastFood Norte,Completado,464.30
+384,O00384,127,2,23,2026-01-27,Delivery,Completado,4569.14
+385,O00385,6,3,28,2026-01-03,Mostrador,Completado,11.70
+386,O00386,166,2,4,2026-03-27,Auto rápido,Completado,38.70
+387,O00387,131,6,38,2026-01-14,App FastFood Norte,Pendiente,371.30
+388,O00388,132,4,14,2026-04-07,Delivery,Completado,286.70
+389,O00389,66,5,13,2026-04-24,Mostrador,Pendiente,-3242.43
+390,O00390,144,4,8,2026-03-06,Auto rápido,Completado,82.10
+391,O00391,86,5,25,2026-02-26,App FastFood Norte,Completado,129.00
+392,O00392,163,2,3,2026-01-12,Delivery,Cancelado,56.10
+393,O00393,183,2,16,2026-04-21,Mostrador,Cancelado,81.50
+394,O00394,89,1,14,2026-05-17,Auto rápido,Cancelado,160.60
+395,O00395,185,5,21,2026-01-12,App FastFood Norte,Cancelado,224.60
+396,O00396,134,6,28,2026-05-23,Delivery,Completado,24.20
+397,O00397,195,6,7,2026-03-25,Mostrador,Completado,156.00
+398,O00398,200,2,39,2026-05-21,Auto rápido,Cancelado,6.70
+399,O00399,58,4,29,2026-02-08,App FastFood Norte,Completado,513.60
+400,O00400,60,1,10,2026-04-02,Delivery,Completado,75.90
+401,O00401,98,6,2,2026-02-27,Mostrador,Completado,341.70
+402,O00402,64,4,23,2026-01-14,Auto rápido,Pendiente,135.00
+403,O00403,15,5,18,2026-05-01,App FastFood Norte,Pendiente,148.00
+404,O00404,40,2,23,2026-03-18,Delivery,Pendiente,9.80
+405,O00405,178,3,28,2026-06-13,Mostrador,Completado,18.90
+406,O00406,81,6,22,2026-06-04,Auto rápido,Completado,293.70
+407,O00407,148,3,3,2026-05-20,App FastFood Norte,Completado,125.20
+408,O00408,10,5,15,23/05/2026,Delivery,Cancelado,14.90
+409,O00409,197,2,23,2026-02-21,Mostrador,Completado,114.80
+410,O00410,191,1,39,2026-05-12,Auto rápido,Completado,95.40
+411,O00411,7,2,12,2026-05-01,App FastFood Norte,Pendiente,249.70
+412,O00412,34,5,3,2026-01-17,Delivery,Cancelado,61.80
+413,O00413,161,4,14,2026-02-04,Mostrador,Completado,104.70
+414,O00414,158,3,25,2026-02-16,Auto rápido,Pendiente,81.80
+415,O00415,118,3,25,2026-03-19,App FastFood Norte,Pendiente,85.60
+416,O00416,192,4,25,2026-01-18,Delivery,Completado,470.10
+417,O00417,70,5,12,2026-04-05,Mostrador,Pendiente,148.30
+418,O00418,188,6,18,2026-06-20,Auto rápido,Completado,290.00
+419,O00419,79,4,16,2026-06-08,App FastFood Norte,Completado,46.70
+420,O00420,57,4,38,2026-05-08,Delivery,Observado,346.40
+421,O00421,63,5,36,2026-04-15,Mostrador,Completado,270.90
+422,O00422,85,2,30,2026-02-17,Auto rápido,Completado,180.90
+423,O00423,100,3,7,2026-02-19,App FastFood Norte,Pendiente,99.80
+424,O00424,30,5,11,2026-05-27,Delivery,Pendiente,99.80
+425,O00425,140,6,3,11/03/2026,Mostrador,Completado,57.80
+426,O00426,93,4,14,2026-03-17,Auto rápido,Completado,150.30
+427,O00427,38,5,25,2026-04-25,App FastFood Norte,Pendiente,250.00
+428,O00428,17,6,25,2026-03-11,Delivery,Cancelado,134.60
+429,O00429,65,6,22,2026-06-04,Mostrador,Cancelado,73.70
+430,O00430,92,4,23,2026-03-02,Auto rápido,Observado,221.60
+431,O00431,161,5,18,2026-03-08,App FastFood Norte,Completado,312.20
+432,O00432,16,1,16,2026-04-09,Delivery,Pendiente,41.80
+433,O00433,200,3,6,2026-02-27,Mostrador,Completado,79.50
+434,O00434,10,2,24,2026-04-19,Auto rápido,Cancelado,51.90
+435,O00435,113,6,3,2026-02-23,App FastFood Norte,Completado,176.60
+436,O00436,94,3,12,2026-06-15,Delivery,Observado,126.10
+437,O00437,110,1,4,2026-01-06,Mostrador,Completado,25.80
+438,O00438,9701,6,8,2026-02-15,Auto rápido,Cancelado,132.80
+439,O00439,114,6,18,2026-03-14,App FastFood Norte,Cancelado,230.50
+440,O00440,35,5,26,2026-02-24,Delivery,Completado,212.00
+441,O00441,155,6,23,2026-03-16,Mostrador,Completado,131.10
+442,O00442,191,1,27,2026-03-20,Auto rápido,Completado,215.00
+443,O00443,191,3,33,2026-05-25,App FastFood Norte,Cancelado,85.60
+444,O00444,7,3,10,2026-06-06,Delivery,Pendiente,340.50
+445,O00445,164,3,36,2026-04-12,Mostrador,Pendiente,237.60
+446,O00446,66,4,8,2026-05-20,Auto rápido,Pendiente,155.60
+447,O00447,36,6,29,2026-02-07,App FastFood Norte,Completado,51.50
+448,O00448,69,5,9,2026-01-19,Delivery,Completado,125.20
+449,O00449,39,4,27,2026-05-26,Mostrador,Completado,487.20
+450,O00450,115,2,6,2026-05-21,Auto rápido,Pendiente,125.40
+451,O00451,189,3,14,2026-03-17,App FastFood Norte,Cancelado,135.40
+452,O00452,29,1,36,2026-03-15,Delivery,Pendiente,310.90
+453,O00453,112,1,31,2026-05-20,Mostrador,Cancelado,175.20
+454,O00454,25,3,17,2026-03-28,Auto rápido,Completado,207.20
+455,O00455,141,5,38,2026-04-19,App FastFood Norte,Completado,74.50
+456,O00456,107,6,35,2026-01-03,Delivery,Completado,251.50
+457,O00457,41,3,18,2026-04-19,Mostrador,Pendiente,165.30
+458,O00458,10,6,3,2026-06-28,Auto rápido,Pendiente,272.60
+459,O00459,185,6,15,2026-01-16,App FastFood Norte,Completado,174.10
+460,O00460,82,4,35,2026-06-12,Delivery,Pendiente,171.90
+461,O00461,65,3,14,2026-02-15,Mostrador,Completado,81.50
+462,O00462,170,6,28,2026-06-21,Auto rápido,Cancelado,303.00
+463,O00463,144,6,39,2026-01-17,App FastFood Norte,Completado,64.50
+464,O00464,182,1,5,2026-02-15,Delivery,Pendiente,125.90
+465,O00465,86,5,27,2026-03-18,Mostrador,Cancelado,186.50
+466,O00466,37,1,10,2026-04-07,Auto rápido,Cancelado,36.60
+467,O00467,38,5,36,2026-02-08,App FastFood Norte,Cancelado,107.20
+468,O00468,63,4,5,2026-03-14,Delivery,Cancelado,144.30
+469,O00469,148,5,32,2026-01-16,Mostrador,Completado,249.50
+470,O00470,93,4,13,2026-01-19,Auto rápido,Completado,50.70
+471,O00471,9240,1,35,10/01/2026,App FastFood Norte,Completado,212.10
+472,O00472,87,1,26,2026-03-20,Delivery,Cancelado,234.80
+473,O00473,16,1,31,2026-04-02,Mostrador,Completado,942.03
+474,O00474,97,4,21,2026-06-22,Auto rápido,Completado,111.70
+475,O00475,98,6,20,2026-04-11,App FastFood Norte,Completado,315.20
+476,O00476,131,6,26,2026-02-09,Delivery,Pendiente,206.10
+477,O00477,124,4,40,2026-03-20,Mostrador,Completado,43.70
+478,O00478,44,2,35,2026-06-24,Auto rápido,Completado,187.50
+479,O00479,150,5,9,19/05/2026,App FastFood Norte,Pendiente,56.70
+480,O00480,95,2,34,2026-04-14,Delivery,Completado,155.40
+481,O00481,9325,2,25,2026-01-12,Mostrador,Completado,149.40
+482,O00482,82,5,38,2026-02-11,Auto rápido,Completado,84.00
+483,O00483,157,3,16,2026-05-20,App FastFood Norte,Completado,62.10
+484,O00484,37,6,4,22/04/2026,Delivery,Completado,275.90
+485,O00485,13,5,20,2026-05-27,Mostrador,Completado,66.10
+486,O00486,139,1,6,2026-03-16,Auto rápido,Completado,527.70
+487,O00487,171,6,16,2026-02-08,App FastFood Norte,Pendiente,64.70
+488,O00488,131,5,15,2026-01-20,Delivery,Cancelado,185.20
+489,O00489,54,3,13,2026-01-14,Mostrador,Pendiente,138.50
+490,O00490,130,5,10,2026-06-28,Auto rápido,Completado,154.30
+491,O00491,150,2,10,2026-03-27,App FastFood Norte,Completado,112.50
+492,O00492,195,5,15,23/06/2026,Delivery,Completado,56.70
+493,O00493,64,4,30,18/05/2026,Mostrador,Completado,41.20
+494,O00494,169,1,11,2026-01-13,Auto rápido,Pendiente,40.20
+495,O00495,121,4,21,2026-04-08,App FastFood Norte,Completado,202.80
+496,O00496,17,2,2,2026-04-24,Delivery,Pendiente,88.50
+497,O00497,18,4,20,2026-01-12,Mostrador,Pendiente,100.50
+498,O00498,188,5,13,2026-01-26,Auto rápido,Pendiente,29.00
+499,O00499,52,5,9,2026-03-06,App FastFood Norte,Cancelado,399.20
+500,O00500,46,4,30,2026-03-04,Delivery,Observado,200.50
+501,O00501,160,1,33,2026-05-27,Mostrador,Pendiente,197.30
+502,O00502,152,1,24,2026-01-06,Auto rápido,Pendiente,26.80
+503,O00503,79,5,20,2026-06-13,App FastFood Norte,Pendiente,171.10
+504,O00504,14,4,3,2026-05-16,Delivery,Completado,123.20
+505,O00505,99,5,38,2026-03-27,Mostrador,Completado,105.40
+506,O00506,74,2,5,2026-06-14,Auto rápido,Completado,97.70
+507,O00507,153,2,37,2026-02-15,App FastFood Norte,Completado,142.30
+508,O00508,46,3,14,2026-05-24,Delivery,Completado,40.40
+509,O00509,55,6,28,2026-02-23,Mostrador,Completado,216.60
+510,O00510,22,5,21,2026-06-08,Auto rápido,Pendiente,252.40
+511,O00511,155,3,35,2026-04-20,App FastFood Norte,Completado,265.00
+512,O00512,114,4,6,2026-03-20,Delivery,Completado,5335.18
+513,O00513,191,3,7,2026-05-10,Mostrador,Pendiente,24.40
+514,O00514,183,1,38,2026-01-01,Auto rápido,Completado,231.60
+515,O00515,179,2,15,2026-04-04,App FastFood Norte,Pendiente,397.20
+516,O00516,84,6,29,2026-03-24,Delivery,Observado,28.20
+517,O00517,58,5,22,2026-06-23,Mostrador,Observado,84.50
+518,O00518,41,4,37,2026-04-04,Auto rápido,Completado,316.80
+519,O00519,174,4,29,2026-06-05,App FastFood Norte,Completado,139.00
+520,O00520,72,3,19,22/05/2026,Delivery,Cancelado,155.70
+521,O00521,84,1,15,2026-01-12,Mostrador,Completado,99.30
+522,O00522,12,2,38,2026-04-05,Auto rápido,Completado,24.50
+523,O00523,9568,2,6,2026-06-11,App FastFood Norte,Cancelado,102.70
+524,O00524,31,2,14,2026-01-13,Delivery,Completado,341.90
+525,O00525,19,4,3,2026-02-25,Mostrador,Completado,148.90
+526,O00526,80,5,,2026-05-07,Auto rápido,Completado,548.80
+527,O00527,185,6,24,2026-02-28,App FastFood Norte,Completado,434.20
+528,O00528,37,3,4,2026-01-02,Delivery,Completado,127.50
+529,O00529,6,1,3,2026-01-10,Mostrador,Observado,21.00
+530,O00530,21,5,1,2026-01-14,Auto rápido,Completado,161.90
+531,O00531,169,1,1,2026-02-10,App FastFood Norte,Pendiente,321.00
+532,O00532,77,6,37,2026-05-28,Delivery,Completado,114.00
+533,O00533,19,1,39,2026-06-12,Mostrador,Completado,314.20
+534,O00534,70,4,37,2026-06-13,Auto rápido,Pendiente,84.70
+535,O00535,60,2,33,2026-06-15,App FastFood Norte,Pendiente,426.60
+536,O00536,45,2,22,2026-05-03,Delivery,Completado,98.70
+537,O00537,177,5,11,2026-03-11,Mostrador,Pendiente,4.90
+538,O00538,177,6,9,2026-01-13,Auto rápido,Completado,56.20
+539,O00539,59,3,6,2026-02-12,App FastFood Norte,Cancelado,81.50
+540,O00540,8,1,,2026-01-10,Delivery,Completado,3730.21
+541,O00541,189,4,,2026-04-21,Mostrador,Cancelado,41.80
+542,O00542,160,3,14,2026-02-20,Auto rápido,Completado,75.00
+543,O00543,13,5,26,01/01/2026,App FastFood Norte,Completado,145.90
+544,O00544,124,2,39,2026-05-21,Delivery,Completado,41.70
+545,O00545,42,1,15,2026-03-08,Mostrador,Observado,31.50
+546,O00546,151,5,6,2026-05-16,Auto rápido,Completado,440.90
+547,O00547,56,1,1,2026-02-13,App FastFood Norte,Completado,51.50
+548,O00548,42,6,34,2026-06-25,Delivery,Completado,121.20
+549,O00549,31,6,18,2026-03-07,Mostrador,Completado,50.50
+550,O00550,132,6,23,2026-04-09,Auto rápido,Completado,247.80
+551,O00551,88,2,33,2026-05-21,App FastFood Norte,Completado,6.10
+552,O00552,154,2,19,2026-05-14,Delivery,Completado,187.50
+553,O00553,46,5,27,2026-02-24,Mostrador,Completado,267.40
+554,O00554,191,4,11,2026-05-23,Auto rápido,Cancelado,24.40
+555,O00555,33,5,1,2026-05-06,App FastFood Norte,Completado,506.50
+556,O00556,142,6,20,2026-02-06,Delivery,Observado,270.40
+557,O00557,184,3,10,2026-01-12,Mostrador,Completado,5975.63
+558,O00558,91,4,21,2026-02-08,Auto rápido,Completado,307.00
+559,O00559,164,6,24,2026-04-18,App FastFood Norte,Cancelado,145.30
+560,O00560,103,5,38,2026-01-09,Delivery,Cancelado,221.60
+561,O00561,141,1,30,2026-04-17,Mostrador,Pendiente,125.00
+562,O00562,65,5,25,2026-06-22,Auto rápido,Pendiente,437.60
+563,O00563,92,4,19,2026-04-22,App FastFood Norte,Completado,245.10
+564,O00564,186,6,4,2026-03-22,Delivery,Completado,87.60
+565,O00565,91,3,20,2026-03-03,Mostrador,Completado,4372.08
+566,O00566,42,5,31,2026-06-01,Auto rápido,Pendiente,62.70
+567,O00567,191,2,1,2026-01-23,App FastFood Norte,Completado,187.80
+568,O00568,136,5,19,2026-02-07,Delivery,Cancelado,206.50
+569,O00569,20,5,6,2026-04-07,Mostrador,Completado,161.10
+570,O00570,196,2,36,2026-01-22,Auto rápido,Completado,126.00
+571,O00571,161,2,27,2026-05-04,App FastFood Norte,Pendiente,184.10
+572,O00572,75,2,27,2026-04-26,Delivery,Observado,80.30
+573,O00573,30,2,29,2026-06-01,Mostrador,Cancelado,82.50
+574,O00574,142,6,33,2026-02-23,Auto rápido,Completado,44.70
+575,O00575,139,3,17,2026-04-11,App FastFood Norte,Completado,208.10
+576,O00576,194,1,22,2026-02-23,Delivery,Completado,50.70
+577,O00577,62,1,3,2026-02-08,Mostrador,Completado,129.30
+578,O00578,87,4,38,2026-02-12,Auto rápido,Completado,69.50
+579,O00579,23,5,38,2026-04-24,App FastFood Norte,Pendiente,113.40
+580,O00580,127,2,1,2026-06-22,Delivery,Cancelado,164.80
+581,O00581,37,4,37,2026-03-17,Mostrador,Completado,122.30
+582,O00582,175,6,39,2026-05-21,Auto rápido,Completado,137.60
+583,O00583,179,2,2,2026-01-20,App FastFood Norte,Pendiente,49.50
+584,O00584,153,1,,2026-06-10,Delivery,Completado,61.80
+585,O00585,130,4,9,23/04/2026,Mostrador,Completado,335.70
+586,O00586,52,5,24,2026-06-17,Auto rápido,Completado,205.50
+587,O00587,132,4,37,2026-04-12,App FastFood Norte,Completado,89.90
+588,O00588,132,6,10,2026-01-08,Delivery,Completado,165.70
+589,O00589,40,2,20,2026-06-02,Mostrador,Completado,228.43
+590,O00590,5,3,5,2026-03-14,Auto rápido,Cancelado,115.60
+591,O00591,19,3,37,2026-01-08,App FastFood Norte,Completado,188.00
+592,O00592,9092,4,19,06/06/2026,Delivery,Cancelado,236.10
+593,O00593,142,4,5,2026-03-19,Mostrador,Completado,59.40
+594,O00594,131,2,37,05/05/2026,Auto rápido,Completado,188.70
+595,O00595,152,4,18,2026-01-25,App FastFood Norte,Completado,263.40
+596,O00596,67,5,28,2026-06-27,Delivery,Completado,173.50
+597,O00597,196,1,12,2026-03-06,Mostrador,Completado,227.90
+598,O00598,183,5,36,2026-05-19,Auto rápido,Completado,19.80
+599,O00599,118,3,40,2026-02-04,App FastFood Norte,Pendiente,243.00
+600,O00600,60,2,30,2026-03-26,Delivery,Completado,154.70
+601,O00601,127,6,11,2026-02-19,Mostrador,Pendiente,133.10
+602,O00602,119,6,40,2026-02-10,Auto rápido,Completado,220.00
+603,O00603,79,4,6,2026-03-04,App FastFood Norte,Completado,56.90
+604,O00604,116,3,40,2026-06-14,Delivery,Completado,65.70
+605,O00605,125,6,15,2026-02-20,Mostrador,Completado,99.60
+606,O00606,119,3,17,2026-05-12,Auto rápido,Completado,123.50
+607,O00607,121,5,38,2026-04-03,App FastFood Norte,Completado,-3017.34
+608,O00608,190,4,36,2026-01-16,Delivery,Completado,395.90
+609,O00609,85,4,3,06/05/2026,Mostrador,Completado,113.40
+610,O00610,160,6,36,2026-05-26,Auto rápido,Pendiente,49.50
+611,O00611,126,3,25,2026-01-19,App FastFood Norte,Completado,575.30
+612,O00612,94,4,13,2026-03-12,Delivery,Completado,72.80
+613,O00613,69,6,1,2026-06-24,Mostrador,Completado,249.80
+614,O00614,127,5,10,2026-05-28,Auto rápido,Pendiente,1350.65
+615,O00615,168,5,40,2026-06-19,App FastFood Norte,Completado,229.00
+616,O00616,97,3,29,2026-04-17,Delivery,Completado,174.50
+617,O00617,64,3,24,14/04/2026,Mostrador,Completado,464.10
+618,O00618,107,5,12,2026-02-05,Auto rápido,Cancelado,122.60
+619,O00619,31,3,20,2026-06-25,App FastFood Norte,Pendiente,257.50
+620,O00620,39,4,20,09/03/2026,Delivery,Cancelado,13.90
+621,O00621,113,3,23,2026-06-14,Mostrador,Completado,115.60
+622,O00622,168,6,34,2026-06-04,Auto rápido,Completado,296.40
+623,O00623,181,1,21,2026-04-16,App FastFood Norte,Observado,303.30
+624,O00624,63,6,1,2026-05-27,Delivery,Cancelado,75.00
+625,O00625,186,1,8,2026-03-01,Mostrador,Completado,62.60
+626,O00626,84,4,10,2026-03-15,Auto rápido,Pendiente,157.10
+627,O00627,90,5,40,2026-01-18,App FastFood Norte,Pendiente,205.10
+628,O00628,25,2,20,2026-05-16,Delivery,Completado,129.20
+629,O00629,28,3,40,2026-05-10,Mostrador,Completado,316.60
+630,O00630,36,5,11,2026-03-01,Auto rápido,Completado,51.40
+631,O00631,16,1,13,2026-04-11,App FastFood Norte,Pendiente,60.60
+632,O00632,84,4,7,2026-04-11,Delivery,Completado,315.50
+633,O00633,9032,1,30,2026-06-13,Mostrador,Cancelado,24.20
+634,O00634,2,1,34,2026-05-10,Auto rápido,Cancelado,62.60
+635,O00635,188,1,28,2026-03-13,App FastFood Norte,Completado,52.30
+636,O00636,65,5,1,2026-05-11,Delivery,Pendiente,334.90
+637,O00637,15,1,34,2026-01-01,Mostrador,Cancelado,16.90
+638,O00638,99,3,6,2026-05-21,Auto rápido,Completado,141.20
+639,O00639,142,6,1,2026-06-11,App FastFood Norte,Observado,16.60
+640,O00640,22,1,30,2026-06-11,Delivery,Pendiente,189.00
+641,O00641,172,6,36,2026-02-15,Mostrador,Pendiente,261.90
+642,O00642,145,5,24,2026-05-20,Auto rápido,Pendiente,300.50
+643,O00643,89,5,19,2026-06-24,App FastFood Norte,Completado,37.80
+644,O00644,75,2,8,2026-02-21,Delivery,Completado,300.90
+645,O00645,99,6,19,22/05/2026,Mostrador,Completado,495.30
+646,O00646,15,2,2,2026-04-10,Auto rápido,Completado,78.40
+647,O00647,159,4,22,2026-05-18,App FastFood Norte,Cancelado,226.80
+648,O00648,143,1,20,01/02/2026,Delivery,Completado,3009.9
+649,O00649,30,2,27,2026-04-06,Mostrador,Pendiente,167.90
+650,O00650,1,2,19,2026-05-16,Auto rápido,Pendiente,19.50
+651,O00651,83,3,21,2026-04-03,App FastFood Norte,Completado,335.50
+652,O00652,21,6,8,2026-02-12,Delivery,Cancelado,340.40
+653,O00653,164,6,23,2026-03-06,Mostrador,Completado,197.20
+654,O00654,53,4,,2026-03-22,Auto rápido,Completado,80.50
+655,O00655,136,6,5,2026-04-20,App FastFood Norte,Completado,49.80
+656,O00656,62,3,25,2026-02-12,Delivery,Completado,163.20
+657,O00657,126,5,20,2026-03-22,Mostrador,Completado,57.60
+658,O00658,143,4,32,2026-04-18,Auto rápido,Completado,154.20
+659,O00659,126,4,19,2026-02-22,App FastFood Norte,Cancelado,71.30
+660,O00660,155,6,11,2026-05-02,Delivery,Completado,195.60
+661,O00661,33,1,10,2026-01-07,Mostrador,Completado,131.60
+662,O00662,112,4,15,2026-06-05,Auto rápido,Completado,143.20
+663,O00663,133,2,28,2026-04-06,App FastFood Norte,Completado,149.70
+664,O00664,23,3,30,2026-06-21,Delivery,Cancelado,8.50
+665,O00665,108,6,22,2026-04-19,Mostrador,Completado,41.80
+666,O00666,139,3,30,12/06/2026,Auto rápido,Completado,196.50
+667,O00667,138,2,6,2026-05-23,App FastFood Norte,Completado,191.10
+668,O00668,99,2,33,2026-02-06,Delivery,Completado,151.70
+669,O00669,6,1,21,2026-01-16,Mostrador,Pendiente,130.30
+670,O00670,44,6,13,2026-03-20,Auto rápido,Completado,83.40
+671,O00671,23,5,37,2026-01-16,App FastFood Norte,Completado,32.00
+672,O00672,187,1,18,2026-05-15,Delivery,Completado,29.70
+673,O00673,112,4,32,2026-03-04,Mostrador,Pendiente,102.50
+674,O00674,163,3,12,2026-04-07,Auto rápido,Cancelado,2658.74
+675,O00675,9508,4,20,2026-06-06,App FastFood Norte,Pendiente,76.50
+676,O00676,2,6,39,2026-01-18,Delivery,Observado,149.90
+677,O00677,38,3,25,2026-04-27,Mostrador,Completado,237.90
+678,O00678,88,6,12,2026-02-06,Auto rápido,Completado,160.50
+679,O00679,41,2,40,2026-01-21,App FastFood Norte,Observado,387.40
+680,O00680,103,1,4,2026-02-26,Delivery,Completado,31.80
+681,O00681,168,2,16,2026-06-04,Mostrador,Completado,151.00
+682,O00682,29,1,5,2026-01-05,Auto rápido,Completado,86.40
+683,O00683,153,3,14,2026-05-16,App FastFood Norte,Completado,251.20
+684,O00684,108,2,33,2026-03-05,Delivery,Pendiente,247.90
+685,O00685,105,6,6,2026-04-21,Mostrador,Cancelado,295.10
+686,O00686,64,1,21,2026-01-17,Auto rápido,Completado,-2317.89
+687,O00687,169,4,32,2026-04-17,App FastFood Norte,Completado,156.00
+688,O00688,9848,5,7,2026-02-27,Delivery,Pendiente,182.20
+689,O00689,84,6,35,2026-01-10,Mostrador,Pendiente,43.70
+690,O00690,197,6,15,2026-03-26,Auto rápido,Completado,358.90
+691,O00691,18,4,40,2026-01-17,App FastFood Norte,Completado,367.60
+692,O00692,51,4,5,2026-03-15,Delivery,Pendiente,215.10
+693,O00693,19,3,9,2026-04-24,Mostrador,Completado,33.50
+694,O00694,125,1,15,2026-01-15,Auto rápido,Cancelado,258.20
+695,O00695,88,5,,21/06/2026,App FastFood Norte,Completado,208.50
+696,O00696,16,5,7,2026-01-15,Delivery,Completado,181.80
+697,O00697,30,2,39,2026-01-27,Mostrador,Pendiente,128.70
+698,O00698,151,6,8,2026-03-11,Auto rápido,Cancelado,93.40
+699,O00699,195,2,21,2026-05-24,App FastFood Norte,Completado,73.40
+700,O00700,199,2,29,2026-02-08,Delivery,Pendiente,332.20
+701,O00701,70,2,34,02/02/2026,Mostrador,Pendiente,34.80
+702,O00702,51,2,21,16/06/2026,Auto rápido,Completado,149.70
+703,O00703,75,6,36,2026-03-09,App FastFood Norte,Pendiente,162.40
+704,O00704,174,2,27,2026-06-02,Delivery,Completado,180.10
+705,O00705,169,3,25,2026-03-14,Mostrador,Completado,150.10
+706,O00706,128,1,18,2026-06-27,Auto rápido,Completado,36.30
+707,O00707,189,4,12,2026-03-25,App FastFood Norte,Pendiente,67.60
+708,O00708,199,3,21,2026-02-20,Delivery,Completado,46.10
+709,O00709,30,4,18,2026-03-27,Mostrador,Pendiente,23.20
+710,O00710,80,2,36,2026-02-26,Auto rápido,Completado,400.80
+711,O00711,98,5,21,2026-01-19,App FastFood Norte,Completado,148.80
+712,O00712,197,1,38,07/04/2026,Delivery,Completado,135.90
+713,O00713,144,5,23,23/02/2026,Mostrador,Completado,160.00
+714,O00714,130,3,2,2026-02-03,Auto rápido,Completado,114.30
+715,O00715,147,1,29,2026-02-01,App FastFood Norte,Pendiente,83.20
+716,O00716,119,4,8,2026-02-07,Delivery,Cancelado,87.60
+717,O00717,19,5,5,2026-05-01,Mostrador,Cancelado,5910.39
+718,O00718,121,2,28,2026-02-09,Auto rápido,Completado,261.00
+719,O00719,20,2,37,2026-04-01,App FastFood Norte,Completado,51.60
+720,O00720,132,4,32,2026-03-13,Delivery,Cancelado,315.60
+721,O00721,194,4,1,01/01/2026,Mostrador,Completado,131.40
+722,O00722,183,3,39,2026-03-24,Auto rápido,Observado,257.40
+723,O00723,183,1,17,2026-04-28,App FastFood Norte,Completado,53.20
+724,O00724,9,4,26,2026-06-25,Delivery,Cancelado,114.30
+725,O00725,177,6,11,2026-04-01,Mostrador,Completado,74.80
+726,O00726,9484,1,38,2026-06-04,Auto rápido,Cancelado,206.80
+727,O00727,55,5,39,2026-03-23,App FastFood Norte,Completado,61.80
+728,O00728,53,1,21,2026-03-27,Delivery,Completado,139.80
+729,O00729,84,4,11,2026-01-22,Mostrador,Completado,2201.79
+730,O00730,79,3,36,15/01/2026,Auto rápido,Completado,309.00
+731,O00731,75,1,24,2026-05-11,App FastFood Norte,Cancelado,51.50
+732,O00732,128,1,18,2026-04-21,Delivery,Pendiente,1971.87
+733,O00733,50,3,38,2026-03-07,Mostrador,Pendiente,117.80
+734,O00734,16,4,8,2026-03-07,Auto rápido,Pendiente,99.60
+735,O00735,120,6,27,2026-02-09,App FastFood Norte,Completado,93.40
+736,O00736,177,4,40,2026-03-18,Delivery,Completado,69.10
+737,O00737,16,6,30,2026-05-02,Mostrador,Completado,153.30
+738,O00738,125,6,32,2026-06-01,Auto rápido,Completado,275.40
+739,O00739,117,3,3,2026-05-20,App FastFood Norte,Completado,278.40
+740,O00740,108,6,18,2026-05-25,Delivery,Completado,39.60
+741,O00741,35,6,2,2026-02-07,Mostrador,Completado,478.60
+742,O00742,136,4,5,2026-04-13,Auto rápido,Completado,124.00
+743,O00743,85,1,40,2026-05-03,App FastFood Norte,Completado,16.90
+744,O00744,6,2,30,06/03/2026,Delivery,Cancelado,51.60
+745,O00745,107,6,10,2026-06-07,Mostrador,Observado,199.80
+746,O00746,73,3,28,2026-01-19,Auto rápido,Completado,195.00
+747,O00747,149,2,23,2026-06-16,App FastFood Norte,Observado,165.90
+748,O00748,59,1,19,2026-05-12,Delivery,Observado,208.70
+749,O00749,118,2,12,2026-06-12,Mostrador,Completado,94.50
+750,O00750,150,3,7,2026-03-21,Auto rápido,Completado,178.30
+751,O00751,153,4,23,11/03/2026,App FastFood Norte,Completado,18.30
+752,O00752,54,6,,2026-02-24,Delivery,Completado,11.70
+753,O00753,83,6,34,2026-05-24,Mostrador,Completado,376.20
+754,O00754,145,4,20,2026-03-09,Auto rápido,Pendiente,179.10
+755,O00755,161,5,17,2026-03-24,App FastFood Norte,Completado,177.67
+756,O00756,109,5,2,2026-05-25,Delivery,Cancelado,100.90
+757,O00757,18,6,9,2026-06-23,Mostrador,Completado,103.60
+758,O00758,137,5,28,2026-04-26,Auto rápido,Cancelado,19.50
+759,O00759,125,2,2,2026-04-11,App FastFood Norte,Pendiente,46.40
+760,O00760,173,1,13,2026-05-15,Delivery,Completado,181.80
+761,O00761,142,3,29,2026-02-25,Mostrador,Completado,23.40
+762,O00762,27,5,21,2026-04-13,Auto rápido,Cancelado,193.00
+763,O00763,119,5,5,2026-04-01,App FastFood Norte,Completado,206.90
+764,O00764,163,1,29,2026-06-10,Delivery,Pendiente,149.00
+765,O00765,8,6,36,2026-03-20,Mostrador,Cancelado,6661.88
+766,O00766,157,1,37,2026-03-09,Auto rápido,Cancelado,113.40
+767,O00767,187,5,28,2026-02-02,App FastFood Norte,Completado,108.80
+768,O00768,54,6,,13/05/2026,Delivery,Completado,62.80
+769,O00769,142,2,35,2026-03-15,Mostrador,Observado,437.90
+770,O00770,88,5,15,2026-04-05,Auto rápido,Completado,54.90
+771,O00771,184,3,24,2026-02-23,App FastFood Norte,Completado,167.80
+772,O00772,45,1,15,2026-02-03,Delivery,Cancelado,24.90
+773,O00773,175,3,24,2026-02-24,Mostrador,Completado,74.70
+774,O00774,14,3,20,2026-03-23,Auto rápido,Cancelado,195.10
+775,O00775,141,1,7,2026-05-10,App FastFood Norte,Cancelado,210.50
+776,O00776,165,2,32,2026-04-15,Delivery,Cancelado,406.10
+777,O00777,140,1,14,2026-05-23,Mostrador,Completado,257.90
+778,O00778,26,4,7,04/04/2026,Auto rápido,Completado,92.10
+779,O00779,92,2,22,2026-01-04,App FastFood Norte,Completado,37.80
+780,O00780,29,4,37,2026-06-18,Delivery,Completado,291.50
+781,O00781,49,5,13,2026-01-16,Mostrador,Completado,158.51
+782,O00782,35,4,12,2026-04-24,Auto rápido,Observado,54.10
+783,O00783,45,6,24,2026-05-25,App FastFood Norte,Completado,250.40
+784,O00784,36,3,10,2026-06-09,Delivery,Pendiente,368.50
+785,O00785,170,5,18,2026-06-07,Mostrador,Completado,315.30
+786,O00786,40,6,31,2026-04-27,Auto rápido,Completado,199.60
+787,O00787,67,5,23,2026-05-15,App FastFood Norte,Pendiente,150.50
+788,O00788,5,5,2,2026-01-06,Delivery,Pendiente,5778.75
+789,O00789,192,1,40,24/05/2026,Mostrador,Completado,154.10
+790,O00790,198,1,23,2026-02-02,Auto rápido,Completado,13.40
+791,O00791,71,1,1,2026-05-20,App FastFood Norte,Completado,178.60
+792,O00792,152,2,14,2026-06-10,Delivery,Completado,109.50
+793,O00793,145,1,14,10/06/2026,Mostrador,Cancelado,187.00
+794,O00794,165,2,29,2026-01-25,Auto rápido,Completado,28.90
+795,O00795,11,6,30,2026-04-13,App FastFood Norte,Completado,198.10
+796,O00796,127,3,3,2026-02-04,Delivery,Completado,90.94
+797,O00797,196,3,13,2026-05-11,Mostrador,Completado,262.50
+798,O00798,190,4,16,2026-05-08,Auto rápido,Completado,448.80
+799,O00799,61,6,1,2026-04-23,App FastFood Norte,Cancelado,-1564.14
+800,O00800,109,4,1,12/06/2026,Delivery,Cancelado,79.10
+801,O00801,76,2,31,2026-03-24,Mostrador,Pendiente,330.10
+802,O00802,130,2,10,2026-01-27,Auto rápido,Cancelado,38.70
+803,O00803,119,6,9,2026-04-04,App FastFood Norte,Pendiente,75.30
+804,O00804,186,5,21,2026-03-25,Delivery,Completado,88.20
+805,O00805,195,2,8,2026-03-22,Mostrador,Pendiente,1856.04
+806,O00806,185,5,21,2026-03-11,Auto rápido,Observado,41.80
+807,O00807,176,1,23,2026-06-24,App FastFood Norte,Completado,321.40
+808,O00808,154,3,38,2026-01-18,Delivery,Cancelado,107.40
+809,O00809,61,2,21,2026-01-23,Mostrador,Completado,76.60
+810,O00810,190,5,17,2026-06-14,Auto rápido,Pendiente,231.90
+811,O00811,67,3,23,2026-02-08,App FastFood Norte,Completado,59.10
+812,O00812,138,4,5,15/01/2026,Delivery,Completado,75.30
+813,O00813,82,5,31,2026-01-15,Mostrador,Pendiente,25.50
+814,O00814,189,5,3,2026-03-22,Auto rápido,Completado,165.10
+815,O00815,7,5,10,2026-01-06,App FastFood Norte,Completado,634.30
+816,O00816,48,4,11,01/05/2026,Delivery,Completado,453.80
+817,O00817,117,6,32,2026-05-28,Mostrador,Completado,131.40
+818,O00818,177,6,33,2026-01-10,Auto rápido,Completado,258.50
+819,O00819,194,2,28,2026-04-07,App FastFood Norte,Completado,377.50
+820,O00820,114,5,23,2026-03-06,Delivery,Cancelado,183.90
+821,O00821,26,5,23,2026-05-13,Mostrador,Observado,81.90
+822,O00822,32,5,31,2026-06-21,Auto rápido,Pendiente,264.40
+823,O00823,7,6,12,2026-01-19,App FastFood Norte,Completado,195.90
+824,O00824,14,2,15,2026-02-09,Delivery,Completado,70.10
+825,O00825,140,6,,2026-04-07,Mostrador,Completado,1226.93
+826,O00826,94,3,5,2026-06-09,Auto rápido,Completado,160.80
+827,O00827,49,3,40,2026-03-26,App FastFood Norte,Completado,187.30
+828,O00828,69,3,35,09/04/2026,Delivery,Completado,3.90
+829,O00829,197,5,28,2026-01-08,Mostrador,Pendiente,34.00
+830,O00830,112,5,10,2026-04-18,Auto rápido,Completado,69.10
+831,O00831,143,1,10,2026-01-27,App FastFood Norte,Pendiente,21.90
+832,O00832,184,2,37,2026-02-22,Delivery,Pendiente,262.20
+833,O00833,193,4,21,2026-01-15,Mostrador,Completado,186.20
+834,O00834,52,6,32,2026-04-02,Auto rápido,Completado,324.51
+835,O00835,34,2,18,2026-05-05,App FastFood Norte,Pendiente,75.40
+836,O00836,150,3,12,2026-03-13,Delivery,Completado,99.80
+837,O00837,105,5,26,2026-03-27,Mostrador,Completado,295.70
+838,O00838,14,4,21,2026-05-08,Auto rápido,Cancelado,104.50
+839,O00839,132,4,8,2026-01-14,App FastFood Norte,Completado,187.90
+840,O00840,84,6,14,2026-04-17,Delivery,Completado,4969.51
+841,O00841,24,4,9,2026-05-27,Mostrador,Completado,51.50
+842,O00842,181,6,38,2026-03-26,Auto rápido,Completado,5061.09
+843,O00843,199,1,13,2026-01-08,App FastFood Norte,Completado,237.70
+844,O00844,106,5,27,2026-01-22,Delivery,Observado,183.20
+845,O00845,59,5,7,2026-01-19,Mostrador,Pendiente,109.70
+846,O00846,38,4,8,2026-05-17,Auto rápido,Cancelado,183.50
+847,O00847,11,4,29,2026-01-26,App FastFood Norte,Completado,565.10
+848,O00848,162,1,19,2026-02-01,Delivery,Completado,130.50
+849,O00849,134,1,36,2026-04-09,Mostrador,Completado,216.60
+850,O00850,105,1,39,2026-04-06,Auto rápido,Pendiente,417.40
+851,O00851,140,2,33,2026-02-26,App FastFood Norte,Completado,148.10
+852,O00852,157,4,11,2026-03-17,Delivery,Completado,69.40
+853,O00853,116,2,3,2026-03-03,Mostrador,Completado,388.70
+854,O00854,85,2,6,2026-03-28,Auto rápido,Completado,199.10
+855,O00855,64,4,16,28/06/2026,App FastFood Norte,Cancelado,108.30
+856,O00856,73,2,37,2026-01-10,Delivery,Completado,244.20
+857,O00857,78,2,2,2026-03-24,Mostrador,Pendiente,155.70
+858,O00858,155,5,17,2026-04-14,Auto rápido,Completado,514.90
+859,O00859,25,3,5,2026-06-01,App FastFood Norte,Completado,6.70
+860,O00860,147,6,39,2026-01-18,Delivery,Completado,123.80
+861,O00861,84,3,37,13/03/2026,Mostrador,Completado,41.50
+862,O00862,48,5,40,2026-04-03,Auto rápido,Completado,233.90
+863,O00863,110,1,15,2026-01-07,App FastFood Norte,Completado,102.60
+864,O00864,82,6,35,2026-05-26,Delivery,Completado,188.50
+865,O00865,168,5,36,2026-02-07,Mostrador,Completado,139.40
+866,O00866,197,5,30,2026-01-18,Auto rápido,Pendiente,124.60
+867,O00867,16,4,20,2026-02-08,App FastFood Norte,Completado,355.40
+868,O00868,30,1,24,2026-03-20,Delivery,Completado,362.10
+869,O00869,156,1,16,2026-02-24,Mostrador,Pendiente,-1954.48
+870,O00870,163,3,21,2026-06-15,Auto rápido,Completado,12.70
+871,O00871,100,3,11,2026-01-16,App FastFood Norte,Cancelado,359.70
+872,O00872,126,1,5,2026-06-10,Delivery,Observado,284.20
+873,O00873,124,3,17,2026-03-02,Mostrador,Completado,117.50
+874,O00874,89,2,28,2026-03-03,Auto rápido,Pendiente,140.90
+875,O00875,144,6,21,2026-06-09,App FastFood Norte,Completado,105.20
+876,O00876,184,5,17,2026-01-07,Delivery,Completado,324.40
+877,O00877,191,1,34,2026-06-22,Mostrador,Completado,33.20
+878,O00878,92,5,11,2026-01-18,Auto rápido,Completado,184.10
+879,O00879,114,5,15,2026-03-24,App FastFood Norte,Completado,205.30
+880,O00880,103,6,34,2026-03-21,Delivery,Cancelado,80.20
+881,O00881,50,4,33,08/02/2026,Mostrador,Completado,124.00
+882,O00882,183,4,35,2026-01-21,Auto rápido,Completado,9.80
+883,O00883,9865,2,40,2026-06-28,App FastFood Norte,Completado,349.20
+884,O00884,82,2,1,2026-04-20,Delivery,Pendiente,10.30
+885,O00885,89,5,28,2026-03-03,Mostrador,Completado,227.00
+886,O00886,193,6,14,2026-06-02,Auto rápido,Completado,218.90
+887,O00887,32,5,18,2026-04-08,App FastFood Norte,Completado,25.80
+888,O00888,158,3,5,2026-01-15,Delivery,Completado,74.50
+889,O00889,38,5,34,2026-01-04,Mostrador,Completado,431.00
+890,O00890,123,1,20,2026-02-15,Auto rápido,Observado,274.00
+891,O00891,18,5,38,2026-02-11,App FastFood Norte,Completado,309.90
+892,O00892,135,5,21,2026-06-27,Delivery,Completado,394.60
+893,O00893,112,2,6,2026-01-19,Mostrador,Pendiente,348.30
+894,O00894,43,4,24,13/02/2026,Auto rápido,Completado,26.80
+895,O00895,156,3,21,2026-06-19,App FastFood Norte,Completado,58.50
+896,O00896,176,1,7,2026-03-14,Delivery,Completado,24.90
+897,O00897,63,5,15,2026-01-07,Mostrador,Completado,37.50
+898,O00898,89,6,14,2026-03-03,Auto rápido,Pendiente,89.30
+899,O00899,199,2,24,2026-04-07,App FastFood Norte,Pendiente,92.80
+900,O00900,153,3,2,26/02/2026,Delivery,Cancelado,104.40
+901,O00901,185,2,1,2026-02-22,Mostrador,Observado,134.50
+902,O00902,118,6,18,10/06/2026,Auto rápido,Observado,244.90
+903,O00903,116,6,14,17/03/2026,App FastFood Norte,Cancelado,152.90
+904,O00904,129,2,6,2026-04-18,Delivery,Completado,122.30
+905,O00905,153,6,17,2026-05-02,Mostrador,Cancelado,137.30
+906,O00906,128,4,3,13/05/2026,Auto rápido,Completado,116.10
+907,O00907,56,6,27,2026-02-06,App FastFood Norte,Completado,115.90
+908,O00908,70,4,34,2026-02-13,Delivery,Completado,299.50
+909,O00909,153,2,28,2026-03-20,Mostrador,Pendiente,162.10
+910,O00910,32,5,15,2026-04-24,Auto rápido,Completado,138.70
+911,O00911,24,5,3,2026-04-21,App FastFood Norte,Pendiente,83.30
+912,O00912,148,5,21,2026-04-12,Delivery,Observado,214.00
+913,O00913,112,5,11,2026-02-20,Mostrador,Completado,113.40
+914,O00914,141,3,26,2026-06-02,Auto rápido,Completado,299.40
+915,O00915,186,4,28,2026-06-17,App FastFood Norte,Completado,130.10
+916,O00916,9410,6,15,2026-06-03,Delivery,Completado,9.90
+917,O00917,52,5,24,2026-05-03,Mostrador,Completado,180.20
+918,O00918,43,4,26,2026-04-23,Auto rápido,Pendiente,79.50
+919,O00919,8,1,26,2026-03-15,App FastFood Norte,Completado,20.10
+920,O00920,47,3,38,2026-02-04,Delivery,Pendiente,394.40
+921,O00921,15,5,,2026-05-20,Mostrador,Completado,230.30
+922,O00922,185,4,35,2026-03-18,Auto rápido,Completado,125.20
+923,O00923,31,1,40,28/05/2026,App FastFood Norte,Pendiente,289.50
+924,O00924,115,4,4,2026-04-22,Delivery,Completado,179.50
+925,O00925,76,1,35,2026-01-26,Mostrador,Cancelado,21.90
+926,O00926,22,1,16,2026-01-28,Auto rápido,Completado,442.80
+927,O00927,183,2,39,2026-06-24,App FastFood Norte,Completado,114.80
+928,O00928,111,6,30,2026-06-02,Delivery,Completado,115.20
+929,O00929,184,6,3,2026-05-20,Mostrador,Completado,310.50
+930,O00930,195,5,18,2026-04-19,Auto rápido,Pendiente,58.30
+931,O00931,146,3,30,2026-06-09,App FastFood Norte,Cancelado,231.50
+932,O00932,79,2,1,15/01/2026,Delivery,Observado,156.50
+933,O00933,105,1,7,2026-05-14,Mostrador,Cancelado,432.40
+934,O00934,1,5,1,2026-06-09,Auto rápido,Observado,56.70
+935,O00935,177,4,1,2026-03-16,App FastFood Norte,Pendiente,265.90
+936,O00936,166,5,20,2026-01-16,Delivery,Completado,223.90
+937,O00937,117,5,37,2026-01-17,Mostrador,Completado,84.60
+938,O00938,45,1,31,2026-03-22,Auto rápido,Pendiente,206.90
+939,O00939,68,6,13,2026-05-09,App FastFood Norte,Completado,249.50
+940,O00940,2,6,2,18/01/2026,Delivery,Completado,84.30
+941,O00941,69,3,13,2026-06-09,Mostrador,Cancelado,71.20
+942,O00942,81,4,39,2026-01-15,Auto rápido,Pendiente,1362.3
+943,O00943,165,6,1,2026-03-17,App FastFood Norte,Completado,519.53
+944,O00944,82,2,34,2026-04-07,Delivery,Completado,30.90
+945,O00945,37,2,2,2026-06-03,Mostrador,Pendiente,169.30
+946,O00946,13,4,32,2026-02-08,Auto rápido,Completado,20.10
+947,O00947,114,6,16,2026-03-16,App FastFood Norte,Completado,11.70
+948,O00948,182,6,22,2026-06-22,Delivery,Completado,225.80
+949,O00949,44,1,23,09/06/2026,Mostrador,Pendiente,40.20
+950,O00950,148,6,36,2026-03-09,Auto rápido,Observado,42.00
+951,O00951,181,2,14,20/05/2026,App FastFood Norte,Cancelado,173.40
+952,O00952,111,2,,2026-01-27,Delivery,Completado,209.70
+953,O00953,184,5,19,2026-05-28,Mostrador,Cancelado,113.40
+954,O00954,103,4,27,2026-01-23,Auto rápido,Completado,3409.92
+955,O00955,1,2,12,2026-01-18,App FastFood Norte,Cancelado,126.90
+956,O00956,135,5,38,2026-03-13,Delivery,Completado,269.90
+957,O00957,108,3,10,2026-06-11,Mostrador,Completado,19.50
+958,O00958,7,4,6,2026-04-22,Auto rápido,Completado,275.30
+959,O00959,155,3,37,2026-02-04,App FastFood Norte,Completado,198.90
+960,O00960,190,3,34,2026-02-24,Delivery,Cancelado,168.30
+961,O00961,173,3,2,2026-02-22,Mostrador,Completado,75.00
+962,O00962,136,1,3,2026-04-14,Auto rápido,Cancelado,314.70
+963,O00963,165,4,14,2026-03-20,App FastFood Norte,Completado,109.50
+964,O00964,106,5,31,2026-04-13,Delivery,Completado,71.30
+965,O00965,131,1,12,2026-04-02,Mostrador,Completado,40.80
+966,O00966,191,2,37,06/01/2026,Auto rápido,Completado,235.0
+967,O00967,148,3,33,26/06/2026,App FastFood Norte,Completado,48.40
+968,O00968,51,3,23,2026-02-16,Delivery,Cancelado,295.00
+969,O00969,77,4,,2026-04-12,Mostrador,Observado,184.90
+970,O00970,147,2,,2026-03-24,Auto rápido,Completado,197.70
+971,O00971,183,6,22,2026-02-07,App FastFood Norte,Completado,381.80
+972,O00972,58,6,27,2026-04-22,Delivery,Completado,254.50
+973,O00973,121,3,3,2026-01-01,Mostrador,Pendiente,329.30
+974,O00974,98,6,39,2026-05-20,Auto rápido,Cancelado,404.20
+975,O00975,122,6,17,2026-06-23,App FastFood Norte,Completado,78.80
+976,O00976,27,6,18,2026-03-28,Delivery,Observado,178.70
+977,O00977,122,5,22,2026-06-13,Mostrador,Completado,18.90
+978,O00978,146,2,26,2026-01-05,Auto rápido,Cancelado,38.30
+979,O00979,100,4,40,2026-05-21,App FastFood Norte,Completado,41.50
+980,O00980,54,4,36,2026-02-13,Delivery,Cancelado,93.90
+981,O00981,119,1,16,2026-04-27,Mostrador,Pendiente,113.40
+982,O00982,122,5,19,2026-04-04,Auto rápido,Cancelado,191.00
+983,O00983,72,1,37,2026-05-15,App FastFood Norte,Pendiente,155.10
+984,O00984,23,1,19,2026-02-24,Delivery,Pendiente,349.30
+985,O00985,135,6,26,2026-02-20,Mostrador,Completado,-3835.68
+986,O00986,95,5,9,2026-06-09,Auto rápido,Completado,127.50
+987,O00987,85,4,39,2026-05-01,App FastFood Norte,Completado,233.20
+988,O00988,154,4,16,2026-01-18,Delivery,Completado,187.80
+989,O00989,86,5,5,2026-01-13,Mostrador,Cancelado,7.80
+990,O00990,63,2,3,2026-06-23,Auto rápido,Pendiente,200.50
+991,O00991,68,5,16,2026-05-19,App FastFood Norte,Cancelado,113.10
+992,O00992,193,6,39,15/03/2026,Delivery,Completado,228.90
+993,O00993,129,5,1,2026-06-15,Mostrador,Completado,399.20
+994,O00994,12,6,4,2026-03-24,Auto rápido,Completado,189.50
+995,O00995,159,5,39,2026-06-25,App FastFood Norte,Pendiente,1572.18
+996,O00996,199,4,6,2026-03-20,Delivery,Cancelado,461.25
+997,O00997,15,2,22,2026-04-03,Mostrador,Completado,49.80
+998,O00998,57,2,10,2026-05-09,Auto rápido,Completado,151.20
+999,O00999,75,1,29,2026-04-19,App FastFood Norte,Completado,99.60
+1000,O01000,91,3,4,2026-04-20,Delivery,Observado,193.00
+1001,O01001,136,6,5,2026-04-20,Mostrador,Completado,467.96
+1002,O01002,93,4,13,2026-01-19,Auto rápido,Completado,313.14
+1003,O01003,14,3,20,2026-03-23,App FastFood Norte,Cancelado,5067.49
+1004,O01004,15,2,22,2026-04-03,Delivery,Completado,467.74
+1005,O01005,61,2,21,2026-01-23,Mostrador,Completado,1904.28
+1006,O01006,162,5,16,2026-02-06,Auto rápido,Completado,799.1
+1007,O01007,1,5,1,2026-06-09,App FastFood Norte,Observado,957.81
+1008,O01008,86,5,5,2026-06-18,Delivery,Cancelado,3367.72
+1009,O01009,65,3,14,2026-02-15,Mostrador,Completado,2568.54
+1010,O01010,132,4,8,2026-01-14,Auto rápido,Completado,3314.71

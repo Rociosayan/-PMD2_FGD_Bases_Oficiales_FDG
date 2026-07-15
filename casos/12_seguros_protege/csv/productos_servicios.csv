@@ -1,16 +1,31 @@
-﻿id_producto,codigo_producto,nombre_producto,categoria,precio_base,activo
-1,P0001,Servicio/Producto 01,Especializado,234.38,1
-2,P0002,Servicio/Producto 02,Premium,226.18,1
-3,P0003,Servicio/Producto 03,B?sico,316.17,1
-4,P0004,Servicio/Producto 04,Especializado,130.36,1
-5,P0005,Servicio/Producto 05,Especializado,355.52,1
-6,P0006,Servicio/Producto 06,Premium,318.71,1
-7,P0007,Servicio/Producto 07,Est?ndar,375.04,1
-8,P0008,Servicio/Producto 08,B?sico,46.38,1
-9,P0009,Servicio/Producto 09,Est?ndar,146.62,1
-10,P0010,Servicio/Producto 10,Est?ndar,27.22,1
-11,P0011,Servicio/Producto 11,B?sico,115.21,1
-12,P0012,Servicio/Producto 12,Premium,219.18,1
-13,P0013,Servicio/Producto 13,B?sico,126.25,1
-14,P0014,Servicio/Producto 14,Especializado,324.44,1
-15,P0015,Servicio/Producto 15,Especializado,264.43,1
+id_producto,codigo_producto,nombre_producto,categoria,precio_base,activo
+1,SP0001,Vida Individual Esencial,Vida,25.00,1
+2,SP0002,Vida Familiar Protegida,Vida,37.10,1
+3,SP0003,Vida con Ahorro,Vida,55.06,1
+4,SP0004,Vida Temporal 10 años,Vida,81.72,1
+5,SP0005,Vida Crédito Seguro,Vida,121.28,1
+6,SP0006,Vida Ejecutiva Premium,Vida,180.00,1
+7,SP0007,SOAT Particular,Vehicular,65.00,1
+8,SP0008,Vehicular Todo Riesgo,Vehicular,94.40,1
+9,SP0009,Vehicular Pérdida Total,Vehicular,137.10,1
+10,SP0010,Seguro para Taxi,Vehicular,199.12,1
+11,SP0011,Seguro para Motocicleta,Vehicular,289.19,1
+12,SP0012,Asistencia Vehicular Plus,Vehicular,420.00,1
+13,SP0013,Hogar Protegido Básico,Hogar,28.00,1
+14,SP0014,Hogar Todo Riesgo,Hogar,41.90,1
+15,SP0015,Seguro contra Sismo,Hogar,62.69,1
+16,SP0016,Protección de Electrodomésticos,Hogar,93.80,1
+17,SP0017,Asistencia Domiciliaria,Hogar,140.35,1
+18,SP0018,Seguro para Inquilinos,Hogar,210.00,1
+19,SP0019,Salud Ambulatoria,Salud,45.00,1
+20,SP0020,Salud Integral Familiar,Salud,68.95,1
+21,SP0021,Seguro Oncológico,Salud,105.64,1
+22,SP0022,Accidentes Personales,Salud,161.87,0
+23,SP0023,Renta por Hospitalización,Salud,248.01,1
+24,SP0024,Salud Internacional,Salud,380.00,1
+25,SP0025,Multirriesgo Pyme,Empresarial,95.00,1
+26,SP0026,Responsabilidad Civil Empresarial,Empresarial,140.83,1
+27,SP0027,Seguro de Transporte de Carga,Empresarial,208.76,1
+28,SP0028,Seguro de Maquinaria,Empresarial,309.45,1
+29,SP0029,Deshonestidad de Empleados,Empresarial,458.72,1
+30,SP0030,Cyber Seguro Empresarial,Empresarial,680.00,1

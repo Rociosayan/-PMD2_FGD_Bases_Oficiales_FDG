@@ -1,96 +1,149 @@
-﻿id_incidencia,codigo_incidencia,id_operacion,tipo_incidencia,severidad,fecha_reporte,estado_incidencia
-1,I00001,136,Falla de registro,Alta,2026-05-08,Abierta
-2,I00002,66,Reprogramaci?n,Media,2026-01-01,Abierta
-3,I00003,303,Falla de registro,Baja,2026-03-23,Abierta
-4,I00004,307,Reprogramaci?n,Alta,2026-06-06,Abierta
-5,I00005,254,Falla de registro,Baja,2026-03-01,Abierta
-6,I00006,470,Reprogramaci?n,Alta,2026-01-19,Abierta
-7,I00007,69,Dato inconsistente,Media,2026-02-07,En revisi?n
-8,I00008,395,Reprogramaci?n,Baja,2026-04-01,Cerrada
-9,I00009,309,Demora,Alta,2026-02-02,Abierta
-10,I00010,460,Dato inconsistente,Baja,2026-03-23,Cerrada
-11,I00011,290,Reprogramaci?n,Baja,2026-02-23,Cerrada
-12,I00012,478,Dato inconsistente,Alta,2026-06-09,En revisi?n
-13,I00013,24,Falla de registro,Baja,2026-04-01,Cerrada
-14,I00014,119,Demora,Media,2026-02-15,Cerrada
-15,I00015,226,Falla de registro,Baja,2026-06-29,Abierta
-16,I00016,42,Demora,Alta,2026-02-19,Abierta
-17,I00017,479,Reclamo,Baja,2026-04-29,Cerrada
-18,I00018,86,Reprogramaci?n,Alta,2026-04-16,En revisi?n
-19,I00019,443,Falla de registro,Alta,2026-02-18,Cerrada
-20,I00020,182,Demora,Media,2026-03-08,En revisi?n
-21,I00021,137,Falla de registro,Media,2026-06-08,En revisi?n
-22,I00022,25,Dato inconsistente,Baja,2026-02-13,Abierta
-23,I00023,435,Reclamo,Media,2026-01-18,En revisi?n
-24,I00024,329,Demora,Alta,2026-04-16,En revisi?n
-25,I00025,222,Falla de registro,Media,2026-04-07,Cerrada
-26,I00026,32,Dato inconsistente,Baja,2026-02-09,Cerrada
-27,I00027,29,Reclamo,Media,2026-02-13,En revisi?n
-28,I00028,245,Demora,Baja,2026-04-21,Abierta
-29,I00029,14,Dato inconsistente,Media,2026-02-11,En revisi?n
-30,I00030,430,Reprogramaci?n,Alta,2026-01-19,Abierta
-31,I00031,202,Reclamo,Media,2026-05-12,Abierta
-32,I00032,323,Demora,Alta,2026-04-28,Abierta
-33,I00033,451,Dato inconsistente,Media,2026-01-04,Cerrada
-34,I00034,297,Falla de registro,Alta,2026-05-15,Cerrada
-35,I00035,234,Reclamo,Media,2026-04-10,Cerrada
-36,I00036,227,Reprogramaci?n,Baja,2026-02-20,En revisi?n
-37,I00037,449,Dato inconsistente,Alta,2026-04-13,Cerrada
-38,I00038,376,Demora,Baja,2026-02-27,En revisi?n
-39,I00039,47,Dato inconsistente,Baja,2026-02-07,En revisi?n
-40,I00040,421,Demora,Media,2026-05-30,Abierta
-41,I00041,189,Falla de registro,Media,2026-05-10,Cerrada
-42,I00042,3,Falla de registro,Baja,2026-05-04,Abierta
-43,I00043,336,Reclamo,Alta,2026-01-17,En revisi?n
-44,I00044,306,Reprogramaci?n,Baja,2026-05-13,Abierta
-45,I00045,312,Falla de registro,Media,2026-06-17,Abierta
-46,I00046,145,Reclamo,Baja,2026-01-05,En revisi?n
-47,I00047,471,Reprogramaci?n,Alta,2026-05-23,Cerrada
-48,I00048,146,Reprogramaci?n,Alta,2026-04-13,En revisi?n
-49,I00049,230,Reprogramaci?n,Baja,2026-05-18,En revisi?n
-50,I00050,476,Demora,Alta,2026-03-27,En revisi?n
-51,I00051,362,Reprogramaci?n,Baja,2026-06-17,Abierta
-52,I00052,408,Dato inconsistente,Alta,2026-04-08,Abierta
-53,I00053,357,Reprogramaci?n,Media,2026-03-16,En revisi?n
-54,I00054,418,Falla de registro,Media,2026-05-23,Abierta
-55,I00055,1,Falla de registro,Media,2026-06-25,Cerrada
-56,I00056,305,Demora,Media,2026-06-03,Cerrada
-57,I00057,468,Reprogramaci?n,Alta,2026-05-18,Abierta
-58,I00058,26,Dato inconsistente,Alta,2026-06-11,En revisi?n
-59,I00059,178,Reprogramaci?n,Alta,2026-03-04,En revisi?n
-60,I00060,28,Demora,Baja,2026-03-26,Abierta
-61,I00061,59,Reclamo,Baja,2026-06-05,Cerrada
-62,I00062,221,Dato inconsistente,Baja,2026-05-05,Abierta
-63,I00063,293,Falla de registro,Media,2026-03-15,Cerrada
-64,I00064,138,Reclamo,Alta,2026-04-17,Cerrada
-65,I00065,103,Falla de registro,Media,2026-02-17,En revisi?n
-66,I00066,115,Reprogramaci?n,Alta,2026-06-12,Abierta
-67,I00067,11,Reclamo,Alta,2026-06-30,Abierta
-68,I00068,149,Dato inconsistente,Alta,2026-02-08,Cerrada
-69,I00069,484,Reprogramaci?n,Media,2026-03-07,Abierta
-70,I00070,91,Falla de registro,Media,2026-01-10,Cerrada
-71,I00071,109,Falla de registro,Alta,2026-03-24,Abierta
-72,I00072,432,Dato inconsistente,Media,2026-03-29,Cerrada
-73,I00073,375,Dato inconsistente,Media,2026-02-22,En revisi?n
-74,I00074,89,Demora,Baja,2026-01-02,Cerrada
-75,I00075,259,Demora,Alta,2026-02-03,Abierta
-76,I00076,127,Demora,Alta,2026-06-13,Cerrada
-77,I00077,15,Reclamo,Baja,2026-02-21,Cerrada
-78,I00078,448,Dato inconsistente,Baja,2026-04-23,En revisi?n
-79,I00079,403,Demora,Media,2026-04-01,Cerrada
-80,I00080,274,Dato inconsistente,Baja,2026-05-31,Abierta
-81,I00081,352,Falla de registro,Media,2026-01-31,Cerrada
-82,I00082,49,Reprogramaci?n,Baja,2026-02-07,Abierta
-83,I00083,414,Falla de registro,Media,2026-01-16,En revisi?n
-84,I00084,310,Reprogramaci?n,Media,2026-04-28,En revisi?n
-85,I00085,439,Reclamo,Baja,2026-05-23,Cerrada
-86,I00086,169,Dato inconsistente,Media,2026-05-09,Cerrada
-87,I00087,174,Reclamo,Alta,2026-05-15,En revisi?n
-88,I00088,153,Reprogramaci?n,Alta,2026-04-27,Cerrada
-89,I00089,244,Reclamo,Media,2026-03-10,Abierta
-90,I00090,201,Dato inconsistente,Baja,2026-05-10,Abierta
-91,I00091,480,Falla de registro,Alta,2026-06-16,Cerrada
-92,I00092,193,Falla de registro,Media,2026-01-24,Abierta
-93,I00093,161,Reclamo,Baja,2026-02-07,En revisi?n
-94,I00094,248,Dato inconsistente,Baja,2026-01-08,Cerrada
-95,I00095,279,Reclamo,Baja,2026-02-07,Cerrada
+id_incidencia,codigo_incidencia,id_operacion,tipo_incidencia,severidad,fecha_reporte,estado_incidencia
+1,I00001,6,Entrega tardía,Baja,2026-06-28,En revisión
+2,I00002,9,Dirección no ubicada,Baja,2026-04-10,Cerrada
+3,I00003,11,Paquete averiado,Media,2026-02-15,Cerrada
+4,I00004,30,Destinatario ausente,Baja,2026-02-22,Cerrada
+5,I00005,40,Pérdida en tránsito,Alta,2026-02-24,Abierta
+6,I00006,43,Entrega tardía,Baja,2026-05-09,Cerrada
+7,I00007,49,Dirección no ubicada,Alta,2026-02-01,En revisión
+8,I00008,57,Paquete averiado,Baja,2026-02-09,Abierta
+9,I00009,69,Destinatario ausente,Baja,2026-02-08,Cerrada
+10,I00010,75,Pérdida en tránsito,Baja,2026-03-21,En revisión
+11,I00011,78,Entrega tardía,Baja,2026-04-16,Cerrada
+12,I00012,97,Dirección no ubicada,Alta,2026-03-25,Abierta
+13,I00013,109,Paquete averiado,Baja,2026-02-25,Abierta
+14,I00014,124,Destinatario ausente,Baja,2026-05-03,En revisión
+15,I00015,128,Pérdida en tránsito,Baja,2026-03-14,En revisión
+16,I00016,130,Entrega tardía,Alta,2026-05-24,Cerrada
+17,I00017,134,Dirección no ubicada,Baja,2026-05-13,Abierta
+18,I00018,146,Paquete averiado,Baja,2026-03-18,Cerrada
+19,I00019,155,Destinatario ausente,Media,2026-02-19,En revisión
+20,I00020,161,Pérdida en tránsito,Alta,2026-03-10,En revisión
+21,I00021,163,Entrega tardía,Baja,2026-02-23,En revisión
+22,I00022,169,Dirección no ubicada,Alta,2026-06-17,Cerrada
+23,I00023,172,Paquete averiado,Alta,2026-03-17,Cerrada
+24,I00024,174,Destinatario ausente,Baja,2026-03-26,Cerrada
+25,I00025,178,Pérdida en tránsito,Media,2026-02-25,En revisión
+26,I00026,183,Entrega tardía,Media,2026-05-27,En revisión
+27,I00027,192,Dirección no ubicada,Media,2026-04-11,En revisión
+28,I00028,196,Paquete averiado,Alta,2026-04-13,Cerrada
+29,I00029,205,Destinatario ausente,Baja,2026-06-17,Abierta
+30,I00030,213,Pérdida en tránsito,Baja,2026-02-22,Cerrada
+31,I00031,217,Entrega tardía,Baja,2026-06-14,Cerrada
+32,I00032,228,Dirección no ubicada,Media,2026-02-02,Cerrada
+33,I00033,232,Paquete averiado,Baja,2026-02-22,Abierta
+34,I00034,236,Destinatario ausente,Media,2026-02-15,Cerrada
+35,I00035,252,Pérdida en tránsito,Alta,2026-04-28,Cerrada
+36,I00036,253,Entrega tardía,Media,2026-02-25,Cerrada
+37,I00037,267,Dirección no ubicada,Media,2026-05-18,Cerrada
+38,I00038,271,Paquete averiado,Media,2026-06-19,En revisión
+39,I00039,277,Destinatario ausente,Media,2026-02-21,Cerrada
+40,I00040,279,Pérdida en tránsito,Media,2026-02-16,Abierta
+41,I00041,283,Entrega tardía,Baja,2026-03-13,Abierta
+42,I00042,287,Dirección no ubicada,Media,2026-05-18,Cerrada
+43,I00043,313,Paquete averiado,Media,2026-05-21,Cerrada
+44,I00044,326,Destinatario ausente,Alta,2026-05-03,En revisión
+45,I00045,332,Pérdida en tránsito,Alta,2026-05-26,Abierta
+46,I00046,333,Entrega tardía,Media,2026-02-10,Cerrada
+47,I00047,341,Dirección no ubicada,Alta,2026-02-08,Abierta
+48,I00048,344,Paquete averiado,Media,2026-06-23,Cerrada
+49,I00049,349,Destinatario ausente,Alta,2026-03-16,Cerrada
+50,I00050,356,Pérdida en tránsito,Baja,2026-04-21,Abierta
+51,I00051,359,Entrega tardía,Media,2026-05-16,En revisión
+52,I00052,360,Dirección no ubicada,Alta,2026-04-21,Abierta
+53,I00053,367,Paquete averiado,Alta,2026-06-17,Cerrada
+54,I00054,372,Destinatario ausente,Alta,2026-06-24,Cerrada
+55,I00055,394,Pérdida en tránsito,Baja,2026-05-04,Cerrada
+56,I00056,397,Entrega tardía,Alta,2026-06-13,Abierta
+57,I00057,402,Dirección no ubicada,Baja,2026-05-26,Abierta
+58,I00058,404,Paquete averiado,Media,2026-02-18,En revisión
+59,I00059,423,Destinatario ausente,Baja,2026-04-20,En revisión
+60,I00060,425,Pérdida en tránsito,Baja,2026-06-04,Abierta
+61,I00061,426,Entrega tardía,Alta,2026-05-08,Abierta
+62,I00062,427,Dirección no ubicada,Baja,2026-04-09,Abierta
+63,I00063,445,Paquete averiado,Baja,2026-02-26,Cerrada
+64,I00064,456,Destinatario ausente,Baja,2026-06-20,Cerrada
+65,I00065,459,Pérdida en tránsito,Baja,2026-03-19,En revisión
+66,I00066,464,Entrega tardía,Media,2026-04-09,En revisión
+67,I00067,475,Dirección no ubicada,Baja,2026-05-02,Abierta
+68,I00068,479,Paquete averiado,Media,2026-03-15,Abierta
+69,I00069,483,Destinatario ausente,Media,2026-05-22,Abierta
+70,I00070,484,Pérdida en tránsito,Alta,2026-02-09,Cerrada
+71,I00071,488,Entrega tardía,Media,2026-04-01,Abierta
+72,I00072,493,Dirección no ubicada,Media,2026-06-20,En revisión
+73,I00073,512,Paquete averiado,Baja,2026-03-03,Abierta
+74,I00074,514,Destinatario ausente,Alta,2026-03-25,En revisión
+75,I00075,523,Pérdida en tránsito,Baja,2026-03-13,Abierta
+76,I00076,552,Entrega tardía,Alta,2026-03-19,Cerrada
+77,I00077,558,Dirección no ubicada,Alta,2026-06-23,Abierta
+78,I00078,560,Paquete averiado,Alta,2026-03-11,En revisión
+79,I00079,562,Destinatario ausente,Baja,2026-05-23,Cerrada
+80,I00080,571,Pérdida en tránsito,Media,2026-06-08,En revisión
+81,I00081,579,Entrega tardía,Media,2026-05-03,Abierta
+82,I00082,592,Dirección no ubicada,Alta,2026-05-12,Abierta
+83,I00083,607,Paquete averiado,Alta,2026-05-19,Cerrada
+84,I00084,610,Destinatario ausente,Media,2026-03-25,Cerrada
+85,I00085,615,Pérdida en tránsito,Baja,2026-02-23,En revisión
+86,I00086,631,Entrega tardía,Media,2026-05-23,Abierta
+87,I00087,634,Dirección no ubicada,Baja,2026-06-09,Abierta
+88,I00088,643,Paquete averiado,Media,2026-05-21,Cerrada
+89,I00089,659,Destinatario ausente,Media,2026-03-11,Cerrada
+90,I00090,668,Pérdida en tránsito,Media,2026-05-07,Abierta
+91,I00091,675,Entrega tardía,Baja,2026-04-03,Abierta
+92,I00092,677,Dirección no ubicada,Baja,2026-06-20,En revisión
+93,I00093,680,Paquete averiado,Alta,2026-06-14,En revisión
+94,I00094,682,Destinatario ausente,Baja,2026-02-20,Abierta
+95,I00095,689,Pérdida en tránsito,Media,2026-04-22,En revisión
+96,I00096,700,Entrega tardía,Media,2026-05-20,Abierta
+97,I00097,705,Dirección no ubicada,Media,2026-04-26,Abierta
+98,I00098,708,Paquete averiado,Baja,2026-02-05,Abierta
+99,I00099,712,Destinatario ausente,Alta,2026-04-11,Cerrada
+100,I00100,716,Pérdida en tránsito,Baja,2026-03-03,Abierta
+101,I00101,726,Entrega tardía,Media,2026-02-12,En revisión
+102,I00102,741,Dirección no ubicada,Alta,2026-06-08,Cerrada
+103,I00103,751,Paquete averiado,Alta,2026-04-15,En revisión
+104,I00104,753,Destinatario ausente,Alta,2026-06-07,En revisión
+105,I00105,754,Pérdida en tránsito,Media,2026-02-01,Abierta
+106,I00106,755,Entrega tardía,Media,2026-02-24,Abierta
+107,I00107,759,Dirección no ubicada,Baja,2026-02-07,Cerrada
+108,I00108,760,Paquete averiado,Baja,2026-02-28,Cerrada
+109,I00109,761,Destinatario ausente,Baja,2026-06-08,En revisión
+110,I00110,768,Pérdida en tránsito,Media,2026-06-21,Abierta
+111,I00111,770,Entrega tardía,Alta,2026-02-04,En revisión
+112,I00112,772,Dirección no ubicada,Media,2026-04-20,En revisión
+113,I00113,775,Paquete averiado,Media,2026-02-22,En revisión
+114,I00114,779,Destinatario ausente,Media,2026-02-06,Cerrada
+115,I00115,804,Pérdida en tránsito,Alta,2026-04-08,Cerrada
+116,I00116,806,Entrega tardía,Media,2026-06-13,En revisión
+117,I00117,808,Dirección no ubicada,Baja,2026-04-15,Cerrada
+118,I00118,828,Paquete averiado,Alta,2026-06-10,Abierta
+119,I00119,830,Destinatario ausente,Media,2026-05-15,Abierta
+120,I00120,832,Pérdida en tránsito,Baja,2026-06-03,Cerrada
+121,I00121,835,Entrega tardía,Baja,2026-06-28,En revisión
+122,I00122,856,Dirección no ubicada,Alta,2026-04-09,Abierta
+123,I00123,857,Paquete averiado,Baja,2026-03-28,En revisión
+124,I00124,861,Destinatario ausente,Baja,2026-02-24,Abierta
+125,I00125,862,Pérdida en tránsito,Media,2026-03-18,En revisión
+126,I00126,865,Entrega tardía,Media,2026-06-23,Cerrada
+127,I00127,867,Dirección no ubicada,Media,2026-04-12,Cerrada
+128,I00128,873,Paquete averiado,Media,2026-03-01,Abierta
+129,I00129,884,Destinatario ausente,Alta,2026-05-13,Cerrada
+130,I00130,885,Pérdida en tránsito,Alta,2026-04-28,Cerrada
+131,I00131,887,Entrega tardía,Media,2026-05-23,Abierta
+132,I00132,890,Dirección no ubicada,Media,2026-05-20,Cerrada
+133,I00133,892,Paquete averiado,Alta,2026-06-20,En revisión
+134,I00134,895,Destinatario ausente,Media,2026-03-21,Cerrada
+135,I00135,902,Pérdida en tránsito,Media,2026-02-18,Abierta
+136,I00136,903,Entrega tardía,Media,2026-06-10,En revisión
+137,I00137,904,Dirección no ubicada,Media,2026-06-04,En revisión
+138,I00138,912,Paquete averiado,Media,2026-05-14,En revisión
+139,I00139,922,Destinatario ausente,Alta,2026-06-02,En revisión
+140,I00140,926,Pérdida en tránsito,Alta,2026-05-10,En revisión
+141,I00141,937,Entrega tardía,Media,2026-06-09,Abierta
+142,I00142,963,Dirección no ubicada,Media,2026-04-18,En revisión
+143,I00143,965,Paquete averiado,Baja,2026-02-02,Cerrada
+144,I00144,966,Destinatario ausente,Baja,2026-03-02,Cerrada
+145,I00145,970,Pérdida en tránsito,Alta,2026-02-16,Cerrada
+146,I00146,974,Entrega tardía,Media,2026-04-21,Cerrada
+147,I00147,980,Dirección no ubicada,Baja,2026-02-11,Abierta
+148,I00148,988,Paquete averiado,Alta,2026-02-18,Cerrada

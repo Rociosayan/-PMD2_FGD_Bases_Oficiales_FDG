@@ -1,0 +1,41 @@
+id_empleado,codigo_empleado,nombres,apellidos,num_documento,cargo,id_sede,correo,sueldo,fecha_ingreso
+1,E0001,Pamela,Rivera Cruz,12611954,Técnico electricista,2,pamela.rivera@energyhome_servicios.pe,4036.93,2026-03-09
+2,E0002,Hugo,Espinoza Ramos,22954066,Instalador fotovoltaico,4,hugo.espinoza@energyhome_servicios.pe,2439.84,2026-02-25
+3,E0003,Lucía,Cruz Paredes,22217221,Asesor energético,4,lucía.cruz@energyhome_servicios.pe,2256.46,2026-02-06
+4,E0004,Rosa,Ríos Ninaquispe,99281728,Operador de monitoreo,4,rosa.ríos@energyhome_servicios.pe,1493.47,2026-01-12
+5,E0005,Lucía,Vargas Vargas,58962869,Supervisor de mantenimiento,1,lucía.vargas@energyhome_servicios.pe,2205.03,2026-03-09
+6,E0006,Pamela,Torres Díaz,14993025,Jefe de proyectos,4,pamela.torres@energyhome_servicios.pe,6155.71,2026-01-07
+7,E0007,Fernando,Ramos Vargas,33831696,Técnico electricista,4,fernando.ramos@energyhome_servicios.pe,,2026-02-11
+8,E0008,Carlos,Castillo Palomino,70014840,Instalador fotovoltaico,4,carlos.castillo@energyhome_servicios.pe,1742.16,2026-01-25
+9,E0009,Jorge,Cárdenas Vargas,46569283,Asesor energético,6,jorge.cárdenas@energyhome_servicios.pe,1404.95,2026-03-19
+10,E0010,Natalia,Sánchez Castillo,80752092,Operador de monitoreo,2,natalia.sánchez@energyhome_servicios.pe,2097.01,2026-03-11
+11,E0011,Karla,Ponce Vargas,70038897,Supervisor de mantenimiento,4,karla.ponce@energyhome_servicios.pe,3752.16,2026-01-02
+12,E0012,Carlos,Villanueva Aguirre,53115343,Jefe de proyectos,4,carlos.villanueva@energyhome_servicios.pe,2496.92,2026-02-19
+13,E0013,Gabriela,Castillo Rojas,24809861,Técnico electricista,5,gabriela.castillo@energyhome_servicios.pe,4280.09,2026-02-27
+14,E0014,José,Huamán Cornejo,35042790,Instalador fotovoltaico,3,josé.huamán@energyhome_servicios.pe,1902.9,2026-02-01
+15,E0015,Víctor,Salazar Rojas,79296111,Asesor energético,6,víctor.salazar@energyhome_servicios.pe,6036.9,2026-03-19
+16,E0016,Pedro,Paredes Díaz,51195705,Operador de monitoreo,2,pedro.paredes@energyhome_servicios.pe,,2026-02-09
+17,E0017,Raúl,Cornejo Vargas,95414447,Supervisor de mantenimiento,1,raúl.cornejo@energyhome_servicios.pe,5094.12,2026-01-18
+18,E0018,Julia,Aguirre Sánchez,76868693,Jefe de proyectos,5,julia.aguirre@energyhome_servicios.pe,2840.42,2026-03-23
+19,E0019,Bruno,Palomino Rivera,22685947,Técnico electricista,6,bruno.palomino@energyhome_servicios.pe,2675.9,2026-02-22
+20,E0020,Renzo,Aguirre Ninaquispe,56953330,Instalador fotovoltaico,4,renzo.aguirre@energyhome_servicios.pe,2139.55,2026-02-05
+21,E0021,Daniela,Villanueva Zevallos,80348327,Asesor energético,1,daniela.villanueva@energyhome_servicios.pe,1851.07,2026-02-25
+22,E0022,Raúl,Flores Díaz,26190275,Operador de monitoreo,1,raúl.flores@energyhome_servicios.pe,,2026-02-11
+23,E0023,Ana,Rojas Quispe,45068971,Supervisor de mantenimiento,3,ana.rojas@energyhome_servicios.pe,3550.52,2026-03-03
+24,E0024,Renzo,Romero Mendoza,82952700,Jefe de proyectos,6,renzo.romero@energyhome_servicios.pe,5968.97,2026-03-03
+25,E0025,Víctor,Díaz Zevallos,23099877,Técnico electricista,6,víctor.díaz@energyhome_servicios.pe,5128.92,2026-01-13
+26,E0026,Bruno,Ninaquispe Aguirre,29903057,Instalador fotovoltaico,3,bruno.ninaquispe@energyhome_servicios.pe,3711.36,2026-03-04
+27,E0027,Paola,Quispe Chávez,86530974,Asesor energético,3,paola.quispe@energyhome_servicios.pe,5933.17,2026-03-01
+28,E0028,Diego,Ramos Sánchez,39050514,Operador de monitoreo,1,diego.ramos@energyhome_servicios.pe,5025.52,2026-02-25
+29,E0029,Pamela,Paredes Vargas,38542128,Supervisor de mantenimiento,3,pamela.paredes@energyhome_servicios.pe,2240.9,2026-01-21
+30,E0030,Óscar,Salazar Ríos,52124578,Jefe de proyectos,1,óscar.salazar@energyhome_servicios.pe,4935.37,2026-03-21
+31,E0031,Sergio,Mendoza Ninaquispe,22249601,Técnico electricista,5,sergio.mendoza@energyhome_servicios.pe,1284.29,2026-03-23
+32,E0032,José,Rojas Cruz,51031490,Instalador fotovoltaico,2,josé.rojas@energyhome_servicios.pe,,2026-02-23
+33,E0033,Pamela,Palomino Sánchez,17762529,Asesor energético,4,pamela.palomino@energyhome_servicios.pe,4938.1,2026-03-13
+34,E0034,Sofía,Romero Torres,97713126,Operador de monitoreo,1,sofía.romero@energyhome_servicios.pe,6334.27,2026-03-08
+35,E0035,Raúl,Lévano Cornejo,96781314,Supervisor de mantenimiento,1,raúl.lévano@energyhome_servicios.pe,4603.41,2026-03-26
+36,E0036,Verónica,Díaz Mendoza,99302503,Jefe de proyectos,3,verónica.díaz@energyhome_servicios.pe,4647.83,2026-01-06
+37,E0037,María,Huamán Vargas,96465745,Técnico electricista,4,maría.huamán@energyhome_servicios.pe,,2026-03-25
+38,E0038,Daniela,Villanueva Rojas,52433120,Instalador fotovoltaico,2,daniela.villanueva@energyhome_servicios.pe,2412.31,2026-02-15
+39,E0039,Bruno,Espinoza Huamán,53522526,Asesor energético,3,bruno.espinoza@energyhome_servicios.pe,,2026-03-22
+40,E0040,Luis,Vargas Quispe,20573223,Operador de monitoreo,3,luis.vargas@energyhome_servicios.pe,6024.59,2026-02-03

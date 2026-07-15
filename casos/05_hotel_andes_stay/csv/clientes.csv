@@ -1,0 +1,209 @@
+id_cliente,codigo_cliente,tipo_documento,num_documento,nombres,apellidos,correo,telefono,distrito,segmento,fecha_registro,nacionalidad
+1,C0001,CE,55845637,Óscar,Sánchez Chávez,óscar1@correo.com,935451418,Breña,Huésped nacional,2026-01-11,EE.UU.
+2,C0002,DNI,30396514,Jorge,Ramos Ramos,,911343903,Independencia,Huésped internacional,2026-03-23,Ecuador
+3,C0003,RUC,89431000,Natalia,Huamán Ramos,natalia3@correo.com,939281095,Villa El Salvador,Corporativo,2026-04-13,Chile
+4,C0004,DNI,19215695,Sergio,Gutiérrez Rivera,sergio4@correo.com,927202242,San Juan de Lurigancho,Grupo turístico,2026-05-20,Chile
+5,C0005,DNI,89367944,Ricardo,Mendoza Rojas,,992030112,Comas,Huésped nacional,2026-05-13,Chile
+6,C0006,DNI,66598065,Daniela,Salazar Ponce,daniela6correo.com,,Breña,Huésped internacional,2026-03-25,Colombia
+7,C0007,RUC,62243367,Óscar,Cruz Gutiérrez,óscar7@correo.com,912986329,Lince,Corporativo,2026-02-08,Perú
+8,C0008,RUC,67069195,Manuel,Bautista Sánchez,manuel8@correo.com,928475729,San Juan de Lurigancho,Grupo turístico,2026-04-03,Colombia
+9,C0009,DNI,15952030,Luis,Gutiérrez Paredes,luis9@correo.com,993119652,San Juan de Lurigancho,Huésped nacional,2026-04-22,Colombia
+10,C0010,DNI,63852721,Luis,Paredes Castillo,luis10@correo.com,925367848,La Molina,Huésped internacional,2026-05-14,Perú
+11,C0011,DNI,12635097,Andrés,Cruz Ríos,andrés11@correo.com,919260208,Los Olivos,Corporativo,2026-05-18,EE.UU.
+12,C0012,RUC,81259525,Pedro,Lévano Romero,pedro12@correo.com,962603366,Callao,Grupo turístico,2026-01-28,EE.UU.
+13,C0013,RUC,13612416,Luis,Gutiérrez Quispe,luis13@correo.com,947548073,La Molina,Huésped nacional,2026-02-20,Colombia
+14,C0014,DNI,13351093,José,Espinoza Mendoza,josé14@correo.com,922058536,Comas,Huésped internacional,2026-01-23,Colombia
+15,C0015,DNI,92703825,Miguel,Palomino Ríos,miguel15@correo.com,914860659,Independencia,Corporativo,2026-05-17,Colombia
+16,C0016,DNI,83880052,Karla,Lévano Cornejo,karla16correo.com,987348425,,Grupo turístico,2026-04-07,Chile
+17,C0017,DNI,225177,Pamela,Ninaquispe Gutiérrez,pamela17@correo.com,970050852,Villa El Salvador,Huésped nacional,2026-05-21,Perú
+18,C0018,CE,18717742,Renzo,Chávez Ríos,,965270127,Chorrillos,Huésped internacional,2026-02-03,Chile
+19,C0019,DNI,36320172,Rosa,Rivera Salazar,rosa19@correo.com,,San Juan de Lurigancho,Corporativo,2026-04-13,Colombia
+20,C0020,RUC,886132,Melissa,Sánchez Ninaquispe,melissa20@correo.com,968734053,San Juan de Lurigancho,Grupo turístico,2026-01-10,Ecuador
+21,C0021,RUC,84061084,Ana,Huamán Torres,ana21@correo.com,,Lince,Huésped nacional,2026-04-28,España
+22,C0022,DNI,84704541,Rosa,Cárdenas Cruz,rosa22@correo.com,928340764,Independencia,Huésped internacional,2026-04-05,Colombia
+23,C0023,CE,26173586,Lucía,Ninaquispe Palomino,lucía23@correo.com,,Rímac,Corporativo,2026-04-26,Chile
+24,C0024,DNI,35807202,Iván,Castillo Bautista,iván24@correo.com,965359949,Lince,Grupo turístico,2026-05-05,Colombia
+25,C0025,RUC,24416816,Isabel,Palomino Cornejo,isabel25@correo.com,913368835,Los Olivos,Huésped nacional,2026-01-24,Colombia
+26,C0026,CE,16809246,Lucía,Quispe Sánchez,lucía26@correo.com,928101245,San Miguel,Huésped internacional,2026-01-07,EE.UU.
+27,C0027,RUC,34516813,Manuel,Zevallos Lévano,manuel27@correo.com,996559308,Rímac,Corporativo,2026-01-24,Chile
+28,C0028,DNI,46760965,Carmen,Ríos Quispe,carmen28correo.com,933454481,Comas,Grupo turístico,2026-04-03,España
+29,C0029,RUC,58779447,Óscar,Bautista Lévano,óscar29correo.com,996625573,Surco,Huésped nacional,2026-04-27,Perú
+30,C0030,CE,56206706,Claudia,Rivera Paredes,claudia30@correo.com,996994437,Comas,Huésped internacional,2026-04-10,EE.UU.
+31,C0031,CE,88547215,Julia,Díaz Lévano,julia31@correo.com,945308878,Villa El Salvador,Corporativo,2026-02-19,Colombia
+32,C0032,DNI,55067257,Julia,Salazar Quispe,julia32@correo.com,998816521,Villa El Salvador,Grupo turístico,2026-03-11,Colombia
+33,C0033,CE,28090828,Luis,Palomino Aguirre,luis33@correo.com,913273960,Comas,Huésped nacional,2026-02-04,Colombia
+34,C0034,RUC,11361408,María,Ponce Cornejo,maría34@correo.com,959779062,Independencia,Huésped internacional,2026-05-05,Ecuador
+35,C0035,DNI,47572845,Verónica,Romero Aguirre,verónica35@correo.com,,Lince,Corporativo,2026-02-24,Chile
+36,C0036,DNI,77111928,Carlos,Zevallos Lévano,carlos36@correo.com,992767885,Breña,Grupo turístico,2026-01-13,Argentina
+37,C0037,DNI,85720475,Bruno,Ponce Lévano,bruno37@correo.com,983043870,Rímac,Huésped nacional,2026-02-01,Colombia
+38,C0038,DNI,88574911,Claudia,Quispe Ramos,claudia38@correo.com,972329436,Ate,Huésped internacional,2026-03-05,España
+39,C0039,DNI,83182048,Sofía,Lévano Vargas,,929247784,Rímac,Corporativo,2026-02-15,Perú
+40,C0040,DNI,58289014,Sofía,Díaz Rivera,sofía40@correo.com,926408785,Ate,Grupo turístico,2026-02-28,Ecuador
+41,C0041,DNI,74107075,Ana,Paredes Aguirre,ana41@correo.com,998036130,Independencia,Huésped nacional,2026-04-02,Argentina
+42,C0042,DNI,23718861,Patricia,Ramos Villanueva,patricia42@correo.com,936144801,Rímac,Huésped internacional,2026-05-22,España
+43,C0043,RUC,69737439,Iván,Vargas Ninaquispe,iván43correo.com,965089802,Comas,Corporativo,2026-01-19,Ecuador
+44,C0044,DNI,26114947,Melissa,Salazar Torres,,927295130,San Borja,Grupo turístico,2026-01-13,Chile
+45,C0045,DNI,79224488,Víctor,Rivera Rojas,víctor45@correo.com,958838183,Rímac,Huésped nacional,2026-03-16,Perú
+46,C0046,DNI,88714007,Álvaro,Cruz Bautista,álvaro46@correo.com,949108238,Callao,Huésped internacional,2026-04-28,Colombia
+47,C0047,DNI,26671803,Natalia,Villanueva Flores,natalia47@correo.com,975658329,La Molina,Corporativo,2026-05-02,Chile
+48,C0048,RUC,36714021,Carlos,Cárdenas Ninaquispe,carlos48@correo.com,996994400,Callao,Grupo turístico,2026-03-15,Chile
+49,C0049,DNI,21012893,Víctor,Salazar Cornejo,víctor49@correo.com,999370943,Ate,Huésped nacional,2026-03-10,Ecuador
+50,C0050,DNI,74646055,Bruno,Quispe Ramos,bruno50@correo.com,983421066,San Borja,Huésped internacional,2026-01-09,Perú
+51,C0051,DNI,73901965,Elena,Ninaquispe Villanueva,elena51@correo.com,927350409,La Molina,Corporativo,2026-02-13,EE.UU.
+52,C0052,CE,80497070,José,Cornejo Cornejo,josé52@correo.com,950389924,Callao,Grupo turístico,2026-01-01,España
+53,C0053,CE,33334258,Natalia,Castillo Chávez,natalia53correo.com,940433266,Independencia,Huésped nacional,2026-03-04,Perú
+54,C0054,CE,10645415,Claudia,Huamán Zevallos,claudia54@correo.com,986361106,Independencia,Huésped internacional,2026-03-09,Perú
+55,C0055,DNI,82571369,Álvaro,Rojas Cárdenas,álvaro55@correo.com,997501627,Rímac,Corporativo,2026-03-05,Perú
+56,C0056,CE,37405637,Pamela,Quispe Aguirre,pamela56@correo.com,949003118,San Miguel,Grupo turístico,2026-01-09,Chile
+57,C0057,DNI,18106635,Víctor,Quispe Huamán,víctor57@correo.com,969578937,La Molina,Huésped nacional,2026-04-18,Colombia
+58,C0058,CE,10413670,Carmen,Ríos Cruz,carmen58@correo.com,999909635,Los Olivos,Huésped internacional,2026-01-13,EE.UU.
+59,C0059,DNI,40711328,Víctor,Gutiérrez Rivera,víctor59correo.com,959863580,,Corporativo,2026-05-15,Ecuador
+60,C0060,DNI,33699583,Natalia,Díaz Villanueva,natalia60@correo.com,940599844,Independencia,Grupo turístico,2026-05-04,Chile
+61,C0061,DNI,34122907,Carlos,Díaz Ninaquispe,carlos61@correo.com,938146304,Villa El Salvador,Huésped nacional,2026-02-04,Ecuador
+62,C0062,RUC,77944231,Renzo,Espinoza Palomino,renzo62@correo.com,,Independencia,Huésped internacional,2026-01-08,Colombia
+63,C0063,DNI,78305295,Fernando,Ríos Rojas,fernando63@correo.com,,Surco,Corporativo,2026-01-28,Chile
+64,C0064,DNI,56267384,Óscar,Huamán Ramos,óscar64@correo.com,983263339,Breña,Grupo turístico,2026-03-05,Ecuador
+65,C0065,RUC,21968810,Sergio,Villanueva Ramos,sergio65@correo.com,996949458,Callao,Huésped nacional,2026-01-02,Colombia
+66,C0066,CE,55736699,Hugo,Huamán Díaz,hugo66@correo.com,958575503,Lince,Huésped internacional,2026-03-10,EE.UU.
+67,C0067,RUC,27072911,Manuel,Villanueva Chávez,manuel67@correo.com,,San Miguel,Corporativo,2026-02-22,Perú
+68,C0068,DNI,802941,Lucía,Ninaquispe Díaz,lucía68@correo.com,958965266,Breña,Grupo turístico,2026-01-06,Argentina
+69,C0069,DNI,92525794,Diego,Romero Cornejo,diego69@correo.com,925205627,Rímac,Huésped nacional,2026-03-27,España
+70,C0070,RUC,22847359,Sofía,Paredes Zevallos,sofía70@correo.com,993616376,Comas,Huésped internacional,2026-05-03,Argentina
+71,C0071,RUC,26468767,José,Ríos Ramos,josé71@correo.com,,Ate,Corporativo,2026-05-24,España
+72,C0072,DNI,28601059,Carmen,Cárdenas Chávez,carmen72@correo.com,988512781,San Borja,Grupo turístico,2026-04-03,Chile
+73,C0073,RUC,77836671,Manuel,Díaz Flores,manuel73@correo.com,917236959,Rímac,Huésped nacional,2026-04-19,Colombia
+74,C0074,DNI,88448750,Manuel,Villanueva Romero,manuel74@correo.com,995689776,Rímac,Huésped internacional,2026-02-08,EE.UU.
+75,C0075,CE,22741380,Gabriela,Cornejo Torres,gabriela75@correo.com,993153830,Breña,Corporativo,2026-05-11,Perú
+76,C0076,DNI,44143304,Luis,Cruz Palomino,luis76@correo.com,965509575,Villa El Salvador,Grupo turístico,2026-01-09,Chile
+77,C0077,DNI,22908818,Lucía,Espinoza Quispe,lucía77@correo.com,932648895,La Molina,Huésped nacional,2026-02-02,Argentina
+78,C0078,CE,33527607,Sergio,Ponce Ramos,sergio78@correo.com,987982290,Rímac,Huésped internacional,2026-04-21,Colombia
+79,C0079,CE,31534256,Sofía,Cárdenas Gutiérrez,sofía79@correo.com,943117683,Chorrillos,Corporativo,2026-04-25,EE.UU.
+80,C0080,DNI,70462156,Jorge,Sánchez Torres,jorge80@correo.com,959745477,Breña,Grupo turístico,2026-05-08,Perú
+81,C0081,RUC,75298425,Natalia,Ponce Paredes,natalia81@correo.com,983363220,Lince,Huésped nacional,2026-04-02,Colombia
+82,C0082,CE,16912333,Miguel,Villanueva Lévano,miguel82@correo.com,917864195,Los Olivos,Huésped internacional,2026-01-13,Chile
+83,C0083,CE,89372185,Isabel,Cruz Ríos,isabel83@correo.com,990309822,Villa El Salvador,Corporativo,2026-04-16,EE.UU.
+84,C0084,CE,11929487,Renzo,Cárdenas Vargas,renzo84@correo.com,914226255,San Juan de Lurigancho,Grupo turístico,2026-03-03,Ecuador
+85,C0085,DNI,62481298,Iván,Ramos Mendoza,iván85@correo.com,999565967,San Miguel,Huésped nacional,2026-03-25,Ecuador
+86,C0086,DNI,77411761,Claudia,Ramos Sánchez,claudia86@correo.com,988311911,La Molina,Huésped internacional,2026-04-20,Ecuador
+87,C0087,DNI,60182371,Hugo,Quispe Díaz,hugo87correo.com,990786719,Chorrillos,Corporativo,2026-01-17,España
+88,C0088,DNI,37203190,Sofía,Villanueva Paredes,sofía88@correo.com,961951994,Chorrillos,Grupo turístico,2026-04-17,España
+89,C0089,DNI,12402466,Fernando,Gutiérrez Ponce,fernando89@correo.com,919015126,Ate,Huésped nacional,2026-05-17,Argentina
+90,C0090,DNI,32216366,Ricardo,Lévano Ponce,,984159662,,Huésped internacional,2026-03-15,EE.UU.
+91,C0091,CE,96535070,Sofía,Torres Cruz,sofía91@correo.com,966278906,Los Olivos,Corporativo,2026-04-23,Ecuador
+92,C0092,DNI,847840,Renzo,Ramos Palomino,,916370550,Surco,Grupo turístico,2026-04-12,Argentina
+93,C0093,DNI,75708782,Manuel,Huamán Paredes,manuel93@correo.com,989750399,Miraflores,Huésped nacional,2026-05-17,España
+94,C0094,DNI,15888213,Gabriela,Cárdenas Rojas,gabriela94@correo.com,997572603,Callao,Huésped internacional,2026-03-04,Ecuador
+95,C0095,DNI,95871782,Elena,Flores Paredes,elena95@correo.com,993741645,San Borja,Corporativo,2026-02-05,Argentina
+96,C0096,DNI,47994550,Jorge,Huamán Cornejo,jorge96@correo.com,939195532,San Miguel,Grupo turístico,2026-04-05,Argentina
+97,C0097,RUC,57010395,Paola,Ponce Chávez,,911903910,Ate,Huésped nacional,2026-04-08,Chile
+98,C0098,RUC,94824557,Lucía,Gutiérrez Quispe,lucía98@correo.com,920962036,Villa El Salvador,Huésped internacional,2026-01-10,Chile
+99,C0099,DNI,591126,Isabel,Ponce Villanueva,isabel99@correo.com,969056695,San Borja,Corporativo,2026-03-23,Perú
+100,C0100,DNI,34762983,Álvaro,Romero Huamán,álvaro100@correo.com,983610660,San Miguel,Grupo turístico,2026-04-26,Argentina
+101,C0101,DNI,82389769,Pamela,Rivera Palomino,pamela101@correo.com,917117853,,Huésped nacional,2026-05-01,España
+102,C0102,DNI,23025957,Víctor,Díaz Rojas,víctor102@correo.com,955689545,,Huésped internacional,2026-04-25,Ecuador
+103,C0103,DNI,82360480,Milagros,Díaz Díaz,,948249909,Breña,Corporativo,2026-02-18,Perú
+104,C0104,DNI,83978213,Karla,Lévano Ramos,karla104@correo.com,981316082,Independencia,Grupo turístico,2026-03-07,Perú
+105,C0105,DNI,40193297,Raúl,Huamán Flores,raúl105@correo.com,913440380,Rímac,Huésped nacional,2026-05-05,Argentina
+106,C0106,DNI,972496,Diego,Zevallos Ponce,diego106@correo.com,963107101,Lince,Huésped internacional,2026-01-08,España
+107,C0107,DNI,83659893,Miguel,Bautista Huamán,miguel107@correo.com,994066008,San Miguel,Corporativo,2026-01-16,Ecuador
+108,C0108,DNI,65986629,Elena,Rivera Chávez,elena108@correo.com,916951456,Independencia,Grupo turístico,2026-02-04,Colombia
+109,C0109,DNI,57224973,Hugo,Chávez Quispe,hugo109@correo.com,940573826,Ate,Huésped nacional,2026-02-07,Ecuador
+110,C0110,CE,74190079,Lucía,Villanueva Chávez,lucía110@correo.com,974868707,Surco,Huésped internacional,2026-01-02,Chile
+111,C0111,CE,97285627,Pedro,Palomino Gutiérrez,pedro111@correo.com,960863009,Villa El Salvador,Corporativo,2026-01-08,Ecuador
+112,C0112,DNI,80346220,Carmen,Rivera Chávez,carmen112@correo.com,981359933,Rímac,Grupo turístico,2026-04-22,Argentina
+113,C0113,RUC,46443591,Fernando,Villanueva Rojas,,985132193,Independencia,Huésped nacional,2026-03-22,Ecuador
+114,C0114,DNI,58302503,Rosa,Quispe Castillo,rosa114@correo.com,992206186,San Juan de Lurigancho,Huésped internacional,2026-02-13,Perú
+115,C0115,DNI,54054630,Julia,Cárdenas Rivera,julia115@correo.com,954268788,Independencia,Corporativo,2026-03-09,Perú
+116,C0116,CE,96313118,Bruno,Palomino Salazar,bruno116@correo.com,951040958,Rímac,Grupo turístico,2026-01-08,Colombia
+117,C0117,DNI,23449702,Isabel,Sánchez Chávez,isabel117@correo.com,922143295,Los Olivos,Huésped nacional,2026-01-06,Perú
+118,C0118,DNI,10123624,Elena,Salazar Espinoza,elena118@correo.com,950456420,Callao,Huésped internacional,2026-01-22,Argentina
+119,C0119,DNI,66910024,Sofía,Romero Ninaquispe,sofía119@correo.com,911544462,San Borja,Corporativo,2026-03-03,Colombia
+120,C0120,DNI,36180849,Sofía,Bautista Rivera,sofía120@correo.com,949051288,San Borja,Grupo turístico,2026-01-12,Colombia
+121,C0121,CE,46420955,Luis,Torres Chávez,luis121@correo.com,916640490,Lince,Huésped nacional,2026-01-05,Chile
+122,C0122,RUC,29953254,Julia,Romero Zevallos,julia122@correo.com,,San Juan de Lurigancho,Huésped internacional,2026-05-19,Chile
+123,C0123,DNI,32294066,Melissa,Flores Flores,melissa123@correo.com,962933264,,Corporativo,2026-05-12,EE.UU.
+124,C0124,DNI,47459026,Lucía,Vargas Torres,lucía124@correo.com,982209299,San Borja,Grupo turístico,2026-03-07,Argentina
+125,C0125,DNI,35783301,Pedro,Cornejo Ponce,pedro125@correo.com,954391933,Comas,Huésped nacional,2026-03-06,Ecuador
+126,C0126,CE,74117010,Carlos,Villanueva Villanueva,carlos126@correo.com,919003884,Surco,Huésped internacional,2026-04-09,Colombia
+127,C0127,DNI,27258431,Ricardo,Salazar Ponce,ricardo127@correo.com,912445480,Los Olivos,Corporativo,2026-01-27,España
+128,C0128,RUC,99415696,Natalia,Ponce Paredes,natalia128@correo.com,929728488,Ate,Grupo turístico,2026-04-12,Argentina
+129,C0129,DNI,28085238,Ana,Rivera Sánchez,,966393338,Villa El Salvador,Huésped nacional,2026-02-11,Colombia
+130,C0130,DNI,58891928,Karla,Salazar Gutiérrez,karla130@correo.com,,,Huésped internacional,2026-03-27,Argentina
+131,C0131,DNI,80083049,Diego,Sánchez Quispe,diego131@correo.com,,Chorrillos,Corporativo,2026-04-05,Perú
+132,C0132,CE,22051262,María,Rivera Cárdenas,maría132@correo.com,926709072,Breña,Grupo turístico,2026-03-07,España
+133,C0133,RUC,51564983,Bruno,Bautista Rojas,bruno133@correo.com,961459325,La Molina,Huésped nacional,2026-02-02,Argentina
+134,C0134,DNI,77243393,Óscar,Cruz Sánchez,óscar134@correo.com,940020225,Callao,Huésped internacional,2026-05-18,EE.UU.
+135,C0135,DNI,67923009,Claudia,Ponce Ramos,claudia135@correo.com,991505324,Breña,Corporativo,2026-04-26,EE.UU.
+136,C0136,DNI,69538140,Patricia,Ríos Díaz,patricia136@correo.com,988373447,Independencia,Grupo turístico,2026-01-19,EE.UU.
+137,C0137,DNI,53060829,Karla,Ponce Lévano,karla137@correo.com,982839233,Lince,Huésped nacional,2026-04-11,Chile
+138,C0138,DNI,57179041,Julia,Castillo Ninaquispe,julia138@correo.com,981752777,San Borja,Huésped internacional,2026-04-20,Chile
+139,C0139,DNI,76629606,Miguel,Gutiérrez Palomino,miguel139@correo.com,965975396,Chorrillos,Corporativo,2026-02-04,Chile
+140,C0140,CE,10675787,Melissa,Cruz Aguirre,melissa140@correo.com,965368617,San Borja,Grupo turístico,2026-05-02,Ecuador
+141,C0141,DNI,21985051,Diego,Quispe Ramos,diego141@correo.com,917105386,Miraflores,Huésped nacional,2026-05-11,Perú
+142,C0142,DNI,68774334,Elena,Huamán Torres,elena142@correo.com,941024421,San Juan de Lurigancho,Huésped internacional,2026-01-04,EE.UU.
+143,C0143,DNI,62846055,Hugo,Huamán Villanueva,hugo143@correo.com,979864833,Surco,Corporativo,2026-04-07,Chile
+144,C0144,DNI,28395886,Paola,Chávez Ríos,paola144@correo.com,949682446,San Miguel,Grupo turístico,2026-01-17,Perú
+145,C0145,CE,35957489,Karla,Paredes Paredes,karla145@correo.com,997065821,Callao,Huésped nacional,2026-04-24,España
+146,C0146,DNI,94783279,Fernando,Rivera Chávez,fernando146@correo.com,943744256,Independencia,Huésped internacional,2026-04-11,EE.UU.
+147,C0147,DNI,96805621,Ricardo,Díaz Villanueva,ricardo147@correo.com,974217556,Chorrillos,Corporativo,2026-02-14,Perú
+148,C0148,CE,87695680,Luis,Ramos Cárdenas,luis148@correo.com,,Comas,Grupo turístico,2026-04-04,Perú
+149,C0149,DNI,89432924,Ricardo,Aguirre Ramos,,969531672,Independencia,Huésped nacional,2026-05-26,Argentina
+150,C0150,RUC,11229097,Pedro,Torres Rojas,pedro150correo.com,948182465,San Miguel,Huésped internacional,2026-03-13,Argentina
+151,C0151,DNI,83527471,Milagros,Salazar Espinoza,milagros151@correo.com,938595795,Independencia,Corporativo,2026-04-14,Argentina
+152,C0152,DNI,521927,Natalia,Sánchez Romero,natalia152@correo.com,967759472,Los Olivos,Grupo turístico,2026-05-27,Argentina
+153,C0153,RUC,432293,Andrés,Cruz Ninaquispe,andrés153@correo.com,939470929,San Juan de Lurigancho,Huésped nacional,2026-01-19,España
+154,C0154,DNI,44680791,Manuel,Chávez Cárdenas,manuel154@correo.com,984711887,San Miguel,Huésped internacional,2026-02-03,EE.UU.
+155,C0155,CE,73592146,Carlos,Ramos Bautista,carlos155@correo.com,998245370,Los Olivos,Corporativo,2026-04-02,Argentina
+156,C0156,CE,71119956,Karla,Cornejo Zevallos,karla156@correo.com,929227573,Villa El Salvador,Grupo turístico,2026-05-20,Argentina
+157,C0157,DNI,62255509,Verónica,Huamán Vargas,verónica157@correo.com,967633654,Ate,Huésped nacional,2026-05-14,Perú
+158,C0158,DNI,62507851,Isabel,Sánchez Villanueva,isabel158@correo.com,946319764,Ate,Huésped internacional,2026-04-23,Ecuador
+159,C0159,RUC,59125871,Álvaro,Villanueva Vargas,álvaro159@correo.com,932031833,San Borja,Corporativo,2026-03-25,Ecuador
+160,C0160,DNI,38752743,Jorge,Flores Ninaquispe,jorge160@correo.com,993892201,Independencia,Grupo turístico,2026-02-24,Perú
+161,C0161,DNI,21435500,Bruno,Flores Bautista,bruno161@correo.com,946730015,Independencia,Huésped nacional,2026-03-26,España
+162,C0162,DNI,10170853,Pamela,Cárdenas Villanueva,pamela162@correo.com,975961989,Miraflores,Huésped internacional,2026-02-03,Chile
+163,C0163,DNI,57916795,Gabriela,Castillo Rivera,gabriela163@correo.com,922588715,Los Olivos,Corporativo,2026-01-06,EE.UU.
+164,C0164,DNI,19962322,Daniela,Ríos Ponce,daniela164@correo.com,910559901,Lince,Grupo turístico,2026-04-22,Perú
+165,C0165,DNI,38089776,Bruno,Flores Ríos,bruno165@correo.com,995953142,Los Olivos,Huésped nacional,2026-05-09,Chile
+166,C0166,DNI,99985055,María,Torres Huamán,,989148699,Callao,Huésped internacional,2026-04-15,Argentina
+167,C0167,DNI,35430722,Gabriela,Huamán Mendoza,gabriela167@correo.com,959640311,Breña,Corporativo,2026-01-23,EE.UU.
+168,C0168,DNI,75488166,Miguel,Aguirre Ninaquispe,miguel168@correo.com,929659664,Independencia,Grupo turístico,2026-05-26,Chile
+169,C0169,DNI,93533300,Isabel,Ramos Quispe,isabel169@correo.com,934988196,,Huésped nacional,2026-03-02,Perú
+170,C0170,DNI,85558021,Karla,Cruz Mendoza,karla170@correo.com,941007380,Comas,Huésped internacional,2026-02-07,Argentina
+171,C0171,CE,75685967,Daniela,Ramos Palomino,daniela171@correo.com,993126812,Independencia,Corporativo,2026-01-04,España
+172,C0172,CE,60350720,Jorge,Chávez Ninaquispe,jorge172@correo.com,946129829,Callao,Grupo turístico,2026-02-26,Chile
+173,C0173,DNI,43949049,Álvaro,Espinoza Torres,álvaro173@correo.com,,Villa El Salvador,Huésped nacional,2026-03-18,Chile
+174,C0174,DNI,80597394,Bruno,Zevallos Chávez,bruno174@correo.com,922766096,Rímac,Huésped internacional,2026-03-02,Argentina
+175,C0175,DNI,91332024,Manuel,Ramos Vargas,manuel175@correo.com,934047811,Villa El Salvador,Corporativo,2026-05-06,Argentina
+176,C0176,CE,58932800,Melissa,Ninaquispe Romero,melissa176correo.com,998642704,Breña,Grupo turístico,2026-02-15,Argentina
+177,C0177,DNI,93014939,Iván,Huamán Huamán,iván177@correo.com,989674593,Rímac,Huésped nacional,2026-05-23,Ecuador
+178,C0178,DNI,60561137,Hugo,Castillo Sánchez,hugo178@correo.com,,Los Olivos,Huésped internacional,2026-03-18,Colombia
+179,C0179,DNI,750769,Karla,Lévano Díaz,karla179@correo.com,944907797,Comas,Corporativo,2026-03-12,Colombia
+180,C0180,RUC,73890925,Carmen,Cruz Torres,carmen180@correo.com,966789057,Breña,Grupo turístico,2026-01-18,Colombia
+181,C0181,CE,40419819,Julia,Torres Salazar,julia181@correo.com,946552153,Comas,Huésped nacional,2026-03-24,Argentina
+182,C0182,DNI,78449300,Pedro,Ramos Lévano,pedro182@correo.com,988941252,San Juan de Lurigancho,Huésped internacional,2026-04-13,EE.UU.
+183,C0183,CE,15390546,Milagros,Sánchez Zevallos,milagros183@correo.com,931589111,Los Olivos,Corporativo,2026-04-14,Colombia
+184,C0184,RUC,51548005,Melissa,Villanueva Aguirre,melissa184@correo.com,927497188,Callao,Grupo turístico,2026-04-19,Argentina
+185,C0185,DNI,22946578,Julia,Ríos Cornejo,julia185@correo.com,962789591,La Molina,Huésped nacional,2026-02-02,Perú
+186,C0186,RUC,27817491,Elena,Rojas Cárdenas,,926288634,Breña,Huésped internacional,2026-04-19,Ecuador
+187,C0187,CE,319426,Paola,Espinoza Rivera,paola187@correo.com,922344528,Chorrillos,Corporativo,2026-02-08,Colombia
+188,C0188,DNI,55751801,Melissa,Ramos Huamán,melissa188@correo.com,947546047,Los Olivos,Grupo turístico,2026-04-18,España
+189,C0189,DNI,69307357,Miguel,Cruz Bautista,miguel189@correo.com,,,Huésped nacional,2026-03-06,Argentina
+190,C0190,DNI,48873593,Pamela,Zevallos Cruz,pamela190@correo.com,972705499,San Juan de Lurigancho,Huésped internacional,2026-01-15,Chile
+191,C0191,DNI,13959854,Víctor,Lévano Cárdenas,víctor191@correo.com,967479241,Villa El Salvador,Corporativo,2026-03-13,Perú
+192,C0192,DNI,66882854,Álvaro,Huamán Cárdenas,álvaro192@correo.com,999238527,Lince,Grupo turístico,2026-05-01,EE.UU.
+193,C0193,RUC,67905627,Claudia,Ninaquispe Torres,claudia193@correo.com,993022378,Lince,Huésped nacional,2026-02-03,Colombia
+194,C0194,DNI,59857140,Manuel,Romero Ramos,manuel194@correo.com,978696349,Chorrillos,Huésped internacional,2026-01-20,Ecuador
+195,C0195,DNI,44357945,Isabel,Rojas Aguirre,isabel195@correo.com,991362796,Rímac,Corporativo,2026-04-18,EE.UU.
+196,C0196,CE,18448276,Ricardo,Ninaquispe Díaz,ricardo196@correo.com,938038012,Villa El Salvador,Grupo turístico,2026-05-18,Chile
+197,C0197,DNI,40730680,Ana,Romero Bautista,ana197@correo.com,985475195,Villa El Salvador,Huésped nacional,2026-01-13,Colombia
+198,C0198,RUC,94506917,Daniela,Romero Gutiérrez,daniela198@correo.com,943442551,Independencia,Huésped internacional,2026-02-18,EE.UU.
+199,C0199,DNI,41489288,Milagros,Ponce Chávez,milagros199@correo.com,997568023,San Juan de Lurigancho,Corporativo,2026-01-19,Chile
+200,C0200,CE,87886239,Milagros,Espinoza Ninaquispe,milagros200@correo.com,983391459,Rímac,Grupo turístico,2026-04-16,Colombia
+201,C0201,DNI,28601059,Carmen,Cárdenas Chávez,carmen72@correo.com,988512781,San Borja,Huésped nacional,2026-04-03,Chile
+202,C0202,DNI,28085238,Ana,Rivera Sánchez,,966393338,Villa El Salvador,Huésped internacional,2026-02-11,Colombia
+203,C0203,RUC,77836671,Manuel,Díaz Flores,manuel73@correo.com,917236959,Rímac,Corporativo,2026-04-19,Colombia
+204,C0204,DNI,55751801,Melissa,Ramos Huamán,melissa188@correo.com,947546047,Los Olivos,Grupo turístico,2026-04-18,España
+205,C0205,CE,18717742,Renzo,Chávez Ríos,,965270127,Chorrillos,Huésped nacional,2026-02-03,Chile
+206,C0206,CE,74190079,Lucía,Villanueva Chávez,lucía110@correo.com,974868707,Surco,Huésped internacional,2026-01-02,Chile
+207,C0207,RUC,99415696,Natalia,Ponce Paredes,natalia128@correo.com,929728488,Ate,Corporativo,2026-04-12,Argentina
+208,C0208,RUC,29953254,Julia,Romero Zevallos,julia122@correo.com,,San Juan de Lurigancho,Grupo turístico,2026-05-19,Chile

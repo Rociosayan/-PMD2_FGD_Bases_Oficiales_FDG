@@ -1,501 +1,1011 @@
-﻿id_operacion,codigo_operacion,id_entidad,id_sede,id_producto,fecha_operacion,cantidad,monto_total,estado,canal
-1,O00001,33,1,12,2026-05-04,1,389.22,Pendiente,Presencial
-2,O00002,20,5,10,2026-01-01,1,129.57,Completado,Call Center
-3,O00003,18,4,12,2026-06-17,6,2204.52,Observado,App
-4,O00004,2,1,3,2026-05-25,2,604.34,Cancelado,Presencial
-5,O00005,21,1,11,2026-01-13,2,75.99,Completado,App
-6,O00006,9,2,1,2026-02-15,5,1175.49,Completado,Presencial
-7,O00007,21,4,13,2026-03-24,2,549.18,Completado,Web
-8,O00008,40,6,6,2026-03-21,2,321.07,Completado,Call Center
-9,O00009,75,5,14,2026-03-18,1,363.88,Observado,Presencial
-10,O00010,52,3,15,2026-05-20,6,517.84,Completado,Presencial
-11,O00011,73,4,1,2026-05-13,4,1171.26,Completado,App
-12,O00012,67,2,7,2026-05-30,2,458.38,Completado,App
-13,O00013,14,5,7,2026-04-01,2,478.48,Completado,Web
-14,O00014,65,6,4,2026-01-02,5,1252.35,Observado,Presencial
-15,O00015,71,2,2,2026-01-02,1,264.45,Completado,Presencial
-16,O00016,56,1,13,2026-06-17,5,1629.69,Completado,Call Center
-17,O00017,59,1,8,2026-02-22,3,143.99,Cancelado,App
-18,O00018,19,3,4,2026-01-30,5,1609.23,Cancelado,Call Center
-19,O00019,59,5,1,2026-02-04,3,927.76,Completado,Presencial
-20,O00020,16,4,14,2026-01-03,1,336.5,Completado,Presencial
-21,O00021,2,3,13,2026-03-12,1,328.08,Completado,Call Center
-22,O00022,40,2,6,2026-05-07,1,186.1,Completado,Presencial
-23,O00023,68,2,1,2026-06-27,2,528.74,Completado,Call Center
-24,O00024,41,6,4,2026-01-11,2,523.24,Completado,Call Center
-25,O00025,31,2,7,2026-06-14,3,808.4,Completado,Presencial
-26,O00026,45,2,11,2026-02-13,5,185.29,Completado,Call Center
-27,O00027,33,1,9,2026-05-22,1,396.85,Completado,Web
-28,O00028,76,5,15,2026-01-30,1,126.25,Completado,Call Center
-29,O00029,69,4,15,2026-01-15,1,94.87,Completado,App
-30,O00030,5,1,10,2026-04-26,5,757.73,Completado,App
-31,O00031,20,5,13,2026-03-12,3,848.56,Pendiente,Presencial
-32,O00032,9,4,14,2026-06-24,2,611.16,Completado,App
-33,O00033,22,5,2,2026-05-28,5,1332.52,Completado,Call Center
-34,O00034,1,6,6,2026-05-02,2,297.39,Completado,Call Center
-35,O00035,2,1,6,2026-05-14,4,555.39,Pendiente,Web
-36,O00036,4,5,15,2026-01-08,2,193.51,Cancelado,Presencial
-37,O00037,50,2,4,2026-05-12,1,330.24,Completado,Call Center
-38,O00038,52,1,2,2026-03-13,1,255.87,Completado,Call Center
-39,O00039,10,3,5,2026-03-07,4,1280.75,Completado,App
-40,O00040,41,2,10,2026-04-02,2,297.98,Completado,Web
-41,O00041,54,4,9,2026-01-01,4,1742.0,Pendiente,Web
-42,O00042,1,6,10,2026-06-03,6,776.7,Completado,Presencial
-43,O00043,35,5,11,2026-06-14,3,107.76,Completado,Web
-44,O00044,33,6,13,2026-04-12,4,1210.43,Observado,Call Center
-45,O00045,64,5,1,2026-06-04,4,940.7,Pendiente,Presencial
-46,O00046,14,5,6,2026-06-30,2,373.74,Completado,Web
-47,O00047,23,1,9,2026-06-03,6,2439.61,Completado,Web
-48,O00048,59,4,4,2026-04-07,3,844.37,Completado,Web
-49,O00049,2,3,2,2026-02-19,1,347.33,Completado,Call Center
-50,O00050,61,1,14,2026-06-30,3,775.23,Completado,Web
-51,O00051,59,3,9,2026-03-01,4,1578.5,Completado,Presencial
-52,O00052,57,4,12,2026-04-02,1,361.43,Completado,Presencial
-53,O00053,57,4,13,2026-06-24,4,1012.66,Completado,Call Center
-54,O00054,54,5,13,2026-05-18,4,1405.59,Completado,Call Center
-55,O00055,12,2,11,2026-03-02,4,140.76,Completado,Call Center
-56,O00056,23,4,11,2026-01-23,1,35.75,Completado,Web
-57,O00057,6,1,7,2026-02-12,2,625.29,Completado,Call Center
-58,O00058,9,6,14,2026-04-14,1,274.37,Completado,Web
-59,O00059,34,5,2,2026-04-03,5,1546.08,Observado,Web
-60,O00060,39,1,8,2026-01-06,4,225.87,Pendiente,Presencial
-61,O00061,61,4,4,2026-06-10,5,1205.09,Completado,Presencial
-62,O00062,79,4,8,2026-01-24,5,226.07,Completado,Web
-63,O00063,61,4,12,2026-01-07,4,1463.36,Completado,Presencial
-64,O00064,42,6,11,2026-04-05,4,111.34,Completado,Call Center
-65,O00065,14,5,4,2026-06-17,2,572.41,Observado,App
-66,O00066,68,1,3,2026-04-15,2,465.99,Completado,App
-67,O00067,9,6,13,2026-05-28,6,1892.83,Observado,Presencial
-68,O00068,12,1,7,2026-04-18,1,302.43,Completado,Presencial
-69,O00069,29,5,8,2026-02-27,3,158.29,Completado,Web
-70,O00070,9,6,11,2026-03-01,4,116.6,Completado,Call Center
-71,O00071,11,3,14,2026-01-13,3,999.06,Completado,Web
-72,O00072,18,1,8,2026-02-25,4,202.92,Completado,Call Center
-73,O00073,56,3,12,2026-01-20,6,1817.61,Cancelado,Web
-74,O00074,31,4,8,2026-03-02,1,57.31,Completado,App
-75,O00075,22,2,4,2026-01-19,3,755.85,Completado,Web
-76,O00076,53,6,10,2026-02-10,3,482.93,Pendiente,Presencial
-77,O00077,47,1,15,2026-05-03,2,181.34,Completado,Call Center
-78,O00078,31,1,3,2026-04-18,4,863.14,Completado,Call Center
-79,O00079,14,2,6,2026-02-26,6,847.79,Completado,Presencial
-80,O00080,35,3,11,2026-04-26,5,180.46,Completado,Presencial
-81,O00081,61,1,2,2026-01-20,2,599.69,Completado,App
-82,O00082,33,3,2,2026-06-27,6,1850.85,Cancelado,Web
-83,O00083,72,6,5,2026-03-27,4,1433.74,Observado,Web
-84,O00084,68,2,13,2026-05-24,4,1453.6,Completado,Call Center
-85,O00085,10,2,5,2026-06-30,5,1470.92,Completado,App
-86,O00086,7,2,11,2026-04-14,5,155.33,Observado,Call Center
-87,O00087,44,2,2,2026-05-06,1,319.5,Completado,Presencial
-88,O00088,29,2,9,2026-04-15,4,1248.68,Completado,App
-89,O00089,51,6,5,2026-02-14,6,1885.85,Completado,Presencial
-90,O00090,26,6,14,2026-01-13,3,863.83,Completado,Call Center
-91,O00091,9,6,1,2026-04-03,4,1107.76,Completado,Call Center
-92,O00092,33,1,10,2026-03-24,6,742.98,Cancelado,Presencial
-93,O00093,36,4,9,2026-05-13,3,1103.7,Completado,Call Center
-94,O00094,38,1,10,2026-03-19,6,781.16,Completado,Call Center
-95,O00095,12,4,2,2026-01-27,6,1963.57,Completado,App
-96,O00096,33,4,15,2026-06-30,5,538.33,Pendiente,Web
-97,O00097,64,5,4,2026-05-12,6,1908.45,Completado,App
-98,O00098,60,2,11,2026-04-10,5,179.94,Completado,App
-99,O00099,8,4,11,2026-03-02,2,68.76,Completado,Web
-100,O00100,61,2,5,2026-06-13,2,753.67,Completado,Web
-101,O00101,42,2,7,2026-02-11,2,512.83,Completado,App
-102,O00102,38,3,12,2026-04-16,3,1141.64,Completado,Presencial
-103,O00103,74,6,14,2026-06-27,3,998.27,Completado,Web
-104,O00104,42,2,15,2026-06-15,5,484.04,Completado,Web
-105,O00105,38,1,5,2026-03-19,5,1566.58,Completado,Web
-106,O00106,52,2,13,2026-02-10,6,1947.02,Completado,Presencial
-107,O00107,56,3,4,2026-06-20,4,1369.47,Completado,Web
-108,O00108,80,1,1,2026-05-16,1,229.76,Completado,Web
-109,O00109,68,1,13,2026-05-24,4,1337.55,Completado,Call Center
-110,O00110,4,4,5,2026-05-22,1,360.55,Completado,Presencial
-111,O00111,67,5,6,2026-02-21,1,129.35,Completado,Call Center
-112,O00112,27,5,15,2026-03-26,3,376.32,Observado,Web
-113,O00113,80,3,14,2026-03-22,1,349.26,Completado,Web
-114,O00114,64,2,5,2026-04-07,4,1216.76,Observado,Presencial
-115,O00115,39,6,1,2026-01-06,4,1245.64,Completado,App
-116,O00116,53,3,12,2026-06-16,3,1229.58,Completado,Presencial
-117,O00117,12,1,10,2026-02-27,6,1038.36,Cancelado,Presencial
-118,O00118,9,1,8,2026-02-06,6,369.88,Cancelado,App
-119,O00119,1,4,7,2026-05-31,3,804.28,Completado,App
-120,O00120,68,4,14,2026-05-23,2,545.73,Completado,Call Center
-121,O00121,13,1,4,2026-03-04,5,1404.34,Completado,Web
-122,O00122,1,4,2,2026-06-04,3,929.03,Completado,App
-123,O00123,69,5,2,2026-02-03,2,576.52,Completado,App
-124,O00124,21,3,6,2026-04-14,2,352.91,Completado,Presencial
-125,O00125,10,6,4,2026-04-05,3,967.98,Observado,Presencial
-126,O00126,33,5,8,2026-04-19,1,47.89,Pendiente,App
-127,O00127,25,6,7,2026-03-29,5,1535.53,Pendiente,Call Center
-128,O00128,80,2,2,2026-04-27,6,1670.71,Completado,App
-129,O00129,77,3,9,2026-04-16,2,797.69,Cancelado,Web
-130,O00130,65,1,1,2026-04-16,4,903.26,Completado,Presencial
-131,O00131,14,5,12,2026-01-02,4,1525.11,Pendiente,Presencial
-132,O00132,63,5,4,2026-06-10,5,1487.77,Completado,App
-133,O00133,65,1,14,2026-03-16,5,1477.75,Completado,Presencial
-134,O00134,41,4,11,2026-03-08,3,94.69,Completado,Web
-135,O00135,67,3,8,2026-05-06,4,182.06,Completado,Web
-136,O00136,18,4,12,2026-03-18,2,840.9,Pendiente,Presencial
-137,O00137,33,2,7,2026-02-06,1,300.38,Observado,App
-138,O00138,75,1,12,2026-05-23,5,1647.12,Completado,App
-139,O00139,14,1,13,2026-06-26,1,311.53,Completado,Web
-140,O00140,55,5,7,2026-02-17,6,1787.03,Completado,App
-141,O00141,10,4,14,2026-04-04,2,609.96,Completado,Web
-142,O00142,38,1,5,2026-04-06,2,786.81,Completado,Call Center
-143,O00143,1,2,14,2026-05-23,3,1064.99,Completado,Presencial
-144,O00144,28,2,15,2026-01-04,1,106.83,Completado,Presencial
-145,O00145,3,6,3,2026-06-20,2,557.4,Completado,App
-146,O00146,73,2,13,2026-06-06,4,1214.12,Completado,Presencial
-147,O00147,18,1,2,2026-01-03,6,1924.84,Completado,Web
-148,O00148,32,6,13,2026-02-20,6,1738.27,Cancelado,Web
-149,O00149,39,6,14,2026-03-31,4,1419.01,Completado,App
-150,O00150,44,1,5,2026-02-14,1,342.76,Completado,Call Center
-151,O00151,5,4,15,2026-02-25,1,120.5,Completado,Presencial
-152,O00152,37,2,5,2026-05-24,6,1845.38,Completado,Web
-153,O00153,47,1,1,2026-01-24,4,1103.04,Observado,App
-154,O00154,68,1,12,2026-02-20,6,1987.33,Completado,Call Center
-155,O00155,79,5,9,2026-04-04,2,683.51,Completado,Web
-156,O00156,11,6,12,2026-05-16,4,1348.82,Completado,Call Center
-157,O00157,42,4,5,2026-05-29,6,1977.46,Completado,Call Center
-158,O00158,23,3,1,2026-04-20,4,1297.8,Completado,Web
-159,O00159,64,2,8,2026-02-11,3,141.75,Completado,Presencial
-160,O00160,58,1,4,2026-03-20,1,267.4,Completado,Presencial
-161,O00161,21,2,4,2026-03-26,2,505.14,Cancelado,Presencial
-162,O00162,66,4,12,2026-05-16,4,1574.43,Observado,Web
-163,O00163,59,5,12,2026-05-02,4,1709.61,Observado,Web
-164,O00164,2,3,4,2026-02-27,3,1014.96,Cancelado,Call Center
-165,O00165,68,3,14,2026-04-19,1,271.47,Completado,Call Center
-166,O00166,34,1,15,2026-01-30,2,188.41,Completado,App
-167,O00167,38,2,2,2026-03-05,3,819.55,Completado,App
-168,O00168,52,4,4,2026-04-27,1,308.4,Completado,Call Center
-169,O00169,38,3,7,2026-04-21,5,1412.74,Pendiente,Presencial
-170,O00170,8,3,7,2026-03-29,3,755.15,Completado,App
-171,O00171,78,6,4,2026-01-08,1,262.22,Completado,Presencial
-172,O00172,33,6,2,2026-01-15,3,896.84,Completado,Call Center
-173,O00173,11,6,7,2026-01-03,2,590.25,Completado,Web
-174,O00174,59,6,1,2026-03-16,6,1948.22,Pendiente,Call Center
-175,O00175,72,2,9,2026-04-21,6,2654.39,Completado,Presencial
-176,O00176,53,1,15,2026-05-28,4,483.18,Pendiente,Web
-177,O00177,10,5,5,2026-04-19,5,1798.54,Completado,Web
-178,O00178,54,5,9,2026-05-09,5,1899.53,Completado,App
-179,O00179,43,4,13,2026-01-25,4,1181.49,Completado,Presencial
-180,O00180,49,5,1,2026-03-15,6,1571.01,Completado,Web
-181,O00181,70,3,12,2026-05-13,5,1938.8,Pendiente,Presencial
-182,O00182,55,5,8,2026-02-24,3,170.48,Pendiente,Web
-183,O00183,55,6,5,2026-05-17,1,325.59,Completado,Web
-184,O00184,14,5,14,2026-03-03,3,803.24,Completado,Presencial
-185,O00185,77,5,8,2026-06-10,3,137.02,Observado,Call Center
-186,O00186,65,3,1,2026-02-10,3,717.7,Completado,App
-187,O00187,47,3,15,2026-03-07,4,432.92,Completado,Presencial
-188,O00188,63,6,8,2026-01-22,5,228.72,Pendiente,App
-189,O00189,45,4,4,2026-06-02,5,1207.47,Completado,Presencial
-190,O00190,53,1,11,2026-05-20,6,178.98,Observado,Call Center
-191,O00191,74,5,7,2026-05-23,4,1036.69,Pendiente,Call Center
-192,O00192,13,3,14,2026-05-09,2,688.86,Completado,Web
-193,O00193,62,6,4,2026-01-01,4,1039.53,Completado,App
-194,O00194,5,2,11,2026-05-03,4,111.15,Completado,Presencial
-195,O00195,60,1,4,2026-02-21,1,340.06,Completado,App
-196,O00196,5,2,14,2026-01-16,5,1687.74,Completado,App
-197,O00197,8,4,14,2026-03-22,2,547.39,Cancelado,App
-198,O00198,42,3,15,2026-05-14,4,369.17,Completado,Call Center
-199,O00199,30,5,8,2026-02-07,5,257.83,Completado,Web
-200,O00200,61,6,14,2026-01-25,5,1547.78,Completado,App
-201,O00201,80,1,2,2026-03-28,3,733.44,Completado,App
-202,O00202,72,5,5,2026-04-19,2,779.3,Completado,App
-203,O00203,55,3,14,2026-06-11,4,1305.51,Completado,Presencial
-204,O00204,57,2,15,2026-05-10,6,543.98,Completado,App
-205,O00205,58,2,9,2026-01-29,5,2120.42,Pendiente,Web
-206,O00206,75,1,15,2026-02-14,3,330.89,Cancelado,Web
-207,O00207,3,6,1,2026-02-22,2,473.69,Observado,App
-208,O00208,32,4,14,2026-04-10,2,716.64,Completado,Web
-209,O00209,65,6,7,2026-06-18,4,863.06,Pendiente,Presencial
-210,O00210,37,1,2,2026-06-16,3,967.8,Completado,App
-211,O00211,62,1,2,2026-05-11,1,283.14,Completado,Call Center
-212,O00212,49,5,14,2026-04-30,2,661.26,Completado,Presencial
-213,O00213,42,2,8,2026-05-26,2,94.18,Observado,Call Center
-214,O00214,12,6,1,2026-01-01,1,274.41,Completado,Presencial
-215,O00215,4,1,4,2026-03-21,1,253.41,Completado,Web
-216,O00216,35,6,6,2026-06-21,4,699.19,Completado,Web
-217,O00217,25,6,1,2026-03-14,5,1486.42,Observado,App
-218,O00218,71,2,6,2026-06-22,1,156.22,Pendiente,Web
-219,O00219,52,3,9,2026-05-29,6,2683.43,Completado,Presencial
-220,O00220,9,4,7,2026-02-17,1,292.76,Completado,Presencial
-221,O00221,5,5,4,2026-05-12,2,531.27,Completado,App
-222,O00222,14,1,15,2026-04-02,5,461.08,Observado,Presencial
-223,O00223,53,5,10,2026-06-26,4,711.45,Completado,Call Center
-224,O00224,22,1,11,2026-03-13,3,113.31,Completado,App
-225,O00225,46,1,13,2026-01-03,4,1087.57,Completado,Call Center
-226,O00226,1,1,7,2026-06-18,2,507.6,Observado,Call Center
-227,O00227,21,5,12,2026-05-29,2,691.61,Completado,App
-228,O00228,47,6,9,2026-05-21,4,1755.92,Observado,Presencial
-229,O00229,30,2,8,2026-02-13,5,261.85,Completado,Presencial
-230,O00230,56,1,6,2026-05-21,3,531.77,Completado,App
-231,O00231,3,4,9,2026-06-26,3,1079.88,Completado,Presencial
-232,O00232,17,5,11,2026-05-12,5,144.36,Completado,Presencial
-233,O00233,13,1,2,2026-02-07,2,694.86,Completado,Call Center
-234,O00234,59,5,9,2026-06-19,4,1530.1,Completado,App
-235,O00235,26,1,4,2026-04-30,2,538.5,Observado,Call Center
-236,O00236,66,3,5,2026-06-16,1,275.0,Completado,Web
-237,O00237,5,5,7,2026-05-08,5,1425.86,Completado,Web
-238,O00238,53,3,1,2026-04-27,4,974.99,Completado,Call Center
-239,O00239,22,1,13,2026-06-06,1,357.7,Completado,Web
-240,O00240,2,6,8,2026-02-16,3,141.54,Completado,App
-241,O00241,42,4,8,2026-05-28,1,48.55,Completado,Presencial
-242,O00242,3,5,12,2026-04-03,5,1849.3,Completado,Call Center
-243,O00243,7,1,14,2026-03-07,6,1768.95,Cancelado,Web
-244,O00244,55,5,5,2026-06-03,2,799.96,Completado,Call Center
-245,O00245,7,4,6,2026-04-06,2,369.44,Completado,Call Center
-246,O00246,6,2,9,2026-04-08,2,802.64,Completado,Web
-247,O00247,40,3,5,2026-01-29,1,392.78,Completado,Web
-248,O00248,62,6,11,2026-04-26,3,89.68,Completado,Web
-249,O00249,61,2,2,2026-05-28,1,269.87,Completado,App
-250,O00250,76,2,11,2026-04-28,4,124.23,Cancelado,Presencial
-251,O00251,4,5,2,2026-05-16,5,1536.66,Completado,Call Center
-252,O00252,13,3,3,2026-05-01,2,490.34,Completado,App
-253,O00253,44,1,7,2026-01-28,1,304.02,Completado,Web
-254,O00254,45,1,10,2026-03-09,4,703.97,Completado,Call Center
-255,O00255,29,4,12,2026-02-04,2,785.03,Completado,Presencial
-256,O00256,21,6,10,2026-02-02,2,293.97,Completado,App
-257,O00257,44,5,15,2026-04-02,1,90.97,Completado,App
-258,O00258,11,1,11,2026-04-21,2,70.04,Completado,Presencial
-259,O00259,26,6,4,2026-03-21,4,1155.81,Observado,App
-260,O00260,10,2,7,2026-06-25,2,539.59,Completado,Call Center
-261,O00261,36,5,6,2026-02-11,1,132.06,Completado,Web
-262,O00262,33,3,13,2026-04-29,4,1372.54,Observado,Call Center
-263,O00263,70,4,11,2026-01-31,6,201.64,Observado,Web
-264,O00264,18,5,7,2026-06-23,1,251.95,Completado,App
-265,O00265,11,5,10,2026-02-15,6,1017.25,Cancelado,Call Center
-266,O00266,61,2,2,2026-06-29,4,1197.33,Pendiente,Presencial
-267,O00267,78,1,10,2026-03-12,1,172.86,Completado,App
-268,O00268,61,5,10,2026-06-24,5,626.58,Completado,Presencial
-269,O00269,50,2,7,2026-02-19,1,218.97,Completado,App
-270,O00270,80,5,15,2026-03-29,3,280.57,Completado,Presencial
-271,O00271,32,1,11,2026-02-03,5,144.39,Completado,Web
-272,O00272,73,4,4,2026-01-19,1,340.46,Completado,Presencial
-273,O00273,51,3,7,2026-04-25,4,896.16,Completado,App
-274,O00274,71,3,9,2026-01-01,4,1422.28,Completado,App
-275,O00275,42,6,5,2026-06-30,5,1377.88,Completado,Web
-276,O00276,5,3,9,2026-02-09,1,409.69,Completado,App
-277,O00277,5,5,2,2026-03-26,2,677.1,Completado,Web
-278,O00278,61,6,11,2026-04-11,1,27.67,Completado,Web
-279,O00279,40,6,9,2026-05-18,2,900.18,Completado,Presencial
-280,O00280,26,2,11,2026-06-25,2,64.69,Pendiente,App
-281,O00281,26,2,15,2026-02-18,2,206.01,Completado,Web
-282,O00282,12,3,15,2026-06-28,4,448.9,Completado,App
-283,O00283,78,3,13,2026-01-27,5,1775.86,Completado,App
-284,O00284,24,6,12,2026-01-31,5,1515.57,Completado,App
-285,O00285,24,6,14,2026-03-23,4,1245.44,Completado,Web
-286,O00286,34,1,13,2026-06-25,3,1071.48,Completado,App
-287,O00287,20,5,4,2026-02-19,3,864.41,Completado,Web
-288,O00288,20,3,3,2026-04-29,2,519.82,Completado,Web
-289,O00289,56,4,7,2026-05-18,4,902.67,Pendiente,App
-290,O00290,58,3,6,2026-06-21,5,905.27,Completado,Presencial
-291,O00291,31,5,5,2026-05-13,2,760.68,Completado,Presencial
-292,O00292,12,5,14,2026-01-07,3,846.18,Completado,Web
-293,O00293,26,6,8,2026-04-04,3,159.74,Completado,Web
-294,O00294,54,4,3,2026-01-30,1,287.41,Completado,Web
-295,O00295,42,3,1,2026-06-29,4,1282.89,Completado,Call Center
-296,O00296,24,6,7,2026-03-05,5,1447.88,Completado,Call Center
-297,O00297,54,4,13,2026-06-22,5,1720.55,Observado,Call Center
-298,O00298,80,5,5,2026-04-21,5,1414.93,Cancelado,Call Center
-299,O00299,57,4,5,2026-02-21,2,785.84,Completado,Call Center
-300,O00300,22,1,6,2026-06-17,2,332.7,Completado,Presencial
-301,O00301,65,4,1,2026-06-14,4,1072.28,Completado,Presencial
-302,O00302,68,6,7,2026-05-06,3,784.13,Completado,App
-303,O00303,65,5,3,2026-01-09,4,1008.31,Completado,Presencial
-304,O00304,32,4,11,2026-03-05,4,128.04,Observado,Presencial
-305,O00305,8,5,1,2026-03-08,4,912.82,Completado,Presencial
-306,O00306,57,2,10,2026-02-27,5,630.04,Completado,App
-307,O00307,16,1,12,2026-04-30,3,1270.52,Completado,Web
-308,O00308,21,4,10,2026-03-29,1,156.18,Completado,App
-309,O00309,69,5,10,2026-05-15,2,318.32,Completado,App
-310,O00310,62,4,15,2026-02-16,3,283.26,Completado,Presencial
-311,O00311,7,3,14,2026-03-25,5,1565.97,Completado,App
-312,O00312,11,6,5,2026-02-19,4,1588.58,Completado,Presencial
-313,O00313,17,5,6,2026-03-19,6,870.88,Completado,Web
-314,O00314,53,4,13,2026-05-30,4,1264.99,Completado,Presencial
-315,O00315,25,1,14,2026-01-16,2,665.43,Completado,Web
-316,O00316,68,1,4,2026-04-29,3,975.48,Completado,App
-317,O00317,47,1,1,2026-01-19,3,902.11,Completado,Call Center
-318,O00318,71,1,2,2026-02-26,2,585.85,Completado,App
-319,O00319,24,1,6,2026-05-01,5,843.8,Completado,Web
-320,O00320,78,2,12,2026-04-11,2,846.62,Completado,Call Center
-321,O00321,43,6,6,2026-06-19,6,1050.08,Pendiente,App
-322,O00322,49,5,3,2026-06-18,3,757.96,Completado,Call Center
-323,O00323,49,6,5,2026-01-30,4,1362.74,Completado,Call Center
-324,O00324,32,3,5,2026-05-12,3,966.41,Observado,App
-325,O00325,30,6,8,2026-06-08,2,112.05,Observado,Call Center
-326,O00326,46,4,4,2026-01-08,3,739.0,Completado,Web
-327,O00327,9,3,6,2026-01-08,4,586.57,Completado,Web
-328,O00328,8,4,3,2026-06-29,6,1575.51,Cancelado,Web
-329,O00329,14,3,15,2026-03-24,6,608.97,Completado,Web
-330,O00330,79,4,14,2026-01-13,4,1013.07,Completado,Web
-331,O00331,48,5,5,2026-03-01,5,1874.16,Completado,Presencial
-332,O00332,28,5,14,2026-01-04,1,321.72,Completado,Presencial
-333,O00333,11,4,11,2026-01-24,2,55.84,Completado,Presencial
-334,O00334,73,2,9,2026-05-26,5,1756.98,Cancelado,Presencial
-335,O00335,66,3,10,2026-02-15,2,332.27,Observado,Call Center
-336,O00336,17,6,7,2026-03-22,5,1145.11,Completado,Call Center
-337,O00337,19,3,15,2026-02-09,6,741.27,Completado,Web
-338,O00338,60,4,12,2026-01-25,3,1276.27,Completado,App
-339,O00339,58,4,11,2026-06-23,2,66.79,Observado,App
-340,O00340,26,4,14,2026-02-05,1,341.55,Completado,App
-341,O00341,12,3,6,2026-04-19,6,984.11,Completado,Web
-342,O00342,72,1,6,2026-01-08,2,289.43,Completado,Web
-343,O00343,66,1,11,2026-03-26,4,134.24,Completado,App
-344,O00344,41,3,8,2026-04-10,1,49.61,Observado,Call Center
-345,O00345,23,1,4,2026-06-01,4,1297.37,Completado,Call Center
-346,O00346,34,5,8,2026-02-26,3,139.65,Completado,App
-347,O00347,74,1,10,2026-05-09,2,318.35,Completado,Web
-348,O00348,18,3,7,2026-05-09,6,1743.18,Completado,Presencial
-349,O00349,23,3,13,2026-03-14,2,592.31,Observado,Presencial
-350,O00350,24,3,4,2026-06-30,3,827.29,Completado,App
-351,O00351,12,4,5,2026-04-17,6,2073.8,Observado,Presencial
-352,O00352,77,4,12,2026-05-14,1,324.78,Completado,App
-353,O00353,27,1,8,2026-04-16,6,258.18,Completado,Call Center
-354,O00354,72,2,14,2026-05-21,1,258.14,Completado,Web
-355,O00355,76,1,2,2026-03-12,4,1104.49,Observado,Presencial
-356,O00356,20,2,9,2026-03-13,1,358.04,Observado,App
-357,O00357,58,4,10,2026-04-28,3,426.88,Completado,Presencial
-358,O00358,53,2,5,2026-01-26,3,962.44,Completado,Web
-359,O00359,19,5,15,2026-04-29,5,576.39,Completado,App
-360,O00360,5,1,2,2026-06-21,1,310.9,Completado,Call Center
-361,O00361,2,3,2,2026-06-26,2,685.86,Cancelado,Presencial
-362,O00362,34,5,5,2026-04-25,4,1514.41,Observado,Presencial
-363,O00363,12,4,4,2026-03-22,6,1531.42,Completado,App
-364,O00364,70,1,3,2026-04-13,4,1071.28,Pendiente,Presencial
-365,O00365,40,1,12,2026-02-18,3,939.89,Completado,Presencial
-366,O00366,14,4,1,2026-01-24,5,1431.78,Completado,Web
-367,O00367,20,3,10,2026-03-31,2,348.45,Pendiente,Presencial
-368,O00368,80,6,5,2026-05-02,1,308.74,Completado,Web
-369,O00369,70,1,4,2026-03-04,4,1300.16,Observado,App
-370,O00370,49,4,2,2026-01-22,1,294.06,Observado,App
-371,O00371,77,1,6,2026-03-27,4,740.31,Completado,Call Center
-372,O00372,39,1,3,2026-01-10,5,1539.72,Completado,App
-373,O00373,55,4,3,2026-04-18,1,234.92,Completado,App
-374,O00374,68,4,14,2026-04-03,6,2041.69,Completado,Call Center
-375,O00375,12,5,8,2026-05-06,6,311.41,Completado,Call Center
-376,O00376,60,3,13,2026-06-07,4,1059.19,Observado,Presencial
-377,O00377,32,3,12,2026-04-25,5,1699.62,Completado,Web
-378,O00378,60,3,1,2026-03-20,3,770.71,Completado,Web
-379,O00379,8,2,7,2026-03-06,2,546.59,Completado,App
-380,O00380,23,3,12,2026-01-23,6,2427.28,Completado,Web
-381,O00381,72,4,13,2026-04-01,5,1711.35,Completado,Presencial
-382,O00382,61,3,10,2026-02-12,2,301.21,Pendiente,Call Center
-383,O00383,30,3,2,2026-01-29,1,290.19,Completado,Call Center
-384,O00384,8,5,5,2026-06-19,6,1661.79,Observado,Call Center
-385,O00385,80,4,5,2026-05-06,5,1801.65,Completado,App
-386,O00386,71,5,13,2026-03-15,6,1514.46,Completado,Call Center
-387,O00387,30,3,10,2026-01-22,2,274.03,Completado,App
-388,O00388,41,6,8,2026-02-12,1,58.21,Completado,Presencial
-389,O00389,17,5,4,2026-04-07,6,1591.58,Completado,Call Center
-390,O00390,51,3,13,2026-04-28,1,294.5,Completado,Presencial
-391,O00391,63,1,10,2026-04-22,2,281.62,Completado,App
-392,O00392,48,5,5,2026-04-04,5,1868.29,Completado,App
-393,O00393,51,2,5,2026-01-12,2,792.79,Completado,Presencial
-394,O00394,53,5,7,2026-02-12,1,266.8,Completado,Presencial
-395,O00395,40,3,10,2026-01-10,3,371.79,Cancelado,Call Center
-396,O00396,53,5,8,2026-02-08,2,102.91,Completado,Web
-397,O00397,9,1,2,2026-06-28,5,1708.31,Completado,App
-398,O00398,58,1,11,2026-02-17,4,128.96,Cancelado,Call Center
-399,O00399,41,3,5,2026-05-22,2,655.77,Completado,App
-400,O00400,13,4,5,2026-05-22,2,688.99,Completado,Presencial
-401,O00401,28,4,7,2026-04-09,6,1449.89,Observado,Presencial
-402,O00402,63,2,1,2026-06-21,2,637.47,Pendiente,Web
-403,O00403,32,1,15,2026-03-21,1,103.98,Completado,Presencial
-404,O00404,59,1,4,2026-04-15,2,558.33,Completado,Call Center
-405,O00405,20,2,1,2026-06-15,3,963.47,Cancelado,Presencial
-406,O00406,50,4,7,2026-03-21,2,588.75,Completado,Presencial
-407,O00407,74,5,15,2026-06-01,1,90.99,Completado,Call Center
-408,O00408,8,1,2,2026-05-15,6,1941.88,Observado,App
-409,O00409,42,6,15,2026-01-16,2,180.24,Completado,Presencial
-410,O00410,75,2,11,2026-05-03,2,60.06,Completado,Presencial
-411,O00411,15,3,14,2026-06-08,3,980.31,Completado,Web
-412,O00412,54,2,15,2026-04-09,4,491.21,Completado,Web
-413,O00413,15,5,12,2026-01-27,5,1556.01,Completado,App
-414,O00414,22,2,3,2026-05-20,6,1348.76,Observado,Presencial
-415,O00415,56,4,7,2026-01-28,4,950.03,Completado,Presencial
-416,O00416,62,6,8,2026-06-09,4,193.48,Completado,App
-417,O00417,1,3,5,2026-02-24,1,319.92,Completado,Presencial
-418,O00418,78,2,11,2026-03-14,2,80.8,Observado,App
-419,O00419,59,5,6,2026-03-26,1,131.2,Completado,Web
-420,O00420,65,2,6,2026-03-28,3,396.05,Completado,App
-421,O00421,18,5,8,2026-01-27,1,51.84,Observado,Call Center
-422,O00422,34,6,6,2026-02-01,3,486.22,Completado,App
-423,O00423,26,1,3,2026-04-24,3,665.26,Pendiente,Web
-424,O00424,44,3,10,2026-04-08,1,167.29,Completado,Presencial
-425,O00425,71,3,8,2026-06-18,2,86.55,Pendiente,Presencial
-426,O00426,58,3,9,2026-04-21,2,797.57,Observado,App
-427,O00427,44,4,4,2026-01-06,2,644.26,Completado,Presencial
-428,O00428,54,4,14,2026-06-22,6,2074.81,Completado,Presencial
-429,O00429,9,6,3,2026-03-28,4,855.17,Pendiente,App
-430,O00430,79,6,5,2026-06-07,4,1234.5,Completado,App
-431,O00431,76,5,7,2026-02-25,4,1053.5,Completado,App
-432,O00432,36,5,6,2026-02-14,1,173.24,Observado,Call Center
-433,O00433,48,2,15,2026-04-04,2,210.15,Observado,Web
-434,O00434,47,6,11,2026-05-31,1,32.53,Observado,Presencial
-435,O00435,45,5,14,2026-05-12,6,1976.2,Observado,Web
-436,O00436,23,4,6,2026-05-02,4,528.24,Completado,App
-437,O00437,38,5,11,2026-01-01,2,60.65,Completado,Call Center
-438,O00438,59,1,14,2026-04-10,5,1346.32,Completado,Presencial
-439,O00439,68,5,11,2026-01-17,6,174.71,Completado,Presencial
-440,O00440,65,4,9,2026-03-26,2,685.61,Completado,Presencial
-441,O00441,31,2,14,2026-02-05,5,1787.69,Completado,App
-442,O00442,22,2,4,2026-04-25,5,1575.52,Completado,Call Center
-443,O00443,51,1,6,2026-03-11,4,619.34,Completado,Call Center
-444,O00444,35,1,11,2026-03-27,1,31.61,Cancelado,Web
-445,O00445,46,4,6,2026-04-10,1,161.43,Completado,Web
-446,O00446,38,6,15,2026-06-22,4,371.86,Completado,Web
-447,O00447,50,2,6,2026-05-31,2,283.22,Completado,Call Center
-448,O00448,5,6,11,2026-04-18,1,33.51,Completado,Web
-449,O00449,44,2,15,2026-02-12,4,364.33,Completado,Web
-450,O00450,56,1,13,2026-03-06,5,1392.34,Observado,App
-451,O00451,69,3,12,2026-04-12,1,345.94,Completado,Web
-452,O00452,13,2,12,2026-04-16,4,1233.28,Pendiente,App
-453,O00453,26,1,11,2026-05-28,6,178.24,Cancelado,Web
-454,O00454,35,1,5,2026-03-05,6,2156.9,Completado,Call Center
-455,O00455,29,3,13,2026-03-30,5,1691.21,Completado,Call Center
-456,O00456,70,2,9,2026-06-27,3,1192.77,Completado,App
-457,O00457,34,4,10,2026-05-07,1,138.44,Observado,Call Center
-458,O00458,76,6,2,2026-05-06,6,1645.92,Completado,App
-459,O00459,71,6,2,2026-04-23,2,685.21,Observado,Presencial
-460,O00460,50,1,8,2026-03-18,4,221.62,Completado,Web
-461,O00461,6,4,4,2026-05-26,5,1602.43,Observado,App
-462,O00462,75,6,11,2026-05-19,1,28.8,Completado,Web
-463,O00463,20,5,9,2026-03-29,6,2553.91,Observado,Web
-464,O00464,25,6,8,2026-04-28,5,258.81,Completado,Call Center
-465,O00465,71,5,6,2026-06-28,6,775.71,Completado,Call Center
-466,O00466,1,6,9,2026-04-30,6,2385.38,Observado,Web
-467,O00467,67,4,2,2026-06-01,1,275.83,Completado,Web
-468,O00468,28,5,8,2026-04-30,4,236.74,Completado,App
-469,O00469,10,2,6,2026-04-28,3,506.46,Pendiente,Presencial
-470,O00470,70,2,4,2026-05-15,3,808.49,Observado,Presencial
-471,O00471,76,5,8,2026-03-09,2,98.7,Completado,App
-472,O00472,29,6,11,2026-06-25,2,60.63,Observado,Presencial
-473,O00473,62,3,4,2026-02-10,2,534.9,Cancelado,Presencial
-474,O00474,2,5,15,2026-01-18,4,494.99,Completado,Presencial
-475,O00475,31,5,1,2026-02-23,4,1078.15,Cancelado,Presencial
-476,O00476,53,5,10,2026-01-28,4,616.71,Completado,Presencial
-477,O00477,51,6,11,2026-05-09,6,241.68,Completado,App
-478,O00478,74,5,12,2026-04-29,5,1869.8,Completado,App
-479,O00479,24,5,7,2026-06-22,5,1148.03,Completado,App
-480,O00480,30,3,11,2026-05-25,2,69.33,Pendiente,Web
-481,O00481,9,3,12,2026-06-25,2,714.26,Cancelado,Presencial
-482,O00482,46,1,6,2026-06-29,3,460.1,Completado,Web
-483,O00483,55,4,6,2026-06-01,4,747.81,Cancelado,Web
-484,O00484,63,3,2,2026-01-06,5,1260.14,Pendiente,Web
-485,O00485,74,1,4,2026-05-21,4,1166.64,Completado,Presencial
-486,O00486,46,6,10,2026-02-12,3,503.92,Completado,App
-487,O00487,3,1,14,2026-02-16,2,600.52,Completado,App
-488,O00488,5,4,12,2026-03-23,6,2503.1,Completado,App
-489,O00489,12,4,6,2026-02-23,6,1069.01,Completado,App
-490,O00490,7,5,12,2026-01-29,4,1512.04,Completado,Call Center
-491,O00491,16,2,14,2026-06-02,5,1384.47,Cancelado,Presencial
-492,O00492,72,2,6,2026-03-25,2,265.81,Completado,Presencial
-493,O00493,6,3,9,2026-06-12,5,1842.74,Completado,Web
-494,O00494,79,4,10,2026-04-07,2,306.0,Completado,Web
-495,O00495,5,3,2,2026-05-15,5,1672.23,Completado,Call Center
-496,O00496,6,2,3,2026-03-18,3,849.72,Observado,App
-497,O00497,13,1,14,2026-01-13,4,1247.74,Cancelado,Call Center
-498,O00498,41,1,5,2026-04-20,4,1208.08,Completado,App
-499,O00499,35,3,8,2026-01-05,5,231.59,Completado,Presencial
-500,O00500,61,1,4,2026-01-14,4,1076.97,Completado,Web
+id_operacion,codigo_operacion,id_cliente,id_sede,id_empleado,fecha_operacion,canal,estado,monto_total
+1,O00001,4,3,20,2026-05-26,Plataforma municipal,Cancelado,199.00
+2,O00002,143,5,14,2026-01-03,Mesa de partes virtual,Pendiente,16.44
+3,O00003,173,2,17,2026-06-27,Portal tributario,Completado,793.64
+4,O00004,83,2,10,2026-03-16,Centro MAC,Pendiente,4848.92
+5,O00005,199,5,31,2026-05-14,Plataforma municipal,Completado,118.32
+6,O00006,192,4,35,2026-02-02,Mesa de partes virtual,Pendiente,1028.74
+7,O00007,126,3,22,2026-04-12,Portal tributario,Completado,95.00
+8,O00008,96,5,24,2026-06-08,Centro MAC,Pendiente,215.80
+9,O00009,184,1,23,15/05/2026,Plataforma municipal,Cancelado,1003.86
+10,O00010,14,1,20,2026-02-23,Mesa de partes virtual,Pendiente,1343.40
+11,O00011,109,4,13,2026-05-20,Portal tributario,Pendiente,1820.00
+12,O00012,101,5,29,2026-01-05,Centro MAC,Pendiente,170.00
+13,O00013,8,4,5,2026-05-25,Plataforma municipal,Completado,389.22
+14,O00014,169,3,33,2026-05-26,Mesa de partes virtual,Completado,268.68
+15,O00015,141,4,32,2026-04-16,Portal tributario,Completado,63.88
+16,O00016,181,4,33,2026-02-07,Centro MAC,Cancelado,463.60
+17,O00017,169,3,25,2026-03-01,Plataforma municipal,Completado,1367.90
+18,O00018,23,2,22,2026-05-09,Mesa de partes virtual,Completado,512.80
+19,O00019,179,6,7,2026-02-15,Portal tributario,Completado,1803.64
+20,O00020,108,5,9,2026-03-10,Centro MAC,Observado,1169.62
+21,O00021,61,2,37,2026-06-09,Plataforma municipal,Pendiente,672.00
+22,O00022,102,4,21,2026-01-02,Mesa de partes virtual,Completado,1343.40
+23,O00023,97,3,12,2026-06-10,Portal tributario,Completado,429.36
+24,O00024,108,4,25,2026-02-10,Centro MAC,Pendiente,214.96
+25,O00025,8,5,28,2026-04-02,Plataforma municipal,Completado,228.00
+26,O00026,92,5,37,2026-06-16,Mesa de partes virtual,Pendiente,1040.44
+27,O00027,183,4,38,2026-03-01,Portal tributario,Completado,998.65
+28,O00028,69,5,12,2026-01-08,Centro MAC,Completado,1167.20
+29,O00029,57,5,34,2026-01-21,Plataforma municipal,Cancelado,388.92
+30,O00030,16,1,22,2026-06-08,Mesa de partes virtual,Observado,1708.65
+31,O00031,190,2,8,2026-04-17,Portal tributario,Completado,198.48
+32,O00032,11,3,37,25/05/2026,Centro MAC,Pendiente,710.19
+33,O00033,22,4,34,2026-02-24,Plataforma municipal,Completado,456.00
+34,O00034,95,2,17,2026-05-16,Mesa de partes virtual,Cancelado,2229.41
+35,O00035,14,3,26,2026-05-19,Portal tributario,Completado,1008.38
+36,O00036,181,6,6,2026-05-20,Centro MAC,Observado,515.64
+37,O00037,161,6,28,2026-03-13,Plataforma municipal,Pendiente,655.48
+38,O00038,73,4,34,2026-04-11,Mesa de partes virtual,Completado,380.00
+39,O00039,121,6,23,2026-03-27,Portal tributario,Observado,1515.72
+40,O00040,195,5,26,2026-01-08,Centro MAC,Completado,1486.07
+41,O00041,174,6,12,2026-01-21,Plataforma municipal,Observado,211.60
+42,O00042,190,1,16,2026-03-09,Mesa de partes virtual,Completado,1640.08
+43,O00043,134,4,32,2026-04-26,Portal tributario,Completado,2144.64
+44,O00044,38,2,7,2026-02-07,Centro MAC,Completado,357.62
+45,O00045,32,3,32,2026-04-15,Plataforma municipal,Pendiente,4697.89
+46,O00046,192,5,27,2026-01-28,Mesa de partes virtual,Completado,548.88
+47,O00047,74,3,10,2026-05-12,Portal tributario,Cancelado,601.80
+48,O00048,17,6,21,2026-01-23,Centro MAC,Completado,1601.20
+49,O00049,36,4,1,2026-06-23,Plataforma municipal,Completado,0.00
+50,O00050,174,5,22,2026-02-05,Mesa de partes virtual,Observado,171.88
+51,O00051,148,2,13,2026-04-07,Portal tributario,Pendiente,687.52
+52,O00052,147,1,34,2026-05-27,Centro MAC,Completado,114.00
+53,O00053,141,6,6,2026-01-01,Plataforma municipal,Completado,806.04
+54,O00054,168,2,27,2026-06-22,Mesa de partes virtual,Pendiente,475.00
+55,O00055,9580,2,9,2026-02-05,Portal tributario,Completado,831.64
+56,O00056,5,4,35,2026-01-02,Centro MAC,Completado,427.80
+57,O00057,108,2,13,2026-04-10,Plataforma municipal,Completado,5040.00
+58,O00058,188,6,36,2026-06-26,Mesa de partes virtual,Completado,1635.64
+59,O00059,9,4,21,24/04/2026,Portal tributario,Pendiente,228.00
+60,O00060,141,4,16,2026-01-25,Centro MAC,Completado,662.88
+61,O00061,141,5,9,2026-06-25,Plataforma municipal,Pendiente,0.00
+62,O00062,180,4,8,2026-01-07,Mesa de partes virtual,Completado,35.00
+63,O00063,150,6,14,05/02/2026,Portal tributario,Completado,464.87
+64,O00064,158,4,33,2026-01-16,Centro MAC,Completado,233.85
+65,O00065,46,1,21,2026-01-05,Plataforma municipal,Completado,2735.80
+66,O00066,41,6,38,2026-03-22,Mesa de partes virtual,Completado,3717.16
+67,O00067,174,2,28,2026-03-07,Portal tributario,Pendiente,455.36
+68,O00068,69,5,37,2026-03-21,Centro MAC,Observado,1960.44
+69,O00069,148,1,33,2026-02-12,Plataforma municipal,Pendiente,560.00
+70,O00070,124,2,13,2026-02-25,Mesa de partes virtual,Completado,2318.35
+71,O00071,167,1,26,2026-03-26,Portal tributario,Pendiente,1862.08
+72,O00072,162,4,16,2026-05-23,Centro MAC,Completado,1435.28
+73,O00073,66,3,14,2026-05-20,Plataforma municipal,Completado,264.28
+74,O00074,192,1,23,17/05/2026,Mesa de partes virtual,Completado,261.00
+75,O00075,167,6,22,2026-02-21,Portal tributario,Pendiente,2398.61
+76,O00076,97,1,17,2026-04-24,Centro MAC,Observado,2472.28
+77,O00077,124,6,28,2026-05-26,Plataforma municipal,Observado,42.00
+78,O00078,125,3,9,2026-06-16,Mesa de partes virtual,Completado,114.00
+79,O00079,92,6,9,2026-06-19,Portal tributario,Completado,165.00
+80,O00080,189,3,30,2026-05-05,Centro MAC,Completado,546.82
+81,O00081,190,1,21,2026-03-16,Plataforma municipal,Completado,320.64
+82,O00082,16,6,14,2026-02-24,Mesa de partes virtual,Observado,49.32
+83,O00083,103,1,16,2026-05-05,Portal tributario,Cancelado,1400.40
+84,O00084,131,1,40,2026-02-14,Centro MAC,Completado,186.82
+85,O00085,195,2,32,2026-01-09,Plataforma municipal,Cancelado,1719.92
+86,O00086,110,4,21,21/04/2026,Mesa de partes virtual,Completado,1140.00
+87,O00087,196,1,15,2026-04-03,Portal tributario,Completado,1897.40
+88,O00088,1,4,24,2026-06-02,Centro MAC,Completado,1669.08
+89,O00089,175,3,15,2026-06-07,Plataforma municipal,Completado,42.32
+90,O00090,158,4,34,2026-06-15,Mesa de partes virtual,Completado,161.73
+91,O00091,71,5,37,2026-03-27,Portal tributario,Completado,1612.08
+92,O00092,116,2,8,2026-06-16,Centro MAC,Cancelado,2818.78
+93,O00093,25,3,16,2026-05-02,Plataforma municipal,Completado,254.76
+94,O00094,110,2,30,2026-02-26,Mesa de partes virtual,Observado,5593.95
+95,O00095,5,5,39,2026-06-11,Portal tributario,Completado,196.00
+96,O00096,197,3,18,2026-01-04,Centro MAC,Completado,903.04
+97,O00097,164,3,11,18/03/2026,Plataforma municipal,Pendiente,1295.00
+98,O00098,171,1,16,04/01/2026,Mesa de partes virtual,Observado,5999.93
+99,O00099,48,6,29,2026-02-25,Portal tributario,Pendiente,419.75
+100,O00100,137,3,40,2026-04-12,Centro MAC,Completado,432.00
+101,O00101,106,4,22,28/02/2026,Plataforma municipal,Completado,220.21
+102,O00102,72,6,3,2026-05-15,Mesa de partes virtual,Completado,154.98
+103,O00103,81,5,7,2026-04-01,Portal tributario,Pendiente,659.76
+104,O00104,170,5,16,2026-01-22,Centro MAC,Completado,140.00
+105,O00105,74,4,4,2026-05-21,Plataforma municipal,Pendiente,420.73
+106,O00106,129,6,5,2026-03-08,Mesa de partes virtual,Completado,587.76
+107,O00107,136,4,40,2026-02-18,Portal tributario,Cancelado,93.00
+108,O00108,60,3,17,2026-05-06,Centro MAC,Completado,489.28
+109,O00109,99,3,16,2026-06-11,Plataforma municipal,Completado,834.76
+110,O00110,48,3,6,2026-03-18,Mesa de partes virtual,Completado,874.00
+111,O00111,141,5,27,25/04/2026,Portal tributario,Completado,401.60
+112,O00112,193,2,10,2026-02-24,Centro MAC,Observado,2100.00
+113,O00113,48,5,22,2026-06-01,Plataforma municipal,Completado,24.00
+114,O00114,194,4,5,2026-02-28,Mesa de partes virtual,Observado,698.84
+115,O00115,118,6,9,2026-04-04,Portal tributario,Cancelado,642.00
+116,O00116,57,2,25,2026-01-14,Centro MAC,Completado,140.68
+117,O00117,196,3,32,2026-03-07,Plataforma municipal,Pendiente,61.76
+118,O00118,152,6,30,2026-04-23,Mesa de partes virtual,Completado,611.55
+119,O00119,173,4,28,2026-03-16,Portal tributario,Completado,21.00
+120,O00120,15,3,24,2026-03-27,Centro MAC,Completado,299.80
+121,O00121,117,3,34,04/02/2026,Plataforma municipal,Completado,550.88
+122,O00122,60,3,38,2026-06-26,Mesa de partes virtual,Cancelado,298.34
+123,O00123,189,2,2,2026-02-23,Portal tributario,Completado,328.64
+124,O00124,114,3,7,18/01/2026,Centro MAC,Completado,165.32
+125,O00125,122,2,28,2026-02-06,Plataforma municipal,Completado,485.19
+126,O00126,48,5,36,14/02/2026,Mesa de partes virtual,Completado,750.72
+127,O00127,54,3,7,2026-05-03,Portal tributario,Completado,111.16
+128,O00128,30,2,29,2026-02-21,Centro MAC,Observado,399.02
+129,O00129,162,2,27,2026-05-27,Plataforma municipal,Pendiente,132.16
+130,O00130,144,3,19,2026-01-12,Mesa de partes virtual,Completado,775.09
+131,O00131,172,6,5,2026-01-16,Portal tributario,Pendiente,1713.76
+132,O00132,49,5,25,2026-06-06,Centro MAC,Completado,2055.56
+133,O00133,1,2,,2026-06-12,Plataforma municipal,Completado,469.84
+134,O00134,165,5,25,2026-05-11,Mesa de partes virtual,Completado,806.04
+135,O00135,117,6,21,2026-01-22,Portal tributario,Completado,3096.08
+136,O00136,120,3,9,2026-05-10,Centro MAC,Completado,4018.18
+137,O00137,13,1,39,2026-03-03,Plataforma municipal,Completado,423.29
+138,O00138,178,4,2,2026-05-23,Mesa de partes virtual,Completado,681.91
+139,O00139,187,1,18,2026-03-25,Portal tributario,Pendiente,1523.00
+140,O00140,35,1,3,2026-05-14,Centro MAC,Completado,608.14
+141,O00141,71,3,22,2026-05-13,Plataforma municipal,Completado,1025.65
+142,O00142,185,4,36,2026-02-09,Mesa de partes virtual,Pendiente,330.58
+143,O00143,126,2,39,2026-03-15,Portal tributario,Cancelado,1889.00
+144,O00144,190,2,31,2026-04-01,Centro MAC,Completado,57.00
+145,O00145,41,4,2,2026-02-17,Plataforma municipal,Completado,5571.59
+146,O00146,38,2,40,2026-03-02,Mesa de partes virtual,Pendiente,95.00
+147,O00147,169,6,23,2026-04-08,Portal tributario,Cancelado,5034.42
+148,O00148,199,4,32,2026-01-06,Centro MAC,Completado,1822.04
+149,O00149,170,5,33,2026-02-26,Plataforma municipal,Completado,667.89
+150,O00150,88,3,7,2026-05-06,Mesa de partes virtual,Completado,499.64
+151,O00151,133,3,26,2026-04-25,Portal tributario,Completado,237.34
+152,O00152,130,4,22,2026-02-14,Centro MAC,Pendiente,434.63
+153,O00153,130,3,17,2026-01-23,Plataforma municipal,Observado,172.88
+154,O00154,39,4,12,2026-04-17,Mesa de partes virtual,Pendiente,280.23
+155,O00155,46,1,17,2026-03-21,Portal tributario,Completado,357.36
+156,O00156,118,6,3,20/03/2026,Centro MAC,Completado,260.00
+157,O00157,66,2,38,2026-06-02,Plataforma municipal,Completado,84.00
+158,O00158,33,6,18,2026-05-07,Mesa de partes virtual,Completado,95.00
+159,O00159,16,5,23,2026-02-20,Portal tributario,Completado,42.00
+160,O00160,140,1,16,2026-02-23,Centro MAC,Completado,1014.00
+161,O00161,142,6,25,11/05/2026,Plataforma municipal,Completado,0.00
+162,O00162,148,4,5,2026-04-21,Mesa de partes virtual,Pendiente,21.00
+163,O00163,130,2,19,2026-02-23,Portal tributario,Completado,297.80
+164,O00164,192,4,17,2026-06-28,Centro MAC,Completado,1612.08
+165,O00165,24,4,31,2026-05-05,Plataforma municipal,Completado,416.00
+166,O00166,55,1,16,2026-05-23,Mesa de partes virtual,Completado,862.38
+167,O00167,112,1,17,2026-05-05,Portal tributario,Pendiente,2268.64
+168,O00168,58,1,14,2026-01-19,Centro MAC,Completado,559.19
+169,O00169,59,4,11,2026-04-09,Plataforma municipal,Pendiente,3002.00
+170,O00170,40,2,27,04/03/2026,Mesa de partes virtual,Completado,4227.62
+171,O00171,45,5,16,2026-06-05,Portal tributario,Cancelado,112.00
+172,O00172,126,6,28,2026-01-27,Centro MAC,Observado,1657.60
+173,O00173,116,2,12,2026-06-15,Plataforma municipal,Completado,1306.50
+174,O00174,83,6,37,2026-02-18,Mesa de partes virtual,Cancelado,70.00
+175,O00175,32,1,4,2026-04-22,Portal tributario,Completado,187.28
+176,O00176,188,1,2,2026-05-05,Centro MAC,Completado,335.92
+177,O00177,134,6,9,2026-03-18,Plataforma municipal,Completado,161.85
+178,O00178,137,3,7,2026-05-24,Mesa de partes virtual,Cancelado,161.73
+179,O00179,150,4,7,2026-03-09,Portal tributario,Pendiente,28.00
+180,O00180,60,1,28,2026-01-17,Centro MAC,Completado,269.80
+181,O00181,150,3,25,2026-05-19,Plataforma municipal,Pendiente,248.96
+182,O00182,41,2,4,2026-06-28,Mesa de partes virtual,Completado,266.40
+183,O00183,9141,5,8,2026-06-23,Portal tributario,Completado,274.00
+184,O00184,101,4,37,2026-03-11,Centro MAC,Completado,250.14
+185,O00185,111,2,,2026-04-16,Plataforma municipal,Pendiente,665.46
+186,O00186,80,4,34,2026-02-06,Mesa de partes virtual,Completado,79.44
+187,O00187,76,5,6,2026-02-22,Portal tributario,Pendiente,487.99
+188,O00188,67,5,21,2026-02-11,Centro MAC,Completado,90.16
+189,O00189,94,4,2,2026-01-04,Plataforma municipal,Observado,70.00
+190,O00190,61,2,9,03/01/2026,Mesa de partes virtual,Completado,814.16
+191,O00191,191,4,26,2026-04-10,Portal tributario,Completado,328.37
+192,O00192,70,2,10,2026-05-06,Centro MAC,Completado,140.68
+193,O00193,198,4,36,2026-02-08,Plataforma municipal,Pendiente,186.82
+194,O00194,140,4,20,2026-05-20,Mesa de partes virtual,Pendiente,247.00
+195,O00195,121,5,25,2026-02-02,Portal tributario,Completado,1248.72
+196,O00196,38,6,36,2026-01-27,Centro MAC,Completado,478.76
+197,O00197,187,1,24,2026-05-21,Plataforma municipal,Completado,1045.28
+198,O00198,199,5,5,2026-06-12,Mesa de partes virtual,Cancelado,2169.00
+199,O00199,122,2,,2026-06-11,Portal tributario,Pendiente,970.38
+200,O00200,131,2,25,2026-01-19,Centro MAC,Cancelado,87.08
+201,O00201,91,1,4,2026-05-19,Plataforma municipal,Completado,45.08
+202,O00202,146,4,30,2026-05-22,Mesa de partes virtual,Completado,1092.04
+203,O00203,53,2,14,2026-01-28,Portal tributario,Pendiente,130.44
+204,O00204,130,2,,16/02/2026,Centro MAC,Pendiente,321.41
+205,O00205,163,4,11,2026-03-10,Plataforma municipal,Cancelado,532.00
+206,O00206,130,1,7,2026-04-13,Mesa de partes virtual,Pendiente,288.64
+207,O00207,61,6,1,2026-02-15,Portal tributario,Completado,924.14
+208,O00208,145,5,37,2026-03-01,Centro MAC,Completado,7.00
+209,O00209,192,1,8,2026-06-18,Plataforma municipal,Completado,1133.46
+210,O00210,26,2,35,2026-01-04,Mesa de partes virtual,Completado,459.36
+211,O00211,192,1,32,2026-05-24,Portal tributario,Completado,166.12
+212,O00212,98,4,25,2026-04-27,Centro MAC,Completado,1453.36
+213,O00213,104,4,20,2026-02-01,Plataforma municipal,Cancelado,1238.88
+214,O00214,99,1,3,2026-01-06,Mesa de partes virtual,Completado,2672.65
+215,O00215,76,5,24,2026-05-26,Portal tributario,Pendiente,290.00
+216,O00216,129,6,39,2026-06-04,Centro MAC,Pendiente,444.53
+217,O00217,56,3,18,2026-04-11,Plataforma municipal,Observado,2356.80
+218,O00218,191,3,11,2026-01-21,Mesa de partes virtual,Completado,636.88
+219,O00219,54,5,11,2026-04-25,Portal tributario,Pendiente,60.00
+220,O00220,179,3,24,08/02/2026,Centro MAC,Pendiente,420.00
+221,O00221,88,3,34,2026-02-24,Plataforma municipal,Cancelado,1085.80
+222,O00222,2,6,36,2026-05-28,Mesa de partes virtual,Completado,225.88
+223,O00223,132,1,13,01/03/2026,Portal tributario,Pendiente,333.96
+224,O00224,171,6,31,2026-02-16,Centro MAC,Pendiente,84.00
+225,O00225,23,5,24,2026-05-19,Plataforma municipal,Completado,446.28
+226,O00226,87,3,12,2026-02-05,Mesa de partes virtual,Completado,3360.00
+227,O00227,28,5,11,10/02/2026,Portal tributario,Cancelado,727.70
+228,O00228,36,1,29,2026-01-15,Centro MAC,Completado,931.92
+229,O00229,97,5,17,2026-01-06,Plataforma municipal,Completado,211.02
+230,O00230,9563,5,21,2026-05-18,Mesa de partes virtual,Pendiente,8634.02
+231,O00231,102,2,13,2026-04-04,Portal tributario,Completado,1765.44
+232,O00232,37,4,21,2026-05-21,Centro MAC,Completado,116.00
+233,O00233,25,5,5,07/04/2026,Plataforma municipal,Completado,612.60
+234,O00234,52,1,2,2026-05-24,Mesa de partes virtual,Cancelado,728.46
+235,O00235,54,1,32,2026-06-08,Portal tributario,Pendiente,2355.70
+236,O00236,161,4,9,04/02/2026,Centro MAC,Completado,259.73
+237,O00237,195,3,16,2026-01-19,Plataforma municipal,Completado,169.28
+238,O00238,101,6,18,25/01/2026,Mesa de partes virtual,Pendiente,152.00
+239,O00239,75,4,8,2026-05-26,Portal tributario,Cancelado,462.36
+240,O00240,105,1,16,2026-05-09,Centro MAC,Cancelado,4560.41
+241,O00241,186,5,9,2026-02-09,Plataforma municipal,Completado,84.00
+242,O00242,149,5,8,2026-06-19,Mesa de partes virtual,Completado,445.88
+243,O00243,144,1,3,2026-02-11,Portal tributario,Pendiente,435.19
+244,O00244,42,1,37,2026-06-27,Centro MAC,Completado,63.00
+245,O00245,31,6,19,2026-03-17,Plataforma municipal,Cancelado,467.05
+246,O00246,168,1,35,2026-05-18,Mesa de partes virtual,Pendiente,555.48
+247,O00247,170,5,19,2026-05-04,Portal tributario,Completado,269.75
+248,O00248,87,3,40,2026-05-18,Centro MAC,Completado,128.34
+249,O00249,188,5,39,2026-01-03,Plataforma municipal,Pendiente,304.00
+250,O00250,32,3,20,2026-05-21,Mesa de partes virtual,Pendiente,135.24
+251,O00251,199,2,16,2026-01-10,Portal tributario,Completado,1266.40
+252,O00252,142,5,11,2026-01-14,Centro MAC,Pendiente,500.20
+253,O00253,151,4,18,2026-02-20,Plataforma municipal,Completado,753.73
+254,O00254,80,2,12,2026-05-07,Mesa de partes virtual,Completado,327.82
+255,O00255,183,6,31,2026-03-22,Portal tributario,Pendiente,0.00
+256,O00256,41,5,32,2026-04-24,Centro MAC,Completado,214.00
+257,O00257,65,6,40,11/04/2026,Plataforma municipal,Cancelado,772.06
+258,O00258,62,3,16,2026-06-11,Mesa de partes virtual,Cancelado,21.00
+259,O00259,41,6,24,2026-03-06,Portal tributario,Completado,2202.73
+260,O00260,97,5,12,2026-02-17,Centro MAC,Pendiente,114.00
+261,O00261,191,5,5,2026-04-05,Plataforma municipal,Completado,440.48
+262,O00262,129,5,38,2026-04-23,Mesa de partes virtual,Completado,1915.96
+263,O00263,141,6,7,2026-03-19,Portal tributario,Pendiente,640.08
+264,O00264,80,6,8,2026-06-12,Centro MAC,Completado,646.00
+265,O00265,116,3,12,2026-03-14,Plataforma municipal,Cancelado,318.16
+266,O00266,111,5,4,26/02/2026,Mesa de partes virtual,Completado,463.20
+267,O00267,16,1,24,2026-04-23,Portal tributario,Completado,304.00
+268,O00268,63,5,36,2026-01-13,Centro MAC,Pendiente,57.00
+269,O00269,86,1,1,2026-03-26,Plataforma municipal,Completado,154.40
+270,O00270,103,5,8,2026-04-27,Mesa de partes virtual,Completado,4343.37
+271,O00271,9,2,38,2026-05-09,Portal tributario,Pendiente,337.88
+272,O00272,10,4,8,2026-03-02,Centro MAC,Pendiente,230.68
+273,O00273,134,1,26,2026-03-03,Plataforma municipal,Completado,916.00
+274,O00274,105,5,17,2026-06-05,Mesa de partes virtual,Completado,270.00
+275,O00275,45,6,3,2026-01-23,Portal tributario,Completado,87.32
+276,O00276,118,5,32,2026-03-21,Centro MAC,Completado,2452.8
+277,O00277,114,1,18,2026-06-08,Plataforma municipal,Pendiente,537.36
+278,O00278,104,2,3,2026-06-14,Mesa de partes virtual,Completado,688.70
+279,O00279,72,1,19,2026-05-25,Portal tributario,Completado,1630.14
+280,O00280,107,5,21,2026-05-11,Centro MAC,Completado,252.00
+281,O00281,81,6,11,2026-04-06,Plataforma municipal,Pendiente,1205.56
+282,O00282,104,4,12,2026-02-25,Mesa de partes virtual,Completado,4715.22
+283,O00283,175,3,14,2026-03-02,Portal tributario,Cancelado,340.34
+284,O00284,85,6,15,2026-03-17,Centro MAC,Pendiente,380.00
+285,O00285,162,6,6,2026-02-08,Plataforma municipal,Pendiente,365.00
+286,O00286,6,1,7,2026-03-21,Mesa de partes virtual,Completado,45.08
+287,O00287,71,5,36,2026-05-10,Portal tributario,Completado,949.96
+288,O00288,8,6,31,2026-03-14,Centro MAC,Completado,0.00
+289,O00289,191,2,30,2026-06-18,Plataforma municipal,Pendiente,82.20
+290,O00290,99,2,21,2026-01-19,Mesa de partes virtual,Completado,1074.84
+291,O00291,71,1,16,2026-02-27,Portal tributario,Completado,2129.16
+292,O00292,144,3,39,2026-03-01,Centro MAC,Pendiente,4283.51
+293,O00293,101,5,6,2026-05-06,Plataforma municipal,Completado,1424.00
+294,O00294,193,4,31,2026-04-06,Mesa de partes virtual,Completado,459.00
+295,O00295,161,5,38,2026-02-14,Portal tributario,Pendiente,495.34
+296,O00296,119,3,19,2026-04-12,Centro MAC,Cancelado,21.00
+297,O00297,185,5,11,2026-03-17,Plataforma municipal,Completado,510.64
+298,O00298,180,1,3,2026-01-02,Mesa de partes virtual,Completado,616.12
+299,O00299,99,2,39,2026-06-25,Portal tributario,Completado,174.00
+300,O00300,179,4,37,2026-02-28,Centro MAC,Completado,215.68
+301,O00301,148,4,40,2026-06-11,Plataforma municipal,Cancelado,92.00
+302,O00302,200,3,25,2026-05-21,Mesa de partes virtual,Cancelado,117.00
+303,O00303,128,2,35,2026-05-19,Portal tributario,Pendiente,70.34
+304,O00304,52,6,30,07/05/2026,Centro MAC,Pendiente,4660.98
+305,O00305,95,1,12,2026-01-04,Plataforma municipal,Completado,314.68
+306,O00306,12,3,15,2026-03-05,Mesa de partes virtual,Completado,703.52
+307,O00307,58,6,23,2026-03-07,Portal tributario,Completado,186.82
+308,O00308,97,5,38,2026-01-26,Centro MAC,Completado,1266.41
+309,O00309,75,5,30,2026-03-25,Plataforma municipal,Completado,-639.26
+310,O00310,172,4,37,2026-04-25,Mesa de partes virtual,Completado,191.00
+311,O00311,186,3,17,2026-06-19,Portal tributario,Completado,84.64
+312,O00312,60,4,37,2026-02-11,Centro MAC,Completado,962.48
+313,O00313,196,2,19,2026-02-19,Plataforma municipal,Pendiente,356.00
+314,O00314,12,1,32,2026-03-14,Mesa de partes virtual,Pendiente,90.00
+315,O00315,93,4,27,2026-04-02,Portal tributario,Cancelado,171.00
+316,O00316,197,4,24,2026-05-06,Centro MAC,Pendiente,1576.72
+317,O00317,140,4,23,2026-01-12,Plataforma municipal,Cancelado,2836.88
+318,O00318,160,4,11,21/06/2026,Mesa de partes virtual,Completado,2927.70
+319,O00319,121,6,18,2026-03-13,Portal tributario,Completado,806.04
+320,O00320,159,3,2,2026-02-14,Centro MAC,Pendiente,323.46
+321,O00321,152,6,20,2026-05-27,Plataforma municipal,Completado,1031.28
+322,O00322,11,1,26,2026-05-17,Mesa de partes virtual,Completado,2252.00
+323,O00323,35,5,12,2026-01-03,Portal tributario,Cancelado,862.44
+324,O00324,104,1,5,2026-03-25,Centro MAC,Completado,30.88
+325,O00325,102,2,31,2026-05-26,Plataforma municipal,Completado,301.40
+326,O00326,86,4,29,2026-04-18,Mesa de partes virtual,Completado,2053.87
+327,O00327,177,5,17,2026-06-27,Portal tributario,Completado,290.48
+328,O00328,154,5,35,2026-06-05,Centro MAC,Completado,215.00
+329,O00329,9552,5,29,2026-04-05,Plataforma municipal,Completado,467.52
+330,O00330,143,5,35,2026-01-12,Mesa de partes virtual,Completado,1204.00
+331,O00331,1,2,31,2026-06-06,Portal tributario,Completado,2934.88
+332,O00332,106,5,28,2026-05-25,Centro MAC,Completado,814.68
+333,O00333,198,5,13,2026-01-26,Plataforma municipal,Completado,2792.80
+334,O00334,71,1,30,2026-02-25,Mesa de partes virtual,Completado,3961.6
+335,O00335,52,4,32,2026-03-05,Portal tributario,Completado,550.00
+336,O00336,180,4,30,2026-06-04,Centro MAC,Completado,1680.23
+337,O00337,156,1,3,2026-01-16,Plataforma municipal,Completado,579.36
+338,O00338,14,5,30,2026-06-22,Mesa de partes virtual,Completado,57.00
+339,O00339,91,4,26,2026-04-25,Portal tributario,Pendiente,228.00
+340,O00340,20,4,22,2026-04-10,Centro MAC,Completado,1040.80
+341,O00341,95,3,24,2026-01-08,Plataforma municipal,Completado,570.00
+342,O00342,59,5,22,2026-02-01,Mesa de partes virtual,Completado,766.88
+343,O00343,160,2,22,2026-01-10,Portal tributario,Completado,2217.36
+344,O00344,10,6,4,2026-02-14,Centro MAC,Completado,378.80
+345,O00345,37,4,22,2026-02-28,Plataforma municipal,Observado,476.84
+346,O00346,80,5,1,2026-04-09,Mesa de partes virtual,Completado,264.97
+347,O00347,159,3,31,2026-04-22,Portal tributario,Completado,415.32
+348,O00348,27,2,2,2026-03-08,Centro MAC,Observado,351.46
+349,O00349,178,5,35,2026-06-16,Plataforma municipal,Completado,615.00
+350,O00350,149,3,39,2026-04-09,Mesa de partes virtual,Completado,2275.00
+351,O00351,47,3,2,2026-06-25,Portal tributario,Completado,1290.29
+352,O00352,20,4,39,2026-05-09,Centro MAC,Completado,533.76
+353,O00353,92,3,9,2026-01-25,Plataforma municipal,Cancelado,269.75
+354,O00354,20,4,8,2026-02-04,Mesa de partes virtual,Completado,0.00
+355,O00355,105,5,,2026-06-12,Portal tributario,Completado,380.00
+356,O00356,119,2,8,2026-05-24,Centro MAC,Completado,36.00
+357,O00357,157,5,11,2026-06-14,Plataforma municipal,Completado,882.42
+358,O00358,123,1,30,2026-02-04,Mesa de partes virtual,Completado,129.00
+359,O00359,78,4,33,2026-02-13,Portal tributario,Completado,423.00
+360,O00360,82,1,20,2026-04-03,Centro MAC,Pendiente,114.00
+361,O00361,133,5,1,21/06/2026,Plataforma municipal,Completado,310.97
+362,O00362,137,4,24,2026-05-01,Mesa de partes virtual,Cancelado,1927.28
+363,O00363,3,3,6,2026-02-20,Portal tributario,Completado,554.43
+364,O00364,123,2,34,2026-04-04,Centro MAC,Cancelado,620.01
+365,O00365,11,5,39,2026-01-21,Plataforma municipal,Completado,21.00
+366,O00366,39,4,38,2026-03-03,Mesa de partes virtual,Observado,35.00
+367,O00367,170,4,12,2026-05-17,Portal tributario,Completado,1149.35
+368,O00368,109,6,16,2026-03-27,Centro MAC,Completado,281.34
+369,O00369,120,4,19,2026-01-09,Plataforma municipal,Observado,2157.00
+370,O00370,81,2,27,2026-05-27,Mesa de partes virtual,Completado,1025.18
+371,O00371,9144,6,33,2026-05-03,Portal tributario,Completado,284.00
+372,O00372,167,4,40,2026-01-08,Centro MAC,Pendiente,228.00
+373,O00373,129,3,35,2026-03-11,Plataforma municipal,Completado,687.52
+374,O00374,50,5,21,2026-01-17,Mesa de partes virtual,Completado,32.88
+375,O00375,189,2,20,2026-03-08,Portal tributario,Observado,1728.00
+376,O00376,13,1,2,13/05/2026,Centro MAC,Observado,58.00
+377,O00377,188,5,17,2026-03-03,Plataforma municipal,Observado,93.48
+378,O00378,43,6,8,2026-01-12,Mesa de partes virtual,Pendiente,229.60
+379,O00379,164,5,6,2026-04-28,Portal tributario,Completado,70.34
+380,O00380,96,2,23,2026-01-17,Centro MAC,Pendiente,98.64
+381,O00381,192,5,31,2026-03-09,Plataforma municipal,Completado,0.00
+382,O00382,40,1,36,2026-06-02,Mesa de partes virtual,Completado,1847.78
+383,O00383,52,4,33,2026-02-23,Portal tributario,Completado,155.04
+384,O00384,114,1,34,2026-06-09,Centro MAC,Cancelado,190.73
+385,O00385,9990,2,40,2026-01-16,Plataforma municipal,Completado,826.05
+386,O00386,112,1,12,2026-05-26,Mesa de partes virtual,Completado,1268.00
+387,O00387,19,6,1,2026-02-19,Portal tributario,Completado,193.00
+388,O00388,165,2,8,2026-05-27,Centro MAC,Cancelado,823.80
+389,O00389,154,6,40,2026-04-21,Plataforma municipal,Cancelado,384.00
+390,O00390,115,2,19,2026-04-04,Mesa de partes virtual,Completado,6864.27
+391,O00391,46,4,4,2026-01-09,Portal tributario,Completado,1965.00
+392,O00392,56,6,16,2026-04-08,Centro MAC,Completado,429.14
+393,O00393,130,5,17,2026-06-01,Plataforma municipal,Pendiente,0.00
+394,O00394,183,6,31,24/03/2026,Mesa de partes virtual,Completado,1284.04
+395,O00395,18,6,8,06/05/2026,Portal tributario,Completado,244.34
+396,O00396,194,2,5,2026-02-22,Centro MAC,Pendiente,293.73
+397,O00397,114,3,4,2026-02-20,Plataforma municipal,Pendiente,1564.68
+398,O00398,158,6,40,2026-05-27,Mesa de partes virtual,Observado,2258.00
+399,O00399,187,6,23,2026-03-09,Portal tributario,Pendiente,91.00
+400,O00400,155,2,31,2026-03-01,Centro MAC,Pendiente,105.41
+401,O00401,111,4,40,2026-06-04,Plataforma municipal,Completado,1166.00
+402,O00402,80,2,22,2026-03-24,Mesa de partes virtual,Completado,105.00
+403,O00403,9082,1,40,2026-06-20,Portal tributario,Observado,715.88
+404,O00404,150,5,22,2026-01-19,Centro MAC,Completado,45.00
+405,O00405,80,3,3,22/01/2026,Plataforma municipal,Completado,179.64
+406,O00406,150,1,36,2026-02-19,Mesa de partes virtual,Completado,446.85
+407,O00407,37,4,32,2026-01-27,Portal tributario,Pendiente,2960.72
+408,O00408,60,2,40,2026-05-15,Centro MAC,Completado,330.70
+409,O00409,174,2,28,2026-02-16,Plataforma municipal,Completado,72.00
+410,O00410,75,5,16,2026-06-05,Mesa de partes virtual,Pendiente,228.41
+411,O00411,192,2,33,02/06/2026,Portal tributario,Completado,612.00
+412,O00412,46,5,34,2026-02-26,Centro MAC,Completado,485.19
+413,O00413,72,3,32,08/01/2026,Plataforma municipal,Completado,1074.72
+414,O00414,58,1,32,2026-04-11,Mesa de partes virtual,Pendiente,549.80
+415,O00415,26,2,22,2026-02-25,Portal tributario,Completado,93.48
+416,O00416,83,1,7,2026-03-05,Centro MAC,Completado,2020.74
+417,O00417,138,2,39,2026-03-11,Plataforma municipal,Completado,45.08
+418,O00418,94,6,21,2026-03-01,Mesa de partes virtual,Completado,1242.08
+419,O00419,163,2,17,2026-05-28,Portal tributario,Completado,1260.00
+420,O00420,70,1,17,2026-04-16,Centro MAC,Completado,199.28
+421,O00421,150,5,17,2026-05-07,Plataforma municipal,Completado,496.33
+422,O00422,31,4,33,2026-05-20,Mesa de partes virtual,Pendiente,1035.54
+423,O00423,54,2,14,2026-02-09,Portal tributario,Observado,5210.42
+424,O00424,148,1,39,2026-05-10,Centro MAC,Completado,952.70
+425,O00425,8,1,6,2026-02-19,Plataforma municipal,Completado,343.34
+426,O00426,76,6,23,2026-02-24,Mesa de partes virtual,Completado,520.16
+427,O00427,30,3,,2026-04-11,Portal tributario,Pendiente,945.84
+428,O00428,161,2,39,2026-06-15,Centro MAC,Observado,922.32
+429,O00429,92,1,38,2026-05-27,Plataforma municipal,Completado,45.08
+430,O00430,9702,4,27,2026-03-24,Mesa de partes virtual,Observado,92.64
+431,O00431,161,5,37,2026-04-06,Portal tributario,Completado,570.00
+432,O00432,84,6,37,2026-06-07,Centro MAC,Completado,31.16
+433,O00433,129,5,13,2026-02-15,Plataforma municipal,Pendiente,204.00
+434,O00434,124,2,3,2026-06-11,Mesa de partes virtual,Completado,61.76
+435,O00435,158,5,19,22/02/2026,Portal tributario,Completado,1567.42
+436,O00436,106,5,31,2026-01-25,Centro MAC,Completado,546.00
+437,O00437,12,4,39,2026-02-12,Plataforma municipal,Completado,585.00
+438,O00438,34,1,31,2026-05-12,Mesa de partes virtual,Cancelado,190.00
+439,O00439,166,6,4,2026-05-04,Portal tributario,Completado,674.24
+440,O00440,46,6,1,2026-01-20,Centro MAC,Pendiente,1031.28
+441,O00441,11,2,38,2026-03-11,Plataforma municipal,Pendiente,93.41
+442,O00442,81,3,32,17/05/2026,Mesa de partes virtual,Completado,295.40
+443,O00443,74,4,7,2026-06-09,Portal tributario,Completado,554.75
+444,O00444,169,4,9,2026-03-04,Centro MAC,Observado,2093.88
+445,O00445,109,6,8,2026-06-24,Plataforma municipal,Completado,1120.00
+446,O00446,185,1,17,2026-02-03,Mesa de partes virtual,Completado,675.80
+447,O00447,127,6,27,2026-03-09,Portal tributario,Completado,323.92
+448,O00448,57,1,4,2026-02-09,Centro MAC,Completado,165.32
+449,O00449,45,6,8,2026-05-09,Plataforma municipal,Completado,504.88
+450,O00450,115,2,39,2026-04-19,Mesa de partes virtual,Completado,666.80
+451,O00451,30,2,13,2026-01-11,Portal tributario,Completado,35.00
+452,O00452,9,3,13,2026-02-12,Centro MAC,Pendiente,122.32
+453,O00453,155,2,33,2026-04-16,Plataforma municipal,Completado,1674.40
+454,O00454,120,5,27,2026-03-06,Mesa de partes virtual,Completado,8961.22
+455,O00455,26,6,6,2026-06-17,Portal tributario,Completado,30.88
+456,O00456,75,3,5,2026-02-13,Centro MAC,Cancelado,1232.85
+457,O00457,186,4,,2026-01-05,Plataforma municipal,Pendiente,459.88
+458,O00458,36,4,7,2026-06-05,Mesa de partes virtual,Cancelado,1653.20
+459,O00459,119,4,4,2026-06-09,Portal tributario,Completado,28.00
+460,O00460,55,6,37,2026-06-10,Centro MAC,Completado,798.86
+461,O00461,64,1,39,2026-06-28,Plataforma municipal,Completado,3331.76
+462,O00462,175,3,,2026-02-02,Mesa de partes virtual,Completado,128.00
+463,O00463,9654,6,24,27/02/2026,Portal tributario,Completado,1186.40
+464,O00464,143,4,14,2026-02-03,Centro MAC,Completado,2929.73
+465,O00465,159,5,40,2026-01-07,Plataforma municipal,Completado,996.02
+466,O00466,172,5,12,2026-02-20,Mesa de partes virtual,Cancelado,1160.38
+467,O00467,26,2,27,2026-03-27,Portal tributario,Completado,269.75
+468,O00468,99,3,20,2026-01-16,Centro MAC,Completado,442.51
+469,O00469,73,4,7,2026-06-11,Plataforma municipal,Completado,184.66
+470,O00470,166,1,34,2026-05-03,Mesa de partes virtual,Pendiente,456.00
+471,O00471,199,1,30,2026-01-07,Portal tributario,Completado,513.70
+472,O00472,150,1,38,2026-06-02,Centro MAC,Pendiente,8386.4
+473,O00473,29,2,11,2026-03-15,Plataforma municipal,Cancelado,1204.38
+474,O00474,91,5,31,2026-06-24,Mesa de partes virtual,Completado,1246.96
+475,O00475,137,6,36,2026-04-27,Portal tributario,Completado,399.00
+476,O00476,58,4,32,2026-01-12,Centro MAC,Completado,839.44
+477,O00477,130,2,18,2026-02-26,Plataforma municipal,Completado,0.00
+478,O00478,11,6,,2026-02-16,Mesa de partes virtual,Cancelado,457.76
+479,O00479,184,2,31,2026-06-03,Portal tributario,Pendiente,1095.04
+480,O00480,131,6,25,2026-04-09,Centro MAC,Observado,384.00
+481,O00481,89,2,30,16/02/2026,Plataforma municipal,Completado,444.26
+482,O00482,165,3,20,2026-03-04,Mesa de partes virtual,Completado,826.00
+483,O00483,148,1,31,2026-01-04,Portal tributario,Completado,1106.04
+484,O00484,50,6,5,2026-04-27,Centro MAC,Cancelado,211.60
+485,O00485,129,2,40,2026-03-01,Plataforma municipal,Completado,191.00
+486,O00486,141,6,26,2026-05-26,Mesa de partes virtual,Completado,252.00
+487,O00487,61,2,36,2026-03-10,Portal tributario,Completado,649.84
+488,O00488,157,5,27,2026-06-13,Centro MAC,Completado,114.00
+489,O00489,83,6,39,28/02/2026,Plataforma municipal,Cancelado,123.96
+490,O00490,180,2,40,2026-02-27,Mesa de partes virtual,Observado,485.19
+491,O00491,181,3,,2026-01-16,Portal tributario,Completado,352.64
+492,O00492,125,3,26,2026-02-03,Centro MAC,Observado,1680.00
+493,O00493,186,1,28,2026-05-08,Plataforma municipal,Cancelado,1264.72
+494,O00494,101,3,24,2026-04-13,Mesa de partes virtual,Completado,67.62
+495,O00495,16,5,28,2026-03-06,Portal tributario,Completado,1922.28
+496,O00496,52,2,38,2026-04-01,Centro MAC,Completado,697.00
+497,O00497,146,3,26,2026-04-15,Plataforma municipal,Pendiente,1764.00
+498,O00498,193,3,3,2026-02-19,Mesa de partes virtual,Cancelado,380.00
+499,O00499,68,5,25,2026-01-15,Portal tributario,Completado,1551.49
+500,O00500,182,4,9,2026-01-03,Centro MAC,Completado,1242.00
+501,O00501,80,4,31,2026-04-02,Plataforma municipal,Completado,70.00
+502,O00502,179,6,1,2026-04-03,Mesa de partes virtual,Completado,1148.65
+503,O00503,21,2,1,2026-04-28,Portal tributario,Completado,1097.40
+504,O00504,32,4,10,2026-02-03,Centro MAC,Pendiente,179.16
+505,O00505,82,6,20,2026-06-12,Plataforma municipal,Observado,1635.94
+506,O00506,86,6,21,2026-05-19,Mesa de partes virtual,Pendiente,1887.46
+507,O00507,61,4,24,2026-02-20,Portal tributario,Completado,61.76
+508,O00508,186,6,7,2026-06-19,Centro MAC,Completado,1273.98
+509,O00509,151,6,26,2026-03-09,Plataforma municipal,Completado,322.06
+510,O00510,93,3,18,2026-02-12,Mesa de partes virtual,Completado,189.85
+511,O00511,4,3,23,26/01/2026,Portal tributario,Completado,114.00
+512,O00512,177,1,16,2026-05-23,Centro MAC,Completado,126.00
+513,O00513,186,6,7,2026-05-17,Plataforma municipal,Completado,154.16
+514,O00514,10,5,36,2026-06-01,Mesa de partes virtual,Cancelado,104.32
+515,O00515,90,2,14,2026-03-04,Portal tributario,Pendiente,883.92
+516,O00516,4,1,24,2026-05-21,Centro MAC,Completado,618.00
+517,O00517,163,3,26,2026-02-24,Plataforma municipal,Pendiente,3183.71
+518,O00518,185,6,20,2026-03-16,Mesa de partes virtual,Completado,222.64
+519,O00519,193,3,21,2026-01-18,Portal tributario,Completado,343.76
+520,O00520,23,4,35,2026-02-24,Centro MAC,Completado,1969.17
+521,O00521,121,2,7,2026-05-20,Plataforma municipal,Completado,342.70
+522,O00522,189,5,,2026-03-23,Mesa de partes virtual,Completado,445.88
+523,O00523,29,3,40,2026-01-16,Portal tributario,Completado,422.04
+524,O00524,32,4,32,2026-05-11,Centro MAC,Cancelado,442.32
+525,O00525,13,5,18,07/01/2026,Plataforma municipal,Completado,475.00
+526,O00526,122,5,8,2026-02-05,Mesa de partes virtual,Completado,509.09
+527,O00527,134,3,30,08/06/2026,Portal tributario,Completado,103.08
+528,O00528,134,2,32,2026-05-10,Centro MAC,Completado,6762.77
+529,O00529,5,6,15,2026-05-03,Plataforma municipal,Pendiente,582.04
+530,O00530,92,4,35,2026-02-05,Mesa de partes virtual,Cancelado,487.16
+531,O00531,199,3,20,2026-02-23,Portal tributario,Completado,919.75
+532,O00532,98,6,18,2026-02-25,Centro MAC,Completado,1031.28
+533,O00533,152,5,2,2026-04-27,Plataforma municipal,Completado,504.54
+534,O00534,36,3,25,2026-01-13,Mesa de partes virtual,Pendiente,4103.70
+535,O00535,106,2,4,2026-01-11,Portal tributario,Pendiente,704.00
+536,O00536,66,3,9,2026-02-17,Centro MAC,Pendiente,140.00
+537,O00537,149,1,28,2026-01-26,Plataforma municipal,Completado,207.62
+538,O00538,74,3,28,2026-02-28,Mesa de partes virtual,Cancelado,707.40
+539,O00539,57,2,7,2026-02-09,Portal tributario,Pendiente,72.00
+540,O00540,25,5,26,2026-01-19,Centro MAC,Completado,1440.00
+541,O00541,46,6,36,05/02/2026,Plataforma municipal,Completado,1153.34
+542,O00542,183,3,28,2026-05-23,Mesa de partes virtual,Completado,1485.00
+543,O00543,45,5,32,2026-03-08,Portal tributario,Completado,1862.00
+544,O00544,174,4,1,26/05/2026,Centro MAC,Pendiente,335.16
+545,O00545,83,3,14,2026-05-01,Plataforma municipal,Pendiente,374.77
+546,O00546,91,4,37,2026-04-23,Mesa de partes virtual,Observado,140.68
+547,O00547,53,6,33,2026-01-25,Portal tributario,Pendiente,193.80
+548,O00548,168,4,1,2026-02-05,Centro MAC,Completado,1499.00
+549,O00549,13,6,20,2026-02-06,Plataforma municipal,Completado,19.00
+550,O00550,193,6,8,2026-01-11,Mesa de partes virtual,Cancelado,290.00
+551,O00551,191,5,23,2026-02-08,Portal tributario,Completado,604.56
+552,O00552,124,5,18,2026-01-15,Centro MAC,Completado,2424.16
+553,O00553,29,1,7,2026-02-07,Plataforma municipal,Completado,542.15
+554,O00554,171,6,27,2026-05-09,Mesa de partes virtual,Completado,745.00
+555,O00555,155,6,12,01/02/2026,Portal tributario,Completado,19.00
+556,O00556,108,4,22,2026-05-17,Centro MAC,Pendiente,420.00
+557,O00557,15,1,24,2026-05-08,Plataforma municipal,Completado,2116.80
+558,O00558,55,4,28,2026-05-04,Mesa de partes virtual,Completado,2095.16
+559,O00559,113,3,24,2026-06-24,Portal tributario,Completado,1723.70
+560,O00560,54,3,36,2026-04-05,Centro MAC,Completado,-2128.59
+561,O00561,191,3,38,2026-04-16,Plataforma municipal,Observado,681.48
+562,O00562,112,6,38,2026-01-05,Mesa de partes virtual,Observado,1084.80
+563,O00563,118,2,5,2026-04-01,Portal tributario,Cancelado,829.64
+564,O00564,126,5,31,2026-04-17,Centro MAC,Pendiente,168.64
+565,O00565,117,3,38,2026-01-06,Plataforma municipal,Completado,659.76
+566,O00566,47,1,31,20/02/2026,Mesa de partes virtual,Completado,1074.92
+567,O00567,186,6,40,2026-06-22,Portal tributario,Completado,558.92
+568,O00568,159,3,29,2026-02-11,Centro MAC,Completado,274.00
+569,O00569,39,5,24,2026-04-04,Plataforma municipal,Observado,1110.36
+570,O00570,50,1,3,2026-03-17,Mesa de partes virtual,Pendiente,114.00
+571,O00571,37,1,34,2026-05-26,Portal tributario,Cancelado,161.85
+572,O00572,119,2,39,27/06/2026,Centro MAC,Completado,19.00
+573,O00573,79,5,28,2026-05-24,Plataforma municipal,Pendiente,0.00
+574,O00574,156,5,32,2026-06-26,Mesa de partes virtual,Completado,303.90
+575,O00575,15,4,5,2026-02-06,Portal tributario,Completado,582.16
+576,O00576,182,1,20,27/06/2026,Centro MAC,Completado,1165.65
+577,O00577,9534,5,15,2026-03-18,Plataforma municipal,Pendiente,6066.67
+578,O00578,40,1,7,2026-05-22,Mesa de partes virtual,Completado,2485.71
+579,O00579,100,6,37,2026-05-19,Portal tributario,Completado,612.00
+580,O00580,70,1,28,03/02/2026,Centro MAC,Pendiente,70.00
+581,O00581,92,4,25,2026-06-09,Plataforma municipal,Completado,-5379.12
+582,O00582,178,3,14,07/05/2026,Mesa de partes virtual,Pendiente,351.70
+583,O00583,74,6,,2026-01-14,Portal tributario,Completado,2062.56
+584,O00584,74,4,30,2026-03-28,Centro MAC,Completado,613.32
+585,O00585,44,4,8,2026-01-02,Plataforma municipal,Completado,738.94
+586,O00586,143,4,31,2026-03-09,Mesa de partes virtual,Completado,785.30
+587,O00587,163,5,5,2026-04-18,Portal tributario,Completado,67.62
+588,O00588,180,1,5,07/06/2026,Centro MAC,Pendiente,178.00
+589,O00589,164,5,20,2026-04-06,Plataforma municipal,Pendiente,296.01
+590,O00590,162,4,20,2026-04-25,Mesa de partes virtual,Completado,1040.80
+591,O00591,195,1,6,2026-06-03,Portal tributario,Completado,699.70
+592,O00592,195,3,36,03/03/2026,Centro MAC,Cancelado,193.64
+593,O00593,176,5,36,2026-06-02,Plataforma municipal,Completado,114.00
+594,O00594,68,1,4,2026-02-15,Mesa de partes virtual,Completado,455.46
+595,O00595,35,2,39,2026-02-21,Portal tributario,Completado,285.00
+596,O00596,74,6,27,2026-06-12,Centro MAC,Observado,184.34
+597,O00597,43,6,12,2026-03-12,Plataforma municipal,Completado,5404.28
+598,O00598,175,4,39,2026-04-28,Mesa de partes virtual,Pendiente,343.76
+599,O00599,128,1,40,13/04/2026,Portal tributario,Completado,1898.04
+600,O00600,118,5,2,2026-05-23,Centro MAC,Completado,456.00
+601,O00601,77,6,1,2026-02-18,Plataforma municipal,Pendiente,170.00
+602,O00602,122,5,22,2026-03-24,Mesa de partes virtual,Pendiente,601.22
+603,O00603,9149,5,39,2026-03-10,Portal tributario,Completado,1720.14
+604,O00604,39,4,3,2026-04-20,Centro MAC,Completado,5154.76
+605,O00605,50,1,15,2026-03-18,Plataforma municipal,Completado,45.00
+606,O00606,1,1,9,2026-03-27,Mesa de partes virtual,Observado,1783.20
+607,O00607,192,1,10,2026-04-21,Portal tributario,Completado,1452.56
+608,O00608,14,5,8,2026-01-21,Centro MAC,Completado,452.96
+609,O00609,118,5,11,2026-03-12,Plataforma municipal,Pendiente,2541.88
+610,O00610,200,5,16,2026-03-16,Mesa de partes virtual,Completado,61.76
+611,O00611,41,1,20,2026-01-13,Portal tributario,Completado,763.04
+612,O00612,32,3,33,2026-01-25,Centro MAC,Pendiente,1816.81
+613,O00613,128,3,38,2026-02-14,Plataforma municipal,Pendiente,635.49
+614,O00614,51,1,2,2026-04-26,Mesa de partes virtual,Completado,19.00
+615,O00615,109,4,12,21/06/2026,Portal tributario,Completado,342.70
+616,O00616,94,1,27,08/06/2026,Centro MAC,Completado,1807.52
+617,O00617,117,1,,2026-03-07,Plataforma municipal,Completado,1727.05
+618,O00618,57,2,9,2026-02-18,Mesa de partes virtual,Observado,431.64
+619,O00619,72,5,17,2026-04-16,Portal tributario,Cancelado,362.58
+620,O00620,33,2,10,2026-03-20,Centro MAC,Pendiente,42.00
+621,O00621,191,5,20,2026-04-20,Plataforma municipal,Cancelado,2643.1
+622,O00622,60,2,22,2026-05-09,Mesa de partes virtual,Cancelado,223.76
+623,O00623,28,2,15,2026-04-01,Portal tributario,Completado,2553.46
+624,O00624,128,5,31,2026-05-24,Centro MAC,Pendiente,171.00
+625,O00625,53,6,35,2026-04-19,Plataforma municipal,Completado,901.88
+626,O00626,102,1,19,2026-05-19,Mesa de partes virtual,Completado,1133.72
+627,O00627,113,3,2,2026-05-07,Portal tributario,Observado,835.46
+628,O00628,131,5,4,2026-06-15,Centro MAC,Completado,659.76
+629,O00629,174,4,37,2026-04-09,Plataforma municipal,Completado,264.37
+630,O00630,30,1,16,2026-03-27,Mesa de partes virtual,Completado,-5584.8
+631,O00631,174,4,20,2026-03-17,Portal tributario,Cancelado,21.00
+632,O00632,87,4,39,2026-05-20,Centro MAC,Completado,243.00
+633,O00633,95,3,30,2026-03-26,Plataforma municipal,Observado,677.48
+634,O00634,186,6,19,2026-04-11,Mesa de partes virtual,Completado,0.00
+635,O00635,193,5,39,2026-05-06,Portal tributario,Completado,1131.72
+636,O00636,106,2,37,2026-02-09,Centro MAC,Completado,84.00
+637,O00637,106,2,25,2026-02-09,Plataforma municipal,Pendiente,630.80
+638,O00638,92,2,13,2026-04-19,Mesa de partes virtual,Completado,465.41
+639,O00639,173,1,24,2026-03-27,Portal tributario,Cancelado,885.80
+640,O00640,12,3,40,10/01/2026,Centro MAC,Pendiente,779.80
+641,O00641,68,4,26,2026-03-03,Plataforma municipal,Completado,107.00
+642,O00642,127,5,14,16/03/2026,Mesa de partes virtual,Pendiente,928.28
+643,O00643,27,3,30,2026-05-14,Portal tributario,Completado,140.00
+644,O00644,155,6,15,2026-03-05,Centro MAC,Completado,963.52
+645,O00645,167,3,18,2026-05-27,Plataforma municipal,Completado,482.00
+646,O00646,97,3,12,2026-03-22,Mesa de partes virtual,Cancelado,296.70
+647,O00647,36,4,37,2026-02-08,Portal tributario,Cancelado,582.82
+648,O00648,127,6,14,2026-03-17,Centro MAC,Completado,1253.18
+649,O00649,109,3,39,2026-02-13,Plataforma municipal,Completado,809.41
+650,O00650,110,2,39,2026-05-06,Mesa de partes virtual,Pendiente,72.00
+651,O00651,199,1,30,2026-04-18,Portal tributario,Completado,103.20
+652,O00652,106,3,35,2026-02-11,Centro MAC,Pendiente,380.00
+653,O00653,173,3,4,2026-03-09,Plataforma municipal,Completado,1145.05
+654,O00654,90,2,29,2026-06-27,Mesa de partes virtual,Observado,154.96
+655,O00655,179,1,32,2026-04-07,Portal tributario,Completado,573.70
+656,O00656,169,2,10,2026-05-13,Centro MAC,Completado,170.44
+657,O00657,112,5,5,2026-02-20,Plataforma municipal,Completado,146.00
+658,O00658,58,2,11,2026-03-07,Mesa de partes virtual,Completado,304.00
+659,O00659,61,1,18,25/03/2026,Portal tributario,Completado,70.00
+660,O00660,112,3,,2026-03-13,Centro MAC,Observado,2632.64
+661,O00661,95,1,18,2026-05-23,Plataforma municipal,Completado,1529.96
+662,O00662,184,5,35,2026-06-06,Mesa de partes virtual,Pendiente,124.64
+663,O00663,54,5,30,2026-05-12,Portal tributario,Completado,65.76
+664,O00664,30,2,3,2026-02-22,Centro MAC,Completado,467.05
+665,O00665,45,2,35,2026-05-25,Plataforma municipal,Pendiente,323.70
+666,O00666,109,6,21,2026-01-09,Mesa de partes virtual,Completado,586.36
+667,O00667,121,4,8,2026-05-06,Portal tributario,Completado,416.00
+668,O00668,75,4,31,2026-02-09,Centro MAC,Completado,1045.00
+669,O00669,103,6,14,2026-04-09,Plataforma municipal,Completado,216.00
+670,O00670,30,3,39,2026-01-04,Mesa de partes virtual,Completado,776.03
+671,O00671,193,1,30,2026-05-23,Portal tributario,Pendiente,152.00
+672,O00672,185,5,21,2026-01-12,Centro MAC,Completado,954.00
+673,O00673,108,2,6,2026-02-16,Plataforma municipal,Completado,2898.64
+674,O00674,183,1,8,2026-01-07,Mesa de partes virtual,Pendiente,679.85
+675,O00675,132,1,20,12/06/2026,Portal tributario,Completado,-1749.42
+676,O00676,163,3,33,2026-01-20,Centro MAC,Completado,1103.98
+677,O00677,140,4,8,2026-01-19,Plataforma municipal,Cancelado,1842.40
+678,O00678,81,1,10,2026-03-19,Mesa de partes virtual,Completado,1015.46
+679,O00679,98,5,38,2026-06-01,Portal tributario,Observado,7.00
+680,O00680,15,5,2,2026-01-15,Centro MAC,Completado,583.32
+681,O00681,11,2,37,2026-04-06,Plataforma municipal,Observado,36.00
+682,O00682,14,4,25,2026-01-26,Mesa de partes virtual,Pendiente,171.88
+683,O00683,91,4,33,2026-05-05,Portal tributario,Pendiente,2116.44
+684,O00684,21,3,27,02/01/2026,Centro MAC,Completado,244.76
+685,O00685,14,1,2,2026-02-22,Plataforma municipal,Pendiente,1942.80
+686,O00686,153,4,17,2026-04-20,Mesa de partes virtual,Completado,1752.10
+687,O00687,71,6,2,2026-04-23,Portal tributario,Completado,1706.00
+688,O00688,18,5,39,2026-01-02,Centro MAC,Completado,472.00
+689,O00689,132,4,13,2026-05-07,Plataforma municipal,Completado,236.76
+690,O00690,80,3,15,2026-02-17,Mesa de partes virtual,Completado,1047.32
+691,O00691,68,3,32,2026-06-06,Portal tributario,Completado,488.00
+692,O00692,86,2,14,2026-04-23,Centro MAC,Completado,769.40
+693,O00693,38,3,21,2026-04-26,Plataforma municipal,Cancelado,5611.73
+694,O00694,83,3,23,13/05/2026,Mesa de partes virtual,Cancelado,190.00
+695,O00695,127,2,40,2026-02-14,Portal tributario,Completado,848.44
+696,O00696,61,4,25,2026-01-09,Centro MAC,Completado,398.00
+697,O00697,198,4,39,2026-01-26,Plataforma municipal,Pendiente,63.00
+698,O00698,79,3,25,2026-05-14,Mesa de partes virtual,Completado,434.88
+699,O00699,81,3,5,2026-06-17,Portal tributario,Observado,206.22
+700,O00700,115,6,33,2026-04-26,Centro MAC,Completado,56.00
+701,O00701,126,2,13,2026-02-11,Plataforma municipal,Completado,84.00
+702,O00702,51,3,13,2026-04-18,Mesa de partes virtual,Completado,156.54
+703,O00703,184,3,40,2026-01-24,Portal tributario,Completado,1688.54
+704,O00704,77,3,38,2026-01-24,Centro MAC,Completado,3307.30
+705,O00705,84,2,15,2026-06-27,Plataforma municipal,Completado,687.52
+706,O00706,118,3,17,2026-03-18,Mesa de partes virtual,Completado,537.36
+707,O00707,3,1,29,2026-04-01,Portal tributario,Completado,1023.89
+708,O00708,40,4,27,2026-03-09,Centro MAC,Completado,154.40
+709,O00709,33,5,31,2026-02-19,Plataforma municipal,Pendiente,235.00
+710,O00710,77,3,13,2026-04-27,Mesa de partes virtual,Pendiente,399.46
+711,O00711,77,5,34,2026-01-18,Portal tributario,Pendiente,257.00
+712,O00712,173,3,18,2026-04-06,Centro MAC,Pendiente,310.68
+713,O00713,143,4,23,2026-01-12,Plataforma municipal,Cancelado,305.00
+714,O00714,156,4,22,2026-03-21,Mesa de partes virtual,Completado,1134.00
+715,O00715,25,3,15,2026-05-24,Portal tributario,Completado,361.82
+716,O00716,28,2,3,2026-06-11,Centro MAC,Completado,28.00
+717,O00717,165,5,9,2026-04-01,Plataforma municipal,Completado,70.00
+718,O00718,163,3,,2026-03-01,Mesa de partes virtual,Completado,352.62
+719,O00719,109,3,20,2026-03-20,Portal tributario,Pendiente,412.88
+720,O00720,36,6,5,2026-04-26,Centro MAC,Completado,537.36
+721,O00721,88,4,32,2026-06-06,Plataforma municipal,Completado,1697.70
+722,O00722,27,6,29,2026-03-11,Mesa de partes virtual,Cancelado,1262.79
+723,O00723,60,1,5,2026-06-27,Portal tributario,Completado,0.00
+724,O00724,51,1,37,2026-02-19,Centro MAC,Completado,152.00
+725,O00725,83,1,21,2026-05-23,Plataforma municipal,Pendiente,228.00
+726,O00726,139,6,19,2026-05-09,Mesa de partes virtual,Completado,534.40
+727,O00727,84,5,30,2026-06-23,Portal tributario,Observado,306.88
+728,O00728,200,6,38,2026-01-12,Centro MAC,Cancelado,2574.71
+729,O00729,39,5,26,2026-06-10,Plataforma municipal,Completado,0.00
+730,O00730,27,5,4,2026-01-16,Mesa de partes virtual,Pendiente,348.00
+731,O00731,88,2,21,2026-04-23,Portal tributario,Completado,3081.27
+732,O00732,42,1,38,2026-01-28,Centro MAC,Observado,351.70
+733,O00733,22,5,6,2026-04-13,Plataforma municipal,Completado,382.00
+734,O00734,53,3,1,2026-02-07,Mesa de partes virtual,Completado,3043.28
+735,O00735,44,6,1,2026-06-23,Portal tributario,Completado,443.00
+736,O00736,28,5,36,2026-04-09,Centro MAC,Pendiente,260.00
+737,O00737,156,6,5,2026-04-17,Plataforma municipal,Pendiente,646.92
+738,O00738,88,5,19,2026-03-13,Mesa de partes virtual,Completado,211.02
+739,O00739,164,6,9,07/02/2026,Portal tributario,Completado,2800.23
+740,O00740,59,5,8,2026-04-15,Centro MAC,Pendiente,149.41
+741,O00741,36,5,15,2026-01-27,Plataforma municipal,Completado,222.82
+742,O00742,194,4,26,2026-01-16,Mesa de partes virtual,Cancelado,840.00
+743,O00743,110,4,17,2026-05-10,Portal tributario,Completado,312.00
+744,O00744,92,5,33,2026-01-23,Centro MAC,Pendiente,343.76
+745,O00745,138,5,,2026-06-19,Plataforma municipal,Completado,821.84
+746,O00746,184,5,27,2026-04-26,Mesa de partes virtual,Completado,836.00
+747,O00747,155,2,39,2026-01-27,Portal tributario,Cancelado,608.40
+748,O00748,16,3,36,2026-05-20,Centro MAC,Pendiente,190.00
+749,O00749,37,1,16,2026-06-21,Plataforma municipal,Completado,808.65
+750,O00750,64,1,21,2026-03-28,Mesa de partes virtual,Completado,1109.37
+751,O00751,23,3,18,2026-01-14,Portal tributario,Pendiente,114.00
+752,O00752,28,5,18,2026-05-03,Centro MAC,Completado,269.00
+753,O00753,83,6,26,12/06/2026,Plataforma municipal,Completado,84.64
+754,O00754,173,1,27,2026-02-12,Mesa de partes virtual,Completado,2906.08
+755,O00755,83,2,33,2026-02-18,Portal tributario,Pendiente,926.92
+756,O00756,119,2,18,2026-06-03,Centro MAC,Pendiente,241.12
+757,O00757,121,4,24,2026-06-16,Plataforma municipal,Completado,215.80
+758,O00758,110,5,20,2026-02-17,Mesa de partes virtual,Completado,560.46
+759,O00759,57,4,18,2026-03-21,Portal tributario,Observado,253.92
+760,O00760,110,1,37,2026-05-06,Centro MAC,Pendiente,56.00
+761,O00761,76,4,23,2026-05-06,Plataforma municipal,Completado,42.32
+762,O00762,173,6,7,2026-05-11,Mesa de partes virtual,Completado,105.00
+763,O00763,170,3,9,2026-03-07,Portal tributario,Observado,255.00
+764,O00764,34,4,10,2026-01-23,Centro MAC,Completado,1106.65
+765,O00765,141,4,22,2026-06-07,Plataforma municipal,Observado,1793.00
+766,O00766,46,1,29,2026-05-13,Mesa de partes virtual,Cancelado,70.00
+767,O00767,127,4,19,2026-06-09,Portal tributario,Completado,1392.00
+768,O00768,89,4,21,2026-06-24,Centro MAC,Pendiente,2757.03
+769,O00769,68,6,17,13/03/2026,Plataforma municipal,Cancelado,12.00
+770,O00770,59,1,17,2026-02-25,Mesa de partes virtual,Completado,769.00
+771,O00771,135,4,35,2026-05-21,Portal tributario,Completado,56.00
+772,O00772,195,3,19,2026-05-28,Centro MAC,Cancelado,1973.70
+773,O00773,96,5,39,2026-02-27,Plataforma municipal,Completado,2590.34
+774,O00774,42,1,28,2026-02-18,Mesa de partes virtual,Pendiente,211.60
+775,O00775,118,5,1,2026-04-25,Portal tributario,Cancelado,774.96
+776,O00776,141,5,9,2026-03-07,Centro MAC,Completado,84.00
+777,O00777,35,2,11,2026-04-22,Plataforma municipal,Completado,114.00
+778,O00778,160,2,16,2026-05-16,Mesa de partes virtual,Completado,0.00
+779,O00779,178,1,35,17/01/2026,Portal tributario,Pendiente,21.00
+780,O00780,199,3,10,2026-05-07,Centro MAC,Cancelado,62.32
+781,O00781,63,5,39,2026-02-16,Plataforma municipal,Completado,687.52
+782,O00782,108,6,14,17/06/2026,Mesa de partes virtual,Observado,320.64
+783,O00783,187,5,22,2026-01-15,Portal tributario,Observado,574.32
+784,O00784,85,6,5,2026-02-27,Centro MAC,Pendiente,1072.00
+785,O00785,11,4,1,2026-05-13,Plataforma municipal,Completado,1396.76
+786,O00786,139,6,3,2026-02-25,Mesa de partes virtual,Completado,61.76
+787,O00787,117,4,14,2026-04-02,Portal tributario,Completado,3083.08
+788,O00788,151,4,31,2026-02-05,Centro MAC,Cancelado,302.00
+789,O00789,114,3,2,2026-02-02,Plataforma municipal,Cancelado,105.00
+790,O00790,111,5,39,2026-06-14,Mesa de partes virtual,Observado,112.00
+791,O00791,23,4,40,2026-01-28,Portal tributario,Completado,1318.6
+792,O00792,6,2,9,2026-03-25,Centro MAC,Completado,107.90
+793,O00793,157,4,33,2026-02-08,Plataforma municipal,Completado,381.29
+794,O00794,89,3,38,2026-06-14,Mesa de partes virtual,Completado,755.23
+795,O00795,115,2,29,2026-05-13,Portal tributario,Completado,340.33
+796,O00796,39,5,5,2026-02-26,Centro MAC,Completado,955.42
+797,O00797,7,4,28,2026-04-27,Plataforma municipal,Completado,825.36
+798,O00798,74,1,8,2026-01-03,Mesa de partes virtual,Pendiente,873.26
+799,O00799,73,6,19,2026-01-10,Portal tributario,Completado,122.00
+800,O00800,30,2,22,2026-02-22,Centro MAC,Completado,793.28
+801,O00801,154,3,26,2026-05-10,Plataforma municipal,Completado,60.00
+802,O00802,95,6,7,2026-06-28,Mesa de partes virtual,Completado,1206.72
+803,O00803,119,3,11,2026-03-27,Portal tributario,Completado,3365.04
+804,O00804,152,1,39,2026-05-25,Centro MAC,Pendiente,95.60
+805,O00805,99,6,31,2026-05-16,Plataforma municipal,Completado,210.40
+806,O00806,45,2,12,2026-01-14,Mesa de partes virtual,Completado,1780.46
+807,O00807,168,2,38,2026-02-07,Portal tributario,Pendiente,608.46
+808,O00808,23,6,14,2026-04-03,Centro MAC,Completado,1823.08
+809,O00809,91,1,5,2026-06-08,Plataforma municipal,Cancelado,485.19
+810,O00810,191,4,11,2026-04-21,Mesa de partes virtual,Completado,1841.45
+811,O00811,93,3,8,24/05/2026,Portal tributario,Completado,828.16
+812,O00812,149,4,31,2026-03-23,Centro MAC,Pendiente,542.19
+813,O00813,78,5,33,2026-02-09,Plataforma municipal,Completado,-5762.77
+814,O00814,191,4,18,2026-06-12,Mesa de partes virtual,Pendiente,309.98
+815,O00815,104,2,3,2026-02-03,Portal tributario,Completado,386.68
+816,O00816,24,2,29,2026-05-06,Centro MAC,Pendiente,70.00
+817,O00817,77,5,2,2026-06-15,Plataforma municipal,Completado,335.08
+818,O00818,64,2,32,2026-01-11,Mesa de partes virtual,Observado,684.80
+819,O00819,178,5,37,2026-06-05,Portal tributario,Cancelado,342.00
+820,O00820,62,4,17,2026-06-10,Centro MAC,Completado,72.00
+821,O00821,68,5,7,2026-05-21,Plataforma municipal,Pendiente,127.00
+822,O00822,97,4,38,2026-04-13,Mesa de partes virtual,Completado,2229.80
+823,O00823,159,5,21,2026-03-12,Portal tributario,Completado,471.24
+824,O00824,93,2,6,2026-02-26,Centro MAC,Completado,625.41
+825,O00825,154,1,,2026-02-22,Plataforma municipal,Observado,126.96
+826,O00826,108,2,12,2026-06-20,Mesa de partes virtual,Completado,476.96
+827,O00827,120,5,12,2026-02-27,Portal tributario,Pendiente,439.84
+828,O00828,7,6,15,2026-05-08,Centro MAC,Completado,773.88
+829,O00829,112,4,,21/06/2026,Plataforma municipal,Completado,823.00
+830,O00830,61,6,7,2026-02-16,Mesa de partes virtual,Observado,56.00
+831,O00831,165,1,15,2026-02-28,Portal tributario,Completado,1343.16
+832,O00832,113,1,6,2026-03-26,Centro MAC,Completado,1701.00
+833,O00833,134,6,30,2026-05-14,Plataforma municipal,Completado,124.64
+834,O00834,8,5,23,2026-02-17,Mesa de partes virtual,Completado,206.84
+835,O00835,134,2,27,2026-02-09,Portal tributario,Cancelado,358.06
+836,O00836,110,3,9,2026-02-09,Centro MAC,Observado,187.64
+837,O00837,183,5,23,2026-02-17,Plataforma municipal,Cancelado,498.46
+838,O00838,117,4,12,2026-01-12,Mesa de partes virtual,Pendiente,45.08
+839,O00839,199,2,18,2026-06-17,Portal tributario,Completado,1612.08
+840,O00840,108,4,10,2026-01-15,Centro MAC,Completado,161.73
+841,O00841,49,4,25,2026-01-12,Plataforma municipal,Pendiente,164.16
+842,O00842,62,2,20,03/04/2026,Mesa de partes virtual,Observado,3557.05
+843,O00843,54,2,38,2026-02-14,Portal tributario,Completado,483.60
+844,O00844,173,6,25,2026-02-26,Centro MAC,Completado,547.00
+845,O00845,129,2,,2026-01-11,Plataforma municipal,Completado,235.00
+846,O00846,65,4,6,2026-05-15,Mesa de partes virtual,Completado,329.88
+847,O00847,174,5,10,2026-04-09,Portal tributario,Completado,116.00
+848,O00848,194,5,3,2026-06-16,Centro MAC,Completado,310.34
+849,O00849,44,1,4,2026-02-02,Plataforma municipal,Observado,728.60
+850,O00850,34,3,20,2026-01-19,Mesa de partes virtual,Completado,687.52
+851,O00851,119,6,37,2026-04-03,Portal tributario,Completado,133.00
+852,O00852,22,6,39,2026-06-19,Centro MAC,Completado,840.77
+853,O00853,50,2,,2026-03-08,Plataforma municipal,Completado,186.96
+854,O00854,93,5,29,2026-02-09,Mesa de partes virtual,Completado,687.52
+855,O00855,41,2,21,2026-03-10,Portal tributario,Completado,886.70
+856,O00856,59,1,39,28/03/2026,Centro MAC,Completado,57.00
+857,O00857,2,4,37,2026-01-22,Plataforma municipal,Cancelado,439.84
+858,O00858,182,6,1,2026-03-07,Mesa de partes virtual,Pendiente,376.00
+859,O00859,171,2,28,2026-02-05,Portal tributario,Completado,681.96
+860,O00860,88,1,24,2026-01-21,Centro MAC,Cancelado,57.00
+861,O00861,172,1,20,2026-05-23,Plataforma municipal,Completado,832.96
+862,O00862,163,6,,2026-06-11,Mesa de partes virtual,Pendiente,292.62
+863,O00863,124,2,2,2026-03-16,Portal tributario,Pendiente,441.76
+864,O00864,193,6,23,2026-03-14,Centro MAC,Completado,967.10
+865,O00865,27,5,36,2026-06-04,Plataforma municipal,Completado,135.52
+866,O00866,21,3,13,03/05/2026,Mesa de partes virtual,Completado,35.00
+867,O00867,92,4,26,2026-04-02,Portal tributario,Observado,0.00
+868,O00868,34,1,27,2026-05-07,Centro MAC,Observado,663.00
+869,O00869,24,4,39,2026-02-16,Plataforma municipal,Completado,1568.40
+870,O00870,196,5,40,2026-01-21,Mesa de partes virtual,Completado,166.16
+871,O00871,18,4,14,2026-03-03,Portal tributario,Observado,57.00
+872,O00872,97,1,21,2026-01-28,Centro MAC,Completado,318.23
+873,O00873,59,1,34,2026-02-04,Plataforma municipal,Completado,149.00
+874,O00874,122,2,16,2026-04-09,Mesa de partes virtual,Observado,1854.00
+875,O00875,90,6,30,2026-03-16,Portal tributario,Completado,2123.59
+876,O00876,111,2,36,28/05/2026,Centro MAC,Pendiente,251.48
+877,O00877,54,2,36,2026-03-10,Plataforma municipal,Pendiente,140.00
+878,O00878,49,3,17,2026-06-12,Mesa de partes virtual,Observado,-3602.04
+879,O00879,119,2,11,2026-06-14,Portal tributario,Pendiente,1291.23
+880,O00880,138,3,3,16/01/2026,Centro MAC,Cancelado,637.00
+881,O00881,200,3,5,2026-01-09,Plataforma municipal,Completado,70.34
+882,O00882,33,5,32,2026-01-15,Mesa de partes virtual,Completado,573.70
+883,O00883,113,1,24,2026-02-10,Portal tributario,Completado,998.65
+884,O00884,181,4,9,2026-06-08,Centro MAC,Completado,3528.81
+885,O00885,119,4,30,2026-02-16,Plataforma municipal,Cancelado,1012.65
+886,O00886,76,4,39,2026-02-06,Mesa de partes virtual,Completado,455.36
+887,O00887,29,2,36,2026-01-26,Portal tributario,Completado,439.84
+888,O00888,181,2,33,2026-03-22,Centro MAC,Completado,207.00
+889,O00889,156,6,22,2026-06-07,Plataforma municipal,Pendiente,109.96
+890,O00890,111,2,35,2026-06-18,Mesa de partes virtual,Completado,229.86
+891,O00891,118,5,9,2026-05-08,Portal tributario,Completado,323.96
+892,O00892,167,3,5,2026-03-14,Centro MAC,Cancelado,853.00
+893,O00893,12,5,33,2026-02-04,Plataforma municipal,Completado,695.00
+894,O00894,109,1,1,2026-04-09,Mesa de partes virtual,Completado,3489.8
+895,O00895,87,3,25,2026-03-11,Portal tributario,Pendiente,406.00
+896,O00896,156,3,23,2026-02-15,Centro MAC,Pendiente,521.00
+897,O00897,34,2,12,2026-05-07,Plataforma municipal,Observado,1123.92
+898,O00898,171,1,13,2026-03-25,Mesa de partes virtual,Cancelado,780.19
+899,O00899,31,3,1,2026-04-23,Portal tributario,Completado,1099.20
+900,O00900,12,1,13,2026-05-18,Centro MAC,Completado,687.52
+901,O00901,133,3,2,2026-01-04,Plataforma municipal,Pendiente,2520.00
+902,O00902,33,5,28,2026-01-21,Mesa de partes virtual,Cancelado,218.64
+903,O00903,120,1,14,09/05/2026,Portal tributario,Completado,1149.16
+904,O00904,177,1,20,2026-04-08,Centro MAC,Completado,387.70
+905,O00905,155,4,6,2026-04-11,Plataforma municipal,Pendiente,0.00
+906,O00906,160,5,23,2026-03-18,Mesa de partes virtual,Pendiente,96.00
+907,O00907,103,4,29,2026-01-24,Portal tributario,Completado,3702.00
+908,O00908,174,1,24,2026-02-17,Centro MAC,Pendiente,1429.06
+909,O00909,36,1,27,2026-03-10,Plataforma municipal,Pendiente,293.22
+910,O00910,2,6,6,2026-05-18,Mesa de partes virtual,Completado,2163.00
+911,O00911,96,1,6,2026-06-09,Portal tributario,Completado,1282.65
+912,O00912,77,3,39,2026-02-03,Centro MAC,Pendiente,5828.06
+913,O00913,9168,3,32,2026-03-06,Plataforma municipal,Completado,228.00
+914,O00914,114,6,5,2026-03-19,Mesa de partes virtual,Pendiente,1162.00
+915,O00915,3,3,23,2026-03-01,Portal tributario,Pendiente,808.65
+916,O00916,9295,5,19,2026-06-23,Centro MAC,Completado,609.71
+917,O00917,53,1,1,2026-02-19,Plataforma municipal,Pendiente,1033.53
+918,O00918,46,3,9,2026-06-14,Mesa de partes virtual,Completado,1160.28
+919,O00919,33,5,10,2026-02-03,Portal tributario,Completado,307.89
+920,O00920,67,3,39,2026-01-27,Centro MAC,Observado,2073.04
+921,O00921,51,2,1,2026-03-24,Plataforma municipal,Completado,3360.00
+922,O00922,93,2,36,2026-05-16,Mesa de partes virtual,Completado,-6562.58
+923,O00923,192,6,38,12/02/2026,Portal tributario,Pendiente,191.08
+924,O00924,154,3,18,2026-01-08,Centro MAC,Pendiente,231.56
+925,O00925,176,2,12,2026-06-09,Plataforma municipal,Completado,312.00
+926,O00926,35,3,20,2026-02-25,Mesa de partes virtual,Pendiente,2535.00
+927,O00927,176,5,2,2026-05-07,Portal tributario,Completado,980.73
+928,O00928,131,6,37,2026-02-09,Centro MAC,Observado,63.00
+929,O00929,177,2,37,2026-06-08,Plataforma municipal,Completado,917.68
+930,O00930,54,6,11,2026-06-06,Mesa de partes virtual,Pendiente,49.32
+931,O00931,167,6,28,2026-02-02,Portal tributario,Completado,329.88
+932,O00932,152,1,27,2026-02-17,Centro MAC,Completado,333.84
+933,O00933,17,5,38,2026-01-20,Plataforma municipal,Completado,352.00
+934,O00934,130,4,28,2026-06-10,Mesa de partes virtual,Pendiente,174.00
+935,O00935,103,1,12,22/02/2026,Portal tributario,Pendiente,714.86
+936,O00936,18,4,36,2026-02-12,Centro MAC,Completado,973.77
+937,O00937,37,5,19,2026-01-01,Plataforma municipal,Pendiente,485.19
+938,O00938,171,5,38,2026-03-17,Mesa de partes virtual,Completado,366.02
+939,O00939,30,1,19,2026-04-16,Portal tributario,Pendiente,346.88
+940,O00940,15,5,35,2026-06-07,Centro MAC,Completado,105.00
+941,O00941,131,1,33,2026-03-19,Plataforma municipal,Pendiente,283.60
+942,O00942,50,3,3,2026-03-21,Mesa de partes virtual,Completado,95.00
+943,O00943,87,4,27,2026-01-01,Portal tributario,Completado,1680.00
+944,O00944,25,5,28,2026-01-05,Centro MAC,Completado,264.16
+945,O00945,165,2,34,2026-04-23,Plataforma municipal,Completado,513.82
+946,O00946,183,1,4,2026-03-26,Mesa de partes virtual,Completado,574.00
+947,O00947,31,3,31,2026-02-14,Portal tributario,Cancelado,1680.00
+948,O00948,136,4,34,2026-04-11,Centro MAC,Pendiente,696.64
+949,O00949,43,6,29,22/03/2026,Plataforma municipal,Observado,3645.00
+950,O00950,103,1,25,2026-01-16,Mesa de partes virtual,Observado,206.41
+951,O00951,6,3,10,2026-05-25,Portal tributario,Observado,2178.21
+952,O00952,22,2,1,2026-01-11,Centro MAC,Completado,965.56
+953,O00953,4,6,5,2026-02-22,Plataforma municipal,Completado,45.08
+954,O00954,112,4,7,2026-04-08,Mesa de partes virtual,Observado,323.70
+955,O00955,69,4,28,2026-02-10,Portal tributario,Completado,42.32
+956,O00956,152,6,36,2026-02-01,Centro MAC,Pendiente,165.12
+957,O00957,152,1,5,2026-06-26,Plataforma municipal,Cancelado,980.75
+958,O00958,159,5,22,2026-03-05,Mesa de partes virtual,Completado,76.00
+959,O00959,69,1,36,2026-05-03,Portal tributario,Pendiente,1330.72
+960,O00960,115,2,24,2026-01-23,Centro MAC,Completado,0.00
+961,O00961,6,5,36,2026-03-01,Plataforma municipal,Pendiente,2272.28
+962,O00962,23,1,22,2026-05-05,Mesa de partes virtual,Completado,329.88
+963,O00963,6,5,38,26/04/2026,Portal tributario,Cancelado,4045.52
+964,O00964,191,6,33,2026-04-09,Centro MAC,Completado,2238.04
+965,O00965,179,3,27,2026-03-07,Plataforma municipal,Observado,1276.00
+966,O00966,9516,5,3,2026-02-17,Mesa de partes virtual,Completado,54.00
+967,O00967,74,3,40,01/04/2026,Portal tributario,Completado,55.00
+968,O00968,50,6,20,2026-01-12,Centro MAC,Observado,1574.00
+969,O00969,138,2,36,2026-06-10,Plataforma municipal,Pendiente,408.34
+970,O00970,111,1,1,2026-06-12,Mesa de partes virtual,Cancelado,4507.86
+971,O00971,96,4,16,2026-06-07,Portal tributario,Completado,893.56
+972,O00972,74,2,34,2026-05-24,Centro MAC,Observado,439.84
+973,O00973,20,6,18,2026-06-13,Plataforma municipal,Pendiente,1328.64
+974,O00974,193,6,39,2026-02-20,Mesa de partes virtual,Completado,1786.04
+975,O00975,95,4,15,2026-04-13,Portal tributario,Completado,0.00
+976,O00976,188,3,13,2026-06-11,Centro MAC,Completado,1823.68
+977,O00977,18,6,23,2026-06-27,Plataforma municipal,Cancelado,263.80
+978,O00978,194,6,1,2026-03-11,Mesa de partes virtual,Pendiente,739.95
+979,O00979,133,2,14,2026-05-11,Portal tributario,Pendiente,351.70
+980,O00980,199,4,22,2026-05-11,Centro MAC,Pendiente,285.00
+981,O00981,183,1,5,2026-06-02,Plataforma municipal,Pendiente,1013.00
+982,O00982,189,1,2,2026-05-22,Mesa de partes virtual,Completado,107.90
+983,O00983,4,1,15,2026-04-10,Portal tributario,Completado,360.00
+984,O00984,193,6,11,2026-02-12,Centro MAC,Observado,367.32
+985,O00985,191,5,34,2026-05-07,Plataforma municipal,Completado,1680.00
+986,O00986,127,4,8,2026-01-05,Mesa de partes virtual,Completado,1870.54
+987,O00987,22,4,28,2026-03-14,Portal tributario,Completado,806.04
+988,O00988,8,3,,2026-04-23,Centro MAC,Completado,1779.03
+989,O00989,181,5,9,2026-02-04,Plataforma municipal,Completado,126.00
+990,O00990,118,6,6,2026-05-18,Mesa de partes virtual,Cancelado,30.88
+991,O00991,59,2,27,2026-01-27,Portal tributario,Completado,501.63
+992,O00992,98,4,24,2026-06-09,Centro MAC,Completado,1260.00
+993,O00993,9733,1,33,2026-04-10,Plataforma municipal,Completado,1212.68
+994,O00994,2,1,8,2026-05-12,Mesa de partes virtual,Completado,206.20
+995,O00995,32,3,8,2026-04-18,Portal tributario,Completado,795.52
+996,O00996,18,3,26,2026-06-04,Centro MAC,Completado,179.90
+997,O00997,55,5,11,2026-04-22,Plataforma municipal,Observado,231.96
+998,O00998,27,4,17,2026-06-04,Mesa de partes virtual,Completado,1637.52
+999,O00999,69,5,35,2026-01-05,Portal tributario,Observado,1429.96
+1000,O01000,16,6,10,2026-03-12,Centro MAC,Completado,521.76
+1001,O01001,169,2,10,2026-05-13,Plataforma municipal,Completado,5432.57
+1002,O01002,12,3,15,2026-03-05,Mesa de partes virtual,Completado,3548.75
+1003,O01003,54,5,30,2026-05-12,Portal tributario,Completado,2074.52
+1004,O01004,76,5,6,2026-02-22,Centro MAC,Pendiente,4119.24
+1005,O01005,151,4,18,2026-02-20,Plataforma municipal,Completado,1399.75
+1006,O01006,64,2,32,2026-01-11,Mesa de partes virtual,Observado,5769.0
+1007,O01007,48,5,22,2026-06-01,Portal tributario,Completado,992.54
+1008,O01008,116,3,12,2026-03-14,Centro MAC,Cancelado,2095.84
+1009,O01009,127,2,40,2026-02-14,Plataforma municipal,Completado,3301.18
+1010,O01010,46,1,17,2026-03-21,Mesa de partes virtual,Completado,2652.71

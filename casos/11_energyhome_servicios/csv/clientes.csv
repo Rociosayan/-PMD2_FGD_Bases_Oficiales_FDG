@@ -1,0 +1,209 @@
+id_cliente,codigo_cliente,tipo_documento,num_documento,nombres,apellidos,correo,telefono,distrito,segmento,fecha_registro,consumo_kwh
+1,C0001,CE,44053201,Jorge,Castillo Aguirre,jorge1@correo.com,975090873,Lince,Residencial,2026-01-16,605.2
+2,C0002,DNI,583154,María,Romero Ramos,maría2@correo.com,998334640,Chorrillos,Comercial,2026-01-04,201.8
+3,C0003,RUC,22681036,Daniela,Gutiérrez Mendoza,daniela3@correo.com,945123275,Independencia,Condominio,2026-01-11,499.6
+4,C0004,DNI,12296129,Álvaro,Sánchez Bautista,álvaro4@correo.com,937682693,Chorrillos,Industrial,2026-02-25,606.0
+5,C0005,RUC,51181657,Ana,Bautista Romero,ana5@correo.com,926424193,,Residencial,2026-03-20,630.1
+6,C0006,RUC,83776785,Milagros,Flores Rivera,milagros6@correo.com,965893096,Lince,Comercial,2026-01-09,673.1
+7,C0007,DNI,57656638,Lucía,Díaz Ninaquispe,lucía7@correo.com,962309302,Miraflores,Condominio,2026-03-28,395.0
+8,C0008,DNI,45482764,Bruno,Chávez Ramos,bruno8@correo.com,976358777,Lince,Industrial,2026-02-07,341.1
+9,C0009,DNI,618843,Víctor,Cruz Aguirre,víctor9@correo.com,982558714,Comas,Residencial,2026-01-06,243.2
+10,C0010,DNI,40446631,Raúl,Bautista Aguirre,raúl10@correo.com,931342591,Independencia,Comercial,2026-04-04,674.7
+11,C0011,DNI,36876444,Julia,Espinoza Ríos,julia11@correo.com,,San Borja,Condominio,2026-05-26,418.9
+12,C0012,DNI,20666568,Sofía,Cárdenas Chávez,sofía12@correo.com,988543936,Chorrillos,Industrial,2026-03-28,175.0
+13,C0013,DNI,60700933,Daniela,Aguirre Salazar,daniela13@correo.com,989375906,San Miguel,Residencial,2026-04-26,798.8
+14,C0014,DNI,81326607,Julia,Rivera Ninaquispe,julia14@correo.com,970153590,Chorrillos,Comercial,2026-05-11,702.2
+15,C0015,RUC,91267885,Julia,Gutiérrez Chávez,julia15@correo.com,924047031,La Molina,Condominio,2026-01-03,186.6
+16,C0016,RUC,727668,Natalia,Torres Aguirre,natalia16@correo.com,975630351,Villa El Salvador,Industrial,2026-04-08,279.3
+17,C0017,DNI,52069202,Carmen,Díaz Villanueva,carmen17@correo.com,,Miraflores,Residencial,2026-01-24,777.0
+18,C0018,CE,34809067,Pamela,Rivera Ponce,pamela18@correo.com,965703627,San Miguel,Comercial,2026-03-03,733.6
+19,C0019,DNI,29932263,Hugo,Quispe Romero,hugo19@correo.com,981502834,La Molina,Condominio,2026-01-06,223.2
+20,C0020,DNI,71602249,Manuel,Ríos Vargas,,974470419,Ate,Industrial,2026-04-18,424.7
+21,C0021,RUC,195497,Pamela,Torres Mendoza,pamela21@correo.com,993752983,San Juan de Lurigancho,Residencial,2026-02-03,142.4
+22,C0022,CE,45923587,Luis,Bautista Cornejo,luis22@correo.com,983767214,San Borja,Comercial,2026-05-20,112.3
+23,C0023,DNI,55585096,Andrés,Palomino Rojas,andrés23@correo.com,995431671,Los Olivos,Condominio,2026-02-20,787.8
+24,C0024,DNI,15423274,Hugo,Cruz Huamán,hugo24correo.com,961193245,San Borja,Industrial,2026-01-25,575.4
+25,C0025,CE,54131771,Melissa,Villanueva Rivera,melissa25@correo.com,939372997,San Borja,Residencial,2026-03-23,712.2
+26,C0026,CE,81718552,Andrés,Mendoza Romero,andrés26@correo.com,971928738,Surco,Comercial,2026-04-04,506.9
+27,C0027,DNI,34653869,Bruno,Ríos Gutiérrez,,964986206,Breña,Condominio,2026-05-26,205.4
+28,C0028,DNI,79763371,Álvaro,Cruz Ríos,álvaro28@correo.com,969443761,San Juan de Lurigancho,Industrial,2026-02-17,224.7
+29,C0029,DNI,48778666,Rosa,Ponce Chávez,rosa29@correo.com,961397504,San Borja,Residencial,2026-01-01,572.9
+30,C0030,DNI,71287448,Paola,Salazar Romero,paola30@correo.com,911101234,La Molina,Comercial,2026-04-07,348.2
+31,C0031,DNI,14615934,Sergio,Vargas Chávez,sergio31@correo.com,914104555,Ate,Condominio,2026-01-23,281.8
+32,C0032,DNI,96925472,Fernando,Salazar Espinoza,fernando32@correo.com,941416620,Independencia,Industrial,2026-05-18,396.8
+33,C0033,CE,85901009,Miguel,Bautista Ponce,miguel33@correo.com,995392912,Miraflores,Residencial,2026-03-12,251.7
+34,C0034,CE,80107457,Melissa,Ríos Díaz,melissa34@correo.com,928397566,Breña,Comercial,2026-04-18,96.0
+35,C0035,DNI,91624578,Hugo,Romero Romero,hugo35@correo.com,923689208,San Juan de Lurigancho,Condominio,2026-02-05,346.0
+36,C0036,DNI,61513128,Raúl,Ramos Díaz,,919297896,Ate,Industrial,2026-04-04,82.1
+37,C0037,DNI,43773889,Carlos,Castillo Ponce,carlos37@correo.com,997131375,San Miguel,Residencial,2026-02-13,235.8
+38,C0038,DNI,22835263,Verónica,Espinoza Torres,verónica38@correo.com,,Rímac,Comercial,2026-04-25,346.6
+39,C0039,RUC,63474448,Bruno,Cárdenas Espinoza,bruno39@correo.com,945868849,Miraflores,Condominio,2026-04-04,554.5
+40,C0040,RUC,89331747,Pamela,Mendoza Ninaquispe,pamela40@correo.com,930532242,Miraflores,Industrial,2026-05-03,84.6
+41,C0041,DNI,32647847,Melissa,Huamán Lévano,melissa41@correo.com,979646949,Callao,Residencial,2026-01-13,480.6
+42,C0042,DNI,40198140,Iván,Espinoza Salazar,,955912643,Surco,Comercial,2026-02-23,636.8
+43,C0043,RUC,34221626,Natalia,Díaz Ríos,natalia43@correo.com,930631059,,Condominio,2026-02-11,534.6
+44,C0044,DNI,28324257,Renzo,Cornejo Castillo,renzo44@correo.com,935563731,Callao,Industrial,2026-04-15,725.3
+45,C0045,DNI,36993503,Pedro,Vargas Paredes,pedro45@correo.com,989208126,Breña,Residencial,2026-02-12,177.6
+46,C0046,RUC,85889449,Renzo,Ponce Lévano,renzo46@correo.com,988680199,Chorrillos,Comercial,2026-03-24,769.2
+47,C0047,DNI,64811218,Fernando,Ponce Aguirre,fernando47correo.com,928134318,Los Olivos,Condominio,2026-04-06,372.9
+48,C0048,DNI,22485659,Luis,Ponce Ramos,luis48correo.com,962576671,La Molina,Industrial,2026-04-21,712.1
+49,C0049,RUC,53719306,María,Aguirre Rojas,maría49correo.com,941388120,Breña,Residencial,2026-05-18,474.0
+50,C0050,RUC,42374795,Isabel,Zevallos Rivera,isabel50@correo.com,958055162,Comas,Comercial,2026-02-28,256.6
+51,C0051,RUC,326331,Claudia,Gutiérrez Torres,claudia51@correo.com,993588915,Chorrillos,Condominio,2026-02-04,282.1
+52,C0052,RUC,22131484,Carlos,Quispe Rivera,carlos52@correo.com,926677972,Breña,Industrial,2026-04-12,386.2
+53,C0053,DNI,27307417,Hugo,Aguirre Vargas,hugo53@correo.com,999995848,Comas,Residencial,2026-01-02,764.5
+54,C0054,RUC,50899163,Iván,Espinoza Huamán,iván54@correo.com,992614245,Callao,Comercial,2026-05-01,703.3
+55,C0055,CE,25491957,Daniela,Rivera Paredes,daniela55@correo.com,,Breña,Condominio,2026-02-15,216.5
+56,C0056,DNI,95167353,Renzo,Zevallos Salazar,,959277361,Lince,Industrial,2026-01-14,452.4
+57,C0057,RUC,99781789,Pedro,Palomino Rojas,pedro57@correo.com,976759654,Callao,Residencial,2026-01-18,201.3
+58,C0058,RUC,18215386,Sofía,Ríos Castillo,sofía58@correo.com,920777373,San Juan de Lurigancho,Comercial,2026-01-18,59.5
+59,C0059,DNI,78341535,Verónica,Gutiérrez Ninaquispe,verónica59@correo.com,999495419,San Borja,Condominio,2026-02-21,240.6
+60,C0060,DNI,71406325,Pedro,Aguirre Rojas,pedro60@correo.com,,San Borja,Industrial,2026-01-25,360.4
+61,C0061,DNI,24631030,Óscar,Rivera Paredes,óscar61@correo.com,925391466,Miraflores,Residencial,2026-04-27,172.1
+62,C0062,DNI,76882068,Verónica,Castillo Cornejo,verónica62@correo.com,940086264,Villa El Salvador,Comercial,2026-02-15,735.1
+63,C0063,CE,49265574,Luis,Cruz Ninaquispe,luis63@correo.com,926434579,Surco,Condominio,2026-05-04,137.9
+64,C0064,DNI,77235598,María,Lévano Díaz,,954030572,Ate,Industrial,2026-03-23,712.3
+65,C0065,DNI,67758167,Claudia,Aguirre Cornejo,,936244995,San Juan de Lurigancho,Residencial,2026-02-13,687.7
+66,C0066,CE,18419241,Sergio,Zevallos Zevallos,sergio66@correo.com,962242594,La Molina,Comercial,2026-05-04,416.5
+67,C0067,DNI,72950664,Sofía,Chávez Romero,sofía67@correo.com,954557777,Breña,Condominio,2026-04-27,563.7
+68,C0068,DNI,16716315,Iván,Ramos Lévano,iván68@correo.com,918093049,Breña,Industrial,2026-02-16,726.5
+69,C0069,RUC,12110739,Claudia,Sánchez Bautista,claudia69@correo.com,,Breña,Residencial,2026-04-08,773.5
+70,C0070,DNI,42298851,Renzo,Rivera Aguirre,renzo70@correo.com,956044036,San Juan de Lurigancho,Comercial,2026-01-21,392.6
+71,C0071,DNI,29320060,Natalia,Paredes Paredes,natalia71@correo.com,929753470,,Condominio,2026-03-15,226.7
+72,C0072,CE,49659246,Melissa,Quispe Rivera,melissa72@correo.com,942508193,Callao,Industrial,2026-04-15,171.3
+73,C0073,DNI,22328015,Daniela,Vargas Paredes,,975405467,Los Olivos,Residencial,2026-05-14,579.3
+74,C0074,CE,39562515,Daniela,Rivera Gutiérrez,,957441506,Surco,Comercial,2026-04-22,404.4
+75,C0075,DNI,94117493,Ricardo,Cárdenas Salazar,ricardo75@correo.com,984691071,Ate,Condominio,2026-04-12,380.5
+76,C0076,DNI,49387163,Óscar,Sánchez Ponce,óscar76@correo.com,930521573,Surco,Industrial,2026-04-08,364.2
+77,C0077,DNI,93202092,Jorge,Rivera Rojas,jorge77@correo.com,921789548,Villa El Salvador,Residencial,2026-04-24,414.6
+78,C0078,DNI,78926793,Verónica,Huamán Palomino,verónica78@correo.com,994992429,Comas,Comercial,2026-01-23,749.0
+79,C0079,RUC,40773834,Carmen,Romero Ríos,carmen79@correo.com,992423966,Miraflores,Condominio,2026-04-19,509.4
+80,C0080,DNI,71619645,Álvaro,Salazar Cruz,álvaro80@correo.com,987674346,Lince,Industrial,2026-01-23,469.9
+81,C0081,RUC,74032514,Elena,Zevallos Ramos,elena81@correo.com,942748249,Independencia,Residencial,2026-02-02,787.0
+82,C0082,DNI,17928706,Paola,Ríos Huamán,paola82@correo.com,963643961,Los Olivos,Comercial,2026-01-03,474.1
+83,C0083,DNI,41070388,Luis,Villanueva Zevallos,luis83@correo.com,990485490,Comas,Condominio,2026-05-06,396.5
+84,C0084,DNI,80756142,Luis,Cárdenas Huamán,luis84@correo.com,936655235,San Juan de Lurigancho,Industrial,2026-02-03,698.6
+85,C0085,DNI,81237602,Fernando,Zevallos Rivera,fernando85correo.com,945138140,Miraflores,Residencial,2026-03-28,311.3
+86,C0086,RUC,44159227,Claudia,Palomino Rivera,claudia86@correo.com,969523278,La Molina,Comercial,2026-05-27,104.0
+87,C0087,RUC,91752039,Verónica,Paredes Palomino,verónica87@correo.com,978319628,La Molina,Condominio,2026-01-22,69.4
+88,C0088,DNI,80677441,Víctor,Salazar Salazar,víctor88@correo.com,982249214,La Molina,Industrial,2026-02-01,396.4
+89,C0089,DNI,60356546,Gabriela,Paredes Cárdenas,gabriela89@correo.com,952175363,San Borja,Residencial,2026-01-02,563.8
+90,C0090,DNI,28625498,Elena,Gutiérrez Ninaquispe,elena90@correo.com,956006844,Surco,Comercial,2026-01-22,697.7
+91,C0091,DNI,52264349,Jorge,Espinoza Ponce,jorge91@correo.com,913072570,Breña,Condominio,2026-02-04,710.0
+92,C0092,RUC,47062704,Carlos,Flores Ponce,carlos92@correo.com,952542485,San Juan de Lurigancho,Industrial,2026-05-26,56.1
+93,C0093,DNI,37166484,Andrés,Vargas Huamán,andrés93@correo.com,962972764,Lince,Residencial,2026-03-11,535.5
+94,C0094,DNI,84918085,Natalia,Ramos Palomino,natalia94@correo.com,921557149,Comas,Comercial,2026-04-25,486.3
+95,C0095,CE,51476911,Óscar,Cárdenas Paredes,óscar95correo.com,987216290,Comas,Condominio,2026-04-12,95.4
+96,C0096,CE,42733283,Paola,Bautista Cornejo,paola96@correo.com,955993682,Comas,Industrial,2026-01-16,514.3
+97,C0097,CE,12646981,Hugo,Ramos Flores,hugo97@correo.com,998515239,Miraflores,Residencial,2026-04-13,667.3
+98,C0098,CE,55856201,Ana,Aguirre Quispe,ana98@correo.com,929183478,Chorrillos,Comercial,2026-05-17,675.5
+99,C0099,CE,87230524,Melissa,Torres Cárdenas,melissa99@correo.com,996466080,Comas,Condominio,2026-02-23,449.5
+100,C0100,CE,60420600,Lucía,Rojas Aguirre,lucía100@correo.com,962286890,Chorrillos,Industrial,2026-02-06,196.2
+101,C0101,RUC,29472974,Elena,Huamán Bautista,elena101correo.com,964338129,Rímac,Residencial,2026-03-22,766.4
+102,C0102,DNI,15295550,Bruno,Díaz Cruz,bruno102@correo.com,912591942,San Miguel,Comercial,2026-01-07,370.1
+103,C0103,DNI,49655884,Sofía,Chávez Ponce,,974200733,Los Olivos,Condominio,2026-04-15,443.6
+104,C0104,RUC,18598637,Gabriela,Lévano Ponce,gabriela104@correo.com,960030027,Lince,Industrial,2026-04-01,626.2
+105,C0105,CE,67714850,Óscar,Palomino Torres,óscar105@correo.com,951789240,Independencia,Residencial,2026-05-14,651.8
+106,C0106,DNI,36089008,Miguel,Romero Salazar,miguel106@correo.com,923438100,Breña,Comercial,2026-02-12,406.7
+107,C0107,DNI,78731402,Lucía,Flores Ninaquispe,lucía107@correo.com,962930627,San Borja,Condominio,2026-03-20,258.2
+108,C0108,RUC,592617,Sofía,Espinoza Torres,sofía108@correo.com,923880649,Callao,Industrial,2026-04-20,768.6
+109,C0109,DNI,46855077,Claudia,Torres Castillo,claudia109@correo.com,917572679,Surco,Residencial,2026-04-24,185.3
+110,C0110,DNI,73563894,Iván,Villanueva Lévano,iván110@correo.com,975103425,Breña,Comercial,2026-01-04,753.3
+111,C0111,RUC,919249,José,Villanueva Torres,josé111@correo.com,997355597,Lince,Condominio,2026-04-20,583.2
+112,C0112,DNI,88141097,Sofía,Ríos Huamán,sofía112@correo.com,935498926,Independencia,Industrial,2026-02-10,767.0
+113,C0113,DNI,17662000,Miguel,Quispe Espinoza,miguel113@correo.com,963739092,Comas,Residencial,2026-05-19,246.1
+114,C0114,DNI,49819551,Sofía,Mendoza Castillo,sofía114@correo.com,960811378,San Juan de Lurigancho,Comercial,2026-03-16,751.0
+115,C0115,DNI,48316474,Miguel,Salazar Villanueva,miguel115@correo.com,950775418,Rímac,Condominio,2026-04-13,457.5
+116,C0116,DNI,68235197,Sofía,Castillo Castillo,sofía116@correo.com,992878110,San Borja,Industrial,2026-03-10,600.7
+117,C0117,DNI,67774588,Bruno,Villanueva Torres,bruno117@correo.com,,San Miguel,Residencial,2026-02-23,600.1
+118,C0118,CE,44645864,Iván,Lévano Huamán,iván118@correo.com,912606746,,Comercial,2026-04-15,619.9
+119,C0119,CE,50714288,Pedro,Ramos Ramos,pedro119@correo.com,933080090,,Condominio,2026-02-18,631.6
+120,C0120,DNI,60433235,Hugo,Quispe Torres,hugo120@correo.com,933591597,Ate,Industrial,2026-04-06,386.5
+121,C0121,RUC,89063126,Renzo,Ninaquispe Lévano,renzo121@correo.com,,Surco,Residencial,2026-05-21,72.1
+122,C0122,RUC,38508616,Isabel,Rivera Flores,isabel122@correo.com,913692802,Lince,Comercial,2026-04-18,66.2
+123,C0123,DNI,97127399,Ricardo,Cruz Zevallos,ricardo123@correo.com,915361657,,Condominio,2026-05-22,424.4
+124,C0124,DNI,57368519,Paola,Villanueva Quispe,paola124@correo.com,982735568,San Juan de Lurigancho,Industrial,2026-02-13,235.3
+125,C0125,CE,36472213,Fernando,Salazar Ponce,fernando125@correo.com,988678474,Ate,Residencial,2026-03-08,574.9
+126,C0126,RUC,54510209,Andrés,Zevallos Flores,andrés126@correo.com,945043187,Villa El Salvador,Comercial,2026-04-02,122.7
+127,C0127,DNI,42295197,Diego,Salazar Rivera,diego127@correo.com,921642510,San Borja,Condominio,2026-02-26,706.9
+128,C0128,DNI,41173474,Sofía,Ramos Cornejo,sofía128correo.com,995472055,Lince,Industrial,2026-01-23,145.9
+129,C0129,DNI,42930413,Julia,Huamán Flores,julia129@correo.com,962812784,San Juan de Lurigancho,Residencial,2026-03-03,444.1
+130,C0130,CE,82183776,Verónica,Salazar Villanueva,verónica130@correo.com,,La Molina,Comercial,2026-05-22,194.6
+131,C0131,DNI,604783,Sergio,Bautista Mendoza,sergio131@correo.com,997901646,Ate,Condominio,2026-01-15,169.7
+132,C0132,RUC,27818087,Sofía,Espinoza Ponce,sofía132@correo.com,912074039,San Juan de Lurigancho,Industrial,2026-04-21,171.2
+133,C0133,CE,96472959,María,Torres Bautista,,922136297,Los Olivos,Residencial,2026-01-21,662.4
+134,C0134,RUC,71911187,Carlos,Lévano Romero,carlos134@correo.com,992591715,Los Olivos,Comercial,2026-04-02,617.3
+135,C0135,DNI,18951613,Manuel,Ríos Mendoza,,945499975,Villa El Salvador,Condominio,2026-04-02,563.1
+136,C0136,CE,16206444,Elena,Palomino Cornejo,elena136@correo.com,919934137,San Miguel,Industrial,2026-02-14,76.2
+137,C0137,RUC,82351403,Sofía,Romero Chávez,sofía137@correo.com,958310102,Rímac,Residencial,2026-01-21,225.5
+138,C0138,RUC,28463676,Luis,Ríos Quispe,luis138@correo.com,935361884,Los Olivos,Comercial,2026-04-06,233.1
+139,C0139,DNI,26958392,Sergio,Paredes Cruz,sergio139correo.com,937270257,Independencia,Condominio,2026-04-17,350.1
+140,C0140,CE,51523077,Hugo,Díaz Sánchez,,977466021,Los Olivos,Industrial,2026-01-10,762.6
+141,C0141,DNI,21403538,Paola,Espinoza Vargas,paola141@correo.com,969496483,Breña,Residencial,2026-05-05,303.9
+142,C0142,DNI,53872447,Pamela,Díaz Salazar,pamela142@correo.com,978495055,La Molina,Comercial,2026-04-16,114.7
+143,C0143,DNI,86724250,Fernando,Flores Chávez,fernando143@correo.com,,Rímac,Condominio,2026-03-27,723.1
+144,C0144,DNI,18792144,Ricardo,Cornejo Chávez,ricardo144@correo.com,965118475,Surco,Industrial,2026-05-09,659.7
+145,C0145,DNI,982882,Luis,Gutiérrez Cárdenas,luis145@correo.com,925325304,San Juan de Lurigancho,Residencial,2026-02-02,243.8
+146,C0146,DNI,83782701,Jorge,Cárdenas Gutiérrez,jorge146@correo.com,981867049,Villa El Salvador,Comercial,2026-01-13,493.5
+147,C0147,CE,42424809,Melissa,Lévano Palomino,melissa147@correo.com,914516052,Callao,Condominio,2026-04-19,387.1
+148,C0148,DNI,56487209,Verónica,Ramos Torres,verónica148@correo.com,,,Industrial,2026-02-21,786.4
+149,C0149,RUC,39999198,Melissa,Cruz Ponce,melissa149@correo.com,995611027,Chorrillos,Residencial,2026-05-10,159.4
+150,C0150,DNI,42963733,Óscar,Flores Espinoza,óscar150@correo.com,995343173,San Juan de Lurigancho,Comercial,2026-03-13,385.5
+151,C0151,DNI,14189451,Lucía,Cornejo Villanueva,lucía151@correo.com,911650402,San Juan de Lurigancho,Condominio,2026-05-13,314.7
+152,C0152,DNI,94841547,Iván,Villanueva Lévano,iván152@correo.com,,Chorrillos,Industrial,2026-04-06,189.7
+153,C0153,DNI,68676441,Natalia,Sánchez Gutiérrez,natalia153correo.com,946713251,,Residencial,2026-01-25,276.9
+154,C0154,CE,39371666,Natalia,Bautista Sánchez,natalia154@correo.com,935467450,San Borja,Comercial,2026-02-02,412.4
+155,C0155,CE,50651513,Fernando,Salazar Castillo,fernando155@correo.com,997688260,Ate,Condominio,2026-05-05,631.6
+156,C0156,DNI,68154304,Víctor,Aguirre Quispe,víctor156@correo.com,969774738,Surco,Industrial,2026-05-25,730.5
+157,C0157,DNI,36759464,Patricia,Sánchez Sánchez,patricia157@correo.com,,Miraflores,Residencial,2026-03-28,526.4
+158,C0158,CE,68605566,Óscar,Aguirre Paredes,óscar158@correo.com,967981915,Surco,Comercial,2026-05-16,177.1
+159,C0159,DNI,52781436,Lucía,Palomino Lévano,lucía159@correo.com,950490115,San Miguel,Condominio,2026-03-13,609.3
+160,C0160,DNI,69357081,Renzo,Cruz Ríos,renzo160@correo.com,967345511,Comas,Industrial,2026-05-23,275.0
+161,C0161,DNI,61390417,Rosa,Huamán Paredes,rosa161@correo.com,984652248,Chorrillos,Residencial,2026-02-25,218.2
+162,C0162,DNI,57281075,Lucía,Lévano Salazar,lucía162@correo.com,929898543,Comas,Comercial,2026-03-12,281.5
+163,C0163,RUC,87380389,Diego,Aguirre Flores,diego163@correo.com,,,Condominio,2026-01-08,144.6
+164,C0164,DNI,93074599,Claudia,Lévano Espinoza,claudia164@correo.com,917270936,San Miguel,Industrial,2026-04-07,699.0
+165,C0165,RUC,37682831,Elena,Salazar Rivera,elena165@correo.com,940338597,Chorrillos,Residencial,2026-02-10,374.9
+166,C0166,DNI,74005913,Rosa,Flores Cruz,rosa166@correo.com,931466578,Independencia,Comercial,2026-02-11,367.3
+167,C0167,CE,51124823,Verónica,Salazar Ríos,verónica167@correo.com,978959779,Chorrillos,Condominio,2026-01-06,149.2
+168,C0168,CE,30929242,Andrés,Zevallos Ramos,andrés168@correo.com,958693049,Breña,Industrial,2026-03-01,778.4
+169,C0169,DNI,22166809,Isabel,Huamán Cárdenas,,956997418,Miraflores,Residencial,2026-05-13,534.6
+170,C0170,DNI,58930858,Manuel,Lévano Díaz,manuel170@correo.com,986398220,Chorrillos,Comercial,2026-04-21,224.7
+171,C0171,RUC,74553000,Sofía,Quispe Villanueva,sofía171@correo.com,961155370,Miraflores,Condominio,2026-05-11,136.5
+172,C0172,DNI,82925805,Óscar,Flores Ponce,óscar172@correo.com,918402191,Callao,Industrial,2026-04-14,477.5
+173,C0173,DNI,770390,Sergio,Aguirre Castillo,sergio173@correo.com,979167784,San Borja,Residencial,2026-01-14,120.6
+174,C0174,DNI,83060078,Rosa,Salazar Cornejo,rosa174@correo.com,,Chorrillos,Comercial,2026-03-02,640.3
+175,C0175,RUC,73995933,Raúl,Cárdenas Zevallos,raúl175@correo.com,994759543,Independencia,Condominio,2026-03-14,797.7
+176,C0176,DNI,37005331,Karla,Espinoza Sánchez,karla176@correo.com,973854218,Callao,Industrial,2026-05-07,476.4
+177,C0177,DNI,20502705,Miguel,Sánchez Torres,miguel177@correo.com,948832570,Miraflores,Residencial,2026-04-11,621.5
+178,C0178,DNI,52721060,Pedro,Cruz Cruz,pedro178@correo.com,996129122,San Miguel,Comercial,2026-04-05,58.7
+179,C0179,RUC,45749358,Diego,Aguirre Ponce,diego179@correo.com,973362587,San Miguel,Condominio,2026-01-10,273.7
+180,C0180,CE,28234588,Renzo,Espinoza Ramos,renzo180@correo.com,932275698,Surco,Industrial,2026-02-17,397.9
+181,C0181,DNI,94716282,Verónica,Chávez Ramos,verónica181@correo.com,940712527,Breña,Residencial,2026-01-15,737.8
+182,C0182,DNI,84743492,Milagros,Cruz Ramos,milagros182correo.com,999253146,La Molina,Comercial,2026-03-27,582.0
+183,C0183,DNI,43561026,Fernando,Chávez Gutiérrez,fernando183@correo.com,922906217,Chorrillos,Condominio,2026-05-04,726.9
+184,C0184,CE,45998053,Elena,Díaz Ninaquispe,elena184@correo.com,964229952,Lince,Industrial,2026-02-02,769.1
+185,C0185,CE,76283655,Isabel,Paredes Ríos,isabel185@correo.com,974896313,Ate,Residencial,2026-05-02,700.4
+186,C0186,DNI,84708565,Julia,Vargas Bautista,julia186@correo.com,986954527,Comas,Comercial,2026-03-09,400.2
+187,C0187,DNI,78381757,Daniela,Rojas Bautista,daniela187@correo.com,974609443,Los Olivos,Condominio,2026-01-21,678.3
+188,C0188,DNI,41227426,María,Cárdenas Espinoza,maría188@correo.com,919093764,Independencia,Industrial,2026-02-12,93.9
+189,C0189,RUC,61087377,Sofía,Villanueva Cornejo,sofía189@correo.com,922997238,Independencia,Residencial,2026-02-06,796.6
+190,C0190,DNI,28876668,Natalia,Rojas Gutiérrez,natalia190@correo.com,927943313,San Miguel,Comercial,2026-01-25,202.6
+191,C0191,CE,75199139,Fernando,Palomino Villanueva,fernando191@correo.com,981891821,San Borja,Condominio,2026-03-13,369.1
+192,C0192,DNI,13196136,Bruno,Chávez Villanueva,bruno192@correo.com,978103294,Ate,Industrial,2026-04-26,792.8
+193,C0193,RUC,46946492,Sergio,Vargas Ríos,sergio193@correo.com,984950196,Breña,Residencial,2026-02-08,254.8
+194,C0194,DNI,72413026,Raúl,Quispe Ríos,raúl194@correo.com,995420151,Comas,Comercial,2026-02-17,179.8
+195,C0195,DNI,88791719,Paola,Torres Romero,paola195@correo.com,953098097,Comas,Condominio,2026-05-28,337.4
+196,C0196,RUC,41979222,Pamela,Ninaquispe Lévano,pamela196@correo.com,985353060,La Molina,Industrial,2026-03-21,475.2
+197,C0197,DNI,67892274,Sofía,Romero Rivera,sofía197@correo.com,,Los Olivos,Residencial,2026-05-06,484.3
+198,C0198,CE,23387128,Pedro,Flores Espinoza,pedro198@correo.com,923776058,La Molina,Comercial,2026-02-07,744.4
+199,C0199,CE,57512957,Sergio,Villanueva Ponce,sergio199@correo.com,957210232,San Juan de Lurigancho,Condominio,2026-02-10,99.8
+200,C0200,CE,57566698,Elena,Chávez Gutiérrez,elena200@correo.com,933248250,San Borja,Industrial,2026-03-19,305.3
+201,C0201,DNI,94841547,Iván,Villanueva Lévano,iván152@correo.com,,Chorrillos,Residencial,2026-04-06,189.7
+202,C0202,CE,30929242,Andrés,Zevallos Ramos,andrés168@correo.com,958693049,Breña,Comercial,2026-03-01,778.4
+203,C0203,CE,75199139,Fernando,Palomino Villanueva,fernando191@correo.com,981891821,San Borja,Condominio,2026-03-13,369.1
+204,C0204,DNI,71406325,Pedro,Aguirre Rojas,pedro60@correo.com,,San Borja,Industrial,2026-01-25,360.4
+205,C0205,DNI,93074599,Claudia,Lévano Espinoza,claudia164@correo.com,917270936,San Miguel,Residencial,2026-04-07,699.0
+206,C0206,DNI,15295550,Bruno,Díaz Cruz,bruno102@correo.com,912591942,San Miguel,Comercial,2026-01-07,370.1
+207,C0207,DNI,36089008,Miguel,Romero Salazar,miguel106@correo.com,923438100,Breña,Condominio,2026-02-12,406.7
+208,C0208,DNI,46855077,Claudia,Torres Castillo,claudia109@correo.com,917572679,Surco,Industrial,2026-04-24,185.3

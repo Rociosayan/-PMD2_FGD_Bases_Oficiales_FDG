@@ -1,96 +1,156 @@
-﻿id_incidencia,codigo_incidencia,id_operacion,tipo_incidencia,severidad,fecha_reporte,estado_incidencia
-1,I00001,435,Reclamo,Media,2026-05-23,Cerrada
-2,I00002,179,Dato inconsistente,Media,2026-05-11,En revisi?n
-3,I00003,170,Demora,Media,2026-02-19,En revisi?n
-4,I00004,97,Demora,Alta,2026-05-06,Cerrada
-5,I00005,340,Reprogramaci?n,Alta,2026-01-04,Abierta
-6,I00006,35,Falla de registro,Alta,2026-06-01,Abierta
-7,I00007,255,Reclamo,Alta,2026-06-26,Abierta
-8,I00008,276,Reclamo,Media,2026-03-24,Abierta
-9,I00009,213,Reprogramaci?n,Alta,2026-02-23,Cerrada
-10,I00010,107,Reclamo,Baja,2026-05-13,Cerrada
-11,I00011,72,Reprogramaci?n,Alta,2026-03-16,Abierta
-12,I00012,30,Reclamo,Media,2026-06-16,Cerrada
-13,I00013,149,Reprogramaci?n,Alta,2026-01-27,En revisi?n
-14,I00014,287,Demora,Baja,2026-02-21,En revisi?n
-15,I00015,43,Reprogramaci?n,Baja,2026-06-22,Cerrada
-16,I00016,476,Reclamo,Alta,2026-05-23,Cerrada
-17,I00017,159,Reprogramaci?n,Alta,2026-02-17,Cerrada
-18,I00018,446,Dato inconsistente,Baja,2026-06-21,Abierta
-19,I00019,4,Falla de registro,Media,2026-05-02,En revisi?n
-20,I00020,158,Falla de registro,Baja,2026-02-26,Abierta
-21,I00021,75,Falla de registro,Alta,2026-03-13,Cerrada
-22,I00022,199,Reclamo,Alta,2026-06-26,Cerrada
-23,I00023,224,Reclamo,Baja,2026-03-21,Cerrada
-24,I00024,360,Falla de registro,Baja,2026-06-03,Cerrada
-25,I00025,87,Falla de registro,Alta,2026-06-29,Abierta
-26,I00026,3,Dato inconsistente,Alta,2026-06-17,Cerrada
-27,I00027,147,Reprogramaci?n,Baja,2026-02-11,En revisi?n
-28,I00028,463,Reprogramaci?n,Baja,2026-01-24,Abierta
-29,I00029,474,Dato inconsistente,Baja,2026-05-10,En revisi?n
-30,I00030,241,Reprogramaci?n,Baja,2026-05-17,Cerrada
-31,I00031,46,Dato inconsistente,Alta,2026-01-27,Cerrada
-32,I00032,299,Demora,Media,2026-04-11,Abierta
-33,I00033,494,Falla de registro,Baja,2026-01-25,En revisi?n
-34,I00034,59,Falla de registro,Baja,2026-02-25,Abierta
-35,I00035,252,Reclamo,Baja,2026-02-03,Cerrada
-36,I00036,499,Reprogramaci?n,Baja,2026-02-11,Cerrada
-37,I00037,204,Dato inconsistente,Alta,2026-06-27,Abierta
-38,I00038,368,Reclamo,Media,2026-03-31,Abierta
-39,I00039,243,Demora,Alta,2026-03-17,En revisi?n
-40,I00040,359,Reclamo,Media,2026-05-19,En revisi?n
-41,I00041,288,Reclamo,Baja,2026-06-11,Abierta
-42,I00042,449,Reprogramaci?n,Alta,2026-06-14,En revisi?n
-43,I00043,185,Demora,Media,2026-05-07,Abierta
-44,I00044,370,Demora,Media,2026-06-19,Cerrada
-45,I00045,225,Reclamo,Media,2026-03-20,En revisi?n
-46,I00046,470,Demora,Media,2026-03-28,En revisi?n
-47,I00047,76,Demora,Media,2026-03-02,Cerrada
-48,I00048,130,Demora,Media,2026-01-14,En revisi?n
-49,I00049,346,Demora,Media,2026-03-16,Cerrada
-50,I00050,406,Dato inconsistente,Baja,2026-06-23,Cerrada
-51,I00051,307,Dato inconsistente,Baja,2026-02-13,Abierta
-52,I00052,171,Falla de registro,Media,2026-06-16,Cerrada
-53,I00053,141,Demora,Media,2026-06-10,Cerrada
-54,I00054,172,Demora,Baja,2026-05-01,Cerrada
-55,I00055,311,Reprogramaci?n,Alta,2026-06-14,Abierta
-56,I00056,451,Demora,Alta,2026-01-15,Cerrada
-57,I00057,176,Reprogramaci?n,Alta,2026-05-04,Cerrada
-58,I00058,273,Reclamo,Media,2026-04-04,En revisi?n
-59,I00059,480,Demora,Media,2026-01-18,Abierta
-60,I00060,183,Reclamo,Baja,2026-02-09,Abierta
-61,I00061,405,Reclamo,Media,2026-06-22,Abierta
-62,I00062,150,Reprogramaci?n,Media,2026-02-12,Cerrada
-63,I00063,17,Demora,Baja,2026-04-18,Abierta
-64,I00064,6,Reprogramaci?n,Baja,2026-05-31,En revisi?n
-65,I00065,163,Demora,Baja,2026-04-20,Cerrada
-66,I00066,123,Reclamo,Baja,2026-04-04,Abierta
-67,I00067,220,Reclamo,Media,2026-05-07,Abierta
-68,I00068,22,Dato inconsistente,Media,2026-02-14,En revisi?n
-69,I00069,40,Falla de registro,Media,2026-05-26,Abierta
-70,I00070,438,Reprogramaci?n,Media,2026-04-14,Cerrada
-71,I00071,466,Reprogramaci?n,Media,2026-02-26,Cerrada
-72,I00072,89,Reclamo,Media,2026-05-06,En revisi?n
-73,I00073,401,Reprogramaci?n,Media,2026-03-19,Cerrada
-74,I00074,356,Falla de registro,Alta,2026-04-18,Abierta
-75,I00075,363,Dato inconsistente,Media,2026-05-13,En revisi?n
-76,I00076,218,Falla de registro,Baja,2026-05-29,En revisi?n
-77,I00077,330,Reprogramaci?n,Baja,2026-01-15,Cerrada
-78,I00078,478,Dato inconsistente,Baja,2026-02-20,Abierta
-79,I00079,267,Falla de registro,Baja,2026-02-19,Abierta
-80,I00080,58,Reprogramaci?n,Baja,2026-04-22,Abierta
-81,I00081,240,Reprogramaci?n,Baja,2026-06-28,Cerrada
-82,I00082,88,Falla de registro,Media,2026-03-04,En revisi?n
-83,I00083,14,Reclamo,Alta,2026-05-31,En revisi?n
-84,I00084,278,Reprogramaci?n,Alta,2026-06-16,En revisi?n
-85,I00085,32,Reclamo,Baja,2026-04-02,En revisi?n
-86,I00086,431,Demora,Media,2026-05-09,Cerrada
-87,I00087,93,Demora,Alta,2026-01-21,Cerrada
-88,I00088,67,Reclamo,Media,2026-03-25,Abierta
-89,I00089,137,Reclamo,Baja,2026-03-20,En revisi?n
-90,I00090,232,Dato inconsistente,Alta,2026-03-18,En revisi?n
-91,I00091,254,Reclamo,Baja,2026-03-23,Abierta
-92,I00092,131,Dato inconsistente,Media,2026-05-09,Abierta
-93,I00093,263,Dato inconsistente,Baja,2026-03-30,En revisi?n
-94,I00094,45,Dato inconsistente,Media,2026-06-19,En revisi?n
-95,I00095,203,Reprogramaci?n,Media,2026-03-08,Abierta
+id_incidencia,codigo_incidencia,id_operacion,tipo_incidencia,severidad,fecha_reporte,estado_incidencia
+1,I00001,4,Matrícula observada,Media,2026-02-12,Abierta
+2,I00002,10,Nota pendiente,Alta,2026-04-23,Abierta
+3,I00003,12,Acceso al aula virtual,Media,2026-05-09,En revisión
+4,I00004,19,Cruce de horario,Alta,2026-02-10,En revisión
+5,I00005,26,Pago no aplicado,Baja,2026-03-04,Abierta
+6,I00006,50,Matrícula observada,Baja,2026-05-10,En revisión
+7,I00007,58,Nota pendiente,Media,2026-04-14,En revisión
+8,I00008,59,Acceso al aula virtual,Media,2026-03-21,Cerrada
+9,I00009,60,Cruce de horario,Alta,2026-02-17,En revisión
+10,I00010,70,Pago no aplicado,Media,2026-04-18,En revisión
+11,I00011,82,Matrícula observada,Alta,2026-02-19,Cerrada
+12,I00012,85,Nota pendiente,Media,2026-06-28,En revisión
+13,I00013,97,Acceso al aula virtual,Baja,2026-06-17,En revisión
+14,I00014,116,Cruce de horario,Alta,2026-02-15,En revisión
+15,I00015,119,Pago no aplicado,Baja,2026-05-23,Cerrada
+16,I00016,123,Matrícula observada,Alta,2026-04-14,Abierta
+17,I00017,124,Nota pendiente,Alta,2026-06-05,En revisión
+18,I00018,128,Acceso al aula virtual,Alta,2026-02-03,Abierta
+19,I00019,132,Cruce de horario,Baja,2026-05-27,Cerrada
+20,I00020,133,Pago no aplicado,Alta,2026-05-18,Abierta
+21,I00021,148,Matrícula observada,Baja,2026-02-15,En revisión
+22,I00022,151,Nota pendiente,Baja,2026-06-02,En revisión
+23,I00023,159,Acceso al aula virtual,Alta,2026-05-21,En revisión
+24,I00024,163,Cruce de horario,Alta,2026-06-23,Cerrada
+25,I00025,173,Pago no aplicado,Alta,2026-06-20,En revisión
+26,I00026,175,Matrícula observada,Baja,2026-02-19,Abierta
+27,I00027,181,Nota pendiente,Alta,2026-05-07,Cerrada
+28,I00028,194,Acceso al aula virtual,Baja,2026-05-10,Cerrada
+29,I00029,195,Cruce de horario,Media,2026-06-27,En revisión
+30,I00030,211,Pago no aplicado,Media,2026-06-11,Abierta
+31,I00031,214,Matrícula observada,Baja,2026-06-22,Cerrada
+32,I00032,218,Nota pendiente,Baja,2026-02-10,Cerrada
+33,I00033,240,Acceso al aula virtual,Baja,2026-03-01,Cerrada
+34,I00034,254,Cruce de horario,Alta,2026-05-20,Abierta
+35,I00035,264,Pago no aplicado,Alta,2026-02-17,Cerrada
+36,I00036,291,Matrícula observada,Alta,2026-03-14,Cerrada
+37,I00037,294,Nota pendiente,Media,2026-02-25,Abierta
+38,I00038,304,Acceso al aula virtual,Baja,2026-03-15,Abierta
+39,I00039,308,Cruce de horario,Alta,2026-05-25,En revisión
+40,I00040,314,Pago no aplicado,Baja,2026-05-03,Cerrada
+41,I00041,316,Matrícula observada,Media,2026-03-09,En revisión
+42,I00042,319,Nota pendiente,Baja,2026-06-23,En revisión
+43,I00043,324,Acceso al aula virtual,Baja,2026-04-21,En revisión
+44,I00044,327,Cruce de horario,Baja,2026-06-15,En revisión
+45,I00045,333,Pago no aplicado,Baja,2026-04-22,Abierta
+46,I00046,334,Matrícula observada,Media,2026-04-05,En revisión
+47,I00047,339,Nota pendiente,Alta,2026-03-07,Cerrada
+48,I00048,348,Acceso al aula virtual,Media,2026-06-03,Cerrada
+49,I00049,365,Cruce de horario,Alta,2026-02-05,Abierta
+50,I00050,366,Pago no aplicado,Baja,2026-02-16,En revisión
+51,I00051,372,Matrícula observada,Media,2026-04-05,Cerrada
+52,I00052,374,Nota pendiente,Baja,2026-03-08,Cerrada
+53,I00053,377,Acceso al aula virtual,Alta,2026-02-07,Abierta
+54,I00054,390,Cruce de horario,Media,2026-03-07,Abierta
+55,I00055,391,Pago no aplicado,Baja,2026-06-13,Cerrada
+56,I00056,396,Matrícula observada,Baja,2026-05-01,Abierta
+57,I00057,401,Nota pendiente,Baja,2026-02-17,En revisión
+58,I00058,407,Acceso al aula virtual,Alta,2026-04-02,Cerrada
+59,I00059,424,Cruce de horario,Media,2026-06-12,Abierta
+60,I00060,433,Pago no aplicado,Media,2026-05-16,Abierta
+61,I00061,434,Matrícula observada,Baja,2026-02-23,Cerrada
+62,I00062,438,Nota pendiente,Media,2026-04-07,Abierta
+63,I00063,440,Acceso al aula virtual,Alta,2026-02-13,Cerrada
+64,I00064,457,Cruce de horario,Media,2026-05-24,En revisión
+65,I00065,460,Pago no aplicado,Alta,2026-04-13,Cerrada
+66,I00066,469,Matrícula observada,Media,2026-05-07,En revisión
+67,I00067,474,Nota pendiente,Media,2026-02-16,En revisión
+68,I00068,478,Acceso al aula virtual,Media,2026-03-18,En revisión
+69,I00069,479,Cruce de horario,Alta,2026-02-24,En revisión
+70,I00070,496,Pago no aplicado,Alta,2026-06-19,Abierta
+71,I00071,520,Matrícula observada,Media,2026-05-06,Abierta
+72,I00072,524,Nota pendiente,Alta,2026-03-22,Cerrada
+73,I00073,525,Acceso al aula virtual,Media,2026-04-09,Cerrada
+74,I00074,526,Cruce de horario,Alta,2026-02-03,Abierta
+75,I00075,528,Pago no aplicado,Alta,2026-05-13,Abierta
+76,I00076,534,Matrícula observada,Baja,2026-03-28,En revisión
+77,I00077,542,Nota pendiente,Baja,2026-02-02,En revisión
+78,I00078,545,Acceso al aula virtual,Media,2026-05-27,En revisión
+79,I00079,551,Cruce de horario,Alta,2026-03-21,En revisión
+80,I00080,553,Pago no aplicado,Baja,2026-05-14,En revisión
+81,I00081,557,Matrícula observada,Media,2026-02-26,Cerrada
+82,I00082,558,Nota pendiente,Baja,2026-06-08,Abierta
+83,I00083,561,Acceso al aula virtual,Media,2026-04-15,Cerrada
+84,I00084,562,Cruce de horario,Baja,2026-04-14,En revisión
+85,I00085,570,Pago no aplicado,Alta,2026-02-24,En revisión
+86,I00086,572,Matrícula observada,Alta,2026-03-22,Abierta
+87,I00087,581,Nota pendiente,Baja,2026-04-19,En revisión
+88,I00088,586,Acceso al aula virtual,Alta,2026-06-27,Abierta
+89,I00089,590,Cruce de horario,Alta,2026-05-23,Abierta
+90,I00090,593,Pago no aplicado,Baja,2026-04-12,Cerrada
+91,I00091,600,Matrícula observada,Alta,2026-05-03,Cerrada
+92,I00092,603,Nota pendiente,Alta,2026-02-26,En revisión
+93,I00093,606,Acceso al aula virtual,Alta,2026-06-20,Abierta
+94,I00094,608,Cruce de horario,Baja,2026-05-14,Abierta
+95,I00095,624,Pago no aplicado,Media,2026-06-12,Cerrada
+96,I00096,628,Matrícula observada,Baja,2026-05-21,En revisión
+97,I00097,631,Nota pendiente,Alta,2026-04-07,Abierta
+98,I00098,632,Acceso al aula virtual,Media,2026-03-09,Cerrada
+99,I00099,642,Cruce de horario,Alta,2026-06-15,Cerrada
+100,I00100,662,Pago no aplicado,Alta,2026-03-07,Cerrada
+101,I00101,667,Matrícula observada,Media,2026-02-21,Abierta
+102,I00102,675,Nota pendiente,Baja,2026-02-07,Cerrada
+103,I00103,678,Acceso al aula virtual,Media,2026-06-20,En revisión
+104,I00104,680,Cruce de horario,Media,2026-04-24,Abierta
+105,I00105,683,Pago no aplicado,Media,2026-04-17,En revisión
+106,I00106,684,Matrícula observada,Alta,2026-04-03,Abierta
+107,I00107,686,Nota pendiente,Media,2026-05-14,En revisión
+108,I00108,697,Acceso al aula virtual,Baja,2026-04-17,Cerrada
+109,I00109,699,Cruce de horario,Alta,2026-06-15,Cerrada
+110,I00110,707,Pago no aplicado,Baja,2026-05-13,En revisión
+111,I00111,708,Matrícula observada,Alta,2026-02-18,En revisión
+112,I00112,713,Nota pendiente,Media,2026-02-22,En revisión
+113,I00113,716,Acceso al aula virtual,Media,2026-03-27,En revisión
+114,I00114,720,Cruce de horario,Alta,2026-03-03,Abierta
+115,I00115,724,Pago no aplicado,Media,2026-04-17,En revisión
+116,I00116,752,Matrícula observada,Media,2026-05-15,Cerrada
+117,I00117,755,Nota pendiente,Media,2026-02-08,Cerrada
+118,I00118,760,Acceso al aula virtual,Baja,2026-06-07,En revisión
+119,I00119,762,Cruce de horario,Baja,2026-03-25,Abierta
+120,I00120,763,Pago no aplicado,Baja,2026-03-06,Cerrada
+121,I00121,776,Matrícula observada,Alta,2026-03-04,Abierta
+122,I00122,789,Nota pendiente,Baja,2026-02-25,En revisión
+123,I00123,801,Acceso al aula virtual,Alta,2026-04-09,Cerrada
+124,I00124,806,Cruce de horario,Alta,2026-02-02,Abierta
+125,I00125,810,Pago no aplicado,Baja,2026-05-20,En revisión
+126,I00126,818,Matrícula observada,Alta,2026-03-11,En revisión
+127,I00127,819,Nota pendiente,Baja,2026-03-03,En revisión
+128,I00128,826,Acceso al aula virtual,Alta,2026-03-24,En revisión
+129,I00129,828,Cruce de horario,Baja,2026-02-11,Abierta
+130,I00130,840,Pago no aplicado,Alta,2026-02-17,En revisión
+131,I00131,845,Matrícula observada,Alta,2026-03-15,En revisión
+132,I00132,855,Nota pendiente,Media,2026-05-23,Abierta
+133,I00133,865,Acceso al aula virtual,Alta,2026-06-12,En revisión
+134,I00134,869,Cruce de horario,Alta,2026-06-22,Abierta
+135,I00135,880,Pago no aplicado,Alta,2026-02-15,En revisión
+136,I00136,881,Matrícula observada,Baja,2026-06-05,En revisión
+137,I00137,883,Nota pendiente,Baja,2026-05-11,Cerrada
+138,I00138,887,Acceso al aula virtual,Baja,2026-06-07,Cerrada
+139,I00139,888,Cruce de horario,Baja,2026-02-11,Cerrada
+140,I00140,894,Pago no aplicado,Baja,2026-02-01,Abierta
+141,I00141,897,Matrícula observada,Media,2026-06-11,En revisión
+142,I00142,898,Nota pendiente,Alta,2026-02-08,Cerrada
+143,I00143,907,Acceso al aula virtual,Baja,2026-05-16,En revisión
+144,I00144,910,Cruce de horario,Alta,2026-05-14,Cerrada
+145,I00145,913,Pago no aplicado,Media,2026-05-07,Cerrada
+146,I00146,925,Matrícula observada,Alta,2026-04-13,Cerrada
+147,I00147,926,Nota pendiente,Baja,2026-04-08,En revisión
+148,I00148,936,Acceso al aula virtual,Media,2026-04-23,Cerrada
+149,I00149,937,Cruce de horario,Alta,2026-05-01,Abierta
+150,I00150,938,Pago no aplicado,Alta,2026-02-28,Cerrada
+151,I00151,942,Matrícula observada,Alta,2026-03-19,Cerrada
+152,I00152,963,Nota pendiente,Baja,2026-02-13,Cerrada
+153,I00153,967,Acceso al aula virtual,Baja,2026-03-07,Cerrada
+154,I00154,993,Cruce de horario,Media,2026-02-16,En revisión
+155,I00155,996,Pago no aplicado,Baja,2026-04-03,Cerrada

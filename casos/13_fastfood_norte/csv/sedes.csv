@@ -1,7 +1,7 @@
-﻿id_sede,codigo_sede,nombre_sede,distrito_sede,responsable
-1,S001,Sede Norte 1,Miraflores,Administraci?n
-2,S002,Sede Norte 2,San Miguel,Calidad
-3,S003,Sede Principal 3,Surco,Comercial
-4,S004,Sede Norte 4,Miraflores,Calidad
-5,S005,Sede Sur 5,San Miguel,Comercial
-6,S006,Sede Sur 6,Miraflores,Comercial
+id_sede,codigo_sede,nombre_sede,distrito_sede,responsable
+1,FNS01,FastFood Norte Cercado de Lima,Cercado de Lima,Pedro Salazar
+2,FNS02,FastFood Norte San Miguel,San Miguel,Paola Lévano
+3,FNS03,FastFood Norte Jesús María,Jesús María,Raúl Aguirre
+4,FNS04,FastFood Norte Los Olivos,Los Olivos,Andrés Huamán
+5,FNS05,FastFood Norte Santiago de Surco,Santiago de Surco,Andrés Huamán
+6,FNS06,FastFood Norte San Borja,San Borja,Gabriela Zevallos

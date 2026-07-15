@@ -1,16 +1,31 @@
-﻿id_producto,codigo_producto,nombre_producto,categoria,precio_base,activo
-1,P0001,Servicio/Producto 01,B?sico,211.51,1
-2,P0002,Servicio/Producto 02,Est?ndar,51.28,1
-3,P0003,Servicio/Producto 03,Premium,87.02,1
-4,P0004,Servicio/Producto 04,Premium,163.45,1
-5,P0005,Servicio/Producto 05,Premium,232.2,1
-6,P0006,Servicio/Producto 06,Premium,93.19,1
-7,P0007,Servicio/Producto 07,Especializado,154.37,1
-8,P0008,Servicio/Producto 08,Est?ndar,46.54,1
-9,P0009,Servicio/Producto 09,Est?ndar,151.43,1
-10,P0010,Servicio/Producto 10,Premium,172.15,1
-11,P0011,Servicio/Producto 11,Especializado,206.07,1
-12,P0012,Servicio/Producto 12,Est?ndar,317.66,1
-13,P0013,Servicio/Producto 13,Especializado,310.0,1
-14,P0014,Servicio/Producto 14,Premium,280.03,1
-15,P0015,Servicio/Producto 15,Especializado,170.55,1
+id_producto,codigo_producto,nombre_producto,categoria,precio_base,activo
+1,LX0001,Envío express hasta 1 kg,Express,12.00,1
+2,LX0002,Envío express hasta 3 kg,Express,19.20,1
+3,LX0003,Entrega en 2 horas,Express,26.40,1
+4,LX0004,Entrega programada mañana,Express,33.60,1
+5,LX0005,Documento urgente,Express,40.80,1
+6,LX0006,Recojo express en tienda,Express,48.00,1
+7,LX0007,Envío estándar Lima 1 kg,Estándar,8.00,1
+8,LX0008,Envío estándar Lima 5 kg,Estándar,10.75,0
+9,LX0009,Envío a provincia 1 kg,Estándar,14.44,1
+10,LX0010,Envío a provincia 5 kg,Estándar,19.39,1
+11,LX0011,Distribución de sobres,Estándar,26.05,1
+12,LX0012,Ruta múltiple de 5 paradas,Estándar,35.00,1
+13,LX0013,Carga ligera hasta 30 kg,Carga,45.00,1
+14,LX0014,Carga mediana hasta 100 kg,Carga,63.91,1
+15,LX0015,Mudanza express minivan,Carga,90.76,0
+16,LX0016,Flete urbano furgón,Carga,128.90,1
+17,LX0017,Distribución de pallets,Carga,183.07,1
+18,LX0018,Recojo de mercadería mayorista,Carga,260.00,1
+19,LX0019,Cadena fría farmacéutica,Refrigerado,55.00,0
+20,LX0020,Entrega refrigerada de alimentos,Refrigerado,78.22,1
+21,LX0021,Transporte de muestras clínicas,Refrigerado,111.24,1
+22,LX0022,Caja térmica por jornada,Refrigerado,158.21,0
+23,LX0023,Ruta refrigerada metropolitana,Refrigerado,225.01,1
+24,LX0024,Custodia de producto congelado,Refrigerado,320.00,1
+25,LX0025,Documento internacional,Internacional,95.00,1
+26,LX0026,Paquete internacional 1 kg,Internacional,131.35,1
+27,LX0027,Paquete internacional 5 kg,Internacional,181.61,1
+28,LX0028,Exportación courier pyme,Internacional,251.09,1
+29,LX0029,Importación courier personal,Internacional,347.17,1
+30,LX0030,Gestión aduanera simplificada,Internacional,480.00,0

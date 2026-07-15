@@ -1,501 +1,1011 @@
-﻿id_operacion,codigo_operacion,id_entidad,id_sede,id_producto,fecha_operacion,cantidad,monto_total,estado,canal
-1,O00001,21,4,12,2026-05-24,6,163.05,Completado,Web
-2,O00002,49,1,12,2026-02-22,6,184.09,Completado,Presencial
-3,O00003,72,3,1,2026-04-22,4,1053.81,Completado,Web
-4,O00004,65,3,4,2026-04-01,1,198.17,Completado,Web
-5,O00005,24,4,12,2026-03-08,3,81.91,Completado,Web
-6,O00006,58,1,2,2026-05-13,3,251.62,Cancelado,Web
-7,O00007,62,4,9,2026-03-15,4,823.9,Completado,App
-8,O00008,49,5,1,2026-06-14,1,249.46,Completado,App
-9,O00009,24,6,6,2026-01-06,4,349.0,Completado,Presencial
-10,O00010,14,5,3,2026-01-28,2,153.65,Observado,Presencial
-11,O00011,57,4,4,2026-01-12,4,823.38,Completado,Call Center
-12,O00012,38,6,13,2026-03-11,2,86.02,Completado,Presencial
-13,O00013,7,5,5,2026-04-20,2,105.24,Pendiente,Web
-14,O00014,79,6,7,2026-03-24,4,334.2,Completado,Web
-15,O00015,71,4,1,2026-01-18,3,854.95,Completado,App
-16,O00016,23,1,6,2026-04-16,3,256.71,Pendiente,Presencial
-17,O00017,49,2,14,2026-06-16,4,249.3,Pendiente,Web
-18,O00018,32,2,5,2026-03-06,3,182.52,Completado,Web
-19,O00019,8,5,1,2026-02-19,3,702.09,Completado,Presencial
-20,O00020,10,2,13,2026-03-17,6,298.48,Completado,Call Center
-21,O00021,73,1,14,2026-01-26,6,309.79,Pendiente,Web
-22,O00022,51,6,7,2026-03-17,1,111.56,Cancelado,App
-23,O00023,69,5,13,2026-02-22,2,118.23,Pendiente,App
-24,O00024,43,3,8,2026-06-23,3,979.55,Cancelado,Web
-25,O00025,37,5,15,2026-02-18,2,226.08,Completado,Web
-26,O00026,58,6,2,2026-06-04,3,296.89,Observado,Web
-27,O00027,24,2,11,2026-01-24,3,146.84,Completado,Call Center
-28,O00028,57,4,13,2026-01-26,4,192.24,Completado,App
-29,O00029,24,6,3,2026-04-03,5,440.72,Completado,Web
-30,O00030,1,4,10,2026-04-06,6,1209.19,Completado,App
-31,O00031,45,4,3,2026-03-01,3,212.07,Completado,Web
-32,O00032,26,1,10,2026-06-23,5,985.34,Pendiente,Web
-33,O00033,77,6,15,2026-01-02,6,600.21,Completado,App
-34,O00034,20,4,9,2026-02-13,5,1259.74,Completado,App
-35,O00035,31,4,13,2026-03-03,6,283.91,Observado,Presencial
-36,O00036,16,4,2,2026-05-12,4,395.58,Completado,Web
-37,O00037,3,5,3,2026-03-05,6,400.34,Completado,Web
-38,O00038,9,6,1,2026-03-07,6,1769.62,Completado,App
-39,O00039,2,1,9,2026-02-27,6,1379.44,Completado,Presencial
-40,O00040,42,2,14,2026-04-28,2,124.62,Completado,App
-41,O00041,74,6,5,2026-03-31,4,189.7,Completado,App
-42,O00042,56,5,15,2026-06-20,1,124.48,Pendiente,Call Center
-43,O00043,29,6,7,2026-02-16,5,515.17,Completado,Presencial
-44,O00044,62,3,14,2026-05-19,5,225.68,Completado,Presencial
-45,O00045,47,4,3,2026-03-17,4,318.22,Completado,Web
-46,O00046,59,6,4,2026-01-21,6,1436.93,Completado,Web
-47,O00047,1,5,1,2026-06-12,3,931.61,Completado,Presencial
-48,O00048,54,3,6,2026-02-20,1,82.56,Completado,App
-49,O00049,75,3,1,2026-01-06,6,1654.87,Completado,Call Center
-50,O00050,12,3,8,2026-02-02,4,1617.2,Completado,Call Center
-51,O00051,3,5,10,2026-03-02,5,921.93,Observado,App
-52,O00052,13,1,2,2026-03-17,6,434.95,Completado,Web
-53,O00053,55,6,10,2026-03-03,2,384.96,Cancelado,Web
-54,O00054,10,5,3,2026-01-30,2,133.75,Completado,Presencial
-55,O00055,58,3,14,2026-03-28,6,357.68,Completado,Web
-56,O00056,62,3,15,2026-06-04,5,544.22,Completado,Web
-57,O00057,26,5,3,2026-03-08,4,307.64,Completado,Web
-58,O00058,43,5,3,2026-01-31,6,393.69,Completado,App
-59,O00059,63,4,10,2026-01-10,3,462.34,Completado,Web
-60,O00060,4,4,7,2026-03-04,6,638.36,Completado,Call Center
-61,O00061,6,1,4,2026-01-24,6,1191.36,Completado,App
-62,O00062,12,2,4,2026-01-08,3,559.17,Completado,Call Center
-63,O00063,9,5,14,2026-03-02,2,92.93,Completado,Web
-64,O00064,2,3,12,2026-02-26,3,88.59,Completado,Web
-65,O00065,54,2,8,2026-03-19,5,1435.65,Completado,App
-66,O00066,43,1,3,2026-03-25,2,170.74,Completado,App
-67,O00067,6,5,6,2026-01-18,1,85.42,Observado,Call Center
-68,O00068,22,3,11,2026-01-23,2,81.66,Pendiente,Call Center
-69,O00069,65,1,15,2026-01-29,4,370.57,Completado,Presencial
-70,O00070,9,3,13,2026-02-18,2,112.9,Completado,Call Center
-71,O00071,55,5,7,2026-03-01,3,323.66,Pendiente,Web
-72,O00072,43,6,2,2026-01-14,5,454.28,Completado,App
-73,O00073,39,5,9,2026-06-13,5,1059.29,Cancelado,Presencial
-74,O00074,4,5,2,2026-06-27,1,73.91,Completado,Presencial
-75,O00075,14,3,11,2026-03-19,3,112.79,Completado,App
-76,O00076,28,3,2,2026-03-02,5,434.98,Completado,Presencial
-77,O00077,74,6,2,2026-03-23,1,84.35,Completado,Call Center
-78,O00078,25,6,3,2026-03-31,1,91.72,Observado,App
-79,O00079,23,1,3,2026-02-23,1,73.21,Completado,Call Center
-80,O00080,58,6,4,2026-01-27,6,1002.93,Completado,Call Center
-81,O00081,22,4,14,2026-05-09,2,89.13,Observado,Call Center
-82,O00082,28,3,14,2026-03-23,2,85.23,Completado,Web
-83,O00083,29,4,12,2026-02-10,4,151.08,Completado,Presencial
-84,O00084,64,5,3,2026-01-02,4,278.46,Completado,Web
-85,O00085,21,2,5,2026-05-25,6,381.76,Observado,App
-86,O00086,61,3,3,2026-05-01,1,81.13,Observado,Presencial
-87,O00087,39,5,4,2026-01-28,1,183.97,Completado,App
-88,O00088,46,1,11,2026-01-14,4,190.74,Completado,Web
-89,O00089,9,4,3,2026-05-15,4,364.87,Completado,Call Center
-90,O00090,71,2,13,2026-06-14,6,354.08,Completado,Presencial
-91,O00091,58,2,13,2026-04-11,4,232.76,Completado,Call Center
-92,O00092,56,2,4,2026-05-28,4,695.86,Completado,Web
-93,O00093,21,2,15,2026-04-12,6,568.9,Completado,Web
-94,O00094,37,6,4,2026-05-13,1,227.31,Completado,Call Center
-95,O00095,18,6,14,2026-05-16,1,57.52,Completado,Web
-96,O00096,58,5,9,2026-01-09,2,535.91,Completado,Presencial
-97,O00097,77,4,10,2026-04-04,1,165.28,Observado,App
-98,O00098,1,3,13,2026-02-16,1,60.17,Observado,Web
-99,O00099,13,4,7,2026-01-13,5,534.74,Completado,App
-100,O00100,58,6,2,2026-06-14,4,295.05,Completado,Call Center
-101,O00101,41,3,14,2026-02-20,5,235.24,Observado,Call Center
-102,O00102,76,3,4,2026-01-09,2,334.32,Completado,Web
-103,O00103,47,6,12,2026-04-25,3,81.22,Observado,App
-104,O00104,24,3,6,2026-06-07,6,521.16,Pendiente,Web
-105,O00105,77,5,11,2026-01-01,3,120.61,Pendiente,App
-106,O00106,55,1,2,2026-01-01,5,420.67,Completado,Call Center
-107,O00107,40,1,2,2026-05-02,4,388.49,Cancelado,Web
-108,O00108,48,6,2,2026-01-29,6,616.32,Completado,Presencial
-109,O00109,1,4,15,2026-02-09,5,606.89,Completado,App
-110,O00110,64,4,11,2026-04-21,3,114.15,Completado,Presencial
-111,O00111,32,2,3,2026-06-28,5,420.71,Cancelado,Call Center
-112,O00112,68,3,11,2026-02-04,2,80.22,Completado,Web
-113,O00113,4,4,11,2026-03-10,3,141.99,Completado,Call Center
-114,O00114,25,6,9,2026-01-27,2,546.86,Pendiente,Presencial
-115,O00115,47,1,12,2026-01-29,5,166.28,Cancelado,Web
-116,O00116,46,3,1,2026-04-01,4,999.4,Completado,Call Center
-117,O00117,2,6,3,2026-06-14,5,433.23,Completado,Presencial
-118,O00118,78,1,2,2026-06-25,6,496.54,Completado,App
-119,O00119,58,1,6,2026-02-10,3,225.46,Pendiente,Presencial
-120,O00120,25,2,4,2026-05-05,6,1052.9,Completado,Call Center
-121,O00121,45,4,7,2026-05-16,6,622.5,Completado,Presencial
-122,O00122,76,5,5,2026-02-12,2,114.87,Completado,App
-123,O00123,4,6,14,2026-02-04,3,157.25,Completado,Presencial
-124,O00124,16,1,12,2026-04-30,6,195.13,Completado,App
-125,O00125,25,6,6,2026-06-21,5,442.74,Observado,Web
-126,O00126,46,6,6,2026-05-22,1,89.69,Completado,Call Center
-127,O00127,60,1,12,2026-01-13,4,155.86,Completado,App
-128,O00128,30,6,1,2026-03-17,2,648.08,Completado,App
-129,O00129,74,1,6,2026-05-03,1,87.72,Cancelado,Presencial
-130,O00130,30,6,7,2026-01-21,2,237.01,Observado,Presencial
-131,O00131,76,3,1,2026-01-03,5,1615.48,Completado,App
-132,O00132,38,3,11,2026-06-10,2,101.68,Completado,App
-133,O00133,23,4,15,2026-01-25,1,111.72,Completado,Web
-134,O00134,31,1,3,2026-05-03,4,339.59,Completado,Call Center
-135,O00135,20,2,12,2026-01-23,1,36.56,Completado,Call Center
-136,O00136,1,6,12,2026-05-14,4,117.38,Completado,Call Center
-137,O00137,26,5,13,2026-03-14,5,240.21,Completado,App
-138,O00138,40,1,6,2026-02-14,5,387.78,Completado,Web
-139,O00139,42,4,3,2026-03-01,1,76.93,Pendiente,Presencial
-140,O00140,63,3,12,2026-05-27,2,62.74,Completado,App
-141,O00141,17,1,14,2026-05-28,2,114.8,Completado,Presencial
-142,O00142,19,6,8,2026-05-08,3,955.44,Pendiente,Web
-143,O00143,77,3,2,2026-03-27,5,385.97,Completado,Web
-144,O00144,32,2,9,2026-04-13,4,1120.04,Completado,Presencial
-145,O00145,79,2,10,2026-06-01,2,424.24,Completado,Presencial
-146,O00146,51,4,4,2026-03-02,3,569.82,Completado,Presencial
-147,O00147,50,3,5,2026-03-21,3,144.5,Completado,Web
-148,O00148,18,1,12,2026-06-08,3,111.75,Completado,App
-149,O00149,26,4,7,2026-03-18,2,213.18,Completado,App
-150,O00150,47,4,13,2026-02-12,6,280.19,Completado,App
-151,O00151,27,6,9,2026-01-12,1,268.9,Completado,Presencial
-152,O00152,18,3,14,2026-05-20,6,318.93,Pendiente,Call Center
-153,O00153,6,1,4,2026-03-03,6,1109.27,Completado,App
-154,O00154,73,3,2,2026-05-18,6,531.11,Completado,Presencial
-155,O00155,16,3,10,2026-06-12,1,178.75,Completado,Call Center
-156,O00156,59,6,14,2026-06-27,1,43.87,Cancelado,App
-157,O00157,68,1,8,2026-03-06,2,802.54,Cancelado,Web
-158,O00158,15,4,4,2026-03-23,5,1077.92,Completado,Call Center
-159,O00159,53,1,8,2026-03-02,6,2335.7,Completado,Call Center
-160,O00160,71,4,2,2026-05-03,5,493.48,Cancelado,Call Center
-161,O00161,50,5,13,2026-05-24,6,315.2,Completado,Web
-162,O00162,72,1,4,2026-03-25,1,205.19,Cancelado,Presencial
-163,O00163,55,1,4,2026-04-29,3,647.06,Completado,Web
-164,O00164,8,3,15,2026-03-28,1,121.2,Completado,Call Center
-165,O00165,3,5,12,2026-05-12,1,32.66,Completado,App
-166,O00166,43,5,9,2026-04-08,4,1080.91,Completado,App
-167,O00167,21,3,12,2026-06-24,5,149.8,Completado,Web
-168,O00168,21,4,15,2026-06-13,1,120.77,Completado,Presencial
-169,O00169,65,4,14,2026-02-05,3,134.01,Observado,Web
-170,O00170,60,5,4,2026-05-04,4,818.2,Completado,App
-171,O00171,42,6,15,2026-04-25,5,599.42,Completado,App
-172,O00172,46,6,8,2026-02-07,1,310.09,Pendiente,Call Center
-173,O00173,44,3,2,2026-04-20,4,340.96,Completado,Web
-174,O00174,54,4,7,2026-02-07,2,180.1,Completado,App
-175,O00175,59,4,6,2026-01-20,1,92.97,Completado,Call Center
-176,O00176,57,5,9,2026-04-21,2,566.83,Completado,App
-177,O00177,47,6,7,2026-06-03,3,355.96,Completado,Call Center
-178,O00178,41,3,10,2026-02-17,3,445.38,Completado,Web
-179,O00179,66,6,1,2026-06-04,3,886.82,Pendiente,Call Center
-180,O00180,47,2,4,2026-01-27,3,581.13,Completado,Presencial
-181,O00181,28,3,3,2026-05-05,4,277.29,Completado,App
-182,O00182,69,5,12,2026-01-02,1,32.3,Completado,Presencial
-183,O00183,14,2,6,2026-02-02,2,160.35,Pendiente,Call Center
-184,O00184,62,5,7,2026-01-29,4,462.37,Pendiente,Web
-185,O00185,32,6,10,2026-06-06,5,1051.6,Completado,Presencial
-186,O00186,31,6,14,2026-04-20,2,91.44,Pendiente,Presencial
-187,O00187,32,6,1,2026-04-16,6,1959.97,Completado,Presencial
-188,O00188,75,6,9,2026-02-12,4,965.17,Completado,Web
-189,O00189,17,3,13,2026-04-15,3,142.97,Completado,Call Center
-190,O00190,69,5,4,2026-01-28,3,562.8,Observado,App
-191,O00191,14,5,13,2026-05-01,6,310.25,Completado,Call Center
-192,O00192,38,5,12,2026-04-20,1,36.54,Cancelado,Presencial
-193,O00193,3,5,5,2026-01-14,3,145.78,Completado,Presencial
-194,O00194,72,2,15,2026-02-08,1,131.21,Completado,Presencial
-195,O00195,19,4,12,2026-03-28,1,29.57,Completado,Presencial
-196,O00196,21,6,7,2026-04-24,1,84.71,Pendiente,Call Center
-197,O00197,42,4,7,2026-01-01,4,410.59,Completado,App
-198,O00198,79,3,14,2026-04-29,5,262.1,Completado,Presencial
-199,O00199,13,3,7,2026-01-06,1,91.31,Cancelado,Web
-200,O00200,47,2,1,2026-05-10,4,1310.17,Completado,Web
-201,O00201,59,4,6,2026-06-11,6,387.2,Completado,Presencial
-202,O00202,38,2,1,2026-03-18,1,332.21,Completado,Presencial
-203,O00203,40,1,8,2026-03-18,3,1199.35,Completado,Presencial
-204,O00204,41,3,6,2026-01-25,1,76.76,Completado,Presencial
-205,O00205,67,6,11,2026-04-03,1,46.58,Cancelado,Web
-206,O00206,11,2,7,2026-01-12,4,358.14,Completado,Call Center
-207,O00207,26,5,12,2026-03-26,6,207.86,Completado,Web
-208,O00208,33,1,8,2026-05-25,3,1009.39,Observado,Presencial
-209,O00209,30,4,4,2026-06-22,5,1048.64,Completado,Call Center
-210,O00210,8,1,12,2026-05-16,6,206.3,Completado,App
-211,O00211,72,2,10,2026-06-27,2,315.34,Completado,App
-212,O00212,17,4,6,2026-01-07,5,438.66,Completado,Presencial
-213,O00213,15,6,10,2026-01-03,6,1190.09,Completado,Presencial
-214,O00214,5,6,9,2026-05-08,2,593.79,Cancelado,App
-215,O00215,22,4,10,2026-02-25,4,858.77,Completado,App
-216,O00216,28,1,10,2026-02-12,4,655.53,Completado,App
-217,O00217,62,6,8,2026-05-11,1,329.52,Completado,Call Center
-218,O00218,12,4,2,2026-03-14,6,601.23,Pendiente,Presencial
-219,O00219,55,1,14,2026-02-24,3,174.87,Cancelado,Presencial
-220,O00220,34,3,5,2026-01-17,1,60.34,Completado,App
-221,O00221,60,2,6,2026-04-30,1,84.49,Completado,App
-222,O00222,55,5,4,2026-03-21,4,838.14,Completado,App
-223,O00223,80,4,13,2026-05-21,3,183.29,Pendiente,Call Center
-224,O00224,76,1,9,2026-02-21,3,865.02,Completado,Call Center
-225,O00225,3,4,10,2026-04-14,1,162.15,Pendiente,Call Center
-226,O00226,52,6,1,2026-05-23,3,828.12,Observado,Presencial
-227,O00227,56,4,7,2026-02-13,3,342.4,Completado,Presencial
-228,O00228,33,6,5,2026-06-26,2,124.09,Completado,App
-229,O00229,53,1,7,2026-02-26,2,189.86,Completado,App
-230,O00230,53,1,8,2026-05-23,5,1836.64,Completado,Call Center
-231,O00231,3,2,3,2026-04-03,6,542.26,Completado,App
-232,O00232,68,2,5,2026-05-22,2,121.43,Pendiente,Presencial
-233,O00233,35,1,12,2026-02-14,5,174.51,Completado,Web
-234,O00234,56,6,5,2026-03-12,5,241.53,Pendiente,Presencial
-235,O00235,79,3,4,2026-01-09,3,571.95,Completado,Presencial
-236,O00236,51,2,13,2026-01-25,2,107.95,Completado,App
-237,O00237,11,4,5,2026-05-21,3,178.21,Completado,Presencial
-238,O00238,14,2,14,2026-01-02,5,283.97,Cancelado,Web
-239,O00239,62,1,12,2026-02-07,1,33.34,Completado,App
-240,O00240,37,1,15,2026-06-12,6,556.48,Completado,App
-241,O00241,68,5,9,2026-05-05,5,1286.94,Completado,Presencial
-242,O00242,39,3,9,2026-05-12,5,1119.17,Cancelado,App
-243,O00243,62,1,6,2026-04-21,1,63.79,Pendiente,App
-244,O00244,61,3,9,2026-02-19,1,240.48,Completado,Call Center
-245,O00245,36,4,14,2026-01-07,4,237.58,Completado,Call Center
-246,O00246,67,3,6,2026-02-17,1,90.18,Cancelado,Web
-247,O00247,52,3,8,2026-06-23,1,290.62,Pendiente,Presencial
-248,O00248,38,3,12,2026-06-08,1,28.61,Completado,Call Center
-249,O00249,45,1,2,2026-06-03,6,583.76,Completado,Call Center
-250,O00250,41,6,8,2026-03-20,5,1555.07,Completado,Presencial
-251,O00251,33,6,5,2026-03-03,6,325.5,Completado,App
-252,O00252,17,1,11,2026-02-23,6,216.11,Completado,Presencial
-253,O00253,61,1,15,2026-01-15,2,241.6,Completado,Web
-254,O00254,37,2,15,2026-05-07,3,392.64,Completado,Call Center
-255,O00255,30,2,7,2026-01-30,2,237.24,Completado,Presencial
-256,O00256,34,1,4,2026-02-21,2,482.09,Observado,Call Center
-257,O00257,52,1,14,2026-05-06,3,128.94,Completado,Call Center
-258,O00258,27,2,9,2026-04-15,3,728.6,Completado,Web
-259,O00259,30,3,3,2026-01-21,1,71.19,Completado,App
-260,O00260,32,5,2,2026-04-05,2,145.37,Completado,Presencial
-261,O00261,57,5,3,2026-02-02,6,385.35,Completado,App
-262,O00262,43,4,5,2026-03-23,3,139.37,Completado,App
-263,O00263,72,1,4,2026-05-31,4,834.4,Completado,Presencial
-264,O00264,75,2,5,2026-06-29,6,332.31,Cancelado,App
-265,O00265,4,1,11,2026-04-06,2,100.01,Completado,App
-266,O00266,17,5,11,2026-06-02,3,115.27,Completado,App
-267,O00267,49,5,9,2026-06-23,3,753.04,Completado,Web
-268,O00268,60,1,6,2026-02-27,4,302.28,Pendiente,App
-269,O00269,58,5,13,2026-01-21,4,209.74,Completado,App
-270,O00270,51,1,14,2026-06-16,1,58.46,Completado,App
-271,O00271,79,1,2,2026-04-30,3,287.36,Completado,Call Center
-272,O00272,50,6,15,2026-05-29,4,378.67,Cancelado,App
-273,O00273,69,5,3,2026-06-28,4,274.9,Completado,App
-274,O00274,36,2,15,2026-03-26,6,708.84,Completado,Presencial
-275,O00275,36,2,3,2026-04-17,1,74.98,Completado,Presencial
-276,O00276,18,3,8,2026-02-02,2,823.99,Completado,Presencial
-277,O00277,61,2,3,2026-01-29,4,297.87,Completado,App
-278,O00278,14,6,8,2026-06-01,6,2482.15,Completado,App
-279,O00279,66,6,2,2026-03-02,3,225.54,Cancelado,Presencial
-280,O00280,63,5,10,2026-04-27,1,156.97,Completado,Presencial
-281,O00281,74,6,3,2026-01-23,6,407.63,Completado,App
-282,O00282,65,1,8,2026-04-02,1,353.7,Completado,Web
-283,O00283,57,2,11,2026-05-01,5,206.12,Completado,Call Center
-284,O00284,33,3,13,2026-05-23,5,275.17,Completado,Presencial
-285,O00285,80,2,3,2026-04-09,1,64.59,Completado,App
-286,O00286,76,1,14,2026-04-13,6,275.63,Observado,Call Center
-287,O00287,76,3,9,2026-04-15,2,463.8,Pendiente,Web
-288,O00288,42,6,2,2026-03-17,1,82.09,Completado,Call Center
-289,O00289,69,5,5,2026-04-20,4,249.82,Completado,Web
-290,O00290,60,3,6,2026-05-24,4,256.08,Completado,Presencial
-291,O00291,11,2,1,2026-02-14,2,480.58,Observado,Presencial
-292,O00292,73,1,15,2026-04-21,1,94.26,Completado,Web
-293,O00293,8,6,4,2026-02-11,2,432.78,Completado,App
-294,O00294,61,4,5,2026-03-05,1,58.48,Completado,Call Center
-295,O00295,17,5,6,2026-05-10,4,371.69,Completado,Presencial
-296,O00296,32,6,8,2026-05-25,3,1167.4,Completado,Presencial
-297,O00297,20,6,12,2026-02-01,5,187.98,Completado,Call Center
-298,O00298,21,3,1,2026-04-16,4,1352.46,Cancelado,App
-299,O00299,63,2,6,2026-05-19,3,234.59,Completado,Call Center
-300,O00300,6,2,13,2026-04-27,4,219.77,Completado,Web
-301,O00301,35,5,5,2026-04-13,2,113.17,Completado,App
-302,O00302,58,4,4,2026-03-20,3,593.59,Completado,Call Center
-303,O00303,11,3,4,2026-06-14,1,188.66,Completado,Presencial
-304,O00304,59,3,9,2026-05-09,6,1523.15,Completado,Web
-305,O00305,33,2,10,2026-01-24,6,1089.37,Completado,Web
-306,O00306,4,6,4,2026-06-20,6,1249.96,Completado,Presencial
-307,O00307,40,2,3,2026-06-12,3,240.45,Completado,Web
-308,O00308,43,2,1,2026-01-10,1,312.13,Completado,Call Center
-309,O00309,23,6,10,2026-02-23,6,1151.44,Completado,Web
-310,O00310,47,5,13,2026-03-26,4,234.58,Completado,Web
-311,O00311,32,3,15,2026-02-27,3,313.85,Completado,Call Center
-312,O00312,19,1,6,2026-06-15,4,272.2,Completado,Call Center
-313,O00313,35,3,8,2026-02-27,1,364.4,Completado,Web
-314,O00314,60,6,9,2026-02-08,1,301.39,Pendiente,Presencial
-315,O00315,26,1,15,2026-03-03,6,584.45,Completado,Web
-316,O00316,80,5,3,2026-02-22,5,432.38,Completado,Web
-317,O00317,58,4,3,2026-05-27,1,66.25,Completado,Call Center
-318,O00318,15,6,14,2026-03-05,1,61.76,Completado,App
-319,O00319,19,1,8,2026-02-22,2,721.35,Completado,App
-320,O00320,18,5,6,2026-06-16,1,68.59,Completado,Web
-321,O00321,31,4,12,2026-05-28,1,30.51,Observado,Web
-322,O00322,47,5,9,2026-02-12,2,523.2,Completado,Presencial
-323,O00323,33,5,9,2026-02-27,1,289.58,Completado,App
-324,O00324,45,3,6,2026-02-11,4,342.02,Completado,Presencial
-325,O00325,57,1,3,2026-01-24,3,213.96,Completado,Call Center
-326,O00326,6,5,1,2026-02-07,1,332.21,Observado,Web
-327,O00327,64,2,6,2026-01-11,6,452.59,Completado,App
-328,O00328,47,5,7,2026-01-08,1,114.97,Completado,Web
-329,O00329,23,5,5,2026-06-17,5,220.95,Observado,Call Center
-330,O00330,58,5,10,2026-03-06,4,861.84,Completado,App
-331,O00331,48,2,1,2026-06-27,3,790.03,Completado,Web
-332,O00332,24,2,3,2026-03-19,5,429.51,Pendiente,Presencial
-333,O00333,75,4,7,2026-06-03,2,212.42,Completado,Web
-334,O00334,46,4,12,2026-06-07,4,137.83,Cancelado,Presencial
-335,O00335,39,6,11,2026-01-12,4,143.41,Completado,Call Center
-336,O00336,14,5,14,2026-06-12,2,95.66,Completado,Call Center
-337,O00337,38,3,1,2026-02-28,4,1218.14,Completado,Presencial
-338,O00338,40,1,14,2026-05-22,2,109.12,Observado,Call Center
-339,O00339,74,6,7,2026-05-05,6,651.34,Cancelado,Presencial
-340,O00340,68,5,5,2026-05-05,2,96.23,Completado,App
-341,O00341,62,5,1,2026-03-23,6,1512.13,Observado,Call Center
-342,O00342,27,4,8,2026-05-08,3,972.99,Cancelado,Presencial
-343,O00343,46,3,2,2026-05-04,4,286.86,Completado,Call Center
-344,O00344,26,5,13,2026-04-20,4,206.11,Observado,Presencial
-345,O00345,69,2,15,2026-06-10,1,99.42,Completado,Web
-346,O00346,70,5,8,2026-02-13,6,1899.36,Observado,Presencial
-347,O00347,68,1,7,2026-04-07,4,457.89,Completado,Web
-348,O00348,43,6,12,2026-04-01,2,67.36,Completado,Web
-349,O00349,28,5,10,2026-04-23,3,469.11,Completado,Presencial
-350,O00350,21,1,8,2026-06-20,6,2241.44,Completado,Web
-351,O00351,3,6,12,2026-06-14,3,81.22,Observado,Web
-352,O00352,78,6,12,2026-06-04,1,28.79,Completado,App
-353,O00353,74,6,1,2026-02-15,3,878.39,Observado,Call Center
-354,O00354,68,1,1,2026-06-27,1,246.77,Observado,Web
-355,O00355,45,3,11,2026-04-15,6,213.52,Completado,Presencial
-356,O00356,30,5,12,2026-01-31,5,158.89,Completado,Presencial
-357,O00357,2,2,12,2026-04-19,6,167.17,Pendiente,Call Center
-358,O00358,35,3,15,2026-01-18,5,589.32,Cancelado,App
-359,O00359,44,1,13,2026-05-26,2,100.39,Completado,App
-360,O00360,70,6,15,2026-04-09,2,258.64,Completado,Presencial
-361,O00361,16,4,13,2026-04-17,6,316.12,Completado,Web
-362,O00362,13,5,6,2026-04-21,2,142.44,Completado,Call Center
-363,O00363,56,2,13,2026-04-19,3,177.31,Completado,Presencial
-364,O00364,22,4,5,2026-04-21,6,277.75,Completado,App
-365,O00365,42,3,11,2026-01-14,6,230.62,Cancelado,App
-366,O00366,22,2,13,2026-05-18,3,177.99,Completado,Presencial
-367,O00367,27,6,13,2026-02-24,2,87.82,Completado,App
-368,O00368,31,4,10,2026-04-15,6,1058.01,Completado,App
-369,O00369,54,2,2,2026-05-14,3,247.27,Pendiente,Web
-370,O00370,17,6,9,2026-03-12,2,470.74,Pendiente,Call Center
-371,O00371,62,6,12,2026-06-11,6,213.14,Completado,App
-372,O00372,35,5,8,2026-01-24,3,928.2,Pendiente,Presencial
-373,O00373,31,5,10,2026-06-19,4,681.92,Completado,Web
-374,O00374,35,2,11,2026-06-10,3,112.26,Completado,Presencial
-375,O00375,33,4,14,2026-02-12,1,53.11,Completado,Call Center
-376,O00376,43,3,8,2026-03-09,1,401.66,Completado,App
-377,O00377,4,6,4,2026-01-16,5,1222.88,Completado,Web
-378,O00378,67,3,9,2026-03-04,5,1192.02,Pendiente,Web
-379,O00379,35,6,15,2026-04-14,6,719.09,Cancelado,App
-380,O00380,43,3,10,2026-01-10,2,422.77,Pendiente,Web
-381,O00381,51,6,7,2026-03-05,1,111.02,Completado,Presencial
-382,O00382,36,2,11,2026-03-30,2,89.02,Completado,Web
-383,O00383,39,1,11,2026-03-19,1,39.58,Observado,Presencial
-384,O00384,28,6,7,2026-04-24,5,523.72,Completado,Presencial
-385,O00385,4,2,15,2026-03-16,3,281.04,Observado,Presencial
-386,O00386,23,6,2,2026-02-07,3,252.59,Completado,Presencial
-387,O00387,40,1,9,2026-02-11,5,1091.44,Completado,Web
-388,O00388,50,4,4,2026-01-04,2,374.29,Pendiente,App
-389,O00389,64,1,3,2026-06-29,4,258.08,Completado,Call Center
-390,O00390,23,1,4,2026-06-09,2,424.21,Completado,Call Center
-391,O00391,33,5,2,2026-01-21,1,80.07,Completado,Web
-392,O00392,68,6,2,2026-02-14,5,442.53,Completado,Call Center
-393,O00393,8,6,13,2026-05-12,3,161.62,Completado,App
-394,O00394,75,3,11,2026-05-22,2,99.25,Completado,Web
-395,O00395,25,4,13,2026-01-24,3,154.28,Completado,Presencial
-396,O00396,25,3,15,2026-03-06,4,370.48,Completado,Presencial
-397,O00397,64,2,7,2026-05-11,1,86.56,Completado,App
-398,O00398,45,4,10,2026-06-23,2,306.06,Completado,Call Center
-399,O00399,58,3,11,2026-05-30,4,178.47,Completado,Web
-400,O00400,17,6,12,2026-01-09,4,157.34,Completado,App
-401,O00401,66,4,4,2026-05-08,3,565.82,Completado,Presencial
-402,O00402,76,5,8,2026-02-23,4,1643.42,Completado,Web
-403,O00403,26,6,15,2026-06-21,4,448.46,Completado,Call Center
-404,O00404,44,1,10,2026-03-02,4,833.74,Completado,Call Center
-405,O00405,57,6,13,2026-02-26,2,94.79,Pendiente,Presencial
-406,O00406,37,2,5,2026-06-24,1,57.39,Completado,Call Center
-407,O00407,30,1,15,2026-02-24,4,383.05,Pendiente,App
-408,O00408,2,3,1,2026-05-01,2,669.19,Completado,Web
-409,O00409,18,6,12,2026-06-05,4,134.85,Completado,App
-410,O00410,55,6,7,2026-06-14,2,217.65,Observado,Web
-411,O00411,74,5,9,2026-02-19,3,659.92,Cancelado,Web
-412,O00412,64,5,14,2026-03-15,6,353.09,Completado,Presencial
-413,O00413,45,1,14,2026-04-16,2,124.84,Completado,Web
-414,O00414,22,1,12,2026-06-10,3,105.92,Completado,Presencial
-415,O00415,30,1,14,2026-03-16,1,56.13,Completado,Presencial
-416,O00416,21,3,14,2026-05-23,3,149.91,Pendiente,Call Center
-417,O00417,60,2,7,2026-05-25,5,548.12,Observado,Call Center
-418,O00418,15,3,6,2026-05-18,1,77.57,Completado,Call Center
-419,O00419,31,5,9,2026-01-13,4,1207.29,Cancelado,Web
-420,O00420,27,3,1,2026-06-12,3,1026.23,Completado,Web
-421,O00421,57,2,13,2026-06-25,4,193.01,Completado,Call Center
-422,O00422,1,5,10,2026-01-23,1,187.71,Completado,Presencial
-423,O00423,59,6,9,2026-04-16,2,594.6,Completado,Call Center
-424,O00424,37,4,15,2026-05-13,3,278.52,Pendiente,Presencial
-425,O00425,75,1,4,2026-04-21,2,346.97,Completado,Presencial
-426,O00426,40,3,5,2026-03-14,1,46.68,Cancelado,Call Center
-427,O00427,58,4,14,2026-05-10,4,178.77,Completado,Presencial
-428,O00428,26,6,1,2026-05-27,6,1462.27,Observado,Call Center
-429,O00429,78,3,4,2026-03-20,1,207.66,Completado,Web
-430,O00430,72,1,14,2026-01-12,1,51.04,Completado,Call Center
-431,O00431,75,5,3,2026-01-21,2,175.78,Completado,Presencial
-432,O00432,38,1,11,2026-06-10,1,45.14,Pendiente,Presencial
-433,O00433,49,5,6,2026-05-10,3,199.78,Completado,Call Center
-434,O00434,66,5,10,2026-06-18,3,624.76,Observado,Presencial
-435,O00435,45,6,11,2026-05-19,5,200.7,Cancelado,Web
-436,O00436,60,1,3,2026-02-23,4,310.6,Completado,Presencial
-437,O00437,68,2,7,2026-05-12,5,504.2,Completado,Presencial
-438,O00438,17,3,8,2026-02-09,2,824.03,Completado,Web
-439,O00439,56,4,14,2026-05-08,6,365.14,Completado,Call Center
-440,O00440,45,3,8,2026-04-24,2,655.0,Completado,Call Center
-441,O00441,43,6,1,2026-04-12,4,1055.71,Cancelado,App
-442,O00442,32,6,5,2026-03-11,5,310.64,Completado,App
-443,O00443,10,6,13,2026-01-24,6,339.86,Completado,Call Center
-444,O00444,43,3,14,2026-03-26,6,280.22,Completado,Call Center
-445,O00445,42,2,5,2026-03-31,4,181.05,Completado,Presencial
-446,O00446,35,1,15,2026-01-14,5,507.77,Completado,Presencial
-447,O00447,10,2,2,2026-01-24,1,94.01,Completado,App
-448,O00448,48,4,4,2026-04-09,2,476.0,Completado,Call Center
-449,O00449,31,1,5,2026-01-13,3,184.0,Completado,App
-450,O00450,32,6,4,2026-05-01,4,675.27,Cancelado,Call Center
-451,O00451,71,4,14,2026-01-11,1,48.21,Completado,Call Center
-452,O00452,65,4,8,2026-03-04,5,1455.06,Completado,App
-453,O00453,54,5,1,2026-03-28,5,1652.62,Completado,Web
-454,O00454,45,5,11,2026-06-19,6,255.44,Cancelado,Web
-455,O00455,26,2,5,2026-05-12,2,126.71,Cancelado,App
-456,O00456,27,3,15,2026-04-17,3,398.94,Completado,Call Center
-457,O00457,77,6,13,2026-02-26,1,49.4,Observado,App
-458,O00458,72,2,6,2026-04-29,2,183.42,Observado,Call Center
-459,O00459,51,1,6,2026-03-23,4,373.18,Completado,Call Center
-460,O00460,10,6,5,2026-04-20,4,208.33,Completado,Presencial
-461,O00461,45,3,8,2026-03-26,1,379.49,Completado,Web
-462,O00462,43,5,12,2026-01-30,3,96.16,Completado,Call Center
-463,O00463,62,1,6,2026-01-20,1,77.86,Completado,Presencial
-464,O00464,68,6,2,2026-01-21,1,103.44,Observado,Web
-465,O00465,61,5,5,2026-06-02,6,294.49,Pendiente,App
-466,O00466,74,2,11,2026-05-18,4,173.59,Completado,Web
-467,O00467,50,6,9,2026-03-23,4,1164.28,Completado,App
-468,O00468,63,3,5,2026-05-26,1,45.29,Observado,Presencial
-469,O00469,13,3,6,2026-06-16,2,141.88,Observado,Presencial
-470,O00470,42,4,2,2026-01-27,1,78.56,Completado,Presencial
-471,O00471,9,3,5,2026-01-04,2,122.44,Pendiente,Presencial
-472,O00472,20,4,1,2026-04-22,6,1417.74,Completado,Call Center
-473,O00473,2,3,6,2026-05-04,3,244.93,Completado,Call Center
-474,O00474,12,5,11,2026-04-23,1,47.34,Completado,Call Center
-475,O00475,43,3,5,2026-04-26,2,91.64,Completado,Call Center
-476,O00476,62,4,11,2026-01-03,5,207.27,Completado,App
-477,O00477,27,2,14,2026-05-13,4,230.52,Completado,Web
-478,O00478,46,1,4,2026-05-23,5,1012.15,Completado,Call Center
-479,O00479,27,5,5,2026-01-19,2,119.18,Completado,Presencial
-480,O00480,77,2,2,2026-05-03,6,435.28,Completado,Call Center
-481,O00481,25,1,11,2026-04-21,5,232.06,Pendiente,App
-482,O00482,28,5,15,2026-01-04,2,220.98,Completado,Presencial
-483,O00483,63,1,8,2026-04-21,1,340.56,Observado,Call Center
-484,O00484,58,3,12,2026-01-25,4,130.26,Completado,Call Center
-485,O00485,30,2,14,2026-01-14,3,161.56,Completado,Web
-486,O00486,36,2,12,2026-01-31,4,154.05,Completado,App
-487,O00487,43,6,14,2026-05-09,2,91.06,Completado,Presencial
-488,O00488,35,1,6,2026-06-15,4,337.36,Completado,Web
-489,O00489,20,2,8,2026-05-06,2,747.64,Completado,Presencial
-490,O00490,31,1,12,2026-04-16,5,173.55,Completado,App
-491,O00491,6,4,3,2026-01-04,5,430.03,Observado,Presencial
-492,O00492,68,4,6,2026-06-24,3,248.12,Observado,App
-493,O00493,61,3,12,2026-05-22,5,192.76,Completado,Presencial
-494,O00494,11,3,3,2026-01-08,2,136.05,Completado,App
-495,O00495,78,6,5,2026-05-14,5,261.26,Completado,Call Center
-496,O00496,23,2,4,2026-06-09,6,1100.99,Completado,Presencial
-497,O00497,37,6,10,2026-06-07,3,602.45,Completado,Call Center
-498,O00498,38,3,9,2026-01-27,2,562.97,Completado,Presencial
-499,O00499,55,5,1,2026-06-28,5,1355.87,Completado,Web
-500,O00500,50,6,15,2026-05-04,5,492.52,Completado,Call Center
+id_operacion,codigo_operacion,id_cliente,id_sede,id_empleado,fecha_operacion,canal,estado,monto_total
+1,O00001,47,3,38,2026-04-25,Orden de producción,Completado,4068.70
+2,O00002,104,2,27,2026-01-13,Portal B2B,Cancelado,861.11
+3,O00003,145,5,3,2026-01-11,Ejecutivo comercial,Completado,1711.23
+4,O00004,89,3,3,2026-06-24,Licitación,Completado,145.74
+5,O00005,98,1,20,2026-06-24,Orden de producción,Pendiente,2408.20
+6,O00006,103,4,39,2026-02-28,Portal B2B,Completado,4600.10
+7,O00007,95,6,7,2026-02-27,Ejecutivo comercial,Completado,217.38
+8,O00008,199,5,35,2026-05-22,Licitación,Completado,1888.20
+9,O00009,174,6,25,2026-02-15,Orden de producción,Completado,589.52
+10,O00010,2,2,23,2026-03-25,Portal B2B,Completado,175.00
+11,O00011,91,1,16,2026-04-12,Ejecutivo comercial,Observado,6044.42
+12,O00012,138,5,38,2026-02-15,Licitación,Cancelado,384.29
+13,O00013,108,2,28,2026-01-06,Orden de producción,Cancelado,135.71
+14,O00014,114,1,32,2026-06-20,Portal B2B,Completado,1085.54
+15,O00015,171,1,23,25/04/2026,Ejecutivo comercial,Completado,5672.65
+16,O00016,195,3,21,2026-05-05,Licitación,Pendiente,2258.00
+17,O00017,84,2,31,2026-03-14,Orden de producción,Completado,251.76
+18,O00018,139,3,28,2026-04-19,Portal B2B,Completado,2478.23
+19,O00019,123,6,37,2026-01-17,Ejecutivo comercial,Completado,4218.42
+20,O00020,140,5,26,2026-01-16,Licitación,Pendiente,930.77
+21,O00021,41,4,23,2026-04-02,Orden de producción,Cancelado,1077.93
+22,O00022,17,4,5,2026-02-24,Portal B2B,Completado,6170.96
+23,O00023,92,3,33,2026-02-20,Ejecutivo comercial,Observado,819.63
+24,O00024,101,4,32,2026-04-28,Licitación,Pendiente,1164.00
+25,O00025,82,4,28,2026-04-02,Orden de producción,Cancelado,1140.00
+26,O00026,120,1,40,2026-04-18,Portal B2B,Pendiente,1336.42
+27,O00027,100,5,31,2026-04-07,Ejecutivo comercial,Observado,1560.00
+28,O00028,194,1,20,2026-03-23,Licitación,Completado,441.06
+29,O00029,133,6,12,2026-04-14,Orden de producción,Completado,7250.00
+30,O00030,32,5,27,2026-04-22,Portal B2B,Completado,314.28
+31,O00031,20,4,29,2026-02-11,Ejecutivo comercial,Completado,1742.73
+32,O00032,166,3,12,2026-02-26,Licitación,Completado,1220.00
+33,O00033,183,2,29,2026-04-16,Orden de producción,Completado,1615.42
+34,O00034,30,2,4,2026-04-15,Portal B2B,Observado,229.17
+35,O00035,111,3,27,2026-04-27,Ejecutivo comercial,Observado,877.05
+36,O00036,67,5,33,16/05/2026,Licitación,Completado,1285.05
+37,O00037,142,1,37,2026-06-25,Orden de producción,Completado,272.58
+38,O00038,17,2,9,2026-05-24,Portal B2B,Completado,446.75
+39,O00039,49,3,3,2026-01-14,Ejecutivo comercial,Completado,1429.93
+40,O00040,112,2,25,2026-01-25,Licitación,Completado,218.72
+41,O00041,100,1,21,2026-06-01,Orden de producción,Completado,244.52
+42,O00042,63,4,5,2026-04-15,Portal B2B,Observado,1218.70
+43,O00043,54,4,24,2026-03-22,Ejecutivo comercial,Completado,1201.53
+44,O00044,86,4,23,2026-05-17,Licitación,Completado,1020.12
+45,O00045,139,4,10,2026-06-17,Orden de producción,Pendiente,1138.25
+46,O00046,5,4,31,2026-04-13,Portal B2B,Completado,762.10
+47,O00047,83,2,29,2026-03-09,Ejecutivo comercial,Completado,83.40
+48,O00048,107,2,29,2026-05-04,Licitación,Pendiente,6327.75
+49,O00049,170,6,30,2026-03-22,Orden de producción,Completado,6556.81
+50,O00050,93,4,27,2026-04-12,Portal B2B,Completado,188.82
+51,O00051,178,3,9,2026-06-09,Ejecutivo comercial,Completado,4937.25
+52,O00052,146,6,15,2026-01-01,Licitación,Completado,20.85
+53,O00053,40,1,37,2026-02-19,Orden de producción,Completado,89.35
+54,O00054,114,1,24,2026-05-05,Portal B2B,Observado,303.29
+55,O00055,157,2,18,2026-01-01,Ejecutivo comercial,Completado,7903.50
+56,O00056,125,4,13,2026-02-11,Licitación,Completado,2101.29
+57,O00057,153,2,31,2026-05-25,Orden de producción,Pendiente,3652.46
+58,O00058,130,4,40,2026-01-08,Portal B2B,Completado,4164.48
+59,O00059,110,3,34,2026-03-21,Ejecutivo comercial,Completado,2484.06
+60,O00060,135,1,16,2026-02-22,Licitación,Completado,756.42
+61,O00061,75,2,32,2026-04-05,Orden de producción,Completado,195.88
+62,O00062,41,6,38,2026-01-13,Portal B2B,Completado,5800.00
+63,O00063,135,3,35,19/03/2026,Ejecutivo comercial,Completado,684.84
+64,O00064,116,1,20,2026-02-21,Licitación,Cancelado,439.17
+65,O00065,78,1,19,2026-02-13,Orden de producción,Completado,3792.02
+66,O00066,158,6,2,2026-04-01,Portal B2B,Completado,1102.65
+67,O00067,77,6,10,2026-05-27,Ejecutivo comercial,Pendiente,184.26
+68,O00068,40,1,25,10/02/2026,Licitación,Pendiente,11217.60
+69,O00069,6,5,15,2026-06-05,Orden de producción,Cancelado,1869.70
+70,O00070,159,2,4,2026-03-18,Portal B2B,Pendiente,5800.00
+71,O00071,40,3,19,2026-06-22,Ejecutivo comercial,Completado,52.38
+72,O00072,192,4,15,2026-04-17,Licitación,Completado,8791.02
+73,O00073,163,3,1,2026-02-02,Orden de producción,Completado,5114.04
+74,O00074,172,4,26,2026-03-23,Portal B2B,Pendiente,2826.80
+75,O00075,99,6,18,06/04/2026,Ejecutivo comercial,Completado,806.34
+76,O00076,150,3,32,2026-02-13,Licitación,Observado,950.00
+77,O00077,161,4,27,27/04/2026,Orden de producción,Completado,3417.42
+78,O00078,135,6,6,2026-06-06,Portal B2B,Completado,723.70
+79,O00079,133,1,11,12/03/2026,Ejecutivo comercial,Pendiente,1113.00
+80,O00080,12,4,14,2026-04-10,Licitación,Pendiente,691.16
+81,O00081,35,1,33,2026-04-10,Orden de producción,Completado,625.45
+82,O00082,69,6,,2026-01-19,Portal B2B,Completado,380.00
+83,O00083,9781,1,29,2026-03-21,Ejecutivo comercial,Completado,928.52
+84,O00084,92,2,16,2026-05-14,Licitación,Completado,10442.70
+85,O00085,146,3,19,2026-06-22,Orden de producción,Completado,220.53
+86,O00086,160,1,25,2026-05-23,Portal B2B,Completado,2517.60
+87,O00087,196,4,34,2026-02-07,Ejecutivo comercial,Completado,1680.05
+88,O00088,16,1,30,2026-06-23,Licitación,Cancelado,3191.75
+89,O00089,194,1,4,2026-06-01,Orden de producción,Cancelado,2104.17
+90,O00090,139,4,36,2026-02-16,Portal B2B,Completado,1357.38
+91,O00091,100,6,16,2026-01-12,Ejecutivo comercial,Completado,2917.38
+92,O00092,164,2,20,2026-03-15,Licitación,Completado,3792.96
+93,O00093,194,2,2,2026-02-10,Orden de producción,Cancelado,52.38
+94,O00094,65,1,11,2026-06-23,Portal B2B,Observado,2337.25
+95,O00095,35,6,27,2026-04-13,Ejecutivo comercial,Completado,1377.98
+96,O00096,141,4,31,2026-01-14,Licitación,Completado,882.12
+97,O00097,110,1,7,04/01/2026,Orden de producción,Completado,540.00
+98,O00098,124,3,34,23/06/2026,Portal B2B,Completado,928.74
+99,O00099,48,2,21,2026-05-05,Ejecutivo comercial,Completado,9477.02
+100,O00100,97,4,4,2026-05-24,Licitación,Completado,1877.33
+101,O00101,171,5,27,2026-06-10,Orden de producción,Completado,736.80
+102,O00102,105,1,17,2026-04-23,Portal B2B,Pendiente,7196.52
+103,O00103,9654,3,6,2026-06-20,Ejecutivo comercial,Completado,640.00
+104,O00104,12,3,14,2026-03-24,Licitación,Pendiente,636.98
+105,O00105,116,6,27,2026-05-05,Orden de producción,Observado,2454.34
+106,O00106,126,6,23,2026-01-10,Portal B2B,Completado,997.72
+107,O00107,1,2,5,2026-06-25,Ejecutivo comercial,Completado,1712.28
+108,O00108,100,3,15,2026-02-05,Licitación,Pendiente,503.44
+109,O00109,155,1,17,2026-05-14,Orden de producción,Completado,1072.32
+110,O00110,29,5,2,2026-02-18,Portal B2B,Pendiente,2672.74
+111,O00111,192,5,35,2026-02-04,Ejecutivo comercial,Completado,1496.80
+112,O00112,96,4,11,06/01/2026,Licitación,Completado,805.16
+113,O00113,3,2,32,2026-03-06,Orden de producción,Observado,8670.08
+114,O00114,36,1,30,2026-01-24,Portal B2B,Completado,622.7
+115,O00115,109,6,40,2026-05-20,Ejecutivo comercial,Completado,2129.27
+116,O00116,111,4,37,2026-03-23,Licitación,Pendiente,1588.72
+117,O00117,82,1,38,2026-01-20,Orden de producción,Observado,393.40
+118,O00118,73,2,,2026-04-17,Portal B2B,Completado,1340.61
+119,O00119,71,3,12,2026-01-01,Ejecutivo comercial,Pendiente,970.14
+120,O00120,188,4,5,2026-05-01,Licitación,Observado,3057.70
+121,O00121,40,6,39,2026-01-06,Orden de producción,Completado,2537.06
+122,O00122,36,1,22,2026-06-18,Portal B2B,Completado,2894.85
+123,O00123,3,1,31,2026-02-24,Ejecutivo comercial,Pendiente,2071.31
+124,O00124,37,6,28,2026-03-11,Licitación,Completado,439.38
+125,O00125,183,3,26,2026-06-12,Orden de producción,Completado,809.71
+126,O00126,21,5,8,2026-04-10,Portal B2B,Completado,1535.82
+127,O00127,97,5,13,2026-02-17,Ejecutivo comercial,Completado,1560.00
+128,O00128,118,2,27,2026-02-04,Licitación,Cancelado,2883.55
+129,O00129,70,6,,2026-05-26,Orden de producción,Completado,2145.54
+130,O00130,114,6,40,2026-05-16,Portal B2B,Completado,4751.69
+131,O00131,191,4,24,2026-05-14,Ejecutivo comercial,Completado,314.09
+132,O00132,22,3,10,10/01/2026,Licitación,Completado,731.95
+133,O00133,193,2,33,2026-05-05,Orden de producción,Observado,380.00
+134,O00134,87,2,36,2026-01-28,Portal B2B,Completado,983.10
+135,O00135,150,3,21,2026-02-26,Ejecutivo comercial,Completado,836.95
+136,O00136,171,3,13,2026-02-05,Licitación,Completado,3867.26
+137,O00137,81,5,13,2026-02-23,Orden de producción,Completado,780.00
+138,O00138,14,4,37,24/03/2026,Portal B2B,Cancelado,454.30
+139,O00139,74,1,12,2026-04-10,Ejecutivo comercial,Completado,3078.02
+140,O00140,42,4,38,2026-06-08,Licitación,Completado,112.78
+141,O00141,89,5,,2026-03-15,Orden de producción,Pendiente,459.43
+142,O00142,1,4,29,2026-01-20,Portal B2B,Pendiente,1144.26
+143,O00143,197,4,23,2026-01-07,Ejecutivo comercial,Completado,3300.55
+144,O00144,112,1,24,2026-01-18,Licitación,Cancelado,62.55
+145,O00145,90,6,22,2026-01-17,Orden de producción,Completado,520.84
+146,O00146,34,1,37,2026-03-27,Portal B2B,Completado,2073.40
+147,O00147,153,5,28,2026-02-15,Ejecutivo comercial,Completado,6761.38
+148,O00148,199,3,2,2026-04-22,Licitación,Completado,4240.64
+149,O00149,200,2,15,2026-05-13,Orden de producción,Completado,1672.02
+150,O00150,17,3,14,2026-03-10,Portal B2B,Pendiente,3190.69
+151,O00151,3,2,25,2026-03-08,Ejecutivo comercial,Completado,1467.26
+152,O00152,4,1,12,2026-01-26,Licitación,Completado,310.85
+153,O00153,142,6,25,10/04/2026,Orden de producción,Completado,62.55
+154,O00154,42,6,19,2026-05-18,Portal B2B,Completado,4389.83
+155,O00155,57,2,7,2026-04-16,Ejecutivo comercial,Completado,178.70
+156,O00156,175,4,15,2026-04-05,Licitación,Completado,8598.80
+157,O00157,167,2,24,2026-01-03,Orden de producción,Pendiente,2440.44
+158,O00158,150,4,15,2026-02-19,Portal B2B,Completado,2338.80
+159,O00159,107,4,17,2026-05-23,Ejecutivo comercial,Observado,2796.91
+160,O00160,118,4,27,2026-03-02,Licitación,Completado,30.71
+161,O00161,128,5,20,2026-02-13,Orden de producción,Completado,1194.10
+162,O00162,18,4,38,2026-01-18,Portal B2B,Cancelado,1310.91
+163,O00163,9698,3,3,26/04/2026,Ejecutivo comercial,Completado,2436.81
+164,O00164,10,4,1,2026-02-06,Licitación,Pendiente,753.48
+165,O00165,73,5,25,06/01/2026,Orden de producción,Completado,225.56
+166,O00166,51,6,1,2026-06-07,Portal B2B,Completado,3731.98
+167,O00167,125,2,7,2026-03-09,Ejecutivo comercial,Pendiente,689.17
+168,O00168,177,4,11,2026-06-06,Licitación,Completado,273.21
+169,O00169,13,2,31,2026-01-17,Orden de producción,Completado,603.76
+170,O00170,118,4,27,2026-05-28,Portal B2B,Pendiente,536.10
+171,O00171,64,1,11,2026-06-21,Ejecutivo comercial,Completado,2024.59
+172,O00172,139,2,3,16/05/2026,Licitación,Completado,1544.84
+173,O00173,49,2,7,2026-02-08,Orden de producción,Completado,1612.03
+174,O00174,5,3,31,2026-02-15,Portal B2B,Pendiente,509.44
+175,O00175,133,2,29,2026-01-25,Ejecutivo comercial,Completado,3061.35
+176,O00176,118,2,4,2026-01-19,Licitación,Completado,156.00
+177,O00177,184,5,39,11/04/2026,Orden de producción,Completado,2131.37
+178,O00178,128,6,25,2026-05-22,Portal B2B,Completado,2092.99
+179,O00179,56,3,34,2026-04-03,Ejecutivo comercial,Completado,1548.50
+180,O00180,155,3,29,2026-05-23,Licitación,Completado,384.28
+181,O00181,151,5,40,2026-02-14,Orden de producción,Completado,418.53
+182,O00182,57,3,4,2026-03-27,Portal B2B,Completado,608.34
+183,O00183,65,5,15,2026-01-04,Ejecutivo comercial,Completado,1788.03
+184,O00184,156,1,18,2026-06-05,Licitación,Pendiente,1754.66
+185,O00185,99,4,25,2026-02-23,Orden de producción,Completado,3900.00
+186,O00186,174,1,40,2026-02-17,Portal B2B,Completado,3426.39
+187,O00187,9265,6,19,2026-04-23,Ejecutivo comercial,Completado,1836.10
+188,O00188,4,1,40,2026-01-24,Licitación,Completado,1150.53
+189,O00189,41,6,30,2026-04-09,Orden de producción,Completado,335.84
+190,O00190,107,5,39,2026-06-18,Portal B2B,Pendiente,4350.00
+191,O00191,138,5,24,2026-06-10,Ejecutivo comercial,Completado,720.00
+192,O00192,41,3,7,2026-05-23,Licitación,Completado,3935.83
+193,O00193,61,5,29,2026-05-13,Orden de producción,Completado,1963.01
+194,O00194,69,6,16,2026-05-21,Portal B2B,Completado,9021.17
+195,O00195,67,2,18,2026-02-23,Ejecutivo comercial,Pendiente,7707.79
+196,O00196,50,1,36,2026-03-21,Licitación,Completado,1479.60
+197,O00197,184,4,10,2026-05-15,Orden de producción,Completado,157.14
+198,O00198,34,4,16,2026-06-02,Portal B2B,Completado,780.00
+199,O00199,164,6,37,2026-05-17,Ejecutivo comercial,Completado,2756.18
+200,O00200,85,2,1,2026-02-24,Licitación,Completado,36.00
+201,O00201,198,4,33,2026-04-18,Orden de producción,Completado,1721.66
+202,O00202,136,1,28,2026-04-24,Portal B2B,Cancelado,819.63
+203,O00203,166,4,21,2026-05-26,Ejecutivo comercial,Completado,3111.95
+204,O00204,133,1,40,2026-05-03,Licitación,Completado,4177.75
+205,O00205,49,4,6,2026-02-14,Orden de producción,Completado,559.60
+206,O00206,74,1,38,2026-04-03,Portal B2B,Completado,502.41
+207,O00207,162,2,27,2026-02-28,Ejecutivo comercial,Observado,3913.41
+208,O00208,31,1,15,2026-05-27,Licitación,Completado,1181.75
+209,O00209,141,3,23,2026-05-05,Orden de producción,Completado,3120.00
+210,O00210,80,5,26,27/01/2026,Portal B2B,Pendiente,950.5
+211,O00211,9,5,8,2026-03-24,Ejecutivo comercial,Completado,5030.67
+212,O00212,23,2,28,2026-01-18,Licitación,Completado,1374.75
+213,O00213,133,5,8,2026-04-07,Orden de producción,Completado,11689.40
+214,O00214,83,5,8,2026-05-04,Portal B2B,Completado,178.70
+215,O00215,7,1,4,2026-05-01,Ejecutivo comercial,Completado,2047.76
+216,O00216,11,5,37,2026-03-25,Licitación,Observado,848.08
+217,O00217,163,2,36,2026-06-17,Orden de producción,Pendiente,782.33
+218,O00218,117,3,6,2026-05-19,Portal B2B,Cancelado,590.44
+219,O00219,139,2,10,2026-02-23,Ejecutivo comercial,Completado,6266.14
+220,O00220,34,1,30,2026-06-26,Licitación,Completado,1766.67
+221,O00221,190,2,25,2026-03-27,Orden de producción,Completado,2076.16
+222,O00222,37,6,26,2026-04-19,Portal B2B,Pendiente,774.37
+223,O00223,102,4,18,2026-03-04,Ejecutivo comercial,Pendiente,2100.36
+224,O00224,120,6,27,2026-01-11,Licitación,Cancelado,2838.96
+225,O00225,19,6,24,2026-02-09,Orden de producción,Cancelado,4661.08
+226,O00226,137,6,15,2026-04-13,Portal B2B,Completado,5856.39
+227,O00227,108,6,18,2026-03-11,Ejecutivo comercial,Completado,723.70
+228,O00228,78,1,,2026-04-04,Licitación,Cancelado,511.94
+229,O00229,194,2,38,2026-01-12,Orden de producción,Completado,1129.53
+230,O00230,192,6,31,2026-04-27,Portal B2B,Completado,2399.62
+231,O00231,100,1,1,2026-06-17,Ejecutivo comercial,Completado,357.40
+232,O00232,43,2,9,2026-04-13,Licitación,Completado,2499.42
+233,O00233,91,1,23,2026-02-13,Orden de producción,Completado,1357.20
+234,O00234,71,4,20,2026-06-02,Portal B2B,Cancelado,169.17
+235,O00235,74,4,40,2026-03-04,Ejecutivo comercial,Completado,1796.10
+236,O00236,85,6,11,2026-03-01,Licitación,Completado,1527.79
+237,O00237,157,1,1,23/01/2026,Orden de producción,Pendiente,1420.95
+238,O00238,80,3,37,2026-05-02,Portal B2B,Completado,4776.60
+239,O00239,171,5,7,05/02/2026,Ejecutivo comercial,Completado,5514.00
+240,O00240,28,5,27,2026-03-18,Licitación,Observado,5582.79
+241,O00241,50,5,36,2026-06-17,Orden de producción,Completado,1631.70
+242,O00242,92,1,2,2026-03-11,Portal B2B,Observado,7684.47
+243,O00243,146,1,15,2026-03-28,Ejecutivo comercial,Completado,5946.80
+244,O00244,53,6,29,2026-04-26,Licitación,Completado,3393.20
+245,O00245,51,2,4,2026-04-23,Orden de producción,Cancelado,108.46
+246,O00246,43,4,18,2026-05-02,Portal B2B,Pendiente,11791.52
+247,O00247,127,4,28,2026-01-27,Ejecutivo comercial,Completado,3539.19
+248,O00248,173,3,3,2026-06-10,Licitación,Pendiente,1033.21
+249,O00249,41,5,35,2026-06-06,Orden de producción,Pendiente,323.44
+250,O00250,50,5,4,2026-04-01,Portal B2B,Observado,656.16
+251,O00251,82,2,7,2026-01-22,Ejecutivo comercial,Completado,1666.54
+252,O00252,111,5,10,27/02/2026,Licitación,Completado,190.00
+253,O00253,76,6,10,03/01/2026,Orden de producción,Completado,2351.73
+254,O00254,28,4,35,2026-06-22,Portal B2B,Cancelado,292.78
+255,O00255,137,2,6,2026-06-14,Ejecutivo comercial,Cancelado,1890.15
+256,O00256,7,3,6,2026-02-07,Licitación,Completado,2490.99
+257,O00257,32,2,20,2026-05-10,Orden de producción,Cancelado,2930.54
+258,O00258,140,3,12,2026-03-25,Portal B2B,Completado,2039.30
+259,O00259,139,4,5,2026-04-19,Ejecutivo comercial,Cancelado,260.00
+260,O00260,11,4,35,2026-02-08,Licitación,Completado,897.40
+261,O00261,135,4,37,2026-02-21,Orden de producción,Completado,210.00
+262,O00262,33,5,5,2026-04-15,Portal B2B,Completado,1410.62
+263,O00263,82,3,27,2026-03-28,Ejecutivo comercial,Cancelado,188.82
+264,O00264,190,3,19,23/02/2026,Licitación,Observado,392.34
+265,O00265,36,6,13,2026-03-28,Orden de producción,Completado,548.44
+266,O00266,9,2,1,2026-01-14,Portal B2B,Completado,472.29
+267,O00267,9533,2,32,2026-03-28,Ejecutivo comercial,Pendiente,587.78
+268,O00268,161,6,8,2026-05-26,Licitación,Completado,2203.52
+269,O00269,170,2,33,02/06/2026,Orden de producción,Completado,5875.36
+270,O00270,56,5,22,2026-04-28,Portal B2B,Completado,2458.11
+271,O00271,65,2,31,2026-01-11,Ejecutivo comercial,Cancelado,529.60
+272,O00272,170,2,9,2026-06-03,Licitación,Pendiente,3881.40
+273,O00273,196,3,8,2026-02-26,Orden de producción,Completado,347.93
+274,O00274,166,4,23,2026-03-10,Portal B2B,Completado,105.00
+275,O00275,178,2,21,2026-05-15,Ejecutivo comercial,Completado,2920.85
+276,O00276,178,3,11,2026-02-23,Licitación,Pendiente,12.00
+277,O00277,150,2,35,2026-06-20,Orden de producción,Pendiente,3103.16
+278,O00278,101,6,5,2026-01-15,Portal B2B,Pendiente,795.56
+279,O00279,38,6,16,2026-02-07,Ejecutivo comercial,Completado,-3983.0
+280,O00280,39,4,22,2026-01-13,Licitación,Pendiente,5577.75
+281,O00281,163,2,27,2026-06-22,Orden de producción,Completado,1639.26
+282,O00282,195,5,24,2026-04-09,Portal B2B,Completado,5819.55
+283,O00283,29,6,21,2026-02-11,Ejecutivo comercial,Cancelado,314.28
+284,O00284,71,2,9,2026-02-22,Licitación,Cancelado,1523.19
+285,O00285,65,1,29,2026-02-11,Orden de producción,Completado,949.17
+286,O00286,84,5,5,2026-02-22,Portal B2B,Observado,7250.00
+287,O00287,182,5,13,2026-03-11,Ejecutivo comercial,Completado,108.69
+288,O00288,155,3,33,22/01/2026,Licitación,Pendiente,2182.12
+289,O00289,38,2,23,2026-02-28,Orden de producción,Completado,1639.80
+290,O00290,31,4,9,2026-03-13,Portal B2B,Completado,4792.62
+291,O00291,145,3,9,2026-01-26,Ejecutivo comercial,Completado,938.51
+292,O00292,164,5,14,2026-04-01,Licitación,Completado,7174.98
+293,O00293,107,2,33,2026-02-13,Orden de producción,Completado,546.80
+294,O00294,28,4,15,2026-02-05,Portal B2B,Completado,2248.11
+295,O00295,30,5,16,11/05/2026,Ejecutivo comercial,Completado,4631.75
+296,O00296,34,3,40,2026-04-18,Licitación,Pendiente,2079.16
+297,O00297,121,5,4,2026-03-14,Orden de producción,Cancelado,52.38
+298,O00298,31,3,25,2026-05-22,Portal B2B,Pendiente,7486.72
+299,O00299,119,6,,2026-05-15,Ejecutivo comercial,Completado,1040.00
+300,O00300,64,1,26,2026-03-14,Licitación,Completado,3274.86
+301,O00301,100,4,6,2026-01-15,Orden de producción,Observado,878.34
+302,O00302,111,5,9,2026-02-10,Portal B2B,Completado,210.00
+303,O00303,188,2,23,25/01/2026,Ejecutivo comercial,Completado,309.44
+304,O00304,109,3,37,2026-04-03,Licitación,Cancelado,5724.33
+305,O00305,176,5,2,2026-01-19,Orden de producción,Completado,3196.68
+306,O00306,146,3,18,2026-02-21,Portal B2B,Completado,3375.69
+307,O00307,150,2,20,2026-02-11,Ejecutivo comercial,Cancelado,2427.12
+308,O00308,69,2,27,2026-02-14,Licitación,Completado,125.71
+309,O00309,175,2,15,2026-01-11,Orden de producción,Cancelado,2291.46
+310,O00310,186,6,1,2026-01-07,Portal B2B,Completado,1233.55
+311,O00311,45,6,38,2026-05-16,Ejecutivo comercial,Completado,377.64
+312,O00312,155,6,13,2026-06-02,Licitación,Completado,1825.52
+313,O00313,71,3,26,16/01/2026,Orden de producción,Cancelado,439.17
+314,O00314,136,4,27,2026-01-04,Portal B2B,Cancelado,258.87
+315,O00315,20,4,31,2026-01-16,Ejecutivo comercial,Completado,6091.21
+316,O00316,137,1,15,2026-04-26,Licitación,Pendiente,546.42
+317,O00317,134,6,5,2026-03-22,Orden de producción,Pendiente,762.10
+318,O00318,11,2,29,2026-03-22,Portal B2B,Pendiente,1092.84
+319,O00319,73,5,32,2026-06-04,Ejecutivo comercial,Completado,157.14
+320,O00320,60,1,2,2026-01-16,Licitación,Observado,-4617.12
+321,O00321,166,1,39,2026-04-19,Orden de producción,Completado,1481.93
+322,O00322,34,4,31,2026-05-27,Portal B2B,Completado,443.03
+323,O00323,91,2,26,26/04/2026,Ejecutivo comercial,Cancelado,2923.14
+324,O00324,142,6,18,2026-02-07,Licitación,Pendiente,1639.26
+325,O00325,123,2,25,2026-03-20,Orden de producción,Completado,707.55
+326,O00326,48,3,26,21/06/2026,Portal B2B,Completado,8174.98
+327,O00327,88,4,21,2026-01-28,Ejecutivo comercial,Completado,2094.89
+328,O00328,16,6,7,28/06/2026,Licitación,Completado,1766.12
+329,O00329,180,1,23,2026-03-24,Orden de producción,Completado,6005.41
+330,O00330,94,5,31,2026-01-24,Portal B2B,Observado,1156.87
+331,O00331,57,4,19,2026-05-02,Ejecutivo comercial,Completado,4012.78
+332,O00332,159,1,10,24/01/2026,Licitación,Completado,4005.00
+333,O00333,187,3,15,2026-01-19,Orden de producción,Pendiente,4412.48
+334,O00334,198,3,15,2026-01-23,Portal B2B,Completado,8917.14
+335,O00335,164,4,21,2026-01-17,Ejecutivo comercial,Observado,422.74
+336,O00336,89,4,30,2026-04-22,Licitación,Cancelado,1481.45
+337,O00337,112,6,9,2026-01-27,Orden de producción,Completado,2333.96
+338,O00338,24,6,29,2026-02-06,Portal B2B,Cancelado,1051.78
+339,O00339,180,5,31,2026-01-27,Ejecutivo comercial,Completado,1933.94
+340,O00340,133,2,35,2026-03-15,Licitación,Observado,511.94
+341,O00341,107,2,25,2026-05-10,Orden de producción,Cancelado,62.55
+342,O00342,10,1,1,03/01/2026,Portal B2B,Completado,4608.78
+343,O00343,101,3,1,2026-02-16,Ejecutivo comercial,Pendiente,2093.60
+344,O00344,113,2,3,2026-06-27,Licitación,Completado,2065.52
+345,O00345,176,4,9,2026-06-14,Orden de producción,Completado,284.46
+346,O00346,146,5,9,2026-05-27,Portal B2B,Completado,2478.21
+347,O00347,176,2,20,2026-01-14,Ejecutivo comercial,Completado,2310.28
+348,O00348,141,6,31,2026-06-01,Licitación,Completado,4618.06
+349,O00349,167,5,1,2026-06-23,Orden de producción,Completado,1074.90
+350,O00350,106,4,15,2026-04-20,Portal B2B,Completado,361.23
+351,O00351,67,2,20,2026-04-23,Ejecutivo comercial,Completado,3538.25
+352,O00352,23,2,33,2026-05-19,Licitación,Completado,1693.18
+353,O00353,25,1,4,2026-02-15,Orden de producción,Cancelado,759.84
+354,O00354,149,4,9,2026-03-03,Portal B2B,Completado,292.24
+355,O00355,1,5,31,2026-04-20,Ejecutivo comercial,Pendiente,273.21
+356,O00356,104,1,20,2026-02-25,Licitación,Pendiente,1412.94
+357,O00357,122,6,23,2026-03-22,Orden de producción,Completado,2788.98
+358,O00358,132,2,30,18/06/2026,Portal B2B,Completado,3203.17
+359,O00359,66,5,33,2026-05-10,Ejecutivo comercial,Cancelado,446.75
+360,O00360,32,6,9,2026-03-02,Licitación,Pendiente,2918.13
+361,O00361,171,6,1,2026-05-03,Orden de producción,Completado,4420.00
+362,O00362,150,3,35,2026-06-10,Portal B2B,Completado,434.22
+363,O00363,157,3,23,2026-02-24,Ejecutivo comercial,Completado,723.70
+364,O00364,127,1,18,2026-05-08,Licitación,Observado,1805.73
+365,O00365,20,2,2,2026-01-27,Orden de producción,Cancelado,2151.76
+366,O00366,76,6,11,2026-03-08,Portal B2B,Completado,4426.84
+367,O00367,194,3,8,2026-01-22,Ejecutivo comercial,Observado,970.32
+368,O00368,182,4,32,2026-03-10,Licitación,Completado,2662.02
+369,O00369,162,3,17,2026-02-23,Orden de producción,Pendiente,1559.68
+370,O00370,166,3,3,2026-01-22,Portal B2B,Cancelado,2646.36
+371,O00371,138,5,20,2026-06-01,Ejecutivo comercial,Completado,314.28
+372,O00372,186,2,39,12/04/2026,Licitación,Pendiente,952.48
+373,O00373,59,3,3,2026-03-22,Orden de producción,Completado,1296.70
+374,O00374,142,4,35,21/04/2026,Portal B2B,Pendiente,4780.28
+375,O00375,143,1,40,2026-06-13,Ejecutivo comercial,Pendiente,901.36
+376,O00376,15,6,33,2026-05-14,Licitación,Completado,304.84
+377,O00377,9334,6,,28/05/2026,Orden de producción,Pendiente,360.00
+378,O00378,182,4,24,2026-02-23,Portal B2B,Pendiente,3362.43
+379,O00379,129,2,38,2026-05-15,Ejecutivo comercial,Completado,739.56
+380,O00380,137,5,15,2026-03-27,Licitación,Completado,6374.98
+381,O00381,19,4,34,2026-03-08,Orden de producción,Completado,3108.90
+382,O00382,139,2,31,2026-01-10,Portal B2B,Cancelado,125.88
+383,O00383,188,3,24,2026-03-01,Ejecutivo comercial,Completado,1181.74
+384,O00384,106,5,22,2026-01-10,Licitación,Completado,582.16
+385,O00385,51,3,35,2026-04-28,Orden de producción,Completado,1467.22
+386,O00386,6,4,8,2026-01-16,Portal B2B,Pendiente,943.40
+387,O00387,178,5,28,2026-04-13,Ejecutivo comercial,Cancelado,1071.16
+388,O00388,33,6,18,2026-03-07,Licitación,Pendiente,2749.70
+389,O00389,19,2,16,2026-04-05,Orden de producción,Completado,631.78
+390,O00390,186,5,27,2026-05-26,Portal B2B,Pendiente,2396.68
+391,O00391,178,6,13,2026-06-18,Ejecutivo comercial,Completado,10576.25
+392,O00392,181,2,15,2026-03-16,Licitación,Completado,1247.35
+393,O00393,150,2,8,2026-04-15,Orden de producción,Completado,2000.00
+394,O00394,59,2,9,2026-05-10,Portal B2B,Pendiente,5221.98
+395,O00395,129,2,13,2026-01-28,Ejecutivo comercial,Cancelado,1834.70
+396,O00396,91,2,7,2026-03-25,Licitación,Completado,30.71
+397,O00397,7,4,7,2026-01-22,Orden de producción,Completado,2749.64
+398,O00398,149,4,28,2026-06-05,Portal B2B,Completado,4040.00
+399,O00399,134,5,36,2026-01-23,Ejecutivo comercial,Completado,6200.00
+400,O00400,153,2,24,2026-04-21,Licitación,Completado,7470.53
+401,O00401,155,3,38,2026-06-21,Orden de producción,Completado,694.70
+402,O00402,162,2,21,2026-04-23,Portal B2B,Completado,36.00
+403,O00403,87,4,25,07/05/2026,Ejecutivo comercial,Pendiente,589.23
+404,O00404,116,3,27,2026-03-01,Licitación,Completado,745.56
+405,O00405,144,6,2,2026-03-21,Orden de producción,Completado,109.36
+406,O00406,7,6,6,2026-01-08,Portal B2B,Observado,546.42
+407,O00407,152,1,35,2026-04-21,Ejecutivo comercial,Observado,4028.60
+408,O00408,166,6,15,2026-02-04,Licitación,Completado,4298.04
+409,O00409,128,4,1,2026-06-18,Orden de producción,Completado,970.91
+410,O00410,47,4,29,2026-04-20,Portal B2B,Pendiente,3167.85
+411,O00411,143,4,36,2026-01-02,Ejecutivo comercial,Completado,1948.72
+412,O00412,20,2,14,2026-06-22,Licitación,Completado,1676.10
+413,O00413,70,4,26,2026-02-18,Orden de producción,Completado,2658.24
+414,O00414,108,4,11,2026-05-15,Portal B2B,Cancelado,1917.28
+415,O00415,90,6,8,2026-04-12,Ejecutivo comercial,Cancelado,2638.95
+416,O00416,14,5,38,2026-02-13,Licitación,Pendiente,1472.96
+417,O00417,75,5,13,2026-02-20,Orden de producción,Completado,2579.02
+418,O00418,172,6,17,2026-04-27,Portal B2B,Pendiente,1023.88
+419,O00419,180,4,34,2026-06-03,Ejecutivo comercial,Completado,2491.25
+420,O00420,174,1,34,2026-02-08,Licitación,Completado,146.70
+421,O00421,74,3,21,2026-06-18,Orden de producción,Pendiente,1170.95
+422,O00422,136,1,9,2026-05-07,Portal B2B,Completado,3971.50
+423,O00423,32,5,17,2026-01-24,Ejecutivo comercial,Completado,949.70
+424,O00424,53,3,30,2026-06-21,Licitación,Cancelado,109.36
+425,O00425,128,3,24,2026-03-20,Orden de producción,Completado,7320.86
+426,O00426,75,3,18,2026-06-20,Portal B2B,Completado,961.96
+427,O00427,199,1,32,13/01/2026,Ejecutivo comercial,Completado,3474.45
+428,O00428,129,5,12,2026-06-07,Licitación,Completado,3840.42
+429,O00429,39,4,,2026-06-18,Orden de producción,Completado,3931.30
+430,O00430,116,6,19,2026-04-17,Portal B2B,Completado,6222.39
+431,O00431,17,6,19,2026-06-19,Ejecutivo comercial,Observado,829.36
+432,O00432,4,5,18,2026-03-24,Licitación,Completado,-825.75
+433,O00433,98,1,16,2026-02-25,Orden de producción,Pendiente,1112.00
+434,O00434,48,5,13,2026-02-08,Portal B2B,Cancelado,1102.65
+435,O00435,125,3,11,2026-05-16,Ejecutivo comercial,Completado,2016.06
+436,O00436,63,6,,2026-02-11,Licitación,Completado,104.25
+437,O00437,130,4,,2026-02-23,Orden de producción,Completado,7180.69
+438,O00438,87,1,25,2026-01-04,Portal B2B,Pendiente,6302.02
+439,O00439,35,4,15,2026-01-22,Ejecutivo comercial,Completado,36.00
+440,O00440,73,1,21,2026-04-10,Licitación,Cancelado,511.94
+441,O00441,98,5,16,2026-03-06,Orden de producción,Pendiente,345.63
+442,O00442,84,5,7,2026-06-03,Portal B2B,Completado,1062.03
+443,O00443,13,4,11,16/03/2026,Ejecutivo comercial,Pendiente,801.59
+444,O00444,12,6,16,2026-04-18,Licitación,Completado,5800.00
+445,O00445,189,4,9,2026-06-11,Orden de producción,Completado,1253.71
+446,O00446,188,4,9,2026-04-26,Portal B2B,Cancelado,1625.65
+447,O00447,39,5,27,04/05/2026,Ejecutivo comercial,Pendiente,219.26
+448,O00448,110,4,18,2026-04-26,Licitación,Completado,2310.72
+449,O00449,87,3,26,18/01/2026,Orden de producción,Pendiente,4833.89
+450,O00450,148,2,7,2026-04-02,Portal B2B,Observado,3383.40
+451,O00451,55,1,1,2026-03-18,Ejecutivo comercial,Observado,1101.71
+452,O00452,26,5,29,2026-02-27,Licitación,Completado,244.27
+453,O00453,65,6,5,2026-06-18,Orden de producción,Completado,2066.7
+454,O00454,139,5,31,2026-03-17,Portal B2B,Completado,786.69
+455,O00455,67,1,15,2026-02-18,Ejecutivo comercial,Pendiente,3117.28
+456,O00456,179,2,2,2026-02-01,Licitación,Completado,1863.52
+457,O00457,175,1,17,2026-03-27,Orden de producción,Observado,1279.71
+458,O00458,120,1,6,2026-05-19,Portal B2B,Cancelado,487.46
+459,O00459,112,3,7,2026-02-01,Ejecutivo comercial,Completado,4543.70
+460,O00460,160,3,29,2026-06-13,Licitación,Completado,1102.79
+461,O00461,139,3,11,2026-03-26,Orden de producción,Completado,4680.00
+462,O00462,9,6,33,2026-05-16,Portal B2B,Observado,218.72
+463,O00463,126,2,39,2026-02-28,Ejecutivo comercial,Completado,6701.36
+464,O00464,93,4,17,2026-05-11,Licitación,Completado,9517.55
+465,O00465,190,4,37,2026-01-01,Orden de producción,Completado,4641.40
+466,O00466,11,1,2,2026-01-11,Portal B2B,Completado,1291.33
+467,O00467,131,4,5,03/04/2026,Ejecutivo comercial,Pendiente,1088.49
+468,O00468,83,3,37,2026-01-08,Licitación,Completado,3191.25
+469,O00469,61,2,21,2026-04-01,Orden de producción,Completado,1639.26
+470,O00470,130,6,36,2026-03-26,Portal B2B,Completado,2343.88
+471,O00471,10,5,40,2026-05-02,Ejecutivo comercial,Completado,5414.36
+472,O00472,12,2,35,2026-02-21,Licitación,Completado,10187.02
+473,O00473,99,2,12,2026-05-05,Orden de producción,Pendiente,643.50
+474,O00474,113,6,33,2026-02-05,Portal B2B,Completado,1311.18
+475,O00475,175,6,33,2026-05-09,Ejecutivo comercial,Completado,323.52
+476,O00476,24,3,22,2026-04-23,Licitación,Completado,2871.35
+477,O00477,26,4,11,2026-03-10,Orden de producción,Completado,7399.68
+478,O00478,74,5,35,2026-01-09,Portal B2B,Pendiente,275.79
+479,O00479,77,2,13,2026-03-23,Ejecutivo comercial,Completado,2154.03
+480,O00480,193,5,4,2026-03-15,Licitación,Pendiente,917.35
+481,O00481,112,1,13,2026-06-01,Orden de producción,Completado,662.06
+482,O00482,131,4,13,2026-03-04,Portal B2B,Completado,918.26
+483,O00483,153,6,23,2026-06-08,Ejecutivo comercial,Cancelado,60.00
+484,O00484,74,6,26,2026-03-03,Licitación,Completado,780.00
+485,O00485,197,3,21,2026-06-03,Orden de producción,Cancelado,1662.82
+486,O00486,168,1,6,2026-03-22,Portal B2B,Completado,3559.17
+487,O00487,137,3,32,12/02/2026,Ejecutivo comercial,Pendiente,105.00
+488,O00488,38,1,6,2026-04-23,Licitación,Completado,169.17
+489,O00489,109,2,8,2026-06-19,Orden de producción,Completado,1430.46
+490,O00490,113,2,6,2026-05-03,Portal B2B,Cancelado,1584.64
+491,O00491,5,1,7,2026-05-01,Ejecutivo comercial,Pendiente,529.86
+492,O00492,149,5,10,2026-04-18,Licitación,Completado,8449.86
+493,O00493,169,2,5,2026-06-14,Orden de producción,Cancelado,4350.00
+494,O00494,39,1,34,2026-06-22,Portal B2B,Pendiente,3147.00
+495,O00495,48,1,6,2026-03-25,Ejecutivo comercial,Completado,2473.36
+496,O00496,4,6,,2026-02-09,Licitación,Observado,2404.76
+497,O00497,179,5,5,2026-03-26,Orden de producción,Pendiente,3842.76
+498,O00498,21,5,34,2026-05-08,Portal B2B,Completado,609.68
+499,O00499,87,4,11,2026-03-13,Ejecutivo comercial,Pendiente,1055.54
+500,O00500,83,4,17,2026-03-06,Licitación,Completado,376.14
+501,O00501,19,3,29,2026-05-09,Orden de producción,Completado,3079.83
+502,O00502,42,4,38,2026-04-16,Portal B2B,Completado,4541.52
+503,O00503,148,4,34,2026-01-17,Ejecutivo comercial,Completado,449.76
+504,O00504,93,6,24,2026-01-22,Licitación,Completado,365.78
+505,O00505,135,5,4,2026-05-17,Orden de producción,Completado,122.84
+506,O00506,142,2,22,2026-02-08,Portal B2B,Cancelado,18.00
+507,O00507,2,1,32,2026-02-19,Ejecutivo comercial,Completado,48.00
+508,O00508,129,6,5,2026-05-19,Licitación,Observado,143.49
+509,O00509,165,1,31,2026-04-23,Orden de producción,Pendiente,356.86
+510,O00510,115,4,1,2026-04-06,Portal B2B,Completado,5899.75
+511,O00511,167,5,39,2026-06-06,Ejecutivo comercial,Completado,1805.04
+512,O00512,56,2,1,2026-04-15,Licitación,Pendiente,1398.84
+513,O00513,72,4,10,2026-02-22,Orden de producción,Completado,-6060.75
+514,O00514,191,2,19,2026-06-23,Portal B2B,Completado,1722.00
+515,O00515,71,3,8,20/03/2026,Ejecutivo comercial,Completado,2559.70
+516,O00516,52,6,22,2026-04-24,Licitación,Completado,2089.98
+517,O00517,61,6,35,2026-02-15,Orden de producción,Completado,1092.84
+518,O00518,160,3,34,2026-05-24,Portal B2B,Pendiente,981.22
+519,O00519,45,2,33,2026-03-16,Ejecutivo comercial,Observado,4001.56
+520,O00520,26,3,30,2026-03-03,Licitación,Pendiente,450.02
+521,O00521,159,3,27,2026-01-27,Orden de producción,Completado,2488.08
+522,O00522,65,6,36,03/01/2026,Portal B2B,Completado,122.84
+523,O00523,40,4,33,2026-01-07,Ejecutivo comercial,Completado,5700.69
+524,O00524,163,6,40,2026-02-15,Licitación,Completado,672.02
+525,O00525,79,6,17,2026-03-24,Orden de producción,Pendiente,2167.55
+526,O00526,68,5,30,2026-05-05,Portal B2B,Pendiente,7693.00
+527,O00527,64,1,11,2026-03-24,Ejecutivo comercial,Observado,1587.86
+528,O00528,92,1,4,2026-02-06,Licitación,Completado,573.44
+529,O00529,11,1,31,17/06/2026,Orden de producción,Completado,1239.08
+530,O00530,80,1,1,2026-03-02,Portal B2B,Completado,860.70
+531,O00531,181,4,28,2026-04-20,Ejecutivo comercial,Completado,2016.06
+532,O00532,81,5,2,2026-05-11,Licitación,Cancelado,2519.57
+533,O00533,6,6,19,2026-06-21,Orden de producción,Completado,2027.37
+534,O00534,173,3,34,2026-01-01,Portal B2B,Completado,287.38
+535,O00535,70,2,29,18/03/2026,Ejecutivo comercial,Completado,3013.29
+536,O00536,155,3,19,2026-01-05,Licitación,Cancelado,1399.54
+537,O00537,69,1,35,2026-01-14,Orden de producción,Cancelado,209.52
+538,O00538,78,6,33,2026-05-01,Portal B2B,Observado,277.38
+539,O00539,129,3,28,2026-06-27,Ejecutivo comercial,Completado,4085.58
+540,O00540,170,3,25,2026-04-05,Licitación,Completado,979.65
+541,O00541,50,1,28,2026-02-02,Orden de producción,Pendiente,1389.40
+542,O00542,154,4,,2026-01-18,Portal B2B,Completado,3333.21
+543,O00543,122,1,13,2026-01-04,Ejecutivo comercial,Completado,8919.60
+544,O00544,132,4,21,2026-04-03,Licitación,Completado,619.41
+545,O00545,167,2,29,2026-02-21,Orden de producción,Completado,2222.38
+546,O00546,86,1,27,2026-05-21,Portal B2B,Completado,668.79
+547,O00547,160,2,35,2026-06-08,Ejecutivo comercial,Observado,2195.59
+548,O00548,23,1,8,2026-05-01,Licitación,Completado,7957.55
+549,O00549,47,6,6,2026-02-08,Orden de producción,Completado,52.38
+550,O00550,89,2,16,2026-03-19,Portal B2B,Completado,674.28
+551,O00551,63,4,27,2026-05-11,Ejecutivo comercial,Completado,2120.16
+552,O00552,56,3,31,2026-06-20,Licitación,Pendiente,1162.61
+553,O00553,141,4,8,2026-03-15,Orden de producción,Completado,1676.10
+554,O00554,23,6,33,2026-04-06,Portal B2B,Completado,546.42
+555,O00555,73,3,22,2026-06-23,Ejecutivo comercial,Cancelado,1475.60
+556,O00556,72,1,24,2026-05-07,Licitación,Completado,1023.88
+557,O00557,200,3,39,2026-04-23,Orden de producción,Pendiente,104.25
+558,O00558,43,6,2,2026-03-17,Portal B2B,Completado,645.39
+559,O00559,46,4,28,25/04/2026,Ejecutivo comercial,Completado,1166.17
+560,O00560,185,5,3,2026-02-28,Licitación,Observado,6012.96
+561,O00561,124,2,21,2026-05-10,Orden de producción,Pendiente,3180.64
+562,O00562,29,5,16,2026-05-09,Portal B2B,Completado,1978.29
+563,O00563,187,5,18,2026-01-18,Ejecutivo comercial,Completado,285.00
+564,O00564,66,5,37,2026-02-18,Licitación,Completado,566.92
+565,O00565,14,2,14,2026-05-19,Orden de producción,Observado,273.21
+566,O00566,2,3,34,2026-02-01,Portal B2B,Completado,1653.50
+567,O00567,32,1,9,24/05/2026,Ejecutivo comercial,Cancelado,4613.64
+568,O00568,26,1,35,2026-05-20,Licitación,Completado,1735.36
+569,O00569,38,1,37,2026-05-26,Orden de producción,Cancelado,1729.17
+570,O00570,16,4,15,2026-03-05,Portal B2B,Completado,1424.28
+571,O00571,131,6,4,2026-01-07,Ejecutivo comercial,Pendiente,108.69
+572,O00572,166,1,4,2026-06-10,Licitación,Completado,3351.54
+573,O00573,29,6,30,2026-03-24,Orden de producción,Completado,439.17
+574,O00574,115,3,12,2026-04-13,Portal B2B,Completado,1366.05
+575,O00575,61,2,23,2026-02-05,Ejecutivo comercial,Cancelado,3130.35
+576,O00576,10,5,4,2026-06-10,Licitación,Cancelado,2106.14
+577,O00577,134,2,19,2026-06-19,Orden de producción,Pendiente,448.12
+578,O00578,91,1,37,2026-02-02,Portal B2B,Completado,622.72
+579,O00579,24,4,17,2026-02-26,Ejecutivo comercial,Pendiente,8580.00
+580,O00580,9679,4,28,2026-03-11,Licitación,Observado,4572.02
+581,O00581,112,2,23,2026-06-26,Orden de producción,Completado,434.22
+582,O00582,143,4,23,2026-04-02,Portal B2B,Cancelado,3414.94
+583,O00583,68,6,25,2026-01-01,Ejecutivo comercial,Completado,6057.21
+584,O00584,1,6,16,2026-05-06,Licitación,Completado,3584.04
+585,O00585,40,1,21,2026-04-18,Orden de producción,Completado,2743.70
+586,O00586,62,5,9,2026-03-23,Portal B2B,Completado,5488.85
+587,O00587,11,5,18,2026-06-11,Ejecutivo comercial,Completado,950.00
+588,O00588,33,2,13,2026-02-16,Licitación,Completado,2851.05
+589,O00589,143,4,2,2026-03-23,Orden de producción,Cancelado,2501.31
+590,O00590,177,6,6,2026-02-08,Portal B2B,Completado,2022.11
+591,O00591,170,3,33,2026-02-07,Ejecutivo comercial,Observado,2661.71
+592,O00592,102,4,11,2026-01-24,Licitación,Completado,36.23
+593,O00593,111,1,22,2026-02-14,Orden de producción,Cancelado,83.40
+594,O00594,172,5,7,2026-04-08,Portal B2B,Completado,2211.68
+595,O00595,125,2,1,2026-04-07,Ejecutivo comercial,Pendiente,1208.39
+596,O00596,13,1,1,2026-06-11,Licitación,Completado,1520.00
+597,O00597,19,6,25,2026-06-11,Orden de producción,Completado,2714.40
+598,O00598,166,5,14,2026-03-15,Portal B2B,Completado,1892.87
+599,O00599,22,5,32,2026-05-27,Ejecutivo comercial,Cancelado,372.88
+600,O00600,49,1,22,2026-05-12,Licitación,Completado,-4681.08
+601,O00601,112,2,35,2026-04-04,Orden de producción,Completado,376.83
+602,O00602,152,5,14,2026-02-08,Portal B2B,Completado,48.00
+603,O00603,188,4,15,2026-06-26,Ejecutivo comercial,Observado,1114.36
+604,O00604,18,4,21,05/03/2026,Licitación,Completado,1102.65
+605,O00605,149,3,29,2026-05-12,Orden de producción,Observado,61.42
+606,O00606,158,5,20,2026-03-22,Portal B2B,Completado,4044.92
+607,O00607,61,1,1,2026-01-06,Ejecutivo comercial,Pendiente,6398.72
+608,O00608,157,5,38,2026-02-26,Licitación,Pendiente,1958.98
+609,O00609,39,2,10,2026-04-19,Orden de producción,Completado,1774.67
+610,O00610,150,2,38,2026-03-19,Portal B2B,Cancelado,637.28
+611,O00611,17,6,36,2026-06-06,Ejecutivo comercial,Completado,1560.00
+612,O00612,57,1,3,2026-01-08,Licitación,Completado,184.26
+613,O00613,32,6,12,2026-04-13,Orden de producción,Completado,3798.38
+614,O00614,3,3,1,2026-05-20,Portal B2B,Completado,2099.94
+615,O00615,191,3,29,2026-01-03,Ejecutivo comercial,Completado,187.00
+616,O00616,200,5,39,2026-02-25,Licitación,Observado,2877.60
+617,O00617,94,5,12,03/06/2026,Orden de producción,Completado,292.78
+618,O00618,116,6,26,2026-04-02,Portal B2B,Completado,909.86
+619,O00619,153,2,10,2026-01-12,Ejecutivo comercial,Completado,1196.82
+620,O00620,198,4,7,2026-03-27,Licitación,Completado,1217.51
+621,O00621,177,6,7,2026-06-25,Orden de producción,Completado,859.48
+622,O00622,189,3,18,2026-04-28,Portal B2B,Pendiente,3104.86
+623,O00623,135,1,36,2026-05-05,Ejecutivo comercial,Pendiente,5820.00
+624,O00624,74,2,11,2026-03-18,Licitación,Observado,4084.8
+625,O00625,120,3,19,17/01/2026,Orden de producción,Observado,10818.32
+626,O00626,189,6,33,2026-01-13,Portal B2B,Completado,3875.34
+627,O00627,104,1,5,2026-01-19,Ejecutivo comercial,Completado,251.76
+628,O00628,182,1,3,2026-06-28,Licitación,Completado,2277.96
+629,O00629,184,6,19,2026-01-01,Orden de producción,Completado,809.40
+630,O00630,89,4,30,2026-03-08,Portal B2B,Pendiente,1980.40
+631,O00631,55,1,16,2026-04-13,Ejecutivo comercial,Completado,-2032.18
+632,O00632,63,6,23,2026-02-11,Licitación,Pendiente,140.00
+633,O00633,68,2,10,2026-06-03,Orden de producción,Completado,2713.47
+634,O00634,189,6,32,2026-03-26,Portal B2B,Pendiente,2350.00
+635,O00635,77,5,7,2026-01-10,Ejecutivo comercial,Observado,834.90
+636,O00636,84,5,15,2026-05-02,Licitación,Completado,1258.80
+637,O00637,9,1,5,2026-02-04,Orden de producción,Completado,2654.70
+638,O00638,43,6,20,23/01/2026,Portal B2B,Observado,5092.88
+639,O00639,42,2,26,2026-02-13,Ejecutivo comercial,Completado,188.82
+640,O00640,188,2,4,2026-01-06,Licitación,Completado,1900.00
+641,O00641,173,5,,2026-03-23,Orden de producción,Completado,92.13
+642,O00642,27,2,15,2026-05-25,Portal B2B,Completado,144.92
+643,O00643,111,4,33,2026-06-12,Ejecutivo comercial,Completado,1344.04
+644,O00644,25,2,35,2026-06-06,Licitación,Completado,210.00
+645,O00645,9,3,6,2026-02-02,Orden de producción,Completado,676.23
+646,O00646,9613,2,5,2026-04-01,Portal B2B,Completado,821.95
+647,O00647,77,6,4,2026-04-18,Ejecutivo comercial,Completado,1046.34
+648,O00648,164,2,6,2026-05-02,Licitación,Completado,2147.37
+649,O00649,184,5,35,2026-02-26,Orden de producción,Cancelado,2126.38
+650,O00650,162,2,26,22/03/2026,Portal B2B,Completado,1969.82
+651,O00651,36,6,2,2026-02-20,Ejecutivo comercial,Completado,3926.12
+652,O00652,193,1,10,2026-05-17,Licitación,Pendiente,5433.18
+653,O00653,141,3,22,2026-06-14,Orden de producción,Completado,2865.96
+654,O00654,28,5,24,2026-05-03,Portal B2B,Completado,907.87
+655,O00655,144,2,32,2026-01-01,Ejecutivo comercial,Cancelado,1965.95
+656,O00656,36,1,30,2026-05-23,Licitación,Cancelado,9080.00
+657,O00657,72,3,31,2026-01-01,Orden de producción,Completado,2730.81
+658,O00658,25,3,39,2026-01-13,Portal B2B,Completado,1834.28
+659,O00659,4,4,19,2026-05-07,Ejecutivo comercial,Completado,4882.94
+660,O00660,180,5,13,2026-06-16,Licitación,Pendiente,1924.43
+661,O00661,152,2,13,2026-01-18,Orden de producción,Completado,3596.12
+662,O00662,67,1,9,2026-01-11,Portal B2B,Pendiente,20.85
+663,O00663,23,3,9,2026-03-27,Ejecutivo comercial,Completado,5855.11
+664,O00664,83,2,13,2026-02-08,Licitación,Pendiente,455.00
+665,O00665,106,6,21,2026-01-01,Orden de producción,Cancelado,2633.00
+666,O00666,92,3,11,2026-06-21,Portal B2B,Observado,188.42
+667,O00667,190,3,15,2026-01-14,Ejecutivo comercial,Completado,2649.14
+668,O00668,157,6,14,2026-05-12,Licitación,Completado,684.02
+669,O00669,103,6,32,2026-06-21,Orden de producción,Pendiente,656.16
+670,O00670,68,1,6,2026-05-14,Portal B2B,Pendiente,4809.35
+671,O00671,110,3,37,2026-06-01,Ejecutivo comercial,Completado,11188.04
+672,O00672,9662,5,25,2026-05-02,Licitación,Completado,3903.74
+673,O00673,27,6,30,24/04/2026,Orden de producción,Completado,7957.55
+674,O00674,187,1,20,20/01/2026,Portal B2B,Completado,2080.00
+675,O00675,89,1,33,2026-03-27,Ejecutivo comercial,Completado,578.96
+676,O00676,200,4,2,2026-02-19,Licitación,Pendiente,6798.47
+677,O00677,138,1,17,2026-02-26,Orden de producción,Completado,3624.64
+678,O00678,198,4,13,2026-05-25,Portal B2B,Pendiente,16306.05
+679,O00679,44,3,1,2026-05-06,Ejecutivo comercial,Completado,1280.00
+680,O00680,106,1,8,2026-05-13,Licitación,Completado,5201.89
+681,O00681,85,2,31,2026-05-06,Orden de producción,Completado,180.00
+682,O00682,171,4,16,2026-01-11,Portal B2B,Pendiente,1830.00
+683,O00683,172,6,10,2026-01-18,Ejecutivo comercial,Completado,556.11
+684,O00684,100,3,17,2026-05-09,Licitación,Completado,4088.98
+685,O00685,134,5,29,2026-01-19,Orden de producción,Pendiente,2355.70
+686,O00686,27,6,28,2026-06-17,Portal B2B,Completado,336.01
+687,O00687,184,1,15,2026-01-07,Ejecutivo comercial,Completado,85.42
+688,O00688,24,6,37,2026-03-05,Licitación,Observado,5645.04
+689,O00689,129,3,10,2026-05-05,Orden de producción,Completado,4487.28
+690,O00690,167,3,24,2026-06-16,Portal B2B,Pendiente,260.00
+691,O00691,83,2,19,2026-02-11,Ejecutivo comercial,Completado,732.34
+692,O00692,27,4,7,2026-01-12,Licitación,Completado,1859.46
+693,O00693,184,5,22,2026-02-02,Orden de producción,Completado,3328.15
+694,O00694,195,6,32,2026-02-16,Portal B2B,Cancelado,1596.00
+695,O00695,163,2,25,2026-02-03,Ejecutivo comercial,Completado,1027.24
+696,O00696,168,4,35,2026-02-17,Licitación,Completado,763.88
+697,O00697,22,1,6,26/01/2026,Orden de producción,Pendiente,859.86
+698,O00698,15,4,17,2026-03-17,Portal B2B,Completado,2246.29
+699,O00699,142,6,36,19/03/2026,Ejecutivo comercial,Completado,900.30
+700,O00700,166,2,22,2026-05-25,Licitación,Observado,1431.99
+701,O00701,74,1,34,2026-03-11,Orden de producción,Completado,4410.00
+702,O00702,132,4,36,2026-06-08,Portal B2B,Observado,2852.96
+703,O00703,76,1,6,2026-06-27,Ejecutivo comercial,Completado,6487.14
+704,O00704,152,3,33,2026-06-16,Licitación,Observado,629.91
+705,O00705,84,1,27,2026-05-09,Orden de producción,Completado,1113.45
+706,O00706,199,6,14,2026-01-02,Portal B2B,Completado,9178.50
+707,O00707,26,5,19,2026-02-11,Ejecutivo comercial,Observado,72.46
+708,O00708,177,2,15,2026-05-21,Licitación,Completado,5950.86
+709,O00709,70,4,26,2026-05-24,Orden de producción,Observado,7436.23
+710,O00710,22,4,10,2026-02-02,Portal B2B,Completado,1538.36
+711,O00711,86,3,32,02/05/2026,Ejecutivo comercial,Pendiente,343.78
+712,O00712,152,3,25,2026-05-04,Licitación,Completado,1008.03
+713,O00713,22,5,35,2026-01-14,Orden de producción,Observado,1897.43
+714,O00714,48,4,15,2026-06-07,Portal B2B,Completado,3443.66
+715,O00715,136,4,32,2026-01-05,Ejecutivo comercial,Pendiente,244.76
+716,O00716,76,3,12,2026-03-23,Licitación,Completado,3529.25
+717,O00717,166,3,2,2026-01-07,Orden de producción,Completado,5281.43
+718,O00718,187,6,4,2026-05-26,Portal B2B,Completado,1414.92
+719,O00719,104,4,5,2026-01-12,Ejecutivo comercial,Pendiente,3293.86
+720,O00720,25,4,11,2026-05-15,Licitación,Cancelado,10059.25
+721,O00721,85,3,26,2026-02-25,Orden de producción,Observado,112.78
+722,O00722,9,4,17,2026-02-07,Portal B2B,Completado,1142.70
+723,O00723,183,4,7,26/02/2026,Ejecutivo comercial,Completado,897.45
+724,O00724,7,6,19,2026-02-22,Licitación,Completado,3569.97
+725,O00725,104,4,38,2026-04-20,Orden de producción,Pendiente,1888.20
+726,O00726,60,1,32,2026-05-27,Portal B2B,Completado,294.50
+727,O00727,60,1,35,2026-02-05,Ejecutivo comercial,Completado,2157.20
+728,O00728,49,6,37,2026-05-22,Licitación,Cancelado,5479.60
+729,O00729,184,2,34,2026-06-19,Orden de producción,Observado,1534.50
+730,O00730,17,3,4,2026-05-05,Portal B2B,Completado,1286.91
+731,O00731,191,2,30,2026-03-17,Ejecutivo comercial,Cancelado,7561.29
+732,O00732,52,4,34,23/02/2026,Licitación,Cancelado,7275.00
+733,O00733,104,1,9,2026-03-09,Orden de producción,Completado,4298.09
+734,O00734,9200,3,18,2026-05-24,Portal B2B,Completado,2062.62
+735,O00735,55,3,3,2026-02-15,Ejecutivo comercial,Pendiente,125.10
+736,O00736,129,4,28,2026-06-23,Licitación,Completado,72.00
+737,O00737,56,5,25,2026-02-15,Orden de producción,Completado,3071.64
+738,O00738,39,2,39,2026-03-17,Portal B2B,Completado,828.46
+739,O00739,89,1,1,2026-06-02,Ejecutivo comercial,Completado,6834.9
+740,O00740,121,4,23,2026-03-26,Licitación,Completado,1205.24
+741,O00741,104,4,2,2026-04-24,Orden de producción,Observado,9087.52
+742,O00742,132,2,22,2026-01-01,Portal B2B,Completado,4971.64
+743,O00743,97,4,,2026-02-07,Ejecutivo comercial,Completado,3158.74
+744,O00744,169,5,31,2026-05-02,Licitación,Completado,7005.66
+745,O00745,44,5,24,2026-02-18,Orden de producción,Completado,1560.00
+746,O00746,115,3,12,2026-04-18,Portal B2B,Observado,83.40
+747,O00747,129,1,17,2026-01-18,Ejecutivo comercial,Completado,798.19
+748,O00748,126,1,32,2026-01-15,Licitación,Cancelado,687.35
+749,O00749,158,2,38,2026-03-17,Orden de producción,Observado,1223.44
+750,O00750,124,3,22,2026-06-09,Portal B2B,Pendiente,449.64
+751,O00751,31,3,2,2026-05-15,Ejecutivo comercial,Cancelado,2064.06
+752,O00752,61,3,38,2026-04-23,Licitación,Completado,2096.10
+753,O00753,124,3,18,2026-05-17,Orden de producción,Pendiente,1520.00
+754,O00754,122,5,21,2026-06-16,Portal B2B,Completado,10490.78
+755,O00755,19,2,30,2026-03-28,Ejecutivo comercial,Completado,8162.82
+756,O00756,21,4,36,2026-06-07,Licitación,Cancelado,56.39
+757,O00757,69,1,11,2026-02-11,Orden de producción,Completado,1525.13
+758,O00758,182,2,8,21/04/2026,Portal B2B,Pendiente,5016.55
+759,O00759,28,1,19,2026-05-08,Ejecutivo comercial,Completado,2073.40
+760,O00760,127,3,20,2026-03-25,Licitación,Completado,4943.51
+761,O00761,67,2,38,2026-03-16,Orden de producción,Pendiente,3325.14
+762,O00762,66,6,30,2026-06-19,Portal B2B,Pendiente,1171.17
+763,O00763,113,6,1,2026-05-09,Ejecutivo comercial,Completado,92.13
+764,O00764,31,2,9,2026-04-26,Licitación,Cancelado,9131.96
+765,O00765,55,4,5,2026-01-09,Orden de producción,Completado,6224.65
+766,O00766,83,3,16,2026-06-19,Portal B2B,Cancelado,4773.84
+767,O00767,32,3,32,2026-06-17,Ejecutivo comercial,Completado,62.55
+768,O00768,68,4,2,2026-02-05,Licitación,Completado,233.52
+769,O00769,7,2,35,2026-03-08,Orden de producción,Completado,2525.84
+770,O00770,168,2,,2026-01-05,Portal B2B,Completado,614.92
+771,O00771,5,4,37,2026-04-18,Ejecutivo comercial,Completado,3003.95
+772,O00772,176,3,34,2026-01-15,Licitación,Observado,3399.75
+773,O00773,198,1,20,2026-02-03,Orden de producción,Completado,5218.44
+774,O00774,59,4,1,2026-03-23,Portal B2B,Pendiente,6565.92
+775,O00775,46,2,32,05/01/2026,Ejecutivo comercial,Completado,4776.60
+776,O00776,69,5,24,2026-03-04,Licitación,Observado,7270.85
+777,O00777,172,6,6,2026-03-20,Orden de producción,Pendiente,3070.94
+778,O00778,157,3,35,2026-01-28,Portal B2B,Completado,1844.92
+779,O00779,156,2,15,2026-02-13,Ejecutivo comercial,Completado,2087.51
+780,O00780,131,3,22,2026-03-01,Licitación,Completado,108.00
+781,O00781,56,6,17,2026-05-12,Orden de producción,Cancelado,2332.38
+782,O00782,8,6,17,2026-05-05,Portal B2B,Completado,5628.75
+783,O00783,25,6,34,2026-01-01,Ejecutivo comercial,Completado,3039.52
+784,O00784,134,1,23,2026-06-23,Licitación,Completado,2403.92
+785,O00785,49,5,10,2026-06-02,Orden de producción,Completado,4080.00
+786,O00786,141,4,15,2026-05-15,Portal B2B,Cancelado,917.74
+787,O00787,138,3,16,2026-02-21,Ejecutivo comercial,Completado,1560.00
+788,O00788,103,1,39,08/06/2026,Licitación,Cancelado,1869.71
+789,O00789,174,6,8,2026-02-09,Orden de producción,Completado,865.67
+790,O00790,138,2,14,2026-06-17,Portal B2B,Completado,1282.34
+791,O00791,27,2,32,2026-05-14,Ejecutivo comercial,Cancelado,52.38
+792,O00792,75,1,27,2026-04-21,Licitación,Pendiente,948.34
+793,O00793,172,2,20,2026-03-08,Orden de producción,Observado,2885.58
+794,O00794,177,3,20,2026-06-16,Portal B2B,Pendiente,2483.65
+795,O00795,20,6,27,2026-05-28,Ejecutivo comercial,Completado,829.36
+796,O00796,147,1,21,2026-06-19,Licitación,Completado,122.84
+797,O00797,42,3,11,2026-02-12,Orden de producción,Pendiente,2802.84
+798,O00798,185,4,13,2026-05-10,Portal B2B,Completado,1410.53
+799,O00799,153,1,24,2026-04-01,Ejecutivo comercial,Completado,18.00
+800,O00800,145,1,32,2026-03-19,Licitación,Pendiente,2109.40
+801,O00801,194,2,24,2026-03-16,Orden de producción,Completado,892.15
+802,O00802,103,1,25,2026-04-13,Portal B2B,Pendiente,10390.48
+803,O00803,116,2,12,2026-05-23,Ejecutivo comercial,Completado,1560.00
+804,O00804,190,5,2,22/04/2026,Licitación,Pendiente,909.63
+805,O00805,57,1,,2026-03-26,Orden de producción,Completado,450.00
+806,O00806,75,4,36,2026-05-19,Portal B2B,Completado,60.00
+807,O00807,133,6,38,2026-04-09,Ejecutivo comercial,Completado,7253.99
+808,O00808,105,3,18,2026-03-25,Licitación,Completado,943.40
+809,O00809,10,3,21,2026-06-05,Orden de producción,Cancelado,8565.76
+810,O00810,42,5,36,2026-02-10,Portal B2B,Completado,6718.92
+811,O00811,109,3,27,09/01/2026,Ejecutivo comercial,Pendiente,2314.83
+812,O00812,188,2,10,2026-01-01,Licitación,Cancelado,7647.74
+813,O00813,18,5,8,19/04/2026,Orden de producción,Observado,855.00
+814,O00814,87,1,9,2026-03-01,Portal B2B,Observado,3691.68
+815,O00815,55,5,27,2026-02-25,Ejecutivo comercial,Completado,2234.49
+816,O00816,152,6,22,2026-03-28,Licitación,Completado,1920.00
+817,O00817,99,6,,2026-03-24,Orden de producción,Completado,5870.00
+818,O00818,194,4,29,2026-01-08,Portal B2B,Observado,871.74
+819,O00819,140,1,33,2026-04-15,Ejecutivo comercial,Pendiente,1107.48
+820,O00820,172,1,4,2026-03-16,Licitación,Completado,2710.13
+821,O00821,125,4,18,2026-06-19,Orden de producción,Completado,2792.94
+822,O00822,71,6,14,2026-02-06,Portal B2B,Cancelado,10018.80
+823,O00823,200,4,36,2026-05-07,Ejecutivo comercial,Completado,7294.36
+824,O00824,37,3,30,2026-03-03,Licitación,Completado,3665.16
+825,O00825,45,6,36,2026-06-22,Orden de producción,Completado,363.44
+826,O00826,115,5,35,2026-03-09,Portal B2B,Completado,3003.46
+827,O00827,173,6,19,2026-04-22,Ejecutivo comercial,Pendiente,1244.04
+828,O00828,116,1,38,2026-05-04,Licitación,Completado,2180.42
+829,O00829,79,2,15,2026-02-10,Orden de producción,Cancelado,1939.40
+830,O00830,57,3,21,2026-02-18,Portal B2B,Pendiente,2812.50
+831,O00831,119,1,12,2026-06-07,Ejecutivo comercial,Completado,485.64
+832,O00832,103,2,8,2026-05-11,Licitación,Completado,441.06
+833,O00833,186,1,39,2026-04-16,Orden de producción,Completado,175.00
+834,O00834,144,6,33,2026-05-26,Portal B2B,Pendiente,7250.00
+835,O00835,183,3,37,2026-02-05,Ejecutivo comercial,Completado,528.41
+836,O00836,26,6,6,2026-03-27,Licitación,Pendiente,1764.80
+837,O00837,112,3,29,2026-06-04,Orden de producción,Observado,1684.09
+838,O00838,131,4,28,2026-02-12,Portal B2B,Cancelado,4804.30
+839,O00839,169,1,13,2026-03-27,Ejecutivo comercial,Cancelado,636.75
+840,O00840,36,4,6,09/02/2026,Licitación,Completado,1219.70
+841,O00841,90,4,18,03/06/2026,Orden de producción,Completado,1634.00
+842,O00842,180,2,,2026-06-21,Portal B2B,Observado,122.84
+843,O00843,137,3,4,2026-02-14,Ejecutivo comercial,Completado,5202.52
+844,O00844,182,3,2,2026-02-11,Licitación,Cancelado,1838.41
+845,O00845,168,6,37,2026-05-22,Orden de producción,Completado,2525.85
+846,O00846,20,2,18,2026-02-06,Portal B2B,Pendiente,1755.00
+847,O00847,170,1,3,2026-04-02,Ejecutivo comercial,Observado,220.53
+848,O00848,186,1,5,2026-05-14,Licitación,Pendiente,1744.76
+849,O00849,198,3,27,2026-03-08,Orden de producción,Completado,661.59
+850,O00850,61,6,21,2026-06-22,Portal B2B,Pendiente,2198.50
+851,O00851,111,5,17,2026-02-16,Ejecutivo comercial,Pendiente,188.16
+852,O00852,133,1,10,2026-03-14,Licitación,Pendiente,83.40
+853,O00853,101,4,11,2026-02-24,Orden de producción,Completado,5236.21
+854,O00854,105,5,12,2026-04-02,Portal B2B,Completado,1986.06
+855,O00855,105,2,18,2026-04-18,Ejecutivo comercial,Observado,181.15
+856,O00856,127,2,32,2026-06-03,Licitación,Completado,1046.39
+857,O00857,183,1,3,2026-06-26,Orden de producción,Observado,1275.86
+858,O00858,139,2,11,03/02/2026,Portal B2B,Completado,6035.90
+859,O00859,62,1,8,2026-04-17,Ejecutivo comercial,Observado,3641.75
+860,O00860,140,1,22,2026-03-06,Licitación,Completado,6675.32
+861,O00861,79,5,35,2026-03-02,Orden de producción,Observado,1258.80
+862,O00862,171,4,6,2026-06-04,Portal B2B,Completado,314.70
+863,O00863,23,6,33,2026-06-25,Ejecutivo comercial,Cancelado,15421.27
+864,O00864,128,4,1,2026-01-13,Licitación,Completado,1345.87
+865,O00865,24,4,32,18/03/2026,Orden de producción,Completado,2280.00
+866,O00866,9319,4,25,2026-04-09,Portal B2B,Completado,1158.00
+867,O00867,128,3,2,2026-06-07,Ejecutivo comercial,Completado,882.12
+868,O00868,120,3,15,2026-02-07,Licitación,Completado,747.08
+869,O00869,82,1,25,2026-06-05,Orden de producción,Completado,585.56
+870,O00870,122,4,20,2026-05-07,Portal B2B,Cancelado,1794.90
+871,O00871,31,2,9,2026-03-05,Ejecutivo comercial,Completado,4684.04
+872,O00872,145,5,9,2026-04-15,Licitación,Completado,2709.26
+873,O00873,28,5,33,2026-05-22,Orden de producción,Cancelado,2899.55
+874,O00874,64,5,9,2026-02-02,Portal B2B,Completado,868.44
+875,O00875,168,2,10,2026-03-09,Ejecutivo comercial,Pendiente,5459.70
+876,O00876,181,1,35,2026-05-15,Licitación,Cancelado,917.55
+877,O00877,169,4,31,2026-06-14,Orden de producción,Pendiente,280.00
+878,O00878,40,6,12,2026-05-17,Portal B2B,Completado,890.73
+879,O00879,46,2,30,2026-05-24,Ejecutivo comercial,Completado,70.00
+880,O00880,9828,4,14,2026-04-24,Licitación,Completado,926.00
+881,O00881,43,6,13,2026-03-25,Orden de producción,Completado,4505.42
+882,O00882,78,3,37,2026-04-27,Portal B2B,Completado,6089.18
+883,O00883,122,1,36,2026-06-26,Ejecutivo comercial,Completado,437.44
+884,O00884,159,5,12,2026-04-08,Licitación,Completado,2331.19
+885,O00885,105,5,34,2026-03-06,Orden de producción,Completado,2268.42
+886,O00886,120,5,10,2026-03-19,Portal B2B,Pendiente,7613.28
+887,O00887,45,2,30,2026-02-08,Ejecutivo comercial,Completado,3900.34
+888,O00888,55,5,24,2026-03-06,Licitación,Completado,1825.30
+889,O00889,31,4,39,2026-01-01,Orden de producción,Completado,3645.48
+890,O00890,170,2,2,2026-04-26,Portal B2B,Pendiente,1266.75
+891,O00891,7,1,1,2026-06-26,Ejecutivo comercial,Cancelado,122.84
+892,O00892,42,4,31,2026-05-04,Licitación,Completado,2192.31
+893,O00893,73,3,16,2026-04-14,Orden de producción,Pendiente,1070.49
+894,O00894,1,2,19,2026-05-12,Portal B2B,Completado,450.95
+895,O00895,2,3,23,2026-03-14,Ejecutivo comercial,Completado,296.00
+896,O00896,20,4,2,2026-03-19,Licitación,Completado,2186.69
+897,O00897,186,1,23,2026-06-23,Orden de producción,Pendiente,2083.33
+898,O00898,155,5,39,2026-03-28,Portal B2B,Cancelado,4428.01
+899,O00899,187,3,20,2026-02-26,Ejecutivo comercial,Pendiente,2050.49
+900,O00900,60,6,20,26/05/2026,Licitación,Completado,2031.45
+901,O00901,57,5,20,2026-03-28,Orden de producción,Observado,1102.65
+902,O00902,36,1,24,2026-02-19,Portal B2B,Observado,314.28
+903,O00903,69,4,24,2026-01-04,Ejecutivo comercial,Cancelado,2517.60
+904,O00904,150,2,4,2026-04-10,Licitación,Completado,60.00
+905,O00905,148,4,35,2026-02-09,Orden de producción,Completado,7464.55
+906,O00906,169,3,26,2026-06-10,Portal B2B,Completado,434.22
+907,O00907,36,1,38,2026-05-24,Ejecutivo comercial,Completado,4803.66
+908,O00908,109,1,34,2026-03-03,Licitación,Completado,1552.25
+909,O00909,34,3,15,2026-05-24,Orden de producción,Pendiente,-6800.26
+910,O00910,67,1,25,2026-04-23,Portal B2B,Completado,495.85
+911,O00911,175,5,34,2026-04-24,Ejecutivo comercial,Cancelado,16520.00
+912,O00912,49,2,17,2026-02-19,Licitación,Completado,360.00
+913,O00913,76,3,24,2026-03-09,Orden de producción,Completado,1638.71
+914,O00914,89,6,24,2026-06-24,Portal B2B,Completado,1980.64
+915,O00915,94,6,17,2026-06-22,Ejecutivo comercial,Completado,1023.08
+916,O00916,136,3,27,2026-03-16,Licitación,Completado,2554.89
+917,O00917,109,2,24,2026-05-02,Orden de producción,Pendiente,2386.08
+918,O00918,48,1,36,10/05/2026,Portal B2B,Completado,92.13
+919,O00919,9925,6,8,2026-03-16,Ejecutivo comercial,Observado,896.63
+920,O00920,96,5,3,2026-05-17,Licitación,Completado,2196.42
+921,O00921,18,6,31,2026-04-09,Orden de producción,Completado,770.20
+922,O00922,45,3,3,2026-04-25,Portal B2B,Completado,1710.94
+923,O00923,9332,3,12,2026-03-10,Ejecutivo comercial,Completado,1582.55
+924,O00924,104,4,24,2026-04-17,Licitación,Completado,2232.78
+925,O00925,66,1,11,2026-04-05,Orden de producción,Completado,730.66
+926,O00926,43,4,20,2026-04-04,Portal B2B,Completado,3091.52
+927,O00927,122,2,14,2026-04-05,Ejecutivo comercial,Completado,2036.91
+928,O00928,145,1,11,2026-05-03,Licitación,Cancelado,2797.39
+929,O00929,93,4,26,05/03/2026,Orden de producción,Completado,1869.02
+930,O00930,119,2,1,2026-05-15,Portal B2B,Completado,2593.55
+931,O00931,157,6,22,2026-02-01,Ejecutivo comercial,Pendiente,880.97
+932,O00932,94,2,25,2026-02-05,Licitación,Cancelado,1637.57
+933,O00933,25,1,4,2026-03-18,Orden de producción,Completado,707.55
+934,O00934,27,3,34,2026-03-02,Portal B2B,Completado,144.92
+935,O00935,78,3,32,2026-06-17,Ejecutivo comercial,Cancelado,3544.36
+936,O00936,188,2,1,2026-01-28,Licitación,Pendiente,5388.98
+937,O00937,82,5,18,2026-02-18,Orden de producción,Completado,668.96
+938,O00938,65,1,3,2026-01-13,Portal B2B,Completado,2750.34
+939,O00939,178,4,29,2026-06-24,Ejecutivo comercial,Completado,8971.38
+940,O00940,22,5,,09/01/2026,Licitación,Observado,3328.80
+941,O00941,108,5,27,2026-04-10,Orden de producción,Cancelado,120.06
+942,O00942,197,5,40,2026-06-19,Portal B2B,Pendiente,1894.61
+943,O00943,64,2,6,2026-02-17,Ejecutivo comercial,Observado,946.36
+944,O00944,155,5,3,2026-01-07,Licitación,Cancelado,4877.74
+945,O00945,48,1,32,2026-05-02,Orden de producción,Completado,500.35
+946,O00946,70,4,25,2026-06-06,Portal B2B,Pendiente,7402.74
+947,O00947,76,1,20,2026-02-02,Ejecutivo comercial,Pendiente,1943.74
+948,O00948,80,3,25,2026-02-13,Licitación,Completado,4649.95
+949,O00949,9910,5,18,2026-04-20,Orden de producción,Completado,3465.22
+950,O00950,150,6,12,2026-06-07,Portal B2B,Completado,3190.05
+951,O00951,135,2,,2026-02-17,Ejecutivo comercial,Completado,1610.14
+952,O00952,57,4,30,2026-06-28,Licitación,Completado,3900.00
+953,O00953,81,1,15,2026-02-13,Orden de producción,Completado,104.25
+954,O00954,45,2,40,2026-04-18,Portal B2B,Completado,672.02
+955,O00955,86,3,9,2026-02-15,Ejecutivo comercial,Completado,1320.32
+956,O00956,85,4,14,2026-06-28,Licitación,Observado,8853.55
+957,O00957,133,3,31,2026-01-24,Orden de producción,Completado,218.72
+958,O00958,192,3,1,2026-03-17,Portal B2B,Completado,1008.44
+959,O00959,142,3,34,2026-02-23,Ejecutivo comercial,Observado,515.40
+960,O00960,172,4,39,2026-01-24,Licitación,Completado,2058.14
+961,O00961,137,3,11,2026-01-12,Orden de producción,Pendiente,5056.76
+962,O00962,17,2,39,2026-05-12,Portal B2B,Pendiente,380.00
+963,O00963,138,2,40,2026-03-28,Ejecutivo comercial,Completado,225.56
+964,O00964,130,2,31,2026-06-20,Licitación,Completado,559.35
+965,O00965,151,2,13,2026-04-13,Orden de producción,Observado,152.42
+966,O00966,141,2,8,2026-03-07,Portal B2B,Pendiente,104.25
+967,O00967,139,6,39,2026-03-07,Ejecutivo comercial,Pendiente,314.70
+968,O00968,199,5,2,27/03/2026,Licitación,Pendiente,2248.42
+969,O00969,196,1,34,2026-06-14,Orden de producción,Observado,5381.28
+970,O00970,105,6,10,2026-06-05,Portal B2B,Completado,410.80
+971,O00971,17,5,11,2026-04-14,Ejecutivo comercial,Completado,437.44
+972,O00972,199,5,35,2026-01-22,Licitación,Completado,281.95
+973,O00973,9,1,9,2026-01-05,Orden de producción,Completado,4680.37
+974,O00974,12,4,37,2026-04-20,Portal B2B,Completado,722.46
+975,O00975,26,2,16,2026-02-01,Ejecutivo comercial,Pendiente,210.00
+976,O00976,185,1,18,2026-06-19,Licitación,Completado,3120.00
+977,O00977,30,6,35,2026-06-02,Orden de producción,Pendiente,36.23
+978,O00978,7,5,29,2026-05-26,Portal B2B,Cancelado,3419.58
+979,O00979,5,2,31,2026-06-03,Ejecutivo comercial,Completado,11125.40
+980,O00980,8,2,29,2026-06-17,Licitación,Completado,1040.84
+981,O00981,85,4,5,2026-02-17,Orden de producción,Cancelado,380.00
+982,O00982,49,1,31,2026-03-28,Portal B2B,Completado,3906.14
+983,O00983,138,3,27,2026-02-06,Ejecutivo comercial,Cancelado,2949.36
+984,O00984,16,3,5,2026-03-20,Licitación,Completado,153.55
+985,O00985,121,4,19,2026-03-19,Orden de producción,Completado,5130.00
+986,O00986,27,5,1,2026-01-27,Portal B2B,Completado,4616.36
+987,O00987,51,2,38,2026-03-05,Ejecutivo comercial,Completado,1008.03
+988,O00988,183,5,17,2026-02-10,Licitación,Completado,6384.99
+989,O00989,7,6,11,2026-03-02,Orden de producción,Observado,772.56
+990,O00990,148,5,12,2026-03-14,Portal B2B,Pendiente,760.00
+991,O00991,134,6,,2026-03-24,Ejecutivo comercial,Completado,3131.48
+992,O00992,74,5,38,2026-02-01,Licitación,Observado,2286.00
+993,O00993,100,3,13,03/02/2026,Orden de producción,Completado,1560.81
+994,O00994,158,2,,2026-05-20,Portal B2B,Pendiente,190.00
+995,O00995,6,6,26,2026-05-14,Ejecutivo comercial,Completado,434.22
+996,O00996,40,2,39,2026-05-06,Licitación,Completado,2753.21
+997,O00997,11,1,34,2026-06-03,Orden de producción,Pendiente,2067.00
+998,O00998,103,5,39,2026-02-10,Portal B2B,Completado,-1593.12
+999,O00999,142,3,21,07/02/2026,Ejecutivo comercial,Completado,8410.72
+1000,O01000,108,5,1,11/03/2026,Licitación,Completado,1427.44
+1001,O01001,12,2,35,2026-02-21,Orden de producción,Completado,5471.41
+1002,O01002,150,4,15,2026-02-19,Portal B2B,Completado,3755.86
+1003,O01003,29,5,16,2026-05-09,Ejecutivo comercial,Completado,4095.89
+1004,O01004,57,2,7,2026-04-16,Licitación,Completado,544.84
+1005,O01005,82,3,27,2026-03-28,Orden de producción,Cancelado,899.07
+1006,O01006,42,4,38,2026-06-08,Portal B2B,Completado,954.1
+1007,O01007,113,2,6,2026-05-03,Ejecutivo comercial,Cancelado,4538.57
+1008,O01008,112,2,23,2026-06-26,Licitación,Completado,948.15
+1009,O01009,135,1,16,2026-02-22,Orden de producción,Completado,1844.38
+1010,O01010,133,1,40,2026-05-03,Portal B2B,Completado,2941.99

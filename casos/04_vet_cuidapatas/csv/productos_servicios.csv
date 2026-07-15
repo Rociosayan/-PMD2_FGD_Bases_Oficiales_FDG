@@ -1,16 +1,31 @@
-﻿id_producto,codigo_producto,nombre_producto,categoria,precio_base,activo
-1,P0001,Servicio/Producto 01,Premium,59.46,1
-2,P0002,Servicio/Producto 02,B?sico,354.16,1
-3,P0003,Servicio/Producto 03,Especializado,161.54,1
-4,P0004,Servicio/Producto 04,Especializado,206.08,1
-5,P0005,Servicio/Producto 05,Premium,253.87,1
-6,P0006,Servicio/Producto 06,Est?ndar,323.88,1
-7,P0007,Servicio/Producto 07,Est?ndar,242.27,1
-8,P0008,Servicio/Producto 08,B?sico,98.53,1
-9,P0009,Servicio/Producto 09,Premium,228.59,1
-10,P0010,Servicio/Producto 10,Especializado,231.59,1
-11,P0011,Servicio/Producto 11,Premium,340.98,1
-12,P0012,Servicio/Producto 12,B?sico,145.88,1
-13,P0013,Servicio/Producto 13,Premium,315.45,1
-14,P0014,Servicio/Producto 14,Premium,97.22,1
-15,P0015,Servicio/Producto 15,Est?ndar,66.71,1
+id_producto,codigo_producto,nombre_producto,categoria,precio_base,activo
+1,CP0001,Consulta veterinaria general,Consulta,35.00,1
+2,CP0002,Consulta dermatológica veterinaria,Consulta,47.00,1
+3,CP0003,Consulta cardiológica veterinaria,Consulta,59.00,0
+4,CP0004,Control de cachorro,Consulta,71.00,1
+5,CP0005,Control geriátrico,Consulta,83.00,1
+6,CP0006,Consulta de animales exóticos,Consulta,95.00,1
+7,CP0007,Vacuna séxtuple canina,Vacuna,35.00,1
+8,CP0008,Vacuna antirrábica,Vacuna,49.00,1
+9,CP0009,Vacuna triple felina,Vacuna,63.00,1
+10,CP0010,Vacuna contra leucemia felina,Vacuna,77.00,1
+11,CP0011,Vacuna bordetella,Vacuna,91.00,1
+12,CP0012,Vacuna para cachorro DP,Vacuna,105.00,1
+13,CP0013,Esterilización de gata,Cirugía,180.00,1
+14,CP0014,Castración de perro,Cirugía,251.05,1
+15,CP0015,Limpieza dental con anestesia,Cirugía,350.15,1
+16,CP0016,Cirugía de cuerpo extraño,Cirugía,488.36,0
+17,CP0017,Cesárea veterinaria,Cirugía,681.14,1
+18,CP0018,Sutura de herida compleja,Cirugía,950.00,0
+19,CP0019,Hemograma veterinario,Diagnóstico,25.00,1
+20,CP0020,Perfil bioquímico veterinario,Diagnóstico,38.62,1
+21,CP0021,Ecografía abdominal veterinaria,Diagnóstico,59.67,1
+22,CP0022,Radiografía veterinaria,Diagnóstico,92.18,1
+23,CP0023,Test de parvovirus,Diagnóstico,142.41,0
+24,CP0024,Examen coproparasitológico,Diagnóstico,220.00,1
+25,CP0025,Alimento premium perro adulto 3 kg,Tienda,8.00,1
+26,CP0026,Alimento premium gato esterilizado 3 kg,Tienda,14.28,1
+27,CP0027,Antipulgas pipeta perro mediano,Tienda,25.49,1
+28,CP0028,Arena sanitaria aglomerante 10 kg,Tienda,45.50,1
+29,CP0029,Shampoo medicado 250 ml,Tienda,81.23,1
+30,CP0030,Collar isabelino talla M,Tienda,145.00,1

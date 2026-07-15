@@ -1,96 +1,144 @@
-﻿id_incidencia,codigo_incidencia,id_operacion,tipo_incidencia,severidad,fecha_reporte,estado_incidencia
-1,I00001,443,Falla de registro,Media,2026-04-28,En revisi?n
-2,I00002,198,Demora,Alta,2026-05-04,En revisi?n
-3,I00003,101,Reclamo,Media,2026-06-10,Cerrada
-4,I00004,187,Reprogramaci?n,Alta,2026-01-24,En revisi?n
-5,I00005,71,Dato inconsistente,Baja,2026-06-10,En revisi?n
-6,I00006,403,Demora,Media,2026-03-29,Cerrada
-7,I00007,473,Reclamo,Media,2026-03-21,En revisi?n
-8,I00008,161,Reprogramaci?n,Media,2026-03-31,En revisi?n
-9,I00009,98,Reclamo,Alta,2026-03-14,En revisi?n
-10,I00010,23,Reclamo,Media,2026-02-16,Abierta
-11,I00011,291,Reprogramaci?n,Baja,2026-01-11,Abierta
-12,I00012,347,Falla de registro,Baja,2026-02-13,En revisi?n
-13,I00013,373,Demora,Media,2026-04-27,En revisi?n
-14,I00014,271,Demora,Media,2026-02-13,En revisi?n
-15,I00015,209,Demora,Baja,2026-02-07,En revisi?n
-16,I00016,131,Dato inconsistente,Baja,2026-06-27,Abierta
-17,I00017,358,Reclamo,Media,2026-04-04,Cerrada
-18,I00018,163,Reclamo,Media,2026-03-08,En revisi?n
-19,I00019,315,Dato inconsistente,Media,2026-03-02,Cerrada
-20,I00020,468,Reprogramaci?n,Baja,2026-05-29,En revisi?n
-21,I00021,140,Demora,Alta,2026-04-02,Abierta
-22,I00022,304,Falla de registro,Media,2026-01-18,Abierta
-23,I00023,6,Reprogramaci?n,Alta,2026-02-21,Abierta
-24,I00024,86,Reprogramaci?n,Baja,2026-03-06,En revisi?n
-25,I00025,472,Demora,Alta,2026-05-29,Cerrada
-26,I00026,174,Reclamo,Alta,2026-04-14,Abierta
-27,I00027,132,Falla de registro,Baja,2026-02-22,Abierta
-28,I00028,102,Dato inconsistente,Baja,2026-05-31,En revisi?n
-29,I00029,18,Dato inconsistente,Baja,2026-06-12,Abierta
-30,I00030,58,Reprogramaci?n,Media,2026-03-29,Cerrada
-31,I00031,359,Reclamo,Alta,2026-01-19,Cerrada
-32,I00032,237,Reclamo,Media,2026-02-09,En revisi?n
-33,I00033,126,Reclamo,Media,2026-01-29,En revisi?n
-34,I00034,29,Reclamo,Media,2026-04-04,Cerrada
-35,I00035,486,Demora,Alta,2026-05-14,Abierta
-36,I00036,233,Reclamo,Alta,2026-05-27,Cerrada
-37,I00037,39,Reprogramaci?n,Alta,2026-02-08,En revisi?n
-38,I00038,157,Reclamo,Baja,2026-03-22,Abierta
-39,I00039,428,Demora,Alta,2026-02-09,Abierta
-40,I00040,89,Reprogramaci?n,Alta,2026-01-05,Abierta
-41,I00041,183,Falla de registro,Baja,2026-01-09,Abierta
-42,I00042,318,Reprogramaci?n,Media,2026-04-13,En revisi?n
-43,I00043,65,Falla de registro,Media,2026-05-17,Cerrada
-44,I00044,28,Reprogramaci?n,Baja,2026-05-31,En revisi?n
-45,I00045,432,Falla de registro,Baja,2026-04-29,Abierta
-46,I00046,83,Demora,Baja,2026-01-18,Cerrada
-47,I00047,264,Falla de registro,Media,2026-03-02,Cerrada
-48,I00048,203,Reclamo,Baja,2026-02-13,Cerrada
-49,I00049,87,Reclamo,Baja,2026-03-06,Cerrada
-50,I00050,238,Demora,Baja,2026-03-01,Abierta
-51,I00051,404,Falla de registro,Alta,2026-05-02,En revisi?n
-52,I00052,21,Falla de registro,Media,2026-06-21,Cerrada
-53,I00053,339,Reprogramaci?n,Alta,2026-05-17,Abierta
-54,I00054,49,Dato inconsistente,Baja,2026-06-18,Abierta
-55,I00055,92,Demora,Baja,2026-03-22,Abierta
-56,I00056,7,Dato inconsistente,Media,2026-02-26,Cerrada
-57,I00057,457,Dato inconsistente,Media,2026-03-16,En revisi?n
-58,I00058,374,Reprogramaci?n,Alta,2026-02-14,En revisi?n
-59,I00059,284,Dato inconsistente,Media,2026-06-28,En revisi?n
-60,I00060,10,Dato inconsistente,Media,2026-03-02,En revisi?n
-61,I00061,144,Reprogramaci?n,Baja,2026-04-11,Abierta
-62,I00062,323,Reclamo,Alta,2026-02-14,En revisi?n
-63,I00063,299,Demora,Media,2026-03-17,Abierta
-64,I00064,413,Falla de registro,Alta,2026-01-20,Cerrada
-65,I00065,17,Falla de registro,Alta,2026-05-14,Abierta
-66,I00066,362,Reprogramaci?n,Media,2026-03-30,Abierta
-67,I00067,490,Reclamo,Baja,2026-05-17,Cerrada
-68,I00068,197,Reprogramaci?n,Media,2026-05-05,Cerrada
-69,I00069,81,Falla de registro,Media,2026-04-08,Abierta
-70,I00070,434,Dato inconsistente,Alta,2026-05-27,Abierta
-71,I00071,454,Falla de registro,Media,2026-03-27,Cerrada
-72,I00072,35,Falla de registro,Baja,2026-05-09,En revisi?n
-73,I00073,11,Reprogramaci?n,Media,2026-03-13,En revisi?n
-74,I00074,38,Reclamo,Baja,2026-06-26,Abierta
-75,I00075,462,Reprogramaci?n,Media,2026-03-01,En revisi?n
-76,I00076,488,Reclamo,Alta,2026-06-27,Abierta
-77,I00077,309,Dato inconsistente,Baja,2026-05-21,Abierta
-78,I00078,306,Falla de registro,Baja,2026-02-21,Cerrada
-79,I00079,8,Reclamo,Baja,2026-01-13,Abierta
-80,I00080,354,Dato inconsistente,Baja,2026-03-18,En revisi?n
-81,I00081,361,Reclamo,Baja,2026-05-20,Cerrada
-82,I00082,93,Dato inconsistente,Alta,2026-04-01,Abierta
-83,I00083,117,Demora,Alta,2026-03-24,Abierta
-84,I00084,357,Reprogramaci?n,Alta,2026-05-24,Cerrada
-85,I00085,9,Falla de registro,Media,2026-02-26,Abierta
-86,I00086,120,Reprogramaci?n,Alta,2026-04-23,En revisi?n
-87,I00087,493,Falla de registro,Alta,2026-02-15,Abierta
-88,I00088,463,Reclamo,Baja,2026-02-20,Abierta
-89,I00089,483,Reclamo,Baja,2026-02-08,Abierta
-90,I00090,169,Reclamo,Alta,2026-03-29,Cerrada
-91,I00091,167,Falla de registro,Media,2026-01-16,Cerrada
-92,I00092,334,Falla de registro,Baja,2026-05-20,Abierta
-93,I00093,476,Falla de registro,Baja,2026-06-11,En revisi?n
-94,I00094,1,Reclamo,Baja,2026-02-23,En revisi?n
-95,I00095,408,Demora,Alta,2026-06-23,Cerrada
+id_incidencia,codigo_incidencia,id_operacion,tipo_incidencia,severidad,fecha_reporte,estado_incidencia
+1,I00001,9,Siniestro observado,Baja,2026-06-05,Abierta
+2,I00002,10,Documento pendiente,Media,2026-05-17,Cerrada
+3,I00003,15,Cobertura en evaluación,Baja,2026-05-17,Cerrada
+4,I00004,25,Renovación no aplicada,Alta,2026-05-24,Abierta
+5,I00005,29,Pago de prima pendiente,Alta,2026-02-19,Abierta
+6,I00006,41,Siniestro observado,Media,2026-03-14,Abierta
+7,I00007,49,Documento pendiente,Alta,2026-05-04,Abierta
+8,I00008,53,Cobertura en evaluación,Media,2026-04-01,Cerrada
+9,I00009,64,Renovación no aplicada,Baja,2026-03-05,En revisión
+10,I00010,70,Pago de prima pendiente,Media,2026-05-04,En revisión
+11,I00011,78,Siniestro observado,Baja,2026-02-26,Cerrada
+12,I00012,83,Documento pendiente,Baja,2026-04-17,Abierta
+13,I00013,87,Cobertura en evaluación,Baja,2026-03-08,Abierta
+14,I00014,88,Renovación no aplicada,Alta,2026-03-28,En revisión
+15,I00015,92,Pago de prima pendiente,Baja,2026-04-08,Cerrada
+16,I00016,93,Siniestro observado,Alta,2026-05-17,En revisión
+17,I00017,102,Documento pendiente,Alta,2026-06-23,Abierta
+18,I00018,108,Cobertura en evaluación,Alta,2026-03-20,En revisión
+19,I00019,113,Renovación no aplicada,Alta,2026-04-22,Cerrada
+20,I00020,115,Pago de prima pendiente,Alta,2026-04-27,En revisión
+21,I00021,125,Siniestro observado,Baja,2026-04-04,Cerrada
+22,I00022,137,Documento pendiente,Alta,2026-03-15,Abierta
+23,I00023,149,Cobertura en evaluación,Media,2026-03-28,Abierta
+24,I00024,156,Renovación no aplicada,Baja,2026-06-20,Abierta
+25,I00025,161,Pago de prima pendiente,Baja,2026-05-24,Abierta
+26,I00026,182,Siniestro observado,Baja,2026-02-03,Abierta
+27,I00027,207,Documento pendiente,Baja,2026-05-24,Cerrada
+28,I00028,213,Cobertura en evaluación,Alta,2026-04-07,En revisión
+29,I00029,234,Renovación no aplicada,Baja,2026-04-01,En revisión
+30,I00030,240,Pago de prima pendiente,Baja,2026-04-06,Cerrada
+31,I00031,242,Siniestro observado,Alta,2026-04-22,En revisión
+32,I00032,247,Documento pendiente,Alta,2026-02-23,Cerrada
+33,I00033,269,Cobertura en evaluación,Baja,2026-02-24,Cerrada
+34,I00034,274,Renovación no aplicada,Baja,2026-02-16,En revisión
+35,I00035,281,Pago de prima pendiente,Baja,2026-04-08,En revisión
+36,I00036,288,Siniestro observado,Media,2026-06-28,Cerrada
+37,I00037,299,Documento pendiente,Baja,2026-02-22,Cerrada
+38,I00038,300,Cobertura en evaluación,Media,2026-02-23,Abierta
+39,I00039,301,Renovación no aplicada,Alta,2026-03-20,Abierta
+40,I00040,303,Pago de prima pendiente,Media,2026-02-26,Abierta
+41,I00041,305,Siniestro observado,Alta,2026-06-25,Abierta
+42,I00042,309,Documento pendiente,Media,2026-02-26,En revisión
+43,I00043,313,Cobertura en evaluación,Baja,2026-02-03,Cerrada
+44,I00044,334,Renovación no aplicada,Baja,2026-06-17,Abierta
+45,I00045,347,Pago de prima pendiente,Baja,2026-02-08,En revisión
+46,I00046,354,Siniestro observado,Baja,2026-06-17,En revisión
+47,I00047,365,Documento pendiente,Alta,2026-03-05,En revisión
+48,I00048,376,Cobertura en evaluación,Alta,2026-04-06,En revisión
+49,I00049,378,Renovación no aplicada,Alta,2026-03-17,En revisión
+50,I00050,390,Pago de prima pendiente,Media,2026-03-27,Abierta
+51,I00051,394,Siniestro observado,Alta,2026-03-14,Abierta
+52,I00052,397,Documento pendiente,Alta,2026-06-11,Cerrada
+53,I00053,400,Cobertura en evaluación,Baja,2026-02-22,Abierta
+54,I00054,402,Renovación no aplicada,Alta,2026-04-24,Abierta
+55,I00055,405,Pago de prima pendiente,Baja,2026-03-16,Abierta
+56,I00056,408,Siniestro observado,Baja,2026-03-26,Abierta
+57,I00057,414,Documento pendiente,Alta,2026-04-17,Abierta
+58,I00058,419,Cobertura en evaluación,Baja,2026-02-16,Cerrada
+59,I00059,440,Renovación no aplicada,Media,2026-06-25,Abierta
+60,I00060,451,Pago de prima pendiente,Baja,2026-04-23,En revisión
+61,I00061,454,Siniestro observado,Media,2026-02-05,Abierta
+62,I00062,459,Documento pendiente,Baja,2026-05-26,En revisión
+63,I00063,462,Cobertura en evaluación,Media,2026-06-22,Abierta
+64,I00064,473,Renovación no aplicada,Baja,2026-02-12,Cerrada
+65,I00065,479,Pago de prima pendiente,Alta,2026-03-04,Abierta
+66,I00066,484,Siniestro observado,Alta,2026-02-15,En revisión
+67,I00067,493,Documento pendiente,Media,2026-05-28,Cerrada
+68,I00068,517,Cobertura en evaluación,Baja,2026-06-25,Cerrada
+69,I00069,518,Renovación no aplicada,Baja,2026-02-01,Abierta
+70,I00070,529,Pago de prima pendiente,Baja,2026-06-16,Abierta
+71,I00071,540,Siniestro observado,Baja,2026-06-03,Abierta
+72,I00072,545,Documento pendiente,Baja,2026-02-19,Abierta
+73,I00073,548,Cobertura en evaluación,Baja,2026-02-09,Abierta
+74,I00074,552,Renovación no aplicada,Baja,2026-06-06,Abierta
+75,I00075,559,Pago de prima pendiente,Baja,2026-05-20,En revisión
+76,I00076,575,Siniestro observado,Baja,2026-05-02,Abierta
+77,I00077,576,Documento pendiente,Alta,2026-02-07,Cerrada
+78,I00078,583,Cobertura en evaluación,Media,2026-02-18,Cerrada
+79,I00079,588,Renovación no aplicada,Alta,2026-06-13,Abierta
+80,I00080,598,Pago de prima pendiente,Alta,2026-06-11,En revisión
+81,I00081,600,Siniestro observado,Baja,2026-06-27,Abierta
+82,I00082,605,Documento pendiente,Baja,2026-03-05,Cerrada
+83,I00083,614,Cobertura en evaluación,Baja,2026-04-12,Abierta
+84,I00084,623,Renovación no aplicada,Baja,2026-02-07,En revisión
+85,I00085,627,Pago de prima pendiente,Alta,2026-03-07,En revisión
+86,I00086,629,Siniestro observado,Media,2026-05-14,En revisión
+87,I00087,630,Documento pendiente,Baja,2026-04-18,En revisión
+88,I00088,636,Cobertura en evaluación,Media,2026-04-01,Abierta
+89,I00089,653,Renovación no aplicada,Alta,2026-06-14,Abierta
+90,I00090,664,Pago de prima pendiente,Alta,2026-04-19,En revisión
+91,I00091,671,Siniestro observado,Baja,2026-04-22,En revisión
+92,I00092,673,Documento pendiente,Alta,2026-04-07,Abierta
+93,I00093,683,Cobertura en evaluación,Baja,2026-04-27,Abierta
+94,I00094,687,Renovación no aplicada,Baja,2026-03-04,Cerrada
+95,I00095,692,Pago de prima pendiente,Media,2026-06-25,Abierta
+96,I00096,699,Siniestro observado,Alta,2026-04-18,En revisión
+97,I00097,700,Documento pendiente,Alta,2026-03-01,En revisión
+98,I00098,708,Cobertura en evaluación,Baja,2026-05-01,Cerrada
+99,I00099,710,Renovación no aplicada,Baja,2026-02-21,Abierta
+100,I00100,715,Pago de prima pendiente,Baja,2026-05-16,Cerrada
+101,I00101,718,Siniestro observado,Alta,2026-02-23,Abierta
+102,I00102,722,Documento pendiente,Baja,2026-04-19,En revisión
+103,I00103,726,Cobertura en evaluación,Media,2026-02-18,Cerrada
+104,I00104,741,Renovación no aplicada,Alta,2026-03-06,Abierta
+105,I00105,744,Pago de prima pendiente,Alta,2026-05-03,Cerrada
+106,I00106,757,Siniestro observado,Baja,2026-02-09,En revisión
+107,I00107,761,Documento pendiente,Alta,2026-05-02,En revisión
+108,I00108,779,Cobertura en evaluación,Alta,2026-02-02,Cerrada
+109,I00109,797,Renovación no aplicada,Media,2026-02-07,Cerrada
+110,I00110,798,Pago de prima pendiente,Media,2026-04-26,Cerrada
+111,I00111,802,Siniestro observado,Media,2026-04-03,En revisión
+112,I00112,806,Documento pendiente,Baja,2026-05-25,Abierta
+113,I00113,812,Cobertura en evaluación,Alta,2026-04-20,Abierta
+114,I00114,816,Renovación no aplicada,Alta,2026-02-15,En revisión
+115,I00115,824,Pago de prima pendiente,Baja,2026-02-19,Cerrada
+116,I00116,826,Siniestro observado,Baja,2026-02-02,En revisión
+117,I00117,833,Documento pendiente,Media,2026-06-06,Abierta
+118,I00118,845,Cobertura en evaluación,Alta,2026-05-15,Cerrada
+119,I00119,851,Renovación no aplicada,Media,2026-02-21,En revisión
+120,I00120,852,Pago de prima pendiente,Media,2026-05-12,Cerrada
+121,I00121,859,Siniestro observado,Alta,2026-02-13,Cerrada
+122,I00122,860,Documento pendiente,Media,2026-03-08,Abierta
+123,I00123,862,Cobertura en evaluación,Alta,2026-05-25,Cerrada
+124,I00124,869,Renovación no aplicada,Alta,2026-06-08,En revisión
+125,I00125,875,Pago de prima pendiente,Baja,2026-02-22,Cerrada
+126,I00126,879,Siniestro observado,Baja,2026-06-16,En revisión
+127,I00127,897,Documento pendiente,Alta,2026-04-08,Abierta
+128,I00128,898,Cobertura en evaluación,Baja,2026-02-26,Abierta
+129,I00129,902,Renovación no aplicada,Alta,2026-03-22,Abierta
+130,I00130,903,Pago de prima pendiente,Baja,2026-06-11,Cerrada
+131,I00131,913,Siniestro observado,Baja,2026-02-06,Abierta
+132,I00132,933,Documento pendiente,Media,2026-03-06,En revisión
+133,I00133,934,Cobertura en evaluación,Baja,2026-02-23,En revisión
+134,I00134,947,Renovación no aplicada,Baja,2026-03-17,En revisión
+135,I00135,952,Pago de prima pendiente,Baja,2026-05-08,En revisión
+136,I00136,956,Siniestro observado,Media,2026-04-18,Abierta
+137,I00137,962,Documento pendiente,Baja,2026-06-17,Abierta
+138,I00138,965,Cobertura en evaluación,Media,2026-04-23,Cerrada
+139,I00139,980,Renovación no aplicada,Baja,2026-06-14,Abierta
+140,I00140,981,Pago de prima pendiente,Media,2026-04-22,En revisión
+141,I00141,984,Siniestro observado,Baja,2026-05-26,Abierta
+142,I00142,996,Documento pendiente,Media,2026-02-25,Cerrada
+143,I00143,999,Cobertura en evaluación,Media,2026-06-26,Cerrada

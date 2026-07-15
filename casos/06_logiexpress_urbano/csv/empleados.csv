@@ -1,0 +1,41 @@
+id_empleado,codigo_empleado,nombres,apellidos,num_documento,cargo,id_sede,correo,sueldo,fecha_ingreso
+1,E0001,Ana,Flores Díaz,48739164,Courier motorizado,1,ana.flores@logiexpress_urbano.pe,4469.99,2026-01-26
+2,E0002,Karla,Gutiérrez Cruz,57624897,Conductor de reparto,4,karla.gutiérrez@logiexpress_urbano.pe,1764.3,2026-02-21
+3,E0003,Pamela,Ponce Ramos,71831127,Despachador,5,pamela.ponce@logiexpress_urbano.pe,4359.87,2026-02-04
+4,E0004,Sofía,Salazar Huamán,80883072,Auxiliar de almacén,2,sofía.salazar@logiexpress_urbano.pe,2075.8,2026-02-03
+5,E0005,Ana,Huamán Ríos,18362038,Coordinador de ruta,3,ana.huamán@logiexpress_urbano.pe,,2026-01-08
+6,E0006,María,Gutiérrez Huamán,16000727,Jefe de operaciones,4,maría.gutiérrez@logiexpress_urbano.pe,5944.79,2026-01-11
+7,E0007,Paola,Flores Chávez,52163766,Courier motorizado,4,paola.flores@logiexpress_urbano.pe,2112.63,2026-02-15
+8,E0008,Melissa,Chávez Palomino,85610764,Conductor de reparto,5,melissa.chávez@logiexpress_urbano.pe,3805.15,2026-03-28
+9,E0009,Claudia,Romero Quispe,38452497,Despachador,5,claudia.romero@logiexpress_urbano.pe,4300.48,2026-02-05
+10,E0010,Fernando,Díaz Ramos,21414659,Auxiliar de almacén,2,fernando.díaz@logiexpress_urbano.pe,3277.66,2026-01-09
+11,E0011,Ana,Flores Ríos,61318804,Coordinador de ruta,2,ana.flores@logiexpress_urbano.pe,4956.71,2026-03-12
+12,E0012,Patricia,Huamán Vargas,74681291,Jefe de operaciones,1,patricia.huamán@logiexpress_urbano.pe,4036.26,2026-01-06
+13,E0013,Sergio,Cornejo Quispe,52105603,Courier motorizado,4,sergio.cornejo@logiexpress_urbano.pe,3088.46,2026-01-08
+14,E0014,Ana,Cornejo Romero,11839364,Conductor de reparto,2,ana.cornejo@logiexpress_urbano.pe,1511.86,2026-02-15
+15,E0015,Sergio,Vargas Díaz,41004625,Despachador,3,sergio.vargas@logiexpress_urbano.pe,5105.71,2026-03-16
+16,E0016,Jorge,Rojas Torres,48735569,Auxiliar de almacén,2,jorge.rojas@logiexpress_urbano.pe,6182.95,2026-01-27
+17,E0017,María,Ponce Salazar,63819991,Coordinador de ruta,1,maría.ponce@logiexpress_urbano.pe,,2026-02-07
+18,E0018,Álvaro,Huamán Torres,95478401,Jefe de operaciones,2,álvaro.huamán@logiexpress_urbano.pe,2750.57,2026-02-07
+19,E0019,Paola,Romero Espinoza,80903659,Courier motorizado,6,paola.romero@logiexpress_urbano.pe,3483.56,2026-03-05
+20,E0020,Natalia,Romero Lévano,76246358,Conductor de reparto,4,natalia.romero@logiexpress_urbano.pe,4891.87,2026-03-13
+21,E0021,María,Ponce Cornejo,69365537,Despachador,5,maría.ponce@logiexpress_urbano.pe,4574.94,2026-02-05
+22,E0022,Diego,Sánchez Ríos,79177457,Auxiliar de almacén,4,diego.sánchez@logiexpress_urbano.pe,,2026-02-14
+23,E0023,Carlos,Vargas Mendoza,50479238,Coordinador de ruta,5,carlos.vargas@logiexpress_urbano.pe,,2026-01-15
+24,E0024,Bruno,Romero Vargas,37115528,Jefe de operaciones,1,bruno.romero@logiexpress_urbano.pe,1673.98,2026-02-04
+25,E0025,Carlos,Villanueva Quispe,93836884,Courier motorizado,6,carlos.villanueva@logiexpress_urbano.pe,5902.24,2026-03-21
+26,E0026,Sofía,Gutiérrez Bautista,68320784,Conductor de reparto,2,sofía.gutiérrez@logiexpress_urbano.pe,,2026-01-19
+27,E0027,Manuel,Cornejo Gutiérrez,61700700,Despachador,5,manuel.cornejo@logiexpress_urbano.pe,4771.64,2026-02-11
+28,E0028,Daniela,Ponce Huamán,87809161,Auxiliar de almacén,2,daniela.ponce@logiexpress_urbano.pe,3789.61,2026-03-18
+29,E0029,Carmen,Palomino Chávez,22915687,Coordinador de ruta,3,carmen.palomino@logiexpress_urbano.pe,4921.53,2026-01-03
+30,E0030,Elena,Paredes Romero,77170941,Jefe de operaciones,4,elena.paredes@logiexpress_urbano.pe,,2026-03-22
+31,E0031,Víctor,Aguirre Sánchez,32246758,Courier motorizado,3,víctor.aguirre@logiexpress_urbano.pe,3959.36,2026-03-27
+32,E0032,Daniela,Lévano Huamán,92483567,Conductor de reparto,5,daniela.lévano@logiexpress_urbano.pe,1935.09,2026-03-25
+33,E0033,Claudia,Torres Vargas,97729479,Despachador,6,claudia.torres@logiexpress_urbano.pe,4426.13,2026-02-13
+34,E0034,Paola,Gutiérrez Ramos,39536114,Auxiliar de almacén,5,paola.gutiérrez@logiexpress_urbano.pe,3693.47,2026-03-01
+35,E0035,Milagros,Cornejo Ramos,13008168,Coordinador de ruta,2,milagros.cornejo@logiexpress_urbano.pe,4350.01,2026-03-01
+36,E0036,Bruno,Cruz Villanueva,31345041,Jefe de operaciones,5,bruno.cruz@logiexpress_urbano.pe,2664.36,2026-03-23
+37,E0037,Diego,Ramos Bautista,39908000,Courier motorizado,5,diego.ramos@logiexpress_urbano.pe,5155.57,2026-03-05
+38,E0038,Sofía,Ponce Cruz,36229829,Conductor de reparto,5,sofía.ponce@logiexpress_urbano.pe,5811.92,2026-01-03
+39,E0039,Melissa,Chávez Castillo,67395461,Despachador,6,melissa.chávez@logiexpress_urbano.pe,4560.24,2026-01-16
+40,E0040,Carmen,Lévano Salazar,56115308,Auxiliar de almacén,4,carmen.lévano@logiexpress_urbano.pe,5065.9,2026-01-17

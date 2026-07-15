@@ -1,0 +1,209 @@
+id_cliente,codigo_cliente,tipo_documento,num_documento,nombres,apellidos,correo,telefono,distrito,segmento,fecha_registro,promedio_notas
+1,C0001,DNI,79477928,Sergio,Rojas Villanueva,sergio1@correo.com,998349001,San Miguel,Pregrado,2026-04-19,13.2
+2,C0002,RUC,75043239,Patricia,Villanueva Palomino,patricia2@correo.com,989831292,Independencia,Posgrado,2026-02-24,17.7
+3,C0003,DNI,28129022,Carlos,Cornejo Salazar,carlos3@correo.com,949764105,Comas,Educación continua,2026-01-18,17.1
+4,C0004,DNI,17389193,Raúl,Ponce Torres,,914979495,San Borja,Intercambio,2026-02-05,9.4
+5,C0005,CE,25496780,Sergio,Huamán Lévano,sergio5@correo.com,973470436,La Molina,Pregrado,2026-04-18,16.8
+6,C0006,DNI,48838894,Elena,Palomino Rivera,elena6@correo.com,946013420,Villa El Salvador,Posgrado,2026-03-11,15.6
+7,C0007,DNI,49035554,Diego,Palomino Lévano,diego7@correo.com,957056000,Chorrillos,Educación continua,2026-02-04,12.7
+8,C0008,DNI,98799066,Andrés,Zevallos Ramos,andrés8@correo.com,984850818,Surco,Intercambio,2026-02-03,19.3
+9,C0009,DNI,45712586,Jorge,Paredes Palomino,jorge9@correo.com,956010077,Miraflores,Pregrado,2026-05-17,12.3
+10,C0010,DNI,77857007,Iván,Sánchez Vargas,iván10@correo.com,997460262,Lince,Posgrado,2026-05-20,13.7
+11,C0011,DNI,67629361,Melissa,Romero Lévano,melissa11@correo.com,919695383,Chorrillos,Educación continua,2026-03-11,15.2
+12,C0012,RUC,21025181,Carlos,Lévano Flores,carlos12@correo.com,977212095,Callao,Intercambio,2026-05-28,13.9
+13,C0013,DNI,32848759,Julia,Cornejo Espinoza,,946448784,Rímac,Pregrado,2026-03-15,14.8
+14,C0014,DNI,65637863,Víctor,Ponce Ramos,víctor14@correo.com,966062264,La Molina,Posgrado,2026-03-28,15.6
+15,C0015,RUC,26508857,Víctor,Quispe Cruz,víctor15@correo.com,926217716,Rímac,Educación continua,2026-03-06,11.3
+16,C0016,DNI,20243762,Ana,Chávez Lévano,ana16@correo.com,927269280,Lince,Intercambio,2026-01-10,14.7
+17,C0017,DNI,10892488,Carlos,Díaz Zevallos,carlos17@correo.com,934020940,Callao,Pregrado,2026-05-04,13.2
+18,C0018,DNI,577543,Carlos,Torres Rojas,carlos18@correo.com,912553883,Lince,Posgrado,2026-02-24,11.2
+19,C0019,DNI,48655153,Melissa,Flores Gutiérrez,melissa19@correo.com,980102146,San Borja,Educación continua,2026-05-16,12.4
+20,C0020,CE,832288,Melissa,Gutiérrez Romero,melissa20@correo.com,942377544,Chorrillos,Intercambio,2026-05-09,8.9
+21,C0021,CE,97310152,Verónica,Flores Paredes,verónica21correo.com,942794974,San Borja,Pregrado,2026-01-27,12.7
+22,C0022,DNI,61558537,Álvaro,Flores Ponce,álvaro22@correo.com,918590774,San Juan de Lurigancho,Posgrado,2026-02-22,18.7
+23,C0023,DNI,74388603,Melissa,Sánchez Cornejo,melissa23@correo.com,957945915,Independencia,Educación continua,2026-03-13,16.4
+24,C0024,DNI,62481216,Daniela,Ninaquispe Espinoza,daniela24@correo.com,924206352,Miraflores,Intercambio,2026-01-03,11.0
+25,C0025,RUC,71429788,Daniela,Castillo Huamán,daniela25@correo.com,968438003,San Miguel,Pregrado,2026-04-11,8.5
+26,C0026,DNI,74507425,Karla,Quispe Ninaquispe,karla26@correo.com,984319116,Ate,Posgrado,2026-05-22,15.2
+27,C0027,DNI,89378644,Rosa,Mendoza Gutiérrez,rosa27@correo.com,942624335,Chorrillos,Educación continua,2026-04-09,13.7
+28,C0028,DNI,78878275,Ricardo,Romero Cárdenas,ricardo28@correo.com,921665541,Callao,Intercambio,2026-03-18,9.7
+29,C0029,DNI,83586293,Álvaro,Mendoza Romero,álvaro29@correo.com,969816980,Rímac,Pregrado,2026-01-01,12.3
+30,C0030,DNI,97504531,Gabriela,Aguirre Sánchez,gabriela30@correo.com,917319426,Callao,Posgrado,2026-05-10,15.4
+31,C0031,CE,97246595,Melissa,Ríos Castillo,melissa31@correo.com,991934920,Rímac,Educación continua,2026-03-20,15.0
+32,C0032,DNI,89799886,Elena,Espinoza Torres,elena32@correo.com,998054775,Independencia,Intercambio,2026-05-15,19.5
+33,C0033,CE,84072312,Andrés,Ninaquispe Ríos,andrés33@correo.com,957708943,Rímac,Pregrado,2026-05-27,19.0
+34,C0034,RUC,82749767,Iván,Quispe Palomino,iván34@correo.com,940185301,Chorrillos,Posgrado,2026-01-04,12.6
+35,C0035,CE,29479903,Paola,Chávez Romero,paola35@correo.com,930143390,Rímac,Educación continua,2026-04-15,12.2
+36,C0036,DNI,54682953,Paola,Ninaquispe Lévano,paola36@correo.com,933683246,La Molina,Intercambio,2026-01-16,11.9
+37,C0037,DNI,16810861,Milagros,Chávez Ramos,milagros37@correo.com,924043803,Villa El Salvador,Pregrado,2026-04-11,16.3
+38,C0038,DNI,27765092,Miguel,Espinoza Quispe,miguel38@correo.com,939520339,San Borja,Posgrado,2026-03-16,15.3
+39,C0039,DNI,59329254,Elena,Gutiérrez Flores,elena39@correo.com,984811158,Villa El Salvador,Educación continua,2026-03-08,9.2
+40,C0040,DNI,10772095,Lucía,Cruz Torres,lucía40@correo.com,918416154,Chorrillos,Intercambio,2026-01-23,12.0
+41,C0041,CE,38767515,Paola,Vargas Gutiérrez,paola41correo.com,920077055,Chorrillos,Pregrado,2026-05-25,12.1
+42,C0042,DNI,16544570,Hugo,Flores Villanueva,hugo42@correo.com,993034896,Ate,Posgrado,2026-03-07,11.7
+43,C0043,RUC,20064246,Miguel,Quispe Rojas,miguel43@correo.com,918710813,Los Olivos,Educación continua,2026-03-13,10.2
+44,C0044,RUC,96250945,Carlos,Paredes Ramos,carlos44@correo.com,979728776,Chorrillos,Intercambio,2026-01-25,11.7
+45,C0045,DNI,91124561,Iván,Sánchez Salazar,iván45@correo.com,970053509,Comas,Pregrado,2026-05-21,8.6
+46,C0046,DNI,159994,Ricardo,Quispe Mendoza,ricardo46@correo.com,912391148,Breña,Posgrado,2026-01-03,8.4
+47,C0047,RUC,19809994,Milagros,Espinoza Ponce,milagros47@correo.com,942443221,Comas,Educación continua,2026-03-09,19.6
+48,C0048,DNI,838469,Karla,Palomino Espinoza,karla48@correo.com,950338533,Villa El Salvador,Intercambio,2026-05-08,15.4
+49,C0049,DNI,94908983,Álvaro,Espinoza Villanueva,álvaro49@correo.com,,Breña,Pregrado,2026-03-28,14.2
+50,C0050,DNI,33860702,Hugo,Palomino Mendoza,hugo50@correo.com,946407527,San Miguel,Posgrado,2026-03-09,17.7
+51,C0051,DNI,47915959,Elena,Romero Huamán,elena51@correo.com,917631571,Callao,Educación continua,2026-01-18,14.1
+52,C0052,CE,38216440,Lucía,Salazar Villanueva,lucía52@correo.com,990347216,Villa El Salvador,Intercambio,2026-01-23,16.8
+53,C0053,CE,30262794,Hugo,Bautista Bautista,hugo53@correo.com,968850193,Ate,Pregrado,2026-04-12,18.9
+54,C0054,DNI,41967237,Karla,Rojas Bautista,karla54@correo.com,993871168,San Juan de Lurigancho,Posgrado,2026-01-25,17.4
+55,C0055,RUC,25198754,Bruno,Mendoza Sánchez,bruno55@correo.com,997923816,Chorrillos,Educación continua,2026-05-22,15.7
+56,C0056,CE,99300167,Bruno,Ponce Ramos,bruno56@correo.com,997612362,Ate,Intercambio,2026-01-08,8.5
+57,C0057,DNI,58452817,Iván,Zevallos Bautista,iván57@correo.com,985124776,La Molina,Pregrado,2026-01-06,13.7
+58,C0058,DNI,59146560,Sofía,Rojas Lévano,sofía58correo.com,933257435,San Miguel,Posgrado,2026-05-04,11.1
+59,C0059,DNI,21568446,José,Rojas Lévano,,974561384,,Educación continua,2026-05-15,12.3
+60,C0060,DNI,81833244,Ricardo,Torres Castillo,ricardo60correo.com,933926275,San Miguel,Intercambio,2026-04-16,11.5
+61,C0061,CE,39113682,María,Ríos Chávez,maría61@correo.com,926131723,La Molina,Pregrado,2026-03-08,13.9
+62,C0062,DNI,93771449,Daniela,Flores Gutiérrez,daniela62@correo.com,944905677,Breña,Posgrado,2026-03-05,17.2
+63,C0063,DNI,23656350,Miguel,Zevallos Ríos,miguel63@correo.com,960873473,Independencia,Educación continua,2026-05-21,17.0
+64,C0064,DNI,31040355,Álvaro,Zevallos Cornejo,álvaro64@correo.com,929094906,La Molina,Intercambio,2026-05-11,13.7
+65,C0065,DNI,45904485,Isabel,Salazar Espinoza,isabel65@correo.com,920896675,Comas,Pregrado,2026-05-15,15.2
+66,C0066,DNI,26472395,Natalia,Villanueva Aguirre,natalia66@correo.com,959940509,La Molina,Posgrado,2026-01-12,11.9
+67,C0067,DNI,94219603,Hugo,Díaz Vargas,hugo67@correo.com,,Comas,Educación continua,2026-02-18,18.5
+68,C0068,DNI,14435964,Julia,Paredes Flores,julia68@correo.com,951901443,Ate,Intercambio,2026-01-18,16.0
+69,C0069,DNI,91325225,María,Quispe Quispe,maría69@correo.com,943438054,Chorrillos,Pregrado,2026-03-09,12.1
+70,C0070,DNI,13244537,Álvaro,Ninaquispe Palomino,álvaro70correo.com,993274198,La Molina,Posgrado,2026-05-26,15.9
+71,C0071,DNI,78402712,Daniela,Ríos Mendoza,daniela71@correo.com,935444785,,Educación continua,2026-02-16,15.3
+72,C0072,DNI,74328443,Pamela,Vargas Aguirre,pamela72@correo.com,996159512,Ate,Intercambio,2026-05-26,19.3
+73,C0073,DNI,34136006,Claudia,Bautista Palomino,,919144740,San Miguel,Pregrado,2026-03-07,9.8
+74,C0074,RUC,61197465,Claudia,Rojas Aguirre,claudia74@correo.com,964892419,Independencia,Posgrado,2026-01-11,13.0
+75,C0075,DNI,28134998,Isabel,Quispe Villanueva,isabel75@correo.com,,Los Olivos,Educación continua,2026-03-24,17.5
+76,C0076,DNI,43338438,Hugo,Romero Villanueva,,977034498,Los Olivos,Intercambio,2026-03-26,19.2
+77,C0077,RUC,87617204,Jorge,Villanueva Sánchez,jorge77@correo.com,915174333,Chorrillos,Pregrado,2026-02-27,18.2
+78,C0078,DNI,51093200,Elena,Quispe Cárdenas,elena78@correo.com,,La Molina,Posgrado,2026-05-15,10.6
+79,C0079,RUC,26016481,Diego,Cruz Vargas,diego79@correo.com,939013360,San Miguel,Educación continua,2026-05-14,11.5
+80,C0080,DNI,31376253,Gabriela,Ponce Palomino,gabriela80@correo.com,933964374,Callao,Intercambio,2026-05-08,13.6
+81,C0081,CE,10156760,Verónica,Castillo Romero,verónica81@correo.com,977128216,San Miguel,Pregrado,2026-03-01,19.0
+82,C0082,RUC,60564946,Pedro,Villanueva Rivera,pedro82@correo.com,919546903,,Posgrado,2026-05-21,15.4
+83,C0083,CE,19647313,Ana,Cárdenas Huamán,ana83@correo.com,,Lince,Educación continua,2026-04-09,8.8
+84,C0084,CE,62820292,Álvaro,Castillo Villanueva,álvaro84@correo.com,942236630,Surco,Intercambio,2026-03-21,14.4
+85,C0085,DNI,74077371,Bruno,Chávez Ríos,bruno85@correo.com,983762577,Breña,Pregrado,2026-01-03,9.0
+86,C0086,DNI,90606229,Óscar,Romero Ramos,óscar86@correo.com,976307525,La Molina,Posgrado,2026-02-12,9.1
+87,C0087,RUC,47637067,Luis,Zevallos Flores,luis87correo.com,977497879,Surco,Educación continua,2026-03-18,18.9
+88,C0088,CE,78379475,Gabriela,Salazar Salazar,gabriela88@correo.com,964776319,La Molina,Intercambio,2026-02-16,18.3
+89,C0089,DNI,54756849,Raúl,Espinoza Ponce,raúl89@correo.com,977755967,Los Olivos,Pregrado,2026-04-09,18.1
+90,C0090,CE,87497066,Raúl,Gutiérrez Huamán,raúl90@correo.com,983271560,Miraflores,Posgrado,2026-04-19,18.7
+91,C0091,DNI,28087194,Ricardo,Ninaquispe Sánchez,ricardo91@correo.com,985492348,Rímac,Educación continua,2026-03-11,16.0
+92,C0092,RUC,92290873,Víctor,Cornejo Ponce,víctor92@correo.com,944016890,Villa El Salvador,Intercambio,2026-05-13,9.2
+93,C0093,DNI,80555993,Andrés,Castillo Espinoza,andrés93@correo.com,935241889,Callao,Pregrado,2026-04-17,17.1
+94,C0094,DNI,34752288,Julia,Salazar Huamán,julia94@correo.com,,La Molina,Posgrado,2026-02-24,14.2
+95,C0095,CE,55316520,Patricia,Sánchez Gutiérrez,patricia95correo.com,921972674,Chorrillos,Educación continua,2026-02-03,11.4
+96,C0096,CE,21983494,Pedro,Aguirre Cruz,pedro96@correo.com,,,Intercambio,2026-05-10,17.9
+97,C0097,DNI,72270251,Miguel,Cruz Torres,miguel97@correo.com,961031138,Independencia,Pregrado,2026-02-28,8.7
+98,C0098,CE,65040517,Karla,Huamán Rivera,karla98@correo.com,943660165,Comas,Posgrado,2026-02-14,10.4
+99,C0099,DNI,82244963,Melissa,Torres Torres,melissa99@correo.com,973233167,Ate,Educación continua,2026-03-05,16.2
+100,C0100,DNI,38204752,Raúl,Ramos Ponce,raúl100@correo.com,930700847,Los Olivos,Intercambio,2026-04-28,19.4
+101,C0101,RUC,50885884,Fernando,Vargas Aguirre,fernando101@correo.com,983726595,Independencia,Pregrado,2026-05-04,17.7
+102,C0102,DNI,82292913,Bruno,Díaz Zevallos,bruno102@correo.com,979780978,San Miguel,Posgrado,2026-04-13,12.8
+103,C0103,CE,79100782,Hugo,Castillo Rojas,hugo103@correo.com,922967893,,Educación continua,2026-01-04,13.2
+104,C0104,CE,91257783,María,Palomino Palomino,maría104@correo.com,931507295,Breña,Intercambio,2026-02-27,19.1
+105,C0105,DNI,46646933,Gabriela,Vargas Ponce,gabriela105@correo.com,986072457,Villa El Salvador,Pregrado,2026-01-04,16.9
+106,C0106,DNI,32506802,Diego,Espinoza Rojas,diego106@correo.com,913716018,Lince,Posgrado,2026-04-18,15.6
+107,C0107,DNI,23195067,Daniela,Cornejo Bautista,daniela107@correo.com,997552340,San Borja,Educación continua,2026-03-18,16.5
+108,C0108,DNI,25659525,Álvaro,Lévano Ramos,álvaro108@correo.com,925333973,Surco,Intercambio,2026-04-24,18.5
+109,C0109,CE,83221686,Elena,Mendoza Villanueva,elena109@correo.com,,Los Olivos,Pregrado,2026-02-24,18.6
+110,C0110,DNI,26749780,Ana,Rivera Díaz,ana110correo.com,916111222,,Posgrado,2026-01-13,19.6
+111,C0111,RUC,22092926,Manuel,Ríos Cruz,,992034891,,Educación continua,2026-02-21,12.3
+112,C0112,CE,95477224,Verónica,Gutiérrez Rivera,verónica112@correo.com,927878301,San Borja,Intercambio,2026-02-20,8.3
+113,C0113,DNI,32632910,Jorge,Romero Torres,jorge113@correo.com,948562881,Ate,Pregrado,2026-01-17,8.6
+114,C0114,CE,25512495,Pamela,Torres Huamán,pamela114@correo.com,998721851,San Juan de Lurigancho,Posgrado,2026-02-11,15.1
+115,C0115,RUC,819485,Iván,Gutiérrez Espinoza,iván115@correo.com,937926754,Comas,Educación continua,2026-04-26,12.4
+116,C0116,CE,60458110,Pamela,Zevallos Paredes,pamela116@correo.com,944456840,Surco,Intercambio,2026-04-19,19.7
+117,C0117,RUC,58956013,Carlos,Palomino Paredes,carlos117@correo.com,945135264,Ate,Pregrado,2026-04-21,15.9
+118,C0118,DNI,75402443,Natalia,Palomino Salazar,,,Miraflores,Posgrado,2026-03-02,18.2
+119,C0119,DNI,95375185,Patricia,Sánchez Ponce,patricia119@correo.com,,Villa El Salvador,Educación continua,2026-04-18,15.1
+120,C0120,RUC,44685911,Rosa,Huamán Lévano,rosa120correo.com,989089684,San Juan de Lurigancho,Intercambio,2026-03-16,11.6
+121,C0121,CE,63833649,Julia,Aguirre Cruz,julia121@correo.com,983383382,Comas,Pregrado,2026-05-01,18.4
+122,C0122,DNI,50465288,Elena,Espinoza Torres,elena122@correo.com,,Los Olivos,Posgrado,2026-01-13,9.1
+123,C0123,DNI,59440138,Ricardo,Quispe Castillo,ricardo123@correo.com,974330035,Callao,Educación continua,2026-05-24,16.7
+124,C0124,CE,61951612,Sofía,Vargas Aguirre,sofía124@correo.com,948355426,Comas,Intercambio,2026-02-16,17.2
+125,C0125,DNI,98515852,Víctor,Sánchez Lévano,víctor125@correo.com,981261255,Callao,Pregrado,2026-01-04,13.1
+126,C0126,RUC,209473,Iván,Aguirre Zevallos,iván126@correo.com,927294382,San Miguel,Posgrado,2026-02-27,9.4
+127,C0127,RUC,26969076,María,Rivera Ponce,maría127@correo.com,940120168,Ate,Educación continua,2026-02-13,12.1
+128,C0128,DNI,17356127,Claudia,Ríos Huamán,claudia128@correo.com,935808274,San Borja,Intercambio,2026-04-21,13.1
+129,C0129,RUC,27621135,Sergio,Castillo Paredes,sergio129@correo.com,984098655,Breña,Pregrado,2026-03-28,13.3
+130,C0130,DNI,61319748,Jorge,Palomino Ponce,jorge130@correo.com,915812868,Los Olivos,Posgrado,2026-04-26,15.2
+131,C0131,DNI,22943607,Carlos,Cornejo Zevallos,carlos131@correo.com,992996752,Surco,Educación continua,2026-02-28,13.9
+132,C0132,RUC,48215342,Karla,Ponce Romero,karla132@correo.com,930083553,Comas,Intercambio,2026-02-04,11.3
+133,C0133,RUC,11710863,Verónica,Flores Ninaquispe,verónica133@correo.com,970908965,San Miguel,Pregrado,2026-01-24,14.3
+134,C0134,DNI,30991590,Ana,Mendoza Paredes,ana134correo.com,913274406,San Miguel,Posgrado,2026-01-17,17.5
+135,C0135,DNI,71183851,Miguel,Ríos Cruz,miguel135@correo.com,910407888,Lince,Educación continua,2026-01-21,17.1
+136,C0136,CE,10942712,Óscar,Chávez Rivera,óscar136@correo.com,955862505,Rímac,Intercambio,2026-04-15,11.7
+137,C0137,CE,41418087,Diego,Huamán Salazar,diego137@correo.com,921562715,San Juan de Lurigancho,Pregrado,2026-01-11,19.3
+138,C0138,DNI,99364088,Manuel,Flores Ramos,manuel138correo.com,971068565,Surco,Posgrado,2026-05-16,15.2
+139,C0139,RUC,542091,Melissa,Palomino Villanueva,melissa139@correo.com,963883582,Lince,Educación continua,2026-03-10,18.5
+140,C0140,CE,74455381,Karla,Cruz Vargas,karla140@correo.com,921567778,Surco,Intercambio,2026-04-22,20.0
+141,C0141,DNI,88647732,Iván,Castillo Ponce,iván141@correo.com,918467485,San Borja,Pregrado,2026-01-24,14.1
+142,C0142,DNI,25098917,Julia,Ponce Huamán,julia142@correo.com,950263962,Chorrillos,Posgrado,2026-02-08,12.4
+143,C0143,DNI,25414944,Renzo,Gutiérrez Paredes,renzo143@correo.com,,Surco,Educación continua,2026-03-20,10.4
+144,C0144,DNI,83404349,Andrés,Paredes Lévano,,982322340,Rímac,Intercambio,2026-05-13,16.6
+145,C0145,RUC,29925748,Sofía,Salazar Lévano,sofía145@correo.com,935323379,Rímac,Pregrado,2026-03-20,16.5
+146,C0146,DNI,17435859,Renzo,Sánchez Ramos,renzo146correo.com,977694625,Callao,Posgrado,2026-02-03,9.3
+147,C0147,RUC,939307,Raúl,Huamán Flores,raúl147@correo.com,962489163,Lince,Educación continua,2026-01-09,14.3
+148,C0148,DNI,66304032,Carlos,Paredes Aguirre,carlos148@correo.com,990228371,San Miguel,Intercambio,2026-04-10,9.0
+149,C0149,DNI,38680152,Verónica,Díaz Villanueva,verónica149@correo.com,992094646,Lince,Pregrado,2026-04-11,13.2
+150,C0150,RUC,10875791,María,Palomino Gutiérrez,maría150@correo.com,944350149,San Borja,Posgrado,2026-03-01,19.5
+151,C0151,RUC,86788336,Lucía,Díaz Aguirre,lucía151@correo.com,998258547,Chorrillos,Educación continua,2026-05-14,13.1
+152,C0152,CE,84064060,Carlos,Salazar Ríos,carlos152@correo.com,994342972,Chorrillos,Intercambio,2026-05-22,12.6
+153,C0153,DNI,69616312,Gabriela,Torres Gutiérrez,gabriela153@correo.com,985493141,Comas,Pregrado,2026-04-12,14.3
+154,C0154,CE,55865582,Patricia,Cornejo Rivera,patricia154@correo.com,,Surco,Posgrado,2026-02-27,13.8
+155,C0155,RUC,75563357,Hugo,Gutiérrez Torres,hugo155@correo.com,954702596,Lince,Educación continua,2026-05-12,16.1
+156,C0156,DNI,54315886,Ana,Gutiérrez Ríos,,911223334,Los Olivos,Intercambio,2026-04-12,11.9
+157,C0157,RUC,75028312,Miguel,Quispe Romero,miguel157@correo.com,977769101,San Borja,Pregrado,2026-03-10,19.5
+158,C0158,CE,605708,María,Zevallos Ramos,,962388033,San Juan de Lurigancho,Posgrado,2026-04-07,13.9
+159,C0159,CE,36289845,Fernando,Flores Torres,fernando159@correo.com,957538933,Surco,Educación continua,2026-05-15,16.4
+160,C0160,RUC,27050631,José,Castillo Flores,josé160@correo.com,929497796,San Borja,Intercambio,2026-05-01,13.4
+161,C0161,DNI,49402485,Julia,Rivera Vargas,julia161@correo.com,919165723,Rímac,Pregrado,2026-03-27,16.2
+162,C0162,DNI,78802445,Natalia,Villanueva Huamán,natalia162@correo.com,978068535,Los Olivos,Posgrado,2026-04-26,8.7
+163,C0163,DNI,94738441,Melissa,Ponce Cárdenas,melissa163@correo.com,994651637,La Molina,Educación continua,2026-04-18,12.2
+164,C0164,DNI,98201526,Gabriela,Torres Rivera,gabriela164@correo.com,943972196,Callao,Intercambio,2026-05-17,8.4
+165,C0165,RUC,49602735,Melissa,Torres Bautista,melissa165@correo.com,935661854,San Juan de Lurigancho,Pregrado,2026-01-21,17.0
+166,C0166,DNI,65151399,Sergio,Vargas Aguirre,sergio166@correo.com,930986219,Surco,Posgrado,2026-02-25,10.3
+167,C0167,DNI,14868484,Lucía,Ríos Aguirre,lucía167@correo.com,,Chorrillos,Educación continua,2026-02-20,18.4
+168,C0168,DNI,59507642,Raúl,Castillo Lévano,raúl168@correo.com,924655139,Rímac,Intercambio,2026-03-01,9.2
+169,C0169,DNI,36807110,Melissa,Castillo Flores,melissa169@correo.com,915911824,San Miguel,Pregrado,2026-02-08,12.8
+170,C0170,DNI,93976813,Carmen,Ponce Sánchez,,914087274,Lince,Posgrado,2026-01-12,8.1
+171,C0171,DNI,11704249,Gabriela,Quispe Espinoza,gabriela171@correo.com,910780604,Villa El Salvador,Educación continua,2026-03-03,16.7
+172,C0172,DNI,22611134,Isabel,Paredes Chávez,isabel172@correo.com,,Chorrillos,Intercambio,2026-03-15,14.8
+173,C0173,RUC,65961150,Víctor,Vargas Zevallos,víctor173@correo.com,934552464,Independencia,Pregrado,2026-05-26,17.6
+174,C0174,DNI,24678002,Carlos,Cruz Paredes,carlos174@correo.com,983167835,Chorrillos,Posgrado,2026-01-22,10.2
+175,C0175,DNI,74638684,Claudia,Cruz Cárdenas,claudia175@correo.com,924160504,Callao,Educación continua,2026-02-20,18.2
+176,C0176,CE,86381754,Lucía,Paredes Ninaquispe,lucía176@correo.com,932187276,Miraflores,Intercambio,2026-04-08,18.4
+177,C0177,CE,64267768,María,Rivera Espinoza,maría177@correo.com,998131066,Callao,Pregrado,2026-02-19,16.3
+178,C0178,CE,66726562,Julia,Rojas Rojas,julia178@correo.com,941395013,San Juan de Lurigancho,Posgrado,2026-04-15,16.2
+179,C0179,DNI,29955957,Carmen,Cornejo Salazar,carmen179@correo.com,914699819,Chorrillos,Educación continua,2026-04-04,18.5
+180,C0180,DNI,68727753,Miguel,Rojas Huamán,,977393247,Callao,Intercambio,2026-05-08,11.8
+181,C0181,DNI,20449981,Sofía,Cornejo Chávez,sofía181@correo.com,920227195,Comas,Pregrado,2026-03-01,11.5
+182,C0182,DNI,90300324,Víctor,Lévano Ninaquispe,víctor182@correo.com,962697870,San Juan de Lurigancho,Posgrado,2026-05-12,10.2
+183,C0183,DNI,21051561,Gabriela,Cárdenas Salazar,gabriela183@correo.com,926753124,Surco,Educación continua,2026-01-08,13.0
+184,C0184,DNI,20359295,Melissa,Espinoza Ramos,melissa184@correo.com,944222640,La Molina,Intercambio,2026-04-19,10.0
+185,C0185,DNI,99060662,Iván,Paredes Ponce,iván185@correo.com,975893650,Chorrillos,Pregrado,2026-05-27,16.9
+186,C0186,RUC,59469757,Diego,Bautista Ninaquispe,diego186@correo.com,986319950,Miraflores,Posgrado,2026-01-13,16.2
+187,C0187,RUC,412780,Sofía,Ninaquispe Romero,,958502097,Surco,Educación continua,2026-03-26,17.2
+188,C0188,RUC,65395742,Óscar,Aguirre Ninaquispe,óscar188@correo.com,949558935,,Intercambio,2026-01-21,8.1
+189,C0189,RUC,93753636,Gabriela,Ninaquispe Díaz,gabriela189@correo.com,997425455,Chorrillos,Pregrado,2026-01-18,12.2
+190,C0190,DNI,53172451,Milagros,Zevallos Flores,milagros190@correo.com,946754144,Miraflores,Posgrado,2026-04-27,19.2
+191,C0191,RUC,91536040,María,Salazar Villanueva,maría191@correo.com,,,Educación continua,2026-01-22,16.4
+192,C0192,CE,19312114,Óscar,Ramos Ramos,óscar192@correo.com,946927408,Chorrillos,Intercambio,2026-05-27,13.4
+193,C0193,DNI,78179515,Karla,Chávez Ríos,karla193@correo.com,974218705,San Miguel,Pregrado,2026-04-04,15.5
+194,C0194,DNI,56290287,Óscar,Villanueva Rivera,óscar194@correo.com,985526635,Rímac,Posgrado,2026-03-15,10.0
+195,C0195,DNI,28004681,Óscar,Sánchez Ramos,,988428710,San Juan de Lurigancho,Educación continua,2026-02-24,12.5
+196,C0196,DNI,80591953,Rosa,Espinoza Gutiérrez,rosa196@correo.com,973367067,San Juan de Lurigancho,Intercambio,2026-04-06,9.2
+197,C0197,DNI,67515745,Raúl,Rojas Paredes,raúl197@correo.com,983671433,Surco,Pregrado,2026-01-25,17.9
+198,C0198,DNI,57308167,Raúl,Mendoza Paredes,raúl198@correo.com,923255685,San Borja,Posgrado,2026-05-19,10.2
+199,C0199,DNI,86797168,Ana,Villanueva Rojas,ana199@correo.com,957693575,Ate,Educación continua,2026-03-01,19.4
+200,C0200,DNI,55945792,Melissa,Mendoza Castillo,melissa200@correo.com,923618430,San Borja,Intercambio,2026-03-01,12.6
+201,C0201,RUC,20947342,Iván,Aguirre Zevallos,iván126@correo.com,927294382,San Miguel,Pregrado,2026-02-27,9.4
+202,C0202,DNI,47915959,Elena,Romero Huamán,elena51@correo.com,917631571,Callao,Posgrado,2026-01-18,14.1
+203,C0203,DNI,32632910,Jorge,Romero Torres,jorge113@correo.com,948562881,Ate,Educación continua,2026-01-17,8.6
+204,C0204,DNI,20449981,Sofía,Cornejo Chávez,sofía181@correo.com,920227195,Comas,Intercambio,2026-03-01,11.5
+205,C0205,DNI,91325225,María,Quispe Quispe,maría69@correo.com,943438054,Chorrillos,Pregrado,2026-03-09,12.1
+206,C0206,DNI,59146560,Sofía,Rojas Lévano,sofía58@correo.com,933257435,San Miguel,Posgrado,2026-05-04,11.1
+207,C0207,DNI,98799066,Andrés,Zevallos Ramos,andrés8@correo.com,984850818,Surco,Educación continua,2026-02-03,19.3
+208,C0208,DNI,22611134,Isabel,Paredes Chávez,isabel172@correo.com,,Chorrillos,Intercambio,2026-03-15,14.8

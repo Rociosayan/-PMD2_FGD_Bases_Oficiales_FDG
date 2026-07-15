@@ -1,0 +1,209 @@
+id_cliente,codigo_cliente,tipo_documento,num_documento,nombres,apellidos,correo,telefono,distrito,segmento,fecha_registro,tipo_tramite
+1,C0001,DNI,85470881,Melissa,Sánchez Ponce,melissa1@correo.com,955408387,La Molina,Vecino,2026-02-17,Constancia
+2,C0002,DNI,62708944,Gabriela,Zevallos Palomino,gabriela2@correo.com,934041032,Callao,Comerciante,2026-01-14,Permiso
+3,C0003,DNI,99085352,Carlos,Ninaquispe Quispe,,,Lince,Propietario,2026-02-24,Licencia
+4,C0004,CE,32331973,Elena,Díaz Quispe,elena4@correo.com,946467224,Los Olivos,Representante legal,2026-05-01,Reclamo
+5,C0005,DNI,16884609,Diego,Sánchez Rojas,diego5@correo.com,991943351,Los Olivos,Vecino,2026-02-10,Certificado
+6,C0006,RUC,45591950,Ana,Espinoza Ponce,ana6@correo.com,918582836,Los Olivos,Comerciante,2026-05-02,Certificado
+7,C0007,RUC,92182678,Claudia,Huamán Ríos,claudia7@correo.com,998388693,Surco,Propietario,2026-02-04,Licencia
+8,C0008,DNI,83601236,Gabriela,Villanueva Romero,gabriela8@correo.com,959692333,Miraflores,Representante legal,2026-05-09,Licencia
+9,C0009,DNI,50311790,Álvaro,Ponce Díaz,álvaro9@correo.com,963118113,Miraflores,Vecino,2026-02-22,Permiso
+10,C0010,DNI,58643108,Víctor,Gutiérrez Romero,víctor10@correo.com,941642202,Rímac,Comerciante,2026-03-03,Partida
+11,C0011,CE,67726050,Melissa,Ninaquispe Gutiérrez,melissa11@correo.com,972488709,San Juan de Lurigancho,Propietario,2026-01-16,Licencia
+12,C0012,CE,74335356,Isabel,Flores Ponce,isabel12correo.com,916031414,,Representante legal,2026-01-05,Partida
+13,C0013,DNI,21429092,Elena,Rivera Bautista,elena13@correo.com,921117785,La Molina,Vecino,2026-03-08,Reclamo
+14,C0014,CE,52961709,Óscar,Gutiérrez Espinoza,óscar14@correo.com,937627724,Rímac,Comerciante,2026-01-12,Reclamo
+15,C0015,DNI,420568,Julia,Mendoza Ponce,julia15@correo.com,984496628,Miraflores,Propietario,2026-03-08,Licencia
+16,C0016,DNI,913935,Sofía,Torres Quispe,sofía16@correo.com,914378988,San Miguel,Representante legal,2026-03-10,Reclamo
+17,C0017,RUC,60043618,Carmen,Zevallos Cárdenas,carmen17@correo.com,963437897,Independencia,Vecino,2026-04-21,Permiso
+18,C0018,CE,15054600,Diego,Huamán Ramos,diego18@correo.com,941183322,Rímac,Comerciante,2026-05-28,Certificado
+19,C0019,DNI,60059225,María,Paredes Mendoza,maría19@correo.com,952659470,La Molina,Propietario,2026-05-18,Constancia
+20,C0020,RUC,50779455,Paola,Salazar Huamán,paola20@correo.com,945812658,Surco,Representante legal,2026-02-19,Licencia
+21,C0021,CE,90013837,Pamela,Cruz Torres,pamela21@correo.com,951408591,La Molina,Vecino,2026-05-08,Permiso
+22,C0022,CE,33945186,María,Sánchez Rojas,maría22@correo.com,971716386,Comas,Comerciante,2026-03-22,Certificado
+23,C0023,CE,93589076,Elena,Gutiérrez Ponce,elena23@correo.com,982930266,Comas,Propietario,2026-03-26,Licencia
+24,C0024,CE,987916,Gabriela,Palomino Bautista,gabriela24@correo.com,971666650,Independencia,Representante legal,2026-01-04,Licencia
+25,C0025,DNI,31962187,Milagros,Paredes Lévano,milagros25@correo.com,953259737,La Molina,Vecino,2026-04-14,Partida
+26,C0026,DNI,56741099,Melissa,Torres Mendoza,melissa26@correo.com,952464858,Ate,Comerciante,2026-02-26,Permiso
+27,C0027,RUC,42440139,Claudia,Mendoza Paredes,claudia27@correo.com,940515743,La Molina,Propietario,2026-05-11,Licencia
+28,C0028,CE,72183292,Fernando,Cárdenas Chávez,fernando28@correo.com,964710424,Ate,Representante legal,2026-03-25,Licencia
+29,C0029,DNI,62912469,Lucía,Ríos Chávez,,990714851,Surco,Vecino,2026-05-10,Partida
+30,C0030,RUC,23689166,Manuel,Vargas Romero,manuel30@correo.com,915759775,San Miguel,Comerciante,2026-01-07,Certificado
+31,C0031,DNI,16613367,Julia,Huamán Cruz,julia31@correo.com,927712992,La Molina,Propietario,2026-04-18,Constancia
+32,C0032,CE,70739885,Verónica,Rivera Ríos,verónica32correo.com,920910435,Independencia,Representante legal,2026-04-25,Reclamo
+33,C0033,RUC,31531452,Ricardo,Cornejo Quispe,ricardo33@correo.com,961977400,Miraflores,Vecino,2026-03-25,Reclamo
+34,C0034,DNI,87849971,Diego,Díaz Rivera,diego34@correo.com,990217830,Miraflores,Comerciante,2026-04-28,Permiso
+35,C0035,DNI,99112661,Manuel,Ramos Flores,manuel35@correo.com,971325675,Surco,Propietario,2026-02-19,Licencia
+36,C0036,DNI,99865380,Jorge,Sánchez Rivera,jorge36@correo.com,,Surco,Representante legal,2026-04-05,Licencia
+37,C0037,DNI,745885,Víctor,Quispe Huamán,víctor37@correo.com,973271939,San Miguel,Vecino,2026-02-11,Reclamo
+38,C0038,DNI,77714252,Claudia,Ponce Quispe,claudia38@correo.com,974861152,,Comerciante,2026-04-05,Constancia
+39,C0039,DNI,90064737,Fernando,Sánchez Cruz,fernando39@correo.com,965525124,,Propietario,2026-02-17,Partida
+40,C0040,CE,72574199,Daniela,Lévano Torres,daniela40@correo.com,957528175,Breña,Representante legal,2026-01-16,Constancia
+41,C0041,DNI,19359899,Raúl,Gutiérrez Ninaquispe,raúl41@correo.com,911866165,Surco,Vecino,2026-02-14,Licencia
+42,C0042,CE,94276812,Álvaro,Ríos Rojas,álvaro42@correo.com,983972541,Ate,Comerciante,2026-02-26,Certificado
+43,C0043,CE,36337749,Elena,Castillo Huamán,elena43@correo.com,963455575,San Juan de Lurigancho,Propietario,2026-01-14,Constancia
+44,C0044,DNI,51374427,Ana,Chávez Romero,ana44@correo.com,916811991,San Miguel,Representante legal,2026-01-20,Certificado
+45,C0045,CE,31756393,Karla,Gutiérrez Bautista,karla45@correo.com,996373792,Villa El Salvador,Vecino,2026-05-20,Certificado
+46,C0046,DNI,44739136,Elena,Paredes Ponce,elena46@correo.com,968228608,San Miguel,Comerciante,2026-04-12,Permiso
+47,C0047,DNI,19785646,Pamela,Vargas Castillo,pamela47@correo.com,965286699,Callao,Propietario,2026-03-13,Partida
+48,C0048,DNI,81725541,Daniela,Chávez Cárdenas,daniela48@correo.com,942970644,San Borja,Representante legal,2026-02-18,Reclamo
+49,C0049,DNI,60540960,Rosa,Ramos Ponce,rosa49@correo.com,960762081,Ate,Vecino,2026-05-05,Partida
+50,C0050,RUC,70178580,Diego,Salazar Zevallos,diego50correo.com,971361378,La Molina,Comerciante,2026-05-10,Licencia
+51,C0051,DNI,90186857,Julia,Torres Rivera,julia51@correo.com,934059902,Breña,Propietario,2026-04-16,Permiso
+52,C0052,DNI,93780655,Iván,Palomino Vargas,iván52@correo.com,970632463,Rímac,Representante legal,2026-04-24,Reclamo
+53,C0053,DNI,12674498,María,Rivera Flores,maría53@correo.com,958911977,Callao,Vecino,2026-01-27,Certificado
+54,C0054,CE,98202892,Sofía,Bautista Cornejo,,983323960,Callao,Comerciante,2026-01-09,Reclamo
+55,C0055,CE,23005218,Daniela,Rivera Flores,daniela55@correo.com,981682878,Surco,Propietario,2026-02-16,Certificado
+56,C0056,CE,90531195,Iván,Mendoza Castillo,iván56@correo.com,945011324,Rímac,Representante legal,2026-03-10,Constancia
+57,C0057,DNI,63311753,Iván,Rojas Bautista,iván57@correo.com,943255412,San Miguel,Vecino,2026-04-11,Certificado
+58,C0058,DNI,20710474,Luis,Bautista Ponce,luis58@correo.com,914781199,Villa El Salvador,Comerciante,2026-03-05,Constancia
+59,C0059,DNI,41172341,Gabriela,Gutiérrez Bautista,gabriela59@correo.com,988376134,,Propietario,2026-03-16,Licencia
+60,C0060,CE,98653713,Karla,Díaz Torres,karla60@correo.com,964203245,Surco,Representante legal,2026-02-19,Partida
+61,C0061,DNI,93474319,Pedro,Cárdenas Zevallos,pedro61@correo.com,948286910,Miraflores,Vecino,2026-03-28,Partida
+62,C0062,CE,98139301,Andrés,Ríos Aguirre,andrés62@correo.com,960817807,Ate,Comerciante,2026-02-27,Licencia
+63,C0063,DNI,94134196,María,Lévano Cárdenas,maría63@correo.com,945280076,Independencia,Propietario,2026-01-09,Reclamo
+64,C0064,DNI,34409281,Pedro,Cárdenas Gutiérrez,pedro64@correo.com,985359074,Independencia,Representante legal,2026-02-13,Licencia
+65,C0065,CE,89010466,Patricia,Díaz Flores,patricia65@correo.com,996483681,Breña,Vecino,2026-05-04,Constancia
+66,C0066,RUC,68986050,Iván,Cruz Vargas,iván66@correo.com,976355847,Villa El Salvador,Comerciante,2026-04-16,Partida
+67,C0067,CE,67132644,Karla,Quispe Díaz,karla67@correo.com,,San Borja,Propietario,2026-02-16,Licencia
+68,C0068,DNI,55876478,Carmen,Mendoza Huamán,carmen68@correo.com,982494641,San Miguel,Representante legal,2026-05-05,Permiso
+69,C0069,DNI,70364603,Isabel,Espinoza Mendoza,isabel69@correo.com,969785176,Comas,Vecino,2026-03-09,Licencia
+70,C0070,RUC,840171,Ricardo,Torres Chávez,ricardo70@correo.com,912011060,San Borja,Comerciante,2026-05-24,Partida
+71,C0071,DNI,19987835,Karla,Rojas Romero,karla71@correo.com,991844647,Los Olivos,Propietario,2026-04-16,Permiso
+72,C0072,DNI,63819554,Sergio,Quispe Huamán,sergio72@correo.com,933842794,Comas,Representante legal,2026-01-27,Certificado
+73,C0073,DNI,65982161,Melissa,Mendoza Mendoza,melissa73@correo.com,987420334,Rímac,Vecino,2026-01-05,Permiso
+74,C0074,CE,84215133,Elena,Rivera Ríos,elena74@correo.com,946001993,Lince,Comerciante,2026-02-18,Constancia
+75,C0075,DNI,27977864,Óscar,Ponce Flores,óscar75@correo.com,953780702,Villa El Salvador,Propietario,2026-03-16,Licencia
+76,C0076,DNI,72751572,Álvaro,Cornejo Vargas,álvaro76@correo.com,983669012,Ate,Representante legal,2026-02-19,Constancia
+77,C0077,DNI,454298,Natalia,Cárdenas Cárdenas,natalia77@correo.com,982254453,San Juan de Lurigancho,Vecino,2026-04-01,Reclamo
+78,C0078,DNI,28436188,María,Romero Huamán,maría78@correo.com,,Independencia,Comerciante,2026-02-17,Permiso
+79,C0079,DNI,84793996,Andrés,Sánchez Flores,,,San Miguel,Propietario,2026-04-01,Certificado
+80,C0080,CE,66930461,Claudia,Torres Díaz,claudia80@correo.com,999238628,Lince,Representante legal,2026-02-03,Licencia
+81,C0081,RUC,37898425,Hugo,Rivera Quispe,hugo81@correo.com,977304492,San Borja,Vecino,2026-03-02,Reclamo
+82,C0082,DNI,90878769,Melissa,Villanueva Vargas,melissa82@correo.com,962902248,San Juan de Lurigancho,Comerciante,2026-04-22,Certificado
+83,C0083,DNI,45067802,Paola,Bautista Espinoza,paola83@correo.com,983770402,Breña,Propietario,2026-01-24,Partida
+84,C0084,CE,11781211,Fernando,Cruz Salazar,fernando84@correo.com,943786928,San Juan de Lurigancho,Representante legal,2026-05-04,Constancia
+85,C0085,DNI,58067069,Ricardo,Cornejo Torres,ricardo85@correo.com,944183139,San Miguel,Vecino,2026-02-17,Certificado
+86,C0086,RUC,26376305,Milagros,Chávez Mendoza,milagros86@correo.com,946680852,Chorrillos,Comerciante,2026-05-22,Certificado
+87,C0087,RUC,50677352,Iván,Sánchez Ríos,iván87@correo.com,955654512,Villa El Salvador,Propietario,2026-01-15,Partida
+88,C0088,CE,81623534,Ricardo,Ramos Ríos,ricardo88@correo.com,987186105,Independencia,Representante legal,2026-01-18,Reclamo
+89,C0089,DNI,540345,Carlos,Zevallos Ríos,carlos89@correo.com,998446725,Miraflores,Vecino,2026-01-12,Constancia
+90,C0090,CE,29945481,Karla,Espinoza Espinoza,karla90@correo.com,958432623,La Molina,Comerciante,2026-01-21,Constancia
+91,C0091,CE,458761,Álvaro,Huamán Lévano,álvaro91@correo.com,922380849,Chorrillos,Propietario,2026-03-18,Constancia
+92,C0092,DNI,60196038,José,Cruz Bautista,josé92@correo.com,961595803,Breña,Representante legal,2026-03-04,Certificado
+93,C0093,DNI,63361141,Elena,Rojas Flores,elena93@correo.com,959687609,Lince,Vecino,2026-02-23,Constancia
+94,C0094,CE,81694283,Rosa,Cárdenas Espinoza,rosa94@correo.com,973812039,Comas,Comerciante,2026-02-05,Partida
+95,C0095,DNI,99992796,Sergio,Cárdenas Vargas,sergio95@correo.com,997120180,Lince,Propietario,2026-05-03,Licencia
+96,C0096,CE,33496725,Daniela,Torres Sánchez,daniela96@correo.com,,Callao,Representante legal,2026-04-05,Reclamo
+97,C0097,CE,31290315,Luis,Flores Zevallos,luis97correo.com,958036791,Independencia,Vecino,2026-04-24,Partida
+98,C0098,DNI,97192923,Carmen,Ninaquispe Romero,carmen98@correo.com,990607518,Callao,Comerciante,2026-04-15,Licencia
+99,C0099,RUC,23769809,Natalia,Salazar Flores,natalia99@correo.com,915166525,Independencia,Propietario,2026-05-06,Licencia
+100,C0100,DNI,11553977,Julia,Cárdenas Romero,julia100correo.com,924579063,,Representante legal,2026-01-08,Certificado
+101,C0101,RUC,72298165,Luis,Quispe Cruz,luis101@correo.com,947880565,Breña,Vecino,2026-04-11,Certificado
+102,C0102,DNI,51942461,Iván,Zevallos Cárdenas,iván102@correo.com,965192629,Surco,Comerciante,2026-04-17,Constancia
+103,C0103,DNI,51229992,Jorge,Ríos Díaz,jorge103@correo.com,,Callao,Propietario,2026-04-01,Licencia
+104,C0104,DNI,31041873,José,Palomino Cárdenas,josé104@correo.com,934072634,Chorrillos,Representante legal,2026-03-20,Certificado
+105,C0105,DNI,82302113,Iván,Rojas Gutiérrez,,923774749,La Molina,Vecino,2026-01-10,Permiso
+106,C0106,DNI,46937642,Álvaro,Ríos Huamán,álvaro106@correo.com,997488578,San Miguel,Comerciante,2026-05-05,Reclamo
+107,C0107,DNI,53641777,Rosa,Vargas Romero,rosa107@correo.com,956099723,La Molina,Propietario,2026-04-12,Permiso
+108,C0108,DNI,37841461,Patricia,Quispe Chávez,patricia108@correo.com,960304920,Ate,Representante legal,2026-01-12,Partida
+109,C0109,RUC,509845,José,Rivera Ríos,josé109@correo.com,997674108,San Juan de Lurigancho,Vecino,2026-05-07,Certificado
+110,C0110,DNI,93316576,Sergio,Torres Díaz,sergio110@correo.com,993239965,San Miguel,Comerciante,2026-01-17,Certificado
+111,C0111,RUC,55905946,Natalia,Huamán Vargas,,910234160,Surco,Propietario,2026-05-12,Constancia
+112,C0112,DNI,35572847,José,Castillo Ríos,josé112correo.com,964208821,Villa El Salvador,Representante legal,2026-03-02,Constancia
+113,C0113,DNI,85652338,Karla,Salazar Díaz,karla113@correo.com,918808604,San Miguel,Vecino,2026-01-12,Licencia
+114,C0114,DNI,95668775,Patricia,Cárdenas Torres,patricia114@correo.com,952520456,Ate,Comerciante,2026-05-24,Partida
+115,C0115,DNI,78778435,Sofía,Rojas Sánchez,sofía115@correo.com,990633060,Callao,Propietario,2026-03-14,Licencia
+116,C0116,DNI,40175828,Sergio,Villanueva Cruz,sergio116@correo.com,975524306,San Borja,Representante legal,2026-03-21,Partida
+117,C0117,DNI,35695793,Rosa,Díaz Gutiérrez,rosa117@correo.com,992356980,Ate,Vecino,2026-03-05,Constancia
+118,C0118,DNI,76636180,Rosa,Cruz Bautista,,979864463,Lince,Comerciante,2026-04-07,Partida
+119,C0119,DNI,18504485,María,Ríos Espinoza,maría119@correo.com,916017672,San Borja,Propietario,2026-04-02,Certificado
+120,C0120,RUC,36236478,Elena,Huamán Palomino,elena120@correo.com,991985955,Ate,Representante legal,2026-04-22,Certificado
+121,C0121,DNI,20665945,Julia,Palomino Rojas,julia121@correo.com,917012606,Ate,Vecino,2026-04-04,Constancia
+122,C0122,DNI,32229905,Raúl,Romero Bautista,raúl122@correo.com,937814018,Chorrillos,Comerciante,2026-05-02,Constancia
+123,C0123,DNI,74684427,Paola,Quispe Ramos,paola123@correo.com,934138172,San Juan de Lurigancho,Propietario,2026-03-01,Partida
+124,C0124,DNI,49608282,Milagros,Flores Quispe,milagros124@correo.com,,La Molina,Representante legal,2026-03-07,Partida
+125,C0125,DNI,68421953,Sergio,Cruz Sánchez,sergio125@correo.com,910889947,Callao,Vecino,2026-05-18,Certificado
+126,C0126,DNI,20209725,Sofía,Sánchez Gutiérrez,sofía126@correo.com,982167779,Ate,Comerciante,2026-04-20,Certificado
+127,C0127,DNI,91586129,Rosa,Lévano Cornejo,rosa127@correo.com,962717810,Villa El Salvador,Propietario,2026-05-14,Reclamo
+128,C0128,DNI,73063960,Hugo,Ríos Flores,hugo128@correo.com,957639784,San Juan de Lurigancho,Representante legal,2026-04-08,Constancia
+129,C0129,CE,35384616,Manuel,Romero Villanueva,manuel129@correo.com,954486335,Ate,Vecino,2026-05-23,Reclamo
+130,C0130,RUC,60973252,Pamela,Bautista Villanueva,pamela130@correo.com,941536066,Callao,Comerciante,2026-01-15,Certificado
+131,C0131,DNI,68788928,Karla,Ponce Mendoza,karla131@correo.com,922770507,Surco,Propietario,2026-01-22,Licencia
+132,C0132,DNI,47073374,Pamela,Vargas Vargas,pamela132@correo.com,933365876,,Representante legal,2026-05-24,Reclamo
+133,C0133,DNI,75967415,María,Rivera Ponce,maría133@correo.com,976674162,Miraflores,Vecino,2026-05-14,Reclamo
+134,C0134,DNI,68857237,Raúl,Chávez Sánchez,raúl134@correo.com,949447748,,Comerciante,2026-03-18,Partida
+135,C0135,CE,87066719,Julia,Huamán Sánchez,julia135@correo.com,988969036,Villa El Salvador,Propietario,2026-01-26,Licencia
+136,C0136,DNI,35063226,Daniela,Bautista Palomino,daniela136@correo.com,990171469,Lince,Representante legal,2026-04-05,Licencia
+137,C0137,DNI,83665851,Bruno,Díaz Torres,bruno137@correo.com,972856967,Breña,Vecino,2026-03-19,Licencia
+138,C0138,CE,67246146,Pedro,Espinoza Quispe,pedro138@correo.com,927291482,San Juan de Lurigancho,Comerciante,2026-01-22,Licencia
+139,C0139,DNI,73545688,Natalia,Gutiérrez Torres,natalia139correo.com,966853001,San Juan de Lurigancho,Propietario,2026-05-27,Certificado
+140,C0140,DNI,11244918,Julia,Zevallos Gutiérrez,,916425822,Los Olivos,Representante legal,2026-01-26,Reclamo
+141,C0141,DNI,23760370,Ana,Castillo Torres,ana141@correo.com,983345011,Rímac,Vecino,2026-03-06,Reclamo
+142,C0142,DNI,52326761,Karla,Rojas Quispe,karla142@correo.com,972399646,San Borja,Comerciante,2026-04-26,Licencia
+143,C0143,DNI,88048028,Iván,Ponce Ponce,iván143@correo.com,911246164,La Molina,Propietario,2026-04-15,Permiso
+144,C0144,DNI,73976472,Patricia,Zevallos Ramos,patricia144@correo.com,950845572,Breña,Representante legal,2026-02-12,Certificado
+145,C0145,CE,67240633,Renzo,Sánchez Chávez,renzo145@correo.com,,Callao,Vecino,2026-05-06,Certificado
+146,C0146,DNI,94956974,María,Flores Aguirre,maría146@correo.com,976730455,Breña,Comerciante,2026-02-12,Licencia
+147,C0147,DNI,45563130,Julia,Ninaquispe Ponce,julia147@correo.com,958477806,Ate,Propietario,2026-03-11,Permiso
+148,C0148,DNI,16278370,Diego,Mendoza Sánchez,diego148@correo.com,992131293,Breña,Representante legal,2026-04-06,Partida
+149,C0149,DNI,39635671,Diego,Quispe Villanueva,diego149@correo.com,953714086,La Molina,Vecino,2026-02-21,Partida
+150,C0150,CE,11794764,Diego,Flores Ninaquispe,diego150@correo.com,930633149,Chorrillos,Comerciante,2026-05-23,Certificado
+151,C0151,DNI,55198227,Pedro,Ramos Romero,pedro151@correo.com,,Los Olivos,Propietario,2026-03-22,Partida
+152,C0152,DNI,75554142,Sergio,Espinoza Cárdenas,sergio152@correo.com,945509353,,Representante legal,2026-03-14,Reclamo
+153,C0153,DNI,18433641,Bruno,Lévano Rivera,bruno153@correo.com,925519105,Rímac,Vecino,2026-03-27,Constancia
+154,C0154,DNI,41088178,Sofía,Ponce Mendoza,sofía154@correo.com,977099676,Callao,Comerciante,2026-04-02,Certificado
+155,C0155,DNI,75799597,Elena,Cárdenas Paredes,elena155@correo.com,,Breña,Propietario,2026-02-23,Permiso
+156,C0156,DNI,57787824,Patricia,Ramos Ramos,patricia156@correo.com,994048468,Surco,Representante legal,2026-05-05,Permiso
+157,C0157,RUC,10092422,Lucía,Zevallos Zevallos,lucía157@correo.com,938953864,Lince,Vecino,2026-01-04,Reclamo
+158,C0158,RUC,62763507,Diego,Huamán Gutiérrez,,910962333,Independencia,Comerciante,2026-04-08,Partida
+159,C0159,CE,92778335,Jorge,Ponce Zevallos,jorge159@correo.com,945218322,Breña,Propietario,2026-05-06,Licencia
+160,C0160,DNI,95970091,José,Zevallos Palomino,josé160@correo.com,991290999,Chorrillos,Representante legal,2026-02-21,Reclamo
+161,C0161,CE,63185691,Daniela,Quispe Mendoza,daniela161@correo.com,937419218,Miraflores,Vecino,2026-02-05,Permiso
+162,C0162,DNI,60113750,Julia,Rivera Díaz,julia162@correo.com,,San Juan de Lurigancho,Comerciante,2026-05-03,Reclamo
+163,C0163,RUC,29040843,Manuel,Ramos Ríos,manuel163@correo.com,958497009,Callao,Propietario,2026-04-12,Constancia
+164,C0164,DNI,27500436,Bruno,Torres Rivera,bruno164@correo.com,961907299,Independencia,Representante legal,2026-01-27,Constancia
+165,C0165,DNI,56596421,Melissa,Gutiérrez Cárdenas,melissa165@correo.com,935128079,Breña,Vecino,2026-01-27,Certificado
+166,C0166,RUC,83272982,Isabel,Rojas Rojas,isabel166@correo.com,957693908,Lince,Comerciante,2026-03-05,Reclamo
+167,C0167,RUC,92523721,Carmen,Salazar Cruz,carmen167@correo.com,965360183,Comas,Propietario,2026-03-01,Certificado
+168,C0168,DNI,62264997,Ricardo,Paredes Bautista,ricardo168@correo.com,961491063,Villa El Salvador,Representante legal,2026-04-25,Certificado
+169,C0169,RUC,48992183,María,Castillo Castillo,maría169@correo.com,941427544,Breña,Vecino,2026-04-21,Licencia
+170,C0170,RUC,59698283,Melissa,Lévano Paredes,melissa170@correo.com,927226342,Miraflores,Comerciante,2026-02-07,Partida
+171,C0171,CE,65095914,Melissa,Cornejo Mendoza,melissa171@correo.com,923270616,Rímac,Propietario,2026-01-13,Licencia
+172,C0172,CE,86260320,Pamela,Cruz Aguirre,pamela172@correo.com,925028156,Miraflores,Representante legal,2026-01-27,Reclamo
+173,C0173,CE,50576533,Ricardo,Salazar Cruz,ricardo173@correo.com,924088555,Lince,Vecino,2026-01-11,Partida
+174,C0174,DNI,45000483,Ana,Quispe Rojas,ana174@correo.com,982594025,Los Olivos,Comerciante,2026-03-04,Permiso
+175,C0175,DNI,28527394,Daniela,Salazar Bautista,daniela175@correo.com,988556009,Miraflores,Propietario,2026-04-11,Certificado
+176,C0176,DNI,291842,Gabriela,Romero Huamán,gabriela176@correo.com,968024804,Comas,Representante legal,2026-03-22,Reclamo
+177,C0177,CE,59030044,Óscar,Ríos Palomino,óscar177correo.com,994147686,San Miguel,Vecino,2026-05-28,Certificado
+178,C0178,DNI,95401253,Sergio,Paredes Flores,sergio178correo.com,979226398,La Molina,Comerciante,2026-02-16,Partida
+179,C0179,CE,90618906,Ricardo,Sánchez Mendoza,ricardo179@correo.com,983818024,,Propietario,2026-03-11,Certificado
+180,C0180,DNI,28826172,Milagros,Mendoza Ríos,milagros180@correo.com,,Comas,Representante legal,2026-02-21,Licencia
+181,C0181,DNI,37143876,Verónica,Ramos Espinoza,verónica181@correo.com,,Callao,Vecino,2026-05-12,Reclamo
+182,C0182,RUC,27233327,María,Ninaquispe Ramos,maría182@correo.com,982892913,Surco,Comerciante,2026-01-26,Licencia
+183,C0183,RUC,27049458,Hugo,Salazar Aguirre,hugo183@correo.com,912435519,Miraflores,Propietario,2026-04-17,Licencia
+184,C0184,CE,36903947,Isabel,Ramos Rivera,,912975489,Villa El Salvador,Representante legal,2026-02-19,Certificado
+185,C0185,CE,33312951,Sofía,Villanueva Cárdenas,sofía185@correo.com,985711620,Comas,Vecino,2026-03-11,Licencia
+186,C0186,DNI,84639440,Elena,Castillo Cruz,elena186correo.com,,Miraflores,Comerciante,2026-01-15,Permiso
+187,C0187,DNI,67601782,Carmen,Cruz Romero,carmen187@correo.com,972768461,Ate,Propietario,2026-01-10,Licencia
+188,C0188,DNI,64920335,Diego,Rivera Aguirre,diego188@correo.com,941618857,La Molina,Representante legal,2026-01-24,Licencia
+189,C0189,DNI,71810023,Elena,Espinoza Torres,elena189@correo.com,987992580,Ate,Vecino,2026-05-23,Reclamo
+190,C0190,DNI,31359664,Fernando,Díaz Torres,fernando190@correo.com,961811208,Comas,Comerciante,2026-05-18,Licencia
+191,C0191,RUC,33205958,Andrés,Rojas Huamán,,984256159,Los Olivos,Propietario,2026-03-14,Constancia
+192,C0192,DNI,49252814,Fernando,Castillo Castillo,fernando192@correo.com,966001435,Independencia,Representante legal,2026-05-09,Permiso
+193,C0193,DNI,78673669,Lucía,Rivera Villanueva,lucía193@correo.com,932347800,La Molina,Vecino,2026-02-20,Permiso
+194,C0194,DNI,76877023,Isabel,Sánchez Gutiérrez,isabel194@correo.com,931571160,Miraflores,Comerciante,2026-04-16,Certificado
+195,C0195,RUC,57836938,Natalia,Flores Zevallos,natalia195@correo.com,931689149,San Borja,Propietario,2026-02-22,Permiso
+196,C0196,DNI,27632985,Víctor,Díaz Lévano,víctor196correo.com,977034026,San Miguel,Representante legal,2026-01-27,Constancia
+197,C0197,CE,14131796,Renzo,Cornejo Chávez,,922839458,Lince,Vecino,2026-02-13,Partida
+198,C0198,DNI,33866392,Víctor,Ramos Vargas,,,Comas,Comerciante,2026-03-15,Certificado
+199,C0199,DNI,66579746,Julia,Palomino Aguirre,,925448087,San Miguel,Propietario,2026-04-04,Partida
+200,C0200,RUC,68024185,Natalia,Rojas Paredes,natalia200@correo.com,947970587,Independencia,Representante legal,2026-04-16,Permiso
+201,C0201,CE,36903947,Isabel,Ramos Rivera,,912975489,Villa El Salvador,Vecino,2026-02-19,Certificado
+202,C0202,DNI,18504485,María,Ríos Espinoza,maría119@correo.com,916017672,San Borja,Comerciante,2026-04-02,Certificado
+203,C0203,CE,31756393,Karla,Gutiérrez Bautista,karla45@correo.com,996373792,Villa El Salvador,Propietario,2026-05-20,Certificado
+204,C0204,DNI,20710474,Luis,Bautista Ponce,luis58@correo.com,914781199,Villa El Salvador,Representante legal,2026-03-05,Constancia
+205,C0205,DNI,16278370,Diego,Mendoza Sánchez,diego148@correo.com,992131293,Breña,Vecino,2026-04-06,Partida
+206,C0206,CE,93589076,Elena,Gutiérrez Ponce,elena23@correo.com,982930266,Comas,Comerciante,2026-03-26,Licencia
+207,C0207,CE,14131796,Renzo,Cornejo Chávez,,922839458,Lince,Propietario,2026-02-13,Partida
+208,C0208,RUC,83272982,Isabel,Rojas Rojas,isabel166@correo.com,957693908,Lince,Representante legal,2026-03-05,Reclamo

@@ -1,0 +1,133 @@
+id_incidencia,codigo_incidencia,id_operacion,tipo_incidencia,severidad,fecha_reporte,estado_incidencia
+1,I00001,1,Línea sin servicio,Baja,2026-04-22,Cerrada
+2,I00002,7,Portabilidad pendiente,Alta,2026-04-02,En revisión
+3,I00003,29,Cobro no reconocido,Baja,2026-02-15,Cerrada
+4,I00004,32,Equipo con falla,Alta,2026-03-19,Cerrada
+5,I00005,35,Recarga no aplicada,Baja,2026-04-09,Cerrada
+6,I00006,36,Línea sin servicio,Media,2026-02-09,En revisión
+7,I00007,51,Portabilidad pendiente,Baja,2026-06-14,En revisión
+8,I00008,56,Cobro no reconocido,Baja,2026-05-18,Cerrada
+9,I00009,57,Equipo con falla,Baja,2026-04-05,Abierta
+10,I00010,63,Recarga no aplicada,Baja,2026-06-24,Cerrada
+11,I00011,64,Línea sin servicio,Alta,2026-05-04,Cerrada
+12,I00012,65,Portabilidad pendiente,Baja,2026-04-27,En revisión
+13,I00013,70,Cobro no reconocido,Alta,2026-06-28,En revisión
+14,I00014,86,Equipo con falla,Baja,2026-03-06,Cerrada
+15,I00015,98,Recarga no aplicada,Baja,2026-03-10,En revisión
+16,I00016,112,Línea sin servicio,Baja,2026-06-18,Cerrada
+17,I00017,113,Portabilidad pendiente,Media,2026-06-13,Cerrada
+18,I00018,120,Cobro no reconocido,Media,2026-04-24,En revisión
+19,I00019,121,Equipo con falla,Baja,2026-04-25,En revisión
+20,I00020,123,Recarga no aplicada,Alta,2026-06-07,Abierta
+21,I00021,129,Línea sin servicio,Alta,2026-05-26,Abierta
+22,I00022,139,Portabilidad pendiente,Baja,2026-03-26,En revisión
+23,I00023,146,Cobro no reconocido,Baja,2026-05-14,En revisión
+24,I00024,169,Equipo con falla,Media,2026-06-13,Abierta
+25,I00025,181,Recarga no aplicada,Media,2026-03-14,Abierta
+26,I00026,190,Línea sin servicio,Baja,2026-06-27,En revisión
+27,I00027,194,Portabilidad pendiente,Media,2026-06-15,Abierta
+28,I00028,202,Cobro no reconocido,Media,2026-04-26,Cerrada
+29,I00029,207,Equipo con falla,Alta,2026-06-20,Abierta
+30,I00030,215,Recarga no aplicada,Media,2026-04-25,Abierta
+31,I00031,228,Línea sin servicio,Media,2026-05-26,Cerrada
+32,I00032,234,Portabilidad pendiente,Alta,2026-05-07,Abierta
+33,I00033,236,Cobro no reconocido,Baja,2026-03-10,Abierta
+34,I00034,237,Equipo con falla,Baja,2026-04-02,Abierta
+35,I00035,240,Recarga no aplicada,Media,2026-04-22,En revisión
+36,I00036,241,Línea sin servicio,Baja,2026-02-09,En revisión
+37,I00037,261,Portabilidad pendiente,Alta,2026-06-11,Abierta
+38,I00038,270,Cobro no reconocido,Alta,2026-05-09,Abierta
+39,I00039,308,Equipo con falla,Media,2026-02-19,En revisión
+40,I00040,311,Recarga no aplicada,Baja,2026-02-16,Cerrada
+41,I00041,326,Línea sin servicio,Baja,2026-03-05,Cerrada
+42,I00042,328,Portabilidad pendiente,Baja,2026-06-10,Abierta
+43,I00043,335,Cobro no reconocido,Media,2026-06-01,En revisión
+44,I00044,338,Equipo con falla,Baja,2026-03-22,En revisión
+45,I00045,343,Recarga no aplicada,Media,2026-05-21,Abierta
+46,I00046,369,Línea sin servicio,Baja,2026-06-02,En revisión
+47,I00047,375,Portabilidad pendiente,Media,2026-05-26,Abierta
+48,I00048,385,Cobro no reconocido,Media,2026-06-14,En revisión
+49,I00049,386,Equipo con falla,Alta,2026-05-05,Abierta
+50,I00050,387,Recarga no aplicada,Alta,2026-06-04,Abierta
+51,I00051,390,Línea sin servicio,Baja,2026-04-14,En revisión
+52,I00052,391,Portabilidad pendiente,Alta,2026-06-19,Abierta
+53,I00053,400,Cobro no reconocido,Baja,2026-02-24,Abierta
+54,I00054,402,Equipo con falla,Media,2026-02-24,Abierta
+55,I00055,405,Recarga no aplicada,Media,2026-04-19,Cerrada
+56,I00056,408,Línea sin servicio,Alta,2026-02-01,Abierta
+57,I00057,420,Portabilidad pendiente,Media,2026-06-13,Abierta
+58,I00058,431,Cobro no reconocido,Baja,2026-02-23,Cerrada
+59,I00059,434,Equipo con falla,Media,2026-02-10,En revisión
+60,I00060,442,Recarga no aplicada,Alta,2026-03-09,En revisión
+61,I00061,452,Línea sin servicio,Media,2026-05-02,Cerrada
+62,I00062,453,Portabilidad pendiente,Media,2026-06-16,Abierta
+63,I00063,454,Cobro no reconocido,Baja,2026-02-28,Abierta
+64,I00064,456,Equipo con falla,Baja,2026-06-16,Abierta
+65,I00065,460,Recarga no aplicada,Alta,2026-03-17,En revisión
+66,I00066,464,Línea sin servicio,Baja,2026-02-07,En revisión
+67,I00067,467,Portabilidad pendiente,Alta,2026-02-15,Abierta
+68,I00068,494,Cobro no reconocido,Media,2026-04-27,Abierta
+69,I00069,517,Equipo con falla,Media,2026-04-03,Abierta
+70,I00070,528,Recarga no aplicada,Baja,2026-05-06,En revisión
+71,I00071,542,Línea sin servicio,Alta,2026-03-12,En revisión
+72,I00072,548,Portabilidad pendiente,Alta,2026-04-06,En revisión
+73,I00073,558,Cobro no reconocido,Alta,2026-02-21,Abierta
+74,I00074,571,Equipo con falla,Alta,2026-04-20,En revisión
+75,I00075,575,Recarga no aplicada,Media,2026-06-10,Abierta
+76,I00076,579,Línea sin servicio,Media,2026-03-08,Cerrada
+77,I00077,581,Portabilidad pendiente,Media,2026-06-22,En revisión
+78,I00078,587,Cobro no reconocido,Media,2026-02-25,En revisión
+79,I00079,606,Equipo con falla,Media,2026-02-12,Cerrada
+80,I00080,614,Recarga no aplicada,Media,2026-04-28,Abierta
+81,I00081,619,Línea sin servicio,Media,2026-06-03,En revisión
+82,I00082,636,Portabilidad pendiente,Alta,2026-04-02,Abierta
+83,I00083,639,Cobro no reconocido,Baja,2026-05-20,En revisión
+84,I00084,644,Equipo con falla,Alta,2026-04-17,Abierta
+85,I00085,647,Recarga no aplicada,Alta,2026-03-10,En revisión
+86,I00086,656,Línea sin servicio,Alta,2026-05-01,Cerrada
+87,I00087,662,Portabilidad pendiente,Alta,2026-02-25,Cerrada
+88,I00088,664,Cobro no reconocido,Alta,2026-02-09,Cerrada
+89,I00089,671,Equipo con falla,Alta,2026-05-23,Cerrada
+90,I00090,696,Recarga no aplicada,Baja,2026-04-17,Abierta
+91,I00091,698,Línea sin servicio,Alta,2026-05-04,Cerrada
+92,I00092,703,Portabilidad pendiente,Media,2026-02-21,En revisión
+93,I00093,707,Cobro no reconocido,Baja,2026-06-02,Abierta
+94,I00094,709,Equipo con falla,Media,2026-02-25,Abierta
+95,I00095,715,Recarga no aplicada,Media,2026-04-08,Cerrada
+96,I00096,738,Línea sin servicio,Alta,2026-02-14,Cerrada
+97,I00097,740,Portabilidad pendiente,Baja,2026-05-10,Abierta
+98,I00098,760,Cobro no reconocido,Alta,2026-05-07,Cerrada
+99,I00099,763,Equipo con falla,Baja,2026-04-18,Cerrada
+100,I00100,764,Recarga no aplicada,Media,2026-05-13,En revisión
+101,I00101,766,Línea sin servicio,Alta,2026-06-21,Cerrada
+102,I00102,779,Portabilidad pendiente,Media,2026-04-10,En revisión
+103,I00103,794,Cobro no reconocido,Alta,2026-02-14,En revisión
+104,I00104,799,Equipo con falla,Baja,2026-02-18,Cerrada
+105,I00105,801,Recarga no aplicada,Media,2026-03-08,En revisión
+106,I00106,809,Línea sin servicio,Media,2026-05-16,Abierta
+107,I00107,811,Portabilidad pendiente,Media,2026-03-06,En revisión
+108,I00108,812,Cobro no reconocido,Baja,2026-04-12,Cerrada
+109,I00109,819,Equipo con falla,Alta,2026-03-15,En revisión
+110,I00110,822,Recarga no aplicada,Alta,2026-02-15,En revisión
+111,I00111,825,Línea sin servicio,Baja,2026-06-27,Cerrada
+112,I00112,827,Portabilidad pendiente,Baja,2026-03-04,Abierta
+113,I00113,837,Cobro no reconocido,Baja,2026-03-02,Cerrada
+114,I00114,838,Equipo con falla,Baja,2026-06-16,Abierta
+115,I00115,843,Recarga no aplicada,Alta,2026-03-18,Cerrada
+116,I00116,871,Línea sin servicio,Alta,2026-05-26,Cerrada
+117,I00117,895,Portabilidad pendiente,Media,2026-05-15,Cerrada
+118,I00118,899,Cobro no reconocido,Alta,2026-06-24,Abierta
+119,I00119,900,Equipo con falla,Alta,2026-05-01,En revisión
+120,I00120,917,Recarga no aplicada,Alta,2026-04-28,Abierta
+121,I00121,936,Línea sin servicio,Baja,2026-02-06,Cerrada
+122,I00122,943,Portabilidad pendiente,Baja,2026-06-28,En revisión
+123,I00123,950,Cobro no reconocido,Media,2026-02-12,Cerrada
+124,I00124,957,Equipo con falla,Media,2026-06-18,Cerrada
+125,I00125,960,Recarga no aplicada,Media,2026-03-03,En revisión
+126,I00126,966,Línea sin servicio,Alta,2026-04-04,En revisión
+127,I00127,967,Portabilidad pendiente,Alta,2026-05-05,En revisión
+128,I00128,971,Cobro no reconocido,Baja,2026-06-02,Abierta
+129,I00129,979,Equipo con falla,Baja,2026-04-05,Cerrada
+130,I00130,983,Recarga no aplicada,Media,2026-02-19,En revisión
+131,I00131,987,Línea sin servicio,Media,2026-05-07,En revisión
+132,I00132,993,Portabilidad pendiente,Alta,2026-02-27,Abierta

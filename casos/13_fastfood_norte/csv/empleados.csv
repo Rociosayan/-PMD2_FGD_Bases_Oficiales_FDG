@@ -1,0 +1,41 @@
+id_empleado,codigo_empleado,nombres,apellidos,num_documento,cargo,id_sede,correo,sueldo,fecha_ingreso
+1,E0001,Elena,Gutiérrez Rivera,53613572,Cajero,1,elena.gutiérrez@fastfood_norte.pe,4756.51,2026-02-04
+2,E0002,Milagros,Rojas Palomino,60685404,Cocinero de línea,5,milagros.rojas@fastfood_norte.pe,4994.1,2026-01-28
+3,E0003,Gabriela,Castillo Mendoza,91564389,Armador de pedidos,1,gabriela.castillo@fastfood_norte.pe,2698.63,2026-03-25
+4,E0004,Daniela,Rivera Cruz,69916306,Repartidor,3,daniela.rivera@fastfood_norte.pe,2560.01,2026-02-16
+5,E0005,Isabel,Sánchez Huamán,96434209,Supervisor de turno,3,isabel.sánchez@fastfood_norte.pe,2073.64,2026-02-05
+6,E0006,Ricardo,Quispe Chávez,83515215,Administrador de restaurante,2,ricardo.quispe@fastfood_norte.pe,3496.87,2026-01-23
+7,E0007,Pedro,Cárdenas Palomino,83760988,Cajero,3,pedro.cárdenas@fastfood_norte.pe,6120.48,2026-02-23
+8,E0008,Manuel,Chávez Ninaquispe,95049953,Cocinero de línea,6,manuel.chávez@fastfood_norte.pe,6123.95,2026-03-04
+9,E0009,Natalia,Espinoza Lévano,97455930,Armador de pedidos,6,natalia.espinoza@fastfood_norte.pe,5885.84,2026-03-22
+10,E0010,Manuel,Chávez Sánchez,72591712,Repartidor,3,manuel.chávez@fastfood_norte.pe,4261.77,2026-02-21
+11,E0011,Melissa,Flores Zevallos,94080477,Supervisor de turno,6,melissa.flores@fastfood_norte.pe,2666.6,2026-03-28
+12,E0012,Manuel,Rojas Díaz,64455301,Administrador de restaurante,5,manuel.rojas@fastfood_norte.pe,2235.03,2026-01-02
+13,E0013,Julia,Villanueva Gutiérrez,70884030,Cajero,2,julia.villanueva@fastfood_norte.pe,2048.3,2026-01-13
+14,E0014,Ricardo,Paredes Ninaquispe,97346303,Cocinero de línea,5,ricardo.paredes@fastfood_norte.pe,2628.85,2026-01-21
+15,E0015,Iván,Cruz Zevallos,70253047,Armador de pedidos,2,iván.cruz@fastfood_norte.pe,5269.27,2026-03-26
+16,E0016,Gabriela,Castillo Mendoza,41908579,Repartidor,1,gabriela.castillo@fastfood_norte.pe,,2026-01-24
+17,E0017,Andrés,Ramos Romero,66370451,Supervisor de turno,4,andrés.ramos@fastfood_norte.pe,2599.27,2026-01-15
+18,E0018,Pedro,Palomino Quispe,75520932,Administrador de restaurante,1,pedro.palomino@fastfood_norte.pe,3659.98,2026-02-28
+19,E0019,Claudia,Ríos Lévano,30861682,Cajero,3,claudia.ríos@fastfood_norte.pe,3348.92,2026-02-05
+20,E0020,Pedro,Mendoza Huamán,87394130,Cocinero de línea,6,pedro.mendoza@fastfood_norte.pe,3346.96,2026-02-24
+21,E0021,Melissa,Vargas Bautista,80386768,Armador de pedidos,5,melissa.vargas@fastfood_norte.pe,5725.42,2026-03-18
+22,E0022,Ricardo,Palomino Sánchez,51568996,Repartidor,4,ricardo.palomino@fastfood_norte.pe,,2026-02-02
+23,E0023,Bruno,Zevallos Cruz,23189209,Supervisor de turno,1,bruno.zevallos@fastfood_norte.pe,3761.63,2026-03-09
+24,E0024,Óscar,Villanueva Aguirre,27551355,Administrador de restaurante,3,óscar.villanueva@fastfood_norte.pe,1514.76,2026-03-01
+25,E0025,Bruno,Mendoza Rivera,42174067,Cajero,5,bruno.mendoza@fastfood_norte.pe,2165.1,2026-01-03
+26,E0026,Sofía,Villanueva Ponce,28634853,Cocinero de línea,4,sofía.villanueva@fastfood_norte.pe,5785.24,2026-03-08
+27,E0027,Milagros,Sánchez Sánchez,38318339,Armador de pedidos,1,milagros.sánchez@fastfood_norte.pe,,2026-02-27
+28,E0028,Ricardo,Chávez Zevallos,13747185,Repartidor,6,ricardo.chávez@fastfood_norte.pe,1534.5,2026-02-03
+29,E0029,Pamela,Ramos Romero,91000926,Supervisor de turno,4,pamela.ramos@fastfood_norte.pe,,2026-01-13
+30,E0030,Pedro,Flores Ramos,67175652,Administrador de restaurante,2,pedro.flores@fastfood_norte.pe,3609.17,2026-02-04
+31,E0031,Lucía,Paredes Ríos,74697049,Cajero,3,lucía.paredes@fastfood_norte.pe,2927.47,2026-01-26
+32,E0032,Luis,Salazar Bautista,25910810,Cocinero de línea,6,luis.salazar@fastfood_norte.pe,4793.1,2026-03-22
+33,E0033,Melissa,Bautista Cárdenas,42977729,Armador de pedidos,6,melissa.bautista@fastfood_norte.pe,5801.82,2026-02-06
+34,E0034,Víctor,Villanueva Gutiérrez,29038533,Repartidor,3,víctor.villanueva@fastfood_norte.pe,3013.37,2026-01-19
+35,E0035,Julia,Salazar Cornejo,44043625,Supervisor de turno,4,julia.salazar@fastfood_norte.pe,3607.11,2026-03-22
+36,E0036,Rosa,Romero Cruz,64813902,Administrador de restaurante,6,rosa.romero@fastfood_norte.pe,5244.24,2026-03-24
+37,E0037,Víctor,Cárdenas Cárdenas,21258107,Cajero,2,víctor.cárdenas@fastfood_norte.pe,6202.24,2026-02-04
+38,E0038,Fernando,Quispe Ponce,38923511,Cocinero de línea,1,fernando.quispe@fastfood_norte.pe,,2026-01-13
+39,E0039,Pamela,Cárdenas Ramos,46778475,Armador de pedidos,4,pamela.cárdenas@fastfood_norte.pe,2833.83,2026-02-08
+40,E0040,Patricia,Cornejo Bautista,15578333,Repartidor,1,patricia.cornejo@fastfood_norte.pe,,2026-03-03

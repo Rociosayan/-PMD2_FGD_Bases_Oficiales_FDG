@@ -1,7 +1,7 @@
-﻿id_sede,codigo_sede,nombre_sede,distrito_sede,responsable
-1,S001,Sede Este 1,Lince,Comercial
-2,S002,Sede Este 2,Comas,Calidad
-3,S003,Sede Norte 3,Callao,Operaciones
-4,S004,Sede Este 4,Ate,Comercial
-5,S005,Sede Oeste 5,Surco,Calidad
-6,S006,Sede Centro 6,Surco,Operaciones
+id_sede,codigo_sede,nombre_sede,distrito_sede,responsable
+1,MTS01,Planta MetalTec Cercado de Lima,Cercado de Lima,Raúl Díaz
+2,MTS02,Planta MetalTec San Miguel,San Miguel,Víctor Villanueva
+3,MTS03,Planta MetalTec Jesús María,Jesús María,Renzo Ríos
+4,MTS04,Planta MetalTec Los Olivos,Los Olivos,Milagros Salazar
+5,MTS05,Planta MetalTec Santiago de Surco,Santiago de Surco,Ana Lévano
+6,MTS06,Planta MetalTec San Borja,San Borja,Raúl Ríos

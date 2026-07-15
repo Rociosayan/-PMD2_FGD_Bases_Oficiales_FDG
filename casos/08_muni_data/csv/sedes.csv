@@ -1,7 +1,7 @@
-﻿id_sede,codigo_sede,nombre_sede,distrito_sede,responsable
-1,S001,Sede Este 1,Ate,Comercial
-2,S002,Sede Oeste 2,Miraflores,Comercial
-3,S003,Sede Principal 3,Callao,Operaciones
-4,S004,Sede Oeste 4,San Miguel,Operaciones
-5,S005,Sede Principal 5,San Miguel,Calidad
-6,S006,Sede Este 6,Los Olivos,Operaciones
+id_sede,codigo_sede,nombre_sede,distrito_sede,responsable
+1,MDS01,Centro de Atención MuniData Cercado de Lima,Cercado de Lima,Andrés Huamán
+2,MDS02,Centro de Atención MuniData San Miguel,San Miguel,José Villanueva
+3,MDS03,Centro de Atención MuniData Jesús María,Jesús María,Bruno Rojas
+4,MDS04,Centro de Atención MuniData Los Olivos,Los Olivos,Ana Espinoza
+5,MDS05,Centro de Atención MuniData Santiago de Surco,Santiago de Surco,Julia Cruz
+6,MDS06,Centro de Atención MuniData San Borja,San Borja,Manuel Vargas

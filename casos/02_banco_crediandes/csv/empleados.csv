@@ -1,0 +1,41 @@
+id_empleado,codigo_empleado,nombres,apellidos,num_documento,cargo,id_sede,correo,sueldo,fecha_ingreso
+1,E0001,Fernando,Romero Ninaquispe,97598351,Asesor de plataforma,1,fernando.romero@banco_crediandes.pe,5972.53,2026-03-19
+2,E0002,Karla,Cárdenas Mendoza,19630439,Cajero bancario,4,karla.cárdenas@banco_crediandes.pe,5009.25,2026-03-03
+3,E0003,Sergio,Castillo Cornejo,91770564,Ejecutivo de créditos,5,sergio.castillo@banco_crediandes.pe,3409.06,2026-02-03
+4,E0004,Hugo,Cornejo Cornejo,83692021,Analista de riesgos,1,hugo.cornejo@banco_crediandes.pe,,2026-01-25
+5,E0005,Víctor,Huamán Cruz,16365945,Jefe de operaciones,3,víctor.huamán@banco_crediandes.pe,5642.04,2026-01-07
+6,E0006,Pedro,Paredes Ninaquispe,24803589,Gerente de agencia,1,pedro.paredes@banco_crediandes.pe,5585.87,2026-01-08
+7,E0007,José,Chávez Cruz,53834793,Asesor de plataforma,4,josé.chávez@banco_crediandes.pe,5353.18,2026-02-07
+8,E0008,Sergio,Espinoza Lévano,13631419,Cajero bancario,2,sergio.espinoza@banco_crediandes.pe,1411.26,2026-02-19
+9,E0009,Andrés,Sánchez Flores,84280162,Ejecutivo de créditos,3,andrés.sánchez@banco_crediandes.pe,4963.28,2026-03-27
+10,E0010,María,Rojas Rivera,78684664,Analista de riesgos,1,maría.rojas@banco_crediandes.pe,3442.52,2026-03-21
+11,E0011,Rosa,Ponce Lévano,97980686,Jefe de operaciones,1,rosa.ponce@banco_crediandes.pe,,2026-03-13
+12,E0012,Víctor,Mendoza Bautista,45130831,Gerente de agencia,6,víctor.mendoza@banco_crediandes.pe,5208.3,2026-03-08
+13,E0013,Julia,Cornejo Díaz,28782497,Asesor de plataforma,4,julia.cornejo@banco_crediandes.pe,4903.31,2026-02-03
+14,E0014,Verónica,Bautista Espinoza,51609255,Cajero bancario,6,verónica.bautista@banco_crediandes.pe,,2026-03-01
+15,E0015,Andrés,Bautista Castillo,40372713,Ejecutivo de créditos,1,andrés.bautista@banco_crediandes.pe,2864.27,2026-03-27
+16,E0016,Jorge,Chávez Ramos,91472499,Analista de riesgos,2,jorge.chávez@banco_crediandes.pe,3052.07,2026-02-09
+17,E0017,Elena,Quispe Cárdenas,68462057,Jefe de operaciones,6,elena.quispe@banco_crediandes.pe,5927.02,2026-01-03
+18,E0018,Hugo,Flores Rojas,27376249,Gerente de agencia,3,hugo.flores@banco_crediandes.pe,5637.3,2026-02-21
+19,E0019,Pamela,Palomino Díaz,66076695,Asesor de plataforma,5,pamela.palomino@banco_crediandes.pe,3499.2,2026-02-24
+20,E0020,Ana,Castillo Villanueva,87550021,Cajero bancario,2,ana.castillo@banco_crediandes.pe,4767.63,2026-01-16
+21,E0021,Andrés,Cárdenas Vargas,83561364,Ejecutivo de créditos,4,andrés.cárdenas@banco_crediandes.pe,1552.62,2026-02-25
+22,E0022,Elena,Torres Romero,71505977,Analista de riesgos,6,elena.torres@banco_crediandes.pe,1299.58,2026-02-19
+23,E0023,Fernando,Ramos Zevallos,86316512,Jefe de operaciones,2,fernando.ramos@banco_crediandes.pe,1300.78,2026-01-19
+24,E0024,Karla,Romero Rivera,74961925,Gerente de agencia,4,karla.romero@banco_crediandes.pe,2262.66,2026-01-22
+25,E0025,Milagros,Rivera Díaz,18922291,Asesor de plataforma,6,milagros.rivera@banco_crediandes.pe,,2026-03-21
+26,E0026,Hugo,Sánchez Mendoza,21466027,Cajero bancario,3,hugo.sánchez@banco_crediandes.pe,5996.41,2026-01-13
+27,E0027,Karla,Rojas Chávez,99077389,Ejecutivo de créditos,5,karla.rojas@banco_crediandes.pe,3772.79,2026-01-08
+28,E0028,Natalia,Cárdenas Mendoza,61681130,Analista de riesgos,3,natalia.cárdenas@banco_crediandes.pe,1769.59,2026-01-20
+29,E0029,Pedro,Huamán Huamán,59721084,Jefe de operaciones,1,pedro.huamán@banco_crediandes.pe,5251.7,2026-03-17
+30,E0030,Pedro,Ramos Aguirre,81370797,Gerente de agencia,5,pedro.ramos@banco_crediandes.pe,5669.72,2026-02-19
+31,E0031,Luis,Cárdenas Huamán,16278303,Asesor de plataforma,3,luis.cárdenas@banco_crediandes.pe,3580.68,2026-01-07
+32,E0032,María,Zevallos Vargas,37025481,Cajero bancario,1,maría.zevallos@banco_crediandes.pe,1529.05,2026-02-02
+33,E0033,Carlos,Castillo Ninaquispe,29483764,Ejecutivo de créditos,5,carlos.castillo@banco_crediandes.pe,1846.47,2026-03-05
+34,E0034,María,Flores Cornejo,33014061,Analista de riesgos,6,maría.flores@banco_crediandes.pe,,2026-03-27
+35,E0035,Melissa,Rojas Palomino,62947253,Jefe de operaciones,5,melissa.rojas@banco_crediandes.pe,4437.8,2026-02-28
+36,E0036,Gabriela,Mendoza Bautista,78824511,Gerente de agencia,2,gabriela.mendoza@banco_crediandes.pe,4508.49,2026-01-23
+37,E0037,Sofía,Quispe Ninaquispe,20434708,Asesor de plataforma,2,sofía.quispe@banco_crediandes.pe,2551.67,2026-01-18
+38,E0038,Renzo,Espinoza Castillo,97243417,Cajero bancario,4,renzo.espinoza@banco_crediandes.pe,,2026-01-17
+39,E0039,Isabel,Huamán Castillo,21335017,Ejecutivo de créditos,6,isabel.huamán@banco_crediandes.pe,2191.08,2026-02-12
+40,E0040,Daniela,Salazar Ríos,26909158,Analista de riesgos,6,daniela.salazar@banco_crediandes.pe,6213.51,2026-02-10

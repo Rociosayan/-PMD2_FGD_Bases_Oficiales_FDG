@@ -1,96 +1,160 @@
-﻿id_incidencia,codigo_incidencia,id_operacion,tipo_incidencia,severidad,fecha_reporte,estado_incidencia
-1,I00001,290,Dato inconsistente,Baja,2026-02-10,Abierta
-2,I00002,491,Reprogramaci?n,Baja,2026-01-16,En revisi?n
-3,I00003,368,Demora,Media,2026-06-04,Abierta
-4,I00004,343,Dato inconsistente,Baja,2026-04-23,Cerrada
-5,I00005,475,Dato inconsistente,Alta,2026-02-20,En revisi?n
-6,I00006,244,Dato inconsistente,Baja,2026-03-02,Abierta
-7,I00007,297,Reprogramaci?n,Alta,2026-06-09,Cerrada
-8,I00008,219,Falla de registro,Alta,2026-02-10,Abierta
-9,I00009,490,Demora,Media,2026-03-11,Abierta
-10,I00010,1,Reclamo,Media,2026-03-22,Abierta
-11,I00011,151,Dato inconsistente,Media,2026-04-16,Abierta
-12,I00012,342,Falla de registro,Alta,2026-02-15,Abierta
-13,I00013,237,Reclamo,Baja,2026-05-05,Cerrada
-14,I00014,101,Dato inconsistente,Alta,2026-01-19,Abierta
-15,I00015,56,Reprogramaci?n,Alta,2026-03-11,En revisi?n
-16,I00016,485,Dato inconsistente,Media,2026-01-30,Abierta
-17,I00017,182,Dato inconsistente,Alta,2026-01-18,En revisi?n
-18,I00018,448,Demora,Alta,2026-05-09,Cerrada
-19,I00019,421,Reprogramaci?n,Baja,2026-05-27,Cerrada
-20,I00020,287,Reclamo,Alta,2026-05-10,Cerrada
-21,I00021,494,Falla de registro,Alta,2026-01-13,En revisi?n
-22,I00022,452,Falla de registro,Alta,2026-04-04,Abierta
-23,I00023,113,Dato inconsistente,Media,2026-03-13,Abierta
-24,I00024,10,Demora,Baja,2026-02-09,Cerrada
-25,I00025,335,Dato inconsistente,Alta,2026-04-18,En revisi?n
-26,I00026,216,Demora,Baja,2026-04-04,Cerrada
-27,I00027,281,Dato inconsistente,Baja,2026-06-16,Abierta
-28,I00028,33,Dato inconsistente,Alta,2026-03-04,En revisi?n
-29,I00029,252,Reprogramaci?n,Baja,2026-02-25,En revisi?n
-30,I00030,268,Dato inconsistente,Alta,2026-02-02,Abierta
-31,I00031,467,Dato inconsistente,Media,2026-04-26,Abierta
-32,I00032,242,Reclamo,Media,2026-02-15,Abierta
-33,I00033,78,Dato inconsistente,Alta,2026-02-03,Abierta
-34,I00034,7,Reprogramaci?n,Alta,2026-02-12,En revisi?n
-35,I00035,350,Reclamo,Media,2026-06-21,En revisi?n
-36,I00036,143,Demora,Media,2026-06-05,Cerrada
-37,I00037,482,Falla de registro,Baja,2026-01-30,Cerrada
-38,I00038,236,Reprogramaci?n,Alta,2026-04-30,Abierta
-39,I00039,209,Falla de registro,Media,2026-04-18,En revisi?n
-40,I00040,292,Dato inconsistente,Baja,2026-05-14,En revisi?n
-41,I00041,454,Demora,Baja,2026-01-21,Cerrada
-42,I00042,193,Reprogramaci?n,Alta,2026-05-26,En revisi?n
-43,I00043,434,Dato inconsistente,Baja,2026-01-26,Cerrada
-44,I00044,327,Reclamo,Baja,2026-04-24,Cerrada
-45,I00045,156,Reclamo,Alta,2026-02-14,Abierta
-46,I00046,117,Falla de registro,Alta,2026-02-03,Abierta
-47,I00047,11,Dato inconsistente,Alta,2026-01-29,En revisi?n
-48,I00048,248,Dato inconsistente,Media,2026-06-16,En revisi?n
-49,I00049,127,Reprogramaci?n,Alta,2026-05-14,En revisi?n
-50,I00050,443,Reclamo,Alta,2026-02-28,Cerrada
-51,I00051,289,Demora,Alta,2026-01-21,En revisi?n
-52,I00052,288,Demora,Media,2026-03-08,En revisi?n
-53,I00053,354,Reclamo,Baja,2026-05-07,Cerrada
-54,I00054,107,Reprogramaci?n,Alta,2026-06-24,Cerrada
-55,I00055,318,Reclamo,Media,2026-02-17,Cerrada
-56,I00056,359,Reprogramaci?n,Alta,2026-02-22,Cerrada
-57,I00057,362,Dato inconsistente,Media,2026-03-21,Cerrada
-58,I00058,346,Dato inconsistente,Media,2026-04-13,Cerrada
-59,I00059,286,Demora,Alta,2026-03-08,Abierta
-60,I00060,313,Reprogramaci?n,Alta,2026-01-23,Cerrada
-61,I00061,470,Reprogramaci?n,Baja,2026-05-29,Abierta
-62,I00062,422,Demora,Baja,2026-01-27,Abierta
-63,I00063,420,Reclamo,Baja,2026-02-11,Cerrada
-64,I00064,189,Reprogramaci?n,Alta,2026-04-10,Abierta
-65,I00065,322,Demora,Baja,2026-02-01,Cerrada
-66,I00066,142,Falla de registro,Alta,2026-05-18,En revisi?n
-67,I00067,120,Demora,Alta,2026-01-07,En revisi?n
-68,I00068,214,Reclamo,Media,2026-04-03,Abierta
-69,I00069,245,Falla de registro,Media,2026-05-06,En revisi?n
-70,I00070,39,Falla de registro,Alta,2026-02-11,En revisi?n
-71,I00071,175,Falla de registro,Media,2026-02-03,Cerrada
-72,I00072,500,Demora,Baja,2026-01-13,En revisi?n
-73,I00073,239,Reclamo,Baja,2026-04-23,Abierta
-74,I00074,144,Reprogramaci?n,Media,2026-06-26,Abierta
-75,I00075,299,Falla de registro,Alta,2026-05-20,En revisi?n
-76,I00076,154,Demora,Baja,2026-03-11,En revisi?n
-77,I00077,298,Dato inconsistente,Media,2026-05-04,En revisi?n
-78,I00078,13,Reprogramaci?n,Alta,2026-06-03,En revisi?n
-79,I00079,53,Reclamo,Media,2026-03-21,Cerrada
-80,I00080,100,Dato inconsistente,Media,2026-05-30,Cerrada
-81,I00081,332,Demora,Alta,2026-06-04,En revisi?n
-82,I00082,57,Demora,Alta,2026-03-05,Abierta
-83,I00083,462,Reprogramaci?n,Media,2026-01-05,Abierta
-84,I00084,270,Reprogramaci?n,Alta,2026-03-19,Cerrada
-85,I00085,279,Reprogramaci?n,Baja,2026-03-14,Abierta
-86,I00086,468,Falla de registro,Media,2026-02-14,Cerrada
-87,I00087,478,Dato inconsistente,Alta,2026-03-17,En revisi?n
-88,I00088,27,Falla de registro,Baja,2026-06-19,Cerrada
-89,I00089,471,Falla de registro,Baja,2026-02-15,En revisi?n
-90,I00090,205,Reprogramaci?n,Media,2026-06-11,Abierta
-91,I00091,382,Demora,Baja,2026-01-09,Cerrada
-92,I00092,277,Demora,Media,2026-04-30,En revisi?n
-93,I00093,406,Reprogramaci?n,Baja,2026-02-03,Abierta
-94,I00094,351,Dato inconsistente,Baja,2026-05-20,Abierta
-95,I00095,258,Reprogramaci?n,Baja,2026-05-14,En revisi?n
+id_incidencia,codigo_incidencia,id_operacion,tipo_incidencia,severidad,fecha_reporte,estado_incidencia
+1,I00001,1,Cita reprogramada,Alta,2026-05-08,En revisión
+2,I00002,4,Reacción posvacuna,Alta,2026-06-05,Cerrada
+3,I00003,9,Resultado pendiente,Alta,2026-05-07,Cerrada
+4,I00004,15,Medicamento agotado,Media,2026-02-16,Abierta
+5,I00005,19,Observación de hospitalización,Baja,2026-04-07,Cerrada
+6,I00006,30,Cita reprogramada,Media,2026-02-25,Abierta
+7,I00007,39,Reacción posvacuna,Alta,2026-02-08,Abierta
+8,I00008,40,Resultado pendiente,Media,2026-02-11,Abierta
+9,I00009,42,Medicamento agotado,Alta,2026-06-14,Abierta
+10,I00010,45,Observación de hospitalización,Baja,2026-06-28,Abierta
+11,I00011,48,Cita reprogramada,Media,2026-02-28,En revisión
+12,I00012,53,Reacción posvacuna,Media,2026-03-16,Cerrada
+13,I00013,55,Resultado pendiente,Media,2026-06-11,Cerrada
+14,I00014,65,Medicamento agotado,Media,2026-05-06,En revisión
+15,I00015,67,Observación de hospitalización,Media,2026-04-21,Cerrada
+16,I00016,75,Cita reprogramada,Baja,2026-02-16,En revisión
+17,I00017,84,Reacción posvacuna,Alta,2026-03-22,Cerrada
+18,I00018,96,Resultado pendiente,Baja,2026-04-25,Abierta
+19,I00019,100,Medicamento agotado,Baja,2026-06-19,En revisión
+20,I00020,106,Observación de hospitalización,Alta,2026-03-10,Abierta
+21,I00021,116,Cita reprogramada,Media,2026-05-24,Abierta
+22,I00022,117,Reacción posvacuna,Alta,2026-02-17,En revisión
+23,I00023,122,Resultado pendiente,Media,2026-03-19,Abierta
+24,I00024,130,Medicamento agotado,Baja,2026-02-01,En revisión
+25,I00025,147,Observación de hospitalización,Alta,2026-06-24,En revisión
+26,I00026,148,Cita reprogramada,Alta,2026-03-01,Abierta
+27,I00027,166,Reacción posvacuna,Media,2026-06-13,En revisión
+28,I00028,168,Resultado pendiente,Alta,2026-06-23,Abierta
+29,I00029,170,Medicamento agotado,Baja,2026-05-24,Abierta
+30,I00030,174,Observación de hospitalización,Media,2026-06-08,Cerrada
+31,I00031,183,Cita reprogramada,Media,2026-03-18,En revisión
+32,I00032,189,Reacción posvacuna,Alta,2026-03-18,En revisión
+33,I00033,194,Resultado pendiente,Alta,2026-06-19,Abierta
+34,I00034,197,Medicamento agotado,Media,2026-06-08,Abierta
+35,I00035,209,Observación de hospitalización,Media,2026-06-08,Abierta
+36,I00036,211,Cita reprogramada,Media,2026-02-17,Cerrada
+37,I00037,213,Reacción posvacuna,Baja,2026-03-04,Abierta
+38,I00038,218,Resultado pendiente,Alta,2026-04-12,Abierta
+39,I00039,220,Medicamento agotado,Media,2026-05-01,Cerrada
+40,I00040,224,Observación de hospitalización,Baja,2026-06-08,En revisión
+41,I00041,228,Cita reprogramada,Baja,2026-04-01,Abierta
+42,I00042,232,Reacción posvacuna,Media,2026-04-12,Abierta
+43,I00043,233,Resultado pendiente,Media,2026-02-14,Abierta
+44,I00044,242,Medicamento agotado,Media,2026-04-13,Abierta
+45,I00045,243,Observación de hospitalización,Baja,2026-06-10,Abierta
+46,I00046,247,Cita reprogramada,Baja,2026-06-05,Abierta
+47,I00047,250,Reacción posvacuna,Media,2026-06-28,Cerrada
+48,I00048,263,Resultado pendiente,Alta,2026-05-07,Abierta
+49,I00049,264,Medicamento agotado,Baja,2026-03-19,Abierta
+50,I00050,270,Observación de hospitalización,Baja,2026-02-05,En revisión
+51,I00051,271,Cita reprogramada,Media,2026-03-12,Cerrada
+52,I00052,277,Reacción posvacuna,Alta,2026-02-22,En revisión
+53,I00053,278,Resultado pendiente,Media,2026-05-02,En revisión
+54,I00054,280,Medicamento agotado,Alta,2026-02-09,Cerrada
+55,I00055,284,Observación de hospitalización,Media,2026-05-13,Abierta
+56,I00056,287,Cita reprogramada,Baja,2026-05-07,Abierta
+57,I00057,295,Reacción posvacuna,Baja,2026-03-19,Cerrada
+58,I00058,304,Resultado pendiente,Alta,2026-05-07,Cerrada
+59,I00059,310,Medicamento agotado,Media,2026-06-28,En revisión
+60,I00060,332,Observación de hospitalización,Media,2026-06-01,Cerrada
+61,I00061,334,Cita reprogramada,Alta,2026-06-01,En revisión
+62,I00062,339,Reacción posvacuna,Alta,2026-03-28,Cerrada
+63,I00063,341,Resultado pendiente,Media,2026-02-23,En revisión
+64,I00064,360,Medicamento agotado,Alta,2026-05-12,Abierta
+65,I00065,364,Observación de hospitalización,Baja,2026-03-03,Abierta
+66,I00066,368,Cita reprogramada,Alta,2026-06-16,En revisión
+67,I00067,370,Reacción posvacuna,Alta,2026-06-16,Abierta
+68,I00068,389,Resultado pendiente,Baja,2026-02-12,En revisión
+69,I00069,403,Medicamento agotado,Alta,2026-06-04,Cerrada
+70,I00070,415,Observación de hospitalización,Alta,2026-03-12,Cerrada
+71,I00071,416,Cita reprogramada,Baja,2026-05-20,En revisión
+72,I00072,417,Reacción posvacuna,Alta,2026-03-28,Cerrada
+73,I00073,418,Resultado pendiente,Media,2026-03-17,Cerrada
+74,I00074,420,Medicamento agotado,Alta,2026-04-04,Abierta
+75,I00075,421,Observación de hospitalización,Baja,2026-06-15,Abierta
+76,I00076,424,Cita reprogramada,Media,2026-02-03,Cerrada
+77,I00077,425,Reacción posvacuna,Baja,2026-02-17,Abierta
+78,I00078,426,Resultado pendiente,Baja,2026-04-16,Abierta
+79,I00079,429,Medicamento agotado,Media,2026-03-27,Cerrada
+80,I00080,437,Observación de hospitalización,Media,2026-05-16,Cerrada
+81,I00081,440,Cita reprogramada,Baja,2026-05-14,Abierta
+82,I00082,460,Reacción posvacuna,Baja,2026-04-13,Cerrada
+83,I00083,470,Resultado pendiente,Alta,2026-05-15,En revisión
+84,I00084,471,Medicamento agotado,Baja,2026-05-20,En revisión
+85,I00085,474,Observación de hospitalización,Alta,2026-06-02,En revisión
+86,I00086,475,Cita reprogramada,Media,2026-05-05,Cerrada
+87,I00087,477,Reacción posvacuna,Baja,2026-03-23,Abierta
+88,I00088,482,Resultado pendiente,Media,2026-04-25,En revisión
+89,I00089,490,Medicamento agotado,Baja,2026-03-02,En revisión
+90,I00090,491,Observación de hospitalización,Media,2026-06-08,En revisión
+91,I00091,501,Cita reprogramada,Media,2026-06-14,Abierta
+92,I00092,512,Reacción posvacuna,Media,2026-06-07,Abierta
+93,I00093,522,Resultado pendiente,Baja,2026-03-03,Abierta
+94,I00094,528,Medicamento agotado,Media,2026-03-09,Cerrada
+95,I00095,529,Observación de hospitalización,Baja,2026-05-02,Cerrada
+96,I00096,537,Cita reprogramada,Baja,2026-05-23,En revisión
+97,I00097,542,Reacción posvacuna,Alta,2026-02-23,En revisión
+98,I00098,547,Resultado pendiente,Alta,2026-02-15,En revisión
+99,I00099,556,Medicamento agotado,Media,2026-06-19,En revisión
+100,I00100,557,Observación de hospitalización,Media,2026-06-12,Abierta
+101,I00101,566,Cita reprogramada,Alta,2026-02-26,En revisión
+102,I00102,567,Reacción posvacuna,Baja,2026-05-12,En revisión
+103,I00103,579,Resultado pendiente,Alta,2026-03-01,Abierta
+104,I00104,588,Medicamento agotado,Alta,2026-04-21,En revisión
+105,I00105,611,Observación de hospitalización,Alta,2026-02-10,En revisión
+106,I00106,616,Cita reprogramada,Baja,2026-06-03,En revisión
+107,I00107,619,Reacción posvacuna,Baja,2026-02-10,En revisión
+108,I00108,624,Resultado pendiente,Media,2026-02-11,En revisión
+109,I00109,627,Medicamento agotado,Media,2026-02-13,Cerrada
+110,I00110,634,Observación de hospitalización,Baja,2026-04-24,En revisión
+111,I00111,637,Cita reprogramada,Baja,2026-06-03,Abierta
+112,I00112,638,Reacción posvacuna,Baja,2026-05-02,Cerrada
+113,I00113,654,Resultado pendiente,Alta,2026-02-22,Cerrada
+114,I00114,660,Medicamento agotado,Baja,2026-06-10,Cerrada
+115,I00115,688,Observación de hospitalización,Baja,2026-03-10,Abierta
+116,I00116,692,Cita reprogramada,Baja,2026-03-26,En revisión
+117,I00117,700,Reacción posvacuna,Media,2026-05-19,Cerrada
+118,I00118,709,Resultado pendiente,Baja,2026-04-13,Cerrada
+119,I00119,713,Medicamento agotado,Alta,2026-02-18,Abierta
+120,I00120,717,Observación de hospitalización,Media,2026-06-25,Cerrada
+121,I00121,722,Cita reprogramada,Baja,2026-05-08,En revisión
+122,I00122,734,Reacción posvacuna,Media,2026-05-11,Cerrada
+123,I00123,740,Resultado pendiente,Alta,2026-04-16,Abierta
+124,I00124,743,Medicamento agotado,Baja,2026-06-28,Abierta
+125,I00125,744,Observación de hospitalización,Media,2026-06-04,En revisión
+126,I00126,751,Cita reprogramada,Media,2026-03-12,Abierta
+127,I00127,752,Reacción posvacuna,Media,2026-02-14,Abierta
+128,I00128,753,Resultado pendiente,Baja,2026-04-14,Cerrada
+129,I00129,755,Medicamento agotado,Media,2026-06-08,Abierta
+130,I00130,756,Observación de hospitalización,Alta,2026-03-19,En revisión
+131,I00131,763,Cita reprogramada,Baja,2026-04-03,Abierta
+132,I00132,767,Reacción posvacuna,Media,2026-02-03,Abierta
+133,I00133,775,Resultado pendiente,Alta,2026-06-20,Cerrada
+134,I00134,787,Medicamento agotado,Media,2026-04-10,Abierta
+135,I00135,802,Observación de hospitalización,Alta,2026-05-02,En revisión
+136,I00136,814,Cita reprogramada,Media,2026-06-12,En revisión
+137,I00137,828,Reacción posvacuna,Alta,2026-05-09,Abierta
+138,I00138,832,Resultado pendiente,Baja,2026-03-02,En revisión
+139,I00139,834,Medicamento agotado,Media,2026-03-23,Cerrada
+140,I00140,837,Observación de hospitalización,Alta,2026-06-18,Abierta
+141,I00141,872,Cita reprogramada,Baja,2026-05-04,Abierta
+142,I00142,874,Reacción posvacuna,Alta,2026-03-23,Cerrada
+143,I00143,880,Resultado pendiente,Baja,2026-06-01,En revisión
+144,I00144,881,Medicamento agotado,Baja,2026-06-28,En revisión
+145,I00145,882,Observación de hospitalización,Media,2026-04-21,Cerrada
+146,I00146,884,Cita reprogramada,Baja,2026-06-12,Cerrada
+147,I00147,900,Reacción posvacuna,Alta,2026-04-17,Abierta
+148,I00148,901,Resultado pendiente,Media,2026-04-05,En revisión
+149,I00149,908,Medicamento agotado,Baja,2026-06-04,En revisión
+150,I00150,924,Observación de hospitalización,Media,2026-03-03,Cerrada
+151,I00151,925,Cita reprogramada,Alta,2026-05-04,Abierta
+152,I00152,926,Reacción posvacuna,Alta,2026-02-12,En revisión
+153,I00153,941,Resultado pendiente,Media,2026-05-23,Cerrada
+154,I00154,946,Medicamento agotado,Media,2026-02-05,Cerrada
+155,I00155,951,Observación de hospitalización,Alta,2026-04-20,Cerrada
+156,I00156,970,Cita reprogramada,Baja,2026-06-15,En revisión
+157,I00157,979,Reacción posvacuna,Media,2026-03-10,Abierta
+158,I00158,987,Resultado pendiente,Media,2026-06-03,En revisión
+159,I00159,991,Medicamento agotado,Alta,2026-05-08,Abierta

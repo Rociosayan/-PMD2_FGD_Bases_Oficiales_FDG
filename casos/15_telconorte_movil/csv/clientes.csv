@@ -1,0 +1,209 @@
+id_cliente,codigo_cliente,tipo_documento,num_documento,nombres,apellidos,correo,telefono,distrito,segmento,fecha_registro,numero_linea
+1,C0001,CE,51157423,Ricardo,Espinoza Huamán,ricardo1@correo.com,974424711,San Juan de Lurigancho,Prepago,2026-05-12,978403694
+2,C0002,DNI,11717732,Sergio,Ramos Rojas,sergio2@correo.com,990182503,Breña,Postpago,2026-03-13,962171111
+3,C0003,DNI,51593883,Melissa,Vargas Huamán,melissa3@correo.com,915999502,San Juan de Lurigancho,Hogar,2026-04-24,950474387
+4,C0004,DNI,456031,Bruno,Quispe Rivera,bruno4@correo.com,991008104,Villa El Salvador,Empresa,2026-02-21,940347963
+5,C0005,DNI,75818338,Sergio,Chávez Mendoza,sergio5@correo.com,915282857,San Borja,Prepago,2026-04-05,985832900
+6,C0006,DNI,86546807,María,Aguirre Ponce,maría6@correo.com,939400885,Surco,Postpago,2026-04-28,916854000
+7,C0007,CE,76705252,María,Chávez Gutiérrez,maría7@correo.com,930352258,Independencia,Hogar,2026-05-02,940954758
+8,C0008,CE,45058480,Natalia,Palomino Huamán,natalia8@correo.com,957261071,La Molina,Empresa,2026-04-28,978883130
+9,C0009,CE,53876831,Patricia,Paredes Sánchez,patricia9@correo.com,982829215,San Borja,Prepago,2026-02-28,934562064
+10,C0010,DNI,73008580,Natalia,Rivera Paredes,natalia10correo.com,,,Postpago,2026-04-25,926989233
+11,C0011,DNI,83766353,Víctor,Sánchez Flores,víctor11@correo.com,918570649,San Miguel,Hogar,2026-04-23,936280220
+12,C0012,DNI,28803308,Jorge,Paredes Ramos,jorge12@correo.com,958533877,Rímac,Empresa,2026-03-16,974424585
+13,C0013,DNI,84192952,Pedro,Rojas Ramos,pedro13@correo.com,945528845,Independencia,Prepago,2026-02-21,948571605
+14,C0014,CE,76919846,Lucía,Aguirre Ponce,lucía14@correo.com,994296273,Chorrillos,Postpago,2026-05-05,970078005
+15,C0015,DNI,81936803,Bruno,Ninaquispe Espinoza,bruno15@correo.com,915922951,La Molina,Hogar,2026-04-23,953197005
+16,C0016,RUC,28267197,Raúl,Ramos Ninaquispe,raúl16@correo.com,,Surco,Empresa,2026-05-06,914450191
+17,C0017,DNI,20581425,Jorge,Chávez Ponce,jorge17@correo.com,987230603,Independencia,Prepago,2026-02-03,939013684
+18,C0018,CE,92238403,Paola,Rivera Torres,paola18@correo.com,952961324,Miraflores,Postpago,2026-05-24,927480566
+19,C0019,RUC,45824122,Claudia,Lévano Mendoza,claudia19@correo.com,935410417,San Borja,Hogar,2026-04-05,993624001
+20,C0020,DNI,86945009,Sergio,Rojas Ríos,sergio20@correo.com,942083151,Miraflores,Empresa,2026-04-15,993112262
+21,C0021,DNI,65296575,Luis,Mendoza Mendoza,luis21@correo.com,988323652,San Juan de Lurigancho,Prepago,2026-01-10,942502080
+22,C0022,DNI,87257333,Carlos,Huamán Palomino,carlos22@correo.com,961735235,Los Olivos,Postpago,2026-02-02,913905098
+23,C0023,DNI,98980660,Fernando,Torres Romero,fernando23@correo.com,995735418,Lince,Hogar,2026-01-13,990130062
+24,C0024,DNI,21072997,Ricardo,Castillo Cornejo,ricardo24@correo.com,974118695,,Empresa,2026-05-13,953267565
+25,C0025,DNI,53418373,Patricia,Cárdenas Ponce,patricia25@correo.com,966564263,Surco,Prepago,2026-03-09,992270601
+26,C0026,DNI,86959489,Karla,Ramos Espinoza,karla26@correo.com,962938250,Surco,Postpago,2026-01-19,978974724
+27,C0027,DNI,14043272,Carlos,Cárdenas Cornejo,carlos27@correo.com,937230416,Villa El Salvador,Hogar,2026-03-05,994063547
+28,C0028,DNI,38675074,Manuel,Espinoza Salazar,manuel28@correo.com,929793859,San Miguel,Empresa,2026-02-01,964847820
+29,C0029,RUC,10171507,María,Espinoza Zevallos,maría29@correo.com,932805155,La Molina,Prepago,2026-05-28,919410223
+30,C0030,CE,41977498,José,Zevallos Rivera,josé30@correo.com,917703029,San Borja,Postpago,2026-03-02,949792099
+31,C0031,RUC,11097856,María,Díaz Gutiérrez,maría31@correo.com,954152810,Villa El Salvador,Hogar,2026-05-10,963943879
+32,C0032,DNI,570179,Bruno,Ninaquispe Quispe,bruno32@correo.com,975483978,Ate,Empresa,2026-01-28,953625524
+33,C0033,DNI,22078635,Karla,Ponce Chávez,karla33@correo.com,991868784,Los Olivos,Prepago,2026-05-06,912765159
+34,C0034,CE,43636588,Patricia,Mendoza Chávez,patricia34@correo.com,987249695,Ate,Postpago,2026-02-09,943663024
+35,C0035,CE,19948864,Fernando,Aguirre Vargas,fernando35@correo.com,,,Hogar,2026-01-16,920276981
+36,C0036,DNI,84505057,Raúl,Rivera Quispe,raúl36@correo.com,923153868,Lince,Empresa,2026-03-16,944473469
+37,C0037,DNI,927692,Fernando,Cruz Quispe,fernando37@correo.com,965097278,Villa El Salvador,Prepago,2026-04-13,942839344
+38,C0038,RUC,80231104,Pedro,Chávez Espinoza,pedro38@correo.com,912914838,Rímac,Postpago,2026-04-04,985868568
+39,C0039,DNI,52116568,Natalia,Ponce Torres,natalia39@correo.com,930972581,Chorrillos,Hogar,2026-04-26,943132511
+40,C0040,DNI,91135785,María,Díaz Villanueva,maría40@correo.com,954232781,Villa El Salvador,Empresa,2026-02-28,929209349
+41,C0041,DNI,86332419,Claudia,Vargas Bautista,claudia41@correo.com,960647787,Ate,Prepago,2026-05-04,974772857
+42,C0042,DNI,43319871,Hugo,Torres Cornejo,hugo42@correo.com,976882242,Villa El Salvador,Postpago,2026-01-08,999764456
+43,C0043,DNI,18336838,Ricardo,Vargas Rojas,ricardo43@correo.com,933115888,Lince,Hogar,2026-01-19,969155146
+44,C0044,DNI,52593622,María,Zevallos Cornejo,maría44@correo.com,,La Molina,Empresa,2026-03-15,912022670
+45,C0045,DNI,27189944,Manuel,Rojas Cruz,,993973211,Breña,Prepago,2026-04-15,999939366
+46,C0046,DNI,26363359,Víctor,Palomino Zevallos,víctor46correo.com,967984792,Villa El Salvador,Postpago,2026-01-05,980109622
+47,C0047,DNI,70696721,Andrés,Aguirre Ramos,andrés47@correo.com,968528370,Surco,Hogar,2026-03-13,992464796
+48,C0048,DNI,67149964,Carmen,Espinoza Torres,carmen48@correo.com,925814175,Rímac,Empresa,2026-04-07,967007937
+49,C0049,DNI,62022943,Pedro,Ríos Ramos,pedro49@correo.com,962556333,Surco,Prepago,2026-03-24,911353503
+50,C0050,RUC,47837900,Fernando,Chávez Romero,fernando50@correo.com,917518202,Callao,Postpago,2026-03-23,914430134
+51,C0051,DNI,23032888,Rosa,Chávez Castillo,rosa51@correo.com,965504195,Independencia,Hogar,2026-02-18,929309527
+52,C0052,DNI,10976178,Ricardo,Díaz Cornejo,ricardo52@correo.com,952727818,Chorrillos,Empresa,2026-03-12,945868299
+53,C0053,RUC,84707193,Julia,Rojas Quispe,julia53@correo.com,969070139,Los Olivos,Prepago,2026-02-20,913659078
+54,C0054,DNI,19395738,Isabel,Díaz Rivera,isabel54@correo.com,968631205,San Borja,Postpago,2026-04-16,955122901
+55,C0055,RUC,58468055,Hugo,Ramos Rojas,hugo55@correo.com,992131375,San Miguel,Hogar,2026-01-13,960447316
+56,C0056,DNI,88707926,Pamela,Castillo Sánchez,pamela56@correo.com,986608869,San Juan de Lurigancho,Empresa,2026-05-05,974062451
+57,C0057,RUC,76248301,Álvaro,Rojas Rojas,álvaro57correo.com,912062925,Comas,Prepago,2026-02-11,983885048
+58,C0058,DNI,22722546,Sergio,Ramos Paredes,sergio58@correo.com,922915135,Rímac,Postpago,2026-03-22,934957919
+59,C0059,DNI,51506997,Pamela,Díaz Ríos,pamela59@correo.com,984507129,Comas,Hogar,2026-01-01,997353354
+60,C0060,DNI,40155112,Iván,Mendoza Bautista,iván60correo.com,932967231,Independencia,Empresa,2026-03-17,924976069
+61,C0061,DNI,63144000,Hugo,Ramos Torres,hugo61@correo.com,,San Miguel,Prepago,2026-05-28,998827431
+62,C0062,DNI,82901038,Isabel,Ríos Flores,,938556375,San Borja,Postpago,2026-05-21,994933240
+63,C0063,RUC,33893184,Sofía,Cruz Rojas,sofía63@correo.com,954473612,Independencia,Hogar,2026-03-16,979488921
+64,C0064,CE,67729937,Natalia,Vargas Paredes,natalia64@correo.com,958154444,Chorrillos,Empresa,2026-04-25,956374490
+65,C0065,DNI,92059615,Jorge,Aguirre Vargas,jorge65@correo.com,935468070,Los Olivos,Prepago,2026-02-24,913546788
+66,C0066,DNI,98684726,Claudia,Salazar Rivera,claudia66@correo.com,940307593,Los Olivos,Postpago,2026-01-20,911616052
+67,C0067,RUC,51869848,Sergio,Aguirre Chávez,sergio67@correo.com,972478812,Ate,Hogar,2026-03-11,989441186
+68,C0068,RUC,95871430,Verónica,Cárdenas Rojas,verónica68@correo.com,922156227,Chorrillos,Empresa,2026-03-18,912091405
+69,C0069,DNI,14535110,María,Gutiérrez Quispe,maría69@correo.com,919482080,Lince,Prepago,2026-02-07,933398952
+70,C0070,DNI,519075,Paola,Paredes Espinoza,paola70@correo.com,921362338,Callao,Postpago,2026-05-24,970746388
+71,C0071,DNI,38826002,Carmen,Flores Aguirre,carmen71@correo.com,929107863,San Miguel,Hogar,2026-05-10,925037433
+72,C0072,DNI,77119473,Carlos,Rojas Sánchez,carlos72@correo.com,910102616,Surco,Empresa,2026-03-17,954746704
+73,C0073,CE,91330981,Verónica,Villanueva Aguirre,verónica73@correo.com,969645185,Breña,Prepago,2026-05-08,951229928
+74,C0074,DNI,20484083,Andrés,Cárdenas Gutiérrez,andrés74@correo.com,937437244,Rímac,Postpago,2026-02-07,982712342
+75,C0075,DNI,52992285,Manuel,Mendoza Gutiérrez,manuel75@correo.com,983048537,La Molina,Hogar,2026-05-01,923673404
+76,C0076,DNI,11213331,Diego,Sánchez Villanueva,diego76@correo.com,956122568,Miraflores,Empresa,2026-02-05,931185426
+77,C0077,CE,85419574,Carmen,Huamán Espinoza,,975373754,Callao,Prepago,2026-04-15,953838898
+78,C0078,DNI,19392414,Jorge,Ponce Bautista,jorge78@correo.com,986598317,Callao,Postpago,2026-01-08,960494196
+79,C0079,CE,88434204,Sergio,Romero Villanueva,sergio79@correo.com,,San Miguel,Hogar,2026-01-10,937157316
+80,C0080,DNI,42863061,Iván,Ponce Villanueva,iván80@correo.com,973357464,Comas,Empresa,2026-05-27,988860418
+81,C0081,DNI,66781648,Patricia,Rivera Rojas,patricia81@correo.com,969616392,,Prepago,2026-05-04,910643155
+82,C0082,RUC,31102867,Patricia,Romero Zevallos,patricia82@correo.com,925281438,Rímac,Postpago,2026-01-03,952746801
+83,C0083,CE,63562954,Natalia,Aguirre Villanueva,natalia83@correo.com,976335313,La Molina,Hogar,2026-02-09,977056508
+84,C0084,CE,91649609,Ana,Sánchez Quispe,ana84correo.com,992266137,La Molina,Empresa,2026-02-23,925812760
+85,C0085,DNI,93150897,Jorge,Romero Romero,jorge85@correo.com,945152434,Los Olivos,Prepago,2026-03-03,915698825
+86,C0086,DNI,70919893,Claudia,Ramos Gutiérrez,claudia86@correo.com,953330868,Surco,Postpago,2026-03-12,987723688
+87,C0087,DNI,18795786,Karla,Castillo Lévano,karla87@correo.com,978117513,San Juan de Lurigancho,Hogar,2026-03-24,978806889
+88,C0088,RUC,19016385,Rosa,Espinoza Rojas,rosa88correo.com,965121705,La Molina,Empresa,2026-01-19,954392306
+89,C0089,RUC,21403102,Óscar,Espinoza Bautista,óscar89@correo.com,974246194,San Juan de Lurigancho,Prepago,2026-03-21,989835822
+90,C0090,DNI,27656790,Carmen,Sánchez Gutiérrez,,,Breña,Postpago,2026-02-27,972835616
+91,C0091,DNI,70074588,Carmen,Flores Cornejo,carmen91@correo.com,,San Juan de Lurigancho,Hogar,2026-03-09,990494831
+92,C0092,DNI,53871989,Lucía,Rivera Bautista,lucía92@correo.com,995325984,Callao,Empresa,2026-03-25,921435855
+93,C0093,DNI,445344,Pamela,Palomino Salazar,pamela93@correo.com,,Villa El Salvador,Prepago,2026-01-09,994610683
+94,C0094,DNI,20033511,Pamela,Rojas Díaz,pamela94@correo.com,945043641,Rímac,Postpago,2026-03-23,940285611
+95,C0095,DNI,77404670,Rosa,Flores Gutiérrez,rosa95correo.com,959672198,Lince,Hogar,2026-05-25,989984413
+96,C0096,DNI,73771181,Sofía,Sánchez Ninaquispe,sofía96correo.com,953330303,San Miguel,Empresa,2026-05-19,970961778
+97,C0097,CE,49240376,Milagros,Palomino Cárdenas,,915581853,San Miguel,Prepago,2026-05-23,991788005
+98,C0098,RUC,62481847,Luis,Rivera Rojas,luis98@correo.com,935719536,Los Olivos,Postpago,2026-05-20,922940565
+99,C0099,CE,52178148,Hugo,Chávez Rojas,hugo99@correo.com,985000049,Breña,Hogar,2026-02-13,943131111
+100,C0100,DNI,40289522,Manuel,Lévano Díaz,manuel100@correo.com,992503323,Los Olivos,Empresa,2026-02-08,922097595
+101,C0101,DNI,67581556,Claudia,Ríos Zevallos,claudia101@correo.com,980332581,Breña,Prepago,2026-01-18,977421451
+102,C0102,DNI,52924515,Óscar,Sánchez Sánchez,óscar102@correo.com,957224398,Surco,Postpago,2026-01-01,984863967
+103,C0103,DNI,53546714,Miguel,Ramos Paredes,miguel103@correo.com,987477519,,Hogar,2026-03-17,947335687
+104,C0104,DNI,88377365,Carlos,Castillo Ponce,carlos104@correo.com,920805239,Breña,Empresa,2026-03-16,932940167
+105,C0105,DNI,19089578,Paola,Castillo Cruz,paola105@correo.com,976497373,Lince,Prepago,2026-05-20,948848031
+106,C0106,DNI,11095362,Pedro,Cornejo Bautista,,970725171,Villa El Salvador,Postpago,2026-05-21,929438347
+107,C0107,DNI,30835874,Diego,Bautista Flores,diego107@correo.com,965829623,Independencia,Hogar,2026-02-13,963419518
+108,C0108,RUC,42188603,Melissa,Zevallos Ponce,,995123966,Chorrillos,Empresa,2026-05-10,959054390
+109,C0109,DNI,26219449,Raúl,Bautista Huamán,raúl109@correo.com,934450059,San Borja,Prepago,2026-02-19,961269969
+110,C0110,CE,76831133,Rosa,Cruz Aguirre,rosa110@correo.com,927564768,La Molina,Postpago,2026-02-14,985701811
+111,C0111,CE,89724063,Pedro,Espinoza Cárdenas,pedro111@correo.com,928177430,Villa El Salvador,Hogar,2026-01-16,992384043
+112,C0112,DNI,83755285,Claudia,Espinoza Mendoza,claudia112@correo.com,914702833,Comas,Empresa,2026-04-13,994213516
+113,C0113,DNI,64918737,Jorge,Díaz Villanueva,jorge113@correo.com,975009205,La Molina,Prepago,2026-03-08,923305054
+114,C0114,CE,32454327,Sergio,Cornejo Cárdenas,sergio114@correo.com,922918979,Callao,Postpago,2026-05-17,919152548
+115,C0115,DNI,10687575,Fernando,Ramos Torres,fernando115@correo.com,911259981,San Borja,Hogar,2026-03-11,915925281
+116,C0116,RUC,14868151,Óscar,Romero Paredes,óscar116@correo.com,,La Molina,Empresa,2026-04-18,984190809
+117,C0117,DNI,11806887,Julia,Lévano Torres,julia117@correo.com,941368101,San Borja,Prepago,2026-05-15,923383630
+118,C0118,RUC,61274232,Rosa,Bautista Ponce,rosa118@correo.com,986088479,Rímac,Postpago,2026-02-08,950743150
+119,C0119,CE,99241883,Karla,Palomino Ponce,karla119@correo.com,938663842,Independencia,Hogar,2026-01-04,911622207
+120,C0120,CE,58304234,Karla,Quispe Ninaquispe,karla120@correo.com,976129378,Breña,Empresa,2026-05-28,932990519
+121,C0121,CE,89357700,Pamela,Romero Ríos,pamela121@correo.com,947170539,La Molina,Prepago,2026-03-21,936943827
+122,C0122,RUC,47945870,Iván,Aguirre Flores,iván122@correo.com,987790776,Surco,Postpago,2026-02-09,974507776
+123,C0123,RUC,29131544,Isabel,Torres Castillo,isabel123@correo.com,920464841,,Hogar,2026-01-11,915283511
+124,C0124,DNI,23447888,Natalia,Romero Vargas,natalia124@correo.com,933345941,Lince,Empresa,2026-03-08,924345061
+125,C0125,CE,22502784,Rosa,Cruz Espinoza,rosa125@correo.com,919669885,Rímac,Prepago,2026-03-10,943531517
+126,C0126,DNI,93772705,Daniela,Quispe Chávez,daniela126@correo.com,930261089,San Borja,Postpago,2026-05-02,950869987
+127,C0127,DNI,28435440,Melissa,Espinoza Torres,,973686670,Callao,Hogar,2026-03-01,961295184
+128,C0128,RUC,39190030,Lucía,Vargas Díaz,lucía128@correo.com,970995677,San Miguel,Empresa,2026-01-23,915401464
+129,C0129,RUC,85020285,Daniela,Rojas Bautista,daniela129@correo.com,914777660,Miraflores,Prepago,2026-03-07,974803838
+130,C0130,CE,59702091,Manuel,Mendoza Paredes,manuel130@correo.com,951082156,Independencia,Postpago,2026-02-25,943963856
+131,C0131,DNI,87277787,Víctor,Paredes Sánchez,víctor131@correo.com,963235641,Breña,Hogar,2026-05-27,971045737
+132,C0132,RUC,20829723,Sofía,Chávez Díaz,sofía132@correo.com,929167444,San Miguel,Empresa,2026-01-18,921793622
+133,C0133,DNI,74122830,Isabel,Vargas Cornejo,isabel133@correo.com,984106978,Ate,Prepago,2026-02-12,933756475
+134,C0134,CE,96267971,Carmen,Lévano Huamán,carmen134correo.com,946418672,Comas,Postpago,2026-05-24,982863205
+135,C0135,RUC,36202414,Pedro,Salazar Paredes,pedro135@correo.com,951671455,Villa El Salvador,Hogar,2026-04-07,940302674
+136,C0136,CE,53857766,Raúl,Sánchez Flores,,967117143,Rímac,Empresa,2026-02-03,911876048
+137,C0137,DNI,62460686,Álvaro,Ninaquispe Vargas,álvaro137@correo.com,924934547,Villa El Salvador,Prepago,2026-05-27,920268391
+138,C0138,CE,49827201,José,Sánchez Díaz,josé138@correo.com,970189519,Ate,Postpago,2026-03-15,991888804
+139,C0139,DNI,31355360,Karla,Vargas Huamán,karla139@correo.com,967477283,Independencia,Hogar,2026-02-21,939161864
+140,C0140,CE,78179152,Melissa,Paredes Bautista,melissa140@correo.com,921633844,,Empresa,2026-02-13,928664013
+141,C0141,CE,10974486,Karla,Villanueva Huamán,karla141@correo.com,,La Molina,Prepago,2026-01-10,947998096
+142,C0142,RUC,15093471,Pamela,Mendoza Romero,pamela142@correo.com,942292375,Villa El Salvador,Postpago,2026-02-12,941401745
+143,C0143,DNI,13177780,Fernando,Díaz Cárdenas,fernando143@correo.com,974253315,Villa El Salvador,Hogar,2026-03-15,937491157
+144,C0144,DNI,16332418,Julia,Salazar Rivera,julia144@correo.com,975431693,Comas,Empresa,2026-01-09,922151425
+145,C0145,DNI,80329674,Melissa,Cornejo Espinoza,melissa145@correo.com,968484003,Miraflores,Prepago,2026-05-03,955802317
+146,C0146,RUC,15442416,Natalia,Lévano Torres,natalia146correo.com,912275000,Miraflores,Postpago,2026-03-07,985268922
+147,C0147,DNI,74742347,Pedro,Gutiérrez Díaz,pedro147@correo.com,916443898,San Miguel,Hogar,2026-04-12,993392958
+148,C0148,DNI,18853336,Verónica,Ramos Quispe,verónica148@correo.com,911950057,San Borja,Empresa,2026-03-02,915064171
+149,C0149,DNI,29921875,Elena,Sánchez Ríos,elena149@correo.com,986671781,Ate,Prepago,2026-02-28,966559720
+150,C0150,DNI,875107,Sergio,Sánchez Villanueva,sergio150@correo.com,941688684,,Postpago,2026-05-07,987163178
+151,C0151,DNI,41353419,Claudia,Ramos Flores,claudia151@correo.com,,Ate,Hogar,2026-04-16,984756141
+152,C0152,DNI,29012667,Andrés,Romero Sánchez,andrés152@correo.com,982160907,Miraflores,Empresa,2026-05-23,977179955
+153,C0153,DNI,820645,Paola,Zevallos Sánchez,paola153@correo.com,999589531,Chorrillos,Prepago,2026-04-02,980920659
+154,C0154,CE,46114132,Ricardo,Castillo Quispe,ricardo154@correo.com,948386848,Los Olivos,Postpago,2026-03-28,984735253
+155,C0155,CE,32847148,Ana,Rivera Salazar,ana155@correo.com,921663051,San Miguel,Hogar,2026-04-22,924228508
+156,C0156,RUC,18485794,Diego,Rivera Lévano,diego156@correo.com,947431118,Surco,Empresa,2026-03-09,965739618
+157,C0157,DNI,33943976,Ricardo,Romero Gutiérrez,ricardo157@correo.com,926592210,Breña,Prepago,2026-05-28,920707645
+158,C0158,DNI,78474286,Elena,Bautista Lévano,,973251878,Villa El Salvador,Postpago,2026-02-10,912301287
+159,C0159,DNI,11328414,Elena,Ramos Torres,elena159@correo.com,990426176,Surco,Hogar,2026-02-01,937025324
+160,C0160,CE,72479320,Carmen,Villanueva Mendoza,carmen160@correo.com,,Independencia,Empresa,2026-02-10,983719241
+161,C0161,DNI,16541576,Julia,Aguirre Ramos,julia161@correo.com,927872515,Breña,Prepago,2026-02-11,957128079
+162,C0162,DNI,52322237,Paola,Bautista Huamán,paola162@correo.com,953839460,Miraflores,Postpago,2026-04-04,946596987
+163,C0163,DNI,36395369,Rosa,Aguirre Romero,rosa163@correo.com,927966677,,Hogar,2026-05-03,957729797
+164,C0164,DNI,72811022,Fernando,Aguirre Aguirre,fernando164@correo.com,925432147,Ate,Empresa,2026-05-09,940040668
+165,C0165,CE,49258855,Sofía,Cruz Zevallos,sofía165@correo.com,986073276,San Borja,Prepago,2026-01-14,948708646
+166,C0166,CE,52573988,Claudia,Chávez Palomino,claudia166@correo.com,921659316,San Borja,Postpago,2026-02-07,975219409
+167,C0167,CE,13906951,Bruno,Castillo Ponce,bruno167@correo.com,925063777,Los Olivos,Hogar,2026-01-03,947901215
+168,C0168,RUC,76500294,Fernando,Cárdenas Cornejo,fernando168@correo.com,968095357,San Miguel,Empresa,2026-01-14,918568433
+169,C0169,DNI,58597150,Natalia,Cornejo Espinoza,natalia169@correo.com,958013896,Comas,Prepago,2026-01-09,971856932
+170,C0170,CE,74101277,Iván,Romero Flores,iván170@correo.com,998010411,Comas,Postpago,2026-05-03,973401595
+171,C0171,DNI,55143193,Verónica,Romero Quispe,,967053172,Ate,Hogar,2026-03-05,997593760
+172,C0172,DNI,23508124,Ricardo,Rojas Ríos,ricardo172@correo.com,943709651,Villa El Salvador,Empresa,2026-05-22,934012930
+173,C0173,CE,47703921,Julia,Espinoza Bautista,julia173@correo.com,911167223,Surco,Prepago,2026-02-21,954503413
+174,C0174,RUC,69063580,Álvaro,Flores Lévano,,,Villa El Salvador,Postpago,2026-04-14,911827115
+175,C0175,RUC,37087010,Luis,Quispe Ríos,luis175@correo.com,913276391,San Juan de Lurigancho,Hogar,2026-01-06,931837157
+176,C0176,DNI,61222572,Gabriela,Ponce Gutiérrez,gabriela176@correo.com,940681385,La Molina,Empresa,2026-01-04,941413761
+177,C0177,DNI,86298262,Óscar,Rivera Cornejo,óscar177@correo.com,991372813,Chorrillos,Prepago,2026-02-02,998176392
+178,C0178,CE,26845926,Carlos,Ramos Salazar,carlos178@correo.com,959760287,Villa El Salvador,Postpago,2026-03-08,944785282
+179,C0179,DNI,725596,Raúl,Paredes Castillo,raúl179@correo.com,915556988,Comas,Hogar,2026-02-18,933796035
+180,C0180,DNI,97835958,Pamela,Aguirre Cruz,pamela180@correo.com,,La Molina,Empresa,2026-04-03,952380987
+181,C0181,DNI,58909679,Verónica,Vargas Cárdenas,verónica181@correo.com,911709424,Breña,Prepago,2026-05-03,958813363
+182,C0182,DNI,93280704,Julia,Villanueva Ponce,julia182@correo.com,915277664,Rímac,Postpago,2026-05-09,947567320
+183,C0183,DNI,18004866,Bruno,Castillo Chávez,bruno183@correo.com,973681754,Independencia,Hogar,2026-05-27,990619050
+184,C0184,DNI,952154,Carmen,Ninaquispe Torres,carmen184@correo.com,916132487,San Miguel,Empresa,2026-04-04,936305571
+185,C0185,DNI,68526001,Isabel,Sánchez Chávez,isabel185@correo.com,988208897,Rímac,Prepago,2026-01-19,926074171
+186,C0186,RUC,10281450,Daniela,Paredes Rivera,,,Miraflores,Postpago,2026-02-19,976208098
+187,C0187,DNI,790343,Carlos,Zevallos Díaz,carlos187@correo.com,951245898,San Juan de Lurigancho,Hogar,2026-01-01,920853799
+188,C0188,DNI,17570114,Daniela,Rivera Romero,daniela188@correo.com,942296008,Breña,Empresa,2026-01-06,931252800
+189,C0189,DNI,58905921,Diego,Cornejo Ninaquispe,diego189@correo.com,968464468,San Juan de Lurigancho,Prepago,2026-02-15,965195145
+190,C0190,DNI,81485756,Miguel,Mendoza Rivera,miguel190@correo.com,914973418,Breña,Postpago,2026-02-04,956714123
+191,C0191,RUC,93951681,Elena,Bautista Quispe,elena191@correo.com,993577076,Los Olivos,Hogar,2026-02-03,940635808
+192,C0192,CE,90924186,Diego,Mendoza Aguirre,diego192@correo.com,965411837,Ate,Empresa,2026-05-16,925920851
+193,C0193,RUC,43923755,Iván,Bautista Cruz,iván193@correo.com,921501631,Callao,Prepago,2026-03-26,982145017
+194,C0194,CE,18227853,Diego,Espinoza Palomino,diego194@correo.com,956861445,Villa El Salvador,Postpago,2026-05-05,988874060
+195,C0195,CE,79944344,Daniela,Cruz Ponce,daniela195@correo.com,988802121,San Juan de Lurigancho,Hogar,2026-05-24,942562126
+196,C0196,CE,52215689,Miguel,Cárdenas Flores,miguel196@correo.com,940472646,Comas,Empresa,2026-02-05,988076089
+197,C0197,DNI,84127846,Renzo,Castillo Gutiérrez,renzo197@correo.com,917721495,Chorrillos,Prepago,2026-01-15,955793396
+198,C0198,DNI,33320509,Carmen,Villanueva Quispe,carmen198@correo.com,951633729,Comas,Postpago,2026-01-09,927941203
+199,C0199,DNI,83059724,Sofía,Palomino Torres,sofía199@correo.com,915891752,Ate,Hogar,2026-03-22,997578282
+200,C0200,RUC,82228083,Isabel,Torres Mendoza,,956361682,Miraflores,Empresa,2026-04-04,966525341
+201,C0201,DNI,44534468,Pamela,Palomino Salazar,pamela93@correo.com,,Villa El Salvador,Prepago,2026-01-09,994610683
+202,C0202,DNI,62460686,Álvaro,Ninaquispe Vargas,álvaro137@correo.com,924934547,Villa El Salvador,Postpago,2026-05-27,920268391
+203,C0203,DNI,20581425,Jorge,Chávez Ponce,jorge17@correo.com,987230603,Independencia,Hogar,2026-02-03,939013684
+204,C0204,DNI,51593883,Melissa,Vargas Huamán,melissa3@correo.com,915999502,San Juan de Lurigancho,Empresa,2026-04-24,950474387
+205,C0205,DNI,19089578,Paola,Castillo Cruz,paola105@correo.com,976497373,Lince,Prepago,2026-05-20,948848031
+206,C0206,DNI,92769200,Fernando,Cruz Quispe,fernando37@correo.com,965097278,Villa El Salvador,Postpago,2026-04-13,942839344
+207,C0207,DNI,66781648,Patricia,Rivera Rojas,patricia81@correo.com,969616392,,Hogar,2026-05-04,910643155
+208,C0208,DNI,16332418,Julia,Salazar Rivera,julia144@correo.com,975431693,Comas,Empresa,2026-01-09,922151425

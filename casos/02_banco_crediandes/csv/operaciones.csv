@@ -1,501 +1,1011 @@
-﻿id_operacion,codigo_operacion,id_entidad,id_sede,id_producto,fecha_operacion,cantidad,monto_total,estado,canal
-1,O00001,62,3,3,2026-03-19,4,887.12,Completado,Call Center
-2,O00002,33,4,12,2026-02-11,1,339.5,Completado,Call Center
-3,O00003,38,2,3,2026-06-10,1,217.15,Cancelado,Call Center
-4,O00004,65,4,2,2026-01-28,3,93.49,Completado,Presencial
-5,O00005,47,3,5,2026-01-14,6,1424.89,Observado,Call Center
-6,O00006,13,6,11,2026-01-30,6,1777.62,Observado,App
-7,O00007,71,5,10,2026-01-14,1,76.97,Completado,Presencial
-8,O00008,32,3,3,2026-05-21,3,658.13,Completado,Presencial
-9,O00009,44,4,11,2026-02-11,6,1399.62,Completado,App
-10,O00010,4,6,11,2026-02-17,4,1272.44,Cancelado,Presencial
-11,O00011,35,5,10,2026-04-19,4,307.53,Cancelado,Web
-12,O00012,50,3,12,2026-05-24,3,911.49,Completado,Call Center
-13,O00013,24,3,5,2026-03-23,6,1144.78,Completado,Call Center
-14,O00014,19,3,10,2026-04-02,2,156.88,Completado,Web
-15,O00015,44,6,2,2026-03-30,3,128.42,Completado,Web
-16,O00016,77,5,1,2026-05-11,5,1635.19,Completado,Web
-17,O00017,15,4,2,2026-02-01,1,43.12,Completado,Call Center
-18,O00018,14,2,11,2026-05-18,5,1471.29,Completado,App
-19,O00019,37,1,13,2026-01-24,1,248.22,Completado,App
-20,O00020,9,4,1,2026-06-11,3,707.93,Completado,Web
-21,O00021,80,6,6,2026-04-06,3,798.48,Completado,App
-22,O00022,51,6,10,2026-03-23,6,375.84,Completado,Presencial
-23,O00023,60,6,11,2026-04-18,3,801.36,Observado,Web
-24,O00024,71,6,4,2026-02-25,3,195.01,Completado,Presencial
-25,O00025,41,3,11,2026-05-01,1,270.23,Completado,Web
-26,O00026,51,4,12,2026-01-25,2,552.81,Observado,App
-27,O00027,4,3,11,2026-02-16,2,483.1,Completado,Call Center
-28,O00028,67,3,11,2026-05-15,3,1005.14,Completado,App
-29,O00029,49,1,6,2026-06-02,4,1302.99,Completado,Presencial
-30,O00030,16,4,12,2026-03-31,2,703.43,Completado,Call Center
-31,O00031,7,1,1,2026-02-06,3,735.58,Completado,Web
-32,O00032,38,1,8,2026-06-12,1,166.78,Completado,App
-33,O00033,33,2,5,2026-02-09,1,227.61,Cancelado,Web
-34,O00034,75,2,15,2026-05-07,3,343.3,Pendiente,App
-35,O00035,17,2,14,2026-06-23,1,134.46,Completado,App
-36,O00036,73,6,13,2026-04-26,6,1767.72,Completado,Presencial
-37,O00037,46,4,6,2026-01-07,4,1188.11,Pendiente,Web
-38,O00038,62,6,13,2026-01-28,3,908.22,Observado,Presencial
-39,O00039,2,1,8,2026-06-22,2,267.35,Observado,Presencial
-40,O00040,31,1,11,2026-06-08,1,313.58,Completado,Web
-41,O00041,39,3,2,2026-02-12,2,82.6,Completado,Call Center
-42,O00042,51,1,6,2026-05-04,3,1157.36,Completado,Call Center
-43,O00043,57,1,11,2026-06-26,1,317.11,Completado,Call Center
-44,O00044,41,1,5,2026-04-09,3,712.37,Cancelado,Presencial
-45,O00045,12,5,9,2026-06-15,1,119.09,Completado,Web
-46,O00046,26,6,3,2026-03-08,4,814.71,Completado,Presencial
-47,O00047,73,6,12,2026-02-24,2,688.94,Cancelado,App
-48,O00048,39,2,6,2026-04-07,4,1373.04,Completado,Presencial
-49,O00049,14,6,5,2026-02-21,2,423.2,Pendiente,Call Center
-50,O00050,62,1,4,2026-01-09,4,239.4,Completado,Presencial
-51,O00051,12,4,8,2026-05-23,2,290.39,Completado,App
-52,O00052,45,6,15,2026-05-16,5,622.1,Pendiente,Presencial
-53,O00053,69,1,8,2026-03-20,1,128.14,Completado,Presencial
-54,O00054,23,2,15,2026-04-03,5,514.16,Completado,Call Center
-55,O00055,80,3,14,2026-06-27,3,411.5,Completado,Presencial
-56,O00056,73,6,14,2026-04-01,4,513.31,Completado,App
-57,O00057,34,6,10,2026-02-07,1,85.3,Observado,Presencial
-58,O00058,46,5,14,2026-04-27,6,768.34,Completado,Presencial
-59,O00059,28,5,13,2026-04-30,6,1539.26,Completado,Web
-60,O00060,69,2,3,2026-03-19,5,1083.63,Completado,Web
-61,O00061,26,4,14,2026-02-07,2,364.25,Observado,App
-62,O00062,57,2,11,2026-05-10,6,1426.16,Completado,Call Center
-63,O00063,55,2,15,2026-03-16,2,257.1,Completado,Call Center
-64,O00064,3,1,8,2026-04-15,1,144.07,Completado,Web
-65,O00065,22,2,2,2026-01-31,5,208.27,Completado,Call Center
-66,O00066,16,5,12,2026-03-22,4,1218.96,Pendiente,Presencial
-67,O00067,43,3,13,2026-01-02,5,1540.1,Completado,App
-68,O00068,35,3,1,2026-06-17,5,1185.81,Observado,App
-69,O00069,3,6,9,2026-01-06,1,131.66,Observado,Call Center
-70,O00070,31,3,3,2026-02-09,1,185.95,Observado,Web
-71,O00071,7,6,7,2026-01-21,5,747.23,Completado,App
-72,O00072,65,3,8,2026-02-17,3,434.91,Completado,Call Center
-73,O00073,57,2,15,2026-01-22,4,383.6,Completado,App
-74,O00074,30,1,4,2026-01-24,5,278.7,Completado,Web
-75,O00075,60,6,13,2026-03-01,1,260.23,Completado,Presencial
-76,O00076,28,6,15,2026-06-09,1,128.11,Completado,App
-77,O00077,79,3,15,2026-06-05,2,248.9,Observado,Call Center
-78,O00078,72,4,4,2026-04-08,2,146.34,Completado,Call Center
-79,O00079,3,3,7,2026-05-20,4,574.79,Completado,Web
-80,O00080,41,1,2,2026-06-27,2,85.72,Completado,Web
-81,O00081,40,2,9,2026-05-07,6,808.18,Completado,Presencial
-82,O00082,46,5,14,2026-02-05,3,473.65,Completado,Call Center
-83,O00083,50,6,10,2026-02-18,2,146.33,Completado,Call Center
-84,O00084,75,2,1,2026-03-01,2,513.15,Cancelado,Web
-85,O00085,18,4,14,2026-01-09,3,383.98,Completado,Call Center
-86,O00086,31,3,4,2026-05-30,4,231.85,Observado,Presencial
-87,O00087,55,2,8,2026-04-02,2,254.16,Completado,Presencial
-88,O00088,61,1,12,2026-01-17,6,2171.36,Completado,Presencial
-89,O00089,4,5,4,2026-02-28,6,351.1,Completado,App
-90,O00090,55,3,8,2026-06-09,3,399.21,Observado,Call Center
-91,O00091,52,1,15,2026-03-21,3,276.76,Pendiente,Presencial
-92,O00092,29,4,9,2026-04-23,4,489.84,Completado,Presencial
-93,O00093,70,4,12,2026-03-06,4,1175.1,Observado,Presencial
-94,O00094,39,2,3,2026-05-14,1,217.58,Completado,Web
-95,O00095,14,5,14,2026-02-21,6,1094.54,Observado,Web
-96,O00096,38,4,7,2026-01-18,1,108.22,Completado,Presencial
-97,O00097,35,4,8,2026-06-28,6,690.85,Cancelado,Presencial
-98,O00098,30,5,10,2026-04-21,4,329.22,Cancelado,Presencial
-99,O00099,42,6,5,2026-02-20,4,829.88,Completado,Presencial
-100,O00100,60,2,3,2026-01-07,1,233.58,Observado,App
-101,O00101,45,4,10,2026-03-16,5,339.59,Completado,Presencial
-102,O00102,15,4,15,2026-06-02,4,506.26,Pendiente,App
-103,O00103,41,2,6,2026-05-27,2,577.27,Completado,Presencial
-104,O00104,41,3,1,2026-04-12,3,792.2,Completado,App
-105,O00105,7,1,5,2026-02-07,1,230.72,Completado,App
-106,O00106,37,1,4,2026-04-11,3,232.31,Completado,Presencial
-107,O00107,80,5,15,2026-01-17,6,771.47,Completado,App
-108,O00108,21,6,2,2026-03-05,1,37.42,Completado,Call Center
-109,O00109,77,4,8,2026-05-25,4,635.31,Completado,Call Center
-110,O00110,52,1,6,2026-03-01,6,1620.73,Completado,Call Center
-111,O00111,25,6,7,2026-05-16,3,336.37,Completado,Presencial
-112,O00112,17,6,6,2026-02-25,3,1091.94,Completado,Call Center
-113,O00113,48,1,8,2026-06-19,4,667.66,Completado,Web
-114,O00114,5,3,11,2026-05-15,2,569.85,Completado,Web
-115,O00115,49,5,10,2026-04-10,6,483.5,Completado,Web
-116,O00116,35,4,13,2026-05-30,4,1270.27,Cancelado,Presencial
-117,O00117,61,3,8,2026-01-30,1,129.82,Observado,Web
-118,O00118,73,6,6,2026-05-05,1,330.69,Completado,Presencial
-119,O00119,60,6,14,2026-02-13,2,297.58,Observado,Call Center
-120,O00120,5,3,14,2026-06-15,3,501.72,Observado,App
-121,O00121,54,3,6,2026-04-01,3,816.27,Observado,Presencial
-122,O00122,19,3,4,2026-05-15,5,402.95,Completado,App
-123,O00123,43,2,5,2026-02-17,2,411.28,Completado,Web
-124,O00124,44,6,11,2026-02-01,2,644.87,Completado,App
-125,O00125,22,1,6,2026-03-17,2,706.87,Observado,App
-126,O00126,18,1,4,2026-05-20,6,478.95,Completado,App
-127,O00127,57,2,14,2026-01-04,1,133.06,Pendiente,Web
-128,O00128,16,3,13,2026-04-07,3,826.07,Observado,Call Center
-129,O00129,49,2,3,2026-03-01,3,687.18,Observado,Presencial
-130,O00130,64,6,3,2026-03-08,2,349.24,Cancelado,Presencial
-131,O00131,59,5,2,2026-02-18,5,207.46,Completado,Call Center
-132,O00132,16,4,1,2026-03-23,4,1184.99,Completado,App
-133,O00133,45,1,1,2026-06-10,4,1276.75,Pendiente,Presencial
-134,O00134,71,5,4,2026-02-15,3,229.81,Completado,Presencial
-135,O00135,2,6,13,2026-04-17,6,1709.93,Completado,Call Center
-136,O00136,17,5,4,2026-02-28,3,242.06,Completado,Web
-137,O00137,12,4,12,2026-04-22,2,611.72,Completado,Call Center
-138,O00138,29,1,3,2026-04-03,6,1508.58,Completado,App
-139,O00139,71,5,6,2026-04-01,2,597.7,Completado,App
-140,O00140,78,2,6,2026-03-01,5,1616.05,Observado,Presencial
-141,O00141,57,6,2,2026-03-10,5,214.45,Completado,Web
-142,O00142,71,3,6,2026-02-27,3,1169.74,Completado,App
-143,O00143,67,6,13,2026-01-08,1,275.41,Completado,Call Center
-144,O00144,32,3,3,2026-05-18,1,204.69,Completado,App
-145,O00145,28,3,11,2026-06-02,4,1297.35,Completado,Call Center
-146,O00146,30,3,3,2026-01-26,4,818.02,Observado,Call Center
-147,O00147,48,4,12,2026-02-20,3,1022.45,Observado,Web
-148,O00148,74,1,9,2026-01-13,4,431.53,Completado,Call Center
-149,O00149,43,1,4,2026-01-01,5,294.69,Pendiente,Call Center
-150,O00150,17,5,5,2026-04-24,4,881.43,Pendiente,App
-151,O00151,47,5,6,2026-04-18,6,1854.89,Completado,Presencial
-152,O00152,9,4,12,2026-03-10,3,862.51,Completado,Presencial
-153,O00153,59,2,12,2026-05-11,1,284.89,Pendiente,App
-154,O00154,12,4,10,2026-06-15,5,323.05,Completado,Presencial
-155,O00155,36,5,11,2026-02-17,5,1412.11,Completado,Call Center
-156,O00156,13,2,7,2026-02-22,2,265.16,Completado,App
-157,O00157,38,1,4,2026-05-02,4,264.99,Completado,Web
-158,O00158,29,6,15,2026-05-27,2,191.13,Completado,Web
-159,O00159,76,1,3,2026-02-03,6,1128.28,Completado,Call Center
-160,O00160,73,6,2,2026-02-09,4,172.65,Completado,Web
-161,O00161,19,2,9,2026-03-28,4,490.66,Cancelado,Web
-162,O00162,35,2,15,2026-05-13,2,197.34,Completado,Presencial
-163,O00163,23,3,6,2026-01-16,5,1383.37,Observado,Web
-164,O00164,59,5,15,2026-01-07,2,203.12,Completado,Call Center
-165,O00165,43,4,7,2026-06-06,1,122.3,Completado,App
-166,O00166,4,4,15,2026-02-03,2,247.95,Observado,Presencial
-167,O00167,11,5,13,2026-05-11,6,1926.87,Completado,Presencial
-168,O00168,75,5,15,2026-05-14,3,288.98,Completado,Call Center
-169,O00169,12,5,9,2026-03-11,5,540.35,Completado,Call Center
-170,O00170,20,4,11,2026-05-26,2,565.04,Observado,App
-171,O00171,52,1,6,2026-01-06,6,2268.66,Cancelado,App
-172,O00172,33,2,13,2026-02-14,1,324.36,Completado,App
-173,O00173,42,6,9,2026-05-15,5,609.16,Completado,App
-174,O00174,20,4,6,2026-03-04,3,917.09,Cancelado,App
-175,O00175,57,6,12,2026-06-08,6,2141.14,Cancelado,App
-176,O00176,78,3,3,2026-01-28,4,799.73,Completado,Call Center
-177,O00177,21,1,10,2026-03-07,4,245.54,Completado,Call Center
-178,O00178,23,3,2,2026-03-15,6,244.42,Cancelado,App
-179,O00179,17,4,3,2026-06-02,1,238.28,Completado,Web
-180,O00180,5,2,7,2026-04-08,3,425.04,Pendiente,App
-181,O00181,2,3,10,2026-03-09,1,68.49,Completado,Call Center
-182,O00182,48,1,12,2026-02-22,4,1305.61,Completado,Presencial
-183,O00183,9,6,6,2026-02-01,3,1002.46,Completado,App
-184,O00184,22,6,7,2026-04-16,3,356.09,Completado,Call Center
-185,O00185,12,6,4,2026-02-06,6,459.11,Completado,Presencial
-186,O00186,23,5,2,2026-01-08,5,209.2,Completado,Presencial
-187,O00187,75,2,8,2026-03-31,5,586.99,Completado,Presencial
-188,O00188,53,2,4,2026-05-11,3,184.82,Completado,App
-189,O00189,21,5,14,2026-06-07,5,866.29,Completado,Call Center
-190,O00190,15,3,8,2026-05-04,1,164.16,Completado,Web
-191,O00191,21,6,1,2026-06-28,1,261.41,Completado,Web
-192,O00192,53,2,3,2026-05-15,3,566.63,Completado,Call Center
-193,O00193,60,6,14,2026-02-23,4,520.48,Cancelado,App
-194,O00194,53,1,14,2026-01-31,2,288.21,Pendiente,App
-195,O00195,14,1,8,2026-01-25,6,958.51,Completado,Web
-196,O00196,21,6,2,2026-05-14,2,85.36,Completado,Presencial
-197,O00197,68,1,5,2026-01-28,6,1172.12,Completado,Call Center
-198,O00198,52,5,3,2026-06-19,2,404.31,Observado,Presencial
-199,O00199,19,1,6,2026-06-03,6,1856.66,Pendiente,Call Center
-200,O00200,13,6,13,2026-05-05,5,1271.46,Pendiente,Presencial
-201,O00201,18,5,12,2026-05-19,1,363.41,Observado,App
-202,O00202,35,3,14,2026-06-13,1,181.91,Completado,App
-203,O00203,49,4,8,2026-05-17,4,506.55,Completado,Web
-204,O00204,10,5,15,2026-03-09,1,134.77,Completado,App
-205,O00205,2,6,7,2026-03-12,3,337.84,Completado,Presencial
-206,O00206,66,4,3,2026-06-04,3,674.16,Completado,Call Center
-207,O00207,15,1,9,2026-01-27,5,675.78,Completado,Call Center
-208,O00208,5,4,1,2026-06-13,1,301.29,Completado,Web
-209,O00209,65,4,14,2026-04-19,4,706.79,Completado,Presencial
-210,O00210,28,6,15,2026-02-17,3,292.27,Observado,App
-211,O00211,55,3,10,2026-03-26,5,322.77,Completado,Presencial
-212,O00212,42,4,2,2026-05-13,6,190.26,Completado,Call Center
-213,O00213,21,1,3,2026-06-24,4,996.95,Cancelado,App
-214,O00214,46,1,13,2026-04-07,2,663.95,Completado,Call Center
-215,O00215,44,1,4,2026-03-21,2,161.03,Completado,Web
-216,O00216,11,2,11,2026-02-26,5,1388.96,Cancelado,Call Center
-217,O00217,70,3,6,2026-04-06,2,579.51,Completado,Web
-218,O00218,28,5,15,2026-03-24,1,115.9,Completado,Web
-219,O00219,17,1,9,2026-02-28,1,112.34,Completado,Call Center
-220,O00220,5,1,14,2026-04-03,5,645.79,Completado,Web
-221,O00221,16,4,1,2026-03-16,3,879.47,Observado,Call Center
-222,O00222,55,4,8,2026-03-30,6,760.88,Observado,Call Center
-223,O00223,58,1,5,2026-02-02,3,754.68,Completado,App
-224,O00224,25,6,1,2026-02-16,2,571.74,Pendiente,App
-225,O00225,80,1,10,2026-02-27,3,194.15,Observado,Call Center
-226,O00226,69,3,5,2026-06-11,2,389.25,Completado,Call Center
-227,O00227,41,6,7,2026-03-06,1,146.2,Completado,Presencial
-228,O00228,62,6,8,2026-05-07,4,536.77,Completado,App
-229,O00229,38,6,9,2026-03-27,3,403.12,Cancelado,App
-230,O00230,57,4,4,2026-06-06,4,244.67,Completado,Web
-231,O00231,34,2,11,2026-06-26,1,309.12,Observado,Presencial
-232,O00232,38,1,4,2026-01-09,1,77.93,Completado,Presencial
-233,O00233,39,4,6,2026-05-11,2,608.6,Completado,App
-234,O00234,47,4,3,2026-02-06,3,560.49,Observado,Call Center
-235,O00235,73,5,5,2026-06-19,3,621.53,Completado,Web
-236,O00236,18,3,7,2026-01-09,3,415.22,Completado,Presencial
-237,O00237,50,1,14,2026-04-12,6,822.71,Completado,Call Center
-238,O00238,40,3,3,2026-04-04,6,1087.77,Observado,Web
-239,O00239,77,3,10,2026-06-13,4,337.41,Completado,Web
-240,O00240,28,3,13,2026-03-07,2,468.9,Cancelado,Web
-241,O00241,41,3,4,2026-01-08,3,169.25,Completado,Web
-242,O00242,6,2,7,2026-02-22,4,560.85,Completado,Call Center
-243,O00243,51,6,14,2026-02-10,2,259.97,Cancelado,App
-244,O00244,23,3,4,2026-02-04,5,364.31,Pendiente,Call Center
-245,O00245,18,1,4,2026-04-09,3,234.36,Completado,Web
-246,O00246,77,6,15,2026-06-18,5,596.11,Completado,Web
-247,O00247,69,4,12,2026-06-01,6,1627.14,Completado,Web
-248,O00248,77,6,6,2026-01-15,5,1627.99,Completado,Call Center
-249,O00249,1,2,1,2026-02-21,3,839.04,Completado,Presencial
-250,O00250,33,5,8,2026-01-09,1,139.0,Cancelado,Presencial
-251,O00251,77,1,3,2026-06-16,6,1526.67,Completado,Presencial
-252,O00252,20,6,3,2026-05-26,4,806.09,Completado,Web
-253,O00253,54,4,12,2026-05-15,2,547.45,Completado,Web
-254,O00254,27,6,12,2026-02-03,1,375.89,Pendiente,App
-255,O00255,62,3,7,2026-04-09,5,617.41,Pendiente,App
-256,O00256,67,2,3,2026-01-31,2,405.95,Completado,Web
-257,O00257,41,1,1,2026-03-29,5,1288.57,Completado,Web
-258,O00258,38,5,3,2026-05-19,6,1240.51,Completado,Presencial
-259,O00259,78,6,6,2026-01-30,3,1139.49,Completado,App
-260,O00260,47,4,4,2026-04-23,4,327.62,Completado,Web
-261,O00261,42,2,5,2026-03-09,1,223.84,Completado,Call Center
-262,O00262,12,2,8,2026-03-17,4,615.94,Completado,Call Center
-263,O00263,18,3,11,2026-04-25,2,557.58,Completado,Call Center
-264,O00264,45,6,4,2026-05-03,5,280.46,Observado,App
-265,O00265,75,1,2,2026-02-11,1,38.11,Observado,App
-266,O00266,27,2,8,2026-04-08,2,302.48,Completado,Call Center
-267,O00267,33,5,14,2026-03-10,5,821.06,Completado,App
-268,O00268,1,3,2,2026-06-11,4,125.93,Completado,Web
-269,O00269,68,3,13,2026-06-12,1,271.77,Completado,Presencial
-270,O00270,70,3,4,2026-06-04,5,302.47,Completado,App
-271,O00271,60,4,5,2026-02-15,3,727.78,Completado,Web
-272,O00272,62,2,10,2026-03-25,2,156.61,Completado,App
-273,O00273,25,5,10,2026-03-07,1,74.75,Completado,Web
-274,O00274,15,5,5,2026-05-30,5,933.95,Observado,Web
-275,O00275,38,4,15,2026-05-25,6,778.75,Observado,Presencial
-276,O00276,19,2,4,2026-04-14,2,131.03,Observado,Call Center
-277,O00277,28,2,9,2026-03-22,6,834.97,Completado,Web
-278,O00278,53,5,8,2026-05-09,5,812.33,Observado,Presencial
-279,O00279,79,2,13,2026-02-11,6,1505.8,Cancelado,Web
-280,O00280,39,2,10,2026-01-12,1,79.52,Completado,Web
-281,O00281,60,6,3,2026-02-25,1,199.75,Observado,Presencial
-282,O00282,41,1,6,2026-03-26,3,944.09,Pendiente,App
-283,O00283,39,5,1,2026-05-02,1,333.46,Observado,Web
-284,O00284,53,2,12,2026-03-28,4,1378.54,Completado,App
-285,O00285,74,5,3,2026-01-03,6,1478.9,Observado,Presencial
-286,O00286,34,1,10,2026-03-29,1,59.94,Completado,App
-287,O00287,80,1,5,2026-01-24,3,736.3,Completado,Web
-288,O00288,73,3,13,2026-05-17,5,1609.16,Observado,Presencial
-289,O00289,53,3,6,2026-06-13,1,340.05,Completado,Presencial
-290,O00290,79,4,7,2026-04-24,5,611.71,Observado,App
-291,O00291,34,5,4,2026-02-21,1,72.38,Completado,Web
-292,O00292,16,3,11,2026-06-28,2,639.71,Completado,Web
-293,O00293,45,4,5,2026-02-15,3,747.18,Completado,Call Center
-294,O00294,60,4,7,2026-06-14,3,381.83,Completado,Presencial
-295,O00295,31,6,5,2026-02-18,1,190.85,Cancelado,App
-296,O00296,34,3,14,2026-05-07,6,809.56,Completado,Web
-297,O00297,57,2,14,2026-01-06,1,150.69,Completado,Web
-298,O00298,52,3,1,2026-04-05,4,928.62,Completado,Presencial
-299,O00299,51,5,7,2026-06-20,4,428.57,Completado,Presencial
-300,O00300,35,1,12,2026-04-21,2,639.79,Completado,Web
-301,O00301,49,5,9,2026-05-22,5,562.76,Observado,App
-302,O00302,23,1,5,2026-01-17,4,803.02,Completado,Call Center
-303,O00303,2,4,10,2026-03-02,5,391.25,Completado,App
-304,O00304,35,2,8,2026-06-13,1,118.61,Cancelado,Call Center
-305,O00305,52,3,11,2026-03-31,5,1514.9,Observado,Call Center
-306,O00306,37,6,11,2026-03-14,5,1321.1,Completado,Web
-307,O00307,52,4,10,2026-01-18,3,206.37,Completado,Presencial
-308,O00308,37,4,4,2026-06-06,3,207.12,Completado,Presencial
-309,O00309,18,2,7,2026-03-08,3,428.21,Pendiente,Presencial
-310,O00310,26,3,12,2026-03-18,1,307.17,Completado,Presencial
-311,O00311,21,6,2,2026-02-12,5,190.19,Completado,Call Center
-312,O00312,14,6,12,2026-05-21,4,1124.75,Completado,App
-313,O00313,14,4,9,2026-05-31,1,115.89,Completado,Web
-314,O00314,54,2,10,2026-02-20,3,196.73,Completado,Call Center
-315,O00315,4,3,9,2026-03-13,5,595.24,Completado,Call Center
-316,O00316,70,3,11,2026-03-05,6,1788.39,Pendiente,Call Center
-317,O00317,26,4,10,2026-05-03,5,389.19,Completado,Web
-318,O00318,12,2,7,2026-05-21,6,891.52,Completado,Presencial
-319,O00319,45,5,12,2026-05-02,5,1341.11,Observado,Presencial
-320,O00320,9,6,9,2026-05-18,6,721.39,Completado,Presencial
-321,O00321,52,5,4,2026-05-13,5,391.65,Completado,Presencial
-322,O00322,75,5,15,2026-01-11,3,402.46,Pendiente,App
-323,O00323,4,4,12,2026-03-12,5,1896.34,Completado,Presencial
-324,O00324,61,6,15,2026-01-06,5,554.1,Observado,Call Center
-325,O00325,71,6,1,2026-02-03,3,950.56,Observado,Presencial
-326,O00326,5,2,9,2026-06-03,2,190.67,Completado,Call Center
-327,O00327,63,5,3,2026-02-26,1,202.91,Completado,Web
-328,O00328,64,3,5,2026-02-07,1,217.55,Observado,Call Center
-329,O00329,47,4,8,2026-04-09,4,464.68,Pendiente,App
-330,O00330,59,3,13,2026-03-01,4,1192.51,Completado,App
-331,O00331,26,3,8,2026-05-31,1,148.43,Cancelado,Web
-332,O00332,6,2,11,2026-05-20,6,1718.08,Completado,App
-333,O00333,77,4,1,2026-05-11,5,1440.36,Observado,Web
-334,O00334,3,3,10,2026-01-19,5,360.8,Observado,Presencial
-335,O00335,51,3,14,2026-03-30,5,687.59,Observado,Web
-336,O00336,46,5,14,2026-06-04,1,156.68,Completado,Call Center
-337,O00337,54,1,6,2026-01-26,6,1995.06,Observado,Presencial
-338,O00338,9,4,6,2026-05-25,6,2198.76,Completado,App
-339,O00339,19,1,8,2026-04-02,1,134.38,Completado,Call Center
-340,O00340,76,6,13,2026-01-30,2,503.57,Observado,App
-341,O00341,79,1,11,2026-04-08,2,651.95,Completado,Call Center
-342,O00342,35,2,5,2026-05-07,2,460.39,Completado,Presencial
-343,O00343,37,1,1,2026-05-01,1,296.17,Completado,Presencial
-344,O00344,59,4,3,2026-04-20,6,1286.48,Completado,Presencial
-345,O00345,28,6,7,2026-05-23,6,644.67,Completado,Presencial
-346,O00346,64,1,4,2026-05-27,6,484.15,Completado,Presencial
-347,O00347,70,5,9,2026-01-17,1,110.83,Completado,Call Center
-348,O00348,44,1,7,2026-03-09,2,246.94,Observado,Web
-349,O00349,37,2,5,2026-04-10,3,672.14,Completado,App
-350,O00350,27,4,14,2026-04-06,3,463.82,Completado,Presencial
-351,O00351,28,5,4,2026-03-12,6,490.3,Completado,App
-352,O00352,43,5,9,2026-05-16,3,395.52,Cancelado,Web
-353,O00353,3,1,7,2026-01-31,4,503.53,Completado,Web
-354,O00354,36,3,14,2026-04-15,4,647.49,Completado,Call Center
-355,O00355,29,6,13,2026-04-09,3,924.13,Completado,Web
-356,O00356,32,5,6,2026-06-18,4,1451.5,Cancelado,Web
-357,O00357,49,5,11,2026-05-14,6,1656.86,Pendiente,App
-358,O00358,14,3,14,2026-05-01,4,571.34,Cancelado,App
-359,O00359,39,1,11,2026-05-06,6,1832.25,Completado,Web
-360,O00360,41,4,13,2026-06-08,4,1065.6,Completado,App
-361,O00361,10,4,12,2026-03-03,5,1853.1,Completado,Presencial
-362,O00362,44,2,2,2026-01-22,1,31.74,Completado,Web
-363,O00363,44,5,9,2026-06-12,5,485.3,Completado,Presencial
-364,O00364,39,6,7,2026-04-09,5,697.08,Completado,Call Center
-365,O00365,37,6,6,2026-04-16,6,2310.97,Completado,Web
-366,O00366,18,4,9,2026-03-29,6,670.93,Completado,Call Center
-367,O00367,35,3,15,2026-06-15,6,613.03,Completado,Presencial
-368,O00368,76,6,14,2026-06-02,1,127.82,Pendiente,Web
-369,O00369,20,6,14,2026-04-19,3,406.87,Completado,Call Center
-370,O00370,27,2,12,2026-01-03,4,1163.84,Completado,Web
-371,O00371,3,3,6,2026-01-27,6,2293.02,Completado,Call Center
-372,O00372,15,3,1,2026-01-23,2,590.37,Observado,Presencial
-373,O00373,19,3,6,2026-02-24,1,378.88,Observado,App
-374,O00374,49,3,4,2026-05-16,1,60.39,Completado,App
-375,O00375,79,2,12,2026-02-05,6,1850.04,Observado,Presencial
-376,O00376,33,1,10,2026-03-13,6,447.49,Completado,Call Center
-377,O00377,70,6,11,2026-03-03,1,319.25,Observado,Call Center
-378,O00378,60,5,10,2026-04-22,5,425.37,Completado,Web
-379,O00379,53,6,12,2026-02-05,4,1451.28,Completado,Call Center
-380,O00380,28,1,12,2026-01-17,3,818.91,Completado,App
-381,O00381,6,4,3,2026-04-27,4,717.46,Completado,Web
-382,O00382,61,4,8,2026-03-09,2,233.74,Completado,Web
-383,O00383,15,6,13,2026-03-19,3,804.86,Observado,Web
-384,O00384,53,5,5,2026-04-23,5,997.82,Pendiente,Call Center
-385,O00385,76,1,5,2026-04-18,2,495.3,Observado,App
-386,O00386,80,2,15,2026-05-30,6,701.46,Completado,App
-387,O00387,62,6,13,2026-04-23,4,966.05,Pendiente,Call Center
-388,O00388,57,4,10,2026-05-24,4,278.57,Completado,App
-389,O00389,73,6,5,2026-01-17,3,664.64,Completado,Call Center
-390,O00390,70,2,2,2026-04-30,1,37.81,Completado,Presencial
-391,O00391,75,1,11,2026-04-04,3,915.38,Completado,Web
-392,O00392,48,1,12,2026-03-08,5,1534.82,Completado,Presencial
-393,O00393,50,4,9,2026-04-02,2,271.27,Completado,Web
-394,O00394,61,4,1,2026-01-12,3,702.64,Completado,Call Center
-395,O00395,60,2,8,2026-05-03,2,275.03,Pendiente,Call Center
-396,O00396,5,4,6,2026-03-15,6,1936.34,Observado,Call Center
-397,O00397,39,1,8,2026-03-02,5,794.44,Completado,Call Center
-398,O00398,2,2,7,2026-01-24,6,780.69,Completado,App
-399,O00399,47,5,11,2026-02-06,4,1225.61,Completado,App
-400,O00400,36,2,8,2026-05-15,4,551.54,Completado,Presencial
-401,O00401,37,3,14,2026-01-13,2,258.57,Completado,Web
-402,O00402,7,6,7,2026-06-03,1,119.5,Cancelado,Web
-403,O00403,79,1,2,2026-06-15,1,42.34,Completado,Call Center
-404,O00404,57,2,7,2026-04-06,6,855.28,Completado,Call Center
-405,O00405,17,2,7,2026-05-08,2,238.77,Cancelado,Presencial
-406,O00406,61,2,3,2026-02-24,1,235.74,Completado,App
-407,O00407,34,3,12,2026-06-28,4,1511.64,Completado,Call Center
-408,O00408,50,1,5,2026-01-21,4,971.62,Completado,Web
-409,O00409,80,2,13,2026-01-30,6,1475.88,Cancelado,Presencial
-410,O00410,27,6,11,2026-06-25,4,1283.28,Observado,Call Center
-411,O00411,73,3,8,2026-04-22,1,149.52,Completado,App
-412,O00412,31,3,14,2026-02-06,2,365.43,Completado,App
-413,O00413,61,1,3,2026-02-04,5,1241.0,Completado,App
-414,O00414,26,4,11,2026-03-02,2,660.26,Completado,Call Center
-415,O00415,41,4,14,2026-01-23,6,751.75,Completado,Presencial
-416,O00416,22,4,4,2026-04-16,5,349.38,Completado,App
-417,O00417,28,6,7,2026-02-09,2,249.84,Completado,Call Center
-418,O00418,16,2,5,2026-06-17,3,721.62,Completado,App
-419,O00419,52,5,14,2026-01-10,3,443.79,Completado,Call Center
-420,O00420,48,1,10,2026-05-31,3,195.44,Completado,Call Center
-421,O00421,44,3,14,2026-03-22,4,568.3,Observado,Web
-422,O00422,25,1,15,2026-04-29,5,472.58,Completado,Call Center
-423,O00423,7,3,14,2026-03-30,6,883.72,Completado,App
-424,O00424,63,4,13,2026-06-19,6,1491.25,Pendiente,Web
-425,O00425,41,4,9,2026-02-27,3,373.95,Observado,Presencial
-426,O00426,76,2,5,2026-03-08,3,649.45,Completado,App
-427,O00427,16,4,12,2026-06-24,4,1163.33,Completado,Web
-428,O00428,65,4,15,2026-02-28,1,115.4,Completado,App
-429,O00429,80,5,11,2026-02-13,5,1363.18,Completado,Call Center
-430,O00430,28,4,14,2026-06-26,3,414.9,Completado,Presencial
-431,O00431,3,2,6,2026-06-21,3,1061.49,Observado,Web
-432,O00432,3,5,7,2026-06-09,1,136.56,Observado,App
-433,O00433,22,1,6,2026-06-05,1,369.74,Completado,Presencial
-434,O00434,9,3,3,2026-03-10,6,1467.93,Completado,App
-435,O00435,31,1,12,2026-04-10,4,1154.93,Completado,App
-436,O00436,47,3,7,2026-04-24,6,772.97,Completado,Web
-437,O00437,59,5,5,2026-04-01,5,1094.94,Completado,Presencial
-438,O00438,35,5,11,2026-02-09,4,1063.82,Completado,Presencial
-439,O00439,50,4,7,2026-05-12,1,137.04,Completado,Web
-440,O00440,34,4,15,2026-06-22,6,610.68,Completado,Call Center
-441,O00441,80,4,7,2026-06-24,3,339.61,Completado,Presencial
-442,O00442,33,1,11,2026-05-25,1,299.23,Completado,App
-443,O00443,8,1,3,2026-06-19,5,1067.19,Completado,Web
-444,O00444,79,6,14,2026-01-26,4,731.52,Completado,Call Center
-445,O00445,8,1,8,2026-04-03,6,903.51,Completado,Web
-446,O00446,63,2,3,2026-01-27,2,428.76,Completado,Call Center
-447,O00447,41,6,2,2026-05-23,4,166.78,Completado,App
-448,O00448,13,3,4,2026-06-15,4,307.63,Completado,Call Center
-449,O00449,64,1,8,2026-04-16,1,123.33,Completado,Web
-450,O00450,48,6,6,2026-02-25,4,1426.56,Completado,App
-451,O00451,31,4,14,2026-06-09,2,291.14,Completado,Call Center
-452,O00452,37,1,9,2026-05-26,1,99.85,Completado,Call Center
-453,O00453,73,1,2,2026-02-20,1,44.68,Observado,Presencial
-454,O00454,4,3,11,2026-06-13,6,1749.25,Completado,Presencial
-455,O00455,44,2,9,2026-06-11,6,834.86,Completado,Call Center
-456,O00456,21,2,8,2026-02-16,3,370.89,Completado,App
-457,O00457,51,6,1,2026-06-27,4,1182.46,Completado,Web
-458,O00458,35,2,5,2026-06-03,1,244.99,Completado,Call Center
-459,O00459,3,3,11,2026-05-08,5,1275.89,Pendiente,App
-460,O00460,60,4,14,2026-06-27,1,124.9,Completado,App
-461,O00461,49,2,5,2026-02-10,4,1023.22,Completado,App
-462,O00462,69,1,3,2026-05-09,1,214.28,Completado,App
-463,O00463,37,1,14,2026-06-26,3,548.22,Observado,Presencial
-464,O00464,30,4,13,2026-02-13,2,571.27,Completado,App
-465,O00465,67,5,7,2026-05-13,6,935.95,Pendiente,Call Center
-466,O00466,76,1,4,2026-02-15,4,265.67,Completado,App
-467,O00467,33,6,14,2026-01-05,3,491.36,Completado,Web
-468,O00468,17,4,2,2026-04-12,2,83.76,Completado,App
-469,O00469,69,4,1,2026-04-13,3,756.28,Completado,App
-470,O00470,65,3,9,2026-01-31,6,708.66,Completado,Presencial
-471,O00471,54,5,14,2026-06-28,1,125.26,Completado,App
-472,O00472,72,5,10,2026-02-12,5,384.32,Completado,Web
-473,O00473,20,5,8,2026-06-04,4,528.29,Completado,App
-474,O00474,63,2,11,2026-02-10,1,337.95,Completado,Call Center
-475,O00475,78,4,4,2026-04-01,2,111.57,Completado,Presencial
-476,O00476,61,5,13,2026-01-30,6,1819.26,Completado,Web
-477,O00477,75,5,7,2026-01-28,5,728.7,Completado,Call Center
-478,O00478,58,2,11,2026-01-13,4,1025.59,Completado,Call Center
-479,O00479,33,4,2,2026-04-25,5,196.95,Completado,Web
-480,O00480,6,3,7,2026-05-17,5,756.17,Observado,Web
-481,O00481,7,3,14,2026-06-07,2,273.13,Observado,Presencial
-482,O00482,27,6,8,2026-03-16,3,427.82,Completado,Presencial
-483,O00483,64,3,4,2026-02-19,3,239.13,Completado,Web
-484,O00484,50,6,10,2026-06-29,3,208.83,Completado,Presencial
-485,O00485,8,2,15,2026-05-04,6,790.64,Completado,Presencial
-486,O00486,63,4,10,2026-06-06,4,259.62,Completado,App
-487,O00487,61,4,5,2026-02-14,1,188.59,Completado,Presencial
-488,O00488,74,3,12,2026-06-13,6,1952.55,Completado,Web
-489,O00489,23,6,6,2026-01-31,3,1150.03,Cancelado,Web
-490,O00490,68,3,10,2026-02-19,6,430.46,Pendiente,App
-491,O00491,58,4,5,2026-06-03,3,645.31,Completado,Call Center
-492,O00492,5,5,1,2026-06-22,5,1290.26,Completado,Web
-493,O00493,14,6,10,2026-05-17,2,171.7,Observado,Call Center
-494,O00494,77,3,9,2026-01-01,2,221.37,Completado,Presencial
-495,O00495,22,3,13,2026-02-27,6,1466.01,Completado,App
-496,O00496,64,5,14,2026-01-31,6,986.04,Completado,Call Center
-497,O00497,40,1,3,2026-03-19,5,1042.95,Completado,Call Center
-498,O00498,57,2,12,2026-01-03,3,891.13,Completado,Call Center
-499,O00499,51,3,7,2026-01-11,4,540.15,Completado,Web
-500,O00500,56,5,7,2026-04-14,6,653.26,Completado,Presencial
+id_operacion,codigo_operacion,id_cliente,id_sede,id_empleado,fecha_operacion,canal,estado,monto_total
+1,O00001,131,2,32,2026-03-12,Ventanilla,Pendiente,540.00
+2,O00002,98,5,35,2026-04-18,Banca móvil,Cancelado,477.75
+3,O00003,199,4,21,2026-02-15,Banca por internet,Completado,1914.69
+4,O00004,48,4,37,08/03/2026,Cajero automático,Completado,480.00
+5,O00005,160,2,15,2026-02-05,Agente corresponsal,Completado,720.00
+6,O00006,109,3,23,2026-01-05,Ventanilla,Completado,1531.22
+7,O00007,27,6,6,2026-04-11,Banca móvil,Completado,81.96
+8,O00008,160,6,23,2026-05-17,Banca por internet,Completado,606.00
+9,O00009,180,6,5,2026-02-21,Cajero automático,Cancelado,1148.14
+10,O00010,82,6,28,2026-06-12,Agente corresponsal,Cancelado,882.00
+11,O00011,140,4,7,2026-01-01,Ventanilla,Pendiente,618.72
+12,O00012,175,5,,2026-06-08,Banca móvil,Pendiente,792.00
+13,O00013,172,3,14,2026-03-03,Banca por internet,Completado,985.63
+14,O00014,67,1,37,2026-03-12,Cajero automático,Pendiente,154.00
+15,O00015,125,6,29,2026-03-09,Agente corresponsal,Completado,1086.00
+16,O00016,13,1,32,2026-02-20,Ventanilla,Completado,125.94
+17,O00017,24,1,19,2026-01-14,Banca móvil,Completado,548.00
+18,O00018,109,1,20,2026-03-08,Banca por internet,Completado,348.48
+19,O00019,114,6,5,2026-05-25,Cajero automático,Completado,795.00
+20,O00020,188,6,10,2026-02-02,Agente corresponsal,Completado,604.23
+21,O00021,131,4,11,2026-03-03,Ventanilla,Completado,2330.14
+22,O00022,53,1,,16/03/2026,Banca móvil,Pendiente,1653.45
+23,O00023,54,2,26,2026-01-27,Banca por internet,Completado,390.00
+24,O00024,145,1,12,2026-03-06,Cajero automático,Completado,110.94
+25,O00025,39,5,9,2026-05-18,Agente corresponsal,Completado,1974.07
+26,O00026,160,1,23,2026-05-01,Ventanilla,Completado,3250.00
+27,O00027,91,3,15,2026-06-02,Banca móvil,Completado,388.12
+28,O00028,138,6,34,2026-05-18,Banca por internet,Pendiente,1009.44
+29,O00029,25,5,34,2026-06-18,Cajero automático,Completado,224.36
+30,O00030,29,6,2,2026-06-13,Agente corresponsal,Completado,1098.26
+31,O00031,66,3,10,10/01/2026,Ventanilla,Completado,3002.48
+32,O00032,118,6,6,2026-01-01,Banca móvil,Completado,72.00
+33,O00033,93,2,16,2026-03-26,Banca por internet,Completado,640.00
+34,O00034,41,5,28,2026-02-02,Cajero automático,Pendiente,4753.58
+35,O00035,110,5,23,2026-06-24,Agente corresponsal,Cancelado,48.64
+36,O00036,84,6,27,2026-04-16,Ventanilla,Completado,3160.47
+37,O00037,32,6,5,02/03/2026,Banca móvil,Pendiente,606.00
+38,O00038,60,4,31,2026-06-08,Banca por internet,Completado,3606.20
+39,O00039,190,6,18,2026-02-12,Cajero automático,Cancelado,229.00
+40,O00040,149,3,19,2026-02-05,Agente corresponsal,Pendiente,504.00
+41,O00041,137,6,12,2026-02-11,Ventanilla,Cancelado,30.00
+42,O00042,179,5,34,2026-06-24,Banca móvil,Cancelado,889.00
+43,O00043,10,3,22,13/04/2026,Banca por internet,Pendiente,2344.14
+44,O00044,62,2,1,2026-06-11,Cajero automático,Completado,2094.52
+45,O00045,27,5,2,09/06/2026,Agente corresponsal,Completado,588.00
+46,O00046,133,5,28,2026-01-05,Ventanilla,Observado,1948.45
+47,O00047,184,1,2,2026-01-16,Banca móvil,Pendiente,219.00
+48,O00048,4,6,30,2026-06-12,Banca por internet,Completado,75.00
+49,O00049,182,2,9,2026-01-19,Cajero automático,Observado,373.00
+50,O00050,191,6,39,14/04/2026,Agente corresponsal,Observado,414.00
+51,O00051,74,5,37,2026-05-12,Ventanilla,Completado,0.00
+52,O00052,150,5,13,2026-05-20,Banca móvil,Completado,4047.59
+53,O00053,9,6,5,2026-01-28,Banca por internet,Completado,2600.00
+54,O00054,72,2,32,2026-03-24,Cajero automático,Cancelado,25.00
+55,O00055,72,3,24,2026-04-16,Agente corresponsal,Completado,226.80
+56,O00056,44,3,10,2026-04-23,Ventanilla,Completado,45.00
+57,O00057,107,2,38,2026-04-07,Banca móvil,Cancelado,2170.89
+58,O00058,132,2,25,2026-05-26,Banca por internet,Completado,274.75
+59,O00059,9119,5,25,2026-03-27,Cajero automático,Completado,1017.16
+60,O00060,124,2,6,2026-05-26,Agente corresponsal,Completado,717.00
+61,O00061,62,1,12,2026-05-25,Ventanilla,Completado,153.25
+62,O00062,129,1,16,2026-01-08,Banca móvil,Completado,16.00
+63,O00063,171,5,12,2026-04-17,Banca por internet,Completado,399.50
+64,O00064,56,2,28,2026-06-08,Cajero automático,Completado,108.00
+65,O00065,183,4,31,2026-06-08,Agente corresponsal,Pendiente,88.12
+66,O00066,54,4,1,2026-06-06,Ventanilla,Pendiente,813.00
+67,O00067,129,5,7,2026-04-18,Banca móvil,Completado,7955.64
+68,O00068,149,3,38,2026-02-10,Banca por internet,Observado,530.22
+69,O00069,154,5,2,2026-03-05,Cajero automático,Pendiente,45.00
+70,O00070,77,1,36,2026-02-26,Agente corresponsal,Completado,432.00
+71,O00071,127,6,13,26/03/2026,Ventanilla,Completado,432.00
+72,O00072,8,6,38,2026-06-18,Banca móvil,Completado,692.00
+73,O00073,93,4,9,2026-04-16,Banca por internet,Completado,0.00
+74,O00074,37,3,5,2026-02-06,Cajero automático,Completado,2025.00
+75,O00075,53,5,1,2026-02-10,Agente corresponsal,Observado,279.18
+76,O00076,9068,3,,2026-03-04,Ventanilla,Pendiente,62.00
+77,O00077,129,4,2,2026-04-27,Banca móvil,Cancelado,967.46
+78,O00078,64,2,33,2026-06-12,Banca por internet,Completado,180.00
+79,O00079,36,1,8,2026-01-02,Cajero automático,Completado,75.00
+80,O00080,142,1,7,2026-01-15,Agente corresponsal,Completado,1653.45
+81,O00081,160,4,25,2026-02-19,Ventanilla,Cancelado,481.45
+82,O00082,172,1,30,2026-06-06,Banca móvil,Cancelado,225.00
+83,O00083,67,4,38,2026-01-28,Banca por internet,Completado,2781.78
+84,O00084,18,4,35,2026-03-08,Cajero automático,Completado,445.65
+85,O00085,174,5,36,05/05/2026,Agente corresponsal,Cancelado,1877.20
+86,O00086,89,4,14,2026-01-06,Ventanilla,Completado,527.60
+87,O00087,107,1,40,2026-02-01,Banca móvil,Observado,1514.80
+88,O00088,13,5,11,2026-05-13,Banca por internet,Pendiente,18.49
+89,O00089,128,5,24,2026-02-25,Cajero automático,Observado,154.16
+90,O00090,171,6,36,2026-05-24,Agente corresponsal,Completado,450.00
+91,O00091,11,1,26,2026-05-18,Ventanilla,Completado,256.50
+92,O00092,156,1,13,25/05/2026,Banca móvil,Completado,1673.54
+93,O00093,124,6,8,2026-02-05,Banca por internet,Completado,573.69
+94,O00094,90,1,25,2026-06-07,Cajero automático,Completado,432.00
+95,O00095,120,4,26,2026-03-06,Agente corresponsal,Pendiente,-1959.62
+96,O00096,85,2,31,2026-02-22,Ventanilla,Completado,2247.55
+97,O00097,85,2,29,2026-02-18,Banca móvil,Completado,943.48
+98,O00098,9138,3,,2026-02-07,Banca por internet,Cancelado,651.74
+99,O00099,44,2,16,2026-03-02,Cajero automático,Completado,144.00
+100,O00100,35,5,28,2026-04-06,Agente corresponsal,Completado,1050.69
+101,O00101,59,2,20,2026-06-26,Ventanilla,Completado,1816.96
+102,O00102,26,6,28,2026-06-21,Banca móvil,Completado,2063.42
+103,O00103,104,4,6,2026-05-17,Banca por internet,Cancelado,144.48
+104,O00104,30,4,36,2026-04-15,Cajero automático,Completado,36.98
+105,O00105,13,6,31,2026-05-20,Agente corresponsal,Completado,1618.00
+106,O00106,95,4,27,2026-01-08,Ventanilla,Pendiente,468.00
+107,O00107,53,6,11,26/01/2026,Banca móvil,Completado,5232.54
+108,O00108,194,2,,2026-01-08,Banca por internet,Pendiente,256.50
+109,O00109,92,5,17,2026-02-20,Cajero automático,Completado,78.00
+110,O00110,109,2,39,2026-02-08,Agente corresponsal,Completado,3538.00
+111,O00111,180,2,19,2026-04-21,Ventanilla,Completado,1267.68
+112,O00112,38,1,15,2026-03-23,Banca móvil,Completado,3530.48
+113,O00113,166,5,9,2026-06-19,Banca por internet,Completado,1415.22
+114,O00114,38,2,24,2026-05-26,Cajero automático,Pendiente,144.00
+115,O00115,75,1,,2026-04-02,Agente corresponsal,Completado,2655.00
+116,O00116,148,6,15,2026-06-01,Ventanilla,Completado,217.96
+117,O00117,9,2,,2026-05-18,Banca móvil,Cancelado,128.25
+118,O00118,56,2,23,2026-04-14,Banca por internet,Pendiente,469.75
+119,O00119,53,1,28,2026-05-13,Cajero automático,Cancelado,2205.71
+120,O00120,167,5,39,2026-02-19,Agente corresponsal,Pendiente,216.00
+121,O00121,177,4,38,2026-03-21,Ventanilla,Pendiente,90.00
+122,O00122,16,4,26,2026-03-07,Banca móvil,Completado,468.00
+123,O00123,29,4,4,2026-02-02,Banca por internet,Completado,1950.00
+124,O00124,199,1,10,2026-05-07,Cajero automático,Cancelado,1322.61
+125,O00125,185,4,23,2026-03-17,Agente corresponsal,Completado,202.36
+126,O00126,147,2,40,2026-05-16,Ventanilla,Completado,189.00
+127,O00127,187,5,29,2026-02-04,Banca móvil,Pendiente,305.00
+128,O00128,169,1,16,2026-01-25,Banca por internet,Completado,462.97
+129,O00129,141,5,35,2026-06-19,Cajero automático,Completado,1695.00
+130,O00130,31,3,24,2026-01-09,Agente corresponsal,Completado,27.00
+131,O00131,38,5,4,2026-01-09,Ventanilla,Pendiente,650.00
+132,O00132,37,1,11,2026-05-17,Banca móvil,Completado,180.00
+133,O00133,102,6,36,2026-05-24,Banca por internet,Completado,1010.94
+134,O00134,59,3,32,2026-01-26,Cajero automático,Completado,1523.83
+135,O00135,74,2,16,2026-03-12,Agente corresponsal,Completado,178.25
+136,O00136,145,4,2,2026-03-12,Ventanilla,Pendiente,303.96
+137,O00137,150,4,31,2026-01-02,Banca móvil,Completado,396.00
+138,O00138,186,1,23,2026-01-26,Banca por internet,Completado,3250.00
+139,O00139,171,2,9,2026-05-06,Cajero automático,Pendiente,460.00
+140,O00140,52,6,32,2026-02-12,Agente corresponsal,Completado,936.00
+141,O00141,128,4,21,2026-02-10,Ventanilla,Cancelado,245.00
+142,O00142,54,1,6,2026-06-21,Banca móvil,Completado,1365.61
+143,O00143,50,4,39,2026-02-28,Banca por internet,Completado,630.00
+144,O00144,152,5,21,2026-03-23,Cajero automático,Cancelado,125.00
+145,O00145,39,6,3,13/03/2026,Agente corresponsal,Completado,773.45
+146,O00146,90,1,5,22/04/2026,Ventanilla,Completado,1260.00
+147,O00147,132,1,29,08/01/2026,Banca móvil,Pendiente,55.47
+148,O00148,139,6,40,2026-05-26,Banca por internet,Completado,20.00
+149,O00149,44,6,7,2026-04-15,Cajero automático,Completado,991.87
+150,O00150,80,6,34,2026-06-18,Agente corresponsal,Observado,507.00
+151,O00151,70,3,6,2026-05-22,Ventanilla,Completado,24.00
+152,O00152,18,1,2,2026-01-24,Banca móvil,Completado,1194.72
+153,O00153,49,5,35,2026-04-14,Banca por internet,Pendiente,10.00
+154,O00154,147,4,40,2026-02-06,Cajero automático,Completado,1743.45
+155,O00155,26,4,12,2026-05-19,Agente corresponsal,Completado,4839.57
+156,O00156,21,4,10,2026-05-19,Ventanilla,Completado,590.94
+157,O00157,9199,2,13,2026-01-08,Banca móvil,Completado,330.69
+158,O00158,82,1,5,18/03/2026,Banca por internet,Pendiente,707.61
+159,O00159,155,3,19,2026-05-19,Cajero automático,Completado,60.00
+160,O00160,158,1,,2026-04-04,Agente corresponsal,Completado,222.00
+161,O00161,114,4,25,2026-01-16,Ventanilla,Observado,619.00
+162,O00162,195,1,29,2026-03-23,Banca móvil,Completado,56.24
+163,O00163,71,5,16,2026-03-22,Banca por internet,Completado,1679.04
+164,O00164,101,1,28,2026-04-01,Cajero automático,Cancelado,10.00
+165,O00165,49,4,39,2026-06-09,Agente corresponsal,Completado,685.50
+166,O00166,188,2,29,2026-03-05,Ventanilla,Pendiente,8230.00
+167,O00167,179,3,12,15/04/2026,Banca móvil,Completado,456.32
+168,O00168,178,4,18,2026-06-16,Banca por internet,Completado,246.36
+169,O00169,37,2,30,2026-05-08,Cajero automático,Completado,126.00
+170,O00170,145,2,7,2026-02-04,Agente corresponsal,Completado,1881.22
+171,O00171,193,3,3,2026-05-23,Ventanilla,Completado,72.00
+172,O00172,157,6,5,2026-06-22,Banca móvil,Completado,0.00
+173,O00173,142,3,22,25/03/2026,Banca por internet,Pendiente,765.00
+174,O00174,150,6,16,2026-05-28,Cajero automático,Completado,1008.48
+175,O00175,143,4,6,2026-05-27,Agente corresponsal,Observado,350.87
+176,O00176,111,5,38,2026-06-15,Ventanilla,Completado,3197.97
+177,O00177,69,1,9,2026-03-14,Banca móvil,Pendiente,337.64
+178,O00178,172,3,34,2026-02-18,Banca por internet,Pendiente,2302.17
+179,O00179,193,2,32,13/03/2026,Cajero automático,Cancelado,1406.00
+180,O00180,109,6,19,2026-02-18,Agente corresponsal,Completado,55.48
+181,O00181,71,2,3,2026-03-12,Ventanilla,Completado,73.00
+182,O00182,61,1,20,2026-05-07,Banca móvil,Completado,60.48
+183,O00183,54,1,16,2026-03-18,Banca por internet,Completado,943.48
+184,O00184,121,2,40,2026-06-13,Cajero automático,Completado,244.00
+185,O00185,135,2,36,2026-03-28,Agente corresponsal,Completado,640.00
+186,O00186,43,5,16,2026-06-13,Ventanilla,Completado,56.24
+187,O00187,139,3,12,2026-02-05,Banca móvil,Observado,943.48
+188,O00188,51,6,24,2026-01-28,Banca por internet,Completado,73.96
+189,O00189,19,3,33,2026-05-17,Cajero automático,Completado,367.67
+190,O00190,127,1,32,16/01/2026,Agente corresponsal,Completado,864.00
+191,O00191,83,5,10,2026-04-13,Ventanilla,Pendiente,2127.26
+192,O00192,132,6,28,2026-02-22,Banca móvil,Completado,2750.00
+193,O00193,117,5,1,2026-01-26,Banca por internet,Completado,5804.54
+194,O00194,13,6,5,2026-04-26,Cajero automático,Completado,600.80
+195,O00195,138,5,8,2026-03-21,Agente corresponsal,Completado,108.00
+196,O00196,174,3,13,2026-05-19,Ventanilla,Completado,1661.05
+197,O00197,131,5,34,2026-04-15,Banca móvil,Completado,195.00
+198,O00198,18,3,38,2026-04-15,Banca por internet,Completado,670.48
+199,O00199,169,4,18,2026-04-19,Cajero automático,Completado,736.84
+200,O00200,122,4,21,2026-04-11,Agente corresponsal,Completado,2344.14
+201,O00201,189,4,36,2026-03-23,Ventanilla,Completado,1653.45
+202,O00202,83,3,,2026-01-20,Banca móvil,Observado,-3931.49
+203,O00203,13,1,38,2026-01-01,Banca por internet,Completado,165.48
+204,O00204,136,3,16,23/04/2026,Cajero automático,Completado,463.63
+205,O00205,60,2,32,2026-04-14,Agente corresponsal,Completado,1046.65
+206,O00206,130,2,2,2026-02-02,Ventanilla,Completado,1175.00
+207,O00207,197,6,29,2026-06-10,Banca móvil,Completado,1239.35
+208,O00208,41,1,31,2026-06-24,Banca por internet,Completado,24.00
+209,O00209,94,2,16,2026-01-13,Cajero automático,Observado,100.00
+210,O00210,51,1,6,2026-03-28,Agente corresponsal,Completado,3250.00
+211,O00211,178,4,6,2026-03-21,Ventanilla,Completado,855.00
+212,O00212,157,2,13,2026-03-02,Banca móvil,Completado,698.64
+213,O00213,131,3,24,2026-04-27,Banca por internet,Completado,96.00
+214,O00214,21,6,40,2026-06-24,Cajero automático,Completado,73.96
+215,O00215,133,2,12,2026-03-28,Agente corresponsal,Observado,72.00
+216,O00216,42,4,29,2026-06-26,Ventanilla,Completado,3743.74
+217,O00217,191,5,15,2026-02-09,Banca móvil,Completado,158.00
+218,O00218,35,2,28,2026-02-11,Banca por internet,Cancelado,18.00
+219,O00219,186,6,8,02/03/2026,Cajero automático,Completado,3481.52
+220,O00220,73,6,35,2026-01-04,Agente corresponsal,Completado,20.00
+221,O00221,81,1,6,2026-04-03,Ventanilla,Completado,745.00
+222,O00222,169,6,30,2026-01-16,Banca móvil,Completado,1269.85
+223,O00223,200,1,22,2026-02-28,Banca por internet,Observado,80.00
+224,O00224,66,4,1,2026-06-13,Cajero automático,Completado,514.12
+225,O00225,190,1,11,2026-02-12,Agente corresponsal,Completado,2206.41
+226,O00226,176,3,20,2026-06-16,Ventanilla,Completado,693.00
+227,O00227,88,4,9,2026-06-09,Banca móvil,Cancelado,284.94
+228,O00228,171,1,25,2026-02-09,Banca por internet,Completado,1111.48
+229,O00229,194,4,37,2026-02-13,Cajero automático,Completado,2419.85
+230,O00230,26,6,14,2026-03-01,Agente corresponsal,Completado,16.00
+231,O00231,152,5,2,2026-02-24,Ventanilla,Cancelado,1018.48
+232,O00232,85,5,19,19/05/2026,Banca móvil,Completado,348.00
+233,O00233,106,3,1,2026-06-25,Banca por internet,Completado,176.49
+234,O00234,110,4,26,2026-03-26,Cajero automático,Cancelado,280.60
+235,O00235,87,3,8,2026-03-04,Agente corresponsal,Completado,705.47
+236,O00236,28,2,4,02/01/2026,Ventanilla,Completado,72.00
+237,O00237,4,1,38,2026-05-06,Banca móvil,Completado,0.00
+238,O00238,117,5,,2026-06-06,Banca por internet,Completado,540.00
+239,O00239,89,6,27,28/04/2026,Cajero automático,Cancelado,707.61
+240,O00240,6,2,12,2026-06-19,Agente corresponsal,Completado,150.00
+241,O00241,94,4,,2026-04-14,Ventanilla,Completado,2067.33
+242,O00242,105,4,21,2026-04-06,Banca móvil,Completado,0.00
+243,O00243,99,6,34,2026-02-04,Banca por internet,Completado,137.00
+244,O00244,136,6,32,2026-06-25,Cajero automático,Pendiente,540.00
+245,O00245,171,5,9,2026-03-08,Agente corresponsal,Pendiente,1751.45
+246,O00246,110,6,24,2026-01-03,Ventanilla,Completado,5479.48
+247,O00247,83,1,23,2026-03-27,Banca móvil,Completado,98.49
+248,O00248,23,3,32,2026-03-25,Banca por internet,Pendiente,768.25
+249,O00249,65,3,1,2026-02-10,Cajero automático,Completado,50.00
+250,O00250,20,2,35,10/02/2026,Agente corresponsal,Completado,185.00
+251,O00251,156,2,25,2026-05-28,Ventanilla,Cancelado,130.00
+252,O00252,61,1,28,2026-06-21,Banca móvil,Cancelado,8029.28
+253,O00253,161,6,22,2026-02-21,Banca por internet,Cancelado,2781.78
+254,O00254,180,5,31,2026-04-02,Cajero automático,Cancelado,455.00
+255,O00255,61,2,14,2026-04-01,Agente corresponsal,Completado,668.94
+256,O00256,39,1,20,2026-01-10,Ventanilla,Completado,-5800.68
+257,O00257,74,5,15,2026-04-09,Banca móvil,Pendiente,1518.89
+258,O00258,87,2,7,2026-01-05,Banca por internet,Cancelado,0.00
+259,O00259,97,4,12,2026-03-03,Cajero automático,Completado,108.00
+260,O00260,110,3,28,2026-06-17,Agente corresponsal,Completado,2871.55
+261,O00261,70,6,31,2026-03-28,Ventanilla,Completado,60.00
+262,O00262,55,4,2,2026-02-10,Banca móvil,Completado,2246.00
+263,O00263,103,5,24,2026-01-06,Banca por internet,Pendiente,599.18
+264,O00264,52,5,23,2026-03-23,Cajero automático,Completado,691.38
+265,O00265,16,5,26,2026-04-04,Agente corresponsal,Completado,576.00
+266,O00266,74,5,10,2026-01-11,Ventanilla,Observado,576.00
+267,O00267,149,6,8,2026-05-13,Banca móvil,Cancelado,271.87
+268,O00268,76,3,36,2026-01-21,Banca por internet,Cancelado,81.00
+269,O00269,163,2,40,2026-04-26,Cajero automático,Completado,2108.86
+270,O00270,69,4,27,2026-03-10,Agente corresponsal,Pendiente,353.60
+271,O00271,43,6,26,2026-03-17,Ventanilla,Completado,2600.00
+272,O00272,34,5,24,2026-05-23,Banca móvil,Pendiente,807.00
+273,O00273,158,5,31,2026-04-19,Banca por internet,Completado,3932.00
+274,O00274,114,1,33,2026-03-16,Cajero automático,Pendiente,123.96
+275,O00275,12,4,9,2026-01-07,Agente corresponsal,Pendiente,144.96
+276,O00276,46,3,11,2026-04-13,Ventanilla,Completado,2078.25
+277,O00277,15,3,13,01/02/2026,Banca móvil,Completado,1338.07
+278,O00278,85,6,12,2026-02-08,Banca por internet,Completado,432.00
+279,O00279,27,3,16,2026-03-24,Cajero automático,Completado,1561.38
+280,O00280,63,1,18,2026-01-18,Agente corresponsal,Completado,3030.44
+281,O00281,77,6,4,2026-04-26,Ventanilla,Completado,108.00
+282,O00282,13,2,10,2026-01-02,Banca móvil,Pendiente,1935.61
+283,O00283,152,2,8,2026-01-22,Banca por internet,Completado,184.96
+284,O00284,73,4,34,12/03/2026,Cajero automático,Observado,390.00
+285,O00285,169,1,7,2026-04-06,Agente corresponsal,Completado,362.45
+286,O00286,166,3,9,2026-06-24,Ventanilla,Completado,291.71
+287,O00287,23,1,7,2026-05-01,Banca móvil,Completado,36.00
+288,O00288,95,3,12,2026-06-25,Banca por internet,Completado,132.00
+289,O00289,32,1,9,2026-06-04,Cajero automático,Completado,2550.47
+290,O00290,139,2,8,2026-03-26,Agente corresponsal,Completado,6412.05
+291,O00291,95,5,19,2026-02-21,Ventanilla,Completado,288.00
+292,O00292,138,5,37,2026-06-12,Banca móvil,Completado,767.75
+293,O00293,167,2,22,2026-02-06,Banca por internet,Completado,30.00
+294,O00294,193,1,34,2026-01-08,Cajero automático,Completado,438.00
+295,O00295,168,6,32,2026-02-28,Agente corresponsal,Pendiente,216.00
+296,O00296,153,4,36,2026-06-17,Ventanilla,Completado,1250.75
+297,O00297,138,6,22,2026-04-13,Banca móvil,Completado,144.00
+298,O00298,57,2,40,2026-02-17,Banca por internet,Cancelado,3200.00
+299,O00299,60,6,20,2026-03-27,Cajero automático,Completado,3931.4
+300,O00300,73,3,9,2026-06-21,Agente corresponsal,Pendiente,171.00
+301,O00301,56,6,12,2026-04-09,Ventanilla,Completado,2394.64
+302,O00302,9519,5,40,2026-04-06,Banca móvil,Pendiente,864.00
+303,O00303,148,3,4,09/04/2026,Banca por internet,Completado,70.00
+304,O00304,189,4,11,2026-01-07,Cajero automático,Cancelado,1663.48
+305,O00305,105,6,30,2026-02-18,Agente corresponsal,Cancelado,768.00
+306,O00306,79,2,19,2026-03-09,Ventanilla,Completado,146.00
+307,O00307,176,2,23,2026-03-18,Banca móvil,Completado,225.00
+308,O00308,106,4,28,2026-06-18,Banca por internet,Completado,3105.78
+309,O00309,82,1,30,2026-02-08,Cajero automático,Completado,352.48
+310,O00310,120,5,13,2026-05-22,Agente corresponsal,Completado,184.00
+311,O00311,185,6,15,2026-06-28,Ventanilla,Completado,208.00
+312,O00312,6,2,18,2026-03-04,Banca móvil,Pendiente,1066.38
+313,O00313,20,6,4,2026-02-14,Banca por internet,Pendiente,202.50
+314,O00314,43,4,19,2026-05-24,Cajero automático,Cancelado,1931.01
+315,O00315,155,4,9,2026-04-11,Agente corresponsal,Cancelado,711.00
+316,O00316,24,5,7,2026-04-21,Ventanilla,Observado,3967.73
+317,O00317,146,3,27,13/06/2026,Banca móvil,Completado,1300.00
+318,O00318,169,2,7,2026-05-04,Banca por internet,Cancelado,0.00
+319,O00319,64,2,40,2026-02-21,Cajero automático,Pendiente,36.00
+320,O00320,35,4,39,2026-02-01,Agente corresponsal,Cancelado,855.47
+321,O00321,153,1,23,2026-01-23,Ventanilla,Completado,92.45
+322,O00322,144,4,36,2026-02-25,Banca móvil,Completado,533.00
+323,O00323,192,1,18,2026-03-23,Banca por internet,Completado,201.00
+324,O00324,194,6,9,2026-02-26,Cajero automático,Completado,590.00
+325,O00325,55,6,36,2026-01-12,Agente corresponsal,Pendiente,400.60
+326,O00326,175,6,14,2026-03-17,Ventanilla,Pendiente,1004.28
+327,O00327,102,2,17,2026-01-25,Banca móvil,Observado,55.00
+328,O00328,143,1,18,2026-01-02,Banca por internet,Observado,1681.83
+329,O00329,76,2,17,2026-03-15,Cajero automático,Pendiente,14.00
+330,O00330,28,5,25,2026-02-28,Agente corresponsal,Cancelado,72.00
+331,O00331,16,5,26,2026-02-12,Ventanilla,Completado,519.63
+332,O00332,160,5,32,2026-04-14,Banca móvil,Observado,234.00
+333,O00333,66,2,4,2026-02-23,Banca por internet,Observado,2030.96
+334,O00334,177,2,2,2026-02-22,Cajero automático,Completado,30.00
+335,O00335,184,1,4,2026-02-22,Agente corresponsal,Cancelado,756.48
+336,O00336,145,6,3,2026-06-09,Ventanilla,Completado,48.00
+337,O00337,91,1,17,2026-05-04,Banca móvil,Completado,55.47
+338,O00338,117,2,1,2026-01-15,Banca por internet,Completado,3105.78
+339,O00339,102,1,20,2026-01-13,Cajero automático,Observado,36.00
+340,O00340,18,1,17,2026-03-14,Agente corresponsal,Completado,2624.00
+341,O00341,92,6,3,2026-01-22,Ventanilla,Pendiente,108.00
+342,O00342,89,4,12,2026-02-18,Banca móvil,Completado,648.00
+343,O00343,14,6,31,2026-04-19,Banca por internet,Completado,112.12
+344,O00344,35,1,4,2026-01-23,Cajero automático,Completado,842.61
+345,O00345,155,6,5,2026-02-22,Agente corresponsal,Completado,36.00
+346,O00346,55,5,39,2026-01-01,Ventanilla,Completado,1176.00
+347,O00347,147,4,26,2026-04-02,Banca móvil,Completado,312.49
+348,O00348,196,2,40,2026-01-18,Banca por internet,Completado,82.00
+349,O00349,191,2,32,2026-03-06,Cajero automático,Observado,600.00
+350,O00350,182,4,20,2026-01-22,Agente corresponsal,Completado,360.00
+351,O00351,18,4,19,2026-01-06,Ventanilla,Completado,501.69
+352,O00352,170,4,9,2026-03-06,Banca móvil,Completado,1475.00
+353,O00353,100,6,7,2026-04-04,Banca por internet,Pendiente,135.00
+354,O00354,103,2,33,2026-01-14,Cajero automático,Completado,216.00
+355,O00355,52,4,25,12/02/2026,Agente corresponsal,Pendiente,3290.00
+356,O00356,137,5,40,2026-06-12,Ventanilla,Completado,1911.09
+357,O00357,146,2,37,2026-04-13,Banca móvil,Pendiente,1902.17
+358,O00358,135,4,1,2026-06-13,Banca por internet,Completado,2034.36
+359,O00359,90,4,18,2026-01-03,Cajero automático,Pendiente,463.63
+360,O00360,156,4,40,2026-03-11,Agente corresponsal,Completado,633.00
+361,O00361,195,6,39,2026-02-04,Ventanilla,Pendiente,1854.52
+362,O00362,6,5,6,2026-03-04,Banca móvil,Pendiente,345.00
+363,O00363,66,4,2,2026-02-13,Banca por internet,Completado,260.00
+364,O00364,186,5,34,2026-04-17,Cajero automático,Completado,315.00
+365,O00365,31,2,40,2026-02-03,Agente corresponsal,Completado,177.48
+366,O00366,195,5,29,2026-05-04,Ventanilla,Completado,1507.12
+367,O00367,71,3,9,2026-02-02,Banca móvil,Completado,180.00
+368,O00368,66,1,7,2026-04-07,Banca por internet,Completado,1914.52
+369,O00369,15,1,40,2026-03-07,Cajero automático,Cancelado,720.00
+370,O00370,47,5,2,2026-03-03,Agente corresponsal,Pendiente,1336.50
+371,O00371,175,4,9,07/05/2026,Ventanilla,Cancelado,121.00
+372,O00372,44,3,11,2026-06-21,Banca móvil,Pendiente,120.00
+373,O00373,19,1,39,2026-05-28,Banca por internet,Cancelado,48.64
+374,O00374,37,2,5,2026-04-24,Cajero automático,Pendiente,3150.78
+375,O00375,194,1,20,2026-02-14,Agente corresponsal,Cancelado,550.00
+376,O00376,197,5,12,2026-01-24,Ventanilla,Completado,240.00
+377,O00377,95,1,15,2026-03-19,Banca móvil,Pendiente,480.48
+378,O00378,137,3,7,2026-06-07,Banca por internet,Pendiente,6271.17
+379,O00379,83,5,34,2026-02-05,Cajero automático,Completado,276.24
+380,O00380,195,5,6,2026-02-01,Agente corresponsal,Cancelado,1081.50
+381,O00381,57,1,10,2026-01-28,Ventanilla,Pendiente,333.96
+382,O00382,122,4,40,2026-04-28,Banca móvil,Pendiente,2618.00
+383,O00383,144,1,10,2026-06-25,Banca por internet,Pendiente,1311.00
+384,O00384,16,5,27,2026-06-03,Cajero automático,Completado,1860.76
+385,O00385,1,6,27,2026-03-09,Agente corresponsal,Cancelado,1480.89
+386,O00386,84,5,14,2026-05-23,Ventanilla,Pendiente,190.47
+387,O00387,160,2,37,2026-02-22,Banca móvil,Observado,202.48
+388,O00388,54,4,31,2026-02-18,Banca por internet,Cancelado,135.00
+389,O00389,49,6,30,2026-05-17,Cajero automático,Completado,943.48
+390,O00390,101,4,11,2026-04-23,Agente corresponsal,Completado,798.38
+391,O00391,119,2,9,2026-02-20,Ventanilla,Pendiente,207.00
+392,O00392,87,5,30,2026-06-27,Banca móvil,Completado,3745.04
+393,O00393,124,1,34,2026-06-15,Banca por internet,Completado,477.00
+394,O00394,2,1,18,2026-04-26,Cajero automático,Completado,108.00
+395,O00395,194,5,25,12/05/2026,Agente corresponsal,Cancelado,1144.47
+396,O00396,148,6,6,2026-06-25,Ventanilla,Completado,5.00
+397,O00397,144,2,3,2026-01-10,Banca móvil,Completado,398.22
+398,O00398,102,1,5,2026-05-25,Banca por internet,Cancelado,261.00
+399,O00399,133,3,10,2026-04-28,Cajero automático,Completado,2624.56
+400,O00400,157,3,38,2026-06-24,Agente corresponsal,Cancelado,1662.00
+401,O00401,138,6,8,2026-04-04,Ventanilla,Completado,897.44
+402,O00402,182,2,10,2026-05-20,Banca móvil,Completado,96.00
+403,O00403,194,3,10,2026-02-22,Banca por internet,Completado,720.00
+404,O00404,166,3,24,2026-02-15,Cajero automático,Completado,3062.52
+405,O00405,112,4,36,2026-05-27,Agente corresponsal,Completado,40.00
+406,O00406,156,4,22,2026-06-16,Ventanilla,Completado,132.80
+407,O00407,133,6,19,2026-04-02,Banca móvil,Completado,3404.98
+408,O00408,81,5,28,2026-04-28,Banca por internet,Completado,1738.81
+409,O00409,106,4,30,2026-03-14,Cajero automático,Completado,611.98
+410,O00410,18,2,26,2026-02-01,Agente corresponsal,Completado,1187.61
+411,O00411,148,6,29,2026-01-20,Ventanilla,Pendiente,225.50
+412,O00412,101,4,36,2026-04-27,Banca móvil,Completado,0.00
+413,O00413,189,2,17,2026-05-20,Banca por internet,Completado,1862.76
+414,O00414,118,6,37,07/06/2026,Cajero automático,Completado,60.00
+415,O00415,16,4,23,2026-06-09,Agente corresponsal,Completado,452.12
+416,O00416,6,5,30,2026-05-19,Ventanilla,Completado,510.00
+417,O00417,155,3,,2026-01-03,Banca móvil,Pendiente,1430.11
+418,O00418,178,6,33,2026-02-07,Banca por internet,Cancelado,1974.52
+419,O00419,200,5,3,07/04/2026,Cajero automático,Completado,36.98
+420,O00420,114,2,37,2026-02-12,Agente corresponsal,Cancelado,334.56
+421,O00421,81,1,25,2026-02-04,Ventanilla,Completado,10.00
+422,O00422,88,2,10,2026-03-21,Banca móvil,Completado,494.50
+423,O00423,189,4,11,13/04/2026,Banca por internet,Pendiente,2075.00
+424,O00424,81,3,17,2026-06-22,Cajero automático,Completado,223.00
+425,O00425,42,6,32,2026-05-23,Agente corresponsal,Observado,184.00
+426,O00426,101,2,21,2026-05-22,Ventanilla,Completado,176.00
+427,O00427,126,6,10,2026-02-20,Banca móvil,Pendiente,760.00
+428,O00428,193,6,2,2026-02-03,Banca por internet,Completado,949.38
+429,O00429,200,2,40,21/01/2026,Cajero automático,Completado,3616.00
+430,O00430,190,1,5,2026-03-11,Agente corresponsal,Cancelado,1522.75
+431,O00431,174,5,33,02/04/2026,Ventanilla,Pendiente,225.00
+432,O00432,12,6,28,2026-02-25,Banca móvil,Completado,36.00
+433,O00433,27,6,36,2026-01-24,Banca por internet,Cancelado,168.75
+434,O00434,56,3,4,2026-06-21,Cajero automático,Completado,36.00
+435,O00435,15,2,10,2026-06-26,Agente corresponsal,Completado,5294.76
+436,O00436,41,2,30,2026-06-06,Ventanilla,Completado,732.00
+437,O00437,56,5,19,2026-03-23,Banca móvil,Completado,2782.61
+438,O00438,139,4,5,2026-05-14,Banca por internet,Observado,4678.25
+439,O00439,124,6,15,2026-05-14,Cajero automático,Pendiente,180.00
+440,O00440,199,6,21,2026-02-24,Agente corresponsal,Pendiente,-6858.93
+441,O00441,9919,3,31,2026-05-11,Ventanilla,Completado,560.12
+442,O00442,97,1,14,2026-06-27,Banca móvil,Pendiente,48.64
+443,O00443,172,5,40,05/05/2026,Banca por internet,Cancelado,3471.78
+444,O00444,143,1,22,2026-03-20,Cajero automático,Observado,820.09
+445,O00445,37,6,32,2026-02-01,Agente corresponsal,Completado,906.74
+446,O00446,89,2,1,27/02/2026,Ventanilla,Cancelado,216.00
+447,O00447,28,6,21,07/05/2026,Banca móvil,Completado,110.94
+448,O00448,9,2,15,2026-04-17,Banca por internet,Completado,2076.14
+449,O00449,117,3,12,2026-04-25,Cajero automático,Pendiente,287.98
+450,O00450,183,1,22,2026-02-21,Agente corresponsal,Pendiente,48.00
+451,O00451,168,6,34,2026-04-15,Ventanilla,Completado,331.87
+452,O00452,49,6,4,2026-06-28,Banca móvil,Completado,144.00
+453,O00453,195,6,27,2026-02-17,Banca por internet,Completado,1415.22
+454,O00454,155,3,13,15/05/2026,Cajero automático,Pendiente,2863.95
+455,O00455,10,1,24,2026-06-19,Agente corresponsal,Completado,2874.32
+456,O00456,41,1,11,2026-02-07,Ventanilla,Completado,516.00
+457,O00457,176,6,7,2026-04-07,Banca móvil,Completado,16.00
+458,O00458,166,6,7,2026-01-16,Banca por internet,Completado,373.72
+459,O00459,102,2,22,2026-02-12,Cajero automático,Completado,1044.00
+460,O00460,176,2,35,2026-04-18,Agente corresponsal,Completado,818.50
+461,O00461,77,2,22,2026-02-11,Ventanilla,Completado,472.60
+462,O00462,183,6,11,2026-02-27,Banca móvil,Completado,2427.26
+463,O00463,9343,2,31,2026-01-13,Banca por internet,Pendiente,899.75
+464,O00464,88,4,32,2026-04-14,Cajero automático,Completado,41.00
+465,O00465,102,4,34,03/01/2026,Agente corresponsal,Completado,36.48
+466,O00466,103,3,16,2026-03-17,Ventanilla,Cancelado,720.00
+467,O00467,42,5,5,2026-03-01,Banca móvil,Completado,256.50
+468,O00468,198,5,15,2026-05-25,Banca por internet,Completado,820.00
+469,O00469,48,6,36,2026-05-26,Cajero automático,Completado,742.94
+470,O00470,69,2,23,2026-06-26,Agente corresponsal,Completado,1312.48
+471,O00471,63,1,8,2026-04-22,Ventanilla,Completado,90.00
+472,O00472,175,2,14,2026-05-18,Banca móvil,Pendiente,372.00
+473,O00473,18,2,28,2026-01-21,Banca por internet,Completado,242.00
+474,O00474,129,5,32,2026-03-24,Cajero automático,Completado,706.72
+475,O00475,71,2,31,2026-02-01,Agente corresponsal,Completado,612.00
+476,O00476,145,3,25,2026-06-16,Ventanilla,Completado,2208.33
+477,O00477,43,2,27,2026-04-02,Banca móvil,Observado,175.96
+478,O00478,116,6,21,2026-04-18,Banca por internet,Completado,1611.35
+479,O00479,130,5,10,2026-05-01,Cajero automático,Completado,661.38
+480,O00480,159,1,39,2026-04-15,Agente corresponsal,Completado,325.00
+481,O00481,142,1,31,2026-01-10,Ventanilla,Observado,282.00
+482,O00482,61,4,21,2026-04-03,Banca móvil,Completado,432.00
+483,O00483,12,1,29,2026-01-23,Banca por internet,Completado,325.00
+484,O00484,138,6,40,2026-04-20,Cajero automático,Completado,726.48
+485,O00485,111,4,2,2026-05-08,Agente corresponsal,Pendiente,2020.76
+486,O00486,133,4,40,2026-05-23,Ventanilla,Completado,-1317.36
+487,O00487,188,5,35,2026-06-20,Banca móvil,Completado,1978.45
+488,O00488,105,2,26,2026-02-18,Banca por internet,Pendiente,665.00
+489,O00489,104,4,21,2026-02-08,Cajero automático,Completado,116.27
+490,O00490,176,5,30,2026-01-12,Agente corresponsal,Completado,3555.4
+491,O00491,185,1,36,2026-01-11,Ventanilla,Pendiente,352.47
+492,O00492,138,5,39,2026-04-05,Banca móvil,Pendiente,864.00
+493,O00493,46,1,9,2026-02-04,Banca por internet,Completado,90.00
+494,O00494,162,5,10,2026-02-27,Cajero automático,Cancelado,311.00
+495,O00495,131,6,21,2026-03-19,Agente corresponsal,Observado,303.00
+496,O00496,110,2,24,26/01/2026,Ventanilla,Pendiente,652.50
+497,O00497,84,3,1,2026-05-03,Banca móvil,Completado,423.00
+498,O00498,11,5,20,2026-03-22,Banca por internet,Completado,672.96
+499,O00499,118,5,21,2026-05-27,Cajero automático,Cancelado,1984.14
+500,O00500,180,2,8,2026-06-01,Agente corresponsal,Completado,956.00
+501,O00501,18,6,23,2026-01-28,Ventanilla,Completado,498.00
+502,O00502,23,2,27,2026-04-16,Banca móvil,Pendiente,336.48
+503,O00503,141,1,12,2026-01-09,Banca por internet,Observado,780.00
+504,O00504,135,3,7,2026-01-02,Cajero automático,Pendiente,952.19
+505,O00505,103,5,15,2026-03-20,Agente corresponsal,Completado,360.00
+506,O00506,33,5,12,2026-04-04,Ventanilla,Completado,611.48
+507,O00507,28,4,32,2026-05-26,Banca móvil,Completado,36.00
+508,O00508,84,1,1,2026-06-24,Banca por internet,Completado,929.77
+509,O00509,183,5,27,26/03/2026,Cajero automático,Pendiente,2249.93
+510,O00510,47,4,11,2026-05-03,Agente corresponsal,Cancelado,281.24
+511,O00511,191,5,5,2026-06-24,Ventanilla,Completado,36.00
+512,O00512,8,4,14,2026-05-08,Banca móvil,Pendiente,0.00
+513,O00513,77,5,10,2026-04-15,Banca por internet,Cancelado,471.74
+514,O00514,27,4,13,2026-01-02,Cajero automático,Completado,1977.95
+515,O00515,41,6,37,2026-06-06,Agente corresponsal,Observado,2342.95
+516,O00516,17,4,,2026-02-27,Ventanilla,Completado,45.00
+517,O00517,122,1,6,2026-02-26,Banca móvil,Completado,1728.00
+518,O00518,104,3,,2026-05-02,Banca por internet,Observado,267.75
+519,O00519,131,1,3,2026-01-12,Cajero automático,Completado,1975.74
+520,O00520,175,5,8,2026-06-22,Agente corresponsal,Completado,697.22
+521,O00521,27,2,37,2026-05-24,Ventanilla,Completado,4127.24
+522,O00522,166,3,40,2026-05-25,Banca móvil,Observado,252.00
+523,O00523,171,1,34,22/06/2026,Banca por internet,Completado,1653.45
+524,O00524,91,3,40,2026-01-23,Cajero automático,Completado,324.00
+525,O00525,12,1,5,2026-02-20,Agente corresponsal,Pendiente,881.96
+526,O00526,193,3,25,2026-04-06,Ventanilla,Completado,50.00
+527,O00527,173,5,33,2026-04-03,Banca móvil,Completado,780.00
+528,O00528,20,5,35,2026-02-18,Banca por internet,Completado,1097.07
+529,O00529,60,2,21,2026-03-06,Cajero automático,Cancelado,196.00
+530,O00530,40,4,39,2026-01-14,Agente corresponsal,Completado,56.24
+531,O00531,106,3,23,2026-05-04,Ventanilla,Cancelado,1264.85
+532,O00532,9600,6,40,2026-01-08,Banca móvil,Completado,25.00
+533,O00533,131,1,21,2026-01-04,Banca por internet,Completado,478.00
+534,O00534,189,3,15,2026-01-14,Cajero automático,Completado,471.74
+535,O00535,193,6,20,2026-01-28,Agente corresponsal,Pendiente,1390.89
+536,O00536,193,1,30,2026-02-17,Ventanilla,Completado,243.64
+537,O00537,58,6,2,2026-06-24,Banca móvil,Completado,120.00
+538,O00538,16,2,27,2026-06-09,Banca por internet,Pendiente,219.00
+539,O00539,117,3,40,2026-03-15,Cajero automático,Completado,845.00
+540,O00540,180,4,32,15/02/2026,Agente corresponsal,Completado,81.00
+541,O00541,172,3,23,2026-06-11,Ventanilla,Completado,2629.24
+542,O00542,57,6,37,2026-06-09,Banca móvil,Pendiente,288.00
+543,O00543,187,5,32,2026-03-26,Banca por internet,Pendiente,334.87
+544,O00544,159,3,,2026-03-11,Cajero automático,Completado,135.00
+545,O00545,113,2,15,2026-03-20,Agente corresponsal,Completado,366.72
+546,O00546,74,3,17,2026-02-04,Ventanilla,Completado,1582.80
+547,O00547,181,3,1,2026-06-17,Banca móvil,Pendiente,1919.94
+548,O00548,189,1,14,2026-02-01,Banca por internet,Observado,600.00
+549,O00549,51,1,34,2026-02-23,Cajero automático,Pendiente,718.00
+550,O00550,169,2,23,2026-06-14,Agente corresponsal,Observado,128.25
+551,O00551,9556,2,36,2026-04-08,Ventanilla,Completado,72.00
+552,O00552,99,4,40,2026-04-24,Banca móvil,Pendiente,40.00
+553,O00553,82,3,25,25/02/2026,Banca por internet,Cancelado,1496.45
+554,O00554,108,1,19,2026-02-02,Cajero automático,Pendiente,3275.00
+555,O00555,132,3,38,08/06/2026,Agente corresponsal,Cancelado,2928.28
+556,O00556,11,5,,2026-02-18,Ventanilla,Completado,15.00
+557,O00557,69,3,27,2026-05-15,Banca móvil,Completado,66.00
+558,O00558,19,5,16,2026-05-10,Banca por internet,Cancelado,1188.00
+559,O00559,157,1,9,2026-05-12,Cajero automático,Completado,340.00
+560,O00560,96,3,3,2026-03-08,Agente corresponsal,Completado,928.87
+561,O00561,52,4,38,2026-06-28,Ventanilla,Completado,153.00
+562,O00562,57,1,10,22/03/2026,Banca móvil,Pendiente,2373.45
+563,O00563,35,1,12,2026-04-04,Banca por internet,Pendiente,999.00
+564,O00564,104,5,17,2026-01-07,Cajero automático,Completado,229.93
+565,O00565,108,1,1,2026-04-16,Agente corresponsal,Completado,558.00
+566,O00566,84,1,39,2026-06-25,Ventanilla,Observado,770.49
+567,O00567,160,5,34,2026-03-01,Banca móvil,Completado,345.36
+568,O00568,188,6,28,2026-04-03,Banca por internet,Cancelado,144.00
+569,O00569,90,5,39,2026-06-14,Cajero automático,Observado,42.75
+570,O00570,128,4,31,2026-02-02,Agente corresponsal,Cancelado,3250.00
+571,O00571,42,1,17,2026-02-09,Ventanilla,Completado,3861.78
+572,O00572,118,1,14,2026-03-01,Banca móvil,Cancelado,1300.00
+573,O00573,56,5,29,2026-03-17,Banca por internet,Completado,108.00
+574,O00574,184,5,18,14/01/2026,Cajero automático,Cancelado,249.00
+575,O00575,22,3,11,2026-06-01,Agente corresponsal,Completado,18.49
+576,O00576,41,4,13,2026-06-06,Ventanilla,Completado,2340.00
+577,O00577,102,3,17,2026-03-05,Banca móvil,Pendiente,1384.07
+578,O00578,151,6,15,2026-04-14,Banca por internet,Completado,5957.33
+579,O00579,162,2,13,2026-03-20,Cajero automático,Completado,170.00
+580,O00580,171,5,31,2026-03-27,Agente corresponsal,Completado,1942.20
+581,O00581,168,4,35,2026-02-05,Ventanilla,Completado,1161.38
+582,O00582,29,4,39,2026-01-22,Banca móvil,Observado,1883.69
+583,O00583,184,5,22,13/02/2026,Banca por internet,Completado,208.94
+584,O00584,35,6,14,2026-03-04,Cajero automático,Pendiente,60.80
+585,O00585,7,5,31,2026-03-19,Agente corresponsal,Completado,54.00
+586,O00586,145,6,3,12/03/2026,Ventanilla,Completado,108.00
+587,O00587,191,1,38,2026-06-16,Banca móvil,Completado,560.25
+588,O00588,93,6,23,2026-02-19,Banca por internet,Completado,2724.45
+589,O00589,53,3,25,2026-04-11,Cajero automático,Pendiente,144.00
+590,O00590,152,2,27,2026-03-02,Agente corresponsal,Completado,225.00
+591,O00591,54,1,38,2026-03-27,Ventanilla,Completado,430.50
+592,O00592,167,5,15,2026-05-03,Banca móvil,Pendiente,186.00
+593,O00593,183,5,27,2026-05-07,Banca por internet,Observado,432.00
+594,O00594,157,3,1,2026-01-06,Cajero automático,Cancelado,997.38
+595,O00595,39,5,13,2026-01-18,Agente corresponsal,Completado,144.00
+596,O00596,175,5,40,2026-03-04,Ventanilla,Pendiente,125.94
+597,O00597,82,2,20,2026-03-07,Banca móvil,Pendiente,2791.78
+598,O00598,76,1,1,2026-04-19,Banca por internet,Cancelado,1901.45
+599,O00599,37,1,22,2026-02-17,Cajero automático,Completado,312.00
+600,O00600,173,1,13,2026-01-01,Agente corresponsal,Pendiente,1441.48
+601,O00601,1,2,10,01/01/2026,Ventanilla,Completado,1786.89
+602,O00602,54,6,37,2026-03-18,Banca móvil,Completado,1114.48
+603,O00603,116,2,12,2026-06-26,Banca por internet,Pendiente,237.00
+604,O00604,87,3,15,2026-04-23,Cajero automático,Pendiente,1217.26
+605,O00605,8,4,22,2026-04-01,Agente corresponsal,Completado,63.00
+606,O00606,162,6,25,08/04/2026,Ventanilla,Pendiente,1965.32
+607,O00607,22,4,19,2026-04-25,Banca móvil,Cancelado,418.00
+608,O00608,67,1,10,2026-06-19,Banca por internet,Completado,724.50
+609,O00609,40,2,14,2026-03-02,Cajero automático,Pendiente,18.49
+610,O00610,85,6,18,05/01/2026,Agente corresponsal,Completado,735.00
+611,O00611,50,6,2,2026-02-07,Ventanilla,Completado,288.00
+612,O00612,12,2,19,2026-05-22,Banca móvil,Completado,1362.48
+613,O00613,149,2,19,2026-06-27,Banca por internet,Pendiente,498.63
+614,O00614,48,5,26,2026-03-10,Cajero automático,Completado,110.00
+615,O00615,70,5,31,2026-05-10,Agente corresponsal,Completado,661.38
+616,O00616,179,1,15,2026-05-18,Ventanilla,Completado,7027.25
+617,O00617,83,4,37,2026-06-25,Banca móvil,Completado,1136.07
+618,O00618,13,3,36,2026-05-11,Banca por internet,Pendiente,1944.52
+619,O00619,131,4,5,2026-01-13,Cajero automático,Completado,60.00
+620,O00620,116,4,15,2026-02-07,Agente corresponsal,Completado,936.00
+621,O00621,144,2,3,2026-03-24,Ventanilla,Cancelado,133.00
+622,O00622,39,4,12,2026-05-27,Banca móvil,Completado,2201.50
+623,O00623,177,3,16,2026-04-13,Banca por internet,Pendiente,145.28
+624,O00624,142,5,36,2026-02-19,Cajero automático,Completado,1056.26
+625,O00625,29,1,30,2026-04-05,Agente corresponsal,Completado,2244.52
+626,O00626,176,3,28,2026-01-20,Ventanilla,Cancelado,-2329.2
+627,O00627,61,4,19,2026-03-06,Banca móvil,Pendiente,4246.50
+628,O00628,158,2,20,2026-01-07,Banca por internet,Pendiente,682.63
+629,O00629,74,1,20,2026-06-08,Cajero automático,Cancelado,312.00
+630,O00630,74,1,21,2026-06-16,Agente corresponsal,Completado,18.49
+631,O00631,160,4,28,2026-04-16,Ventanilla,Observado,252.96
+632,O00632,29,6,18,2026-02-26,Banca móvil,Pendiente,1375.48
+633,O00633,199,3,18,2026-01-04,Banca por internet,Cancelado,50.00
+634,O00634,85,4,38,19/03/2026,Cajero automático,Pendiente,88.00
+635,O00635,180,5,16,2026-04-03,Agente corresponsal,Completado,1726.29
+636,O00636,3,1,,2026-05-04,Ventanilla,Completado,900.00
+637,O00637,4,1,10,2026-06-12,Banca móvil,Completado,639.72
+638,O00638,133,6,25,2026-02-15,Banca por internet,Pendiente,135.00
+639,O00639,148,3,6,2026-06-23,Cajero automático,Completado,1009.44
+640,O00640,150,1,14,2026-02-04,Agente corresponsal,Completado,2426.15
+641,O00641,158,2,31,2026-03-08,Ventanilla,Completado,600.00
+642,O00642,51,5,32,2026-01-02,Banca móvil,Completado,155.00
+643,O00643,49,2,18,2026-05-22,Banca por internet,Cancelado,1899.52
+644,O00644,14,6,21,2026-05-16,Cajero automático,Cancelado,1318.00
+645,O00645,1,3,25,2026-05-02,Agente corresponsal,Pendiente,1873.48
+646,O00646,148,6,12,23/03/2026,Ventanilla,Completado,406.75
+647,O00647,117,1,10,2026-01-23,Banca móvil,Completado,1415.22
+648,O00648,99,3,5,2026-02-14,Banca por internet,Completado,0.00
+649,O00649,136,3,32,2026-06-13,Cajero automático,Completado,135.00
+650,O00650,146,5,19,2026-06-15,Agente corresponsal,Cancelado,45.00
+651,O00651,14,3,7,2026-04-09,Ventanilla,Pendiente,1950.00
+652,O00652,15,5,36,2026-04-24,Banca móvil,Completado,1019.46
+653,O00653,179,3,32,2026-06-13,Banca por internet,Cancelado,2338.15
+654,O00654,109,4,7,2026-04-28,Cajero automático,Completado,829.96
+655,O00655,85,1,33,16/04/2026,Agente corresponsal,Pendiente,227.00
+656,O00656,134,5,22,2026-06-20,Ventanilla,Completado,906.09
+657,O00657,138,4,30,2026-04-24,Banca móvil,Completado,342.91
+658,O00658,172,6,,2026-06-23,Banca por internet,Completado,1364.35
+659,O00659,119,2,29,2026-04-21,Cajero automático,Pendiente,992.00
+660,O00660,16,2,1,2026-05-22,Agente corresponsal,Observado,913.69
+661,O00661,71,1,29,2026-01-22,Ventanilla,Pendiente,830.00
+662,O00662,16,2,10,2026-02-27,Banca móvil,Completado,1560.89
+663,O00663,12,1,27,2026-03-11,Banca por internet,Completado,351.00
+664,O00664,76,5,28,2026-01-14,Cajero automático,Completado,5016.6
+665,O00665,48,1,24,2026-05-21,Agente corresponsal,Completado,307.87
+666,O00666,61,5,35,2026-02-16,Ventanilla,Completado,9.00
+667,O00667,71,2,26,2026-05-14,Banca móvil,Completado,2642.15
+668,O00668,6,6,27,2026-03-22,Banca por internet,Observado,0.00
+669,O00669,112,2,3,2026-02-21,Cajero automático,Cancelado,3265.00
+670,O00670,107,5,36,2026-05-21,Agente corresponsal,Completado,235.87
+671,O00671,151,1,35,2026-03-10,Ventanilla,Observado,2848.14
+672,O00672,46,4,30,2026-05-21,Banca móvil,Completado,3268.15
+673,O00673,53,4,9,2026-02-03,Banca por internet,Completado,8.00
+674,O00674,99,2,33,2026-05-10,Cajero automático,Completado,0.00
+675,O00675,9764,6,13,2026-04-04,Agente corresponsal,Completado,295.00
+676,O00676,138,3,25,04/04/2026,Ventanilla,Completado,457.75
+677,O00677,194,6,6,2026-05-16,Banca móvil,Pendiente,1322.76
+678,O00678,56,3,34,2026-02-09,Banca por internet,Completado,310.00
+679,O00679,102,4,3,2026-02-02,Cajero automático,Completado,526.07
+680,O00680,39,5,,2026-04-28,Agente corresponsal,Completado,775.63
+681,O00681,145,6,36,03/01/2026,Ventanilla,Completado,1044.00
+682,O00682,20,6,5,2026-04-18,Banca móvil,Completado,4212.24
+683,O00683,154,3,7,2026-03-19,Banca por internet,Completado,720.00
+684,O00684,81,5,24,2026-03-01,Cajero automático,Completado,164.00
+685,O00685,119,2,9,2026-02-13,Agente corresponsal,Completado,72.00
+686,O00686,139,3,32,2026-04-05,Ventanilla,Completado,644.72
+687,O00687,49,3,5,2026-01-03,Banca móvil,Completado,195.00
+688,O00688,55,2,1,2026-01-01,Banca por internet,Observado,4233.00
+689,O00689,169,4,11,2026-01-06,Cajero automático,Completado,1207.72
+690,O00690,37,3,24,2026-03-24,Agente corresponsal,Completado,317.00
+691,O00691,123,2,21,26/04/2026,Ventanilla,Completado,260.00
+692,O00692,45,3,27,2026-02-20,Banca móvil,Completado,-2361.39
+693,O00693,98,4,6,2026-01-19,Banca por internet,Completado,486.74
+694,O00694,136,1,16,2026-04-22,Cajero automático,Completado,8.00
+695,O00695,151,5,37,2026-04-26,Agente corresponsal,Cancelado,101.08
+696,O00696,94,3,14,2026-06-12,Ventanilla,Completado,0.00
+697,O00697,111,5,10,2026-01-07,Banca móvil,Completado,2628.12
+698,O00698,42,5,32,2026-06-28,Banca por internet,Pendiente,555.69
+699,O00699,105,2,23,2026-02-01,Cajero automático,Completado,363.48
+700,O00700,172,3,38,2026-04-10,Agente corresponsal,Pendiente,18.00
+701,O00701,59,2,13,2026-05-24,Ventanilla,Completado,2338.15
+702,O00702,27,5,18,2026-03-23,Banca móvil,Completado,36.48
+703,O00703,32,3,5,2026-02-08,Banca por internet,Completado,1392.00
+704,O00704,18,5,6,2026-03-06,Cajero automático,Completado,1322.76
+705,O00705,143,4,37,2026-06-04,Agente corresponsal,Completado,4170.00
+706,O00706,188,3,3,03/05/2026,Ventanilla,Completado,110.00
+707,O00707,117,2,34,2026-03-02,Banca móvil,Pendiente,8.00
+708,O00708,73,4,25,2026-02-18,Banca por internet,Completado,32.00
+709,O00709,82,4,30,2026-06-28,Cajero automático,Completado,714.12
+710,O00710,75,2,3,2026-05-06,Agente corresponsal,Completado,57.16
+711,O00711,155,3,25,2026-06-03,Ventanilla,Cancelado,7748.86
+712,O00712,174,1,26,2026-04-20,Banca móvil,Completado,644.75
+713,O00713,111,4,2,2026-04-20,Banca por internet,Cancelado,25.00
+714,O00714,179,5,6,2026-05-09,Cajero automático,Cancelado,1008.00
+715,O00715,176,2,14,2026-01-15,Agente corresponsal,Observado,294.00
+716,O00716,59,6,17,2026-04-13,Ventanilla,Completado,776.47
+717,O00717,177,2,33,2026-04-13,Banca móvil,Observado,16.00
+718,O00718,72,3,11,2026-04-17,Banca por internet,Completado,841.20
+719,O00719,171,5,24,2026-03-23,Cajero automático,Pendiente,1222.00
+720,O00720,9807,6,7,2026-05-09,Agente corresponsal,Pendiente,469.96
+721,O00721,13,5,6,2026-04-23,Ventanilla,Completado,1168.48
+722,O00722,77,1,39,2026-02-10,Banca móvil,Completado,1950.00
+723,O00723,175,1,6,2026-04-03,Banca por internet,Observado,180.00
+724,O00724,52,1,33,2026-02-09,Cajero automático,Pendiente,1061.48
+725,O00725,161,2,26,2026-06-02,Agente corresponsal,Pendiente,3788.00
+726,O00726,135,4,3,2026-03-20,Ventanilla,Completado,162.00
+727,O00727,162,3,25,2026-06-18,Banca móvil,Completado,405.64
+728,O00728,187,5,31,2026-02-18,Banca por internet,Completado,1280.24
+729,O00729,38,2,21,2026-04-20,Cajero automático,Pendiente,2598.55
+730,O00730,18,4,27,2026-04-05,Agente corresponsal,Completado,472.48
+731,O00731,122,5,17,2026-06-19,Ventanilla,Completado,48.64
+732,O00732,156,3,11,2026-04-12,Banca móvil,Cancelado,514.75
+733,O00733,15,4,7,2026-03-02,Banca por internet,Completado,450.00
+734,O00734,85,4,23,2026-02-22,Cajero automático,Observado,1653.45
+735,O00735,198,3,4,2026-06-19,Agente corresponsal,Completado,87.00
+736,O00736,99,4,10,2026-06-18,Ventanilla,Completado,135.00
+737,O00737,11,4,8,2026-01-19,Banca móvil,Completado,220.49
+738,O00738,197,1,23,2026-06-10,Banca por internet,Completado,0.00
+739,O00739,41,1,38,2026-05-21,Cajero automático,Completado,4002.47
+740,O00740,24,3,31,2026-04-15,Agente corresponsal,Completado,504.72
+741,O00741,58,2,33,2026-02-17,Ventanilla,Completado,685.87
+742,O00742,121,6,11,2026-01-27,Banca móvil,Observado,48.00
+743,O00743,187,2,1,2026-03-27,Banca por internet,Cancelado,860.10
+744,O00744,83,1,12,03/06/2026,Cajero automático,Completado,684.00
+745,O00745,144,6,5,2026-05-05,Agente corresponsal,Completado,1468.80
+746,O00746,176,4,13,2026-04-19,Ventanilla,Completado,18.00
+747,O00747,148,2,12,2026-02-07,Banca móvil,Pendiente,76.00
+748,O00748,176,5,17,2026-05-01,Banca por internet,Completado,5220.25
+749,O00749,25,6,6,2026-01-04,Cajero automático,Cancelado,1984.14
+750,O00750,180,2,26,2026-06-08,Agente corresponsal,Completado,216.00
+751,O00751,197,2,31,2026-01-18,Ventanilla,Completado,126.00
+752,O00752,150,6,38,2026-01-11,Banca móvil,Completado,930.00
+753,O00753,28,4,2,2026-01-11,Banca por internet,Completado,864.00
+754,O00754,166,2,32,2026-05-28,Cajero automático,Completado,1571.25
+755,O00755,176,1,4,2026-06-24,Agente corresponsal,Pendiente,769.87
+756,O00756,68,4,2,2026-01-27,Ventanilla,Pendiente,576.00
+757,O00757,63,3,21,2026-03-06,Banca móvil,Completado,54.00
+758,O00758,145,1,34,2026-06-12,Banca por internet,Completado,126.00
+759,O00759,119,4,17,2026-02-26,Cajero automático,Observado,180.00
+760,O00760,129,4,12,2026-01-25,Agente corresponsal,Completado,28.12
+761,O00761,113,2,8,2026-01-02,Ventanilla,Completado,7582.68
+762,O00762,96,1,3,2026-04-11,Banca móvil,Completado,36.00
+763,O00763,172,2,11,2026-05-17,Banca por internet,Completado,0.00
+764,O00764,133,2,27,2026-06-16,Cajero automático,Completado,3918.00
+765,O00765,197,6,34,17/02/2026,Agente corresponsal,Completado,240.00
+766,O00766,123,5,36,2026-02-23,Ventanilla,Completado,1301.08
+767,O00767,92,6,33,2026-05-04,Banca móvil,Observado,703.63
+768,O00768,144,1,37,2026-05-04,Banca por internet,Completado,185.60
+769,O00769,9606,1,12,2026-02-10,Cajero automático,Completado,270.00
+770,O00770,66,3,11,2026-06-18,Agente corresponsal,Completado,-5300.21
+771,O00771,152,1,32,2026-03-11,Ventanilla,Completado,216.00
+772,O00772,88,2,33,2026-05-06,Banca móvil,Cancelado,720.00
+773,O00773,186,1,14,2026-01-25,Banca por internet,Completado,1081.96
+774,O00774,1,4,17,14/03/2026,Cajero automático,Completado,75.00
+775,O00775,8,1,33,2026-05-12,Agente corresponsal,Observado,3657.94
+776,O00776,9,3,7,2026-05-08,Ventanilla,Completado,306.00
+777,O00777,92,3,3,2026-03-19,Banca móvil,Pendiente,1441.96
+778,O00778,87,4,27,2026-02-27,Banca por internet,Observado,459.69
+779,O00779,118,3,32,2026-04-07,Cajero automático,Cancelado,66.48
+780,O00780,34,4,16,2026-03-14,Agente corresponsal,Pendiente,180.00
+781,O00781,93,2,10,17/06/2026,Ventanilla,Completado,140.60
+782,O00782,179,2,22,2026-03-04,Banca móvil,Completado,947.87
+783,O00783,46,5,9,2026-04-12,Banca por internet,Completado,506.00
+784,O00784,140,2,29,2026-03-07,Cajero automático,Completado,2289.00
+785,O00785,190,3,10,2026-02-03,Agente corresponsal,Cancelado,2661.00
+786,O00786,46,1,3,2026-03-08,Ventanilla,Pendiente,891.50
+787,O00787,77,3,8,2026-01-05,Banca móvil,Pendiente,519.73
+788,O00788,73,1,29,2026-01-26,Banca por internet,Completado,48.00
+789,O00789,45,6,1,2026-03-12,Cajero automático,Completado,390.69
+790,O00790,71,2,20,2026-03-11,Agente corresponsal,Completado,907.47
+791,O00791,194,6,33,2026-05-11,Ventanilla,Pendiente,1168.72
+792,O00792,133,3,20,27/04/2026,Banca móvil,Completado,846.96
+793,O00793,79,4,5,2026-05-20,Banca por internet,Completado,859.20
+794,O00794,139,1,19,2026-01-16,Cajero automático,Completado,720.00
+795,O00795,186,2,35,2026-02-17,Agente corresponsal,Completado,1858.45
+796,O00796,90,4,7,2026-05-21,Ventanilla,Pendiente,139.48
+797,O00797,117,1,9,2026-01-03,Banca móvil,Completado,2731.35
+798,O00798,136,4,15,2026-04-14,Banca por internet,Completado,2338.15
+799,O00799,70,5,15,2026-02-09,Cajero automático,Completado,76.00
+800,O00800,158,3,22,2026-02-05,Agente corresponsal,Completado,60.80
+801,O00801,120,4,21,24/01/2026,Ventanilla,Completado,221.48
+802,O00802,79,3,17,20/03/2026,Banca móvil,Pendiente,722.00
+803,O00803,145,4,21,2026-04-01,Banca por internet,Completado,1207.47
+804,O00804,140,6,22,2026-05-01,Cajero automático,Completado,1402.76
+805,O00805,100,4,1,2026-06-10,Agente corresponsal,Observado,180.00
+806,O00806,122,4,27,2026-04-25,Ventanilla,Completado,1117.61
+807,O00807,69,3,29,2026-04-28,Banca móvil,Completado,1089.24
+808,O00808,164,6,17,12/03/2026,Banca por internet,Completado,112.48
+809,O00809,130,5,32,2026-02-03,Cajero automático,Completado,24.32
+810,O00810,163,4,24,2026-05-15,Agente corresponsal,Cancelado,3353.41
+811,O00811,35,4,16,2026-03-28,Ventanilla,Cancelado,367.32
+812,O00812,96,5,20,2026-02-06,Banca móvil,Cancelado,3443.96
+813,O00813,124,4,15,2026-05-23,Banca por internet,Pendiente,90.00
+814,O00814,40,1,29,2026-01-12,Cajero automático,Completado,4683.00
+815,O00815,196,3,33,2026-03-13,Agente corresponsal,Cancelado,902.43
+816,O00816,194,4,1,2026-04-19,Ventanilla,Observado,92.24
+817,O00817,55,2,21,2026-05-21,Banca móvil,Completado,1501.01
+818,O00818,92,6,8,2026-02-23,Banca por internet,Pendiente,153.49
+819,O00819,19,2,34,2026-05-20,Cajero automático,Completado,180.00
+820,O00820,76,4,37,2026-06-23,Agente corresponsal,Completado,544.87
+821,O00821,61,2,8,2026-04-08,Ventanilla,Completado,50.00
+822,O00822,31,6,23,2026-03-05,Banca móvil,Completado,281.00
+823,O00823,191,6,3,2026-01-11,Banca por internet,Completado,1964.2
+824,O00824,119,4,28,2026-01-22,Cajero automático,Completado,1009.44
+825,O00825,133,5,21,2026-05-03,Agente corresponsal,Pendiente,144.00
+826,O00826,198,4,14,28/06/2026,Ventanilla,Pendiente,9.00
+827,O00827,113,4,15,2026-03-09,Banca móvil,Cancelado,1995.00
+828,O00828,79,2,10,2026-03-17,Banca por internet,Completado,86.00
+829,O00829,124,4,34,2026-02-19,Cajero automático,Completado,171.00
+830,O00830,168,3,31,2026-02-17,Agente corresponsal,Pendiente,225.00
+831,O00831,1,5,15,10/01/2026,Ventanilla,Completado,24.32
+832,O00832,13,3,6,2026-06-23,Banca móvil,Completado,1300.00
+833,O00833,80,6,13,2026-04-25,Banca por internet,Completado,489.87
+834,O00834,111,3,3,2026-05-10,Cajero automático,Pendiente,0.00
+835,O00835,177,2,12,2026-06-25,Agente corresponsal,Completado,192.75
+836,O00836,101,1,6,2026-02-06,Ventanilla,Pendiente,778.25
+837,O00837,162,1,21,2026-05-05,Banca móvil,Completado,153.25
+838,O00838,191,6,7,2026-04-19,Banca por internet,Cancelado,170.36
+839,O00839,62,1,12,2026-03-13,Cajero automático,Completado,45.00
+840,O00840,118,1,22,2026-01-02,Agente corresponsal,Observado,390.00
+841,O00841,65,4,8,2026-03-17,Ventanilla,Completado,900.69
+842,O00842,22,6,39,2026-06-23,Banca móvil,Pendiente,83.59
+843,O00843,46,2,33,2026-01-17,Banca por internet,Pendiente,288.00
+844,O00844,184,2,16,2026-04-07,Cajero automático,Completado,407.5
+845,O00845,99,6,22,2026-01-15,Agente corresponsal,Pendiente,368.00
+846,O00846,161,2,1,2026-02-25,Ventanilla,Pendiente,865.20
+847,O00847,163,4,15,2026-05-14,Banca móvil,Completado,1994.14
+848,O00848,161,4,5,2026-06-25,Banca por internet,Completado,36.48
+849,O00849,34,6,1,2026-03-19,Cajero automático,Completado,180.00
+850,O00850,146,4,33,2026-04-14,Agente corresponsal,Observado,0.00
+851,O00851,91,4,9,2026-03-20,Ventanilla,Cancelado,613.00
+852,O00852,106,5,18,2026-06-17,Banca móvil,Cancelado,42.75
+853,O00853,161,1,1,2026-05-25,Banca por internet,Completado,20.00
+854,O00854,3,5,13,2026-01-14,Cajero automático,Completado,1963.49
+855,O00855,172,2,17,2026-05-22,Agente corresponsal,Completado,783.00
+856,O00856,161,1,,2026-02-26,Ventanilla,Completado,1296.00
+857,O00857,137,6,9,2026-04-12,Banca móvil,Cancelado,355.50
+858,O00858,131,5,3,2026-05-01,Banca por internet,Completado,660.48
+859,O00859,156,5,26,2026-01-17,Cajero automático,Completado,1129.44
+860,O00860,190,2,37,2026-03-07,Agente corresponsal,Cancelado,1505.90
+861,O00861,11,1,26,2026-04-17,Ventanilla,Pendiente,10.00
+862,O00862,58,2,22,2026-06-12,Banca móvil,Completado,27.00
+863,O00863,15,3,38,01/01/2026,Banca por internet,Pendiente,201.00
+864,O00864,116,4,26,2026-06-27,Cajero automático,Completado,400.00
+865,O00865,200,2,40,2026-05-08,Agente corresponsal,Cancelado,240.00
+866,O00866,195,5,33,2026-04-17,Ventanilla,Pendiente,110.94
+867,O00867,161,3,40,2026-01-26,Banca móvil,Pendiente,60.00
+868,O00868,124,6,23,11/03/2026,Banca por internet,Completado,2404.14
+869,O00869,96,4,35,2026-05-11,Cajero automático,Completado,50.32
+870,O00870,163,2,27,2026-04-27,Agente corresponsal,Completado,691.63
+871,O00871,35,1,20,2026-01-12,Ventanilla,Completado,1415.22
+872,O00872,69,3,33,2026-04-23,Banca móvil,Completado,729.00
+873,O00873,2,5,21,2026-02-16,Banca por internet,Completado,1362.76
+874,O00874,6,6,31,2026-02-08,Cajero automático,Completado,1044.98
+875,O00875,165,5,28,2026-06-25,Agente corresponsal,Completado,325.00
+876,O00876,80,3,16,2026-01-06,Ventanilla,Completado,496.74
+877,O00877,190,5,22,2026-02-20,Banca móvil,Observado,369.00
+878,O00878,153,2,36,2026-04-09,Banca por internet,Completado,84.36
+879,O00879,164,1,9,2026-01-17,Cajero automático,Pendiente,335.47
+880,O00880,140,3,28,2026-02-06,Agente corresponsal,Pendiente,2691.75
+881,O00881,102,4,4,2026-01-15,Ventanilla,Completado,360.00
+882,O00882,157,5,23,2026-06-28,Banca móvil,Pendiente,303.00
+883,O00883,199,3,23,2026-05-11,Banca por internet,Cancelado,15.00
+884,O00884,157,3,2,2026-05-21,Cajero automático,Observado,507.74
+885,O00885,125,4,2,2026-01-05,Agente corresponsal,Completado,144.00
+886,O00886,56,6,28,2026-04-17,Ventanilla,Pendiente,138.00
+887,O00887,163,2,37,2026-06-03,Banca móvil,Completado,64.00
+888,O00888,58,1,16,2026-02-07,Banca por internet,Pendiente,9.00
+889,O00889,173,6,38,2026-02-17,Cajero automático,Completado,5743.74
+890,O00890,178,1,31,2026-02-20,Agente corresponsal,Completado,744.00
+891,O00891,149,1,1,2026-03-12,Ventanilla,Pendiente,157.50
+892,O00892,83,4,23,2026-06-01,Banca móvil,Pendiente,576.72
+893,O00893,63,2,37,2026-02-06,Banca por internet,Completado,3909.00
+894,O00894,74,1,17,10/06/2026,Cajero automático,Completado,3011.48
+895,O00895,83,2,5,2026-01-05,Agente corresponsal,Completado,617.75
+896,O00896,18,1,31,2026-01-18,Ventanilla,Completado,360.00
+897,O00897,188,2,22,07/05/2026,Banca móvil,Cancelado,351.00
+898,O00898,41,3,24,2026-01-01,Banca por internet,Cancelado,1212.72
+899,O00899,5,1,16,2026-01-26,Cajero automático,Completado,0.00
+900,O00900,87,2,17,2026-02-16,Agente corresponsal,Completado,348.80
+901,O00901,114,2,2,2026-02-12,Ventanilla,Completado,526.57
+902,O00902,169,6,33,2026-01-07,Banca móvil,Pendiente,52.44
+903,O00903,49,2,38,2026-04-07,Banca por internet,Completado,396.00
+904,O00904,171,2,25,2026-03-19,Cajero automático,Pendiente,1131.48
+905,O00905,23,1,34,2026-06-21,Agente corresponsal,Completado,84.80
+906,O00906,1,4,14,2026-06-02,Ventanilla,Completado,265.00
+907,O00907,74,1,38,2026-04-13,Banca móvil,Completado,3526.80
+908,O00908,54,1,21,2026-04-02,Banca por internet,Completado,75.00
+909,O00909,67,3,9,2026-04-22,Cajero automático,Completado,3456.29
+910,O00910,171,6,5,2026-04-17,Agente corresponsal,Completado,38.00
+911,O00911,118,3,4,2026-02-22,Ventanilla,Cancelado,33.00
+912,O00912,192,3,22,2026-03-14,Banca móvil,Completado,3381.78
+913,O00913,25,2,27,2026-04-05,Banca por internet,Completado,72.00
+914,O00914,134,1,1,2026-02-07,Cajero automático,Cancelado,2507.39
+915,O00915,31,4,15,2026-05-23,Agente corresponsal,Completado,50.00
+916,O00916,15,5,38,2026-01-08,Ventanilla,Pendiente,291.00
+917,O00917,158,3,16,2026-01-23,Banca móvil,Completado,56.24
+918,O00918,72,3,2,2026-06-17,Banca por internet,Completado,1447.76
+919,O00919,123,2,31,2026-05-07,Cajero automático,Pendiente,504.51
+920,O00920,57,3,27,2026-06-02,Agente corresponsal,Completado,5746.44
+921,O00921,144,5,20,2026-01-04,Ventanilla,Completado,296.00
+922,O00922,161,1,36,2026-01-15,Banca móvil,Completado,873.00
+923,O00923,107,6,3,2026-05-01,Banca por internet,Completado,613.87
+924,O00924,83,4,37,2026-06-06,Cajero automático,Completado,6033.02
+925,O00925,22,1,6,2026-03-06,Agente corresponsal,Pendiente,140.00
+926,O00926,60,2,40,2026-03-23,Ventanilla,Completado,12.16
+927,O00927,184,6,29,2026-02-09,Banca móvil,Cancelado,20.00
+928,O00928,32,4,22,2026-05-03,Banca por internet,Pendiente,404.04
+929,O00929,90,5,9,2026-02-05,Cajero automático,Completado,390.00
+930,O00930,186,4,18,2026-05-16,Agente corresponsal,Pendiente,1959.01
+931,O00931,148,3,39,2026-06-16,Ventanilla,Cancelado,325.00
+932,O00932,134,6,19,2026-06-09,Banca móvil,Completado,235.87
+933,O00933,63,6,39,2026-04-23,Banca por internet,Cancelado,2686.41
+934,O00934,106,3,1,2026-03-28,Cajero automático,Completado,860.49
+935,O00935,74,3,19,2026-03-03,Agente corresponsal,Completado,3667.26
+936,O00936,122,3,5,2026-01-10,Ventanilla,Pendiente,4116.00
+937,O00937,139,5,7,2026-05-15,Banca móvil,Completado,888.00
+938,O00938,159,5,6,2026-03-24,Banca por internet,Completado,260.00
+939,O00939,110,5,8,21/06/2026,Cajero automático,Completado,338.00
+940,O00940,3,3,9,2026-06-07,Agente corresponsal,Completado,103.47
+941,O00941,100,3,18,2026-06-22,Ventanilla,Pendiente,307.87
+942,O00942,91,5,4,2026-04-02,Banca móvil,Completado,108.00
+943,O00943,41,2,16,2026-01-28,Banca por internet,Pendiente,1577.76
+944,O00944,74,5,,2026-05-17,Cajero automático,Cancelado,1856.22
+945,O00945,196,3,24,2026-06-01,Agente corresponsal,Completado,10.00
+946,O00946,197,6,11,2026-01-20,Ventanilla,Completado,100.00
+947,O00947,93,3,39,2026-05-03,Banca móvil,Pendiente,90.00
+948,O00948,44,1,37,2026-03-24,Banca por internet,Completado,1653.45
+949,O00949,152,5,4,2026-05-15,Cajero automático,Pendiente,1453.44
+950,O00950,157,1,20,2026-04-06,Agente corresponsal,Completado,46.61
+951,O00951,195,1,30,2026-05-13,Ventanilla,Pendiente,0.00
+952,O00952,186,6,22,2026-03-21,Banca móvil,Completado,233.75
+953,O00953,9481,1,21,2026-02-23,Banca por internet,Completado,3881.78
+954,O00954,136,3,4,2026-02-21,Cajero automático,Completado,4044.00
+955,O00955,35,3,11,2026-02-16,Agente corresponsal,Completado,111.36
+956,O00956,8,3,36,2026-04-27,Ventanilla,Pendiente,192.76
+957,O00957,174,6,35,2026-04-06,Banca móvil,Cancelado,281.87
+958,O00958,50,1,22,2026-04-19,Banca por internet,Completado,720.00
+959,O00959,168,4,5,2026-06-18,Cajero automático,Completado,128.25
+960,O00960,72,5,33,2026-06-09,Agente corresponsal,Completado,740.00
+961,O00961,33,6,4,2026-06-05,Ventanilla,Completado,72.00
+962,O00962,22,4,16,2026-03-03,Banca móvil,Completado,108.00
+963,O00963,74,1,35,2026-04-19,Banca por internet,Completado,2533.27
+964,O00964,82,2,21,2026-05-09,Cajero automático,Completado,193.24
+965,O00965,121,1,18,2026-04-13,Agente corresponsal,Completado,720.00
+966,O00966,11,1,8,2026-01-18,Ventanilla,Completado,586.69
+967,O00967,180,1,25,2026-02-14,Banca móvil,Cancelado,1428.88
+968,O00968,96,4,7,2026-06-26,Banca por internet,Completado,576.00
+969,O00969,138,5,37,2026-06-22,Cajero automático,Pendiente,388.96
+970,O00970,122,1,,2026-06-23,Agente corresponsal,Completado,648.00
+971,O00971,144,1,8,2026-03-28,Ventanilla,Completado,65.00
+972,O00972,12,5,10,05/02/2026,Banca móvil,Completado,300.00
+973,O00973,141,1,15,2026-02-25,Banca por internet,Pendiente,4077.14
+974,O00974,48,5,37,2026-02-06,Cajero automático,Completado,270.00
+975,O00975,133,4,9,2026-01-26,Agente corresponsal,Pendiente,430.69
+976,O00976,9920,1,24,2026-06-11,Ventanilla,Cancelado,100.00
+977,O00977,9276,4,15,2026-05-05,Banca móvil,Completado,769.50
+978,O00978,96,5,16,2026-03-19,Banca por internet,Pendiente,540.00
+979,O00979,114,3,1,2026-02-21,Cajero automático,Completado,110.94
+980,O00980,93,6,1,2026-04-10,Agente corresponsal,Completado,886.20
+981,O00981,102,3,10,2026-04-03,Ventanilla,Cancelado,296.60
+982,O00982,72,3,15,2026-05-17,Banca móvil,Completado,575.00
+983,O00983,190,6,10,2026-04-03,Banca por internet,Cancelado,72.00
+984,O00984,146,3,19,14/05/2026,Cajero automático,Cancelado,36.00
+985,O00985,183,2,37,2026-02-17,Agente corresponsal,Cancelado,2128.14
+986,O00986,8,6,25,18/06/2026,Ventanilla,Completado,90.00
+987,O00987,42,2,9,2026-06-14,Banca móvil,Pendiente,648.00
+988,O00988,191,3,27,2026-02-23,Banca por internet,Completado,1984.14
+989,O00989,62,4,34,2026-03-18,Cajero automático,Completado,1322.76
+990,O00990,18,4,16,2026-01-03,Agente corresponsal,Completado,336.48
+991,O00991,91,1,5,2026-05-24,Ventanilla,Pendiente,1581.35
+992,O00992,168,5,35,2026-04-05,Banca móvil,Pendiente,2475.00
+993,O00993,91,6,14,2026-05-10,Banca por internet,Pendiente,2477.58
+994,O00994,33,5,12,2026-02-02,Cajero automático,Completado,4249.83
+995,O00995,177,5,21,2026-02-08,Agente corresponsal,Pendiente,1950.00
+996,O00996,127,3,13,2026-02-12,Ventanilla,Completado,925.50
+997,O00997,180,1,28,2026-06-27,Banca móvil,Observado,198.96
+998,O00998,180,5,31,2026-02-08,Banca por internet,Observado,1286.92
+999,O00999,89,1,28,2026-06-09,Cajero automático,Pendiente,156.24
+1000,O01000,15,4,19,2026-03-18,Agente corresponsal,Completado,1877.87
+1001,O01001,69,1,9,2026-03-14,Ventanilla,Pendiente,4575.45
+1002,O01002,137,3,7,2026-06-07,Banca móvil,Pendiente,5630.85
+1003,O01003,138,5,8,2026-03-21,Banca por internet,Completado,492.3
+1004,O01004,180,1,28,2026-06-27,Cajero automático,Observado,4019.78
+1005,O01005,109,3,23,2026-01-05,Agente corresponsal,Completado,3851.85
+1006,O01006,12,1,29,2026-01-23,Ventanilla,Completado,675.85
+1007,O01007,138,5,37,2026-06-22,Banca móvil,Pendiente,1574.16
+1008,O01008,102,4,4,2026-01-15,Banca por internet,Completado,507.52
+1009,O01009,60,2,21,2026-03-06,Cajero automático,Cancelado,3476.68
+1010,O01010,18,3,38,2026-04-15,Agente corresponsal,Completado,4801.1

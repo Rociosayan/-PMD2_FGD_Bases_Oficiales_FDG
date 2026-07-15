@@ -1,96 +1,156 @@
-﻿id_incidencia,codigo_incidencia,id_operacion,tipo_incidencia,severidad,fecha_reporte,estado_incidencia
-1,I00001,363,Reprogramaci?n,Media,2026-01-30,Cerrada
-2,I00002,410,Dato inconsistente,Baja,2026-06-22,En revisi?n
-3,I00003,254,Dato inconsistente,Baja,2026-03-12,En revisi?n
-4,I00004,348,Falla de registro,Media,2026-02-04,Cerrada
-5,I00005,191,Dato inconsistente,Alta,2026-06-06,Cerrada
-6,I00006,27,Reclamo,Baja,2026-03-16,En revisi?n
-7,I00007,283,Reclamo,Media,2026-03-04,Abierta
-8,I00008,144,Reclamo,Media,2026-06-09,Abierta
-9,I00009,235,Falla de registro,Media,2026-05-27,Cerrada
-10,I00010,159,Reprogramaci?n,Media,2026-03-23,En revisi?n
-11,I00011,194,Dato inconsistente,Baja,2026-06-12,Cerrada
-12,I00012,287,Dato inconsistente,Baja,2026-05-20,En revisi?n
-13,I00013,219,Dato inconsistente,Alta,2026-06-13,Abierta
-14,I00014,146,Demora,Alta,2026-03-17,En revisi?n
-15,I00015,52,Demora,Baja,2026-03-14,En revisi?n
-16,I00016,89,Reprogramaci?n,Media,2026-01-30,Cerrada
-17,I00017,320,Falla de registro,Media,2026-05-24,En revisi?n
-18,I00018,374,Reprogramaci?n,Baja,2026-04-21,Cerrada
-19,I00019,383,Reclamo,Baja,2026-03-20,Cerrada
-20,I00020,355,Falla de registro,Baja,2026-01-12,Cerrada
-21,I00021,2,Demora,Media,2026-04-18,Abierta
-22,I00022,82,Dato inconsistente,Alta,2026-01-27,Cerrada
-23,I00023,147,Reclamo,Media,2026-05-29,Cerrada
-24,I00024,54,Dato inconsistente,Media,2026-06-10,En revisi?n
-25,I00025,231,Reclamo,Baja,2026-06-01,Abierta
-26,I00026,223,Demora,Media,2026-03-20,Abierta
-27,I00027,44,Dato inconsistente,Baja,2026-05-02,Abierta
-28,I00028,404,Reprogramaci?n,Media,2026-03-08,En revisi?n
-29,I00029,203,Dato inconsistente,Media,2026-06-04,En revisi?n
-30,I00030,436,Reclamo,Baja,2026-05-21,Abierta
-31,I00031,490,Reprogramaci?n,Alta,2026-06-04,Abierta
-32,I00032,56,Dato inconsistente,Baja,2026-03-18,En revisi?n
-33,I00033,420,Dato inconsistente,Media,2026-06-20,Cerrada
-34,I00034,388,Falla de registro,Alta,2026-04-25,Cerrada
-35,I00035,493,Falla de registro,Media,2026-03-10,Cerrada
-36,I00036,247,Demora,Baja,2026-06-30,Abierta
-37,I00037,209,Reprogramaci?n,Media,2026-05-26,Cerrada
-38,I00038,178,Reclamo,Alta,2026-03-26,En revisi?n
-39,I00039,68,Demora,Media,2026-06-21,Abierta
-40,I00040,234,Falla de registro,Media,2026-01-15,Abierta
-41,I00041,173,Reprogramaci?n,Baja,2026-06-30,Cerrada
-42,I00042,171,Reprogramaci?n,Alta,2026-05-26,Cerrada
-43,I00043,419,Reprogramaci?n,Media,2026-02-23,En revisi?n
-44,I00044,162,Falla de registro,Baja,2026-04-24,Abierta
-45,I00045,101,Falla de registro,Media,2026-02-22,Abierta
-46,I00046,92,Demora,Alta,2026-03-28,Cerrada
-47,I00047,302,Falla de registro,Baja,2026-05-30,Cerrada
-48,I00048,51,Dato inconsistente,Alta,2026-03-06,En revisi?n
-49,I00049,85,Reclamo,Alta,2026-03-29,Cerrada
-50,I00050,431,Demora,Media,2026-04-06,Cerrada
-51,I00051,437,Dato inconsistente,Baja,2026-02-23,Cerrada
-52,I00052,1,Reprogramaci?n,Media,2026-03-01,Abierta
-53,I00053,304,Dato inconsistente,Baja,2026-05-25,Abierta
-54,I00054,325,Dato inconsistente,Alta,2026-02-12,En revisi?n
-55,I00055,228,Reprogramaci?n,Media,2026-01-14,En revisi?n
-56,I00056,311,Falla de registro,Alta,2026-01-27,En revisi?n
-57,I00057,478,Dato inconsistente,Alta,2026-03-27,Abierta
-58,I00058,161,Demora,Alta,2026-06-08,En revisi?n
-59,I00059,206,Demora,Baja,2026-05-20,Abierta
-60,I00060,496,Reclamo,Baja,2026-04-05,Abierta
-61,I00061,344,Reprogramaci?n,Baja,2026-06-17,Abierta
-62,I00062,462,Demora,Baja,2026-02-13,Abierta
-63,I00063,330,Demora,Baja,2026-06-11,En revisi?n
-64,I00064,366,Reprogramaci?n,Media,2026-05-28,Cerrada
-65,I00065,491,Reprogramaci?n,Alta,2026-03-04,Cerrada
-66,I00066,222,Dato inconsistente,Media,2026-02-24,Abierta
-67,I00067,220,Falla de registro,Alta,2026-06-22,Abierta
-68,I00068,78,Dato inconsistente,Alta,2026-03-05,Cerrada
-69,I00069,425,Demora,Alta,2026-02-09,Abierta
-70,I00070,421,Falla de registro,Media,2026-01-06,En revisi?n
-71,I00071,107,Dato inconsistente,Baja,2026-06-01,Cerrada
-72,I00072,300,Dato inconsistente,Alta,2026-02-27,Abierta
-73,I00073,192,Falla de registro,Media,2026-04-16,Cerrada
-74,I00074,16,Demora,Baja,2026-04-23,Cerrada
-75,I00075,102,Falla de registro,Media,2026-02-04,En revisi?n
-76,I00076,26,Demora,Baja,2026-04-04,Abierta
-77,I00077,174,Demora,Media,2026-04-08,En revisi?n
-78,I00078,375,Dato inconsistente,Baja,2026-02-07,Abierta
-79,I00079,498,Demora,Media,2026-03-29,Abierta
-80,I00080,342,Falla de registro,Baja,2026-02-26,Cerrada
-81,I00081,200,Dato inconsistente,Alta,2026-06-25,En revisi?n
-82,I00082,60,Falla de registro,Alta,2026-04-26,Abierta
-83,I00083,294,Demora,Baja,2026-01-13,En revisi?n
-84,I00084,168,Dato inconsistente,Media,2026-05-27,En revisi?n
-85,I00085,492,Demora,Baja,2026-05-01,Cerrada
-86,I00086,411,Dato inconsistente,Media,2026-04-22,En revisi?n
-87,I00087,221,Falla de registro,Baja,2026-01-21,Abierta
-88,I00088,324,Demora,Baja,2026-01-08,Abierta
-89,I00089,151,Reprogramaci?n,Alta,2026-01-17,En revisi?n
-90,I00090,169,Demora,Baja,2026-06-08,En revisi?n
-91,I00091,232,Reclamo,Baja,2026-05-05,Cerrada
-92,I00092,377,Reclamo,Media,2026-06-01,En revisi?n
-93,I00093,109,Dato inconsistente,Baja,2026-03-31,Abierta
-94,I00094,99,Dato inconsistente,Baja,2026-06-25,Cerrada
-95,I00095,143,Dato inconsistente,Baja,2026-06-07,Abierta
+id_incidencia,codigo_incidencia,id_operacion,tipo_incidencia,severidad,fecha_reporte,estado_incidencia
+1,I00001,17,Producto faltante,Alta,2026-02-24,En revisión
+2,I00002,20,Receta observada,Alta,2026-02-24,Cerrada
+3,I00003,23,Lote próximo a vencer,Baja,2026-02-23,En revisión
+4,I00004,27,Error de dispensación,Baja,2026-04-17,En revisión
+5,I00005,30,Demora en delivery,Media,2026-06-20,Cerrada
+6,I00006,37,Producto faltante,Media,2026-03-10,Cerrada
+7,I00007,42,Receta observada,Baja,2026-02-26,Cerrada
+8,I00008,45,Lote próximo a vencer,Media,2026-05-09,Cerrada
+9,I00009,49,Error de dispensación,Baja,2026-04-01,Cerrada
+10,I00010,50,Demora en delivery,Media,2026-05-25,Cerrada
+11,I00011,74,Producto faltante,Alta,2026-03-28,Abierta
+12,I00012,80,Receta observada,Alta,2026-05-26,En revisión
+13,I00013,85,Lote próximo a vencer,Baja,2026-06-22,Abierta
+14,I00014,89,Error de dispensación,Baja,2026-04-10,En revisión
+15,I00015,94,Demora en delivery,Media,2026-04-28,Abierta
+16,I00016,102,Producto faltante,Alta,2026-03-11,Cerrada
+17,I00017,116,Receta observada,Alta,2026-06-07,Cerrada
+18,I00018,146,Lote próximo a vencer,Alta,2026-06-14,Cerrada
+19,I00019,149,Error de dispensación,Media,2026-02-15,En revisión
+20,I00020,160,Demora en delivery,Media,2026-03-14,Abierta
+21,I00021,179,Producto faltante,Baja,2026-03-05,Cerrada
+22,I00022,183,Receta observada,Baja,2026-04-28,Cerrada
+23,I00023,184,Lote próximo a vencer,Media,2026-03-13,Cerrada
+24,I00024,187,Error de dispensación,Media,2026-05-05,En revisión
+25,I00025,190,Demora en delivery,Baja,2026-02-02,Abierta
+26,I00026,196,Producto faltante,Media,2026-03-14,En revisión
+27,I00027,198,Receta observada,Baja,2026-04-13,Abierta
+28,I00028,201,Lote próximo a vencer,Baja,2026-05-05,Abierta
+29,I00029,205,Error de dispensación,Baja,2026-04-21,Abierta
+30,I00030,208,Demora en delivery,Baja,2026-06-08,Abierta
+31,I00031,210,Producto faltante,Baja,2026-02-25,Abierta
+32,I00032,213,Receta observada,Alta,2026-05-18,Abierta
+33,I00033,218,Lote próximo a vencer,Alta,2026-03-01,Cerrada
+34,I00034,219,Error de dispensación,Baja,2026-04-04,En revisión
+35,I00035,225,Demora en delivery,Media,2026-03-11,Abierta
+36,I00036,227,Producto faltante,Alta,2026-06-02,Cerrada
+37,I00037,236,Receta observada,Media,2026-02-24,Cerrada
+38,I00038,237,Lote próximo a vencer,Alta,2026-02-18,Abierta
+39,I00039,238,Error de dispensación,Baja,2026-06-11,Cerrada
+40,I00040,243,Demora en delivery,Baja,2026-02-10,Cerrada
+41,I00041,254,Producto faltante,Baja,2026-05-06,En revisión
+42,I00042,256,Receta observada,Media,2026-05-28,Abierta
+43,I00043,262,Lote próximo a vencer,Alta,2026-05-06,Cerrada
+44,I00044,263,Error de dispensación,Media,2026-04-22,En revisión
+45,I00045,266,Demora en delivery,Baja,2026-03-15,Cerrada
+46,I00046,269,Producto faltante,Baja,2026-04-28,Abierta
+47,I00047,272,Receta observada,Baja,2026-04-19,En revisión
+48,I00048,277,Lote próximo a vencer,Media,2026-05-21,Cerrada
+49,I00049,283,Error de dispensación,Alta,2026-06-20,Abierta
+50,I00050,285,Demora en delivery,Media,2026-03-28,Cerrada
+51,I00051,292,Producto faltante,Alta,2026-05-26,Cerrada
+52,I00052,305,Receta observada,Baja,2026-02-20,Abierta
+53,I00053,318,Lote próximo a vencer,Alta,2026-02-17,Abierta
+54,I00054,333,Error de dispensación,Alta,2026-04-21,Cerrada
+55,I00055,343,Demora en delivery,Media,2026-04-05,Abierta
+56,I00056,347,Producto faltante,Alta,2026-05-03,En revisión
+57,I00057,353,Receta observada,Media,2026-04-17,Cerrada
+58,I00058,361,Lote próximo a vencer,Baja,2026-02-28,En revisión
+59,I00059,378,Error de dispensación,Media,2026-03-08,En revisión
+60,I00060,388,Demora en delivery,Alta,2026-02-26,Cerrada
+61,I00061,391,Producto faltante,Media,2026-06-05,Abierta
+62,I00062,397,Receta observada,Baja,2026-04-16,Cerrada
+63,I00063,398,Lote próximo a vencer,Baja,2026-06-18,Abierta
+64,I00064,420,Error de dispensación,Baja,2026-05-02,Abierta
+65,I00065,426,Demora en delivery,Alta,2026-06-09,Abierta
+66,I00066,434,Producto faltante,Baja,2026-03-10,En revisión
+67,I00067,441,Receta observada,Baja,2026-04-15,Cerrada
+68,I00068,446,Lote próximo a vencer,Alta,2026-06-01,Cerrada
+69,I00069,447,Error de dispensación,Media,2026-05-24,En revisión
+70,I00070,455,Demora en delivery,Baja,2026-06-14,Abierta
+71,I00071,457,Producto faltante,Baja,2026-06-12,Cerrada
+72,I00072,470,Receta observada,Baja,2026-04-03,Abierta
+73,I00073,503,Lote próximo a vencer,Media,2026-06-17,Abierta
+74,I00074,524,Error de dispensación,Alta,2026-06-07,Abierta
+75,I00075,528,Demora en delivery,Media,2026-03-09,Abierta
+76,I00076,534,Producto faltante,Alta,2026-02-12,Cerrada
+77,I00077,537,Receta observada,Alta,2026-06-16,En revisión
+78,I00078,542,Lote próximo a vencer,Media,2026-04-25,Abierta
+79,I00079,549,Error de dispensación,Media,2026-04-13,En revisión
+80,I00080,559,Demora en delivery,Alta,2026-02-28,En revisión
+81,I00081,562,Producto faltante,Alta,2026-03-13,Abierta
+82,I00082,569,Receta observada,Alta,2026-05-03,En revisión
+83,I00083,572,Lote próximo a vencer,Baja,2026-05-05,Abierta
+84,I00084,575,Error de dispensación,Alta,2026-04-10,En revisión
+85,I00085,588,Demora en delivery,Alta,2026-05-04,Cerrada
+86,I00086,590,Producto faltante,Alta,2026-03-23,Abierta
+87,I00087,593,Receta observada,Baja,2026-04-08,Abierta
+88,I00088,595,Lote próximo a vencer,Media,2026-04-08,Abierta
+89,I00089,601,Error de dispensación,Media,2026-03-13,Abierta
+90,I00090,602,Demora en delivery,Baja,2026-06-03,Cerrada
+91,I00091,604,Producto faltante,Baja,2026-06-17,Cerrada
+92,I00092,620,Receta observada,Baja,2026-05-18,Cerrada
+93,I00093,633,Lote próximo a vencer,Media,2026-03-28,En revisión
+94,I00094,647,Error de dispensación,Baja,2026-05-16,En revisión
+95,I00095,660,Demora en delivery,Baja,2026-04-02,Cerrada
+96,I00096,663,Producto faltante,Media,2026-04-27,Abierta
+97,I00097,684,Receta observada,Media,2026-04-15,Abierta
+98,I00098,687,Lote próximo a vencer,Baja,2026-02-02,Abierta
+99,I00099,693,Error de dispensación,Alta,2026-05-06,En revisión
+100,I00100,712,Demora en delivery,Alta,2026-02-04,En revisión
+101,I00101,721,Producto faltante,Media,2026-03-23,Abierta
+102,I00102,728,Receta observada,Alta,2026-03-08,En revisión
+103,I00103,736,Lote próximo a vencer,Alta,2026-02-27,En revisión
+104,I00104,738,Error de dispensación,Baja,2026-06-20,En revisión
+105,I00105,741,Demora en delivery,Media,2026-03-04,Cerrada
+106,I00106,753,Producto faltante,Baja,2026-02-02,Cerrada
+107,I00107,755,Receta observada,Baja,2026-02-13,Abierta
+108,I00108,756,Lote próximo a vencer,Media,2026-04-25,Cerrada
+109,I00109,765,Error de dispensación,Alta,2026-05-10,Abierta
+110,I00110,766,Demora en delivery,Alta,2026-03-13,Abierta
+111,I00111,769,Producto faltante,Media,2026-04-08,En revisión
+112,I00112,770,Receta observada,Media,2026-03-13,Abierta
+113,I00113,771,Lote próximo a vencer,Alta,2026-03-23,En revisión
+114,I00114,773,Error de dispensación,Media,2026-05-21,Abierta
+115,I00115,778,Demora en delivery,Media,2026-04-08,Cerrada
+116,I00116,792,Producto faltante,Baja,2026-02-25,Abierta
+117,I00117,795,Receta observada,Baja,2026-06-10,Abierta
+118,I00118,796,Lote próximo a vencer,Baja,2026-06-11,Abierta
+119,I00119,803,Error de dispensación,Media,2026-02-19,Cerrada
+120,I00120,811,Demora en delivery,Media,2026-03-21,En revisión
+121,I00121,812,Producto faltante,Baja,2026-05-04,Abierta
+122,I00122,815,Receta observada,Media,2026-02-08,Abierta
+123,I00123,819,Lote próximo a vencer,Baja,2026-03-15,En revisión
+124,I00124,820,Error de dispensación,Media,2026-03-25,Abierta
+125,I00125,832,Demora en delivery,Media,2026-03-24,En revisión
+126,I00126,838,Producto faltante,Media,2026-05-19,Abierta
+127,I00127,841,Receta observada,Media,2026-03-15,En revisión
+128,I00128,849,Lote próximo a vencer,Media,2026-05-22,En revisión
+129,I00129,862,Error de dispensación,Media,2026-03-14,En revisión
+130,I00130,863,Demora en delivery,Media,2026-06-12,Abierta
+131,I00131,865,Producto faltante,Alta,2026-02-01,En revisión
+132,I00132,869,Receta observada,Alta,2026-03-09,Cerrada
+133,I00133,877,Lote próximo a vencer,Alta,2026-02-02,Abierta
+134,I00134,884,Error de dispensación,Alta,2026-05-25,En revisión
+135,I00135,887,Demora en delivery,Baja,2026-03-25,En revisión
+136,I00136,888,Producto faltante,Media,2026-02-21,Abierta
+137,I00137,890,Receta observada,Baja,2026-04-21,Abierta
+138,I00138,899,Lote próximo a vencer,Alta,2026-03-16,Abierta
+139,I00139,912,Error de dispensación,Baja,2026-06-05,Cerrada
+140,I00140,913,Demora en delivery,Media,2026-06-15,En revisión
+141,I00141,915,Producto faltante,Media,2026-05-10,Cerrada
+142,I00142,917,Receta observada,Baja,2026-06-21,Abierta
+143,I00143,918,Lote próximo a vencer,Alta,2026-03-24,Abierta
+144,I00144,928,Error de dispensación,Baja,2026-02-25,En revisión
+145,I00145,939,Demora en delivery,Alta,2026-06-10,En revisión
+146,I00146,942,Producto faltante,Media,2026-02-11,Abierta
+147,I00147,954,Receta observada,Baja,2026-02-08,Cerrada
+148,I00148,960,Lote próximo a vencer,Alta,2026-05-14,Cerrada
+149,I00149,971,Error de dispensación,Baja,2026-05-20,En revisión
+150,I00150,972,Demora en delivery,Alta,2026-04-08,En revisión
+151,I00151,980,Producto faltante,Alta,2026-05-18,Abierta
+152,I00152,985,Receta observada,Media,2026-06-08,Cerrada
+153,I00153,988,Lote próximo a vencer,Alta,2026-03-17,Abierta
+154,I00154,990,Error de dispensación,Baja,2026-04-18,Cerrada
+155,I00155,999,Demora en delivery,Baja,2026-04-03,Cerrada

@@ -1,0 +1,209 @@
+id_cliente,codigo_cliente,tipo_documento,num_documento,nombres,apellidos,correo,telefono,distrito,segmento,fecha_registro,motivo_atencion_mascota
+1,C0001,CE,26370789,Natalia,Ríos Huamán,natalia1@correo.com,999407568,Miraflores,Canino,2026-01-11,Control
+2,C0002,DNI,80994893,Renzo,Romero Cárdenas,renzo2@correo.com,938269860,Independencia,Felino,2026-02-28,Desparasitación
+3,C0003,CE,42268325,Milagros,Quispe Sánchez,milagros3@correo.com,972789001,Ate,Animal exótico,2026-04-17,Control
+4,C0004,DNI,68588070,Carlos,Zevallos Espinoza,carlos4@correo.com,978879594,Breña,Cliente multimasota,2026-05-15,Desparasitación
+5,C0005,DNI,11391010,Sergio,Quispe Castillo,sergio5@correo.com,974802321,San Miguel,Canino,2026-01-07,Vacunación
+6,C0006,CE,10217803,Sofía,Villanueva Cruz,sofía6@correo.com,933892655,San Juan de Lurigancho,Felino,2026-04-16,Desparasitación
+7,C0007,DNI,28995656,Claudia,Ramos Ríos,claudia7@correo.com,,Comas,Animal exótico,2026-01-11,Emergencia
+8,C0008,RUC,32422137,Manuel,Chávez Paredes,manuel8@correo.com,980605646,Chorrillos,Cliente multimasota,2026-02-17,Cirugía menor
+9,C0009,DNI,20926851,Verónica,Chávez Ponce,verónica9@correo.com,921627122,Miraflores,Canino,2026-05-26,Emergencia
+10,C0010,CE,31833153,Iván,Espinoza Rojas,iván10@correo.com,999348777,Breña,Felino,2026-01-03,Vacunación
+11,C0011,RUC,677949,Luis,Zevallos Rivera,,921025820,Miraflores,Animal exótico,2026-02-28,Emergencia
+12,C0012,DNI,39973531,Renzo,Díaz Rivera,renzo12@correo.com,982743253,San Borja,Cliente multimasota,2026-02-08,Emergencia
+13,C0013,DNI,53906541,Natalia,Ríos Ríos,natalia13@correo.com,930249672,San Juan de Lurigancho,Canino,2026-02-27,Desparasitación
+14,C0014,DNI,96633444,Iván,Villanueva Aguirre,iván14@correo.com,990390687,Surco,Felino,2026-04-12,Desparasitación
+15,C0015,DNI,64859714,Luis,Zevallos Espinoza,luis15@correo.com,988042427,Miraflores,Animal exótico,2026-05-27,Emergencia
+16,C0016,DNI,28376059,Claudia,Ninaquispe Flores,,917360354,Chorrillos,Cliente multimasota,2026-01-20,Emergencia
+17,C0017,CE,72018612,Diego,Cárdenas Ninaquispe,diego17@correo.com,955108504,San Miguel,Canino,2026-02-08,Desparasitación
+18,C0018,DNI,55370903,Elena,Castillo Ponce,elena18@correo.com,944053896,Surco,Felino,2026-01-06,Cirugía menor
+19,C0019,DNI,34946511,Patricia,Sánchez Espinoza,,975334635,San Borja,Animal exótico,2026-04-16,Desparasitación
+20,C0020,CE,16681004,Karla,Salazar Aguirre,karla20@correo.com,988529994,Breña,Cliente multimasota,2026-03-16,Desparasitación
+21,C0021,RUC,79950357,Diego,Sánchez Ramos,diego21correo.com,938895160,Chorrillos,Canino,2026-05-15,Desparasitación
+22,C0022,DNI,76578356,Natalia,Ponce Cornejo,natalia22@correo.com,969162266,Independencia,Felino,2026-01-26,Cirugía menor
+23,C0023,DNI,78721217,Melissa,Paredes Ramos,melissa23@correo.com,998607701,Ate,Animal exótico,2026-03-20,Emergencia
+24,C0024,DNI,95352738,Claudia,Chávez Vargas,claudia24@correo.com,955428480,Lince,Cliente multimasota,2026-05-04,Vacunación
+25,C0025,DNI,79534940,Iván,Villanueva Ninaquispe,,940632857,Breña,Canino,2026-03-07,Emergencia
+26,C0026,DNI,67717007,Bruno,Mendoza Cruz,bruno26@correo.com,971438548,Independencia,Felino,2026-01-17,Control
+27,C0027,DNI,53986003,Ricardo,Lévano Bautista,ricardo27@correo.com,989495372,Los Olivos,Animal exótico,2026-03-27,Vacunación
+28,C0028,DNI,69270920,Manuel,Cárdenas Espinoza,manuel28@correo.com,926634533,La Molina,Cliente multimasota,2026-04-05,Cirugía menor
+29,C0029,DNI,362940,Verónica,Paredes Ninaquispe,verónica29@correo.com,915663808,Comas,Canino,2026-01-08,Desparasitación
+30,C0030,DNI,83211430,María,Quispe Torres,maría30@correo.com,940133419,San Juan de Lurigancho,Felino,2026-04-13,Cirugía menor
+31,C0031,DNI,76762573,Sofía,Espinoza Flores,sofía31@correo.com,991683771,San Juan de Lurigancho,Animal exótico,2026-05-21,Desparasitación
+32,C0032,DNI,59588849,Pedro,Cruz Bautista,pedro32@correo.com,936202109,La Molina,Cliente multimasota,2026-04-03,Cirugía menor
+33,C0033,CE,56503209,Raúl,Rivera Espinoza,raúl33@correo.com,946627140,Chorrillos,Canino,2026-03-28,Emergencia
+34,C0034,DNI,73192036,Óscar,Ponce Salazar,óscar34@correo.com,,Lince,Felino,2026-03-26,Control
+35,C0035,DNI,26786091,Álvaro,Ponce Ríos,álvaro35correo.com,930226726,Comas,Animal exótico,2026-02-05,Control
+36,C0036,RUC,81911535,Patricia,Palomino Zevallos,patricia36correo.com,923737074,Los Olivos,Cliente multimasota,2026-04-07,Cirugía menor
+37,C0037,RUC,61415195,Óscar,Ninaquispe Flores,óscar37@correo.com,997593840,Los Olivos,Canino,2026-05-17,Vacunación
+38,C0038,DNI,70325748,Elena,Romero Vargas,elena38@correo.com,987701261,Villa El Salvador,Felino,2026-04-01,Cirugía menor
+39,C0039,CE,37313797,Miguel,Espinoza Gutiérrez,miguel39@correo.com,948515447,Rímac,Animal exótico,2026-01-08,Desparasitación
+40,C0040,DNI,22740558,Manuel,Quispe Díaz,manuel40@correo.com,975650101,La Molina,Cliente multimasota,2026-05-20,Cirugía menor
+41,C0041,DNI,49152276,Gabriela,Palomino Cárdenas,gabriela41@correo.com,935036416,Ate,Canino,2026-04-05,Cirugía menor
+42,C0042,CE,11680795,Fernando,Ríos Gutiérrez,fernando42@correo.com,927052937,Miraflores,Felino,2026-05-07,Control
+43,C0043,DNI,51649866,Miguel,Villanueva Rivera,miguel43@correo.com,986678494,La Molina,Animal exótico,2026-05-25,Cirugía menor
+44,C0044,RUC,71009611,Manuel,Aguirre Ninaquispe,,925757704,Surco,Cliente multimasota,2026-01-16,Control
+45,C0045,DNI,37999804,Diego,Lévano Quispe,diego45@correo.com,990614431,San Juan de Lurigancho,Canino,2026-02-01,Desparasitación
+46,C0046,DNI,99400590,María,Cornejo Bautista,maría46@correo.com,931548370,Miraflores,Felino,2026-04-10,Emergencia
+47,C0047,DNI,50015835,Daniela,Romero Díaz,daniela47@correo.com,990953327,Chorrillos,Animal exótico,2026-05-08,Vacunación
+48,C0048,DNI,83946140,Ana,Romero Ramos,,986373083,Surco,Cliente multimasota,2026-03-10,Desparasitación
+49,C0049,CE,905493,Carlos,Cárdenas Chávez,carlos49@correo.com,921668192,Miraflores,Canino,2026-05-23,Control
+50,C0050,RUC,874548,Patricia,Palomino Palomino,,988921781,San Miguel,Felino,2026-01-19,Vacunación
+51,C0051,DNI,69342985,Daniela,Zevallos Sánchez,daniela51@correo.com,996771247,Lince,Animal exótico,2026-03-25,Desparasitación
+52,C0052,DNI,80875834,Isabel,Cornejo Lévano,isabel52@correo.com,,Lince,Cliente multimasota,2026-01-24,Vacunación
+53,C0053,DNI,52776013,María,Ninaquispe Díaz,maría53@correo.com,952359213,Rímac,Canino,2026-05-10,Cirugía menor
+54,C0054,DNI,90908078,José,Castillo Huamán,josé54@correo.com,937332880,Ate,Felino,2026-04-10,Cirugía menor
+55,C0055,RUC,22426456,Isabel,Sánchez Bautista,isabel55@correo.com,955304290,Surco,Animal exótico,2026-01-28,Desparasitación
+56,C0056,RUC,49417640,Daniela,Vargas Chávez,daniela56@correo.com,916546968,Chorrillos,Cliente multimasota,2026-04-26,Vacunación
+57,C0057,DNI,48087128,Renzo,Gutiérrez Rivera,renzo57@correo.com,910489991,Surco,Canino,2026-03-04,Control
+58,C0058,DNI,529698,Patricia,Zevallos Castillo,patricia58@correo.com,960230675,Lince,Felino,2026-02-17,Vacunación
+59,C0059,DNI,24657767,Pedro,Zevallos Zevallos,pedro59@correo.com,984430599,Callao,Animal exótico,2026-04-04,Control
+60,C0060,DNI,17251920,Miguel,Quispe Chávez,miguel60@correo.com,958868155,Los Olivos,Cliente multimasota,2026-03-05,Cirugía menor
+61,C0061,DNI,63396315,Elena,Ninaquispe Zevallos,elena61@correo.com,971863073,San Borja,Canino,2026-03-20,Cirugía menor
+62,C0062,RUC,87146769,Ana,Rojas Huamán,ana62@correo.com,910252316,Villa El Salvador,Felino,2026-03-18,Vacunación
+63,C0063,DNI,49754884,Verónica,Díaz Torres,verónica63@correo.com,996802786,Miraflores,Animal exótico,2026-04-06,Vacunación
+64,C0064,DNI,97538314,Paola,Aguirre Sánchez,paola64@correo.com,,Chorrillos,Cliente multimasota,2026-02-20,Emergencia
+65,C0065,DNI,92570912,Karla,Cruz Chávez,karla65@correo.com,918334819,Villa El Salvador,Canino,2026-05-07,Cirugía menor
+66,C0066,DNI,46929370,Elena,Torres Rivera,elena66@correo.com,957519605,Comas,Felino,2026-01-11,Emergencia
+67,C0067,RUC,506672,Álvaro,Espinoza Palomino,álvaro67@correo.com,,Ate,Animal exótico,2026-04-16,Desparasitación
+68,C0068,DNI,20207893,Paola,Ponce Gutiérrez,paola68@correo.com,,Ate,Cliente multimasota,2026-04-25,Cirugía menor
+69,C0069,DNI,95300765,Elena,Ponce Cornejo,elena69@correo.com,958196874,La Molina,Canino,2026-03-21,Vacunación
+70,C0070,CE,73430707,Melissa,Ríos Sánchez,melissa70@correo.com,965439462,Rímac,Felino,2026-04-01,Vacunación
+71,C0071,DNI,91361854,Bruno,Aguirre Ponce,bruno71@correo.com,,San Juan de Lurigancho,Animal exótico,2026-03-27,Cirugía menor
+72,C0072,DNI,28444789,Ana,Cruz Cárdenas,ana72@correo.com,992738163,Breña,Cliente multimasota,2026-01-12,Control
+73,C0073,DNI,17966452,Jorge,Villanueva Lévano,jorge73@correo.com,992444125,Breña,Canino,2026-01-27,Control
+74,C0074,CE,36978298,Iván,Cárdenas Cárdenas,iván74@correo.com,950263328,Comas,Felino,2026-02-10,Desparasitación
+75,C0075,RUC,95534901,Fernando,Flores Torres,fernando75@correo.com,,Independencia,Animal exótico,2026-04-17,Vacunación
+76,C0076,CE,48682623,Miguel,Paredes Lévano,miguel76@correo.com,927840292,,Cliente multimasota,2026-01-12,Desparasitación
+77,C0077,DNI,72512511,Paola,Salazar Rojas,paola77@correo.com,933831627,Lince,Canino,2026-05-25,Desparasitación
+78,C0078,DNI,17595684,Elena,Cárdenas Rivera,elena78correo.com,981991535,Surco,Felino,2026-05-24,Cirugía menor
+79,C0079,DNI,21212515,Carlos,Mendoza Aguirre,carlos79@correo.com,,San Borja,Animal exótico,2026-04-05,Desparasitación
+80,C0080,DNI,13170527,Sergio,Rojas Castillo,sergio80correo.com,927459931,Lince,Cliente multimasota,2026-05-21,Desparasitación
+81,C0081,DNI,92212910,Rosa,Castillo Paredes,rosa81@correo.com,983489869,Miraflores,Canino,2026-02-25,Vacunación
+82,C0082,DNI,91941145,Claudia,Lévano Paredes,claudia82@correo.com,,Comas,Felino,2026-03-04,Emergencia
+83,C0083,DNI,19662205,Álvaro,Palomino Cárdenas,álvaro83@correo.com,990263904,,Animal exótico,2026-03-23,Emergencia
+84,C0084,DNI,15626553,Jorge,Rojas Paredes,jorge84@correo.com,950779868,Ate,Cliente multimasota,2026-05-26,Vacunación
+85,C0085,DNI,79952729,Óscar,Huamán Rojas,,993542304,La Molina,Canino,2026-04-13,Desparasitación
+86,C0086,DNI,39834586,Melissa,Chávez Rivera,melissa86@correo.com,951499585,Miraflores,Felino,2026-01-14,Cirugía menor
+87,C0087,DNI,59677852,José,Cornejo Rivera,josé87@correo.com,914270506,San Juan de Lurigancho,Animal exótico,2026-01-16,Emergencia
+88,C0088,RUC,32957605,José,Aguirre Palomino,josé88@correo.com,980731592,Lince,Cliente multimasota,2026-02-25,Desparasitación
+89,C0089,DNI,91576269,Óscar,Chávez Mendoza,óscar89@correo.com,933682461,Rímac,Canino,2026-04-16,Desparasitación
+90,C0090,DNI,18145011,Patricia,Ninaquispe Villanueva,patricia90@correo.com,921108419,San Juan de Lurigancho,Felino,2026-04-22,Vacunación
+91,C0091,RUC,223953,Ricardo,Ríos Quispe,,992087017,Villa El Salvador,Animal exótico,2026-01-26,Cirugía menor
+92,C0092,CE,78204360,José,Gutiérrez Vargas,josé92@correo.com,997415685,Callao,Cliente multimasota,2026-04-02,Cirugía menor
+93,C0093,DNI,51254704,Miguel,Lévano Zevallos,miguel93@correo.com,984622444,San Miguel,Canino,2026-04-13,Desparasitación
+94,C0094,CE,57944617,Carlos,Paredes Vargas,carlos94correo.com,998582323,Chorrillos,Felino,2026-05-06,Emergencia
+95,C0095,DNI,78093571,Natalia,Cruz Romero,natalia95@correo.com,911453582,Rímac,Animal exótico,2026-04-17,Emergencia
+96,C0096,DNI,56279234,Sofía,Sánchez Salazar,sofía96@correo.com,,,Cliente multimasota,2026-01-15,Cirugía menor
+97,C0097,CE,27878645,Gabriela,Rivera Bautista,gabriela97@correo.com,986066787,Chorrillos,Canino,2026-05-12,Control
+98,C0098,DNI,79273985,Raúl,Sánchez Aguirre,raúl98@correo.com,910218839,,Felino,2026-01-11,Control
+99,C0099,DNI,87805780,Sergio,Díaz Zevallos,sergio99@correo.com,913314189,San Borja,Animal exótico,2026-05-03,Emergencia
+100,C0100,DNI,31679124,Renzo,Torres Villanueva,renzo100@correo.com,965113440,Miraflores,Cliente multimasota,2026-02-07,Desparasitación
+101,C0101,DNI,37165754,Elena,Gutiérrez Cruz,elena101@correo.com,986943609,,Canino,2026-02-20,Emergencia
+102,C0102,RUC,17261069,Luis,Castillo Villanueva,luis102@correo.com,911328079,San Borja,Felino,2026-05-05,Control
+103,C0103,RUC,66957792,Luis,Rivera Salazar,luis103@correo.com,925462963,,Animal exótico,2026-04-06,Cirugía menor
+104,C0104,DNI,14531063,Pedro,Quispe Rojas,pedro104@correo.com,928138420,Rímac,Cliente multimasota,2026-02-22,Emergencia
+105,C0105,CE,18539069,José,Zevallos Lévano,josé105@correo.com,945053767,Independencia,Canino,2026-02-27,Emergencia
+106,C0106,DNI,64631851,Lucía,Salazar Gutiérrez,lucía106@correo.com,931017391,Villa El Salvador,Felino,2026-02-11,Vacunación
+107,C0107,CE,71780003,Natalia,Ríos Zevallos,natalia107@correo.com,980896661,Miraflores,Animal exótico,2026-04-09,Emergencia
+108,C0108,DNI,23184976,Fernando,Vargas Vargas,fernando108@correo.com,931013202,San Juan de Lurigancho,Cliente multimasota,2026-03-24,Emergencia
+109,C0109,RUC,64512191,Manuel,Rojas Chávez,manuel109@correo.com,923088147,Surco,Canino,2026-02-15,Emergencia
+110,C0110,DNI,63354433,Lucía,Castillo Ramos,lucía110@correo.com,915535668,Comas,Felino,2026-01-20,Emergencia
+111,C0111,RUC,71147980,Fernando,Romero Ríos,fernando111@correo.com,993057416,Breña,Animal exótico,2026-04-23,Desparasitación
+112,C0112,DNI,60622043,Julia,Espinoza Díaz,julia112correo.com,931724744,Surco,Cliente multimasota,2026-03-08,Control
+113,C0113,DNI,80370716,Hugo,Espinoza Vargas,hugo113@correo.com,979949950,Miraflores,Canino,2026-04-03,Control
+114,C0114,DNI,88709499,Paola,Aguirre Romero,paola114@correo.com,972249281,Independencia,Felino,2026-03-22,Cirugía menor
+115,C0115,DNI,76839117,Andrés,Cruz Romero,andrés115@correo.com,978713726,San Juan de Lurigancho,Animal exótico,2026-04-11,Desparasitación
+116,C0116,CE,79121958,Natalia,Ponce Castillo,natalia116@correo.com,943597339,Breña,Cliente multimasota,2026-05-14,Emergencia
+117,C0117,DNI,41220680,Julia,Sánchez Huamán,julia117@correo.com,939362046,Los Olivos,Canino,2026-02-03,Desparasitación
+118,C0118,DNI,24251140,Julia,Chávez Romero,julia118@correo.com,956870424,San Miguel,Felino,2026-03-18,Control
+119,C0119,DNI,41735351,Hugo,Flores Chávez,hugo119correo.com,,Chorrillos,Animal exótico,2026-02-05,Desparasitación
+120,C0120,DNI,77303287,Luis,Espinoza Romero,luis120@correo.com,976600475,Breña,Cliente multimasota,2026-04-20,Vacunación
+121,C0121,DNI,64720039,Elena,Zevallos Zevallos,elena121@correo.com,986815412,San Borja,Canino,2026-01-24,Control
+122,C0122,DNI,63429976,Verónica,Cruz Rojas,verónica122@correo.com,970477990,Chorrillos,Felino,2026-02-27,Desparasitación
+123,C0123,CE,34112008,Rosa,Cruz Salazar,rosa123@correo.com,915932185,Rímac,Animal exótico,2026-03-03,Vacunación
+124,C0124,RUC,68881950,Andrés,Ríos Mendoza,andrés124@correo.com,955656943,Surco,Cliente multimasota,2026-01-22,Vacunación
+125,C0125,DNI,95268973,Fernando,Chávez Cornejo,fernando125@correo.com,924594934,Independencia,Canino,2026-05-06,Desparasitación
+126,C0126,CE,85601462,María,Vargas Mendoza,maría126@correo.com,913764830,,Felino,2026-04-24,Desparasitación
+127,C0127,CE,73820542,Ana,Rivera Chávez,ana127@correo.com,920662282,Callao,Animal exótico,2026-02-15,Desparasitación
+128,C0128,DNI,88290470,Claudia,Chávez Ninaquispe,,948833285,Callao,Cliente multimasota,2026-01-27,Desparasitación
+129,C0129,DNI,66371658,Lucía,Ramos Lévano,lucía129@correo.com,919603938,San Miguel,Canino,2026-04-05,Desparasitación
+130,C0130,DNI,41443121,Daniela,Chávez Ríos,daniela130@correo.com,997600303,Chorrillos,Felino,2026-01-07,Desparasitación
+131,C0131,CE,81020027,Elena,Cornejo Paredes,elena131@correo.com,925065285,Villa El Salvador,Animal exótico,2026-02-14,Emergencia
+132,C0132,DNI,319958,Claudia,Romero Espinoza,claudia132@correo.com,996166270,Los Olivos,Cliente multimasota,2026-01-16,Emergencia
+133,C0133,DNI,90892262,José,Cárdenas Cruz,josé133@correo.com,948846527,Callao,Canino,2026-01-07,Desparasitación
+134,C0134,RUC,34694752,Iván,Rojas Huamán,iván134@correo.com,947073846,La Molina,Felino,2026-03-08,Cirugía menor
+135,C0135,DNI,53424562,Milagros,Díaz Rojas,milagros135@correo.com,930912231,San Juan de Lurigancho,Animal exótico,2026-02-02,Control
+136,C0136,DNI,57925058,Raúl,Lévano Aguirre,raúl136@correo.com,930572219,La Molina,Cliente multimasota,2026-04-06,Cirugía menor
+137,C0137,DNI,30303230,Pedro,Gutiérrez Mendoza,pedro137@correo.com,950828652,Chorrillos,Canino,2026-04-20,Vacunación
+138,C0138,DNI,40753882,Sergio,Rivera Ríos,sergio138@correo.com,940443833,Los Olivos,Felino,2026-05-03,Control
+139,C0139,RUC,952780,Karla,Mendoza Rojas,karla139@correo.com,978116780,San Miguel,Animal exótico,2026-04-04,Vacunación
+140,C0140,DNI,54948937,Pamela,Espinoza Gutiérrez,,970110312,San Borja,Cliente multimasota,2026-04-15,Cirugía menor
+141,C0141,RUC,65410489,Patricia,Huamán Espinoza,patricia141correo.com,955620391,Comas,Canino,2026-02-03,Cirugía menor
+142,C0142,DNI,96242637,Karla,Villanueva Cornejo,karla142@correo.com,991832031,Surco,Felino,2026-04-05,Control
+143,C0143,DNI,68164639,Ana,Mendoza Cornejo,ana143@correo.com,945431192,San Juan de Lurigancho,Animal exótico,2026-02-03,Control
+144,C0144,DNI,11845053,Isabel,Huamán Mendoza,isabel144@correo.com,986450578,Surco,Cliente multimasota,2026-02-13,Control
+145,C0145,CE,82931524,Óscar,Espinoza Zevallos,óscar145@correo.com,972634683,Rímac,Canino,2026-04-14,Control
+146,C0146,DNI,70498478,Claudia,Espinoza Paredes,claudia146@correo.com,955324910,San Miguel,Felino,2026-05-27,Vacunación
+147,C0147,DNI,82565999,Raúl,Ramos Lévano,raúl147@correo.com,943198178,San Miguel,Animal exótico,2026-03-22,Cirugía menor
+148,C0148,CE,14274400,Jorge,Cárdenas Mendoza,jorge148@correo.com,995680748,Chorrillos,Cliente multimasota,2026-03-04,Control
+149,C0149,DNI,66366455,Pedro,Torres Mendoza,pedro149@correo.com,,Chorrillos,Canino,2026-04-12,Control
+150,C0150,DNI,64546404,Ricardo,Espinoza Ponce,ricardo150@correo.com,980840858,San Borja,Felino,2026-02-12,Emergencia
+151,C0151,RUC,50523281,Renzo,Díaz Espinoza,renzo151@correo.com,945049643,La Molina,Animal exótico,2026-05-27,Desparasitación
+152,C0152,CE,72759701,Julia,Zevallos Cornejo,julia152@correo.com,940161350,Callao,Cliente multimasota,2026-05-20,Vacunación
+153,C0153,RUC,84959266,Paola,Mendoza Chávez,paola153@correo.com,968941251,San Borja,Canino,2026-03-20,Control
+154,C0154,DNI,16020953,Karla,Villanueva Vargas,karla154correo.com,945716531,San Miguel,Felino,2026-05-16,Emergencia
+155,C0155,RUC,27555179,Ricardo,Ríos Rojas,ricardo155@correo.com,989541083,San Miguel,Animal exótico,2026-05-11,Control
+156,C0156,DNI,29289024,Claudia,Lévano Huamán,claudia156@correo.com,910701036,Villa El Salvador,Cliente multimasota,2026-03-20,Emergencia
+157,C0157,RUC,41540073,Isabel,Salazar Rivera,isabel157@correo.com,946244763,Independencia,Canino,2026-01-19,Control
+158,C0158,CE,56543189,Luis,Lévano Díaz,luis158@correo.com,943786357,Los Olivos,Felino,2026-03-07,Emergencia
+159,C0159,DNI,62190119,Álvaro,Mendoza Aguirre,álvaro159@correo.com,987331142,Comas,Animal exótico,2026-04-02,Desparasitación
+160,C0160,DNI,57241741,Patricia,Quispe Ramos,patricia160@correo.com,984314559,Independencia,Cliente multimasota,2026-02-10,Cirugía menor
+161,C0161,DNI,64933948,Iván,Aguirre Rivera,iván161@correo.com,989571660,San Borja,Canino,2026-01-28,Vacunación
+162,C0162,DNI,37377092,Raúl,Chávez Villanueva,,916246912,Rímac,Felino,2026-04-26,Vacunación
+163,C0163,DNI,76668709,Iván,Salazar Ponce,iván163@correo.com,941374008,,Animal exótico,2026-01-02,Desparasitación
+164,C0164,DNI,44508793,Ricardo,Rivera Díaz,ricardo164correo.com,,Surco,Cliente multimasota,2026-02-20,Vacunación
+165,C0165,CE,81514920,Pamela,Ríos Salazar,pamela165@correo.com,951215086,Callao,Canino,2026-05-28,Emergencia
+166,C0166,CE,64067558,Milagros,Salazar Cornejo,milagros166@correo.com,982972138,Rímac,Felino,2026-05-18,Vacunación
+167,C0167,DNI,50921762,Isabel,Gutiérrez Rojas,isabel167@correo.com,962890143,San Juan de Lurigancho,Animal exótico,2026-02-25,Desparasitación
+168,C0168,DNI,71949646,Paola,Cruz Flores,paola168@correo.com,982272881,Breña,Cliente multimasota,2026-02-08,Vacunación
+169,C0169,DNI,52317662,Verónica,Cornejo Gutiérrez,verónica169@correo.com,937648703,Villa El Salvador,Canino,2026-05-06,Emergencia
+170,C0170,DNI,81714202,Pamela,Vargas Cruz,pamela170@correo.com,969130642,Ate,Felino,2026-04-11,Control
+171,C0171,DNI,25380851,Gabriela,Díaz Ríos,gabriela171@correo.com,981922292,Villa El Salvador,Animal exótico,2026-03-23,Vacunación
+172,C0172,DNI,44638906,Patricia,Vargas Cárdenas,patricia172@correo.com,999345618,,Cliente multimasota,2026-02-21,Emergencia
+173,C0173,DNI,48022867,Manuel,Cruz Ninaquispe,manuel173@correo.com,922879782,Surco,Canino,2026-01-22,Desparasitación
+174,C0174,RUC,66374829,Rosa,Palomino Espinoza,rosa174@correo.com,924637874,Independencia,Felino,2026-02-06,Cirugía menor
+175,C0175,DNI,97461100,Patricia,Cruz Palomino,patricia175@correo.com,953498553,Breña,Animal exótico,2026-04-22,Desparasitación
+176,C0176,DNI,56617153,Paola,Castillo Cruz,paola176@correo.com,954504265,Los Olivos,Cliente multimasota,2026-01-04,Desparasitación
+177,C0177,DNI,27419224,Verónica,Díaz Salazar,verónica177@correo.com,959142930,Callao,Canino,2026-05-27,Cirugía menor
+178,C0178,RUC,90473781,Rosa,Cárdenas Ponce,rosa178@correo.com,961814509,Breña,Felino,2026-03-03,Emergencia
+179,C0179,DNI,20893739,Miguel,Ríos Ríos,miguel179@correo.com,912534250,Miraflores,Animal exótico,2026-01-23,Vacunación
+180,C0180,RUC,73903244,Óscar,Villanueva Aguirre,óscar180@correo.com,929964112,Miraflores,Cliente multimasota,2026-02-27,Vacunación
+181,C0181,DNI,18178009,Carlos,Huamán Sánchez,carlos181@correo.com,994809597,Villa El Salvador,Canino,2026-01-26,Desparasitación
+182,C0182,DNI,48281151,Ricardo,Lévano Rojas,ricardo182@correo.com,970128995,Los Olivos,Felino,2026-04-08,Vacunación
+183,C0183,DNI,94430112,Carlos,Salazar Mendoza,,980221766,Surco,Animal exótico,2026-02-02,Desparasitación
+184,C0184,DNI,59289663,Víctor,Zevallos Cruz,víctor184@correo.com,987368948,Breña,Cliente multimasota,2026-01-10,Emergencia
+185,C0185,DNI,91460783,Isabel,Cárdenas Cruz,isabel185@correo.com,921931937,Rímac,Canino,2026-04-16,Desparasitación
+186,C0186,DNI,95533848,Renzo,Castillo Villanueva,renzo186correo.com,936450743,Comas,Felino,2026-05-14,Cirugía menor
+187,C0187,DNI,10073639,Sofía,Romero Rojas,sofía187@correo.com,971335801,Miraflores,Animal exótico,2026-02-13,Desparasitación
+188,C0188,DNI,50615432,Hugo,Lévano Ninaquispe,hugo188@correo.com,926287132,Chorrillos,Cliente multimasota,2026-04-08,Control
+189,C0189,DNI,61489283,Melissa,Espinoza Rivera,melissa189@correo.com,997964635,Chorrillos,Canino,2026-03-18,Control
+190,C0190,CE,76404463,Andrés,Bautista Ninaquispe,andrés190@correo.com,951615957,La Molina,Felino,2026-02-17,Vacunación
+191,C0191,CE,33126618,Miguel,Lévano Cárdenas,miguel191@correo.com,925085256,Surco,Animal exótico,2026-02-10,Vacunación
+192,C0192,RUC,14777604,Ana,Ponce Ponce,ana192@correo.com,939958175,Lince,Cliente multimasota,2026-05-05,Vacunación
+193,C0193,DNI,52634601,Sofía,Mendoza Flores,sofía193@correo.com,,San Borja,Canino,2026-03-06,Cirugía menor
+194,C0194,DNI,49391198,Miguel,Mendoza Díaz,miguel194@correo.com,971814503,Surco,Felino,2026-01-09,Vacunación
+195,C0195,DNI,46938916,Karla,Ríos Vargas,,,Villa El Salvador,Animal exótico,2026-04-11,Control
+196,C0196,DNI,64269691,Karla,Torres Mendoza,karla196@correo.com,929650349,Los Olivos,Cliente multimasota,2026-03-20,Control
+197,C0197,CE,92699313,Karla,Gutiérrez Ponce,karla197@correo.com,930583459,San Miguel,Canino,2026-04-06,Control
+198,C0198,DNI,23348764,Jorge,Cárdenas Cárdenas,jorge198@correo.com,944015019,Lince,Felino,2026-04-27,Emergencia
+199,C0199,DNI,727360,Milagros,Cruz Cárdenas,milagros199@correo.com,930859210,San Miguel,Animal exótico,2026-04-05,Emergencia
+200,C0200,DNI,63234221,Karla,Salazar Quispe,karla200@correo.com,931023090,Miraflores,Cliente multimasota,2026-03-25,Vacunación
+201,C0201,DNI,63354433,Lucía,Castillo Ramos,lucía110@correo.com,915535668,Comas,Canino,2026-01-20,Emergencia
+202,C0202,CE,92699313,Karla,Gutiérrez Ponce,karla197@correo.com,930583459,San Miguel,Felino,2026-04-06,Control
+203,C0203,DNI,64859714,Luis,Zevallos Espinoza,luis15@correo.com,988042427,Miraflores,Animal exótico,2026-05-27,Emergencia
+204,C0204,DNI,39973531,Renzo,Díaz Rivera,renzo12@correo.com,982743253,San Borja,Cliente multimasota,2026-02-08,Emergencia
+205,C0205,DNI,68588070,Carlos,Zevallos Espinoza,carlos4@correo.com,978879594,Breña,Canino,2026-05-15,Desparasitación
+206,C0206,DNI,28995656,Claudia,Ramos Ríos,claudia7@correo.com,,Comas,Felino,2026-01-11,Emergencia
+207,C0207,DNI,17595684,Elena,Cárdenas Rivera,elena78@correo.com,981991535,Surco,Animal exótico,2026-05-24,Cirugía menor
+208,C0208,RUC,27555179,Ricardo,Ríos Rojas,ricardo155@correo.com,989541083,San Miguel,Cliente multimasota,2026-05-11,Control

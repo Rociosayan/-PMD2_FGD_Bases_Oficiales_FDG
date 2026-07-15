@@ -1,16 +1,31 @@
-﻿id_producto,codigo_producto,nombre_producto,categoria,precio_base,activo
-1,P0001,Servicio/Producto 01,Especializado,371.52,1
-2,P0002,Servicio/Producto 02,Premium,277.45,1
-3,P0003,Servicio/Producto 03,Est?ndar,234.23,1
-4,P0004,Servicio/Producto 04,Premium,109.57,1
-5,P0005,Servicio/Producto 05,Especializado,347.11,1
-6,P0006,Servicio/Producto 06,Est?ndar,345.42,1
-7,P0007,Servicio/Producto 07,Especializado,78.29,1
-8,P0008,Servicio/Producto 08,Premium,94.81,1
-9,P0009,Servicio/Producto 09,Especializado,59.88,1
-10,P0010,Servicio/Producto 10,Especializado,163.8,1
-11,P0011,Servicio/Producto 11,Especializado,86.04,1
-12,P0012,Servicio/Producto 12,Est?ndar,357.62,1
-13,P0013,Servicio/Producto 13,Especializado,268.61,1
-14,P0014,Servicio/Producto 14,Premium,314.31,1
-15,P0015,Servicio/Producto 15,Especializado,365.12,1
+id_producto,codigo_producto,nombre_producto,categoria,precio_base,activo
+1,A30001,Fundamentos de Programación,Pregrado,420.00,1
+2,A30002,Base de Datos I,Pregrado,492.00,1
+3,A30003,Cálculo Aplicado,Pregrado,564.00,1
+4,A30004,Comunicación Profesional,Pregrado,636.00,1
+5,A30005,Gestión de Proyectos,Pregrado,708.00,1
+6,A30006,Diseño de Experiencia de Usuario,Pregrado,780.00,1
+7,A30007,Analítica de Datos para Negocios,Posgrado,780.00,1
+8,A30008,Dirección Estratégica,Posgrado,914.00,1
+9,A30009,Ciberseguridad Empresarial,Posgrado,1048.00,1
+10,A30010,Gestión Pública Digital,Posgrado,1182.00,1
+11,A30011,Finanzas Corporativas,Posgrado,1316.00,1
+12,A30012,Docencia Universitaria,Posgrado,1450.00,1
+13,A30013,Excel para Análisis de Datos,Certificación,180.00,1
+14,A30014,Power BI Aplicado,Certificación,268.00,0
+15,A30015,Scrum Master Profesional,Certificación,356.00,1
+16,A30016,Python para Ciencia de Datos,Certificación,444.00,1
+17,A30017,Marketing Digital,Certificación,532.00,1
+18,A30018,Cloud Computing Essentials,Certificación,620.00,1
+19,A30019,Inglés Básico A1,Idiomas,160.00,1
+20,A30020,Inglés Intermedio B1,Idiomas,212.00,1
+21,A30021,Inglés Avanzado C1,Idiomas,264.00,1
+22,A30022,Portugués Básico,Idiomas,316.00,1
+23,A30023,Quechua Comunicativo,Idiomas,368.00,1
+24,A30024,Preparación TOEFL,Idiomas,420.00,1
+25,A30025,Taller de Empleabilidad,Taller,90.00,1
+26,A30026,Taller de Investigación Académica,Taller,140.00,1
+27,A30027,Laboratorio de Innovación,Taller,190.00,1
+28,A30028,Taller de Presentaciones Efectivas,Taller,240.00,1
+29,A30029,Taller de Emprendimiento,Taller,290.00,1
+30,A30030,Taller de Redacción Científica,Taller,340.00,0

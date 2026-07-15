@@ -1,0 +1,209 @@
+id_cliente,codigo_cliente,tipo_documento,num_documento,nombres,apellidos,correo,telefono,distrito,segmento,fecha_registro,pais_destino
+1,C0001,RUC,76171395,Milagros,Aguirre Cárdenas,milagros1@correo.com,931105562,Breña,Importador,2026-01-12,Países Bajos
+2,C0002,DNI,89288015,Hugo,Flores Quispe,hugo2@correo.com,974689307,Comas,Distribuidor,2026-02-07,China
+3,C0003,RUC,31361412,Hugo,Ríos Rivera,hugo3@correo.com,926609292,San Miguel,Supermercado,2026-05-20,Chile
+4,C0004,DNI,37368986,Verónica,Rivera Ninaquispe,verónica4@correo.com,999184681,Breña,Industria alimentaria,2026-03-11,Países Bajos
+5,C0005,DNI,36402687,Miguel,Chávez Mendoza,miguel5correo.com,977016442,Villa El Salvador,Importador,2026-05-21,Alemania
+6,C0006,CE,67385475,Lucía,Villanueva Aguirre,lucía6@correo.com,993680150,San Juan de Lurigancho,Distribuidor,2026-05-10,Países Bajos
+7,C0007,RUC,21223765,Carlos,Cornejo Espinoza,carlos7@correo.com,984864059,Surco,Supermercado,2026-04-08,Canadá
+8,C0008,RUC,53714579,Bruno,Ramos Díaz,bruno8@correo.com,991174591,Los Olivos,Industria alimentaria,2026-02-24,China
+9,C0009,CE,61353471,Óscar,Díaz Zevallos,óscar9@correo.com,925196048,Independencia,Importador,2026-03-07,Países Bajos
+10,C0010,DNI,13563331,Miguel,Paredes Ponce,miguel10@correo.com,948016840,Callao,Distribuidor,2026-04-20,Canadá
+11,C0011,DNI,46337987,Víctor,Lévano Palomino,víctor11@correo.com,915011670,Chorrillos,Supermercado,2026-03-27,Chile
+12,C0012,DNI,39908181,Julia,Bautista Quispe,julia12@correo.com,941546789,Chorrillos,Industria alimentaria,2026-04-15,EE.UU.
+13,C0013,CE,33702945,Víctor,Ríos Zevallos,víctor13correo.com,969127290,Ate,Importador,2026-02-06,China
+14,C0014,CE,15879283,Bruno,Vargas Ninaquispe,bruno14@correo.com,954579180,Independencia,Distribuidor,2026-05-18,Alemania
+15,C0015,RUC,45201631,Verónica,Rivera Bautista,verónica15@correo.com,927242630,San Miguel,Supermercado,2026-04-12,Países Bajos
+16,C0016,DNI,66618522,María,Cruz Ponce,maría16@correo.com,995002039,,Industria alimentaria,2026-03-23,Países Bajos
+17,C0017,DNI,74766444,Renzo,Castillo Espinoza,renzo17@correo.com,954781395,Villa El Salvador,Importador,2026-01-05,Canadá
+18,C0018,DNI,64353797,Elena,Gutiérrez Chávez,elena18@correo.com,988952001,Comas,Distribuidor,2026-03-22,China
+19,C0019,DNI,15747182,Óscar,Sánchez Gutiérrez,óscar19@correo.com,995288234,,Supermercado,2026-05-21,Países Bajos
+20,C0020,CE,66707526,Isabel,Huamán Rivera,isabel20@correo.com,,Comas,Industria alimentaria,2026-02-24,Países Bajos
+21,C0021,DNI,63350126,Miguel,Ponce Cruz,miguel21@correo.com,966922077,Callao,Importador,2026-01-05,Alemania
+22,C0022,DNI,484571,Óscar,Ríos Ramos,óscar22@correo.com,935626069,San Miguel,Distribuidor,2026-01-05,EE.UU.
+23,C0023,RUC,15501050,Julia,Cornejo Huamán,julia23correo.com,963733398,Los Olivos,Supermercado,2026-03-05,Alemania
+24,C0024,DNI,197858,Luis,Cárdenas Mendoza,,945210354,Comas,Industria alimentaria,2026-01-01,Alemania
+25,C0025,DNI,27670587,Ricardo,Rivera Sánchez,ricardo25@correo.com,977276931,Rímac,Importador,2026-03-03,Chile
+26,C0026,DNI,45936796,Manuel,Torres Vargas,manuel26@correo.com,938937517,San Juan de Lurigancho,Distribuidor,2026-03-02,Chile
+27,C0027,DNI,92656891,Raúl,Quispe Rivera,raúl27correo.com,934577709,,Supermercado,2026-02-19,China
+28,C0028,CE,13811279,Claudia,Torres Ninaquispe,claudia28@correo.com,994541588,Lince,Industria alimentaria,2026-05-19,Países Bajos
+29,C0029,DNI,58043536,Andrés,Ramos Salazar,andrés29@correo.com,993223159,Independencia,Importador,2026-05-04,Países Bajos
+30,C0030,DNI,56116603,Manuel,Espinoza Zevallos,manuel30@correo.com,968729610,Breña,Distribuidor,2026-04-07,Países Bajos
+31,C0031,RUC,29340137,Víctor,Cornejo Cornejo,víctor31@correo.com,990165039,Callao,Supermercado,2026-04-28,Canadá
+32,C0032,DNI,66940004,Karla,Gutiérrez Huamán,karla32@correo.com,931577059,Miraflores,Industria alimentaria,2026-02-25,Canadá
+33,C0033,RUC,71885949,Melissa,Rivera Torres,melissa33@correo.com,939412340,,Importador,2026-05-04,EE.UU.
+34,C0034,CE,17679495,Karla,Palomino Paredes,karla34@correo.com,,Villa El Salvador,Distribuidor,2026-02-06,Chile
+35,C0035,DNI,24100157,Carmen,Castillo Gutiérrez,carmen35@correo.com,936662972,Breña,Supermercado,2026-02-02,EE.UU.
+36,C0036,RUC,28274693,Verónica,Bautista Vargas,verónica36@correo.com,984439499,Comas,Industria alimentaria,2026-03-05,Alemania
+37,C0037,DNI,33708485,Rosa,Lévano Gutiérrez,rosa37@correo.com,,Los Olivos,Importador,2026-04-26,Alemania
+38,C0038,RUC,12544722,Milagros,Ríos Díaz,milagros38@correo.com,975598492,Miraflores,Distribuidor,2026-03-06,Alemania
+39,C0039,DNI,18559144,Pedro,Gutiérrez Torres,pedro39@correo.com,994592307,Comas,Supermercado,2026-04-02,Alemania
+40,C0040,RUC,96722058,José,Ramos Lévano,josé40@correo.com,917353452,San Juan de Lurigancho,Industria alimentaria,2026-05-23,Chile
+41,C0041,DNI,52108619,Jorge,Zevallos Zevallos,jorge41@correo.com,989988124,Rímac,Importador,2026-01-26,Países Bajos
+42,C0042,DNI,12660122,Rosa,Ramos Aguirre,rosa42@correo.com,976779042,Chorrillos,Distribuidor,2026-03-19,Alemania
+43,C0043,DNI,53466994,Andrés,Cruz Chávez,andrés43@correo.com,918035735,Rímac,Supermercado,2026-01-18,Chile
+44,C0044,RUC,30648099,Elena,Rojas Sánchez,elena44@correo.com,959322750,Surco,Industria alimentaria,2026-01-14,Países Bajos
+45,C0045,DNI,35823253,Melissa,Espinoza Rivera,melissa45@correo.com,985932130,Villa El Salvador,Importador,2026-05-20,China
+46,C0046,DNI,45859417,Patricia,Romero Mendoza,patricia46@correo.com,955685173,Callao,Distribuidor,2026-03-02,Canadá
+47,C0047,CE,38735844,Isabel,Vargas Paredes,isabel47@correo.com,947053998,Rímac,Supermercado,2026-04-19,Alemania
+48,C0048,RUC,737202,Ricardo,Cruz Zevallos,ricardo48@correo.com,,San Juan de Lurigancho,Industria alimentaria,2026-01-16,EE.UU.
+49,C0049,DNI,21318862,Daniela,Villanueva Espinoza,daniela49@correo.com,979870137,San Borja,Importador,2026-01-24,China
+50,C0050,DNI,52134157,Sofía,Flores Espinoza,sofía50@correo.com,943557062,Ate,Distribuidor,2026-05-19,EE.UU.
+51,C0051,DNI,64308768,Carmen,Ponce Sánchez,carmen51@correo.com,994219250,San Juan de Lurigancho,Supermercado,2026-03-04,Alemania
+52,C0052,CE,50728110,Andrés,Villanueva Zevallos,andrés52@correo.com,966189667,,Industria alimentaria,2026-04-06,Países Bajos
+53,C0053,DNI,91568565,Claudia,Cárdenas Cornejo,claudia53@correo.com,915886644,San Juan de Lurigancho,Importador,2026-05-01,EE.UU.
+54,C0054,DNI,78990939,Diego,Paredes Romero,diego54@correo.com,995599533,Miraflores,Distribuidor,2026-04-05,Chile
+55,C0055,CE,11090874,Ana,Mendoza Romero,ana55@correo.com,954432508,Miraflores,Supermercado,2026-03-01,Países Bajos
+56,C0056,RUC,94434079,Verónica,Cruz Díaz,verónica56@correo.com,973983419,Los Olivos,Industria alimentaria,2026-01-18,Países Bajos
+57,C0057,CE,60009608,Jorge,Cruz Quispe,jorge57@correo.com,962488073,La Molina,Importador,2026-04-26,Chile
+58,C0058,DNI,90694977,Manuel,Palomino Rojas,,930342819,Independencia,Distribuidor,2026-04-19,EE.UU.
+59,C0059,RUC,23890056,José,Ramos Cárdenas,josé59@correo.com,954582500,Los Olivos,Supermercado,2026-02-16,Chile
+60,C0060,CE,67146524,Sofía,Gutiérrez Aguirre,,955072792,Surco,Industria alimentaria,2026-04-08,China
+61,C0061,DNI,80188362,Natalia,Sánchez Cruz,natalia61correo.com,932112819,Independencia,Importador,2026-04-22,China
+62,C0062,DNI,406621,Milagros,Aguirre Flores,milagros62@correo.com,957500108,Lince,Distribuidor,2026-01-06,Chile
+63,C0063,CE,66568873,José,Espinoza Ramos,josé63@correo.com,956824018,Los Olivos,Supermercado,2026-01-02,China
+64,C0064,DNI,17603442,Álvaro,Cárdenas Castillo,álvaro64@correo.com,997900789,Surco,Industria alimentaria,2026-01-15,Alemania
+65,C0065,DNI,56511657,Natalia,Sánchez Aguirre,natalia65@correo.com,976945645,Lince,Importador,2026-03-23,China
+66,C0066,DNI,49167831,Paola,Torres Villanueva,paola66@correo.com,923030289,San Borja,Distribuidor,2026-03-13,Canadá
+67,C0067,RUC,40477374,Julia,Mendoza Ninaquispe,julia67@correo.com,970730321,Rímac,Supermercado,2026-03-20,Alemania
+68,C0068,CE,44196506,Raúl,Palomino Salazar,raúl68@correo.com,930846262,,Industria alimentaria,2026-02-26,EE.UU.
+69,C0069,DNI,51946600,Bruno,Flores Lévano,,963789575,Lince,Importador,2026-01-24,EE.UU.
+70,C0070,CE,45993951,Sofía,Mendoza Paredes,sofía70@correo.com,930849773,La Molina,Distribuidor,2026-02-03,Canadá
+71,C0071,DNI,68202126,Sofía,Ríos Mendoza,sofía71@correo.com,,Breña,Supermercado,2026-04-17,Países Bajos
+72,C0072,DNI,72024643,Renzo,Ríos Díaz,renzo72@correo.com,989461461,Ate,Industria alimentaria,2026-05-26,EE.UU.
+73,C0073,CE,95066672,Lucía,Zevallos Palomino,lucía73@correo.com,974064446,Breña,Importador,2026-01-16,Canadá
+74,C0074,DNI,41562962,Miguel,Huamán Aguirre,miguel74@correo.com,,Breña,Distribuidor,2026-01-12,Chile
+75,C0075,DNI,76439133,Julia,Vargas Espinoza,julia75@correo.com,957593139,Lince,Supermercado,2026-01-26,Chile
+76,C0076,DNI,29970940,Óscar,Lévano Díaz,óscar76@correo.com,991120994,San Miguel,Industria alimentaria,2026-02-23,China
+77,C0077,DNI,91136415,Diego,Romero Ramos,diego77@correo.com,985686600,San Miguel,Importador,2026-04-19,Países Bajos
+78,C0078,CE,69004589,Milagros,Cruz Villanueva,,922569606,Surco,Distribuidor,2026-01-02,Canadá
+79,C0079,DNI,12663315,Hugo,Romero Romero,,950263154,Los Olivos,Supermercado,2026-05-22,Alemania
+80,C0080,DNI,15039442,Luis,Vargas Ramos,luis80@correo.com,938511751,Surco,Industria alimentaria,2026-01-21,Canadá
+81,C0081,DNI,39254320,Ricardo,Chávez Palomino,ricardo81@correo.com,998416644,Rímac,Importador,2026-02-10,Chile
+82,C0082,DNI,63323428,Ana,Zevallos Sánchez,ana82@correo.com,988044672,San Juan de Lurigancho,Distribuidor,2026-03-24,Chile
+83,C0083,CE,71251663,Iván,Bautista Cornejo,iván83@correo.com,918720980,Villa El Salvador,Supermercado,2026-03-12,Alemania
+84,C0084,RUC,84291636,Isabel,Díaz Torres,isabel84@correo.com,921164192,Miraflores,Industria alimentaria,2026-01-06,Países Bajos
+85,C0085,DNI,94821873,Diego,Castillo Bautista,diego85@correo.com,921810728,San Miguel,Importador,2026-05-24,Alemania
+86,C0086,DNI,31830334,José,Aguirre Cornejo,josé86@correo.com,942887688,Miraflores,Distribuidor,2026-04-17,Chile
+87,C0087,DNI,21896737,Víctor,Ramos Espinoza,víctor87@correo.com,,Callao,Supermercado,2026-02-25,Países Bajos
+88,C0088,DNI,30599875,Julia,Ponce Flores,julia88@correo.com,992259312,Los Olivos,Industria alimentaria,2026-02-05,China
+89,C0089,DNI,59025000,Andrés,Quispe Cruz,,998224931,Miraflores,Importador,2026-03-07,Canadá
+90,C0090,RUC,879382,Melissa,Cornejo Ríos,melissa90@correo.com,971228687,Comas,Distribuidor,2026-05-15,EE.UU.
+91,C0091,DNI,19546165,Rosa,Salazar Huamán,,967087610,Ate,Supermercado,2026-04-25,EE.UU.
+92,C0092,CE,93235976,Sergio,Ríos Flores,,961456021,Independencia,Industria alimentaria,2026-03-15,Canadá
+93,C0093,DNI,30850183,José,Ninaquispe Cárdenas,josé93@correo.com,997627972,Lince,Importador,2026-04-13,Alemania
+94,C0094,DNI,85817081,Julia,Ríos Romero,julia94@correo.com,948685678,Breña,Distribuidor,2026-05-12,China
+95,C0095,RUC,15642960,Iván,Cornejo Chávez,iván95@correo.com,998093180,San Juan de Lurigancho,Supermercado,2026-05-27,Alemania
+96,C0096,CE,98037623,Patricia,Vargas Torres,patricia96@correo.com,953448409,Ate,Industria alimentaria,2026-02-16,Chile
+97,C0097,DNI,45764462,Jorge,Espinoza Castillo,jorge97@correo.com,952955202,Rímac,Importador,2026-01-06,EE.UU.
+98,C0098,DNI,16284023,Gabriela,Torres Ramos,gabriela98@correo.com,976629525,La Molina,Distribuidor,2026-03-10,Países Bajos
+99,C0099,DNI,62196630,María,Romero Cárdenas,maría99@correo.com,912895350,Surco,Supermercado,2026-04-19,Canadá
+100,C0100,CE,30149537,Andrés,Aguirre Bautista,andrés100@correo.com,994219003,Chorrillos,Industria alimentaria,2026-03-01,Canadá
+101,C0101,CE,21182236,Patricia,Huamán Rojas,patricia101@correo.com,984565321,Comas,Importador,2026-02-13,EE.UU.
+102,C0102,CE,57131152,Sofía,Zevallos Torres,sofía102@correo.com,930839964,Chorrillos,Distribuidor,2026-04-13,Chile
+103,C0103,CE,98570877,Carmen,Gutiérrez Bautista,carmen103@correo.com,951397661,Breña,Supermercado,2026-01-08,Alemania
+104,C0104,DNI,40077043,Andrés,Huamán Rivera,andrés104@correo.com,995817397,Miraflores,Industria alimentaria,2026-04-25,EE.UU.
+105,C0105,DNI,10054757,Pamela,Ponce Ponce,pamela105@correo.com,934517816,Surco,Importador,2026-03-07,Canadá
+106,C0106,DNI,31143479,Daniela,Ríos Sánchez,daniela106@correo.com,979728895,Lince,Distribuidor,2026-03-13,Países Bajos
+107,C0107,RUC,98000710,Andrés,Castillo Cornejo,andrés107correo.com,931622203,Comas,Supermercado,2026-03-23,Países Bajos
+108,C0108,DNI,38741367,Carmen,Gutiérrez Gutiérrez,carmen108@correo.com,969196719,Rímac,Industria alimentaria,2026-04-11,Chile
+109,C0109,DNI,93577174,Miguel,Quispe Torres,miguel109@correo.com,948398222,Callao,Importador,2026-05-15,Alemania
+110,C0110,RUC,63839548,Hugo,Mendoza Flores,hugo110@correo.com,919309470,Surco,Distribuidor,2026-04-14,EE.UU.
+111,C0111,RUC,68037066,Fernando,Rivera Romero,fernando111@correo.com,949898540,Los Olivos,Supermercado,2026-02-03,Chile
+112,C0112,RUC,84492005,José,Cornejo Aguirre,josé112@correo.com,978286429,Breña,Industria alimentaria,2026-04-28,China
+113,C0113,DNI,16936578,Raúl,Ponce Villanueva,raúl113@correo.com,997467370,Los Olivos,Importador,2026-03-24,China
+114,C0114,DNI,53398808,Diego,Cruz Villanueva,diego114@correo.com,945137912,Los Olivos,Distribuidor,2026-04-03,Chile
+115,C0115,DNI,76209864,María,Ríos Cruz,maría115@correo.com,948922192,Chorrillos,Supermercado,2026-01-17,Chile
+116,C0116,RUC,68337399,Claudia,Palomino Ríos,claudia116@correo.com,992215478,La Molina,Industria alimentaria,2026-03-01,Canadá
+117,C0117,DNI,62161925,Lucía,Flores Ríos,lucía117correo.com,,Lince,Importador,2026-03-06,Chile
+118,C0118,DNI,43243465,Álvaro,Ninaquispe Bautista,álvaro118@correo.com,930173045,Comas,Distribuidor,2026-03-23,Canadá
+119,C0119,RUC,24430447,Víctor,Ninaquispe Gutiérrez,víctor119@correo.com,,Ate,Supermercado,2026-04-08,Chile
+120,C0120,DNI,26889242,Manuel,Quispe Paredes,,959019621,Independencia,Industria alimentaria,2026-03-04,Países Bajos
+121,C0121,DNI,13033086,Gabriela,Bautista Espinoza,gabriela121@correo.com,971522941,La Molina,Importador,2026-05-23,EE.UU.
+122,C0122,CE,49587235,María,Mendoza Rivera,maría122@correo.com,942190747,Miraflores,Distribuidor,2026-05-14,Alemania
+123,C0123,CE,30804972,Raúl,Rojas Vargas,raúl123@correo.com,940254508,San Miguel,Supermercado,2026-04-01,Canadá
+124,C0124,DNI,71582921,Melissa,Cárdenas Torres,melissa124@correo.com,966669603,Los Olivos,Industria alimentaria,2026-01-14,China
+125,C0125,DNI,26354695,Paola,Castillo Paredes,paola125@correo.com,979050286,Breña,Importador,2026-02-23,Canadá
+126,C0126,DNI,12374914,Hugo,Mendoza Villanueva,hugo126@correo.com,923650448,Breña,Distribuidor,2026-04-27,China
+127,C0127,DNI,60588508,José,Gutiérrez Aguirre,josé127@correo.com,981362850,Chorrillos,Supermercado,2026-02-27,Chile
+128,C0128,CE,24538244,Jorge,Bautista Cárdenas,jorge128@correo.com,933212804,Rímac,Industria alimentaria,2026-04-07,Chile
+129,C0129,DNI,51783727,Fernando,Zevallos Cárdenas,fernando129@correo.com,,San Juan de Lurigancho,Importador,2026-02-28,Chile
+130,C0130,CE,512566,Ricardo,Palomino Ponce,ricardo130@correo.com,920018480,Lince,Distribuidor,2026-05-17,Canadá
+131,C0131,DNI,13205763,Bruno,Mendoza Ponce,bruno131@correo.com,973229179,Comas,Supermercado,2026-02-28,China
+132,C0132,DNI,93802323,Andrés,Palomino Cárdenas,andrés132correo.com,935054820,San Miguel,Industria alimentaria,2026-02-22,Países Bajos
+133,C0133,DNI,664125,Daniela,Chávez Lévano,daniela133@correo.com,,San Borja,Importador,2026-05-19,EE.UU.
+134,C0134,DNI,201688,Renzo,Cornejo Ramos,renzo134@correo.com,943613122,Chorrillos,Distribuidor,2026-02-11,Alemania
+135,C0135,DNI,42626065,Gabriela,Castillo Ríos,gabriela135@correo.com,980113439,Surco,Supermercado,2026-04-04,Alemania
+136,C0136,RUC,87673131,Milagros,Flores Aguirre,,990055118,Surco,Industria alimentaria,2026-04-06,Alemania
+137,C0137,RUC,23809087,Diego,Ninaquispe Chávez,diego137@correo.com,936535853,Breña,Importador,2026-04-18,Alemania
+138,C0138,DNI,43350080,Ana,Rojas Bautista,ana138@correo.com,967111022,Villa El Salvador,Distribuidor,2026-02-08,Chile
+139,C0139,DNI,41138199,Elena,Cárdenas Romero,elena139@correo.com,925569462,San Miguel,Supermercado,2026-05-03,Alemania
+140,C0140,DNI,71592061,Milagros,Sánchez Ninaquispe,milagros140@correo.com,989054338,Villa El Salvador,Industria alimentaria,2026-03-09,China
+141,C0141,RUC,97624719,Óscar,Cornejo Castillo,óscar141@correo.com,927564653,San Juan de Lurigancho,Importador,2026-04-14,Países Bajos
+142,C0142,RUC,52684218,Bruno,Salazar Salazar,bruno142@correo.com,969192596,La Molina,Distribuidor,2026-04-21,Canadá
+143,C0143,DNI,37350722,Ana,Ninaquispe Cornejo,ana143@correo.com,935921150,Comas,Supermercado,2026-04-15,Países Bajos
+144,C0144,DNI,30465380,Gabriela,Rivera Mendoza,gabriela144@correo.com,983987395,San Juan de Lurigancho,Industria alimentaria,2026-01-16,China
+145,C0145,DNI,51949480,Ana,Salazar Salazar,ana145@correo.com,971137906,Miraflores,Importador,2026-05-23,Alemania
+146,C0146,RUC,91149569,Víctor,Torres Mendoza,víctor146@correo.com,942485923,Ate,Distribuidor,2026-04-09,Chile
+147,C0147,DNI,30204034,María,Sánchez Aguirre,maría147@correo.com,942233381,Los Olivos,Supermercado,2026-04-07,Chile
+148,C0148,RUC,65714649,Ricardo,Espinoza Rivera,ricardo148@correo.com,922871422,Comas,Industria alimentaria,2026-01-25,Chile
+149,C0149,CE,30563995,Natalia,Castillo Espinoza,natalia149@correo.com,959982779,San Miguel,Importador,2026-04-20,Alemania
+150,C0150,RUC,59064933,María,Rivera Ninaquispe,maría150correo.com,932556890,Ate,Distribuidor,2026-01-01,Alemania
+151,C0151,CE,72516145,Claudia,Palomino Flores,claudia151@correo.com,935013087,San Juan de Lurigancho,Supermercado,2026-01-07,Chile
+152,C0152,DNI,64285396,Ricardo,Rivera Ramos,ricardo152@correo.com,926934868,,Industria alimentaria,2026-04-24,Alemania
+153,C0153,DNI,71716945,Melissa,Cárdenas Cárdenas,melissa153@correo.com,910781945,Villa El Salvador,Importador,2026-03-21,EE.UU.
+154,C0154,DNI,56782927,Víctor,Vargas Flores,víctor154@correo.com,948585620,Comas,Distribuidor,2026-02-27,Canadá
+155,C0155,CE,27061616,Isabel,Ponce Aguirre,isabel155@correo.com,920623263,Lince,Supermercado,2026-01-09,Chile
+156,C0156,RUC,17686864,Natalia,Espinoza Chávez,natalia156@correo.com,956849887,Breña,Industria alimentaria,2026-05-07,Países Bajos
+157,C0157,DNI,38123163,Julia,Espinoza Cornejo,julia157correo.com,990359377,,Importador,2026-01-03,Alemania
+158,C0158,DNI,92558046,Fernando,Castillo Díaz,fernando158@correo.com,988861208,Comas,Distribuidor,2026-03-14,Chile
+159,C0159,CE,25086636,Elena,Quispe Rojas,elena159@correo.com,960729173,Ate,Supermercado,2026-04-26,Alemania
+160,C0160,DNI,99295968,Sofía,Salazar Torres,sofía160correo.com,,Surco,Industria alimentaria,2026-04-16,Países Bajos
+161,C0161,RUC,31554642,Patricia,Paredes Sánchez,patricia161@correo.com,952774313,Los Olivos,Importador,2026-04-15,Países Bajos
+162,C0162,DNI,27652531,Álvaro,Ninaquispe Palomino,álvaro162@correo.com,932443018,,Distribuidor,2026-05-15,EE.UU.
+163,C0163,DNI,96955984,Paola,Espinoza Paredes,paola163@correo.com,912220625,San Miguel,Supermercado,2026-01-04,China
+164,C0164,DNI,99893756,Óscar,Romero Paredes,,973948751,San Miguel,Industria alimentaria,2026-05-11,Chile
+165,C0165,DNI,229218,María,Lévano Palomino,maría165@correo.com,917060173,Comas,Importador,2026-01-20,China
+166,C0166,DNI,27787857,Verónica,Cárdenas Ramos,verónica166@correo.com,972022254,Villa El Salvador,Distribuidor,2026-04-08,Canadá
+167,C0167,DNI,77058222,Melissa,Díaz Bautista,melissa167@correo.com,940934879,Chorrillos,Supermercado,2026-01-01,EE.UU.
+168,C0168,RUC,32741399,Patricia,Zevallos Ríos,patricia168@correo.com,939681549,La Molina,Industria alimentaria,2026-02-22,China
+169,C0169,DNI,18510730,Carmen,Chávez Aguirre,carmen169@correo.com,,Independencia,Importador,2026-04-10,Alemania
+170,C0170,DNI,69593462,Elena,Zevallos Cruz,elena170@correo.com,937548925,Miraflores,Distribuidor,2026-01-02,EE.UU.
+171,C0171,DNI,68362566,Iván,Torres Chávez,iván171@correo.com,933062304,San Borja,Supermercado,2026-05-02,Canadá
+172,C0172,CE,78233395,Renzo,Quispe Castillo,renzo172@correo.com,939846349,Villa El Salvador,Industria alimentaria,2026-04-18,EE.UU.
+173,C0173,CE,22149084,Fernando,Lévano Flores,fernando173@correo.com,,San Miguel,Importador,2026-03-05,Países Bajos
+174,C0174,RUC,17982324,Ricardo,Villanueva Romero,ricardo174@correo.com,964922968,Villa El Salvador,Distribuidor,2026-02-04,Chile
+175,C0175,CE,64401490,Óscar,Torres Lévano,óscar175@correo.com,938803552,Rímac,Supermercado,2026-02-17,Canadá
+176,C0176,CE,13382939,Julia,Paredes Ramos,,910510486,Villa El Salvador,Industria alimentaria,2026-01-07,China
+177,C0177,DNI,17620928,Elena,Ríos Torres,elena177@correo.com,995806841,Surco,Importador,2026-04-25,Chile
+178,C0178,RUC,21946691,Óscar,Ramos Espinoza,óscar178@correo.com,940908175,Callao,Distribuidor,2026-04-24,China
+179,C0179,RUC,95376881,Melissa,Gutiérrez Chávez,melissa179@correo.com,919272191,San Juan de Lurigancho,Supermercado,2026-01-21,China
+180,C0180,DNI,30964939,Lucía,Salazar Cárdenas,lucía180@correo.com,,Miraflores,Industria alimentaria,2026-02-03,Alemania
+181,C0181,DNI,71595154,Sergio,Quispe Rivera,sergio181@correo.com,950490299,San Juan de Lurigancho,Importador,2026-03-21,EE.UU.
+182,C0182,DNI,66454417,Fernando,Zevallos Quispe,fernando182@correo.com,913049416,Surco,Distribuidor,2026-05-05,China
+183,C0183,RUC,55438794,Sofía,Flores Ríos,sofía183@correo.com,986503309,Ate,Supermercado,2026-02-23,Chile
+184,C0184,DNI,83469728,Daniela,Paredes Espinoza,daniela184@correo.com,,La Molina,Industria alimentaria,2026-02-08,Chile
+185,C0185,DNI,75572211,Carlos,Sánchez Gutiérrez,carlos185@correo.com,926299032,Breña,Importador,2026-03-26,EE.UU.
+186,C0186,DNI,37869483,Raúl,Aguirre Castillo,raúl186@correo.com,960581065,Ate,Distribuidor,2026-04-23,Países Bajos
+187,C0187,RUC,15499776,Diego,Cornejo Villanueva,diego187@correo.com,996469984,Breña,Supermercado,2026-02-24,China
+188,C0188,CE,18680043,Andrés,Ramos Cornejo,andrés188@correo.com,967858632,San Miguel,Industria alimentaria,2026-01-27,Chile
+189,C0189,CE,34717837,Fernando,Ponce Salazar,fernando189@correo.com,988496046,Rímac,Importador,2026-04-16,China
+190,C0190,CE,779636,Óscar,Bautista Torres,,948200845,Los Olivos,Distribuidor,2026-03-04,Chile
+191,C0191,DNI,77473604,Miguel,Rivera Aguirre,miguel191@correo.com,984099948,Callao,Supermercado,2026-02-17,EE.UU.
+192,C0192,DNI,80709191,Milagros,Flores Cornejo,milagros192@correo.com,961335936,Comas,Industria alimentaria,2026-01-12,Chile
+193,C0193,DNI,40159982,Julia,Cornejo Cruz,julia193@correo.com,948731313,Villa El Salvador,Importador,2026-02-08,EE.UU.
+194,C0194,DNI,85448852,Luis,Gutiérrez Espinoza,luis194@correo.com,994749428,Miraflores,Distribuidor,2026-03-14,Alemania
+195,C0195,DNI,59509023,María,Rojas Castillo,maría195@correo.com,937082957,Chorrillos,Supermercado,2026-01-19,Alemania
+196,C0196,RUC,76835140,Daniela,Díaz Díaz,daniela196@correo.com,975885372,San Borja,Industria alimentaria,2026-04-02,Canadá
+197,C0197,DNI,15072679,Pamela,Ponce Ponce,pamela197@correo.com,975841643,Comas,Importador,2026-04-01,Alemania
+198,C0198,DNI,17780018,Manuel,Salazar Cruz,manuel198@correo.com,927043931,Comas,Distribuidor,2026-03-05,Países Bajos
+199,C0199,CE,89514540,Rosa,Palomino Paredes,rosa199@correo.com,944259894,Miraflores,Supermercado,2026-02-25,EE.UU.
+200,C0200,CE,38528421,Álvaro,Aguirre Ponce,álvaro200@correo.com,926530346,Lince,Industria alimentaria,2026-02-27,Países Bajos
+201,C0201,CE,24538244,Jorge,Bautista Cárdenas,jorge128@correo.com,933212804,Rímac,Importador,2026-04-07,Chile
+202,C0202,CE,71251663,Iván,Bautista Cornejo,iván83@correo.com,918720980,Villa El Salvador,Distribuidor,2026-03-12,Alemania
+203,C0203,DNI,63323428,Ana,Zevallos Sánchez,ana82@correo.com,988044672,San Juan de Lurigancho,Supermercado,2026-03-24,Chile
+204,C0204,RUC,97624719,Óscar,Cornejo Castillo,óscar141correo.com,927564653,San Juan de Lurigancho,Industria alimentaria,2026-04-14,Países Bajos
+205,C0205,DNI,69593462,Elena,Zevallos Cruz,elena170@correo.com,937548925,Miraflores,Importador,2026-01-02,EE.UU.
+206,C0206,DNI,75572211,Carlos,Sánchez Gutiérrez,carlos185@correo.com,926299032,Breña,Distribuidor,2026-03-26,EE.UU.
+207,C0207,DNI,22921803,María,Lévano Palomino,maría165@correo.com,917060173,Comas,Supermercado,2026-01-20,China
+208,C0208,DNI,20168871,Renzo,Cornejo Ramos,renzo134@correo.com,943613122,Chorrillos,Industria alimentaria,2026-02-11,Alemania

@@ -1,0 +1,1001 @@
+id_pago,codigo_pago,id_operacion,fecha_pago,medio_pago,monto_pagado,estado_pago
+1,PG00001,1,2026-04-17,Tarjeta,299.70,Pagado
+2,PG00002,2,2026-06-23,Débito automático,490.83,Parcial
+3,PG00003,3,2026-04-17,Yape/Plin,0.0,Anulado
+4,PG00004,4,2026-05-28,Agente autorizado,940.57,Pagado
+5,PG00005,5,2026-06-27,Tarjeta,0.0,Anulado
+6,PG00006,6,2026-04-04,Débito automático,287.05,Pagado
+7,PG00007,7,2026-02-28,Yape/Plin,1299.77,Parcial
+8,PG00008,8,2026-02-27,Agente autorizado,802.94,Pagado
+9,PG00009,9,2026-06-20,Tarjeta,80.00,Pagado
+10,PG00010,10,2026-05-02,Débito automático,1194.98,Pagado
+11,PG00011,11,2026-03-24,Yape/Plin,6159.10,Pagado
+12,PG00012,12,2026-03-11,Agente autorizado,647.08,Parcial
+13,PG00013,13,2026-05-05,Tarjeta,0.0,Anulado
+14,PG00014,14,2026-02-26,Débito automático,527.60,Pagado
+15,PG00015,15,2026-06-26,Yape/Plin,90.00,Pagado
+16,PG00016,16,2026-01-13,Agente autorizado,0.0,Anulado
+17,PG00017,17,2026-01-17,Tarjeta,80.00,Pagado
+18,PG00018,18,2026-05-13,Débito automático,0.0,Anulado
+19,PG00019,19,2026-04-16,Yape/Plin,433.08,Pagado
+20,PG00020,20,2026-03-19,Agente autorizado,269.05,Pagado
+21,PG00021,21,2026-05-24,Tarjeta,3369.99,Pagado
+22,PG00022,22,,Débito automático,80.22,Pagado
+23,PG00023,23,2026-03-10,Yape/Plin,384.03,Pagado
+24,PG00024,24,2026-01-25,Agente autorizado,1247.20,Pagado
+25,PG00025,25,2026-02-19,Tarjeta,456.88,Parcial
+26,PG00026,26,2026-02-21,Débito automático,0.0,Anulado
+27,PG00027,27,2026-02-23,Yape/Plin,1047.03,Pagado
+28,PG00028,28,2026-02-10,Agente autorizado,22.98,Pagado
+29,PG00029,29,2026-01-12,Tarjeta,22.98,Pagado
+30,PG00030,30,2026-02-10,Débito automático,2157.31,Parcial
+31,PG00031,31,2026-01-24,Yape/Plin,255.16,Pagado
+32,PG00032,32,2026-03-26,Agente autorizado,369.49,Pagado
+33,PG00033,33,2026-03-05,Tarjeta,323.70,Pagado
+34,PG00034,34,2026-06-07,Débito automático,2808.10,Pagado
+35,PG00035,35,2026-04-03,Yape/Plin,0.0,Anulado
+36,PG00036,36,2026-04-22,Agente autorizado,456.49,Pagado
+37,PG00037,37,2026-06-10,Tarjeta,300.00,Pagado
+38,PG00038,38,2026-01-26,Débito automático,1639.24,Pagado
+39,PG00039,39,2026-05-08,Yape/Plin,9799.62,Pagado
+40,PG00040,40,2026-03-13,Agente autorizado,2182.28,Pagado
+41,PG00041,41,2026-05-17,Tarjeta,240.66,Pagado
+42,PG00042,42,,Débito automático,504.36,Pagado
+43,PG00043,43,2026-02-19,Yape/Plin,2494.18,Pagado
+44,PG00044,44,2026-05-09,Agente autorizado,11760.90,Pagado
+45,PG00045,45,2026-05-21,Tarjeta,0.0,Anulado
+46,PG00046,46,2026-03-08,Débito automático,11619.60,Pagado
+47,PG00047,47,2026-06-13,Yape/Plin,700.56,Pagado
+48,PG00048,48,2026-05-22,Agente autorizado,2053.48,Pagado
+49,PG00049,49,2026-01-03,Tarjeta,87.05,Pagado
+50,PG00050,50,2026-05-12,Débito automático,539.06,Parcial
+51,PG00051,51,2026-04-06,Yape/Plin,0.0,Anulado
+52,PG00052,52,2026-01-08,Agente autorizado,476.95,Pagado
+53,PG00053,53,2026-01-07,Tarjeta,1008.36,Pagado
+54,PG00054,54,2026-02-28,Débito automático,1149.74,Pagado
+55,PG00055,55,2026-03-15,Yape/Plin,11812.68,Pagado
+56,PG00056,56,2026-01-15,Agente autorizado,486.58,Pagado
+57,PG00057,57,2026-03-05,Tarjeta,9639.36,Pagado
+58,PG00058,58,2026-02-17,Débito automático,261.32,Pagado
+59,PG00059,59,2026-04-15,Yape/Plin,322.86,Pagado
+60,PG00060,60,2026-03-18,Agente autorizado,2277.65,Pagado
+61,PG00061,61,2026-01-11,Tarjeta,69.64,Pagado
+62,PG00062,62,2026-04-02,Débito automático,648.66,Pagado
+63,PG00063,63,2026-05-21,Yape/Plin,0.0,Anulado
+64,PG00064,64,2026-04-13,Agente autorizado,0.0,Anulado
+65,PG00065,65,2026-03-17,Tarjeta,1385.91,Parcial
+66,PG00066,66,2026-03-27,Débito automático,965.74,Pagado
+67,PG00067,67,2026-03-18,Yape/Plin,132.04,Pagado
+68,PG00068,68,2026-04-24,Agente autorizado,665.39,Pagado
+69,PG00069,69,2026-05-06,Tarjeta,0.0,Anulado
+70,PG00070,70,2026-01-04,Débito automático,1535.40,Pagado
+71,PG00071,71,2026-06-17,Yape/Plin,2640.72,Pagado
+72,PG00072,72,2026-01-03,Agente autorizado,717.50,Pagado
+73,PG00073,73,2026-01-16,Tarjeta,12239.20,Pagado
+74,PG00074,74,2026-06-13,Débito automático,298.76,Parcial
+75,PG00075,75,2026-02-07,Yape/Plin,2302.50,Pagado
+76,PG00076,76,2026-02-07,Agente autorizado,0.0,Anulado
+77,PG00077,77,2026-06-12,Tarjeta,2268.28,Pagado
+78,PG00078,78,2026-04-02,Débito automático,4041.02,Pagado
+79,PG00079,79,2026-02-21,Yape/Plin,625.5,Pagado
+80,PG00080,80,2026-06-26,Agente autorizado,168.24,Parcial
+81,PG00081,81,2026-03-14,Tarjeta,1255.31,Parcial
+82,PG00082,82,2026-02-13,Débito automático,0.0,Anulado
+83,PG00083,83,2026-06-07,Yape/Plin,90.00,Pagado
+84,PG00084,84,2026-03-12,Agente autorizado,362.67,Pagado
+85,PG00085,85,2026-04-03,Tarjeta,1374.24,Parcial
+86,PG00086,86,2026-02-18,Débito automático,9318.94,Pagado
+87,PG00087,87,2026-05-09,Yape/Plin,3350.08,Pagado
+88,PG00088,88,2026-03-15,Agente autorizado,1143.03,Pagado
+89,PG00089,89,2026-05-06,Tarjeta,3306.44,pagado
+90,PG00090,90,2026-02-11,Débito automático,623.75,Parcial
+91,PG00091,91,2026-05-24,Yape/Plin,699.12,Pagado
+92,PG00092,92,2026-03-18,Agente autorizado,653.16,Pagado
+93,PG00093,93,2026-02-28,Tarjeta,0.0,Anulado
+94,PG00094,94,2026-01-10,Débito automático,1665.65,Pagado
+95,PG00095,95,2026-05-19,Yape/Plin,659.50,Pagado
+96,PG00096,96,2026-03-28,Agente autorizado,3700.00,Pagado
+97,PG00097,97,2026-01-18,Tarjeta,1032.96,Pagado
+98,PG00098,98,2026-02-01,Débito automático,1079.40,Pagado
+99,PG00099,99,2026-05-17,Yape/Plin,656.97,Pagado
+100,PG00100,100,2026-05-05,Agente autorizado,628.79,Pagado
+101,PG00101,101,2026-04-19,Tarjeta,1877.42,Pagado
+102,PG00102,102,2026-06-21,Débito automático,0.0,Anulado
+103,PG00103,103,2026-02-24,Yape/Plin,458.08,Pagado
+104,PG00104,104,2026-02-20,Agente autorizado,2973.10,Pagado
+105,PG00105,105,2026-01-22,Tarjeta,492.06,Pagado
+106,PG00106,106,2026-04-18,Débito automático,828.96,Pagado
+107,PG00107,107,2026-06-17,Yape/Plin,5937.32,Pagado
+108,PG00108,108,2026-02-11,Agente autorizado,2286.74,Parcial
+109,PG00109,109,2026-01-07,Tarjeta,469.60,Pagado
+110,PG00110,110,2026-01-16,Débito automático,0.0,Anulado
+111,PG00111,111,2026-03-15,Yape/Plin,275.55,Pagado
+112,PG00112,112,2026-02-15,Agente autorizado,1531.56,Pagado
+113,PG00113,113,2026-06-28,Tarjeta,200.00,Pagado
+114,PG00114,114,2026-04-04,Débito automático,390.85,Pagado
+115,PG00115,115,2026-06-27,Yape/Plin,7721.83,Pagado
+116,PG00116,116,2026-06-09,Agente autorizado,892.68,Pagado
+117,PG00117,117,2026-04-16,Tarjeta,472.65,Parcial
+118,PG00118,118,2026-06-24,Débito automático,180.00,Pagado
+119,PG00119,119,2026-05-19,Yape/Plin,542.73,pagado
+120,PG00120,120,2026-04-22,Agente autorizado,883.34,pagado
+121,PG00121,121,2026-01-26,Tarjeta,6671.14,Pagado
+122,PG00122,122,2026-02-27,Débito automático,20.00,Pagado
+123,PG00123,123,2026-03-27,Yape/Plin,322.86,Pagado
+124,PG00124,124,2026-01-19,Agente autorizado,225.00,Pagado
+125,PG00125,125,2026-05-13,Tarjeta,0.0,Anulado
+126,PG00126,126,2026-05-16,Débito automático,11914.99,Pagado
+127,PG00127,127,2026-03-17,Yape/Plin,1573.5,pagado
+128,PG00128,128,2026-01-02,Agente autorizado,0.0,Anulado
+129,PG00129,129,2026-06-13,Tarjeta,309.36,Pagado
+130,PG00130,130,2026-02-19,Débito automático,6050.16,Pagado
+131,PG00131,131,2026-04-17,Yape/Plin,51.39,Pagado
+132,PG00132,132,2026-06-07,Agente autorizado,1367.10,Pagado
+133,PG00133,133,2026-05-25,Tarjeta,0.0,Anulado
+134,PG00134,134,2026-03-01,Débito automático,299.57,Pagado
+135,PG00135,135,2026-03-17,Yape/Plin,1447.5,Pagado
+136,PG00136,136,2026-03-14,Agente autorizado,329.99,Parcial
+137,PG00137,137,2026-03-24,Tarjeta,1210.61,Pagado
+138,PG00138,138,2026-02-05,Débito automático,1307.86,Pagado
+139,PG00139,139,2026-02-20,Yape/Plin,3208.46,Pagado
+140,PG00140,140,2026-06-19,Agente autorizado,2666.32,Pagado
+141,PG00141,141,2026-01-13,Tarjeta,150.16,Pagado
+142,PG00142,142,2026-01-27,Débito automático,167.80,Pagado
+143,PG00143,143,2026-02-04,Yape/Plin,179.40,Pagado
+144,PG00144,144,2026-04-14,Agente autorizado,500.52,Pagado
+145,PG00145,145,2026-02-23,Tarjeta,0.0,Anulado
+146,PG00146,146,2026-05-23,Débito automático,280.55,Pagado
+147,PG00147,147,2026-02-11,Yape/Plin,7271.41,Pagado
+148,PG00148,148,2026-03-13,Agente autorizado,779.50,Pagado
+149,PG00149,149,2026-06-21,Tarjeta,7320.79,Pagado
+150,PG00150,150,2026-05-01,Débito automático,0.0,Anulado
+151,PG00151,151,2026-05-24,Yape/Plin,0.0,Anulado
+152,PG00152,152,2026-03-05,Agente autorizado,7847.22,Pagado
+153,PG00153,153,2026-02-21,Tarjeta,2119.30,Pagado
+154,PG00154,154,2026-01-01,Débito automático,0.0,Anulado
+155,PG00155,155,2026-03-12,Yape/Plin,0.0,Anulado
+156,PG00156,156,2026-03-03,Agente autorizado,0.0,Anulado
+157,PG00157,157,2026-01-14,Tarjeta,3071.39,Pagado
+158,PG00158,158,2026-06-25,Débito automático,0.0,Anulado
+159,PG00159,159,2026-04-13,Yape/Plin,0.0,Anulado
+160,PG00160,160,2026-01-24,Agente autorizado,2980.88,pagado
+161,PG00161,161,2026-06-23,Tarjeta,1786.57,Pagado
+162,PG00162,162,2026-03-10,Débito automático,0.0,Anulado
+163,PG00163,163,2026-01-21,Yape/Plin,0.0,Anulado
+164,PG00164,164,2026-03-21,Agente autorizado,0.0,Anulado
+165,PG00165,165,2026-03-01,Tarjeta,619.50,Pagado
+166,PG00166,166,2026-01-10,Débito automático,1196.32,Pagado
+167,PG00167,167,2026-05-20,Yape/Plin,7.58,Pagado
+168,PG00168,168,2026-03-25,Agente autorizado,146.35,Pagado
+169,PG00169,169,2026-03-10,Tarjeta,0.0,Anulado
+170,PG00170,170,2026-02-04,Débito automático,5095.78,Pagado
+171,PG00171,171,2026-03-03,Yape/Plin,2336.82,Pagado
+172,PG00172,172,2026-04-10,Agente autorizado,0.0,Anulado
+173,PG00173,173,2026-03-05,Tarjeta,0.0,Anulado
+174,PG00174,174,2026-06-16,Débito automático,0.0,Anulado
+175,PG00175,175,2026-05-07,Yape/Plin,893.10,Pagado
+176,PG00176,176,2026-01-02,Agente autorizado,395.70,Pagado
+177,PG00177,177,2026-04-09,Tarjeta,863.40,Pagado
+178,PG00178,178,2026-03-16,Débito automático,11063.90,Pagado
+179,PG00179,179,2026-02-01,Yape/Plin,231.83,Pagado
+180,PG00180,180,2026-04-07,Agente autorizado,0.0,Anulado
+181,PG00181,181,2026-05-23,Tarjeta,760.58,Pagado
+182,PG00182,182,2026-02-17,Débito automático,119.98,pagado
+183,PG00183,183,2026-02-24,Yape/Plin,9856.08,Pagado
+184,PG00184,184,2026-04-15,Agente autorizado,0.00,Pagado
+185,PG00185,185,2026-04-10,Tarjeta,17.41,Pagado
+186,PG00186,186,2026-02-20,Débito automático,0.0,Anulado
+187,PG00187,187,2026-04-04,Yape/Plin,30.00,Pagado
+188,PG00188,188,2026-04-13,Agente autorizado,4614.67,Pagado
+189,PG00189,189,2026-01-02,Tarjeta,0.00,Pagado
+190,PG00190,190,2026-01-02,Débito automático,83.90,Pagado
+191,PG00191,191,2026-05-20,Yape/Plin,1395.42,Parcial
+192,PG00192,192,2026-06-17,Agente autorizado,5838.72,Pagado
+193,PG00193,193,2026-04-23,Tarjeta,1043.74,Parcial
+194,PG00194,194,2026-05-28,Débito automático,0.0,anulado
+195,PG00195,195,2026-03-22,Yape/Plin,3317.1,pagado
+196,PG00196,196,2026-04-18,Agente autorizado,89.70,Pagado
+197,PG00197,197,2026-02-03,Tarjeta,0.0,Anulado
+198,PG00198,198,2026-05-26,Débito automático,1085.50,Pagado
+199,PG00199,199,2026-03-27,Yape/Plin,3025.08,Pagado
+200,PG00200,200,2026-03-01,Agente autorizado,1552.66,Pagado
+201,PG00201,201,2026-03-09,Tarjeta,509.72,Pagado
+202,PG00202,202,2026-01-19,Débito automático,2748.10,Pagado
+203,PG00203,203,2026-01-28,Yape/Plin,710.04,Pagado
+204,PG00204,204,2026-03-22,Agente autorizado,2714.07,Pagado
+205,PG00205,205,2026-05-04,Tarjeta,0.0,Anulado
+206,PG00206,206,2026-02-22,Débito automático,0.0,Anulado
+207,PG00207,207,2026-04-20,Yape/Plin,2198.48,Pagado
+208,PG00208,208,2025-12-16,Agente autorizado,506.90,Pagado
+209,PG00209,209,2026-01-05,Tarjeta,2159.20,Pagado
+210,PG00210,210,2026-04-18,Débito automático,1414.91,Pagado
+211,PG00211,211,2026-06-17,Yape/Plin,2416.06,Pagado
+212,PG00212,212,2026-01-23,Agente autorizado,1768.86,Pagado
+213,PG00213,213,2026-05-12,Tarjeta,196.98,Parcial
+214,PG00214,214,2026-05-06,Débito automático,1458.12,Parcial
+215,PG00215,215,2026-06-17,Yape/Plin,2207.94,Parcial
+216,PG00216,216,2026-05-08,Agente autorizado,0.0,Anulado
+217,PG00217,217,2026-04-19,Tarjeta,1277.45,Pagado
+218,PG00218,218,2026-01-21,Débito automático,1933.74,Parcial
+219,PG00219,219,2026-03-21,Yape/Plin,475.09,Pagado
+220,PG00220,220,2026-01-20,Agente autorizado,433.71,Parcial
+221,PG00221,221,2026-04-16,Tarjeta,0.0,Anulado
+222,PG00222,222,2026-05-01,Débito automático,0.0,Anulado
+223,PG00223,223,2026-04-02,Yape/Plin,576.30,Pagado
+224,PG00224,224,2026-02-04,Agente autorizado,2241.18,Pagado
+225,PG00225,225,2026-02-04,Tarjeta,1016.04,Pagado
+226,PG00226,226,2026-03-26,Débito automático,53.81,Pagado
+227,PG00227,227,2026-05-23,Yape/Plin,2348.22,Pagado
+228,PG00228,228,2026-06-14,Agente autorizado,809.50,Pagado
+229,PG00229,229,2026-06-15,Tarjeta,0.0,Anulado
+230,PG00230,230,2026-02-03,Débito automático,0.0,Anulado
+231,PG00231,231,2026-01-25,Yape/Plin,0.0,Anulado
+232,PG00232,232,2026-02-11,Agente autorizado,816.45,Pagado
+233,PG00233,233,2026-05-21,Tarjeta,2559.38,Pagado
+234,PG00234,234,2025-12-21,Débito automático,1307.0,pagado
+235,PG00235,235,2026-02-12,Yape/Plin,0.00,Pagado
+236,PG00236,236,2026-02-25,Agente autorizado,20650.00,Pagado
+237,PG00237,237,2026-06-14,Tarjeta,0.0,Anulado
+238,PG00238,238,2026-04-24,Débito automático,0.0,Anulado
+239,PG00239,239,2026-04-21,Yape/Plin,0.0,Anulado
+240,PG00240,240,2026-06-19,Agente autorizado,0.0,Anulado
+241,PG00241,241,2026-03-24,Tarjeta,1382.86,Pagado
+242,PG00242,242,2026-03-12,Débito automático,90.00,Pagado
+243,PG00243,243,2026-04-01,Yape/Plin,269.40,Pagado
+244,PG00244,244,2026-03-26,Agente autorizado,341.50,Pagado
+245,PG00245,245,2026-01-01,Tarjeta,1135.60,Pagado
+246,PG00246,246,2026-04-06,Débito automático,589.24,Pagado
+247,PG00247,247,2026-05-22,Yape/Plin,0.0,Anulado
+248,PG00248,248,2026-06-09,Agente autorizado,124.80,Pagado
+249,PG00249,249,2026-01-28,Tarjeta,1423.2,Parcial
+250,PG00250,250,2026-04-17,Débito automático,0.0,Anulado
+251,PG00251,251,,Yape/Plin,1273.00,Pagado
+252,PG00252,252,2026-01-09,Agente autorizado,375.00,Pagado
+253,PG00253,253,2026-05-18,Tarjeta,265.11,Pagado
+254,PG00254,254,2026-03-02,Débito automático,290.87,Pagado
+255,PG00255,255,2026-06-17,Yape/Plin,288.72,Pagado
+256,PG00256,256,2026-06-09,Agente autorizado,0.0,Anulado
+257,PG00257,257,2026-02-14,Tarjeta,1603.22,Parcial
+258,PG00258,258,2026-04-28,Débito automático,923.16,Pagado
+259,PG00259,259,2026-03-11,Yape/Plin,0.0,Anulado
+260,PG00260,260,2026-06-11,Agente autorizado,160.44,Pagado
+261,PG00261,261,2026-04-07,Tarjeta,134.96,Pagado
+262,PG00262,262,2026-02-07,Débito automático,10.00,Pagado
+263,PG00263,263,2026-02-03,Yape/Plin,0.0,Anulado
+264,PG00264,264,2026-03-02,Agente autorizado,0.0,Anulado
+265,PG00265,265,2026-06-05,Tarjeta,0.0,anulado
+266,PG00266,266,2026-06-25,Débito automático,3422.17,Pagado
+267,PG00267,267,2026-04-22,Yape/Plin,5440.16,Pagado
+268,PG00268,268,,Agente autorizado,9849.50,Pagado
+269,PG00269,269,,Tarjeta,965.22,Pagado
+270,PG00270,270,2026-04-21,Débito automático,7550.00,Pagado
+271,PG00271,271,2026-01-15,Yape/Plin,240.66,Pagado
+272,PG00272,272,2026-03-28,Agente autorizado,338.97,Pagado
+273,PG00273,273,2026-05-02,Tarjeta,2198.48,Pagado
+274,PG00274,274,,Débito automático,0.0,Anulado
+275,PG00275,275,2026-02-22,Yape/Plin,973.03,Pagado
+276,PG00276,276,2026-01-13,Agente autorizado,0.0,Anulado
+277,PG00277,277,2026-05-25,Tarjeta,585.48,Pagado
+278,PG00278,278,2026-05-25,Débito automático,408.44,Parcial
+279,PG00279,279,2026-03-05,Yape/Plin,1134.50,Pagado
+280,PG00280,280,2026-02-07,Agente autorizado,2475.4,Pagado
+281,PG00281,281,2026-04-09,Tarjeta,0.0,Anulado
+282,PG00282,282,2026-04-15,Débito automático,113.54,Parcial
+283,PG00283,283,2026-02-28,Yape/Plin,2282.55,Pagado
+284,PG00284,284,2026-06-03,Agente autorizado,2081.98,Pagado
+285,PG00285,285,2026-03-02,Tarjeta,0.0,Anulado
+286,PG00286,286,2026-06-12,Débito automático,0.0,Anulado
+287,PG00287,287,2026-05-18,Yape/Plin,2859.14,Parcial
+288,PG00288,288,2026-05-09,Agente autorizado,0.0,Anulado
+289,PG00289,289,2026-05-12,Tarjeta,299.57,Pagado
+290,PG00290,290,2026-03-21,Débito automático,712.01,Pagado
+291,PG00291,291,2026-03-12,Yape/Plin,289.92,Pagado
+292,PG00292,292,2026-03-23,Agente autorizado,518.14,Pagado
+293,PG00293,293,2026-06-13,Tarjeta,787.40,Pagado
+294,PG00294,294,2026-02-11,Débito automático,0.0,Anulado
+295,PG00295,295,2026-05-15,Yape/Plin,647.40,Pagado
+296,PG00296,296,2026-01-11,Agente autorizado,2360.89,Parcial
+297,PG00297,297,2026-06-28,Tarjeta,2417.47,pagado
+298,PG00298,298,2026-01-12,Débito automático,0.0,Anulado
+299,PG00299,299,2026-03-11,Yape/Plin,0.0,Anulado
+300,PG00300,300,2026-05-21,Agente autorizado,450.93,Pagado
+301,PG00301,301,2026-03-13,Tarjeta,2870.06,pagado
+302,PG00302,302,2026-03-24,Débito automático,289.67,Parcial
+303,PG00303,303,2026-05-01,Yape/Plin,288.31,Parcial
+304,PG00304,304,2026-03-22,Agente autorizado,0.0,Anulado
+305,PG00305,305,,Tarjeta,484.15,Pagado
+306,PG00306,306,2026-01-23,Débito automático,447.90,Pagado
+307,PG00307,307,2026-06-21,Yape/Plin,534.00,Pagado
+308,PG00308,308,2026-05-08,Agente autorizado,853.14,Parcial
+309,PG00309,309,2026-04-05,Tarjeta,0.0,Anulado
+310,PG00310,310,2026-04-15,Débito automático,0.0,Anulado
+311,PG00311,311,2026-03-07,Yape/Plin,1480.08,Parcial
+312,PG00312,312,2026-04-11,Agente autorizado,2578.33,Pagado
+313,PG00313,313,2026-01-26,Tarjeta,309.76,Parcial
+314,PG00314,314,2026-06-12,Débito automático,89.00,Pagado
+315,PG00315,315,2026-01-08,Yape/Plin,0.0,Anulado
+316,PG00316,316,2026-04-17,Agente autorizado,90.00,Pagado
+317,PG00317,317,2026-05-21,Tarjeta,3067.18,Parcial
+318,PG00318,318,2026-04-26,Débito automático,397.74,Pagado
+319,PG00319,319,2026-06-27,Yape/Plin,0.0,Anulado
+320,PG00320,320,2026-02-07,Agente autorizado,0.0,Anulado
+321,PG00321,321,2026-05-26,Tarjeta,652.14,Pagado
+322,PG00322,322,2026-03-28,Débito automático,3152.05,parcial
+323,PG00323,323,2025-12-25,Yape/Plin,387.52,Parcial
+324,PG00324,324,2026-02-09,Agente autorizado,494.50,Pagado
+325,PG00325,325,2026-05-12,Tarjeta,979.74,Pagado
+326,PG00326,326,2025-12-04,Débito automático,0.0,Anulado
+327,PG00327,327,2026-03-13,Yape/Plin,661.50,Pagado
+328,PG00328,328,2026-05-26,Agente autorizado,796.78,Pagado
+329,PG00329,329,2026-05-05,Tarjeta,200.00,Pagado
+330,PG00330,330,,Débito automático,0.0,Anulado
+331,PG00331,331,2026-01-19,Yape/Plin,0.0,Anulado
+332,PG00332,332,2026-04-21,Agente autorizado,1889.52,Pagado
+333,PG00333,333,2026-04-02,Tarjeta,1579.45,Parcial
+334,PG00334,334,2026-02-08,Débito automático,688.93,Pagado
+335,PG00335,335,2026-03-21,Yape/Plin,836.97,Pagado
+336,PG00336,336,2026-02-06,Agente autorizado,0.0,Anulado
+337,PG00337,337,2026-03-19,Tarjeta,450.49,Pagado
+338,PG00338,338,2026-03-23,Débito automático,0.0,Anulado
+339,PG00339,339,2026-04-26,Yape/Plin,0.0,Anulado
+340,PG00340,340,2026-03-13,Agente autorizado,6246.92,Pagado
+341,PG00341,341,2026-01-24,Tarjeta,0.0,anulado
+342,PG00342,342,,Débito automático,495.48,Pagado
+343,PG00343,343,2026-04-22,Yape/Plin,0.0,Anulado
+344,PG00344,344,2026-05-25,Agente autorizado,0.0,Anulado
+345,PG00345,345,2026-01-16,Tarjeta,569.36,Parcial
+346,PG00346,346,2026-03-09,Débito automático,0.0,Anulado
+347,PG00347,347,2026-04-25,Yape/Plin,659.50,Pagado
+348,PG00348,348,2026-03-02,Agente autorizado,2014.18,Parcial
+349,PG00349,349,2026-02-12,Tarjeta,0.0,Anulado
+350,PG00350,350,2026-01-04,Débito automático,0.0,Anulado
+351,PG00351,351,2026-06-03,Yape/Plin,721.22,Pagado
+352,PG00352,352,2026-05-19,Agente autorizado,1665.78,Pagado
+353,PG00353,353,2026-02-27,Tarjeta,0.0,Anulado
+354,PG00354,354,2026-03-22,Débito automático,1677.85,Pagado
+355,PG00355,355,2026-05-14,Yape/Plin,107.90,Pagado
+356,PG00356,356,2026-03-14,Agente autorizado,899.97,Pagado
+357,PG00357,357,2026-03-09,Tarjeta,9314.39,Pagado
+358,PG00358,358,2026-03-01,Débito automático,3662.04,pagado
+359,PG00359,359,2026-03-19,Yape/Plin,6313.96,Pagado
+360,PG00360,360,2026-04-28,Agente autorizado,857.40,Pagado
+361,PG00361,361,2026-06-18,Tarjeta,481.76,Pagado
+362,PG00362,362,2026-03-07,Débito automático,225.00,Pagado
+363,PG00363,363,2026-01-10,Yape/Plin,10016.75,Pagado
+364,PG00364,364,2026-01-27,Agente autorizado,1711.62,Pagado
+365,PG00365,365,2026-02-11,Tarjeta,0.0,Anulado
+366,PG00366,366,2026-05-28,Débito automático,839.20,Pagado
+367,PG00367,367,2026-01-20,Yape/Plin,19007.74,Pagado
+368,PG00368,368,2026-06-22,Agente autorizado,2950.88,Pagado
+369,PG00369,369,2026-05-19,Tarjeta,83.90,Pagado
+370,PG00370,370,2026-02-09,Débito automático,368.34,Pagado
+371,PG00371,371,2026-02-16,Yape/Plin,0.0,Anulado
+372,PG00372,372,2026-06-26,Agente autorizado,1801.80,Pagado
+373,PG00373,373,2026-05-21,Tarjeta,2170.20,Pagado
+374,PG00374,374,2026-04-25,Débito automático,158.34,Pagado
+375,PG00375,375,2026-02-18,Yape/Plin,749.62,Pagado
+376,PG00376,376,2026-02-12,Agente autorizado,0.0,Anulado
+377,PG00377,377,2026-05-17,Tarjeta,357.02,Pagado
+378,PG00378,378,2026-03-13,Débito automático,0.0,Anulado
+379,PG00379,379,2026-04-18,Yape/Plin,3030.47,Pagado
+380,PG00380,380,2026-04-28,Agente autorizado,0.0,Anulado
+381,PG00381,381,2026-06-10,Tarjeta,6172.41,Pagado
+382,PG00382,382,2026-04-01,Débito automático,359.40,Pagado
+383,PG00383,383,2026-05-27,Yape/Plin,2123.78,Pagado
+384,PG00384,384,2026-02-26,Agente autorizado,1552.25,Pagado
+385,PG00385,385,2026-05-20,Tarjeta,9992.09,Pagado
+386,PG00386,386,2026-03-06,Débito automático,3576.4,pagado
+387,PG00387,387,2026-03-06,Yape/Plin,0.0,Anulado
+388,PG00388,388,2026-02-20,Agente autorizado,0.0,Anulado
+389,PG00389,389,2026-06-16,Tarjeta,6503.94,Pagado
+390,PG00390,390,2026-05-02,Débito automático,294.26,Pagado
+391,PG00391,391,2026-02-14,Yape/Plin,8339.52,Pagado
+392,PG00392,392,2026-04-24,Agente autorizado,69.64,Pagado
+393,PG00393,393,2026-01-25,Tarjeta,0.0,Anulado
+394,PG00394,394,2026-04-11,Débito automático,1445.20,Pagado
+395,PG00395,395,2026-01-01,Yape/Plin,9470.11,Pagado
+396,PG00396,396,2026-06-16,Agente autorizado,249.35,Pagado
+397,PG00397,397,2026-02-05,Tarjeta,364.03,Pagado
+398,PG00398,398,2026-06-03,Débito automático,670.00,Pagado
+399,PG00399,399,2026-06-12,Yape/Plin,5225.69,pagado
+400,PG00400,400,2026-02-02,Agente autorizado,419.50,Pagado
+401,PG00401,401,2026-05-22,Tarjeta,841.72,Parcial
+402,PG00402,402,2026-06-25,Débito automático,0.0,Anulado
+403,PG00403,403,2026-02-08,Yape/Plin,420.96,Pagado
+404,PG00404,404,2026-06-10,Agente autorizado,120.00,Pagado
+405,PG00405,405,2026-03-22,Tarjeta,0.0,Anulado
+406,PG00406,406,2026-06-24,Débito automático,200.00,Pagado
+407,PG00407,407,2026-04-12,Yape/Plin,1342.55,Parcial
+408,PG00408,408,2026-02-24,Agente autorizado,100.00,Pagado
+409,PG00409,409,2026-01-16,Tarjeta,1350.45,Pagado
+410,PG00410,410,2026-04-18,Débito automático,219.92,Pagado
+411,PG00411,411,2026-03-23,Yape/Plin,849.64,Pagado
+412,PG00412,412,2026-04-03,Agente autorizado,0.0,Anulado
+413,PG00413,413,2026-05-02,Tarjeta,803.99,Pagado
+414,PG00414,414,2026-01-18,Débito automático,1328.92,Pagado
+415,PG00415,415,2026-01-25,Yape/Plin,689.50,Pagado
+416,PG00416,416,2026-03-28,Agente autorizado,0.0,Anulado
+417,PG00417,417,2026-06-19,Tarjeta,301.39,Pagado
+418,PG00418,418,2026-05-03,Débito automático,2949.24,Pagado
+419,PG00419,419,2026-03-01,Yape/Plin,1850.00,Pagado
+420,PG00420,420,2026-05-08,Agente autorizado,0.0,Anulado
+421,PG00421,421,2026-02-20,Tarjeta,1850.00,Pagado
+422,PG00422,422,2026-03-16,Débito automático,0.0,anulado
+423,PG00423,423,2026-06-24,Yape/Plin,90.00,Pagado
+424,PG00424,424,2026-06-15,Agente autorizado,134.70,Pagado
+425,PG00425,425,2026-06-15,Tarjeta,0.0,Anulado
+426,PG00426,426,2026-05-02,Débito automático,1920.01,Pagado
+427,PG00427,427,2026-02-25,Yape/Plin,0.0,Anulado
+428,PG00428,428,2026-05-22,Agente autorizado,0.0,Anulado
+429,PG00429,429,2026-05-11,Tarjeta,2745.86,parcial
+430,PG00430,430,2026-04-19,Débito automático,380.74,Parcial
+431,PG00431,431,2026-01-17,Yape/Plin,2757.99,Parcial
+432,PG00432,432,2026-01-04,Agente autorizado,8313.20,Pagado
+433,PG00433,433,2026-04-03,Tarjeta,311.80,Pagado
+434,PG00434,434,2026-01-27,Débito automático,1885.17,Pagado
+435,PG00435,435,2026-03-26,Yape/Plin,60.00,Pagado
+436,PG00436,436,2026-06-12,Agente autorizado,467.70,Pagado
+437,PG00437,437,2026-06-28,Tarjeta,534.00,Pagado
+438,PG00438,438,2026-04-28,Débito automático,489.87,Pagado
+439,PG00439,439,2026-05-13,Yape/Plin,83.90,Pagado
+440,PG00440,440,2026-06-12,Agente autorizado,11834.29,Pagado
+441,PG00441,441,2026-02-12,Tarjeta,1456.99,pagado
+442,PG00442,442,2026-02-28,Débito automático,553.41,Pagado
+443,PG00443,443,2026-04-16,Yape/Plin,520.72,Pagado
+444,PG00444,444,2026-01-27,Agente autorizado,0.0,Anulado
+445,PG00445,445,2026-04-09,Tarjeta,649.50,Pagado
+446,PG00446,446,2026-06-15,Débito automático,2024.47,parcial
+447,PG00447,447,2026-01-24,Yape/Plin,824.41,pagado
+448,PG00448,448,2026-02-19,Agente autorizado,0.0,Anulado
+449,PG00449,449,2026-01-13,Tarjeta,698.83,Parcial
+450,PG00450,450,2026-01-18,Débito automático,69.64,Pagado
+451,PG00451,451,2026-04-25,Yape/Plin,1524.3,Parcial
+452,PG00452,452,2026-05-28,Agente autorizado,137.52,Pagado
+453,PG00453,453,2026-02-09,Tarjeta,3700.00,Pagado
+454,PG00454,454,2026-01-17,Débito automático,277.90,Pagado
+455,PG00455,455,2026-06-21,Yape/Plin,0.0,Anulado
+456,PG00456,456,2026-03-13,Agente autorizado,921.04,Parcial
+457,PG00457,457,2026-03-17,Tarjeta,1079.19,Pagado
+458,PG00458,458,2026-02-27,Débito automático,4323.93,Pagado
+459,PG00459,459,2026-04-28,Yape/Plin,4010.84,Pagado
+460,PG00460,460,2026-03-19,Agente autorizado,0.0,Anulado
+461,PG00461,461,2026-03-22,Tarjeta,190.00,Pagado
+462,PG00462,462,2026-03-03,Débito automático,1675.1,Parcial
+463,PG00463,463,2026-06-19,Yape/Plin,105.00,Pagado
+464,PG00464,464,2026-06-15,Agente autorizado,1048.47,Pagado
+465,PG00465,465,2026-05-14,Tarjeta,0.0,Anulado
+466,PG00466,466,2026-05-12,Débito automático,0.0,Anulado
+467,PG00467,467,2026-02-23,Yape/Plin,0.00,Pagado
+468,PG00468,468,2026-04-25,Agente autorizado,0.0,Anulado
+469,PG00469,469,2026-03-23,Tarjeta,521.24,pagado
+470,PG00470,470,2026-04-06,Débito automático,539.70,Pagado
+471,PG00471,471,2026-05-28,Yape/Plin,3738.24,Pagado
+472,PG00472,472,2026-03-27,Agente autorizado,573.80,Pagado
+473,PG00473,473,2026-02-02,Tarjeta,188.00,Pagado
+474,PG00474,474,2026-05-13,Débito automático,2461.72,Pagado
+475,PG00475,475,2026-04-25,Yape/Plin,444.77,Pagado
+476,PG00476,476,2026-06-01,Agente autorizado,0.0,Anulado
+477,PG00477,477,2026-06-03,Tarjeta,3120.22,Parcial
+478,PG00478,478,2026-05-18,Débito automático,898.71,Pagado
+479,PG00479,479,2026-04-27,Yape/Plin,649.50,Pagado
+480,PG00480,480,2026-01-18,Agente autorizado,0.0,Anulado
+481,PG00481,481,2026-06-24,Tarjeta,340.44,Pagado
+482,PG00482,482,2026-05-17,Débito automático,1264.24,Pagado
+483,PG00483,483,2026-03-13,Yape/Plin,535.35,Pagado
+484,PG00484,484,2026-02-21,Agente autorizado,2459.04,Pagado
+485,PG00485,485,2026-05-10,Tarjeta,0.0,Anulado
+486,PG00486,486,2026-01-26,Débito automático,1074.76,Pagado
+487,PG00487,487,2026-03-01,Yape/Plin,0.0,Anulado
+488,PG00488,488,2026-06-13,Agente autorizado,5280.54,Pagado
+489,PG00489,489,2026-06-05,Tarjeta,365.19,Parcial
+490,PG00490,490,2026-04-06,Débito automático,8727.81,Pagado
+491,PG00491,491,2026-01-27,Yape/Plin,0.0,Anulado
+492,PG00492,492,,Agente autorizado,4119.13,pagado
+493,PG00493,493,2026-05-25,Tarjeta,1098.90,Pagado
+494,PG00494,494,2026-03-24,Débito automático,180.00,Pagado
+495,PG00495,495,2026-02-13,Yape/Plin,2055.2,pagado
+496,PG00496,496,2026-06-17,Agente autorizado,0.0,Anulado
+497,PG00497,497,2026-06-20,Tarjeta,0.0,Anulado
+498,PG00498,498,2026-03-07,Débito automático,0.0,Anulado
+499,PG00499,499,2026-05-28,Yape/Plin,1240.2,Parcial
+500,PG00500,500,2026-03-23,Agente autorizado,270.00,Pagado
+501,PG00501,501,2026-01-16,Tarjeta,11650.61,Pagado
+502,PG00502,502,2026-04-18,Débito automático,256.12,Pagado
+503,PG00503,503,2026-05-08,Yape/Plin,0.0,Anulado
+504,PG00504,504,2026-05-19,Agente autorizado,931.48,Pagado
+505,PG00505,505,2026-02-20,Tarjeta,903.29,Pagado
+506,PG00506,506,2026-01-18,Débito automático,215.24,Pagado
+507,PG00507,507,2026-06-11,Yape/Plin,493.00,Pagado
+508,PG00508,508,2026-01-03,Agente autorizado,0.0,Anulado
+509,PG00509,509,2026-01-01,Tarjeta,396.54,Pagado
+510,PG00510,510,2026-05-10,Débito automático,3608.10,Pagado
+511,PG00511,511,2026-05-04,Yape/Plin,1213.44,Pagado
+512,PG00512,512,2026-02-21,Agente autorizado,6591.55,pagado
+513,PG00513,513,2026-01-23,Tarjeta,682.26,Pagado
+514,PG00514,514,2026-04-05,Débito automático,0.0,Anulado
+515,PG00515,515,2026-04-07,Yape/Plin,0.0,Anulado
+516,PG00516,516,2026-02-09,Agente autorizado,0.0,Anulado
+517,PG00517,517,2026-03-27,Tarjeta,1330.27,Pagado
+518,PG00518,518,2026-04-10,Débito automático,1598.7,pagado
+519,PG00519,519,2026-01-06,Yape/Plin,311.80,Pagado
+520,PG00520,520,2026-06-10,Agente autorizado,493.08,Pagado
+521,PG00521,521,2025-12-01,Tarjeta,215.80,Pagado
+522,PG00522,522,,Débito automático,0.0,Anulado
+523,PG00523,523,2026-05-28,Yape/Plin,9444.64,Pagado
+524,PG00524,524,2026-01-28,Agente autorizado,1079.40,Pagado
+525,PG00525,525,2026-04-12,Tarjeta,0.0,Anulado
+526,PG00526,526,2026-06-10,Débito automático,489.87,Pagado
+527,PG00527,527,2026-05-10,Yape/Plin,225.00,Pagado
+528,PG00528,528,2026-03-15,Agente autorizado,2236.52,Pagado
+529,PG00529,529,2026-02-24,Tarjeta,687.40,Pagado
+530,PG00530,530,2026-04-22,Débito automático,1114.16,Pagado
+531,PG00531,531,2026-02-11,Yape/Plin,90.00,Pagado
+532,PG00532,532,2026-06-24,Agente autorizado,0.0,Anulado
+533,PG00533,533,2026-06-09,Tarjeta,1826.77,Pagado
+534,PG00534,534,2026-04-23,Débito automático,889.49,Pagado
+535,PG00535,535,2026-02-07,Yape/Plin,3039.15,Pagado
+536,PG00536,536,2026-04-20,Agente autorizado,619.70,Pagado
+537,PG00537,537,2026-05-12,Tarjeta,247.49,Pagado
+538,PG00538,538,2026-04-17,Débito automático,282.46,Pagado
+539,PG00539,539,2026-03-25,Yape/Plin,536.70,Pagado
+540,PG00540,540,2026-01-06,Agente autorizado,463.00,Pagado
+541,PG00541,541,2026-06-11,Tarjeta,540.83,Parcial
+542,PG00542,542,2026-06-19,Débito automático,359.92,Pagado
+543,PG00543,543,,Yape/Plin,0.0,Anulado
+544,PG00544,544,2026-02-01,Agente autorizado,824.30,Pagado
+545,PG00545,545,2026-04-25,Tarjeta,375.16,Pagado
+546,PG00546,546,2026-06-16,Débito automático,0.0,Anulado
+547,PG00547,547,2026-06-22,Yape/Plin,53.81,Pagado
+548,PG00548,548,2026-03-28,Agente autorizado,1210.44,Parcial
+549,PG00549,549,2025-12-15,Tarjeta,490.16,Pagado
+550,PG00550,550,2026-05-14,Débito automático,0.0,Anulado
+551,PG00551,551,2026-04-22,Yape/Plin,0.0,Anulado
+552,PG00552,552,2026-02-10,Agente autorizado,1560.30,Pagado
+553,PG00553,553,2026-05-19,Tarjeta,1536.03,Parcial
+554,PG00554,554,2026-01-17,Débito automático,0.0,Anulado
+555,PG00555,555,2026-02-24,Yape/Plin,5324.4,Pagado
+556,PG00556,556,2026-06-23,Agente autorizado,45.00,Pagado
+557,PG00557,557,2026-02-26,Tarjeta,3084.25,Pagado
+558,PG00558,558,2026-02-04,Débito automático,0.0,Anulado
+559,PG00559,559,2026-01-17,Yape/Plin,68.94,Pagado
+560,PG00560,560,2026-05-04,Agente autorizado,1023.00,Pagado
+561,PG00561,561,2026-04-20,Tarjeta,946.04,Pagado
+562,PG00562,562,2026-02-04,Débito automático,0.0,Anulado
+563,PG00563,563,,Yape/Plin,0.00,Pagado
+564,PG00564,564,2026-05-10,Agente autorizado,7510.76,pagado
+565,PG00565,565,2026-06-03,Tarjeta,0.0,Anulado
+566,PG00566,566,2026-06-05,Débito automático,3427.72,Pagado
+567,PG00567,567,,Yape/Plin,3882.98,Pagado
+568,PG00568,568,2026-02-24,Agente autorizado,250.70,Pagado
+569,PG00569,569,2026-04-14,Tarjeta,0.0,Anulado
+570,PG00570,570,2026-01-26,Débito automático,260.24,Pagado
+571,PG00571,571,2026-03-17,Yape/Plin,0.0,Anulado
+572,PG00572,572,2026-04-23,Agente autorizado,2148.67,Pagado
+573,PG00573,573,2026-05-10,Tarjeta,372.74,Pagado
+574,PG00574,574,2026-01-26,Débito automático,655.98,Pagado
+575,PG00575,575,2026-06-19,Yape/Plin,164.70,Pagado
+576,PG00576,576,2025-12-25,Agente autorizado,290.49,Pagado
+577,PG00577,577,2026-01-17,Tarjeta,45.00,Pagado
+578,PG00578,578,2026-03-27,Débito automático,13395.31,Pagado
+579,PG00579,579,2026-03-20,Yape/Plin,975.49,Pagado
+580,PG00580,580,2026-01-01,Agente autorizado,0.0,Anulado
+581,PG00581,581,2026-01-20,Tarjeta,0.0,Anulado
+582,PG00582,582,2026-03-11,Débito automático,2748.10,Pagado
+583,PG00583,583,2026-02-01,Yape/Plin,96.83,Pagado
+584,PG00584,584,2026-03-24,Agente autorizado,543.34,Pagado
+585,PG00585,585,2026-01-20,Tarjeta,0.0,Anulado
+586,PG00586,586,2026-04-25,Débito automático,0.0,Anulado
+587,PG00587,587,2026-02-23,Yape/Plin,0.00,Pagado
+588,PG00588,588,2026-06-15,Agente autorizado,180.00,Pagado
+589,PG00589,589,2026-02-20,Tarjeta,137.67,Pagado
+590,PG00590,590,2026-04-04,Débito automático,899.50,Pagado
+591,PG00591,591,2026-01-28,Yape/Plin,0.0,Anulado
+592,PG00592,592,2026-02-03,Agente autorizado,1045.83,Pagado
+593,PG00593,593,2026-06-07,Tarjeta,1905.32,Pagado
+594,PG00594,594,2026-04-10,Débito automático,0.0,Anulado
+595,PG00595,595,2025-12-02,Yape/Plin,4052.35,Pagado
+596,PG00596,596,2026-04-26,Agente autorizado,0.0,Anulado
+597,PG00597,597,2026-03-23,Tarjeta,0.0,Anulado
+598,PG00598,598,2026-02-27,Débito automático,266.1,pagado
+599,PG00599,599,2026-01-02,Yape/Plin,683.80,Pagado
+600,PG00600,600,2026-06-05,Agente autorizado,903.44,Pagado
+601,PG00601,601,2026-02-04,Tarjeta,3292.25,Pagado
+602,PG00602,602,2026-03-10,Débito automático,663.75,Parcial
+603,PG00603,603,2026-05-16,Yape/Plin,1323.32,Pagado
+604,PG00604,604,2026-03-19,Agente autorizado,9746.84,Pagado
+605,PG00605,605,2026-04-21,Tarjeta,470.56,Pagado
+606,PG00606,606,2026-02-28,Débito automático,0.0,Anulado
+607,PG00607,607,2026-02-10,Yape/Plin,0.0,Anulado
+608,PG00608,608,2026-05-01,Agente autorizado,233.16,parcial
+609,PG00609,609,2026-03-24,Tarjeta,551.38,Pagado
+610,PG00610,610,2026-01-27,Débito automático,45.00,Pagado
+611,PG00611,611,2026-01-12,Yape/Plin,1133.71,Pagado
+612,PG00612,612,2026-02-09,Agente autorizado,5749.10,Pagado
+613,PG00613,613,2026-06-13,Tarjeta,0.0,Anulado
+614,PG00614,614,2026-03-23,Débito automático,0.0,Anulado
+615,PG00615,615,2026-03-28,Yape/Plin,251.78,Pagado
+616,PG00616,616,2026-03-04,Agente autorizado,3144.64,Pagado
+617,PG00617,617,2026-03-19,Tarjeta,84.64,Pagado
+618,PG00618,618,2026-01-18,Débito automático,1009.15,Pagado
+619,PG00619,619,2026-05-25,Yape/Plin,0.0,Anulado
+620,PG00620,620,2026-05-03,Agente autorizado,93.92,Pagado
+621,PG00621,621,2026-01-07,Tarjeta,0.0,Anulado
+622,PG00622,622,2026-05-24,Débito automático,519.60,Pagado
+623,PG00623,623,2026-05-12,Yape/Plin,22.74,Pagado
+624,PG00624,624,2026-03-15,Agente autorizado,180.00,Pagado
+625,PG00625,625,2026-04-12,Tarjeta,1170.26,Pagado
+626,PG00626,626,2026-05-26,Débito automático,2145.95,Pagado
+627,PG00627,627,2026-06-06,Yape/Plin,1022.22,Pagado
+628,PG00628,628,2026-05-05,Agente autorizado,9369.80,Pagado
+629,PG00629,629,2026-03-02,Tarjeta,979.74,Pagado
+630,PG00630,630,2026-02-25,Débito automático,2309.85,Pagado
+631,PG00631,631,2026-02-21,Yape/Plin,57.45,Pagado
+632,PG00632,632,2026-01-19,Agente autorizado,193.66,Pagado
+633,PG00633,633,2026-02-20,Tarjeta,7400.00,Pagado
+634,PG00634,634,2026-01-13,Débito automático,0.0,Anulado
+635,PG00635,635,2026-01-27,Yape/Plin,0.0,Anulado
+636,PG00636,636,2026-01-01,Agente autorizado,0.0,Anulado
+637,PG00637,637,2026-01-17,Tarjeta,0.0,Anulado
+638,PG00638,638,2026-06-17,Débito automático,248.84,Pagado
+639,PG00639,639,2026-05-02,Yape/Plin,359.80,Pagado
+640,PG00640,640,2026-05-23,Agente autorizado,0.0,Anulado
+641,PG00641,641,2026-02-09,Tarjeta,160.44,Pagado
+642,PG00642,642,2026-01-02,Débito automático,322.86,Pagado
+643,PG00643,643,2026-02-12,Yape/Plin,51.88,Pagado
+644,PG00644,644,2026-05-09,Agente autorizado,959.70,Pagado
+645,PG00645,645,2026-02-20,Tarjeta,651.55,Pagado
+646,PG00646,646,2026-02-13,Débito automático,0.0,Anulado
+647,PG00647,647,2026-05-01,Yape/Plin,6050.16,Pagado
+648,PG00648,648,2026-03-20,Agente autorizado,569.70,Pagado
+649,PG00649,649,2026-04-07,Tarjeta,1127.64,Pagado
+650,PG00650,650,2026-04-28,Débito automático,3072.60,Pagado
+651,PG00651,651,2026-06-01,Yape/Plin,940.02,Parcial
+652,PG00652,652,2026-04-10,Agente autorizado,712.34,Pagado
+653,PG00653,653,2026-04-11,Tarjeta,0.0,Anulado
+654,PG00654,654,2026-02-27,Débito automático,870.29,Parcial
+655,PG00655,655,2026-05-17,Yape/Plin,4149.26,Parcial
+656,PG00656,656,2026-02-09,Agente autorizado,2995.41,Parcial
+657,PG00657,657,2026-06-20,Tarjeta,1386.45,Parcial
+658,PG00658,658,,Débito automático,7900.16,Pagado
+659,PG00659,659,2026-02-27,Yape/Plin,0.0,Anulado
+660,PG00660,660,2026-05-01,Agente autorizado,506.58,Pagado
+661,PG00661,661,2026-05-03,Tarjeta,329.40,Pagado
+662,PG00662,662,2026-01-20,Débito automático,105.00,Pagado
+663,PG00663,663,2026-02-21,Yape/Plin,779.14,Pagado
+664,PG00664,664,2026-05-20,Agente autorizado,0.0,Anulado
+665,PG00665,665,2026-05-09,Tarjeta,1560.30,Pagado
+666,PG00666,666,2026-04-10,Débito automático,68.19,Parcial
+667,PG00667,667,2026-05-01,Yape/Plin,1156.13,Pagado
+668,PG00668,668,2026-05-25,Agente autorizado,0.0,Anulado
+669,PG00669,669,2026-02-18,Tarjeta,653.16,Pagado
+670,PG00670,670,2026-03-07,Débito automático,0.0,Anulado
+671,PG00671,671,2026-06-13,Yape/Plin,0.0,Anulado
+672,PG00672,672,2026-05-10,Agente autorizado,0.0,Anulado
+673,PG00673,673,2026-05-23,Tarjeta,2157.72,Parcial
+674,PG00674,674,2026-05-20,Débito automático,964.00,Pagado
+675,PG00675,675,2026-04-15,Yape/Plin,702.48,Parcial
+676,PG00676,676,2026-05-24,Agente autorizado,178.00,Pagado
+677,PG00677,677,2026-03-06,Tarjeta,7.58,Pagado
+678,PG00678,678,2026-01-07,Débito automático,115.20,Pagado
+679,PG00679,679,2026-04-07,Yape/Plin,4434.32,Pagado
+680,PG00680,680,2026-01-24,Agente autorizado,0.0,Anulado
+681,PG00681,681,2026-03-25,Tarjeta,0.0,Anulado
+682,PG00682,682,2026-06-12,Débito automático,105.16,Pagado
+683,PG00683,683,2026-01-28,Yape/Plin,1701.76,Pagado
+684,PG00684,684,2026-03-09,Agente autorizado,89.00,Pagado
+685,PG00685,685,2026-03-23,Tarjeta,550.90,Pagado
+686,PG00686,686,2026-03-02,Débito automático,0.0,Anulado
+687,PG00687,687,2026-01-01,Yape/Plin,407.32,Pagado
+688,PG00688,688,2026-05-06,Agente autorizado,182.13,Pagado
+689,PG00689,689,2026-04-24,Tarjeta,3828.72,Parcial
+690,PG00690,690,2026-02-22,Débito automático,0.0,Anulado
+691,PG00691,691,2026-01-07,Yape/Plin,45.00,Pagado
+692,PG00692,692,2026-02-19,Agente autorizado,439.50,Pagado
+693,PG00693,693,2026-02-13,Tarjeta,4165.34,Pagado
+694,PG00694,694,,Débito automático,60.00,Pagado
+695,PG00695,695,2026-06-22,Yape/Plin,2066.16,Parcial
+696,PG00696,696,2026-05-06,Agente autorizado,627.81,Pagado
+697,PG00697,697,2026-01-19,Tarjeta,754.46,Pagado
+698,PG00698,698,2026-05-01,Débito automático,12668.53,Pagado
+699,PG00699,699,2026-03-26,Yape/Plin,3461.4,Pagado
+700,PG00700,700,2026-02-13,Agente autorizado,259.0,Parcial
+701,PG00701,701,2026-04-18,Tarjeta,0.0,Anulado
+702,PG00702,702,2026-05-09,Débito automático,1695.55,Pagado
+703,PG00703,703,2026-04-26,Yape/Plin,789.08,Pagado
+704,PG00704,704,2026-04-15,Agente autorizado,239.00,Pagado
+705,PG00705,705,2026-03-11,Tarjeta,1599.0,pagado
+706,PG00706,706,2026-01-08,Débito automático,2191.35,Pagado
+707,PG00707,707,2026-02-07,Yape/Plin,5547.12,Pagado
+708,PG00708,708,2026-06-09,Agente autorizado,790.45,Pagado
+709,PG00709,709,2026-01-08,Tarjeta,671.90,Pagado
+710,PG00710,710,2026-01-01,Débito automático,119.80,Pagado
+711,PG00711,711,2026-03-04,Yape/Plin,0.0,Anulado
+712,PG00712,712,2026-04-17,Agente autorizado,1804.86,Parcial
+713,PG00713,713,2026-01-02,Tarjeta,0.0,Anulado
+714,PG00714,714,2026-01-06,Débito automático,807.01,Pagado
+715,PG00715,715,2026-03-05,Yape/Plin,0.0,Anulado
+716,PG00716,716,2026-01-10,Agente autorizado,34.82,Pagado
+717,PG00717,717,2026-01-19,Tarjeta,0.0,Anulado
+718,PG00718,718,2026-01-06,Débito automático,263.73,Parcial
+719,PG00719,719,2026-05-21,Yape/Plin,3960.48,Pagado
+720,PG00720,720,2026-05-09,Agente autorizado,4198.88,Pagado
+721,PG00721,721,,Tarjeta,1945.56,Pagado
+722,PG00722,722,2026-02-28,Débito automático,384.46,pagado
+723,PG00723,723,2026-02-09,Yape/Plin,5041.80,Pagado
+724,PG00724,724,2026-06-09,Agente autorizado,6971.61,Pagado
+725,PG00725,725,2026-03-01,Tarjeta,3665.03,Parcial
+726,PG00726,726,2026-03-16,Débito automático,1167.30,Pagado
+727,PG00727,727,2026-03-03,Yape/Plin,638.40,Pagado
+728,PG00728,728,2026-02-10,Agente autorizado,674.40,Pagado
+729,PG00729,729,2026-03-10,Tarjeta,0.00,Pagado
+730,PG00730,730,2026-02-09,Débito automático,82.17,Parcial
+731,PG00731,731,2026-01-09,Yape/Plin,304.42,Parcial
+732,PG00732,732,2026-02-12,Agente autorizado,0.0,Anulado
+733,PG00733,733,2026-02-14,Tarjeta,816.45,Pagado
+734,PG00734,734,2026-02-15,Débito automático,0.0,Anulado
+735,PG00735,735,2026-04-01,Yape/Plin,5090.89,Pagado
+736,PG00736,736,2026-03-05,Agente autorizado,104.46,Pagado
+737,PG00737,737,2026-05-09,Tarjeta,760.55,Pagado
+738,PG00738,738,2026-05-08,Débito automático,374.53,Pagado
+739,PG00739,739,2026-01-21,Yape/Plin,1196.08,Pagado
+740,PG00740,740,2026-01-09,Agente autorizado,6414.06,Pagado
+741,PG00741,741,2026-06-07,Tarjeta,0.0,Anulado
+742,PG00742,742,2026-05-15,Débito automático,446.95,Pagado
+743,PG00743,743,2026-01-18,Yape/Plin,0.0,Anulado
+744,PG00744,744,2026-05-27,Agente autorizado,1049.96,Pagado
+745,PG00745,745,2026-01-26,Tarjeta,435.14,Pagado
+746,PG00746,746,2026-03-17,Débito automático,11207.90,Pagado
+747,PG00747,747,2026-01-03,Yape/Plin,0.0,Anulado
+748,PG00748,748,2026-04-26,Agente autorizado,3867.80,Pagado
+749,PG00749,749,2026-06-09,Tarjeta,551.19,Pagado
+750,PG00750,750,2026-05-05,Débito automático,326.72,Pagado
+751,PG00751,751,2026-06-06,Yape/Plin,3700.00,Pagado
+752,PG00752,752,2026-04-03,Agente autorizado,0.0,Anulado
+753,PG00753,753,2026-01-06,Tarjeta,0.0,Anulado
+754,PG00754,754,2026-06-16,Débito automático,0.0,Anulado
+755,PG00755,755,2026-01-11,Yape/Plin,130.97,Parcial
+756,PG00756,756,2026-03-24,Agente autorizado,0.0,Anulado
+757,PG00757,757,2026-04-18,Tarjeta,382.78,Pagado
+758,PG00758,758,2026-05-02,Débito automático,0.0,Anulado
+759,PG00759,759,2026-02-21,Yape/Plin,0.0,Anulado
+760,PG00760,760,2026-01-23,Agente autorizado,1497.85,Pagado
+761,PG00761,761,2026-06-16,Tarjeta,0.00,Pagado
+762,PG00762,762,2026-05-24,Débito automático,674.40,Pagado
+763,PG00763,763,2026-04-19,Yape/Plin,780.90,Pagado
+764,PG00764,764,2026-04-28,Agente autorizado,120.00,Pagado
+765,PG00765,765,2026-05-12,Tarjeta,4177.80,Pagado
+766,PG00766,766,2026-05-23,Débito automático,655.6,Pagado
+767,PG00767,767,2026-04-15,Yape/Plin,1977.46,Pagado
+768,PG00768,768,2026-02-18,Agente autorizado,796.86,Parcial
+769,PG00769,769,2026-05-15,Tarjeta,8678.94,Pagado
+770,PG00770,770,2026-03-24,Débito automático,1739.26,Pagado
+771,PG00771,771,2026-05-10,Yape/Plin,1827.42,Pagado
+772,PG00772,772,2026-04-11,Agente autorizado,77.5,Parcial
+773,PG00773,773,2026-01-19,Tarjeta,1315.40,Pagado
+774,PG00774,774,2026-05-22,Débito automático,514.99,Parcial
+775,PG00775,775,2026-04-24,Yape/Plin,0.0,Anulado
+776,PG00776,776,2026-06-16,Agente autorizado,4222.38,Pagado
+777,PG00777,777,2026-02-12,Tarjeta,40.11,Pagado
+778,PG00778,778,2026-01-20,Débito automático,276.70,Pagado
+779,PG00779,779,2026-03-25,Yape/Plin,0.0,Anulado
+780,PG00780,780,2026-06-13,Agente autorizado,1469.15,Parcial
+781,PG00781,781,2026-06-21,Tarjeta,0.0,Anulado
+782,PG00782,782,2026-03-19,Débito automático,762.49,Pagado
+783,PG00783,783,2026-06-10,Yape/Plin,252.21,Parcial
+784,PG00784,784,2026-03-28,Agente autorizado,45.48,Pagado
+785,PG00785,785,2026-05-09,Tarjeta,0.0,Anulado
+786,PG00786,786,2026-06-23,Débito automático,0.0,Anulado
+787,PG00787,787,2026-06-22,Yape/Plin,585.00,Pagado
+788,PG00788,788,2026-06-11,Agente autorizado,0.0,Anulado
+789,PG00789,789,2026-06-21,Tarjeta,479.40,Pagado
+790,PG00790,790,2026-04-05,Débito automático,443.20,Pagado
+791,PG00791,791,2026-04-14,Yape/Plin,309.64,Pagado
+792,PG00792,792,2026-06-10,Agente autorizado,2528.36,Pagado
+793,PG00793,793,2026-01-10,Tarjeta,809.82,Pagado
+794,PG00794,794,2026-02-13,Débito automático,6164.70,Pagado
+795,PG00795,795,2026-04-09,Yape/Plin,0.0,Anulado
+796,PG00796,796,2025-12-18,Agente autorizado,1469.07,pagado
+797,PG00797,797,2026-02-17,Tarjeta,261.63,Pagado
+798,PG00798,798,2026-06-14,Débito automático,15.16,Pagado
+799,PG00799,799,2026-01-20,Yape/Plin,57.45,Pagado
+800,PG00800,800,2026-04-24,Agente autorizado,242.46,Pagado
+801,PG00801,801,2026-01-12,Tarjeta,2565.84,Pagado
+802,PG00802,802,2026-01-12,Débito automático,980.05,Parcial
+803,PG00803,803,,Yape/Plin,0.0,Anulado
+804,PG00804,804,2026-05-26,Agente autorizado,511.46,Pagado
+805,PG00805,805,2026-05-12,Tarjeta,911.64,Parcial
+806,PG00806,806,2026-04-24,Débito automático,1290.08,Parcial
+807,PG00807,807,2026-02-22,Yape/Plin,0.0,Anulado
+808,PG00808,808,2026-02-03,Agente autorizado,1144.83,Pagado
+809,PG00809,809,2026-02-22,Tarjeta,1151.20,Pagado
+810,PG00810,810,2026-06-06,Débito automático,0.0,Anulado
+811,PG00811,811,2026-03-11,Yape/Plin,2723.12,Pagado
+812,PG00812,812,2026-06-22,Agente autorizado,1598.00,Pagado
+813,PG00813,813,2026-04-15,Tarjeta,3258.89,Pagado
+814,PG00814,814,2026-02-24,Débito automático,746.08,Pagado
+815,PG00815,815,2026-03-07,Yape/Plin,3025.08,Pagado
+816,PG00816,816,2026-05-07,Agente autorizado,0.0,Anulado
+817,PG00817,817,2026-03-11,Tarjeta,3555.97,Pagado
+818,PG00818,818,2026-01-27,Débito automático,1079.40,Pagado
+819,PG00819,819,2026-06-05,Yape/Plin,0.0,Anulado
+820,PG00820,820,2026-06-26,Agente autorizado,0.0,anulado
+821,PG00821,821,2026-06-07,Tarjeta,851.50,Pagado
+822,PG00822,822,2026-04-13,Débito automático,0.0,Anulado
+823,PG00823,823,2026-04-17,Yape/Plin,0.0,Anulado
+824,PG00824,824,2026-05-21,Agente autorizado,0.0,Anulado
+825,PG00825,825,2026-05-20,Tarjeta,1455.24,Pagado
+826,PG00826,826,2026-04-15,Débito automático,776.94,Pagado
+827,PG00827,827,2026-04-07,Yape/Plin,0.0,Anulado
+828,PG00828,828,2026-04-06,Agente autorizado,869.40,Pagado
+829,PG00829,829,2026-04-07,Tarjeta,1259.00,Pagado
+830,PG00830,830,2026-06-05,Débito automático,1542.27,Pagado
+831,PG00831,831,2026-03-19,Yape/Plin,0.0,Anulado
+832,PG00832,832,2026-01-12,Agente autorizado,59.80,Pagado
+833,PG00833,833,2026-01-01,Tarjeta,811.07,Parcial
+834,PG00834,834,2026-02-28,Débito automático,0.0,Anulado
+835,PG00835,835,2026-06-06,Yape/Plin,0.0,Anulado
+836,PG00836,836,2026-05-20,Agente autorizado,0.0,Anulado
+837,PG00837,837,2026-04-22,Tarjeta,1842.25,Pagado
+838,PG00838,838,2026-01-06,Débito automático,230.52,Pagado
+839,PG00839,839,2026-04-26,Yape/Plin,335.00,Pagado
+840,PG00840,840,2026-03-25,Agente autorizado,72.18,Pagado
+841,PG00841,841,2026-02-08,Tarjeta,83.90,Pagado
+842,PG00842,842,2026-01-06,Débito automático,96.83,Pagado
+843,PG00843,843,2026-06-06,Yape/Plin,90.00,Pagado
+844,PG00844,844,2026-06-28,Agente autorizado,1642.82,Parcial
+845,PG00845,845,2026-03-20,Tarjeta,338.49,Parcial
+846,PG00846,846,2026-05-06,Débito automático,1278.28,Pagado
+847,PG00847,847,2026-05-06,Yape/Plin,3320.46,Pagado
+848,PG00848,848,2026-05-20,Agente autorizado,290.49,Pagado
+849,PG00849,849,2026-02-11,Tarjeta,3369.90,Pagado
+850,PG00850,850,2026-05-12,Débito automático,0.0,Anulado
+851,PG00851,851,2026-01-25,Yape/Plin,344.50,Pagado
+852,PG00852,852,2026-01-08,Agente autorizado,240.00,Pagado
+853,PG00853,853,2026-02-10,Tarjeta,2016.72,Pagado
+854,PG00854,854,2026-03-24,Débito automático,0.0,Anulado
+855,PG00855,855,2026-01-04,Yape/Plin,1369.33,Pagado
+856,PG00856,856,2026-03-03,Agente autorizado,553.86,Pagado
+857,PG00857,857,2026-02-21,Tarjeta,7426.39,Pagado
+858,PG00858,858,2026-06-18,Débito automático,0.0,Anulado
+859,PG00859,859,2026-05-24,Yape/Plin,0.0,Anulado
+860,PG00860,860,2026-06-07,Agente autorizado,274.33,Parcial
+861,PG00861,861,2026-02-20,Tarjeta,2928.12,Pagado
+862,PG00862,862,2026-06-11,Débito automático,750.7,Parcial
+863,PG00863,863,2026-03-18,Yape/Plin,150.64,Pagado
+864,PG00864,864,2026-01-22,Agente autorizado,278.34,Pagado
+865,PG00865,865,2026-06-08,Tarjeta,311.11,Pagado
+866,PG00866,866,2026-03-28,Débito automático,10082.28,Pagado
+867,PG00867,867,2026-03-03,Yape/Plin,11140.00,Pagado
+868,PG00868,868,2026-01-22,Agente autorizado,2268.48,Pagado
+869,PG00869,869,2026-01-25,Tarjeta,475.04,Pagado
+870,PG00870,870,2026-04-11,Débito automático,20.00,Pagado
+871,PG00871,871,2026-06-11,Yape/Plin,5167.21,parcial
+872,PG00872,872,2026-02-25,Agente autorizado,4030.92,Pagado
+873,PG00873,873,2026-06-19,Tarjeta,0.0,Anulado
+874,PG00874,874,2025-12-02,Débito automático,762.24,Pagado
+875,PG00875,875,2026-03-09,Yape/Plin,0.0,Anulado
+876,PG00876,876,2026-04-26,Agente autorizado,0.0,Anulado
+877,PG00877,877,2026-06-18,Tarjeta,0.0,Anulado
+878,PG00878,878,2026-05-23,Débito automático,0.0,Anulado
+879,PG00879,879,2026-04-28,Yape/Plin,339.90,Pagado
+880,PG00880,880,2026-03-02,Agente autorizado,1648.86,Pagado
+881,PG00881,881,2026-01-24,Tarjeta,0.0,Anulado
+882,PG00882,882,2026-04-16,Débito automático,37.90,Pagado
+883,PG00883,883,2026-02-14,Yape/Plin,2251.92,Pagado
+884,PG00884,884,2026-01-19,Agente autorizado,623.60,Pagado
+885,PG00885,885,2026-05-04,Tarjeta,1205.26,Pagado
+886,PG00886,886,2026-01-27,Débito automático,4183.44,Pagado
+887,PG00887,887,2026-04-07,Yape/Plin,0.00,Pagado
+888,PG00888,888,2025-12-14,Agente autorizado,839.14,Pagado
+889,PG00889,889,2026-01-07,Tarjeta,155.90,Pagado
+890,PG00890,890,2026-06-21,Débito automático,179.50,Pagado
+891,PG00891,891,2026-03-01,Yape/Plin,0.00,Pagado
+892,PG00892,892,2026-03-24,Agente autorizado,0.0,Anulado
+893,PG00893,893,2026-04-01,Tarjeta,3224.50,Pagado
+894,PG00894,894,2026-05-02,Débito automático,2790.3,Pagado
+895,PG00895,895,2026-01-04,Yape/Plin,0.0,Anulado
+896,PG00896,896,2026-05-16,Agente autorizado,11140.11,Pagado
+897,PG00897,897,2026-05-22,Tarjeta,5087.76,Pagado
+898,PG00898,898,2026-06-20,Débito automático,389.70,Pagado
+899,PG00899,899,2026-03-04,Yape/Plin,1816.42,Parcial
+900,PG00900,900,2026-04-10,Agente autorizado,692.28,Pagado
+901,PG00901,901,2026-04-26,Tarjeta,0.0,Anulado
+902,PG00902,902,2026-03-24,Débito automático,221.91,Parcial
+903,PG00903,903,2026-04-15,Yape/Plin,1464.14,Parcial
+904,PG00904,904,2026-03-16,Agente autorizado,225.00,Pagado
+905,PG00905,905,2026-02-28,Tarjeta,1227.64,Parcial
+906,PG00906,906,2026-04-10,Débito automático,783.67,Pagado
+907,PG00907,907,2026-04-19,Yape/Plin,961.30,Pagado
+908,PG00908,908,2026-06-03,Agente autorizado,1390.26,Pagado
+909,PG00909,909,2026-04-09,Tarjeta,0.0,anulado
+910,PG00910,910,2026-02-07,Débito automático,3731.55,Pagado
+911,PG00911,911,2026-03-23,Yape/Plin,72.18,Pagado
+912,PG00912,912,2026-05-19,Agente autorizado,857.40,Pagado
+913,PG00913,913,2026-02-09,Tarjeta,30.00,Pagado
+914,PG00914,914,2026-05-02,Débito automático,5443.89,Pagado
+915,PG00915,915,2026-02-18,Yape/Plin,2442.33,Pagado
+916,PG00916,916,2026-01-24,Agente autorizado,0.0,Anulado
+917,PG00917,917,2026-04-24,Tarjeta,0.0,anulado
+918,PG00918,918,2026-01-17,Débito automático,896.45,Pagado
+919,PG00919,919,2026-06-27,Yape/Plin,1605.64,Parcial
+920,PG00920,920,2026-02-26,Agente autorizado,789.17,Pagado
+921,PG00921,921,2026-01-14,Tarjeta,1691.09,Parcial
+922,PG00922,922,2026-05-03,Débito automático,0.0,Anulado
+923,PG00923,923,2026-03-12,Yape/Plin,0.0,Anulado
+924,PG00924,924,2026-02-19,Agente autorizado,419.50,Pagado
+925,PG00925,925,2026-04-22,Tarjeta,4309.24,Pagado
+926,PG00926,926,2026-06-04,Débito automático,2198.48,Pagado
+927,PG00927,927,2026-02-24,Yape/Plin,1472.82,Pagado
+928,PG00928,928,2026-05-10,Agente autorizado,206.85,Pagado
+929,PG00929,929,2026-04-18,Tarjeta,1223.06,Parcial
+930,PG00930,930,2026-01-12,Débito automático,3029.91,pagado
+931,PG00931,931,2026-02-14,Yape/Plin,440.80,Pagado
+932,PG00932,932,2026-04-25,Agente autorizado,335.57,Pagado
+933,PG00933,933,2026-02-22,Tarjeta,331.0,Parcial
+934,PG00934,934,2026-04-14,Débito automático,678.36,Pagado
+935,PG00935,935,2025-12-27,Yape/Plin,577.60,Pagado
+936,PG00936,936,2026-03-17,Agente autorizado,11100.00,Pagado
+937,PG00937,937,2026-05-04,Tarjeta,667.56,Pagado
+938,PG00938,938,2026-06-19,Débito automático,330.66,Pagado
+939,PG00939,939,2026-03-03,Yape/Plin,0.0,Anulado
+940,PG00940,940,2026-04-20,Agente autorizado,2359.06,Pagado
+941,PG00941,941,2026-06-17,Tarjeta,493.08,Pagado
+942,PG00942,942,2026-01-18,Débito automático,855.16,Pagado
+943,PG00943,943,2026-04-18,Yape/Plin,2505.90,Pagado
+944,PG00944,944,2026-02-27,Agente autorizado,148.94,Parcial
+945,PG00945,945,2026-01-12,Tarjeta,0.0,Anulado
+946,PG00946,946,2026-05-14,Débito automático,6277.62,Pagado
+947,PG00947,947,2026-06-04,Yape/Plin,0.0,Anulado
+948,PG00948,948,2026-02-25,Agente autorizado,687.63,Pagado
+949,PG00949,949,2026-01-01,Tarjeta,836.02,Pagado
+950,PG00950,950,2026-01-11,Débito automático,0.0,Anulado
+951,PG00951,951,2026-03-20,Yape/Plin,772.54,Pagado
+952,PG00952,952,2026-03-21,Agente autorizado,0.0,Anulado
+953,PG00953,953,2026-04-11,Tarjeta,0.0,Anulado
+954,PG00954,954,2026-03-07,Débito automático,549.73,Pagado
+955,PG00955,955,2026-06-18,Yape/Plin,0.0,Anulado
+956,PG00956,956,2026-02-04,Agente autorizado,821.92,Pagado
+957,PG00957,957,2026-02-28,Tarjeta,1436.49,pagado
+958,PG00958,958,2026-06-28,Débito automático,0.0,Anulado
+959,PG00959,959,2026-06-18,Yape/Plin,534.70,Pagado
+960,PG00960,960,2026-03-17,Agente autorizado,467.54,Pagado
+961,PG00961,961,2026-05-01,Tarjeta,0.0,Anulado
+962,PG00962,962,2026-05-19,Débito automático,40.00,Pagado
+963,PG00963,963,2026-06-22,Yape/Plin,3025.08,Pagado
+964,PG00964,964,2026-02-22,Agente autorizado,301.19,Pagado
+965,PG00965,965,2026-03-09,Tarjeta,335.60,Pagado
+966,PG00966,966,2026-03-22,Débito automático,12499.66,Pagado
+967,PG00967,967,2026-04-06,Yape/Plin,0.0,Anulado
+968,PG00968,968,2026-04-24,Agente autorizado,90.00,Pagado
+969,PG00969,969,2026-01-02,Tarjeta,210.00,Pagado
+970,PG00970,970,2026-01-26,Débito automático,1033.68,Parcial
+971,PG00971,971,2026-06-01,Yape/Plin,72.18,Pagado
+972,PG00972,972,2026-04-23,Agente autorizado,669.81,Pagado
+973,PG00973,973,2026-01-28,Tarjeta,713.31,Pagado
+974,PG00974,974,2026-04-12,Débito automático,2319.02,Pagado
+975,PG00975,975,2026-05-07,Yape/Plin,193.66,Pagado
+976,PG00976,976,2026-03-04,Agente autorizado,1259.10,Pagado
+977,PG00977,977,2026-06-08,Tarjeta,42.41,Pagado
+978,PG00978,978,2026-06-04,Débito automático,193.66,Pagado
+979,PG00979,979,2026-05-05,Yape/Plin,7046.01,Pagado
+980,PG00980,980,2026-03-19,Agente autorizado,6393.02,Pagado
+981,PG00981,981,2026-01-17,Tarjeta,433.08,Pagado
+982,PG00982,982,2026-01-25,Débito automático,2016.72,Pagado
+983,PG00983,983,2026-01-15,Yape/Plin,791.40,Pagado
+984,PG00984,984,2026-06-12,Agente autorizado,0.0,anulado
+985,PG00985,985,2026-03-28,Tarjeta,3722.98,Pagado
+986,PG00986,986,2026-02-04,Débito automático,4494.74,Pagado
+987,PG00987,987,2026-06-19,Yape/Plin,11749.50,Pagado
+988,PG00988,988,2026-02-03,Agente autorizado,4128.34,Pagado
+989,PG00989,989,2026-04-02,Tarjeta,1080.06,Pagado
+990,PG00990,990,2026-05-15,Débito automático,310.00,Pagado
+991,PG00991,991,2026-01-19,Yape/Plin,1015.50,Pagado
+992,PG00992,992,2026-06-03,Agente autorizado,0.0,Anulado
+993,PG00993,993,2026-02-25,Tarjeta,3700.00,Pagado
+994,PG00994,994,2026-04-13,Débito automático,158.63,Parcial
+995,PG00995,995,2026-06-10,Yape/Plin,1510.44,Pagado
+996,PG00996,996,2026-01-19,Agente autorizado,149.50,Pagado
+997,PG00997,997,2026-02-17,Tarjeta,0.0,Anulado
+998,PG00998,998,2026-05-20,Débito automático,120.00,Pagado
+999,PG00999,999,2026-04-03,Yape/Plin,7437.90,Pagado
+1000,PG01000,1000,2026-06-21,Agente autorizado,715.40,Pagado
