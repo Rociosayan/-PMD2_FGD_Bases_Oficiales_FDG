@@ -1,501 +1,1011 @@
-﻿id_operacion,codigo_operacion,id_entidad,id_sede,id_producto,fecha_operacion,cantidad,monto_total,estado,canal
-1,O00001,78,1,11,2026-03-22,2,636.25,Completado,App
-2,O00002,74,3,6,2026-05-30,6,1974.76,Completado,App
-3,O00003,8,4,15,2026-02-11,2,131.0,Completado,Call Center
-4,O00004,71,6,1,2026-01-10,2,133.71,Completado,Presencial
-5,O00005,22,3,9,2026-03-14,3,782.46,Completado,Presencial
-6,O00006,21,2,15,2026-03-29,2,147.04,Completado,Web
-7,O00007,72,5,1,2026-02-12,1,68.93,Completado,Call Center
-8,O00008,61,1,8,2026-05-01,3,264.27,Completado,Call Center
-9,O00009,72,3,15,2026-02-24,5,349.91,Observado,Web
-10,O00010,31,2,13,2026-02-09,5,1634.7,Completado,Presencial
-11,O00011,20,4,7,2026-01-29,1,267.52,Observado,App
-12,O00012,46,1,1,2026-05-10,1,51.33,Completado,Presencial
-13,O00013,76,3,2,2026-06-03,5,1591.51,Completado,Presencial
-14,O00014,46,3,9,2026-02-05,2,522.29,Pendiente,Call Center
-15,O00015,13,3,4,2026-06-28,6,1139.59,Completado,Call Center
-16,O00016,51,2,8,2026-05-24,3,254.03,Observado,Web
-17,O00017,13,1,8,2026-03-09,3,283.01,Observado,Presencial
-18,O00018,22,1,12,2026-05-31,6,830.15,Completado,Presencial
-19,O00019,2,4,6,2026-06-25,5,1569.21,Completado,Web
-20,O00020,45,1,5,2026-01-11,4,891.0,Completado,Call Center
-21,O00021,21,1,15,2026-01-27,1,67.02,Completado,App
-22,O00022,64,3,4,2026-03-14,5,900.4,Completado,Presencial
-23,O00023,16,2,4,2026-04-29,6,1429.49,Completado,Presencial
-24,O00024,41,4,15,2026-05-22,4,254.4,Completado,Web
-25,O00025,50,5,12,2026-04-04,2,284.38,Completado,Call Center
-26,O00026,28,1,3,2026-03-15,4,735.31,Completado,Web
-27,O00027,80,6,4,2026-06-19,1,235.43,Completado,Web
-28,O00028,33,6,1,2026-01-03,4,296.29,Completado,Presencial
-29,O00029,59,1,8,2026-01-11,6,601.84,Completado,Presencial
-30,O00030,11,1,7,2026-02-03,3,744.09,Observado,Web
-31,O00031,20,3,3,2026-01-25,2,375.0,Observado,Web
-32,O00032,73,5,1,2026-05-03,6,387.45,Completado,Web
-33,O00033,52,1,1,2026-03-04,3,219.89,Completado,Presencial
-34,O00034,11,4,12,2026-02-10,4,672.88,Completado,Presencial
-35,O00035,63,6,5,2026-01-25,4,1061.12,Cancelado,App
-36,O00036,43,4,7,2026-05-10,5,1089.53,Completado,App
-37,O00037,17,2,7,2026-03-19,6,1251.63,Cancelado,Presencial
-38,O00038,80,1,1,2026-06-18,4,208.1,Completado,Web
-39,O00039,66,5,5,2026-02-11,6,1861.75,Completado,App
-40,O00040,80,4,6,2026-04-22,5,1701.54,Cancelado,Call Center
-41,O00041,70,6,6,2026-04-11,1,399.37,Observado,App
-42,O00042,22,3,1,2026-05-21,2,132.67,Completado,App
-43,O00043,69,4,6,2026-04-18,4,1392.22,Cancelado,Call Center
-44,O00044,79,5,15,2026-05-04,2,158.06,Completado,App
-45,O00045,80,2,3,2026-02-06,2,318.96,Observado,App
-46,O00046,11,3,9,2026-03-02,2,412.05,Observado,Web
-47,O00047,67,2,6,2026-03-20,5,1861.64,Completado,App
-48,O00048,17,2,15,2026-03-13,1,72.54,Completado,Call Center
-49,O00049,68,4,1,2026-02-26,5,355.37,Completado,Call Center
-50,O00050,73,1,10,2026-03-18,5,1038.67,Completado,Presencial
-51,O00051,19,2,12,2026-02-09,5,767.34,Completado,Web
-52,O00052,28,5,1,2026-03-11,4,278.88,Completado,Presencial
-53,O00053,37,3,2,2026-03-21,1,328.07,Completado,App
-54,O00054,68,2,13,2026-05-04,5,1629.03,Completado,App
-55,O00055,19,3,10,2026-05-24,2,552.21,Completado,Call Center
-56,O00056,20,4,1,2026-03-11,3,203.62,Observado,App
-57,O00057,73,1,9,2026-03-05,3,796.51,Cancelado,Presencial
-58,O00058,32,1,12,2026-06-01,1,180.98,Completado,Call Center
-59,O00059,79,2,4,2026-05-22,5,1178.63,Completado,Call Center
-60,O00060,80,6,10,2026-01-06,1,240.43,Completado,Call Center
-61,O00061,28,5,5,2026-05-18,1,249.06,Completado,Presencial
-62,O00062,51,1,4,2026-03-03,3,643.15,Cancelado,Presencial
-63,O00063,15,1,15,2026-05-20,3,170.78,Completado,Web
-64,O00064,38,6,14,2026-03-03,1,104.04,Completado,Presencial
-65,O00065,4,5,7,2026-04-08,4,1196.74,Pendiente,Call Center
-66,O00066,24,1,9,2026-01-28,1,249.86,Completado,Presencial
-67,O00067,13,2,15,2026-03-12,6,445.82,Completado,Call Center
-68,O00068,37,5,2,2026-03-04,2,609.75,Completado,Call Center
-69,O00069,67,4,5,2026-02-15,2,586.38,Completado,Web
-70,O00070,28,5,5,2026-01-05,6,1455.34,Completado,Web
-71,O00071,17,5,11,2026-06-29,1,318.51,Observado,Presencial
-72,O00072,2,2,15,2026-01-10,4,233.83,Completado,App
-73,O00073,33,3,9,2026-02-18,4,906.8,Observado,Call Center
-74,O00074,23,2,5,2026-02-05,5,1477.74,Completado,Presencial
-75,O00075,69,3,5,2026-01-11,6,1700.41,Completado,Presencial
-76,O00076,61,1,4,2026-03-17,2,507.75,Completado,Call Center
-77,O00077,20,6,15,2026-01-12,5,339.17,Completado,App
-78,O00078,4,5,5,2026-02-03,5,1156.58,Pendiente,Presencial
-79,O00079,34,2,3,2026-01-14,6,937.21,Pendiente,Web
-80,O00080,8,5,1,2026-04-11,5,320.11,Completado,Web
-81,O00081,52,6,9,2026-02-14,1,276.67,Completado,Web
-82,O00082,42,1,9,2026-01-31,2,497.68,Completado,Web
-83,O00083,35,3,9,2026-06-11,3,635.81,Completado,Call Center
-84,O00084,70,2,7,2026-06-08,4,963.98,Observado,Web
-85,O00085,65,5,12,2026-01-19,6,766.53,Cancelado,Presencial
-86,O00086,42,1,12,2026-06-18,2,325.28,Completado,App
-87,O00087,27,4,7,2026-02-06,4,1085.84,Completado,Call Center
-88,O00088,59,2,10,2026-04-10,6,1492.39,Completado,Presencial
-89,O00089,15,2,1,2026-04-02,3,208.4,Pendiente,Web
-90,O00090,3,3,9,2026-02-13,5,1093.51,Completado,Call Center
-91,O00091,66,2,10,2026-03-10,3,627.25,Pendiente,App
-92,O00092,3,3,10,2026-03-07,2,445.52,Completado,Call Center
-93,O00093,45,1,4,2026-05-24,1,197.6,Cancelado,App
-94,O00094,80,6,4,2026-06-01,6,1488.56,Completado,App
-95,O00095,74,4,6,2026-05-14,2,641.81,Pendiente,Presencial
-96,O00096,51,4,6,2026-02-04,1,347.56,Completado,App
-97,O00097,75,6,2,2026-01-12,2,797.57,Completado,App
-98,O00098,34,5,5,2026-01-21,2,536.02,Completado,Presencial
-99,O00099,8,6,13,2026-05-21,3,865.18,Completado,Call Center
-100,O00100,31,5,5,2026-05-30,6,1682.38,Completado,Call Center
-101,O00101,41,2,4,2026-01-19,1,250.52,Observado,Presencial
-102,O00102,64,5,1,2026-02-16,1,65.66,Completado,Presencial
-103,O00103,77,4,7,2026-04-14,1,241.76,Completado,Call Center
-104,O00104,5,5,14,2026-06-11,6,687.32,Observado,App
-105,O00105,9,6,14,2026-01-26,5,466.61,Completado,App
-106,O00106,32,5,7,2026-02-28,5,1069.66,Completado,App
-107,O00107,46,5,11,2026-06-24,3,1178.23,Completado,Web
-108,O00108,9,2,13,2026-02-16,2,673.65,Cancelado,Web
-109,O00109,55,4,6,2026-03-22,4,1372.84,Completado,App
-110,O00110,25,1,5,2026-05-17,5,1531.11,Pendiente,Presencial
-111,O00111,21,2,14,2026-04-15,5,495.43,Completado,App
-112,O00112,78,6,12,2026-02-23,2,328.01,Completado,App
-113,O00113,50,6,3,2026-03-13,6,1192.21,Completado,Web
-114,O00114,43,1,1,2026-04-15,5,274.04,Completado,Web
-115,O00115,63,4,14,2026-05-09,1,115.49,Completado,Presencial
-116,O00116,60,2,13,2026-04-30,3,1023.13,Pendiente,App
-117,O00117,5,3,12,2026-02-03,5,714.29,Completado,Call Center
-118,O00118,34,1,7,2026-01-23,3,643.97,Completado,Web
-119,O00119,21,2,6,2026-06-27,2,682.8,Completado,Call Center
-120,O00120,43,4,9,2026-01-07,5,1157.08,Pendiente,Presencial
-121,O00121,12,6,6,2026-01-12,2,571.37,Observado,Web
-122,O00122,77,1,3,2026-05-20,3,454.79,Completado,Presencial
-123,O00123,44,1,3,2026-03-30,6,889.42,Observado,App
-124,O00124,47,1,8,2026-05-16,4,407.86,Completado,Presencial
-125,O00125,79,3,15,2026-06-13,3,223.29,Completado,Web
-126,O00126,27,3,2,2026-01-27,3,1221.28,Pendiente,Presencial
-127,O00127,74,3,5,2026-05-14,1,310.77,Completado,App
-128,O00128,79,2,9,2026-02-20,3,644.05,Cancelado,Call Center
-129,O00129,30,1,6,2026-05-01,5,1799.72,Completado,App
-130,O00130,38,2,7,2026-03-24,4,1114.46,Cancelado,App
-131,O00131,52,1,15,2026-04-12,1,61.85,Completado,Call Center
-132,O00132,34,2,9,2026-03-26,1,255.28,Completado,Web
-133,O00133,73,6,5,2026-06-01,2,449.33,Observado,Presencial
-134,O00134,66,5,13,2026-03-06,2,696.31,Cancelado,Presencial
-135,O00135,23,3,1,2026-02-27,3,200.32,Observado,Call Center
-136,O00136,28,3,2,2026-05-24,4,1561.07,Completado,App
-137,O00137,53,6,2,2026-04-20,5,1923.23,Completado,App
-138,O00138,70,6,13,2026-05-06,5,1721.8,Observado,Presencial
-139,O00139,5,4,4,2026-03-31,1,243.93,Observado,App
-140,O00140,6,1,9,2026-01-01,5,1253.35,Completado,Call Center
-141,O00141,25,3,9,2026-01-05,6,1199.39,Completado,Web
-142,O00142,1,3,5,2026-05-18,2,480.52,Completado,Presencial
-143,O00143,20,2,10,2026-06-05,4,979.0,Completado,App
-144,O00144,2,6,3,2026-06-26,1,142.63,Completado,Web
-145,O00145,45,2,9,2026-01-10,3,684.44,Completado,Presencial
-146,O00146,43,2,11,2026-02-27,4,1221.48,Observado,Presencial
-147,O00147,67,2,13,2026-06-22,3,1021.74,Completado,Call Center
-148,O00148,22,2,10,2026-06-10,5,989.83,Completado,Web
-149,O00149,67,1,1,2026-03-14,3,180.35,Completado,Web
-150,O00150,60,3,13,2026-02-28,6,1966.72,Completado,Call Center
-151,O00151,76,5,7,2026-04-16,6,1316.96,Completado,Presencial
-152,O00152,57,3,9,2026-02-12,2,504.15,Cancelado,Web
-153,O00153,41,6,2,2026-06-09,5,1593.76,Completado,App
-154,O00154,30,5,7,2026-03-11,6,1573.93,Completado,App
-155,O00155,20,5,15,2026-05-20,2,154.23,Completado,App
-156,O00156,79,2,14,2026-02-14,1,96.67,Pendiente,App
-157,O00157,35,5,13,2026-05-11,6,2274.16,Completado,Presencial
-158,O00158,71,3,4,2026-04-08,6,1443.06,Completado,Call Center
-159,O00159,18,5,4,2026-06-17,5,938.76,Pendiente,Web
-160,O00160,69,5,13,2026-04-02,5,1348.56,Completado,App
-161,O00161,25,3,4,2026-02-11,1,195.66,Completado,Call Center
-162,O00162,9,5,2,2026-06-08,1,410.32,Observado,Call Center
-163,O00163,61,3,12,2026-05-09,5,665.88,Observado,Call Center
-164,O00164,78,6,7,2026-05-20,6,1457.42,Completado,Call Center
-165,O00165,71,5,8,2026-02-13,6,527.9,Observado,App
-166,O00166,3,2,5,2026-03-02,6,1818.82,Completado,App
-167,O00167,16,2,11,2026-06-19,3,890.27,Completado,Presencial
-168,O00168,68,6,7,2026-01-17,6,1580.13,Completado,Presencial
-169,O00169,31,2,9,2026-04-20,3,682.51,Completado,App
-170,O00170,37,1,7,2026-01-27,4,925.77,Observado,Presencial
-171,O00171,75,5,8,2026-06-17,3,324.56,Completado,App
-172,O00172,39,3,9,2026-06-11,1,235.4,Completado,Call Center
-173,O00173,65,5,3,2026-05-24,6,1080.32,Observado,Web
-174,O00174,67,3,10,2026-02-20,3,791.32,Completado,Call Center
-175,O00175,6,1,12,2026-02-03,4,503.76,Completado,Web
-176,O00176,33,1,7,2026-02-25,2,599.85,Completado,App
-177,O00177,3,3,6,2026-04-07,3,988.6,Completado,Call Center
-178,O00178,11,4,13,2026-04-04,4,1124.15,Completado,Web
-179,O00179,64,4,15,2026-01-21,4,271.48,Completado,App
-180,O00180,50,4,10,2026-06-17,2,472.75,Completado,Call Center
-181,O00181,77,1,4,2026-04-16,5,1062.63,Completado,Presencial
-182,O00182,48,4,1,2026-01-18,2,117.9,Cancelado,Web
-183,O00183,69,4,13,2026-03-25,1,359.85,Completado,Presencial
-184,O00184,57,3,12,2026-01-21,3,452.22,Completado,Call Center
-185,O00185,5,5,1,2026-04-18,6,304.95,Completado,Presencial
-186,O00186,63,2,13,2026-02-17,5,1769.12,Completado,App
-187,O00187,26,3,13,2026-02-18,6,2182.86,Completado,Call Center
-188,O00188,67,1,9,2026-02-26,2,404.77,Observado,Call Center
-189,O00189,24,6,11,2026-04-10,2,615.48,Completado,Call Center
-190,O00190,37,5,6,2026-05-13,1,362.76,Completado,Presencial
-191,O00191,65,1,15,2026-06-15,1,70.99,Observado,Presencial
-192,O00192,62,4,5,2026-01-05,4,959.24,Completado,Presencial
-193,O00193,2,4,3,2026-05-26,2,374.95,Completado,Call Center
-194,O00194,59,1,1,2026-06-17,5,291.94,Completado,App
-195,O00195,15,1,4,2026-02-22,2,453.98,Completado,Presencial
-196,O00196,35,2,13,2026-04-13,3,1169.66,Completado,Web
-197,O00197,72,5,12,2026-03-12,1,162.71,Completado,Web
-198,O00198,35,5,14,2026-05-29,2,236.4,Completado,Web
-199,O00199,24,4,1,2026-06-07,5,370.5,Completado,Call Center
-200,O00200,27,2,15,2026-05-15,5,334.28,Completado,Presencial
-201,O00201,31,1,4,2026-06-28,5,971.69,Completado,App
-202,O00202,64,3,10,2026-05-02,1,207.44,Completado,Call Center
-203,O00203,30,5,4,2026-04-23,3,710.09,Completado,Call Center
-204,O00204,47,3,4,2026-04-19,1,184.62,Completado,Web
-205,O00205,76,1,15,2026-06-11,3,183.28,Completado,Call Center
-206,O00206,72,4,10,2026-01-09,3,674.86,Pendiente,Presencial
-207,O00207,52,2,3,2026-02-08,3,566.44,Completado,Web
-208,O00208,41,3,4,2026-04-16,4,850.1,Completado,App
-209,O00209,4,3,4,2026-04-18,6,1228.06,Completado,App
-210,O00210,33,6,10,2026-05-02,1,278.8,Completado,Web
-211,O00211,57,5,8,2026-05-10,5,428.27,Completado,Call Center
-212,O00212,36,6,13,2026-05-01,3,988.31,Cancelado,Call Center
-213,O00213,21,3,8,2026-03-01,3,306.42,Completado,Web
-214,O00214,7,2,9,2026-04-03,6,1575.14,Completado,Web
-215,O00215,7,3,8,2026-01-23,2,219.36,Observado,App
-216,O00216,4,2,14,2026-04-04,2,189.07,Completado,Web
-217,O00217,71,4,14,2026-01-04,2,173.82,Cancelado,Call Center
-218,O00218,50,2,6,2026-01-05,1,293.77,Observado,App
-219,O00219,35,1,10,2026-02-10,2,543.35,Observado,Call Center
-220,O00220,17,2,1,2026-04-23,2,112.92,Completado,App
-221,O00221,67,1,9,2026-05-20,6,1232.86,Completado,Call Center
-222,O00222,42,5,8,2026-04-14,4,378.55,Completado,App
-223,O00223,47,4,13,2026-03-27,4,1399.45,Cancelado,App
-224,O00224,77,6,7,2026-01-28,3,826.94,Completado,Web
-225,O00225,17,6,14,2026-03-06,3,331.63,Completado,Web
-226,O00226,68,2,12,2026-02-13,4,551.29,Observado,Presencial
-227,O00227,49,4,5,2026-03-24,1,282.82,Observado,Call Center
-228,O00228,80,4,4,2026-05-02,5,944.07,Completado,Presencial
-229,O00229,52,3,2,2026-04-24,3,940.09,Completado,Presencial
-230,O00230,39,2,12,2026-05-31,4,533.24,Completado,Web
-231,O00231,62,2,9,2026-04-19,3,733.17,Completado,Call Center
-232,O00232,40,4,9,2026-05-10,1,273.56,Completado,Call Center
-233,O00233,53,2,9,2026-06-10,1,253.1,Completado,App
-234,O00234,10,6,5,2026-03-15,1,262.85,Observado,Presencial
-235,O00235,27,1,12,2026-05-24,6,796.51,Completado,Presencial
-236,O00236,53,5,6,2026-04-30,3,874.72,Completado,App
-237,O00237,65,6,14,2026-05-05,1,111.04,Completado,Web
-238,O00238,21,2,14,2026-05-13,4,483.35,Completado,Presencial
-239,O00239,41,4,12,2026-04-23,4,624.66,Completado,Web
-240,O00240,12,3,10,2026-03-20,2,420.88,Completado,App
-241,O00241,2,4,5,2026-01-16,4,1264.9,Completado,App
-242,O00242,1,1,13,2026-02-15,2,642.1,Cancelado,App
-243,O00243,77,6,8,2026-01-31,1,115.13,Cancelado,App
-244,O00244,6,4,12,2026-03-02,2,289.37,Completado,App
-245,O00245,42,6,12,2026-05-06,6,785.63,Completado,Call Center
-246,O00246,5,6,6,2026-01-03,5,1913.3,Completado,Call Center
-247,O00247,17,3,8,2026-06-05,1,101.29,Completado,Call Center
-248,O00248,60,4,6,2026-06-16,6,2359.91,Cancelado,Presencial
-249,O00249,26,2,5,2026-02-25,3,668.28,Pendiente,Call Center
-250,O00250,2,3,15,2026-06-07,5,348.14,Completado,Presencial
-251,O00251,14,4,1,2026-03-23,1,64.16,Completado,Web
-252,O00252,22,1,6,2026-02-25,6,1745.72,Completado,App
-253,O00253,33,4,14,2026-06-17,6,700.03,Completado,Web
-254,O00254,9,1,8,2026-01-05,1,105.75,Completado,Web
-255,O00255,48,2,6,2026-04-01,3,1137.05,Completado,Call Center
-256,O00256,52,4,4,2026-01-02,4,710.04,Completado,Web
-257,O00257,53,6,10,2026-03-11,3,630.99,Completado,Call Center
-258,O00258,71,3,2,2026-05-14,1,308.17,Completado,Call Center
-259,O00259,53,2,2,2026-05-06,1,333.53,Completado,Call Center
-260,O00260,66,5,13,2026-04-21,6,2116.04,Completado,App
-261,O00261,26,4,6,2026-04-01,1,275.85,Completado,Web
-262,O00262,24,1,15,2026-05-19,4,241.49,Completado,Presencial
-263,O00263,61,6,13,2026-06-18,1,331.73,Completado,Call Center
-264,O00264,33,1,3,2026-06-01,5,896.58,Completado,Presencial
-265,O00265,69,5,10,2026-05-23,4,879.67,Pendiente,App
-266,O00266,67,5,2,2026-06-08,2,694.32,Completado,Web
-267,O00267,22,2,3,2026-02-18,5,874.04,Completado,Call Center
-268,O00268,41,3,11,2026-02-02,5,2079.88,Completado,App
-269,O00269,10,5,11,2026-01-21,6,2516.96,Completado,Presencial
-270,O00270,75,3,3,2026-03-19,3,490.53,Completado,App
-271,O00271,38,2,5,2026-03-29,1,229.47,Completado,Presencial
-272,O00272,6,1,9,2026-05-11,4,887.34,Completado,Presencial
-273,O00273,80,5,10,2026-02-24,5,1073.26,Completado,Web
-274,O00274,45,1,11,2026-01-25,3,1017.12,Completado,App
-275,O00275,36,1,15,2026-01-18,6,481.57,Completado,Call Center
-276,O00276,52,3,12,2026-03-31,6,1058.38,Observado,App
-277,O00277,54,6,15,2026-04-30,4,325.57,Completado,Web
-278,O00278,29,1,15,2026-01-21,4,332.72,Completado,Presencial
-279,O00279,43,3,10,2026-03-14,4,1013.8,Pendiente,Call Center
-280,O00280,51,3,5,2026-05-13,3,941.08,Completado,Call Center
-281,O00281,66,4,15,2026-06-16,6,377.37,Completado,App
-282,O00282,59,5,11,2026-06-05,2,690.35,Observado,App
-283,O00283,56,6,7,2026-03-14,6,1619.9,Completado,App
-284,O00284,5,3,11,2026-05-07,6,2423.97,Completado,App
-285,O00285,53,3,1,2026-02-16,6,415.1,Completado,Presencial
-286,O00286,73,2,11,2026-03-08,3,1044.37,Pendiente,App
-287,O00287,25,2,7,2026-05-10,4,830.0,Completado,App
-288,O00288,66,5,2,2026-03-08,5,1797.44,Completado,Presencial
-289,O00289,30,6,9,2026-01-21,4,936.19,Completado,App
-290,O00290,48,1,11,2026-02-10,5,1673.94,Completado,App
-291,O00291,4,4,15,2026-06-13,3,219.51,Completado,Presencial
-292,O00292,60,6,4,2026-05-14,5,1198.04,Completado,Web
-293,O00293,27,2,2,2026-01-26,5,2044.72,Pendiente,App
-294,O00294,18,1,5,2026-03-25,5,1429.46,Completado,Presencial
-295,O00295,20,6,12,2026-05-13,3,416.55,Completado,Presencial
-296,O00296,21,1,10,2026-01-01,2,542.16,Pendiente,App
-297,O00297,55,2,10,2026-06-09,5,1412.27,Completado,App
-298,O00298,52,4,13,2026-05-04,2,653.32,Completado,Presencial
-299,O00299,27,5,4,2026-05-20,1,240.95,Completado,App
-300,O00300,32,1,4,2026-05-12,5,1254.38,Completado,Presencial
-301,O00301,13,4,4,2026-02-22,4,750.43,Pendiente,Web
-302,O00302,74,5,12,2026-05-01,6,914.24,Completado,App
-303,O00303,57,2,9,2026-05-31,2,519.53,Completado,Web
-304,O00304,38,6,8,2026-06-04,5,612.57,Completado,App
-305,O00305,79,1,3,2026-04-22,3,586.94,Completado,App
-306,O00306,77,3,13,2026-05-21,3,1177.92,Completado,Web
-307,O00307,78,1,2,2026-01-08,1,383.03,Completado,Web
-308,O00308,24,6,9,2026-02-27,2,444.23,Completado,Presencial
-309,O00309,1,4,7,2026-03-25,4,1206.57,Completado,Call Center
-310,O00310,71,3,11,2026-06-11,2,653.73,Completado,Web
-311,O00311,48,3,5,2026-03-15,1,305.49,Cancelado,Web
-312,O00312,59,4,6,2026-04-08,2,583.3,Completado,App
-313,O00313,5,6,6,2026-01-23,2,663.15,Completado,Call Center
-314,O00314,3,3,11,2026-03-17,2,825.95,Completado,Presencial
-315,O00315,70,6,15,2026-04-22,4,247.43,Completado,Web
-316,O00316,58,4,14,2026-05-03,2,183.33,Observado,Web
-317,O00317,38,4,13,2026-02-06,6,1838.13,Completado,Call Center
-318,O00318,54,1,3,2026-02-17,1,188.19,Completado,Web
-319,O00319,31,4,5,2026-01-18,3,676.5,Completado,Presencial
-320,O00320,57,2,1,2026-04-04,2,141.13,Completado,Presencial
-321,O00321,64,2,1,2026-04-05,3,188.35,Completado,Presencial
-322,O00322,40,4,15,2026-02-01,4,233.82,Pendiente,Presencial
-323,O00323,42,2,6,2026-02-05,1,313.43,Cancelado,App
-324,O00324,7,4,3,2026-06-15,5,950.47,Completado,App
-325,O00325,7,1,11,2026-03-16,4,1533.86,Completado,Call Center
-326,O00326,14,6,1,2026-02-14,3,195.54,Completado,Presencial
-327,O00327,12,1,13,2026-04-24,5,1752.7,Completado,Web
-328,O00328,77,5,1,2026-04-06,3,214.54,Completado,Web
-329,O00329,74,3,6,2026-05-19,6,1968.79,Completado,App
-330,O00330,80,3,11,2026-06-26,6,2507.01,Observado,Call Center
-331,O00331,16,5,6,2026-01-11,2,731.31,Completado,Call Center
-332,O00332,57,2,13,2026-06-04,1,330.69,Completado,App
-333,O00333,50,2,13,2026-01-31,4,1144.32,Completado,Web
-334,O00334,64,2,10,2026-01-19,3,676.1,Completado,Web
-335,O00335,5,6,12,2026-04-18,5,858.74,Completado,Presencial
-336,O00336,3,2,1,2026-05-15,1,58.09,Completado,App
-337,O00337,37,1,10,2026-01-16,4,1108.54,Completado,Web
-338,O00338,13,4,5,2026-02-14,4,1192.35,Completado,App
-339,O00339,26,4,15,2026-03-22,4,261.6,Completado,Presencial
-340,O00340,33,4,5,2026-01-22,2,522.15,Completado,Call Center
-341,O00341,78,5,2,2026-02-04,5,1967.12,Cancelado,Call Center
-342,O00342,78,6,3,2026-02-15,1,165.34,Pendiente,Web
-343,O00343,64,4,12,2026-04-23,5,893.12,Pendiente,Web
-344,O00344,66,6,6,2026-06-24,3,859.71,Completado,Call Center
-345,O00345,12,2,13,2026-06-16,2,575.84,Completado,Call Center
-346,O00346,63,5,7,2026-04-13,2,475.16,Completado,Presencial
-347,O00347,76,1,6,2026-03-10,2,628.61,Completado,Web
-348,O00348,34,4,4,2026-02-10,3,703.54,Completado,App
-349,O00349,25,6,9,2026-01-25,3,604.0,Completado,Presencial
-350,O00350,32,3,4,2026-06-21,6,1206.22,Cancelado,App
-351,O00351,72,4,10,2026-05-20,3,824.65,Completado,Call Center
-352,O00352,62,6,8,2026-02-23,3,252.38,Completado,Web
-353,O00353,37,6,12,2026-03-31,2,268.24,Completado,Web
-354,O00354,22,5,10,2026-05-07,1,247.23,Pendiente,App
-355,O00355,7,1,10,2026-04-11,3,595.09,Pendiente,Presencial
-356,O00356,66,2,1,2026-03-23,2,146.68,Cancelado,Web
-357,O00357,75,5,10,2026-01-26,6,1479.9,Completado,Web
-358,O00358,66,1,13,2026-06-09,5,1523.97,Completado,Web
-359,O00359,66,6,4,2026-02-22,1,244.18,Observado,Call Center
-360,O00360,7,1,13,2026-06-28,4,1566.81,Pendiente,Call Center
-361,O00361,39,3,3,2026-04-22,6,1197.62,Cancelado,Web
-362,O00362,38,6,15,2026-03-21,1,64.15,Observado,Presencial
-363,O00363,77,5,11,2026-02-12,5,1480.27,Pendiente,Presencial
-364,O00364,74,3,14,2026-03-15,1,119.42,Pendiente,Presencial
-365,O00365,10,6,8,2026-03-19,6,631.73,Completado,Presencial
-366,O00366,26,1,11,2026-02-25,6,1890.87,Completado,Presencial
-367,O00367,47,4,10,2026-01-26,6,1400.89,Completado,Web
-368,O00368,63,6,11,2026-06-04,3,911.57,Completado,Presencial
-369,O00369,73,1,6,2026-04-24,5,1398.38,Completado,App
-370,O00370,45,4,9,2026-03-04,3,724.82,Completado,Web
-371,O00371,40,3,9,2026-03-11,1,219.02,Completado,Web
-372,O00372,58,3,11,2026-04-14,3,1180.87,Observado,Web
-373,O00373,2,6,1,2026-03-16,2,114.44,Completado,Presencial
-374,O00374,7,5,2,2026-05-13,6,1954.81,Cancelado,Web
-375,O00375,68,3,14,2026-03-03,2,205.06,Completado,Call Center
-376,O00376,78,3,13,2026-02-14,6,1886.57,Completado,Call Center
-377,O00377,48,5,10,2026-03-28,4,969.12,Completado,App
-378,O00378,8,6,11,2026-02-27,4,1547.06,Completado,Call Center
-379,O00379,8,5,11,2026-05-27,1,337.55,Completado,App
-380,O00380,41,3,9,2026-05-20,1,256.66,Completado,Call Center
-381,O00381,60,2,3,2026-02-15,3,473.26,Completado,Web
-382,O00382,52,2,1,2026-01-09,2,133.27,Completado,Web
-383,O00383,48,5,3,2026-03-03,1,174.16,Observado,Call Center
-384,O00384,9,4,3,2026-05-27,5,939.45,Completado,App
-385,O00385,36,5,14,2026-04-02,4,452.38,Observado,Call Center
-386,O00386,78,2,8,2026-01-10,1,85.33,Observado,App
-387,O00387,12,6,3,2026-06-01,5,949.43,Completado,App
-388,O00388,59,5,10,2026-01-13,5,1161.45,Cancelado,Call Center
-389,O00389,10,1,11,2026-05-09,2,591.38,Completado,App
-390,O00390,39,3,10,2026-03-11,1,242.69,Completado,Presencial
-391,O00391,41,5,7,2026-02-27,2,561.3,Completado,Web
-392,O00392,15,1,15,2026-05-20,3,194.29,Completado,Call Center
-393,O00393,4,5,3,2026-03-01,1,160.21,Completado,Call Center
-394,O00394,45,5,5,2026-01-18,1,291.8,Completado,Web
-395,O00395,32,5,14,2026-04-14,2,221.08,Observado,Presencial
-396,O00396,3,6,8,2026-01-05,6,674.99,Completado,Presencial
-397,O00397,28,2,3,2026-06-28,1,149.16,Completado,Call Center
-398,O00398,59,5,12,2026-06-20,4,596.55,Completado,App
-399,O00399,60,6,3,2026-05-06,2,401.06,Completado,App
-400,O00400,55,6,2,2026-06-06,4,1343.72,Completado,Presencial
-401,O00401,5,1,7,2026-01-18,6,1409.76,Cancelado,Call Center
-402,O00402,16,5,2,2026-04-06,5,1980.89,Completado,Call Center
-403,O00403,6,3,6,2026-01-27,4,1173.18,Completado,Web
-404,O00404,33,5,11,2026-06-18,5,1546.9,Completado,Call Center
-405,O00405,66,3,12,2026-04-20,4,581.47,Completado,App
-406,O00406,18,4,3,2026-02-03,6,1048.55,Completado,Web
-407,O00407,42,5,5,2026-03-30,3,764.74,Cancelado,Presencial
-408,O00408,51,1,5,2026-04-03,1,266.12,Observado,Web
-409,O00409,75,1,11,2026-06-20,3,938.19,Completado,Call Center
-410,O00410,13,4,10,2026-06-05,6,1278.16,Completado,Presencial
-411,O00411,50,3,7,2026-05-29,5,1166.97,Completado,Call Center
-412,O00412,58,5,13,2026-03-29,2,681.52,Cancelado,Call Center
-413,O00413,36,2,11,2026-06-06,5,1941.96,Completado,Call Center
-414,O00414,54,1,15,2026-04-22,4,292.81,Cancelado,Presencial
-415,O00415,73,6,14,2026-05-16,6,707.84,Cancelado,Web
-416,O00416,68,3,4,2026-03-13,3,586.51,Completado,Presencial
-417,O00417,54,2,9,2026-05-24,6,1616.68,Completado,Web
-418,O00418,38,2,2,2026-02-21,6,2459.62,Completado,App
-419,O00419,39,4,8,2026-01-27,1,96.46,Completado,Presencial
-420,O00420,13,6,4,2026-02-11,3,595.28,Completado,App
-421,O00421,77,3,13,2026-05-27,4,1089.66,Observado,Presencial
-422,O00422,19,3,14,2026-01-27,5,460.28,Completado,Presencial
-423,O00423,55,4,4,2026-01-23,2,447.28,Observado,Call Center
-424,O00424,55,3,11,2026-06-28,1,402.27,Pendiente,Call Center
-425,O00425,79,6,13,2026-05-18,4,1276.39,Observado,Call Center
-426,O00426,54,6,1,2026-05-17,4,292.14,Cancelado,Presencial
-427,O00427,31,5,2,2026-03-29,5,1521.11,Completado,Web
-428,O00428,79,4,1,2026-04-16,4,294.98,Completado,App
-429,O00429,3,2,3,2026-03-15,6,867.93,Completado,Call Center
-430,O00430,23,5,3,2026-03-04,2,393.96,Completado,Call Center
-431,O00431,78,6,13,2026-06-21,2,742.31,Completado,Web
-432,O00432,76,4,15,2026-06-05,5,343.6,Observado,App
-433,O00433,53,1,15,2026-06-17,2,142.02,Observado,Web
-434,O00434,57,2,3,2026-01-26,5,831.03,Completado,Call Center
-435,O00435,51,2,9,2026-03-22,2,450.15,Completado,Presencial
-436,O00436,53,5,4,2026-03-09,3,763.2,Completado,Presencial
-437,O00437,36,2,2,2026-02-10,1,312.38,Completado,Web
-438,O00438,60,2,6,2026-01-22,3,1173.47,Completado,Call Center
-439,O00439,22,5,11,2026-05-27,3,934.66,Pendiente,Presencial
-440,O00440,71,4,14,2026-06-23,1,105.23,Completado,App
-441,O00441,62,3,3,2026-01-03,3,444.16,Completado,Web
-442,O00442,51,5,3,2026-05-28,5,757.6,Completado,App
-443,O00443,53,2,12,2026-02-28,6,933.71,Completado,Call Center
-444,O00444,5,3,11,2026-05-19,5,1675.14,Completado,Web
-445,O00445,67,1,4,2026-02-02,2,433.11,Completado,Presencial
-446,O00446,37,1,4,2026-01-02,6,1279.67,Completado,Presencial
-447,O00447,37,1,10,2026-03-09,5,1352.4,Completado,Call Center
-448,O00448,41,1,5,2026-05-09,5,1431.01,Completado,Presencial
-449,O00449,55,4,4,2026-02-13,1,198.13,Completado,App
-450,O00450,33,5,10,2026-02-26,3,672.63,Completado,Call Center
-451,O00451,6,6,9,2026-04-06,2,418.47,Cancelado,Web
-452,O00452,44,4,14,2026-04-04,6,625.44,Completado,Presencial
-453,O00453,57,5,2,2026-02-19,6,2541.11,Pendiente,Web
-454,O00454,49,6,13,2026-01-21,5,1552.36,Completado,App
-455,O00455,13,2,13,2026-04-28,5,1834.77,Completado,App
-456,O00456,41,4,6,2026-02-01,2,579.29,Observado,Presencial
-457,O00457,36,5,15,2026-04-13,6,418.87,Completado,Web
-458,O00458,21,5,3,2026-02-10,1,195.84,Completado,Web
-459,O00459,28,1,3,2026-05-13,5,834.33,Completado,Presencial
-460,O00460,40,6,11,2026-05-13,5,2038.63,Completado,App
-461,O00461,16,6,5,2026-06-12,4,1238.28,Completado,Web
-462,O00462,61,3,7,2026-01-05,1,291.74,Completado,Web
-463,O00463,19,2,10,2026-04-16,1,244.51,Completado,Presencial
-464,O00464,79,6,11,2026-01-03,6,2523.75,Observado,Web
-465,O00465,11,5,9,2026-05-17,3,778.99,Completado,Call Center
-466,O00466,70,4,1,2026-01-07,5,280.98,Completado,App
-467,O00467,32,2,10,2026-04-26,4,936.3,Completado,App
-468,O00468,17,3,14,2026-02-14,6,721.91,Pendiente,Web
-469,O00469,50,5,2,2026-03-13,5,2184.76,Completado,App
-470,O00470,25,3,7,2026-05-29,6,1513.15,Completado,App
-471,O00471,66,1,3,2026-02-15,6,859.14,Cancelado,Presencial
-472,O00472,32,6,6,2026-05-29,3,1133.07,Completado,Web
-473,O00473,17,1,4,2026-03-02,4,869.49,Completado,App
-474,O00474,37,5,2,2026-03-05,5,1796.56,Pendiente,Web
-475,O00475,12,1,1,2026-02-20,5,285.69,Completado,Call Center
-476,O00476,79,4,10,2026-03-09,1,260.64,Completado,App
-477,O00477,38,5,7,2026-06-21,5,1454.34,Completado,Presencial
-478,O00478,54,2,1,2026-03-17,1,56.23,Pendiente,App
-479,O00479,61,6,10,2026-04-07,6,1723.18,Completado,App
-480,O00480,29,2,2,2026-04-17,2,659.8,Cancelado,Call Center
-481,O00481,38,3,5,2026-06-10,3,860.92,Completado,Web
-482,O00482,73,1,1,2026-01-30,6,403.03,Completado,Presencial
-483,O00483,34,1,15,2026-05-29,2,124.14,Pendiente,App
-484,O00484,17,6,15,2026-04-15,4,333.3,Completado,Presencial
-485,O00485,37,6,14,2026-01-30,2,201.76,Completado,App
-486,O00486,55,2,11,2026-05-19,2,846.77,Completado,App
-487,O00487,19,1,14,2026-01-24,1,84.07,Completado,App
-488,O00488,22,3,9,2026-05-05,5,1249.86,Completado,App
-489,O00489,13,2,10,2026-06-18,5,1247.47,Completado,Web
-490,O00490,12,6,9,2026-03-11,5,1158.89,Completado,App
-491,O00491,38,1,3,2026-01-16,3,526.72,Completado,Web
-492,O00492,54,6,10,2026-01-17,2,552.07,Completado,Presencial
-493,O00493,42,1,15,2026-05-09,5,409.09,Observado,App
-494,O00494,55,2,6,2026-01-13,1,291.05,Completado,Presencial
-495,O00495,57,6,13,2026-01-09,6,2026.73,Completado,Presencial
-496,O00496,72,1,9,2026-05-25,1,206.81,Cancelado,App
-497,O00497,72,3,13,2026-04-14,5,1850.39,Completado,Presencial
-498,O00498,15,5,10,2026-01-27,1,252.88,Completado,Presencial
-499,O00499,19,4,14,2026-04-24,2,232.48,Completado,Presencial
-500,O00500,13,1,10,2026-01-13,6,1665.98,Completado,App
+id_operacion,codigo_operacion,id_cliente,id_sede,id_empleado,fecha_operacion,canal,estado,monto_total
+1,O00001,79,4,9,2026-04-12,Consulta presencial,Completado,166.00
+2,O00002,197,6,14,2026-06-14,Cita web,Completado,800.92
+3,O00003,189,5,20,26/02/2026,Emergencia veterinaria,Completado,2189.47
+4,O00004,90,5,20,2026-02-11,Visita a domicilio,Completado,1721.00
+5,O00005,81,5,14,2026-01-08,Consulta presencial,Cancelado,239.12
+6,O00006,90,5,29,17/04/2026,Cita web,Completado,95.00
+7,O00007,63,1,12,2026-01-15,Emergencia veterinaria,Completado,2441.80
+8,O00008,149,5,40,2026-05-19,Visita a domicilio,Cancelado,1056.67
+9,O00009,181,1,11,2026-06-18,Consulta presencial,Completado,3405.70
+10,O00010,4,1,25,2026-04-06,Cita web,Completado,4371.70
+11,O00011,45,3,8,01/03/2026,Emergencia veterinaria,Completado,605.00
+12,O00012,91,2,26,2026-04-08,Visita a domicilio,Completado,653.50
+13,O00013,124,5,9,2026-03-07,Consulta presencial,Pendiente,2173.68
+14,O00014,121,1,17,2026-03-11,Cita web,Pendiente,-1289.76
+15,O00015,16,2,16,2026-03-27,Emergencia veterinaria,Completado,1209.00
+16,O00016,12,3,19,22/01/2026,Visita a domicilio,Completado,4086.84
+17,O00017,116,2,4,2026-05-02,Consulta presencial,Completado,516.50
+18,O00018,135,1,11,19/05/2026,Cita web,Completado,7297.00
+19,O00019,196,3,21,2026-02-04,Emergencia veterinaria,Pendiente,1150.77
+20,O00020,86,6,6,2026-02-08,Visita a domicilio,Completado,917.33
+21,O00021,9314,4,25,2026-02-19,Consulta presencial,Completado,1775.51
+22,O00022,192,3,38,2026-06-28,Cita web,Completado,1013.24
+23,O00023,126,5,22,2026-05-26,Emergencia veterinaria,Completado,105.00
+24,O00024,108,3,40,2026-02-09,Visita a domicilio,Pendiente,335.00
+25,O00025,29,5,8,2026-04-24,Consulta presencial,Observado,4464.84
+26,O00026,51,3,13,2026-04-12,Cita web,Pendiente,-5143.77
+27,O00027,13,1,17,2026-06-27,Emergencia veterinaria,Pendiente,2930.16
+28,O00028,68,2,12,2026-01-01,Visita a domicilio,Completado,411.98
+29,O00029,198,3,20,2026-03-20,Consulta presencial,Pendiente,743.72
+30,O00030,140,4,22,2026-01-20,Cita web,Cancelado,364.00
+31,O00031,78,1,36,2026-04-10,Emergencia veterinaria,Completado,1714.95
+32,O00032,84,3,15,2026-06-18,Visita a domicilio,Completado,1224.00
+33,O00033,144,4,35,2026-05-05,Consulta presencial,Completado,273.00
+34,O00034,199,1,21,2026-05-25,Cita web,Pendiente,3311.53
+35,O00035,90,5,35,2026-05-14,Emergencia veterinaria,Cancelado,235.00
+36,O00036,81,6,36,2026-04-26,Visita a domicilio,Completado,488.36
+37,O00037,32,6,11,2026-01-22,Consulta presencial,Cancelado,1932.28
+38,O00038,87,4,22,2026-05-24,Cita web,Completado,1773.00
+39,O00039,1,4,23,2026-06-12,Emergencia veterinaria,Pendiente,784.15
+40,O00040,57,2,14,2026-02-06,Visita a domicilio,Completado,890.00
+41,O00041,48,6,30,2026-04-03,Consulta presencial,Cancelado,1354.15
+42,O00042,188,6,13,2026-03-20,Cita web,Completado,5596.94
+43,O00043,155,1,38,2026-05-27,Emergencia veterinaria,Cancelado,3577.16
+44,O00044,173,1,36,2026-01-19,Visita a domicilio,Completado,2252.08
+45,O00045,75,4,14,2026-05-02,Consulta presencial,Cancelado,5669.53
+46,O00046,79,1,19,2026-01-05,Cita web,Completado,1336.70
+47,O00047,145,6,40,2026-05-07,Emergencia veterinaria,Completado,136.22
+48,O00048,53,4,3,2026-01-02,Visita a domicilio,Observado,286.05
+49,O00049,56,3,29,2026-03-13,Consulta presencial,Completado,2079.44
+50,O00050,174,5,23,28/05/2026,Cita web,Completado,825.73
+51,O00051,28,2,9,2026-01-17,Emergencia veterinaria,Completado,154.00
+52,O00052,159,2,22,2026-06-12,Visita a domicilio,Completado,105.00
+53,O00053,3,4,,2026-04-03,Consulta presencial,Observado,524.73
+54,O00054,196,5,17,2026-03-13,Cita web,Completado,923.28
+55,O00055,40,2,33,26/06/2026,Emergencia veterinaria,Completado,1155.00
+56,O00056,11,5,26,14/01/2026,Visita a domicilio,Completado,844.15
+57,O00057,89,2,33,05/02/2026,Consulta presencial,Cancelado,1267.53
+58,O00058,47,5,32,2026-03-17,Cita web,Completado,1077.76
+59,O00059,22,1,9,2026-06-18,Emergencia veterinaria,Pendiente,538.45
+60,O00060,180,1,40,2026-03-23,Visita a domicilio,Completado,1056.00
+61,O00061,127,3,20,2026-01-19,Consulta presencial,Completado,118.00
+62,O00062,99,4,4,2026-04-28,Cita web,Cancelado,672.40
+63,O00063,170,1,10,2026-02-10,Emergencia veterinaria,Pendiente,1614.67
+64,O00064,47,2,13,19/02/2026,Visita a domicilio,Completado,4081.40
+65,O00065,76,4,34,2026-04-20,Consulta presencial,Pendiente,2597.28
+66,O00066,6,2,31,23/03/2026,Cita web,Pendiente,801.09
+67,O00067,146,2,23,2026-02-21,Emergencia veterinaria,Observado,842.24
+68,O00068,6,4,4,2026-03-15,Visita a domicilio,Completado,771.72
+69,O00069,9093,4,32,2026-05-28,Consulta presencial,Cancelado,1329.46
+70,O00070,64,4,39,2026-03-20,Cita web,Pendiente,1587.10
+71,O00071,30,2,38,2026-03-10,Emergencia veterinaria,Completado,600.00
+72,O00072,98,3,4,2026-06-08,Visita a domicilio,Pendiente,331.41
+73,O00073,32,3,28,2026-01-09,Consulta presencial,Observado,1037.91
+74,O00074,126,1,38,2026-02-20,Cita web,Completado,133.56
+75,O00075,114,6,34,2026-04-20,Emergencia veterinaria,Pendiente,6837.30
+76,O00076,138,2,38,2026-04-26,Visita a domicilio,Pendiente,1418.74
+77,O00077,121,2,3,2026-04-06,Consulta presencial,Observado,364.00
+78,O00078,7,1,32,2026-04-08,Cita web,Completado,569.45
+79,O00079,29,6,,2026-02-06,Emergencia veterinaria,Completado,1891.30
+80,O00080,167,1,1,2026-06-16,Visita a domicilio,Completado,4177.84
+81,O00081,119,1,10,2026-04-09,Consulta presencial,Completado,404.50
+82,O00082,143,6,31,2026-03-12,Cita web,Completado,647.24
+83,O00083,79,3,39,2026-01-13,Emergencia veterinaria,Completado,751.14
+84,O00084,90,5,32,2026-04-14,Visita a domicilio,Completado,663.35
+85,O00085,21,4,32,2026-05-19,Consulta presencial,Completado,683.54
+86,O00086,131,4,3,2026-03-16,Cita web,Completado,1255.25
+87,O00087,160,4,10,2026-04-07,Emergencia veterinaria,Completado,4422.00
+88,O00088,162,3,16,2026-02-15,Visita a domicilio,Completado,380.00
+89,O00089,147,3,33,2026-05-16,Consulta presencial,Completado,210.00
+90,O00090,164,2,20,2026-01-17,Cita web,Cancelado,915.00
+91,O00091,85,6,3,2026-05-25,Emergencia veterinaria,Completado,6453.15
+92,O00092,42,2,39,2026-02-28,Visita a domicilio,Completado,520.23
+93,O00093,111,2,14,2026-05-05,Consulta presencial,Completado,753.15
+94,O00094,43,2,13,2026-02-01,Cita web,Pendiente,355.00
+95,O00095,56,3,15,2026-04-18,Emergencia veterinaria,Completado,323.00
+96,O00096,3,3,27,2026-06-18,Visita a domicilio,Completado,417.23
+97,O00097,133,5,40,2026-01-11,Consulta presencial,Observado,178.43
+98,O00098,77,1,31,2026-02-13,Cita web,Completado,324.92
+99,O00099,37,5,22,2026-05-07,Emergencia veterinaria,Pendiente,880.00
+100,O00100,179,6,7,2026-02-20,Visita a domicilio,Completado,81.23
+101,O00101,151,2,17,2026-01-07,Consulta presencial,Pendiente,541.05
+102,O00102,48,2,23,2026-01-25,Cita web,Completado,2439.22
+103,O00103,156,3,23,2026-01-02,Emergencia veterinaria,Completado,6173.14
+104,O00104,110,2,26,2026-01-19,Visita a domicilio,Completado,302.00
+105,O00105,59,6,2,2026-03-26,Consulta presencial,Cancelado,276.54
+106,O00106,133,1,4,2026-02-04,Cita web,Completado,1038.82
+107,O00107,180,6,4,2026-01-04,Emergencia veterinaria,Cancelado,1100.00
+108,O00108,3,2,25,2026-06-09,Visita a domicilio,Completado,238.68
+109,O00109,136,5,9,25/03/2026,Consulta presencial,Pendiente,3405.70
+110,O00110,36,6,28,2026-03-09,Cita web,Completado,1567.00
+111,O00111,25,6,1,2026-06-26,Emergencia veterinaria,Pendiente,1487.10
+112,O00112,15,2,6,2026-01-09,Visita a domicilio,Completado,267.68
+113,O00113,181,5,7,2026-02-25,Consulta presencial,Pendiente,485.00
+114,O00114,193,3,30,2026-02-06,Cita web,Completado,786.92
+115,O00115,186,5,14,2026-03-28,Emergencia veterinaria,Completado,427.53
+116,O00116,174,6,28,2026-04-25,Visita a domicilio,Completado,290.00
+117,O00117,107,6,6,2026-02-07,Consulta presencial,Completado,380.00
+118,O00118,52,3,10,2026-04-19,Cita web,Completado,516.36
+119,O00119,179,2,18,2026-01-13,Emergencia veterinaria,Completado,85.68
+120,O00120,110,3,36,2026-04-20,Visita a domicilio,Completado,1957.23
+121,O00121,42,4,33,2026-03-20,Consulta presencial,Completado,415.00
+122,O00122,29,3,28,2026-04-24,Cita web,Completado,413.72
+123,O00123,39,5,13,2026-05-02,Emergencia veterinaria,Completado,611.92
+124,O00124,92,5,40,2026-02-26,Visita a domicilio,Completado,231.72
+125,O00125,170,1,6,2026-06-05,Consulta presencial,Completado,989.41
+126,O00126,176,2,34,2026-04-23,Cita web,Completado,1687.78
+127,O00127,125,6,22,2026-02-11,Emergencia veterinaria,Completado,276.54
+128,O00128,42,1,12,2026-01-04,Visita a domicilio,Pendiente,193.10
+129,O00129,153,3,39,2026-06-12,Consulta presencial,Cancelado,3922.04
+130,O00130,198,2,7,2026-05-27,Cita web,Completado,795.00
+131,O00131,17,1,4,2026-01-12,Emergencia veterinaria,Cancelado,2991.78
+132,O00132,176,3,21,2026-02-25,Visita a domicilio,Cancelado,416.54
+133,O00133,112,4,3,2026-02-21,Consulta presencial,Completado,1229.46
+134,O00134,87,2,1,2026-05-06,Cita web,Observado,368.72
+135,O00135,82,2,17,2026-03-26,Emergencia veterinaria,Completado,4816.71
+136,O00136,161,5,37,2026-05-22,Visita a domicilio,Pendiente,358.47
+137,O00137,181,1,14,2026-04-18,Consulta presencial,Completado,2614.20
+138,O00138,187,4,27,2026-06-14,Cita web,Pendiente,315.68
+139,O00139,163,5,33,2026-01-06,Emergencia veterinaria,Completado,880.00
+140,O00140,105,1,36,2026-04-03,Visita a domicilio,Pendiente,2932.36
+141,O00141,142,4,22,2026-01-26,Consulta presencial,Cancelado,196.00
+142,O00142,140,4,26,2026-05-19,Cita web,Observado,774.00
+143,O00143,61,4,,2026-03-03,Emergencia veterinaria,Pendiente,1878.37
+144,O00144,89,5,39,2026-01-08,Visita a domicilio,Pendiente,2434.58
+145,O00145,103,2,30,2026-05-19,Consulta presencial,Completado,406.15
+146,O00146,147,3,36,2026-02-20,Cita web,Completado,2795.31
+147,O00147,46,3,38,2026-06-03,Emergencia veterinaria,Pendiente,280.00
+148,O00148,9935,5,31,2026-06-06,Visita a domicilio,Cancelado,142.41
+149,O00149,97,2,13,2026-04-26,Consulta presencial,Cancelado,78.00
+150,O00150,65,3,29,2026-03-22,Cita web,Completado,620.00
+151,O00151,62,5,10,2026-05-27,Emergencia veterinaria,Observado,1088.72
+152,O00152,100,3,19,2026-04-01,Visita a domicilio,Completado,1057.68
+153,O00153,141,1,7,2026-06-05,Consulta presencial,Completado,526.00
+154,O00154,164,3,34,2026-02-15,Cita web,Pendiente,1354.72
+155,O00155,33,3,8,2026-01-18,Emergencia veterinaria,Completado,1756.08
+156,O00156,72,4,3,2026-03-04,Visita a domicilio,Observado,2673.44
+157,O00157,41,4,33,2026-01-18,Consulta presencial,Observado,2183.00
+158,O00158,129,5,23,2026-06-17,Cita web,Observado,76.47
+159,O00159,120,2,17,2026-02-19,Emergencia veterinaria,Completado,336.72
+160,O00160,99,4,8,2026-03-28,Visita a domicilio,Completado,3713.70
+161,O00161,12,1,31,2026-04-16,Consulta presencial,Pendiente,2033.68
+162,O00162,200,2,27,2026-02-09,Cita web,Completado,2981.84
+163,O00163,31,4,34,2026-05-15,Emergencia veterinaria,Pendiente,177.00
+164,O00164,151,1,3,2026-06-08,Visita a domicilio,Completado,5867.45
+165,O00165,10,2,9,2026-04-05,Consulta presencial,Completado,609.74
+166,O00166,65,6,13,2026-02-06,Cita web,Pendiente,291.00
+167,O00167,154,4,25,2026-02-05,Emergencia veterinaria,Completado,168.65
+168,O00168,39,1,32,2026-04-27,Visita a domicilio,Completado,1306.29
+169,O00169,128,3,13,2026-01-03,Consulta presencial,Pendiente,9670.90
+170,O00170,5,2,22,2026-01-07,Cita web,Completado,2959.56
+171,O00171,155,3,10,2026-06-28,Emergencia veterinaria,Completado,140.00
+172,O00172,145,5,9,2026-05-23,Visita a domicilio,Pendiente,431.00
+173,O00173,40,4,29,2026-06-02,Consulta presencial,Completado,427.00
+174,O00174,15,3,7,2026-05-20,Cita web,Observado,1320.00
+175,O00175,37,3,19,2026-03-01,Emergencia veterinaria,Observado,119.34
+176,O00176,86,1,34,2026-04-11,Visita a domicilio,Observado,4115.40
+177,O00177,116,2,14,2026-03-20,Consulta presencial,Observado,190.00
+178,O00178,188,5,33,12/05/2026,Cita web,Completado,1716.72
+179,O00179,29,2,1,2026-01-17,Emergencia veterinaria,Pendiente,2958.72
+180,O00180,2,6,25,2026-02-12,Visita a domicilio,Completado,4200.65
+181,O00181,64,2,36,2026-03-12,Consulta presencial,Completado,919.79
+182,O00182,38,5,36,2026-03-05,Cita web,Completado,231.72
+183,O00183,21,4,33,2026-01-22,Emergencia veterinaria,Observado,2255.83
+184,O00184,83,4,3,2026-03-07,Visita a domicilio,Completado,681.14
+185,O00185,54,6,31,2026-03-19,Consulta presencial,Completado,1472.69
+186,O00186,89,3,24,2026-03-19,Cita web,Completado,231.72
+187,O00187,147,2,31,2026-01-11,Emergencia veterinaria,Completado,753.15
+188,O00188,37,2,31,2026-06-01,Visita a domicilio,Completado,1158.18
+189,O00189,116,3,4,2026-01-23,Consulta presencial,Observado,606.64
+190,O00190,141,5,29,2026-05-12,Cita web,Pendiente,364.00
+191,O00191,124,5,24,2026-03-19,Emergencia veterinaria,Completado,1902.00
+192,O00192,14,4,17,2026-02-12,Visita a domicilio,Completado,147.00
+193,O00193,69,6,14,2026-04-01,Consulta presencial,Completado,508.48
+194,O00194,104,3,34,2026-05-25,Cita web,Completado,700.30
+195,O00195,55,4,31,2026-04-06,Emergencia veterinaria,Cancelado,2955.56
+196,O00196,182,4,23,2026-06-26,Visita a domicilio,Completado,354.12
+197,O00197,9351,6,12,2026-01-18,Consulta presencial,Observado,708.94
+198,O00198,8,2,20,2026-01-27,Cita web,Completado,2084.75
+199,O00199,123,4,15,19/05/2026,Emergencia veterinaria,Completado,3984.75
+200,O00200,196,4,27,2026-04-02,Visita a domicilio,Completado,298.10
+201,O00201,182,1,35,2026-03-25,Consulta presencial,Completado,2707.77
+202,O00202,160,6,11,2026-05-13,Cita web,Completado,325.68
+203,O00203,46,5,36,2026-01-08,Emergencia veterinaria,Completado,538.14
+204,O00204,60,5,24,2026-04-03,Visita a domicilio,Observado,1697.91
+205,O00205,149,1,5,2026-01-08,Consulta presencial,Completado,1748.90
+206,O00206,166,1,10,2026-06-01,Cita web,Completado,871.35
+207,O00207,69,5,9,17/05/2026,Emergencia veterinaria,Completado,5307.32
+208,O00208,154,4,12,2026-03-25,Visita a domicilio,Completado,792.00
+209,O00209,79,5,34,2026-04-07,Consulta presencial,Pendiente,1367.75
+210,O00210,61,6,5,2026-05-20,Cita web,Observado,1335.81
+211,O00211,173,2,40,2026-01-12,Emergencia veterinaria,Completado,870.28
+212,O00212,148,5,33,2026-01-15,Visita a domicilio,Completado,560.72
+213,O00213,141,4,5,2026-02-03,Consulta presencial,Completado,1080.00
+214,O00214,97,2,25,2026-04-12,Cita web,Completado,180.00
+215,O00215,147,1,12,2026-03-28,Emergencia veterinaria,Completado,1432.28
+216,O00216,188,6,25,2026-01-10,Visita a domicilio,Observado,859.00
+217,O00217,67,4,33,09/01/2026,Consulta presencial,Completado,476.00
+218,O00218,138,2,4,2026-05-02,Cita web,Completado,125.00
+219,O00219,109,4,18,2026-06-10,Emergencia veterinaria,Completado,14.28
+220,O00220,180,6,40,13/03/2026,Visita a domicilio,Observado,3282.57
+221,O00221,54,1,12,2026-03-06,Consulta presencial,Completado,592.00
+222,O00222,166,2,14,2026-01-25,Cita web,Completado,720.00
+223,O00223,152,6,19,2026-06-02,Emergencia veterinaria,Completado,3361.56
+224,O00224,191,6,12,2026-05-02,Visita a domicilio,Pendiente,5779.98
+225,O00225,137,1,29,2026-03-21,Consulta presencial,Completado,456.18
+226,O00226,107,4,37,2026-01-04,Cita web,Completado,501.49
+227,O00227,121,4,22,2026-02-08,Emergencia veterinaria,Completado,900.00
+228,O00228,140,5,19,04/04/2026,Visita a domicilio,Completado,242.00
+229,O00229,162,3,13,2026-06-23,Consulta presencial,Completado,549.40
+230,O00230,184,4,20,2026-04-23,Cita web,Completado,980.00
+231,O00231,37,3,12,2026-02-09,Emergencia veterinaria,Cancelado,850.96
+232,O00232,175,2,38,2026-03-03,Visita a domicilio,Pendiente,3405.70
+233,O00233,161,1,34,2026-04-10,Consulta presencial,Cancelado,2724.56
+234,O00234,120,5,35,25/01/2026,Cita web,Observado,59.67
+235,O00235,86,3,15,2026-03-21,Emergencia veterinaria,Pendiente,189.00
+236,O00236,22,3,18,2026-04-25,Visita a domicilio,Pendiente,3800.00
+237,O00237,73,5,13,2026-03-15,Consulta presencial,Completado,1478.90
+238,O00238,93,4,22,2026-01-28,Cita web,Pendiente,182.00
+239,O00239,23,5,10,2026-01-09,Emergencia veterinaria,Completado,515.00
+240,O00240,188,5,7,2026-02-18,Visita a domicilio,Completado,699.38
+241,O00241,141,1,27,2026-04-23,Consulta presencial,Completado,547.35
+242,O00242,165,4,22,2026-03-06,Cita web,Cancelado,502.10
+243,O00243,156,6,2,2026-04-22,Emergencia veterinaria,Pendiente,245.00
+244,O00244,16,5,1,2026-05-22,Visita a domicilio,Completado,1664.26
+245,O00245,148,1,37,2026-04-02,Consulta presencial,Pendiente,390.68
+246,O00246,34,1,28,2026-05-11,Cita web,Completado,2054.33
+247,O00247,108,4,7,2026-02-26,Emergencia veterinaria,Observado,273.00
+248,O00248,33,5,1,2026-03-14,Visita a domicilio,Completado,236.00
+249,O00249,91,1,21,2026-02-19,Consulta presencial,Cancelado,994.15
+250,O00250,106,4,37,2026-06-26,Cita web,Cancelado,2366.48
+251,O00251,26,2,33,2026-01-08,Emergencia veterinaria,Pendiente,105.00
+252,O00252,181,1,16,09/05/2026,Visita a domicilio,Pendiente,331.00
+253,O00253,198,1,19,2026-05-16,Consulta presencial,Completado,1402.77
+254,O00254,50,5,4,2026-01-13,Cita web,Completado,380.00
+255,O00255,104,4,10,2026-02-22,Emergencia veterinaria,Pendiente,920.98
+256,O00256,193,5,1,06/06/2026,Visita a domicilio,Observado,5479.99
+257,O00257,156,3,12,2026-05-10,Consulta presencial,Pendiente,777.78
+258,O00258,199,5,26,2026-02-07,Cita web,Completado,1044.64
+259,O00259,6,2,32,2026-01-11,Emergencia veterinaria,Observado,1019.34
+260,O00260,179,5,17,2026-05-16,Visita a domicilio,Completado,462.00
+261,O00261,151,1,27,2026-01-28,Consulta presencial,Completado,3562.24
+262,O00262,35,4,27,2026-02-07,Cita web,Pendiente,83.00
+263,O00263,177,1,16,20/05/2026,Emergencia veterinaria,Completado,1126.02
+264,O00264,113,1,19,2026-03-14,Visita a domicilio,Completado,1551.14
+265,O00265,89,4,1,2026-01-04,Consulta presencial,Completado,420.00
+266,O00266,148,2,31,26/01/2026,Cita web,Completado,50.98
+267,O00267,130,6,28,22/05/2026,Emergencia veterinaria,Pendiente,2620.00
+268,O00268,121,4,35,2026-06-05,Visita a domicilio,Completado,2380.75
+269,O00269,167,5,1,23/05/2026,Consulta presencial,Completado,3547.50
+270,O00270,92,1,11,2026-05-27,Cita web,Completado,3132.0
+271,O00271,66,2,7,2026-02-04,Emergencia veterinaria,Completado,284.00
+272,O00272,83,4,9,2026-01-01,Visita a domicilio,Completado,5454.48
+273,O00273,144,4,5,2026-01-03,Consulta presencial,Cancelado,1459.36
+274,O00274,28,1,18,2026-06-06,Cita web,Completado,437.67
+275,O00275,68,6,2,2026-06-13,Emergencia veterinaria,Pendiente,458.00
+276,O00276,125,6,12,2026-03-12,Visita a domicilio,Completado,1037.65
+277,O00277,16,1,14,2026-01-02,Consulta presencial,Completado,1386.00
+278,O00278,163,1,18,27/03/2026,Cita web,Completado,559.96
+279,O00279,115,1,21,2026-05-06,Emergencia veterinaria,Completado,524.67
+280,O00280,195,6,2,2026-03-05,Visita a domicilio,Completado,1277.68
+281,O00281,172,1,27,2026-04-05,Consulta presencial,Completado,603.00
+282,O00282,164,3,3,2026-02-25,Cita web,Completado,5881.47
+283,O00283,86,5,38,2026-05-18,Emergencia veterinaria,Completado,435.00
+284,O00284,86,4,35,2026-02-20,Visita a domicilio,Completado,5594.43
+285,O00285,176,6,17,2026-02-17,Consulta presencial,Completado,150.00
+286,O00286,54,2,30,2026-01-08,Cita web,Completado,190.00
+287,O00287,134,1,2,2026-03-10,Emergencia veterinaria,Completado,1030.54
+288,O00288,142,5,25,2026-03-18,Visita a domicilio,Completado,215.00
+289,O00289,10,4,31,2026-06-18,Consulta presencial,Pendiente,120.00
+290,O00290,28,3,3,2026-04-02,Cita web,Completado,1167.00
+291,O00291,182,6,18,2026-02-08,Emergencia veterinaria,Completado,2434.66
+292,O00292,179,1,17,2026-02-27,Visita a domicilio,Pendiente,3513.85
+293,O00293,35,2,39,2026-03-14,Consulta presencial,Cancelado,479.00
+294,O00294,101,3,34,2026-06-01,Cita web,Pendiente,4439.04
+295,O00295,158,5,7,2026-05-05,Emergencia veterinaria,Observado,28.56
+296,O00296,124,3,25,2026-05-09,Visita a domicilio,Observado,-3575.77
+297,O00297,50,6,9,2026-06-28,Consulta presencial,Completado,2165.61
+298,O00298,178,4,19,2026-01-12,Cita web,Pendiente,319.01
+299,O00299,93,5,6,11/01/2026,Emergencia veterinaria,Cancelado,977.36
+300,O00300,187,1,11,2026-02-05,Visita a domicilio,Completado,3405.70
+301,O00301,159,4,15,2026-03-05,Consulta presencial,Completado,415.00
+302,O00302,88,5,37,2026-01-24,Cita web,Completado,1792.50
+303,O00303,97,5,13,2026-05-28,Emergencia veterinaria,Observado,385.00
+304,O00304,25,1,16,2026-05-26,Visita a domicilio,Completado,708.00
+305,O00305,97,2,24,2026-05-01,Consulta presencial,Completado,4296.50
+306,O00306,23,1,31,2026-04-19,Cita web,Completado,2414.34
+307,O00307,147,3,39,2026-04-16,Emergencia veterinaria,Cancelado,592.00
+308,O00308,180,3,36,2026-06-25,Visita a domicilio,Completado,717.50
+309,O00309,96,5,30,2026-06-21,Consulta presencial,Completado,298.49
+310,O00310,9267,2,13,2026-06-12,Cita web,Completado,665.00
+311,O00311,176,6,5,2026-01-04,Emergencia veterinaria,Completado,898.10
+312,O00312,79,6,28,2026-01-06,Visita a domicilio,Pendiente,4255.00
+313,O00313,191,4,1,2026-01-17,Consulta presencial,Completado,282.00
+314,O00314,163,5,28,2026-02-08,Cita web,Completado,1128.70
+315,O00315,39,5,33,2026-03-04,Emergencia veterinaria,Completado,1946.53
+316,O00316,105,5,4,2026-05-19,Visita a domicilio,Completado,559.00
+317,O00317,69,2,11,2026-04-06,Consulta presencial,Completado,3405.20
+318,O00318,108,3,13,2026-05-24,Cita web,Pendiente,307.40
+319,O00319,84,2,39,2026-05-14,Emergencia veterinaria,Completado,557.01
+320,O00320,168,5,29,2026-03-11,Visita a domicilio,Pendiente,1133.15
+321,O00321,122,5,27,2026-03-13,Consulta presencial,Completado,487.38
+322,O00322,13,3,24,2026-04-03,Cita web,Completado,882.41
+323,O00323,117,2,37,2026-05-08,Emergencia veterinaria,Completado,124.07
+324,O00324,78,3,37,2026-02-04,Visita a domicilio,Completado,3240.00
+325,O00325,181,2,34,2026-06-27,Consulta presencial,Completado,1516.28
+326,O00326,78,5,35,2026-02-21,Cita web,Completado,1860.23
+327,O00327,171,1,6,2026-05-27,Emergencia veterinaria,Completado,284.82
+328,O00328,65,3,31,2026-04-28,Visita a domicilio,Completado,1600.45
+329,O00329,60,5,12,2026-02-24,Consulta presencial,Completado,16.00
+330,O00330,33,1,4,2026-01-17,Cita web,Completado,4844.00
+331,O00331,29,5,40,2026-02-06,Emergencia veterinaria,Cancelado,-1175.52
+332,O00332,140,2,25,2026-04-02,Visita a domicilio,Pendiente,493.54
+333,O00333,10,4,26,2026-05-18,Consulta presencial,Cancelado,1009.64
+334,O00334,31,5,10,2026-02-01,Cita web,Pendiente,4172.52
+335,O00335,171,1,4,2026-04-15,Emergencia veterinaria,Completado,2911.86
+336,O00336,145,4,22,2026-03-13,Visita a domicilio,Completado,2397.44
+337,O00337,117,1,16,2026-03-08,Consulta presencial,Cancelado,620.33
+338,O00338,167,3,35,2026-03-17,Cita web,Completado,1509.31
+339,O00339,4,1,25,2026-01-09,Emergencia veterinaria,Pendiente,3564.56
+340,O00340,25,6,36,2026-05-07,Visita a domicilio,Completado,213.00
+341,O00341,127,3,31,2026-02-13,Consulta presencial,Completado,136.50
+342,O00342,158,2,24,2026-03-12,Cita web,Completado,1234.48
+343,O00343,28,2,,2026-03-02,Emergencia veterinaria,Completado,632.00
+344,O00344,177,4,31,2026-02-17,Visita a domicilio,Cancelado,411.00
+345,O00345,37,6,39,23/05/2026,Consulta presencial,Completado,232.18
+346,O00346,24,3,1,2026-01-26,Cita web,Completado,354.00
+347,O00347,142,4,23,2026-02-28,Emergencia veterinaria,Observado,1465.08
+348,O00348,176,2,32,2026-03-26,Visita a domicilio,Pendiente,570.00
+349,O00349,125,6,29,22/03/2026,Consulta presencial,Completado,355.00
+350,O00350,127,1,1,2026-01-16,Cita web,Completado,-4424.6
+351,O00351,2,3,25,2026-05-26,Emergencia veterinaria,Cancelado,179.62
+352,O00352,128,3,11,2026-04-09,Visita a domicilio,Pendiente,1660.75
+353,O00353,75,4,10,2026-01-05,Consulta presencial,Completado,2545.52
+354,O00354,61,5,20,2026-04-20,Cita web,Completado,371.50
+355,O00355,5,3,10,2026-02-07,Emergencia veterinaria,Completado,2710.19
+356,O00356,108,1,5,2026-02-12,Visita a domicilio,Cancelado,421.36
+357,O00357,169,6,7,2026-01-16,Consulta presencial,Completado,2892.00
+358,O00358,6,5,30,2026-01-05,Cita web,Completado,1887.98
+359,O00359,40,3,22,2026-05-15,Emergencia veterinaria,Completado,1273.05
+360,O00360,153,3,20,2026-04-26,Visita a domicilio,Completado,976.72
+361,O00361,100,1,33,2026-04-20,Consulta presencial,Pendiente,40.00
+362,O00362,32,2,37,2026-03-02,Cita web,Cancelado,1500.30
+363,O00363,74,6,3,2026-02-13,Emergencia veterinaria,Completado,3012.75
+364,O00364,182,4,10,2026-03-12,Visita a domicilio,Observado,811.00
+365,O00365,169,4,7,2026-03-19,Consulta presencial,Completado,2088.92
+366,O00366,45,4,32,2026-02-04,Cita web,Pendiente,152.94
+367,O00367,190,6,11,2026-04-27,Emergencia veterinaria,Cancelado,850.00
+368,O00368,67,6,3,2026-06-20,Visita a domicilio,Completado,276.10
+369,O00369,84,6,39,2026-05-27,Consulta presencial,Completado,547.00
+370,O00370,66,6,10,2026-06-07,Cita web,Completado,630.00
+371,O00371,108,2,19,2026-03-17,Emergencia veterinaria,Completado,1325.94
+372,O00372,200,6,18,2026-03-22,Visita a domicilio,Pendiente,2730.75
+373,O00373,19,3,9,2026-04-04,Consulta presencial,Completado,1018.48
+374,O00374,153,5,20,2026-02-22,Cita web,Cancelado,1679.07
+375,O00375,9634,1,28,2026-06-08,Emergencia veterinaria,Pendiente,196.00
+376,O00376,43,2,7,2026-05-28,Visita a domicilio,Pendiente,2049.28
+377,O00377,111,5,9,2026-04-24,Consulta presencial,Pendiente,227.50
+378,O00378,113,1,33,2026-03-21,Cita web,Cancelado,177.00
+379,O00379,102,4,25,2026-02-10,Emergencia veterinaria,Pendiente,5905.46
+380,O00380,91,5,38,2026-06-03,Visita a domicilio,Completado,1436.96
+381,O00381,7,5,2,2026-01-11,Consulta presencial,Pendiente,1507.00
+382,O00382,87,6,9,2026-02-14,Cita web,Completado,1872.53
+383,O00383,138,3,13,2026-03-27,Emergencia veterinaria,Cancelado,94.00
+384,O00384,172,5,1,2026-06-03,Visita a domicilio,Pendiente,245.00
+385,O00385,9470,1,7,2026-02-22,Consulta presencial,Observado,4109.88
+386,O00386,200,2,23,2026-06-19,Cita web,Pendiente,32.00
+387,O00387,46,3,16,2026-04-18,Emergencia veterinaria,Completado,5658.35
+388,O00388,143,4,9,2026-03-01,Visita a domicilio,Completado,1426.75
+389,O00389,190,6,10,2026-05-25,Consulta presencial,Completado,1418.23
+390,O00390,75,1,8,2026-06-27,Cita web,Observado,1370.00
+391,O00391,35,6,3,2026-01-03,Emergencia veterinaria,Observado,822.41
+392,O00392,104,3,19,2026-03-05,Visita a domicilio,Completado,235.00
+393,O00393,85,6,31,2026-02-01,Consulta presencial,Completado,355.00
+394,O00394,71,5,16,2026-05-17,Cita web,Completado,337.45
+395,O00395,128,1,28,2026-06-09,Emergencia veterinaria,Completado,3720.90
+396,O00396,164,1,7,2026-01-16,Visita a domicilio,Observado,1800.00
+397,O00397,4,3,37,2026-02-23,Consulta presencial,Pendiente,295.00
+398,O00398,76,4,3,2026-04-15,Cita web,Completado,1379.77
+399,O00399,183,2,25,2026-03-27,Emergencia veterinaria,Completado,592.01
+400,O00400,188,5,30,2026-01-27,Visita a domicilio,Completado,265.68
+401,O00401,102,3,20,22/03/2026,Consulta presencial,Completado,4966.70
+402,O00402,47,3,6,2026-05-10,Cita web,Pendiente,540.18
+403,O00403,39,1,1,2026-05-11,Emergencia veterinaria,Completado,210.00
+404,O00404,18,2,26,2026-06-09,Visita a domicilio,Observado,628.82
+405,O00405,158,6,33,2026-01-06,Consulta presencial,Completado,2284.94
+406,O00406,152,4,13,2026-04-28,Cita web,Cancelado,871.35
+407,O00407,169,3,31,2026-04-24,Emergencia veterinaria,Completado,883.90
+408,O00408,48,6,19,2026-04-07,Visita a domicilio,Observado,837.08
+409,O00409,60,5,22,2026-01-17,Consulta presencial,Completado,284.01
+410,O00410,38,4,12,2026-01-16,Cita web,Pendiente,1176.45
+411,O00411,126,3,19,2026-01-25,Emergencia veterinaria,Completado,282.00
+412,O00412,132,2,36,2026-06-22,Visita a domicilio,Completado,50.98
+413,O00413,65,6,37,2026-02-20,Consulta presencial,Completado,299.56
+414,O00414,29,3,23,2026-02-25,Cita web,Completado,180.00
+415,O00415,18,5,3,17/02/2026,Emergencia veterinaria,Pendiente,4674.70
+416,O00416,9645,2,22,2026-03-18,Visita a domicilio,Completado,1288.00
+417,O00417,55,6,20,10/02/2026,Consulta presencial,Completado,315.00
+418,O00418,91,3,11,2026-06-04,Cita web,Cancelado,931.47
+419,O00419,31,1,22,2026-06-06,Emergencia veterinaria,Completado,189.00
+420,O00420,34,1,1,2026-06-26,Visita a domicilio,Pendiente,1171.00
+421,O00421,179,2,23,2026-04-19,Consulta presencial,Completado,210.00
+422,O00422,32,2,,2026-02-06,Cita web,Completado,458.50
+423,O00423,93,6,7,15/02/2026,Emergencia veterinaria,Completado,2107.45
+424,O00424,67,6,40,2026-05-14,Visita a domicilio,Cancelado,346.28
+425,O00425,170,6,12,2026-01-04,Consulta presencial,Cancelado,402.84
+426,O00426,60,3,20,2026-04-23,Cita web,Cancelado,361.00
+427,O00427,161,4,32,2026-05-04,Emergencia veterinaria,Observado,210.00
+428,O00428,187,4,33,2026-02-12,Visita a domicilio,Completado,71.40
+429,O00429,170,6,30,2026-04-20,Consulta presencial,Completado,4135.85
+430,O00430,135,6,25,2026-06-28,Cita web,Observado,2567.41
+431,O00431,19,4,8,2026-06-14,Emergencia veterinaria,Cancelado,2373.90
+432,O00432,41,1,20,2026-03-19,Visita a domicilio,Pendiente,2076.05
+433,O00433,174,4,40,2026-02-13,Consulta presencial,Completado,572.00
+434,O00434,78,3,6,04/01/2026,Cita web,Completado,1527.18
+435,O00435,62,4,14,2026-05-04,Emergencia veterinaria,Completado,1320.00
+436,O00436,52,1,13,2026-03-17,Visita a domicilio,Completado,76.47
+437,O00437,152,4,29,2026-06-19,Consulta presencial,Pendiente,184.36
+438,O00438,133,4,19,2026-03-18,Cita web,Completado,1552.46
+439,O00439,97,1,25,2026-06-23,Emergencia veterinaria,Observado,1286.55
+440,O00440,113,5,6,2026-06-04,Visita a domicilio,Completado,3085.33
+441,O00441,87,3,25,2026-05-12,Consulta presencial,Pendiente,4550.90
+442,O00442,53,2,1,2026-01-01,Cita web,Completado,2100.90
+443,O00443,142,1,22,2026-04-20,Emergencia veterinaria,Completado,880.00
+444,O00444,183,3,36,2026-05-13,Visita a domicilio,Pendiente,346.62
+445,O00445,122,5,37,2026-01-16,Consulta presencial,Completado,3909.08
+446,O00446,25,6,24,16/06/2026,Cita web,Completado,423.73
+447,O00447,171,6,3,2026-01-14,Emergencia veterinaria,Completado,7754.0
+448,O00448,139,2,14,2026-03-22,Visita a domicilio,Completado,310.08
+449,O00449,194,5,14,2026-02-02,Consulta presencial,Completado,822.06
+450,O00450,29,1,33,2026-02-13,Cita web,Completado,8.00
+451,O00451,161,5,36,2026-01-05,Emergencia veterinaria,Completado,154.48
+452,O00452,103,2,5,2026-03-15,Visita a domicilio,Completado,783.43
+453,O00453,77,3,21,2026-02-15,Consulta presencial,Completado,147.00
+454,O00454,134,6,31,2026-04-09,Cita web,Pendiente,1486.00
+455,O00455,170,1,23,2026-05-05,Emergencia veterinaria,Pendiente,2773.80
+456,O00456,40,6,15,2026-05-19,Visita a domicilio,Completado,284.00
+457,O00457,6,4,3,2026-01-25,Consulta presencial,Pendiente,870.00
+458,O00458,189,5,29,2026-03-07,Cita web,Completado,76.47
+459,O00459,29,6,18,2026-05-08,Emergencia veterinaria,Cancelado,720.00
+460,O00460,13,4,,2026-06-13,Visita a domicilio,Pendiente,1760.08
+461,O00461,131,5,38,2026-02-18,Consulta presencial,Completado,2441.01
+462,O00462,79,1,34,2026-04-20,Cita web,Pendiente,865.00
+463,O00463,55,3,8,2026-02-10,Emergencia veterinaria,Completado,1001.04
+464,O00464,57,6,3,2026-03-04,Visita a domicilio,Cancelado,1203.15
+465,O00465,191,4,12,2026-03-03,Consulta presencial,Completado,1512.00
+466,O00466,4,2,17,2026-02-01,Cita web,Pendiente,2602.28
+467,O00467,154,3,38,2026-04-04,Emergencia veterinaria,Cancelado,975.79
+468,O00468,38,3,17,2026-05-17,Visita a domicilio,Pendiente,273.00
+469,O00469,51,2,13,2026-05-27,Consulta presencial,Completado,152.94
+470,O00470,144,3,19,2026-06-15,Cita web,Completado,1436.00
+471,O00471,116,4,14,2026-02-27,Emergencia veterinaria,Cancelado,8.00
+472,O00472,196,5,,2026-02-21,Visita a domicilio,Cancelado,1259.01
+473,O00473,27,3,15,19/06/2026,Consulta presencial,Completado,697.05
+474,O00474,29,5,1,2026-06-26,Cita web,Pendiente,1400.60
+475,O00475,191,2,12,2026-03-21,Emergencia veterinaria,Pendiente,440.03
+476,O00476,154,2,37,2026-05-06,Visita a domicilio,Completado,8.00
+477,O00477,48,1,14,2026-03-08,Consulta presencial,Completado,1443.13
+478,O00478,192,4,32,2026-03-04,Cita web,Completado,621.94
+479,O00479,69,3,32,2026-02-01,Emergencia veterinaria,Completado,1080.00
+480,O00480,160,5,5,2026-06-11,Visita a domicilio,Pendiente,427.23
+481,O00481,140,2,23,2026-01-10,Consulta presencial,Pendiente,370.85
+482,O00482,2,4,18,2026-03-18,Cita web,Completado,3528.00
+483,O00483,119,2,16,2026-03-06,Emergencia veterinaria,Completado,777.63
+484,O00484,131,5,31,2026-06-16,Visita a domicilio,Pendiente,2763.92
+485,O00485,56,4,12,2026-05-05,Consulta presencial,Completado,2724.56
+486,O00486,65,3,11,2026-01-01,Cita web,Completado,402.54
+487,O00487,99,5,26,2026-05-17,Emergencia veterinaria,Observado,658.00
+488,O00488,33,5,21,2026-04-14,Visita a domicilio,Observado,5280.30
+489,O00489,73,5,4,2026-01-22,Consulta presencial,Observado,5002.58
+490,O00490,27,5,19,2026-04-16,Cita web,Pendiente,190.00
+491,O00491,50,2,26,2026-03-06,Emergencia veterinaria,Observado,3210.00
+492,O00492,9,5,1,2026-03-23,Visita a domicilio,Completado,764.41
+493,O00493,128,6,6,2026-06-06,Consulta presencial,Completado,685.00
+494,O00494,40,2,11,2026-02-16,Cita web,Cancelado,1491.58
+495,O00495,69,1,35,2026-06-10,Emergencia veterinaria,Pendiente,298.35
+496,O00496,92,2,26,2026-02-14,Visita a domicilio,Completado,231.00
+497,O00497,42,5,40,2026-06-04,Consulta presencial,Cancelado,118.00
+498,O00498,102,5,13,2026-04-02,Cita web,Completado,468.00
+499,O00499,107,3,14,2026-03-28,Emergencia veterinaria,Completado,465.10
+500,O00500,106,1,27,2026-01-16,Visita a domicilio,Cancelado,2662.82
+501,O00501,88,1,2,2026-01-21,Consulta presencial,Pendiente,902.00
+502,O00502,78,3,24,2026-03-09,Cita web,Completado,4916.72
+503,O00503,70,6,40,2026-02-17,Emergencia veterinaria,Completado,3960.00
+504,O00504,28,6,8,2026-04-08,Visita a domicilio,Pendiente,1800.07
+505,O00505,115,3,4,2026-06-03,Consulta presencial,Completado,4984.77
+506,O00506,97,5,12,2026-04-21,Cita web,Pendiente,772.00
+507,O00507,85,1,21,16/04/2026,Emergencia veterinaria,Completado,2143.40
+508,O00508,33,6,27,2026-06-27,Visita a domicilio,Completado,533.00
+509,O00509,159,1,35,2026-05-19,Consulta presencial,Completado,285.00
+510,O00510,169,1,24,2026-03-09,Cita web,Pendiente,392.34
+511,O00511,66,2,,2026-05-08,Emergencia veterinaria,Observado,25.49
+512,O00512,192,5,18,2026-05-26,Visita a domicilio,Pendiente,753.15
+513,O00513,14,5,26,2026-04-12,Consulta presencial,Pendiente,2208.00
+514,O00514,53,1,13,2026-02-25,Cita web,Pendiente,3792.28
+515,O00515,27,2,28,2026-01-24,Emergencia veterinaria,Cancelado,105.00
+516,O00516,152,1,28,2026-02-09,Visita a domicilio,Completado,1900.00
+517,O00517,139,5,26,2026-05-22,Consulta presencial,Completado,2328.24
+518,O00518,154,4,38,2026-03-17,Cita web,Pendiente,6047.13
+519,O00519,103,2,12,2026-04-17,Emergencia veterinaria,Completado,3405.70
+520,O00520,57,1,7,2026-05-04,Visita a domicilio,Completado,118.00
+521,O00521,190,1,38,2026-06-05,Consulta presencial,Observado,1716.36
+522,O00522,156,2,14,2026-04-04,Cita web,Completado,1230.72
+523,O00523,75,2,2,2026-06-04,Emergencia veterinaria,Completado,2140.37
+524,O00524,3,5,36,2026-05-08,Visita a domicilio,Cancelado,2439.79
+525,O00525,7,1,2,2026-02-02,Consulta presencial,Completado,77.24
+526,O00526,70,6,23,2026-03-08,Cita web,Pendiente,380.96
+527,O00527,103,6,39,2026-06-10,Emergencia veterinaria,Completado,363.28
+528,O00528,110,5,23,2026-02-10,Visita a domicilio,Completado,755.00
+529,O00529,186,2,31,07/03/2026,Consulta presencial,Pendiente,613.00
+530,O00530,80,5,1,2026-06-16,Cita web,Completado,2349.00
+531,O00531,18,2,18,2026-04-11,Emergencia veterinaria,Completado,976.72
+532,O00532,13,5,34,2026-03-18,Visita a domicilio,Pendiente,1772.00
+533,O00533,172,1,16,2026-02-27,Consulta presencial,Completado,924.72
+534,O00534,135,2,25,2026-04-10,Cita web,Cancelado,1039.86
+535,O00535,193,4,5,2026-04-01,Emergencia veterinaria,Completado,6446.00
+536,O00536,1,4,12,2026-05-19,Visita a domicilio,Completado,257.46
+537,O00537,125,1,23,2026-04-03,Consulta presencial,Completado,59.67
+538,O00538,115,6,11,09/04/2026,Cita web,Completado,190.00
+539,O00539,191,3,19,2026-02-07,Emergencia veterinaria,Completado,2944.44
+540,O00540,95,4,18,2026-05-25,Visita a domicilio,Cancelado,775.00
+541,O00541,137,2,26,2026-03-23,Consulta presencial,Observado,460.90
+542,O00542,163,4,1,2026-03-19,Cita web,Completado,49.00
+543,O00543,40,6,21,2026-05-16,Emergencia veterinaria,Cancelado,231.72
+544,O00544,7,2,13,2026-01-01,Visita a domicilio,Cancelado,597.00
+545,O00545,65,5,26,2026-04-16,Consulta presencial,Completado,540.00
+546,O00546,108,1,19,2026-02-10,Cita web,Pendiente,647.00
+547,O00547,25,5,26,2026-03-05,Emergencia veterinaria,Pendiente,844.00
+548,O00548,110,4,4,2026-03-07,Visita a domicilio,Completado,1519.14
+549,O00549,28,5,25,2026-02-24,Consulta presencial,Completado,196.73
+550,O00550,92,4,34,2026-03-23,Cita web,Cancelado,63.00
+551,O00551,180,5,8,2026-06-06,Emergencia veterinaria,Cancelado,7556.64
+552,O00552,152,5,7,2026-01-10,Visita a domicilio,Cancelado,988.59
+553,O00553,70,3,34,2026-01-25,Consulta presencial,Completado,1923.00
+554,O00554,1,3,1,2026-06-21,Cita web,Pendiente,475.00
+555,O00555,172,2,17,2026-05-16,Emergencia veterinaria,Completado,2982.90
+556,O00556,126,4,36,2026-05-25,Visita a domicilio,Cancelado,501.00
+557,O00557,108,6,3,2026-03-17,Consulta presencial,Pendiente,1132.23
+558,O00558,28,5,20,2026-06-05,Cita web,Pendiente,628.10
+559,O00559,124,3,30,2026-02-23,Emergencia veterinaria,Completado,865.31
+560,O00560,48,5,20,2026-04-14,Visita a domicilio,Completado,700.08
+561,O00561,154,3,15,2026-05-16,Consulta presencial,Completado,308.00
+562,O00562,18,2,21,03/03/2026,Cita web,Completado,2065.67
+563,O00563,178,3,1,2026-03-21,Emergencia veterinaria,Pendiente,190.00
+564,O00564,162,3,17,2026-01-13,Visita a domicilio,Observado,2733.54
+565,O00565,118,4,34,2026-02-01,Consulta presencial,Cancelado,1009.96
+566,O00566,67,3,23,2026-02-10,Cita web,Completado,118.00
+567,O00567,141,4,22,2026-01-17,Emergencia veterinaria,Observado,2065.07
+568,O00568,72,4,16,2026-05-01,Visita a domicilio,Completado,1270.82
+569,O00569,119,1,34,2026-05-23,Consulta presencial,Observado,352.41
+570,O00570,129,5,30,2026-04-20,Cita web,Pendiente,2232.40
+571,O00571,22,2,11,2026-02-03,Emergencia veterinaria,Completado,500.92
+572,O00572,36,1,15,2026-03-17,Visita a domicilio,Pendiente,2488.08
+573,O00573,55,1,6,2026-05-24,Consulta presencial,Completado,601.49
+574,O00574,132,5,34,2026-01-15,Cita web,Completado,1133.45
+575,O00575,143,4,,2026-04-21,Emergencia veterinaria,Completado,426.00
+576,O00576,82,3,10,2026-04-04,Visita a domicilio,Pendiente,376.45
+577,O00577,44,5,1,2026-01-21,Consulta presencial,Pendiente,4413.11
+578,O00578,185,4,12,2026-03-17,Cita web,Completado,2076.30
+579,O00579,41,4,12,2026-02-21,Emergencia veterinaria,Completado,1146.92
+580,O00580,134,3,37,2026-06-15,Visita a domicilio,Pendiente,654.80
+581,O00581,122,6,3,2026-02-18,Consulta presencial,Pendiente,485.90
+582,O00582,190,2,11,05/03/2026,Cita web,Cancelado,3425.16
+583,O00583,180,6,2,2026-05-22,Emergencia veterinaria,Observado,9940.84
+584,O00584,140,1,40,2026-05-13,Visita a domicilio,Pendiente,2186.49
+585,O00585,142,5,36,2026-03-23,Consulta presencial,Completado,716.00
+586,O00586,13,4,9,2026-01-23,Cita web,Cancelado,5170.73
+587,O00587,49,1,21,2026-02-15,Emergencia veterinaria,Completado,302.49
+588,O00588,24,4,14,2026-05-21,Visita a domicilio,Completado,817.72
+589,O00589,103,6,10,2026-03-05,Consulta presencial,Completado,459.00
+590,O00590,101,1,18,2026-06-18,Cita web,Pendiente,827.36
+591,O00591,9883,5,36,2026-01-02,Emergencia veterinaria,Pendiente,1331.72
+592,O00592,103,2,17,2026-03-26,Visita a domicilio,Pendiente,2463.42
+593,O00593,123,6,18,24/03/2026,Consulta presencial,Completado,182.00
+594,O00594,87,1,31,2026-01-19,Cita web,Completado,4975.26
+595,O00595,173,5,14,2026-04-03,Emergencia veterinaria,Observado,1340.45
+596,O00596,167,3,21,2026-01-05,Visita a domicilio,Completado,966.00
+597,O00597,162,6,9,2026-06-20,Consulta presencial,Completado,368.72
+598,O00598,109,3,4,19/02/2026,Cita web,Pendiente,535.50
+599,O00599,57,4,11,2026-03-10,Emergencia veterinaria,Completado,1722.66
+600,O00600,29,4,24,10/04/2026,Visita a domicilio,Completado,196.00
+601,O00601,124,6,24,2026-05-16,Consulta presencial,Completado,1440.11
+602,O00602,196,4,38,2026-05-26,Cita web,Completado,105.00
+603,O00603,140,5,18,2026-06-03,Emergencia veterinaria,Pendiente,693.84
+604,O00604,76,6,5,2026-04-14,Visita a domicilio,Observado,502.84
+605,O00605,21,1,35,2026-03-11,Consulta presencial,Completado,2020.87
+606,O00606,24,1,31,2026-01-09,Cita web,Observado,1789.83
+607,O00607,191,1,11,2026-05-10,Emergencia veterinaria,Observado,923.06
+608,O00608,5,4,1,2026-05-22,Visita a domicilio,Completado,488.36
+609,O00609,176,5,27,2026-04-02,Consulta presencial,Pendiente,695.34
+610,O00610,88,3,8,2026-01-07,Cita web,Completado,185.56
+611,O00611,3,2,11,2026-03-23,Emergencia veterinaria,Completado,1555.50
+612,O00612,130,2,19,2026-01-10,Visita a domicilio,Completado,94.00
+613,O00613,150,2,26,2026-04-27,Consulta presencial,Completado,370.50
+614,O00614,70,6,35,2026-06-22,Cita web,Completado,5335.90
+615,O00615,151,4,12,2026-03-05,Emergencia veterinaria,Completado,166.00
+616,O00616,13,1,14,2026-04-26,Visita a domicilio,Completado,1620.46
+617,O00617,53,1,33,2026-03-27,Consulta presencial,Completado,3135.16
+618,O00618,33,6,27,2026-03-19,Cita web,Pendiente,3800.00
+619,O00619,131,6,20,2026-04-17,Emergencia veterinaria,Completado,1012.65
+620,O00620,136,4,,2026-05-11,Visita a domicilio,Completado,358.98
+621,O00621,83,3,10,2026-04-01,Consulta presencial,Cancelado,833.24
+622,O00622,60,1,10,17/04/2026,Cita web,Completado,817.90
+623,O00623,21,1,19,15/02/2026,Emergencia veterinaria,Completado,6193.86
+624,O00624,27,4,34,2026-02-04,Visita a domicilio,Observado,3466.49
+625,O00625,126,6,29,2026-02-08,Consulta presencial,Observado,3079.56
+626,O00626,11,1,,2026-02-08,Cita web,Cancelado,59.67
+627,O00627,101,1,1,2026-02-08,Emergencia veterinaria,Completado,1860.72
+628,O00628,40,6,4,2026-05-13,Visita a domicilio,Cancelado,508.35
+629,O00629,152,3,7,2026-02-13,Consulta presencial,Completado,427.23
+630,O00630,68,2,9,28/06/2026,Cita web,Completado,2623.42
+631,O00631,108,5,4,2026-05-22,Emergencia veterinaria,Cancelado,175.00
+632,O00632,157,3,21,21/06/2026,Visita a domicilio,Completado,210.00
+633,O00633,156,6,23,12/01/2026,Consulta presencial,Completado,916.00
+634,O00634,117,5,25,2026-05-22,Cita web,Completado,346.50
+635,O00635,105,4,7,2026-06-04,Emergencia veterinaria,Completado,720.38
+636,O00636,113,5,5,2026-05-12,Visita a domicilio,Pendiente,190.00
+637,O00637,164,5,16,2026-03-28,Consulta presencial,Completado,616.08
+638,O00638,44,6,7,13/05/2026,Cita web,Cancelado,826.00
+639,O00639,176,4,25,2026-06-04,Emergencia veterinaria,Completado,4900.00
+640,O00640,131,6,11,17/04/2026,Visita a domicilio,Completado,2325.64
+641,O00641,144,4,19,2026-03-10,Consulta presencial,Cancelado,2788.83
+642,O00642,177,5,3,2026-04-06,Cita web,Observado,1030.00
+643,O00643,46,6,3,2026-04-20,Emergencia veterinaria,Cancelado,518.66
+644,O00644,152,5,20,2026-01-15,Visita a domicilio,Completado,5135.34
+645,O00645,190,3,10,2026-02-16,Consulta presencial,Completado,47.00
+646,O00646,174,5,10,2026-03-17,Cita web,Pendiente,2586.29
+647,O00647,156,3,5,2026-06-13,Emergencia veterinaria,Completado,308.00
+648,O00648,23,3,24,2026-03-08,Visita a domicilio,Completado,2739.40
+649,O00649,88,4,7,2026-02-22,Consulta presencial,Pendiente,388.94
+650,O00650,195,6,26,2026-05-19,Cita web,Observado,2918.40
+651,O00651,127,2,31,2026-02-16,Emergencia veterinaria,Pendiente,251.05
+652,O00652,166,5,4,12/03/2026,Visita a domicilio,Pendiente,580.00
+653,O00653,18,4,27,2026-06-27,Consulta presencial,Pendiente,284.00
+654,O00654,120,3,26,2026-02-28,Cita web,Completado,568.45
+655,O00655,102,1,11,2026-01-17,Emergencia veterinaria,Cancelado,1255.25
+656,O00656,27,1,35,2026-04-25,Visita a domicilio,Cancelado,92.18
+657,O00657,16,5,1,2026-04-12,Consulta presencial,Completado,1189.10
+658,O00658,121,6,5,2026-01-10,Cita web,Completado,993.90
+659,O00659,147,4,27,2026-03-18,Emergencia veterinaria,Cancelado,245.00
+660,O00660,157,2,29,2026-04-07,Visita a domicilio,Completado,2781.60
+661,O00661,109,2,19,2026-05-22,Consulta presencial,Completado,711.82
+662,O00662,148,4,38,2026-01-20,Cita web,Completado,2631.55
+663,O00663,168,3,24,2026-05-24,Emergencia veterinaria,Completado,175.00
+664,O00664,89,3,9,2026-05-13,Visita a domicilio,Cancelado,4285.48
+665,O00665,40,6,32,2026-02-23,Consulta presencial,Completado,3518.52
+666,O00666,181,1,27,2026-05-28,Cita web,Completado,3795.02
+667,O00667,9113,3,,2026-01-25,Emergencia veterinaria,Pendiente,235.49
+668,O00668,177,3,30,2026-04-24,Visita a domicilio,Completado,127.45
+669,O00669,157,2,39,2026-05-02,Consulta presencial,Completado,720.00
+670,O00670,66,2,30,2026-03-03,Cita web,Observado,9140.70
+671,O00671,166,3,9,2026-03-26,Emergencia veterinaria,Completado,45.50
+672,O00672,99,6,5,2026-01-14,Visita a domicilio,Completado,385.24
+673,O00673,143,4,19,2026-04-26,Consulta presencial,Completado,1186.64
+674,O00674,6,3,14,2026-06-10,Cita web,Completado,126.00
+675,O00675,123,5,7,17/04/2026,Emergencia veterinaria,Completado,488.36
+676,O00676,55,4,28,2026-05-23,Visita a domicilio,Completado,747.00
+677,O00677,155,2,17,2026-03-10,Consulta presencial,Completado,2075.42
+678,O00678,36,6,22,2026-04-27,Cita web,Completado,4750.00
+679,O00679,60,1,9,2026-01-12,Emergencia veterinaria,Observado,3405.70
+680,O00680,111,6,22,2026-05-02,Visita a domicilio,Completado,2591.05
+681,O00681,153,2,15,2026-03-21,Consulta presencial,Completado,865.00
+682,O00682,57,3,35,2026-05-07,Cita web,Completado,987.00
+683,O00683,110,1,37,2026-05-28,Emergencia veterinaria,Pendiente,5103.42
+684,O00684,91,4,38,2026-01-19,Visita a domicilio,Completado,1206.35
+685,O00685,100,3,10,05/06/2026,Consulta presencial,Pendiente,1332.2
+686,O00686,57,2,6,2026-04-19,Cita web,Completado,1453.28
+687,O00687,121,1,24,2026-05-14,Emergencia veterinaria,Completado,269.62
+688,O00688,1,4,5,2026-03-01,Visita a domicilio,Completado,4911.84
+689,O00689,120,6,17,2026-02-18,Consulta presencial,Completado,4829.94
+690,O00690,130,4,16,2026-02-20,Cita web,Completado,1493.93
+691,O00691,186,6,5,2026-06-26,Emergencia veterinaria,Completado,3653.39
+692,O00692,61,4,37,2026-06-19,Visita a domicilio,Completado,1274.36
+693,O00693,90,2,10,01/06/2026,Consulta presencial,Completado,210.00
+694,O00694,200,1,6,2026-03-27,Cita web,Completado,790.59
+695,O00695,44,1,16,2026-01-04,Emergencia veterinaria,Completado,2930.16
+696,O00696,193,6,3,2026-01-20,Visita a domicilio,Completado,3580.46
+697,O00697,155,4,29,2026-06-16,Consulta presencial,Pendiente,251.05
+698,O00698,73,3,4,2026-02-22,Cita web,Completado,830.82
+699,O00699,40,3,3,05/03/2026,Emergencia veterinaria,Completado,1612.05
+700,O00700,91,5,9,2026-03-05,Visita a domicilio,Pendiente,3035.16
+701,O00701,55,3,1,08/05/2026,Consulta presencial,Pendiente,189.00
+702,O00702,58,6,3,2026-04-04,Cita web,Completado,451.00
+703,O00703,8,5,16,2026-05-19,Emergencia veterinaria,Observado,126.00
+704,O00704,84,6,26,2026-02-18,Visita a domicilio,Completado,77.00
+705,O00705,97,3,14,2026-06-19,Consulta presencial,Completado,571.15
+706,O00706,106,5,14,2026-05-18,Cita web,Observado,5627.14
+707,O00707,9,6,16,2026-02-28,Emergencia veterinaria,Completado,1714.08
+708,O00708,191,3,24,2026-05-16,Visita a domicilio,Pendiente,284.00
+709,O00709,38,4,34,2026-01-09,Consulta presencial,Completado,386.00
+710,O00710,1,4,1,13/04/2026,Cita web,Completado,2519.69
+711,O00711,65,4,18,2026-01-07,Emergencia veterinaria,Completado,-4004.88
+712,O00712,18,6,32,2026-01-04,Visita a domicilio,Completado,323.56
+713,O00713,14,3,8,2026-01-25,Consulta presencial,Cancelado,4101.26
+714,O00714,169,6,33,2026-02-24,Cita web,Pendiente,570.00
+715,O00715,40,6,32,2026-06-13,Emergencia veterinaria,Pendiente,3153.61
+716,O00716,82,6,26,2026-04-04,Visita a domicilio,Completado,360.00
+717,O00717,152,6,24,2026-06-16,Consulta presencial,Completado,1803.00
+718,O00718,137,2,23,2026-05-24,Cita web,Completado,139.00
+719,O00719,139,2,4,23/05/2026,Emergencia veterinaria,Completado,692.46
+720,O00720,190,4,28,2026-02-22,Visita a domicilio,Completado,6050.15
+721,O00721,148,1,20,2026-01-15,Consulta presencial,Completado,250.10
+722,O00722,85,5,30,2026-04-23,Cita web,Completado,415.23
+723,O00723,68,5,1,2026-06-15,Emergencia veterinaria,Completado,1424.60
+724,O00724,149,3,11,2026-05-24,Visita a domicilio,Completado,880.14
+725,O00725,11,4,23,2026-01-01,Consulta presencial,Completado,245.00
+726,O00726,165,4,3,23/02/2026,Cita web,Pendiente,867.01
+727,O00727,138,4,22,2026-04-17,Emergencia veterinaria,Cancelado,315.00
+728,O00728,115,3,19,2026-03-18,Visita a domicilio,Completado,409.50
+729,O00729,157,1,33,2026-02-10,Consulta presencial,Completado,6001.72
+730,O00730,106,6,3,2026-02-18,Cita web,Pendiente,5320.68
+731,O00731,12,3,9,2026-04-15,Emergencia veterinaria,Pendiente,326.72
+732,O00732,49,4,7,2026-02-01,Visita a domicilio,Pendiente,201.00
+733,O00733,6,3,38,2026-04-13,Consulta presencial,Completado,912.35
+734,O00734,112,3,13,2026-03-25,Cita web,Completado,570.50
+735,O00735,64,3,37,2026-01-12,Emergencia veterinaria,Completado,740.50
+736,O00736,116,3,26,2026-04-10,Visita a domicilio,Observado,566.10
+737,O00737,174,3,32,2026-01-13,Consulta presencial,Completado,147.46
+738,O00738,67,5,37,2026-03-20,Cita web,Completado,806.00
+739,O00739,196,5,25,2026-05-17,Emergencia veterinaria,Completado,580.00
+740,O00740,3,2,27,2026-03-27,Visita a domicilio,Pendiente,126.56
+741,O00741,59,1,28,2026-03-12,Consulta presencial,Completado,1610.45
+742,O00742,158,5,32,2026-06-08,Cita web,Pendiente,366.47
+743,O00743,45,5,28,2026-03-06,Emergencia veterinaria,Pendiente,1741.48
+744,O00744,53,5,33,2026-04-25,Visita a domicilio,Completado,1793.47
+745,O00745,61,5,29,12/04/2026,Consulta presencial,Completado,805.53
+746,O00746,121,2,33,2026-06-21,Cita web,Completado,2937.78
+747,O00747,101,2,15,2026-04-01,Emergencia veterinaria,Pendiente,352.12
+748,O00748,142,2,8,2026-02-28,Visita a domicilio,Cancelado,710.00
+749,O00749,9,5,38,2026-01-03,Consulta presencial,Pendiente,3547.70
+750,O00750,157,4,34,2026-03-02,Cita web,Completado,1003.69
+751,O00751,145,4,,2026-01-24,Emergencia veterinaria,Completado,464.00
+752,O00752,158,3,3,2026-04-09,Visita a domicilio,Pendiente,2846.74
+753,O00753,47,6,3,2026-06-11,Consulta presencial,Completado,2285.00
+754,O00754,37,3,19,2026-02-23,Cita web,Completado,105.00
+755,O00755,141,2,40,2026-01-10,Emergencia veterinaria,Pendiente,45.50
+756,O00756,173,3,31,2026-01-26,Visita a domicilio,Pendiente,85.68
+757,O00757,80,3,7,2026-03-11,Consulta presencial,Completado,475.00
+758,O00758,196,2,15,2026-01-17,Cita web,Completado,2672.80
+759,O00759,136,4,18,2026-03-28,Emergencia veterinaria,Completado,681.00
+760,O00760,181,1,33,2026-05-27,Visita a domicilio,Pendiente,14.28
+761,O00761,102,2,10,2026-06-21,Consulta presencial,Completado,1430.30
+762,O00762,6,3,16,2026-06-17,Cita web,Completado,805.57
+763,O00763,33,6,11,2026-04-15,Emergencia veterinaria,Completado,344.00
+764,O00764,9,1,12,2026-02-05,Visita a domicilio,Pendiente,721.15
+765,O00765,27,3,19,2026-01-17,Consulta presencial,Completado,8161.10
+766,O00766,200,6,31,2026-04-15,Cita web,Pendiente,104.12
+767,O00767,157,3,22,2026-02-13,Emergencia veterinaria,Cancelado,952.40
+768,O00768,152,3,33,2026-01-03,Visita a domicilio,Pendiente,3179.57
+769,O00769,162,2,36,2026-02-28,Consulta presencial,Observado,415.00
+770,O00770,37,5,6,2026-01-23,Cita web,Completado,831.62
+771,O00771,9,4,23,2026-06-17,Emergencia veterinaria,Cancelado,763.08
+772,O00772,126,3,39,16/03/2026,Visita a domicilio,Completado,284.00
+773,O00773,184,6,16,2026-06-15,Consulta presencial,Completado,1780.08
+774,O00774,62,1,20,2026-01-02,Cita web,Completado,2325.00
+775,O00775,42,2,1,28/06/2026,Emergencia veterinaria,Completado,870.00
+776,O00776,162,3,39,2026-02-11,Visita a domicilio,Completado,700.30
+777,O00777,146,6,5,2026-02-09,Consulta presencial,Completado,782.00
+778,O00778,14,6,40,2026-04-06,Cita web,Pendiente,307.00
+779,O00779,147,4,28,2026-01-24,Emergencia veterinaria,Cancelado,958.38
+780,O00780,64,5,,2026-01-16,Visita a domicilio,Completado,190.00
+781,O00781,115,3,6,2026-03-06,Consulta presencial,Completado,708.00
+782,O00782,192,5,9,2026-05-26,Cita web,Completado,333.46
+783,O00783,165,2,3,2026-04-22,Emergencia veterinaria,Completado,1462.14
+784,O00784,174,5,33,2026-04-25,Visita a domicilio,Completado,4959.12
+785,O00785,55,3,3,2026-03-08,Consulta presencial,Completado,3917.70
+786,O00786,48,5,8,2026-02-27,Cita web,Pendiente,616.23
+787,O00787,196,1,4,2026-01-21,Emergencia veterinaria,Completado,4283.70
+788,O00788,88,1,20,2026-01-24,Visita a domicilio,Pendiente,557.24
+789,O00789,79,5,18,2026-06-01,Consulta presencial,Pendiente,341.00
+790,O00790,131,3,29,2026-02-21,Cita web,Pendiente,83.00
+791,O00791,21,6,16,2026-04-25,Emergencia veterinaria,Completado,907.36
+792,O00792,123,4,5,2026-04-02,Visita a domicilio,Completado,892.50
+793,O00793,166,5,40,2026-04-22,Consulta presencial,Pendiente,6742.92
+794,O00794,56,4,31,2026-05-03,Cita web,Cancelado,2708.30
+795,O00795,68,5,6,2026-06-13,Emergencia veterinaria,Cancelado,1175.00
+796,O00796,132,3,29,2026-03-26,Visita a domicilio,Completado,59.67
+797,O00797,169,3,2,2026-02-04,Consulta presencial,Completado,1532.38
+798,O00798,9389,5,12,2026-02-18,Cita web,Completado,871.14
+799,O00799,100,5,17,2026-02-11,Emergencia veterinaria,Completado,5019.98
+800,O00800,8,2,14,2026-02-25,Visita a domicilio,Pendiente,225.00
+801,O00801,1,3,6,2026-01-08,Consulta presencial,Completado,142.41
+802,O00802,154,5,15,2026-02-23,Cita web,Completado,555.00
+803,O00803,8,1,,2026-03-20,Emergencia veterinaria,Completado,2342.81
+804,O00804,195,6,13,2026-06-22,Visita a domicilio,Completado,477.45
+805,O00805,157,5,29,2026-02-12,Consulta presencial,Pendiente,674.73
+806,O00806,8,1,5,01/04/2026,Cita web,Completado,918.00
+807,O00807,181,2,32,2026-04-07,Emergencia veterinaria,Observado,553.08
+808,O00808,164,3,25,2026-06-19,Visita a domicilio,Completado,800.10
+809,O00809,137,4,4,08/06/2026,Consulta presencial,Observado,540.00
+810,O00810,133,5,21,2026-02-06,Cita web,Pendiente,3510.16
+811,O00811,167,2,7,28/05/2026,Emergencia veterinaria,Completado,3704.19
+812,O00812,160,6,4,2026-01-05,Visita a domicilio,Completado,1322.00
+813,O00813,134,5,4,2026-04-02,Consulta presencial,Completado,1853.64
+814,O00814,56,5,9,2026-05-18,Cita web,Completado,267.00
+815,O00815,115,2,4,2026-02-25,Emergencia veterinaria,Completado,2053.33
+816,O00816,164,1,40,2026-01-26,Visita a domicilio,Pendiente,5189.07
+817,O00817,130,1,23,2026-01-24,Consulta presencial,Cancelado,671.40
+818,O00818,62,2,36,2026-01-13,Cita web,Pendiente,1731.72
+819,O00819,12,2,12,22/02/2026,Emergencia veterinaria,Cancelado,118.00
+820,O00820,101,1,21,2026-05-03,Visita a domicilio,Completado,4597.25
+821,O00821,126,5,9,2026-02-01,Consulta presencial,Completado,599.00
+822,O00822,1,2,13,2026-02-26,Cita web,Completado,2043.42
+823,O00823,124,1,17,2026-02-24,Emergencia veterinaria,Observado,1983.66
+824,O00824,54,6,29,2026-02-10,Visita a domicilio,Completado,118.00
+825,O00825,80,3,28,2026-03-17,Consulta presencial,Pendiente,2850.75
+826,O00826,197,6,32,07/04/2026,Cita web,Completado,1807.54
+827,O00827,179,4,32,08/03/2026,Emergencia veterinaria,Completado,712.10
+828,O00828,14,3,4,2026-06-08,Visita a domicilio,Completado,6479.77
+829,O00829,42,1,23,2026-01-25,Consulta presencial,Cancelado,2800.93
+830,O00830,174,4,24,2026-04-18,Cita web,Completado,525.00
+831,O00831,13,6,35,2026-05-20,Emergencia veterinaria,Completado,2231.42
+832,O00832,118,5,15,2026-06-19,Visita a domicilio,Completado,4330.76
+833,O00833,50,1,25,2026-01-05,Consulta presencial,Pendiente,358.47
+834,O00834,107,6,15,2026-04-05,Cita web,Completado,730.12
+835,O00835,107,4,16,12/03/2026,Emergencia veterinaria,Completado,807.41
+836,O00836,74,1,25,2026-05-25,Visita a domicilio,Completado,2887.36
+837,O00837,178,5,32,2026-06-01,Consulta presencial,Pendiente,270.34
+838,O00838,193,6,36,2026-02-17,Cita web,Cancelado,1667.12
+839,O00839,87,5,,23/03/2026,Emergencia veterinaria,Completado,2031.08
+840,O00840,58,2,7,2026-04-13,Visita a domicilio,Completado,646.00
+841,O00841,3,2,28,2026-05-15,Consulta presencial,Pendiente,550.00
+842,O00842,109,2,,2026-02-27,Cita web,Completado,1726.92
+843,O00843,184,2,5,2026-01-02,Emergencia veterinaria,Completado,2295.32
+844,O00844,59,2,31,2026-03-20,Visita a domicilio,Observado,894.00
+845,O00845,46,2,14,2026-03-05,Consulta presencial,Pendiente,354.68
+846,O00846,125,1,35,2026-02-13,Cita web,Completado,1176.00
+847,O00847,9,6,32,2026-02-03,Emergencia veterinaria,Completado,166.00
+848,O00848,153,3,18,2026-06-07,Visita a domicilio,Pendiente,192.23
+849,O00849,50,2,12,2026-01-24,Consulta presencial,Completado,1528.59
+850,O00850,161,6,1,2026-04-02,Cita web,Completado,332.00
+851,O00851,22,1,2,2026-04-20,Emergencia veterinaria,Cancelado,154.48
+852,O00852,54,3,26,2026-05-24,Visita a domicilio,Completado,75.00
+853,O00853,1,3,40,2026-02-08,Consulta presencial,Pendiente,514.48
+854,O00854,9785,1,4,2026-04-11,Cita web,Completado,286.12
+855,O00855,89,1,31,2026-06-01,Emergencia veterinaria,Cancelado,3888.44
+856,O00856,149,3,18,2026-03-03,Visita a domicilio,Completado,3791.80
+857,O00857,77,5,3,28/03/2026,Consulta presencial,Pendiente,2830.75
+858,O00858,184,2,7,09/02/2026,Cita web,Completado,11071.34
+859,O00859,43,6,12,2026-01-02,Emergencia veterinaria,Pendiente,212.00
+860,O00860,102,2,33,2026-01-22,Visita a domicilio,Pendiente,2943.06
+861,O00861,122,6,16,2026-06-06,Consulta presencial,Cancelado,324.92
+862,O00862,45,4,31,2026-02-12,Cita web,Completado,562.08
+863,O00863,62,5,19,2026-05-02,Emergencia veterinaria,Completado,737.00
+864,O00864,175,3,29,2026-05-06,Visita a domicilio,Cancelado,1050.00
+865,O00865,185,4,40,2026-04-27,Consulta presencial,Completado,3821.30
+866,O00866,44,6,40,2026-06-07,Cita web,Pendiente,410.00
+867,O00867,42,6,34,2026-04-24,Emergencia veterinaria,Completado,3409.24
+868,O00868,13,2,39,2026-06-08,Visita a domicilio,Completado,782.36
+869,O00869,48,2,34,2026-06-27,Consulta presencial,Completado,131.86
+870,O00870,92,1,26,2026-04-27,Cita web,Pendiente,563.00
+871,O00871,70,1,9,2026-01-19,Emergencia veterinaria,Observado,747.44
+872,O00872,69,5,3,2026-05-15,Visita a domicilio,Completado,499.36
+873,O00873,9,1,14,2026-03-19,Consulta presencial,Completado,940.70
+874,O00874,14,3,14,2026-03-01,Cita web,Completado,731.14
+875,O00875,200,5,17,2026-05-18,Emergencia veterinaria,Pendiente,220.50
+876,O00876,187,3,9,2026-06-21,Visita a domicilio,Completado,777.72
+877,O00877,138,3,10,2026-06-10,Consulta presencial,Completado,474.68
+878,O00878,153,4,20,2026-04-04,Cita web,Completado,1320.00
+879,O00879,56,4,40,2026-02-07,Emergencia veterinaria,Completado,295.00
+880,O00880,81,1,27,2026-02-28,Visita a domicilio,Completado,2929.10
+881,O00881,59,6,3,2026-04-11,Consulta presencial,Completado,1200.72
+882,O00882,25,4,13,2026-03-15,Cita web,Pendiente,150.00
+883,O00883,113,2,3,2026-05-13,Emergencia veterinaria,Completado,298.35
+884,O00884,162,4,26,2026-04-20,Visita a domicilio,Cancelado,681.14
+885,O00885,84,2,13,2026-05-23,Consulta presencial,Completado,365.00
+886,O00886,78,2,38,2026-05-24,Cita web,Pendiente,182.00
+887,O00887,158,4,24,2026-03-04,Emergencia veterinaria,Completado,704.82
+888,O00888,179,6,34,2026-03-11,Visita a domicilio,Completado,918.00
+889,O00889,120,5,4,2026-05-20,Consulta presencial,Completado,1356.72
+890,O00890,189,5,6,2026-05-04,Cita web,Completado,427.00
+891,O00891,126,6,33,2026-02-06,Emergencia veterinaria,Completado,770.84
+892,O00892,142,1,,2026-06-04,Visita a domicilio,Pendiente,3622.37
+893,O00893,1,3,11,2026-05-13,Consulta presencial,Pendiente,577.65
+894,O00894,95,1,31,2026-04-11,Cita web,Completado,1546.32
+895,O00895,9607,1,24,2026-03-13,Emergencia veterinaria,Observado,1226.36
+896,O00896,22,5,38,2026-01-17,Visita a domicilio,Completado,3189.16
+897,O00897,104,1,20,2026-01-16,Consulta presencial,Completado,2557.44
+898,O00898,137,4,14,2026-06-07,Cita web,Pendiente,531.00
+899,O00899,85,4,,2026-05-13,Emergencia veterinaria,Pendiente,1347.89
+900,O00900,168,3,30,2026-03-04,Visita a domicilio,Completado,358.51
+901,O00901,33,1,7,23/04/2026,Consulta presencial,Completado,2405.65
+902,O00902,9067,5,27,2026-05-06,Cita web,Completado,847.15
+903,O00903,179,3,27,2026-02-01,Emergencia veterinaria,Pendiente,648.00
+904,O00904,98,6,7,2026-01-07,Visita a domicilio,Observado,280.00
+905,O00905,192,6,5,2026-05-28,Consulta presencial,Completado,2924.82
+906,O00906,107,4,27,2026-03-27,Cita web,Completado,570.00
+907,O00907,153,1,28,2026-05-05,Emergencia veterinaria,Completado,2065.75
+908,O00908,64,6,12,2026-01-03,Visita a domicilio,Pendiente,1282.41
+909,O00909,89,5,39,09/01/2026,Consulta presencial,Completado,1750.75
+910,O00910,73,5,9,2026-01-13,Cita web,Completado,640.62
+911,O00911,84,2,15,2026-02-01,Emergencia veterinaria,Cancelado,6025.96
+912,O00912,47,2,10,2026-02-13,Visita a domicilio,Cancelado,1362.28
+913,O00913,36,1,16,2026-03-19,Consulta presencial,Completado,196.00
+914,O00914,168,1,19,27/01/2026,Cita web,Completado,564.00
+915,O00915,43,4,11,2026-03-19,Emergencia veterinaria,Completado,4086.84
+916,O00916,154,1,16,2026-01-15,Visita a domicilio,Completado,494.00
+917,O00917,69,3,6,2026-05-26,Consulta presencial,Cancelado,3277.64
+918,O00918,163,1,31,2026-03-15,Cita web,Completado,300.05
+919,O00919,101,5,22,2026-03-07,Emergencia veterinaria,Pendiente,344.40
+920,O00920,135,3,38,2026-03-24,Visita a domicilio,Observado,2548.83
+921,O00921,144,2,11,2026-02-27,Consulta presencial,Pendiente,668.59
+922,O00922,123,4,37,2026-05-25,Cita web,Completado,2902.70
+923,O00923,10,3,8,2026-06-15,Emergencia veterinaria,Completado,554.69
+924,O00924,178,6,11,2026-04-19,Visita a domicilio,Completado,737.41
+925,O00925,15,5,11,2026-02-14,Consulta presencial,Cancelado,461.23
+926,O00926,138,5,20,2026-05-06,Cita web,Completado,233.16
+927,O00927,89,3,4,2026-06-06,Emergencia veterinaria,Completado,967.00
+928,O00928,101,2,27,2026-06-01,Visita a domicilio,Completado,345.05
+929,O00929,72,5,20,2026-03-22,Consulta presencial,Completado,245.00
+930,O00930,35,4,14,2026-05-24,Cita web,Pendiente,486.48
+931,O00931,140,1,37,2026-01-19,Emergencia veterinaria,Pendiente,870.00
+932,O00932,129,6,30,2026-04-11,Visita a domicilio,Pendiente,1460.00
+933,O00933,51,6,22,20/02/2026,Consulta presencial,Completado,1004.20
+934,O00934,130,4,9,2026-03-26,Cita web,Completado,555.50
+935,O00935,98,6,30,2026-04-23,Emergencia veterinaria,Completado,1990.72
+936,O00936,184,5,4,2026-05-25,Visita a domicilio,Completado,1317.91
+937,O00937,99,4,10,2026-03-03,Consulta presencial,Pendiente,1465.08
+938,O00938,6,5,19,2026-04-23,Cita web,Completado,1324.92
+939,O00939,194,3,30,2026-04-21,Emergencia veterinaria,Completado,4707.84
+940,O00940,3,4,8,2026-06-16,Visita a domicilio,Pendiente,641.00
+941,O00941,117,3,9,2026-02-08,Consulta presencial,Completado,1713.99
+942,O00942,102,1,25,2026-01-20,Cita web,Completado,415.41
+943,O00943,160,5,7,2026-04-06,Emergencia veterinaria,Pendiente,196.00
+944,O00944,111,1,,2026-04-06,Visita a domicilio,Completado,2372.90
+945,O00945,42,2,36,2026-03-15,Consulta presencial,Pendiente,308.00
+946,O00946,3,2,21,2026-06-08,Cita web,Pendiente,406.10
+947,O00947,44,2,39,2026-02-21,Emergencia veterinaria,Completado,1297.00
+948,O00948,39,2,25,2026-05-27,Visita a domicilio,Completado,542.38
+949,O00949,191,5,11,2026-01-07,Consulta presencial,Completado,2507.78
+950,O00950,168,6,2,2026-03-27,Cita web,Completado,272.99
+951,O00951,180,4,35,2026-01-16,Emergencia veterinaria,Completado,950.82
+952,O00952,75,3,6,2026-05-20,Visita a domicilio,Pendiente,-549.6
+953,O00953,180,1,18,2026-01-19,Consulta presencial,Completado,3970.32
+954,O00954,119,5,37,2026-04-14,Cita web,Completado,747.10
+955,O00955,50,1,35,2026-02-15,Emergencia veterinaria,Pendiente,657.50
+956,O00956,60,3,15,2026-06-18,Visita a domicilio,Completado,-2194.44
+957,O00957,161,3,11,2026-04-23,Consulta presencial,Completado,926.00
+958,O00958,35,4,39,2026-01-26,Cita web,Completado,1223.96
+959,O00959,177,4,28,2026-06-28,Emergencia veterinaria,Completado,105.00
+960,O00960,85,5,8,2026-03-10,Visita a domicilio,Pendiente,235.00
+961,O00961,190,3,17,2026-06-10,Consulta presencial,Completado,339.23
+962,O00962,75,6,21,03/05/2026,Cita web,Completado,495.00
+963,O00963,173,6,9,2026-04-15,Emergencia veterinaria,Completado,791.30
+964,O00964,36,6,26,2026-01-07,Visita a domicilio,Observado,3800.06
+965,O00965,133,1,6,2026-03-09,Consulta presencial,Pendiente,133.98
+966,O00966,138,6,12,2026-05-14,Cita web,Pendiente,228.62
+967,O00967,169,6,33,2026-05-12,Emergencia veterinaria,Pendiente,8.00
+968,O00968,60,2,31,2026-04-15,Visita a domicilio,Observado,1314.00
+969,O00969,59,3,11,2026-01-17,Consulta presencial,Completado,108.00
+970,O00970,50,2,28,2026-02-08,Cita web,Cancelado,998.77
+971,O00971,5,1,17,2026-06-22,Emergencia veterinaria,Pendiente,1465.10
+972,O00972,101,6,28,2026-05-26,Visita a domicilio,Observado,550.84
+973,O00973,158,4,40,2026-03-14,Consulta presencial,Completado,861.98
+974,O00974,48,2,16,2026-01-06,Cita web,Completado,273.00
+975,O00975,29,5,23,2026-03-24,Emergencia veterinaria,Completado,899.23
+976,O00976,150,5,9,2026-02-24,Visita a domicilio,Pendiente,191.42
+977,O00977,5,2,39,2026-02-10,Consulta presencial,Pendiente,508.10
+978,O00978,180,2,33,17/05/2026,Cita web,Completado,2609.42
+979,O00979,155,6,30,2026-02-04,Emergencia veterinaria,Completado,4580.30
+980,O00980,142,1,26,2026-02-11,Visita a domicilio,Pendiente,849.00
+981,O00981,186,6,24,2026-01-11,Consulta presencial,Completado,1628.86
+982,O00982,165,2,1,2026-03-15,Cita web,Completado,1986.30
+983,O00983,173,1,25,2026-01-19,Emergencia veterinaria,Pendiente,720.00
+984,O00984,190,2,29,2026-02-27,Visita a domicilio,Completado,70.00
+985,O00985,150,6,39,2026-01-23,Consulta presencial,Completado,210.00
+986,O00986,17,5,9,2026-02-12,Cita web,Pendiente,396.00
+987,O00987,28,1,33,2026-02-14,Emergencia veterinaria,Observado,1050.45
+988,O00988,156,3,30,2026-02-02,Visita a domicilio,Completado,1530.17
+989,O00989,9192,5,27,2026-06-16,Consulta presencial,Cancelado,731.38
+990,O00990,46,1,7,2026-03-24,Cita web,Completado,1106.00
+991,O00991,93,5,15,2026-05-07,Emergencia veterinaria,Completado,3488.70
+992,O00992,144,4,22,2026-05-11,Visita a domicilio,Completado,698.84
+993,O00993,113,2,39,11/04/2026,Consulta presencial,Completado,564.00
+994,O00994,162,2,21,2026-06-09,Cita web,Pendiente,5458.57
+995,O00995,146,5,28,2026-03-17,Emergencia veterinaria,Completado,6765.16
+996,O00996,118,4,,2026-03-24,Visita a domicilio,Completado,127.00
+997,O00997,194,3,,2026-02-03,Consulta presencial,Completado,301.98
+998,O00998,99,1,36,2026-05-14,Cita web,Completado,3914.56
+999,O00999,123,1,9,2026-05-24,Emergencia veterinaria,Pendiente,536.96
+1000,O01000,33,2,10,2026-03-13,Visita a domicilio,Cancelado,98.00
+1001,O01001,179,6,7,2026-02-20,Consulta presencial,Completado,494.25
+1002,O01002,29,5,1,2026-06-26,Cita web,Pendiente,1109.76
+1003,O01003,115,3,6,2026-03-06,Emergencia veterinaria,Completado,3098.46
+1004,O01004,191,6,12,2026-05-02,Visita a domicilio,Pendiente,6786.59
+1005,O01005,176,2,34,2026-04-23,Consulta presencial,Completado,2069.99
+1006,O01006,172,2,17,2026-05-16,Cita web,Completado,5384.98
+1007,O01007,47,2,10,2026-02-13,Emergencia veterinaria,Cancelado,1065.86
+1008,O01008,126,5,22,2026-05-26,Visita a domicilio,Completado,248.59
+1009,O01009,125,6,12,2026-03-12,Consulta presencial,Completado,5457.68
+1010,O01010,43,2,7,2026-05-28,Cita web,Pendiente,3177.07

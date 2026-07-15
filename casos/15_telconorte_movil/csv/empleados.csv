@@ -1,0 +1,41 @@
+id_empleado,codigo_empleado,nombres,apellidos,num_documento,cargo,id_sede,correo,sueldo,fecha_ingreso
+1,E0001,Julia,Paredes Chávez,50682041,Asesor de ventas,2,julia.paredes@telconorte_movil.pe,,2026-02-19
+2,E0002,Miguel,Huamán Díaz,67113947,Técnico de soporte móvil,5,miguel.huamán@telconorte_movil.pe,3548.1,2026-03-19
+3,E0003,Patricia,Castillo Salazar,37523699,Ejecutivo corporativo,2,patricia.castillo@telconorte_movil.pe,1764.9,2026-01-17
+4,E0004,Hugo,Quispe Gutiérrez,63987197,Analista de portabilidad,1,hugo.quispe@telconorte_movil.pe,2378.34,2026-01-02
+5,E0005,Isabel,Palomino Vargas,18453973,Supervisor de tienda,2,isabel.palomino@telconorte_movil.pe,,2026-02-19
+6,E0006,Melissa,Castillo Vargas,85470162,Jefe de centro de atención,5,melissa.castillo@telconorte_movil.pe,4490.77,2026-03-24
+7,E0007,Natalia,Sánchez Chávez,17240209,Asesor de ventas,3,natalia.sánchez@telconorte_movil.pe,4177.08,2026-03-17
+8,E0008,Víctor,Sánchez Zevallos,91983350,Técnico de soporte móvil,2,víctor.sánchez@telconorte_movil.pe,1895.1,2026-01-06
+9,E0009,Diego,Ninaquispe Díaz,11545405,Ejecutivo corporativo,6,diego.ninaquispe@telconorte_movil.pe,5491.1,2026-01-24
+10,E0010,María,Ponce Aguirre,32154346,Analista de portabilidad,4,maría.ponce@telconorte_movil.pe,5841.25,2026-01-09
+11,E0011,Lucía,Quispe Salazar,51774672,Supervisor de tienda,5,lucía.quispe@telconorte_movil.pe,4036.98,2026-03-16
+12,E0012,Luis,Cárdenas Vargas,99896335,Jefe de centro de atención,4,luis.cárdenas@telconorte_movil.pe,3056.23,2026-03-20
+13,E0013,Diego,Cruz Ríos,43940567,Asesor de ventas,1,diego.cruz@telconorte_movil.pe,,2026-01-20
+14,E0014,Jorge,Paredes Vargas,84260204,Técnico de soporte móvil,6,jorge.paredes@telconorte_movil.pe,3154.09,2026-02-22
+15,E0015,Verónica,Huamán Díaz,18805879,Ejecutivo corporativo,5,verónica.huamán@telconorte_movil.pe,4595.62,2026-03-13
+16,E0016,Álvaro,Paredes Torres,37934261,Analista de portabilidad,6,álvaro.paredes@telconorte_movil.pe,,2026-02-12
+17,E0017,Verónica,Mendoza Ninaquispe,49647042,Supervisor de tienda,2,verónica.mendoza@telconorte_movil.pe,4296.72,2026-03-01
+18,E0018,Melissa,Ramos Cárdenas,82145649,Jefe de centro de atención,1,melissa.ramos@telconorte_movil.pe,5984.8,2026-01-12
+19,E0019,Renzo,Chávez Zevallos,69166432,Asesor de ventas,3,renzo.chávez@telconorte_movil.pe,3926.66,2026-03-06
+20,E0020,Óscar,Ponce Vargas,73367384,Técnico de soporte móvil,6,óscar.ponce@telconorte_movil.pe,6375.14,2026-02-18
+21,E0021,Raúl,Flores Villanueva,22379095,Ejecutivo corporativo,4,raúl.flores@telconorte_movil.pe,,2026-02-11
+22,E0022,Pedro,Lévano Paredes,90871838,Analista de portabilidad,4,pedro.lévano@telconorte_movil.pe,1983.86,2026-01-19
+23,E0023,Elena,Mendoza Díaz,84391854,Supervisor de tienda,2,elena.mendoza@telconorte_movil.pe,2371.16,2026-01-25
+24,E0024,Isabel,Quispe Rivera,50972405,Jefe de centro de atención,4,isabel.quispe@telconorte_movil.pe,3084.5,2026-01-14
+25,E0025,Daniela,Zevallos Rojas,86525850,Asesor de ventas,1,daniela.zevallos@telconorte_movil.pe,5513.07,2026-02-09
+26,E0026,Melissa,Huamán Cárdenas,42453817,Técnico de soporte móvil,3,melissa.huamán@telconorte_movil.pe,5708.61,2026-03-23
+27,E0027,Renzo,Quispe Castillo,83345214,Ejecutivo corporativo,6,renzo.quispe@telconorte_movil.pe,3476.06,2026-01-27
+28,E0028,Ana,Palomino Romero,71948875,Analista de portabilidad,5,ana.palomino@telconorte_movil.pe,2885.14,2026-01-03
+29,E0029,Patricia,Vargas Castillo,98001970,Supervisor de tienda,6,patricia.vargas@telconorte_movil.pe,5094.63,2026-03-18
+30,E0030,Luis,Ponce Torres,95646333,Jefe de centro de atención,5,luis.ponce@telconorte_movil.pe,5445.72,2026-03-27
+31,E0031,Renzo,Salazar Romero,81730798,Asesor de ventas,2,renzo.salazar@telconorte_movil.pe,6424.33,2026-02-01
+32,E0032,Bruno,Quispe Cornejo,48757215,Técnico de soporte móvil,1,bruno.quispe@telconorte_movil.pe,1671.5,2026-03-24
+33,E0033,Diego,Villanueva Chávez,56664719,Ejecutivo corporativo,6,diego.villanueva@telconorte_movil.pe,5047.6,2026-01-10
+34,E0034,Manuel,Torres Gutiérrez,50450609,Analista de portabilidad,3,manuel.torres@telconorte_movil.pe,,2026-01-28
+35,E0035,Óscar,Gutiérrez Rojas,50741537,Supervisor de tienda,4,óscar.gutiérrez@telconorte_movil.pe,6299.66,2026-03-19
+36,E0036,Víctor,Lévano Sánchez,61815148,Jefe de centro de atención,6,víctor.lévano@telconorte_movil.pe,4928.08,2026-02-28
+37,E0037,Ricardo,Huamán Lévano,50606401,Asesor de ventas,5,ricardo.huamán@telconorte_movil.pe,5441.89,2026-01-27
+38,E0038,Daniela,Bautista Quispe,86748198,Técnico de soporte móvil,2,daniela.bautista@telconorte_movil.pe,5353.2,2026-01-08
+39,E0039,Verónica,Mendoza Lévano,47883112,Ejecutivo corporativo,3,verónica.mendoza@telconorte_movil.pe,2734.81,2026-01-02
+40,E0040,Ricardo,Ramos Rojas,94134856,Analista de portabilidad,2,ricardo.ramos@telconorte_movil.pe,3785.26,2026-03-18

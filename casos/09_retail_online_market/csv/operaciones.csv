@@ -1,501 +1,1011 @@
-﻿id_operacion,codigo_operacion,id_entidad,id_sede,id_producto,fecha_operacion,cantidad,monto_total,estado,canal
-1,O00001,12,5,12,2026-06-18,6,994.51,Completado,Presencial
-2,O00002,12,1,7,2026-01-25,6,791.96,Completado,Presencial
-3,O00003,22,4,13,2026-01-25,6,1737.14,Completado,Web
-4,O00004,13,3,4,2026-04-15,4,188.47,Completado,App
-5,O00005,58,4,13,2026-03-28,4,1052.67,Completado,Presencial
-6,O00006,15,4,13,2026-03-06,3,761.72,Completado,Web
-7,O00007,35,4,14,2026-01-18,3,977.58,Completado,Web
-8,O00008,76,2,8,2026-06-10,6,821.0,Completado,Presencial
-9,O00009,29,4,8,2026-01-03,6,773.75,Completado,Web
-10,O00010,47,6,3,2026-06-01,4,1475.85,Pendiente,Call Center
-11,O00011,5,3,10,2026-05-29,5,1470.58,Completado,Web
-12,O00012,13,3,11,2026-01-23,6,1015.93,Completado,Web
-13,O00013,5,2,4,2026-02-07,4,179.48,Completado,Call Center
-14,O00014,38,6,8,2026-01-28,1,146.68,Observado,App
-15,O00015,33,3,5,2026-01-15,3,238.58,Completado,App
-16,O00016,8,4,13,2026-05-16,3,1061.35,Completado,Presencial
-17,O00017,53,5,10,2026-06-29,6,1632.85,Cancelado,Call Center
-18,O00018,32,1,4,2026-02-25,3,129.39,Completado,Presencial
-19,O00019,12,6,4,2026-03-15,1,47.24,Completado,App
-20,O00020,32,5,5,2026-03-17,5,336.58,Cancelado,Presencial
-21,O00021,74,4,4,2026-03-31,4,181.67,Cancelado,Web
-22,O00022,10,2,2,2026-05-22,3,392.39,Observado,Presencial
-23,O00023,42,6,6,2026-01-31,6,2225.09,Pendiente,Call Center
-24,O00024,20,6,12,2026-03-21,4,937.56,Completado,Call Center
-25,O00025,55,3,4,2026-06-23,6,258.33,Completado,Web
-26,O00026,38,2,15,2026-02-06,5,1360.24,Completado,Call Center
-27,O00027,75,5,6,2026-03-12,5,2141.82,Completado,Web
-28,O00028,24,3,8,2026-04-23,2,265.57,Observado,Call Center
-29,O00029,79,6,13,2026-05-16,5,1426.29,Completado,Web
-30,O00030,13,6,9,2026-06-24,4,922.2,Completado,Presencial
-31,O00031,32,1,3,2026-04-16,2,571.93,Completado,Presencial
-32,O00032,52,1,9,2026-05-02,5,1008.41,Completado,Presencial
-33,O00033,27,6,9,2026-02-18,5,1039.49,Cancelado,Web
-34,O00034,69,1,1,2026-02-25,3,947.2,Completado,App
-35,O00035,11,5,13,2026-04-16,4,1068.76,Observado,App
-36,O00036,31,5,9,2026-04-24,5,1037.65,Completado,Call Center
-37,O00037,23,2,8,2026-01-10,5,778.82,Completado,App
-38,O00038,25,6,3,2026-01-01,2,761.12,Completado,Web
-39,O00039,18,3,14,2026-05-13,3,805.99,Completado,App
-40,O00040,4,6,1,2026-05-15,1,285.37,Completado,App
-41,O00041,31,3,10,2026-02-21,5,1163.49,Completado,App
-42,O00042,16,5,13,2026-05-20,4,1357.27,Completado,App
-43,O00043,75,6,6,2026-01-13,2,638.9,Completado,Call Center
-44,O00044,7,5,1,2026-03-28,6,1650.69,Completado,Web
-45,O00045,47,6,8,2026-04-04,1,122.74,Completado,Presencial
-46,O00046,37,1,11,2026-03-23,2,363.34,Pendiente,Call Center
-47,O00047,62,2,8,2026-05-08,5,696.32,Completado,App
-48,O00048,19,6,7,2026-05-10,6,829.84,Completado,Call Center
-49,O00049,24,2,15,2026-01-22,6,1655.33,Completado,Call Center
-50,O00050,76,1,2,2026-05-31,2,269.22,Completado,Web
-51,O00051,78,2,1,2026-05-18,4,927.18,Completado,Call Center
-52,O00052,78,3,12,2026-04-02,4,922.09,Completado,Call Center
-53,O00053,47,4,10,2026-01-13,5,1488.89,Completado,Web
-54,O00054,12,1,4,2026-01-28,4,155.04,Completado,Web
-55,O00055,35,5,14,2026-06-26,3,1067.1,Pendiente,Presencial
-56,O00056,25,2,13,2026-03-18,6,1591.83,Completado,Presencial
-57,O00057,45,6,9,2026-05-04,5,927.61,Completado,Web
-58,O00058,2,4,13,2026-04-01,1,265.16,Completado,Call Center
-59,O00059,11,1,6,2026-02-27,1,322.29,Completado,Call Center
-60,O00060,5,3,10,2026-01-30,6,1693.73,Completado,App
-61,O00061,68,1,2,2026-05-21,4,518.09,Observado,Call Center
-62,O00062,10,6,14,2026-03-30,1,317.36,Completado,Web
-63,O00063,73,4,7,2026-04-28,6,825.48,Observado,Web
-64,O00064,26,3,2,2026-03-20,5,683.43,Cancelado,Call Center
-65,O00065,14,6,13,2026-06-22,4,1061.25,Completado,App
-66,O00066,8,1,3,2026-05-21,1,353.71,Completado,Web
-67,O00067,13,1,11,2026-05-22,2,351.51,Completado,App
-68,O00068,62,4,4,2026-04-02,6,240.14,Completado,Presencial
-69,O00069,32,6,4,2026-04-19,6,198.29,Completado,Call Center
-70,O00070,23,3,6,2026-05-25,2,729.94,Completado,Call Center
-71,O00071,80,6,4,2026-04-13,4,145.56,Cancelado,Presencial
-72,O00072,21,4,3,2026-04-09,4,1543.55,Completado,Call Center
-73,O00073,15,5,6,2026-03-28,5,1711.19,Completado,Call Center
-74,O00074,64,5,7,2026-01-02,3,425.52,Observado,Web
-75,O00075,14,2,13,2026-03-13,4,1450.97,Completado,Call Center
-76,O00076,22,4,13,2026-05-14,5,1542.18,Completado,App
-77,O00077,70,1,10,2026-05-30,6,1362.97,Observado,Call Center
-78,O00078,70,6,12,2026-03-01,6,1243.59,Cancelado,Presencial
-79,O00079,38,4,10,2026-05-26,1,267.23,Completado,Presencial
-80,O00080,25,5,10,2026-02-01,2,474.18,Observado,Web
-81,O00081,56,5,6,2026-06-18,2,748.78,Completado,Presencial
-82,O00082,10,5,4,2026-05-31,2,92.6,Completado,Web
-83,O00083,13,4,10,2026-03-05,3,704.09,Completado,App
-84,O00084,66,5,7,2026-06-07,4,611.19,Completado,Web
-85,O00085,77,1,14,2026-06-26,6,1637.01,Observado,Call Center
-86,O00086,38,3,5,2026-01-01,1,66.34,Completado,Web
-87,O00087,69,6,12,2026-03-12,6,1124.84,Completado,App
-88,O00088,54,2,5,2026-05-17,5,334.11,Completado,Web
-89,O00089,60,5,2,2026-01-04,6,765.36,Completado,App
-90,O00090,15,4,11,2026-01-22,6,1058.05,Cancelado,Presencial
-91,O00091,80,2,3,2026-06-02,2,569.63,Completado,Call Center
-92,O00092,75,3,13,2026-05-16,1,269.34,Completado,Web
-93,O00093,49,4,4,2026-04-11,1,34.88,Completado,Web
-94,O00094,17,2,15,2026-03-15,4,1067.44,Pendiente,App
-95,O00095,44,6,3,2026-05-24,6,1742.03,Completado,Presencial
-96,O00096,10,3,11,2026-02-26,6,917.71,Observado,Web
-97,O00097,79,5,14,2026-02-23,2,580.91,Completado,Web
-98,O00098,71,6,11,2026-01-05,6,950.22,Pendiente,Call Center
-99,O00099,14,5,1,2026-02-03,2,478.15,Completado,App
-100,O00100,7,2,4,2026-03-18,3,138.09,Completado,App
-101,O00101,42,3,6,2026-06-20,1,432.24,Completado,Call Center
-102,O00102,73,5,4,2026-05-17,3,125.58,Pendiente,App
-103,O00103,62,5,12,2026-03-12,6,1100.46,Observado,Web
-104,O00104,50,5,11,2026-06-22,5,863.66,Completado,Presencial
-105,O00105,20,4,4,2026-04-16,5,180.13,Completado,Presencial
-106,O00106,2,1,11,2026-04-17,3,527.28,Completado,App
-107,O00107,80,5,9,2026-05-12,6,1187.21,Completado,Presencial
-108,O00108,70,3,4,2026-05-10,6,273.88,Completado,Web
-109,O00109,53,6,8,2026-06-01,2,293.65,Completado,Call Center
-110,O00110,4,3,5,2026-06-22,5,360.14,Completado,Web
-111,O00111,80,1,10,2026-06-19,5,1495.44,Completado,Presencial
-112,O00112,17,4,3,2026-06-03,5,1646.75,Completado,Presencial
-113,O00113,74,6,5,2026-06-13,4,281.87,Completado,Call Center
-114,O00114,51,4,11,2026-05-17,3,474.76,Completado,Presencial
-115,O00115,22,3,15,2026-04-27,6,1477.61,Completado,Presencial
-116,O00116,50,5,5,2026-01-16,4,332.08,Completado,App
-117,O00117,16,6,8,2026-06-02,3,361.67,Completado,Call Center
-118,O00118,43,3,7,2026-03-05,3,463.26,Completado,Presencial
-119,O00119,52,5,10,2026-04-16,3,749.21,Completado,App
-120,O00120,19,6,5,2026-04-07,4,323.2,Completado,Call Center
-121,O00121,67,4,2,2026-03-09,3,525.25,Completado,Call Center
-122,O00122,34,6,2,2026-04-15,2,255.7,Pendiente,Presencial
-123,O00123,53,3,13,2026-03-09,6,1574.48,Completado,App
-124,O00124,14,4,12,2026-04-20,1,199.4,Completado,Presencial
-125,O00125,77,2,9,2026-03-18,5,1138.75,Completado,App
-126,O00126,57,6,5,2026-01-06,2,153.82,Completado,App
-127,O00127,56,5,5,2026-03-28,5,393.51,Completado,Call Center
-128,O00128,69,3,13,2026-03-21,6,1602.34,Completado,Web
-129,O00129,58,5,5,2026-04-25,3,187.48,Completado,Presencial
-130,O00130,76,1,8,2026-01-10,3,362.29,Completado,Presencial
-131,O00131,5,3,12,2026-05-18,6,1279.04,Observado,Presencial
-132,O00132,63,5,12,2026-02-06,2,337.14,Completado,Presencial
-133,O00133,39,3,8,2026-03-01,5,552.27,Completado,Presencial
-134,O00134,29,5,2,2026-06-18,6,990.54,Completado,Web
-135,O00135,18,3,4,2026-06-02,2,77.88,Pendiente,Call Center
-136,O00136,12,3,5,2026-05-19,6,413.8,Completado,App
-137,O00137,50,6,15,2026-05-05,5,1424.53,Pendiente,Web
-138,O00138,62,1,12,2026-05-28,3,695.55,Observado,Call Center
-139,O00139,65,2,9,2026-06-13,6,1387.5,Completado,Presencial
-140,O00140,73,6,14,2026-06-17,6,2054.88,Completado,Call Center
-141,O00141,48,3,7,2026-02-05,6,671.52,Completado,Presencial
-142,O00142,7,2,13,2026-03-26,1,256.7,Cancelado,App
-143,O00143,47,6,2,2026-03-23,5,675.79,Cancelado,App
-144,O00144,79,3,12,2026-05-09,3,660.25,Completado,Presencial
-145,O00145,52,3,9,2026-05-30,4,784.36,Completado,App
-146,O00146,17,6,8,2026-06-19,5,603.04,Completado,Web
-147,O00147,65,2,15,2026-06-06,3,832.15,Completado,Call Center
-148,O00148,78,4,7,2026-01-28,4,452.96,Completado,Presencial
-149,O00149,78,4,10,2026-06-27,1,292.6,Completado,Presencial
-150,O00150,78,5,2,2026-05-03,4,556.72,Completado,App
-151,O00151,75,1,12,2026-06-02,1,175.64,Completado,Web
-152,O00152,64,3,2,2026-05-07,5,779.38,Completado,App
-153,O00153,7,4,14,2026-01-25,6,1620.52,Completado,App
-154,O00154,71,2,14,2026-05-21,6,2156.65,Completado,Web
-155,O00155,27,1,12,2026-06-29,2,446.76,Observado,App
-156,O00156,61,1,15,2026-01-31,2,481.34,Observado,Call Center
-157,O00157,63,1,13,2026-05-29,4,1357.76,Completado,Web
-158,O00158,18,4,15,2026-05-22,1,269.38,Cancelado,Web
-159,O00159,76,1,1,2026-06-24,2,578.18,Observado,Call Center
-160,O00160,55,5,9,2026-03-09,1,212.81,Completado,Call Center
-161,O00161,62,2,6,2026-03-14,1,407.85,Completado,Call Center
-162,O00162,7,3,3,2026-02-20,3,933.17,Observado,App
-163,O00163,74,6,1,2026-02-20,1,328.04,Completado,Presencial
-164,O00164,34,5,10,2026-01-26,4,1186.33,Completado,Web
-165,O00165,75,2,2,2026-05-08,5,665.69,Completado,Call Center
-166,O00166,6,6,12,2026-01-28,1,169.82,Completado,App
-167,O00167,13,5,7,2026-02-04,5,560.74,Observado,Web
-168,O00168,11,4,6,2026-05-10,4,1401.11,Completado,Web
-169,O00169,29,4,15,2026-06-08,6,1612.76,Completado,Presencial
-170,O00170,2,3,4,2026-03-26,6,211.61,Pendiente,Call Center
-171,O00171,48,5,9,2026-03-28,6,1076.94,Cancelado,Presencial
-172,O00172,21,5,5,2026-06-29,3,193.65,Observado,Presencial
-173,O00173,77,5,6,2026-05-20,4,1423.55,Observado,Web
-174,O00174,43,2,6,2026-02-01,2,782.23,Observado,Call Center
-175,O00175,39,6,6,2026-04-03,3,1124.04,Completado,Presencial
-176,O00176,50,5,15,2026-06-02,2,533.06,Completado,App
-177,O00177,59,6,5,2026-06-02,4,253.51,Completado,Presencial
-178,O00178,45,5,13,2026-03-31,3,1079.17,Completado,App
-179,O00179,73,6,4,2026-06-04,1,34.63,Completado,Web
-180,O00180,9,1,10,2026-03-09,6,1414.69,Observado,Web
-181,O00181,42,2,3,2026-06-05,5,1891.12,Cancelado,Call Center
-182,O00182,80,1,9,2026-06-08,6,1292.09,Pendiente,App
-183,O00183,62,3,6,2026-02-09,3,1327.55,Pendiente,App
-184,O00184,32,5,1,2026-01-29,6,1936.08,Completado,App
-185,O00185,73,6,11,2026-01-04,5,679.79,Completado,Call Center
-186,O00186,41,4,11,2026-05-06,6,1019.13,Completado,Call Center
-187,O00187,36,6,9,2026-03-16,6,1093.37,Completado,App
-188,O00188,11,5,6,2026-02-01,2,798.47,Completado,Web
-189,O00189,19,5,10,2026-03-01,2,579.84,Completado,Web
-190,O00190,13,5,6,2026-01-18,1,399.32,Observado,Call Center
-191,O00191,44,4,4,2026-02-11,6,205.05,Cancelado,Presencial
-192,O00192,74,6,8,2026-01-01,3,363.9,Completado,App
-193,O00193,52,2,15,2026-03-29,4,1038.31,Completado,Presencial
-194,O00194,55,1,7,2026-04-18,1,122.92,Completado,Web
-195,O00195,45,5,10,2026-01-31,4,1059.24,Pendiente,Web
-196,O00196,1,1,10,2026-04-19,2,530.47,Completado,Call Center
-197,O00197,45,3,3,2026-01-14,1,387.12,Completado,Call Center
-198,O00198,38,6,12,2026-01-11,1,171.55,Pendiente,Presencial
-199,O00199,5,4,14,2026-05-18,1,261.24,Completado,Presencial
-200,O00200,42,1,4,2026-02-15,3,118.04,Pendiente,Web
-201,O00201,40,4,5,2026-01-07,1,57.62,Completado,Web
-202,O00202,80,2,15,2026-01-15,5,993.38,Completado,Call Center
-203,O00203,41,6,14,2026-01-04,4,1044.25,Completado,Call Center
-204,O00204,3,3,4,2026-02-14,1,45.51,Completado,Presencial
-205,O00205,32,5,13,2026-03-21,4,1285.26,Completado,Call Center
-206,O00206,79,5,14,2026-04-23,1,263.06,Completado,Presencial
-207,O00207,32,3,11,2026-06-10,5,962.85,Cancelado,Call Center
-208,O00208,30,5,2,2026-01-20,2,317.74,Completado,Presencial
-209,O00209,31,3,6,2026-02-14,1,367.99,Completado,Call Center
-210,O00210,11,5,13,2026-06-14,1,277.47,Completado,Web
-211,O00211,59,1,10,2026-02-13,1,293.49,Completado,Web
-212,O00212,26,4,7,2026-02-09,1,133.58,Completado,Call Center
-213,O00213,48,1,14,2026-01-30,5,1560.75,Completado,Presencial
-214,O00214,26,6,6,2026-01-31,6,2138.05,Completado,App
-215,O00215,28,5,3,2026-04-14,5,1576.28,Observado,Web
-216,O00216,37,5,12,2026-01-19,1,214.84,Completado,Presencial
-217,O00217,30,1,12,2026-01-25,6,1230.96,Completado,Call Center
-218,O00218,9,3,15,2026-05-20,1,247.27,Cancelado,App
-219,O00219,67,6,9,2026-06-10,2,474.76,Completado,Presencial
-220,O00220,79,1,9,2026-03-19,1,238.13,Completado,App
-221,O00221,2,3,4,2026-06-20,6,211.58,Completado,Presencial
-222,O00222,23,3,7,2026-02-24,2,263.02,Pendiente,App
-223,O00223,46,2,11,2026-03-31,2,360.67,Cancelado,Call Center
-224,O00224,18,6,11,2026-04-09,2,308.06,Completado,Web
-225,O00225,40,2,6,2026-01-10,2,840.37,Pendiente,Web
-226,O00226,64,1,6,2026-05-16,6,1991.25,Cancelado,Web
-227,O00227,10,3,6,2026-01-28,4,1615.84,Completado,App
-228,O00228,52,2,9,2026-03-12,4,686.38,Completado,App
-229,O00229,65,2,9,2026-06-14,2,350.26,Completado,Call Center
-230,O00230,30,2,9,2026-01-24,1,182.79,Completado,Web
-231,O00231,78,3,9,2026-04-28,1,199.2,Completado,Presencial
-232,O00232,79,2,5,2026-02-28,2,122.99,Completado,Call Center
-233,O00233,51,2,10,2026-06-18,4,895.28,Completado,App
-234,O00234,54,2,9,2026-06-13,6,1442.12,Completado,Call Center
-235,O00235,65,5,2,2026-05-15,4,547.59,Completado,Web
-236,O00236,21,4,6,2026-04-29,1,324.51,Pendiente,Web
-237,O00237,44,1,8,2026-04-19,6,842.13,Observado,App
-238,O00238,51,6,1,2026-02-03,1,285.1,Completado,Presencial
-239,O00239,72,4,12,2026-05-22,1,221.18,Completado,Web
-240,O00240,39,5,14,2026-05-10,3,816.78,Completado,Presencial
-241,O00241,33,3,12,2026-06-22,3,618.13,Completado,App
-242,O00242,31,1,13,2026-06-04,1,273.32,Completado,Web
-243,O00243,8,3,15,2026-03-15,2,570.47,Pendiente,App
-244,O00244,60,3,3,2026-03-04,4,1154.33,Completado,Web
-245,O00245,21,1,13,2026-01-05,3,1007.0,Completado,Call Center
-246,O00246,3,2,6,2026-06-08,2,730.88,Completado,Presencial
-247,O00247,71,2,10,2026-05-02,2,566.05,Completado,Call Center
-248,O00248,36,4,15,2026-01-20,4,897.05,Completado,Call Center
-249,O00249,56,3,3,2026-02-28,6,2020.07,Completado,Call Center
-250,O00250,49,3,12,2026-02-23,1,177.81,Completado,App
-251,O00251,34,4,15,2026-06-24,1,269.69,Completado,Call Center
-252,O00252,73,1,10,2026-04-28,2,539.65,Completado,Presencial
-253,O00253,28,6,10,2026-03-18,6,1689.52,Cancelado,Call Center
-254,O00254,9,4,6,2026-02-19,2,835.44,Completado,Call Center
-255,O00255,40,3,5,2026-01-11,1,70.75,Completado,Presencial
-256,O00256,66,1,12,2026-04-03,5,895.36,Completado,App
-257,O00257,3,2,9,2026-03-20,6,1285.66,Completado,Web
-258,O00258,4,2,5,2026-01-18,3,197.89,Completado,Web
-259,O00259,51,1,11,2026-06-14,3,524.09,Cancelado,App
-260,O00260,34,5,14,2026-01-25,4,1356.5,Completado,App
-261,O00261,3,2,5,2026-06-17,3,179.2,Observado,Presencial
-262,O00262,59,3,9,2026-03-09,2,390.3,Completado,Call Center
-263,O00263,75,6,14,2026-06-09,1,254.33,Completado,Presencial
-264,O00264,70,5,10,2026-06-09,3,777.35,Completado,Call Center
-265,O00265,66,4,14,2026-05-08,1,343.85,Completado,Call Center
-266,O00266,59,6,4,2026-04-22,3,129.89,Completado,Web
-267,O00267,68,4,5,2026-05-09,6,404.77,Completado,Call Center
-268,O00268,19,2,5,2026-04-07,3,220.89,Completado,Web
-269,O00269,12,2,5,2026-01-21,5,388.84,Cancelado,Web
-270,O00270,35,4,1,2026-02-04,4,1028.75,Observado,Call Center
-271,O00271,17,1,7,2026-05-22,3,383.24,Observado,Presencial
-272,O00272,4,4,9,2026-03-19,6,1041.09,Completado,App
-273,O00273,68,2,14,2026-06-21,6,1817.44,Observado,Presencial
-274,O00274,24,4,13,2026-06-30,2,667.9,Completado,Web
-275,O00275,45,2,2,2026-06-02,1,179.28,Completado,Web
-276,O00276,54,2,14,2026-05-04,3,1032.75,Pendiente,Call Center
-277,O00277,57,5,7,2026-05-05,1,131.9,Observado,Web
-278,O00278,71,6,13,2026-01-17,3,781.46,Completado,Web
-279,O00279,65,5,15,2026-03-13,1,198.48,Observado,App
-280,O00280,15,1,14,2026-02-15,6,2149.45,Completado,Web
-281,O00281,74,2,2,2026-06-26,6,798.06,Pendiente,Web
-282,O00282,57,6,15,2026-01-12,1,216.34,Observado,Presencial
-283,O00283,49,6,3,2026-04-13,6,2164.31,Observado,Presencial
-284,O00284,29,6,8,2026-04-19,5,743.94,Completado,Web
-285,O00285,14,4,14,2026-06-06,4,1177.37,Cancelado,Presencial
-286,O00286,41,3,12,2026-01-17,3,671.98,Completado,Call Center
-287,O00287,36,3,12,2026-02-10,2,409.87,Completado,Presencial
-288,O00288,14,4,9,2026-02-22,2,449.39,Observado,Call Center
-289,O00289,54,5,11,2026-04-05,5,678.63,Completado,Web
-290,O00290,17,2,12,2026-04-11,6,1151.28,Completado,Call Center
-291,O00291,68,2,8,2026-05-07,1,155.31,Completado,App
-292,O00292,62,6,4,2026-01-01,5,165.78,Completado,App
-293,O00293,48,1,7,2026-04-14,3,433.65,Completado,Presencial
-294,O00294,7,3,2,2026-03-27,5,888.0,Completado,Call Center
-295,O00295,25,2,5,2026-01-22,5,400.54,Observado,App
-296,O00296,57,5,2,2026-02-14,5,873.79,Observado,App
-297,O00297,57,2,11,2026-06-07,3,415.39,Completado,Presencial
-298,O00298,80,5,13,2026-03-05,3,957.23,Completado,App
-299,O00299,5,1,6,2026-03-13,1,308.59,Completado,App
-300,O00300,48,1,11,2026-03-27,5,857.99,Completado,Presencial
-301,O00301,72,2,1,2026-04-19,5,1273.78,Completado,App
-302,O00302,43,3,13,2026-05-14,4,1029.27,Completado,App
-303,O00303,72,3,4,2026-01-09,3,102.06,Completado,Web
-304,O00304,38,2,2,2026-01-05,2,326.09,Completado,Call Center
-305,O00305,38,4,13,2026-03-10,2,555.51,Completado,Web
-306,O00306,44,3,11,2026-04-11,2,389.07,Completado,Web
-307,O00307,80,2,2,2026-06-17,2,309.12,Completado,App
-308,O00308,38,1,11,2026-04-17,5,727.02,Completado,Web
-309,O00309,71,4,1,2026-06-11,4,1179.27,Observado,Call Center
-310,O00310,46,2,1,2026-04-23,2,594.57,Completado,Web
-311,O00311,6,6,10,2026-03-28,6,1861.23,Completado,Presencial
-312,O00312,42,3,9,2026-05-18,5,1151.33,Completado,Presencial
-313,O00313,51,1,4,2026-01-28,1,44.17,Pendiente,Presencial
-314,O00314,25,5,9,2026-06-01,1,206.34,Cancelado,Presencial
-315,O00315,75,6,2,2026-01-29,6,855.11,Observado,App
-316,O00316,5,4,4,2026-02-22,1,32.82,Completado,Call Center
-317,O00317,64,4,14,2026-01-03,3,984.73,Cancelado,Web
-318,O00318,44,6,3,2026-04-02,3,1230.7,Completado,App
-319,O00319,70,5,1,2026-03-12,1,227.74,Completado,Call Center
-320,O00320,75,5,15,2026-06-16,3,738.02,Completado,Call Center
-321,O00321,61,2,13,2026-04-09,3,871.76,Completado,Web
-322,O00322,74,3,2,2026-03-20,6,888.07,Completado,Call Center
-323,O00323,42,3,14,2026-03-21,2,611.15,Pendiente,Presencial
-324,O00324,70,4,4,2026-04-18,2,72.03,Completado,App
-325,O00325,54,4,12,2026-04-27,1,194.13,Completado,Web
-326,O00326,27,4,12,2026-03-05,6,1310.48,Completado,Call Center
-327,O00327,11,5,1,2026-05-10,4,1256.02,Completado,App
-328,O00328,61,1,14,2026-04-22,1,329.2,Observado,App
-329,O00329,76,1,8,2026-01-31,1,116.57,Completado,Presencial
-330,O00330,69,3,4,2026-06-22,6,244.53,Completado,App
-331,O00331,46,6,12,2026-04-09,2,379.91,Cancelado,Call Center
-332,O00332,73,3,12,2026-02-12,2,411.06,Completado,Presencial
-333,O00333,14,2,9,2026-05-15,2,436.4,Completado,Call Center
-334,O00334,29,4,1,2026-06-13,4,909.9,Pendiente,Web
-335,O00335,18,5,10,2026-02-08,6,1877.45,Completado,Call Center
-336,O00336,61,2,2,2026-03-20,1,130.88,Pendiente,Call Center
-337,O00337,45,1,9,2026-02-06,3,651.16,Completado,Call Center
-338,O00338,2,5,4,2026-05-05,1,40.25,Completado,Web
-339,O00339,66,1,15,2026-03-24,3,632.79,Completado,Web
-340,O00340,16,4,14,2026-06-26,2,533.91,Completado,Call Center
-341,O00341,57,3,11,2026-03-27,3,456.56,Cancelado,Call Center
-342,O00342,44,4,7,2026-01-09,6,749.95,Observado,App
-343,O00343,76,3,2,2026-02-05,6,810.07,Completado,App
-344,O00344,35,1,1,2026-02-20,6,1897.77,Cancelado,Presencial
-345,O00345,48,3,3,2026-02-02,4,1388.48,Completado,Presencial
-346,O00346,61,6,12,2026-03-12,2,374.04,Completado,App
-347,O00347,24,4,12,2026-05-13,1,195.18,Cancelado,Web
-348,O00348,9,5,11,2026-05-11,4,562.9,Completado,Web
-349,O00349,3,4,4,2026-02-04,5,209.02,Cancelado,Web
-350,O00350,15,6,6,2026-05-17,2,771.3,Cancelado,Call Center
-351,O00351,62,2,5,2026-02-01,6,437.04,Completado,Presencial
-352,O00352,16,5,10,2026-05-19,5,1325.14,Completado,App
-353,O00353,9,1,1,2026-05-12,4,912.14,Completado,App
-354,O00354,50,2,1,2026-01-02,5,1241.36,Completado,App
-355,O00355,68,6,14,2026-05-08,3,949.55,Completado,Presencial
-356,O00356,53,3,6,2026-06-30,4,1466.04,Completado,App
-357,O00357,50,4,11,2026-05-31,6,1085.62,Completado,Call Center
-358,O00358,13,5,10,2026-05-09,5,1517.9,Completado,Web
-359,O00359,35,3,12,2026-02-13,5,920.98,Completado,Call Center
-360,O00360,31,4,6,2026-02-13,4,1369.64,Completado,Presencial
-361,O00361,36,4,11,2026-04-04,6,979.87,Completado,App
-362,O00362,71,1,11,2026-05-02,4,647.68,Completado,Call Center
-363,O00363,75,2,9,2026-02-20,6,1174.83,Pendiente,Call Center
-364,O00364,3,1,11,2026-06-19,2,311.77,Completado,App
-365,O00365,78,5,2,2026-06-02,3,495.11,Completado,Web
-366,O00366,74,6,14,2026-06-17,5,1344.41,Completado,Web
-367,O00367,29,2,13,2026-05-02,1,280.11,Completado,Call Center
-368,O00368,80,3,9,2026-04-05,2,442.41,Pendiente,App
-369,O00369,15,4,4,2026-03-11,6,227.74,Observado,Presencial
-370,O00370,53,2,11,2026-04-12,5,787.45,Completado,Call Center
-371,O00371,45,3,13,2026-01-31,2,557.86,Completado,Call Center
-372,O00372,75,5,7,2026-02-19,5,670.28,Observado,Presencial
-373,O00373,67,1,8,2026-01-18,6,853.77,Completado,App
-374,O00374,11,3,3,2026-03-18,3,1206.77,Completado,Call Center
-375,O00375,53,1,14,2026-06-15,4,1282.61,Observado,Call Center
-376,O00376,64,4,4,2026-06-04,5,175.46,Completado,App
-377,O00377,47,5,6,2026-06-30,6,2587.88,Cancelado,Presencial
-378,O00378,21,6,5,2026-04-23,2,136.51,Observado,App
-379,O00379,42,4,15,2026-02-08,1,205.72,Completado,App
-380,O00380,22,5,7,2026-01-06,4,485.92,Observado,Call Center
-381,O00381,32,2,5,2026-04-06,1,68.64,Completado,Presencial
-382,O00382,37,3,1,2026-06-03,6,1573.19,Observado,Web
-383,O00383,64,2,2,2026-04-23,2,266.23,Completado,Web
-384,O00384,39,1,2,2026-04-14,3,384.74,Completado,Web
-385,O00385,25,4,6,2026-03-14,4,1623.73,Completado,Web
-386,O00386,40,1,14,2026-03-27,1,281.15,Completado,Web
-387,O00387,49,1,10,2026-05-08,5,1096.52,Completado,Call Center
-388,O00388,66,1,12,2026-06-28,6,1345.85,Cancelado,Call Center
-389,O00389,43,3,1,2026-05-15,1,297.11,Pendiente,Call Center
-390,O00390,16,6,6,2026-06-28,5,1986.22,Completado,Web
-391,O00391,41,1,2,2026-06-28,3,473.55,Observado,Web
-392,O00392,44,1,15,2026-05-25,3,741.55,Completado,App
-393,O00393,67,5,5,2026-05-31,3,206.27,Completado,Web
-394,O00394,10,1,11,2026-01-08,3,428.98,Completado,Presencial
-395,O00395,30,2,8,2026-02-22,4,442.95,Completado,Call Center
-396,O00396,80,6,9,2026-06-04,4,883.52,Completado,Call Center
-397,O00397,65,5,5,2026-03-22,5,364.61,Completado,Call Center
-398,O00398,50,4,4,2026-04-28,3,104.51,Observado,App
-399,O00399,52,5,8,2026-01-08,4,580.8,Pendiente,Call Center
-400,O00400,6,5,11,2026-06-05,6,956.28,Pendiente,Presencial
-401,O00401,36,6,2,2026-04-30,1,161.8,Cancelado,Call Center
-402,O00402,5,3,4,2026-03-16,6,266.3,Completado,Presencial
-403,O00403,2,4,10,2026-06-01,1,294.32,Completado,Presencial
-404,O00404,73,3,12,2026-01-07,6,1247.2,Pendiente,App
-405,O00405,14,1,12,2026-02-05,4,853.43,Observado,App
-406,O00406,21,2,10,2026-06-21,3,807.16,Completado,App
-407,O00407,30,1,4,2026-06-25,5,193.75,Completado,Presencial
-408,O00408,11,1,11,2026-03-18,1,165.19,Completado,Presencial
-409,O00409,78,2,15,2026-04-02,1,211.96,Completado,Call Center
-410,O00410,41,1,15,2026-03-15,4,1114.02,Completado,Web
-411,O00411,76,1,5,2026-06-27,2,165.12,Cancelado,App
-412,O00412,32,3,2,2026-04-30,1,162.56,Completado,Web
-413,O00413,61,5,6,2026-05-29,5,1865.92,Observado,Web
-414,O00414,75,1,6,2026-05-24,2,888.12,Completado,Web
-415,O00415,43,3,8,2026-04-08,4,604.27,Completado,Web
-416,O00416,25,4,14,2026-03-30,3,935.93,Completado,Web
-417,O00417,47,3,12,2026-06-02,2,341.37,Completado,Presencial
-418,O00418,42,4,6,2026-06-17,2,634.53,Completado,Presencial
-419,O00419,39,5,4,2026-01-12,2,85.71,Completado,App
-420,O00420,36,6,3,2026-06-23,1,317.69,Completado,Call Center
-421,O00421,73,1,14,2026-04-01,2,626.96,Completado,Web
-422,O00422,73,6,8,2026-03-01,4,432.43,Completado,Presencial
-423,O00423,35,5,12,2026-05-16,3,624.48,Completado,Web
-424,O00424,12,2,6,2026-01-05,6,2254.01,Completado,Web
-425,O00425,54,6,7,2026-05-04,1,120.89,Completado,Presencial
-426,O00426,41,3,15,2026-04-18,3,648.08,Pendiente,App
-427,O00427,67,4,10,2026-04-25,5,1373.25,Completado,Call Center
-428,O00428,72,3,12,2026-03-07,1,205.23,Pendiente,Web
-429,O00429,16,2,12,2026-04-05,3,522.5,Completado,Presencial
-430,O00430,50,3,7,2026-04-06,6,766.85,Observado,Presencial
-431,O00431,20,4,15,2026-04-17,1,201.75,Completado,App
-432,O00432,17,3,2,2026-06-10,5,748.79,Completado,Call Center
-433,O00433,3,4,4,2026-02-10,6,258.6,Completado,Web
-434,O00434,35,1,12,2026-04-18,1,191.59,Cancelado,Web
-435,O00435,46,2,7,2026-03-31,5,678.43,Completado,Call Center
-436,O00436,63,6,10,2026-05-07,1,309.83,Completado,Web
-437,O00437,26,2,13,2026-05-06,4,1184.83,Cancelado,App
-438,O00438,7,1,5,2026-04-27,2,119.7,Completado,Call Center
-439,O00439,40,5,2,2026-05-27,1,130.3,Completado,Presencial
-440,O00440,5,4,8,2026-03-12,5,611.32,Completado,Presencial
-441,O00441,23,2,15,2026-01-22,4,973.13,Cancelado,Web
-442,O00442,10,1,4,2026-04-07,3,120.03,Completado,App
-443,O00443,19,3,6,2026-05-19,1,384.09,Observado,Web
-444,O00444,75,1,14,2026-01-31,2,650.35,Pendiente,Presencial
-445,O00445,32,1,7,2026-01-13,4,499.81,Completado,Call Center
-446,O00446,79,4,12,2026-06-16,1,214.65,Completado,Call Center
-447,O00447,21,2,15,2026-02-06,4,827.11,Completado,Web
-448,O00448,37,5,5,2026-05-30,6,373.13,Cancelado,Call Center
-449,O00449,65,3,10,2026-01-13,5,1514.98,Observado,Web
-450,O00450,33,1,13,2026-06-29,4,1065.02,Pendiente,Call Center
-451,O00451,70,2,8,2026-02-22,5,673.6,Completado,Presencial
-452,O00452,14,4,6,2026-01-22,5,1512.3,Completado,Call Center
-453,O00453,19,3,8,2026-02-09,3,355.28,Completado,App
-454,O00454,44,2,6,2026-04-20,2,721.24,Completado,Web
-455,O00455,29,1,6,2026-03-24,2,720.94,Completado,Presencial
-456,O00456,25,2,13,2026-03-20,2,631.4,Observado,App
-457,O00457,49,2,2,2026-06-08,6,1045.44,Completado,App
-458,O00458,52,5,8,2026-05-23,6,902.69,Completado,Presencial
-459,O00459,32,2,8,2026-02-10,1,152.83,Pendiente,Call Center
-460,O00460,74,6,1,2026-04-16,5,1330.63,Completado,Web
-461,O00461,61,5,5,2026-03-13,4,295.51,Completado,App
-462,O00462,32,1,11,2026-04-01,3,428.98,Completado,Presencial
-463,O00463,54,6,14,2026-01-09,2,621.35,Completado,Web
-464,O00464,3,5,10,2026-05-23,5,1230.65,Completado,Call Center
-465,O00465,45,1,5,2026-02-12,3,183.27,Completado,Web
-466,O00466,34,4,12,2026-05-26,2,388.9,Completado,Call Center
-467,O00467,43,5,8,2026-06-03,4,473.64,Completado,Presencial
-468,O00468,44,6,6,2026-05-11,1,413.96,Completado,Web
-469,O00469,46,1,3,2026-01-17,3,1233.69,Completado,Presencial
-470,O00470,59,5,14,2026-01-11,2,627.64,Completado,Presencial
-471,O00471,62,2,2,2026-05-22,2,307.19,Completado,App
-472,O00472,16,3,7,2026-01-29,1,118.25,Completado,App
-473,O00473,78,6,4,2026-05-25,4,153.75,Completado,Web
-474,O00474,1,1,11,2026-04-29,2,308.54,Observado,Presencial
-475,O00475,46,5,9,2026-02-28,4,746.18,Observado,Call Center
-476,O00476,49,5,7,2026-03-11,3,455.27,Completado,Call Center
-477,O00477,34,4,7,2026-01-14,5,595.2,Completado,Web
-478,O00478,29,6,11,2026-01-20,5,951.69,Completado,App
-479,O00479,47,1,10,2026-04-17,1,282.81,Completado,Presencial
-480,O00480,42,3,2,2026-05-31,2,311.81,Pendiente,Call Center
-481,O00481,72,1,3,2026-04-11,2,661.38,Completado,Call Center
-482,O00482,9,4,8,2026-05-22,4,534.73,Completado,App
-483,O00483,30,3,9,2026-01-10,3,528.45,Completado,Call Center
-484,O00484,69,5,3,2026-04-14,3,1116.7,Completado,Web
-485,O00485,23,6,10,2026-02-16,5,1179.7,Completado,Call Center
-486,O00486,53,2,12,2026-01-30,3,537.39,Completado,Web
-487,O00487,44,2,8,2026-01-20,5,664.61,Completado,App
-488,O00488,44,5,7,2026-02-18,5,594.43,Completado,Call Center
-489,O00489,2,4,14,2026-05-18,2,506.17,Observado,Web
-490,O00490,51,3,2,2026-01-27,1,166.12,Completado,Web
-491,O00491,18,2,9,2026-04-05,5,1152.21,Completado,Presencial
-492,O00492,19,1,3,2026-02-01,4,1469.1,Completado,App
-493,O00493,4,3,2,2026-01-18,5,653.04,Cancelado,Call Center
-494,O00494,44,4,5,2026-03-06,4,244.27,Observado,Presencial
-495,O00495,4,4,13,2026-02-28,2,717.43,Observado,Call Center
-496,O00496,75,1,5,2026-01-30,1,58.3,Observado,Web
-497,O00497,80,4,13,2026-03-04,5,1498.86,Completado,App
-498,O00498,26,1,10,2026-01-17,2,490.97,Completado,Web
-499,O00499,57,1,4,2026-04-11,3,102.51,Completado,App
-500,O00500,42,6,1,2026-06-13,5,1284.39,Completado,Presencial
+id_operacion,codigo_operacion,id_cliente,id_sede,id_empleado,fecha_operacion,canal,estado,monto_total
+1,O00001,98,6,6,2026-05-05,Tienda web,Completado,7820.28
+2,O00002,194,1,4,2026-04-16,App OnlineMarket,Completado,1304.48
+3,O00003,3,5,28,2026-06-01,Marketplace,Completado,2611.32
+4,O00004,139,2,31,17/03/2026,Venta telefónica,Completado,446.94
+5,O00005,8,6,5,2026-06-09,Tienda web,Completado,1272.48
+6,O00006,40,1,6,2026-05-10,App OnlineMarket,Completado,140.00
+7,O00007,119,2,31,2026-03-08,Marketplace,Completado,1000.00
+8,O00008,88,4,4,2026-01-02,Venta telefónica,Completado,40.00
+9,O00009,118,3,23,2026-05-22,Tienda web,Completado,36.00
+10,O00010,6,6,9,2026-03-23,App OnlineMarket,Completado,426.13
+11,O00011,2,6,34,2026-01-21,Marketplace,Pendiente,2553.22
+12,O00012,63,5,26,2026-04-17,Venta telefónica,Pendiente,226.20
+13,O00013,161,6,7,23/01/2026,Tienda web,Completado,154.78
+14,O00014,176,4,1,2026-04-23,App OnlineMarket,Completado,66.84
+15,O00015,164,5,35,2026-03-13,Marketplace,Pendiente,80.50
+16,O00016,100,2,7,2026-05-19,Venta telefónica,Cancelado,2144.78
+17,O00017,57,5,8,2026-03-20,Tienda web,Completado,3624.91
+18,O00018,22,4,30,2026-02-07,App OnlineMarket,Pendiente,2795.80
+19,O00019,41,2,31,28/02/2026,Marketplace,Completado,643.90
+20,O00020,170,6,,2026-01-06,Venta telefónica,Completado,811.76
+21,O00021,79,3,37,2026-03-04,Tienda web,Cancelado,3561.15
+22,O00022,84,2,7,2026-04-06,App OnlineMarket,Completado,101.90
+23,O00023,137,4,20,2026-02-28,Marketplace,Observado,915.72
+24,O00024,35,2,28,2026-05-16,Venta telefónica,Completado,781.86
+25,O00025,148,5,4,2026-02-07,Tienda web,Completado,573.36
+26,O00026,152,4,34,2026-04-11,App OnlineMarket,Cancelado,5019.96
+27,O00027,23,1,8,2026-05-19,Marketplace,Completado,1776.78
+28,O00028,96,2,38,2026-02-12,Venta telefónica,Completado,426.28
+29,O00029,136,1,22,2026-01-01,Tienda web,Cancelado,1706.96
+30,O00030,182,1,2,2026-06-11,App OnlineMarket,Pendiente,1567.60
+31,O00031,21,3,12,2026-02-07,Marketplace,Pendiente,172.13
+32,O00032,151,6,6,2026-05-13,Venta telefónica,Completado,1260.00
+33,O00033,186,3,32,2026-06-09,Tienda web,Completado,2028.64
+34,O00034,37,1,34,2026-04-11,App OnlineMarket,Pendiente,80.00
+35,O00035,66,6,5,2026-05-17,Marketplace,Completado,39.93
+36,O00036,49,3,18,2026-04-03,Venta telefónica,Completado,280.79
+37,O00037,103,2,24,2026-05-19,Tienda web,Completado,2837.36
+38,O00038,77,3,17,2026-06-19,App OnlineMarket,Cancelado,606.84
+39,O00039,139,3,35,2026-03-14,Marketplace,Pendiente,6163.12
+40,O00040,84,5,25,2026-01-23,Venta telefónica,Completado,1029.99
+41,O00041,117,2,25,2026-03-14,Tienda web,Pendiente,1765.54
+42,O00042,156,4,,2026-05-02,App OnlineMarket,Cancelado,566.24
+43,O00043,80,5,4,2026-05-21,Marketplace,Completado,139.13
+44,O00044,114,2,18,2026-01-25,Venta telefónica,Pendiente,1673.32
+45,O00045,9349,2,24,2026-02-28,Tienda web,Completado,3871.12
+46,O00046,94,3,26,2026-01-01,App OnlineMarket,Pendiente,229.08
+47,O00047,60,2,14,2026-06-09,Marketplace,Completado,1907.62
+48,O00048,170,1,4,2026-06-21,Venta telefónica,Completado,2231.97
+49,O00049,77,4,37,2026-06-22,Tienda web,Completado,2351.04
+50,O00050,127,5,11,2026-04-09,App OnlineMarket,Observado,2487.17
+51,O00051,22,1,31,2026-01-08,Marketplace,Completado,897.34
+52,O00052,120,1,30,2026-04-06,Venta telefónica,Completado,774.48
+53,O00053,185,1,40,2026-02-27,Tienda web,Completado,518.21
+54,O00054,96,6,11,2026-02-07,App OnlineMarket,Completado,1092.67
+55,O00055,49,3,17,2026-03-18,Marketplace,Pendiente,2172.15
+56,O00056,143,1,32,27/02/2026,Venta telefónica,Observado,7400.00
+57,O00057,160,1,12,2026-06-15,Tienda web,Completado,486.02
+58,O00058,173,3,,2026-01-18,App OnlineMarket,Completado,969.50
+59,O00059,150,2,15,2026-03-04,Marketplace,Completado,2555.82
+60,O00060,39,4,16,2026-01-05,Venta telefónica,Observado,5350.02
+61,O00061,49,3,9,2026-01-10,Tienda web,Observado,6272.80
+62,O00062,35,3,8,2026-04-19,App OnlineMarket,Pendiente,3582.25
+63,O00063,56,3,1,2026-02-02,Marketplace,Pendiente,710.82
+64,O00064,161,4,39,2026-03-01,Venta telefónica,Completado,238.30
+65,O00065,100,2,32,2026-04-07,Tienda web,Observado,5170.42
+66,O00066,173,6,20,2026-03-26,App OnlineMarket,Observado,21.27
+67,O00067,59,5,40,2026-01-06,Marketplace,Completado,1933.32
+68,O00068,9985,6,7,2026-04-14,Venta telefónica,Observado,175.00
+69,O00069,47,5,24,2026-06-07,Tienda web,Completado,984.70
+70,O00070,45,6,10,2026-05-24,App OnlineMarket,Observado,3730.00
+71,O00071,5,6,35,2026-03-03,Marketplace,Completado,100.00
+72,O00072,10,3,19,2026-06-18,Venta telefónica,Completado,393.59
+73,O00073,71,3,17,21/02/2026,Tienda web,Pendiente,1440.00
+74,O00074,48,6,11,2026-03-22,App OnlineMarket,Pendiente,5937.27
+75,O00075,19,2,28,2026-03-04,Marketplace,Cancelado,1647.97
+76,O00076,13,5,32,2026-01-15,Venta telefónica,Completado,60.00
+77,O00077,123,5,22,2026-02-09,Tienda web,Observado,334.70
+78,O00078,157,4,9,2026-02-08,App OnlineMarket,Cancelado,388.84
+79,O00079,105,1,36,2026-02-24,Marketplace,Cancelado,4531.72
+80,O00080,67,6,34,2026-06-20,Venta telefónica,Completado,2670.46
+81,O00081,172,4,29,2026-06-16,Tienda web,Pendiente,693.54
+82,O00082,182,4,30,2026-01-01,App OnlineMarket,Pendiente,-1982.32
+83,O00083,24,6,30,2026-05-22,Marketplace,Completado,726.50
+84,O00084,196,6,22,2026-04-28,Venta telefónica,Cancelado,1059.43
+85,O00085,172,5,21,2026-01-06,Tienda web,Completado,208.00
+86,O00086,29,4,31,2026-06-09,App OnlineMarket,Completado,969.00
+87,O00087,168,5,38,2026-04-22,Marketplace,Completado,650.00
+88,O00088,89,5,37,2026-04-05,Venta telefónica,Completado,2250.77
+89,O00089,79,3,7,2026-03-11,Tienda web,Completado,1129.56
+90,O00090,195,4,25,2026-04-16,App OnlineMarket,Completado,2270.28
+91,O00091,91,4,20,2026-03-19,Marketplace,Completado,3957.11
+92,O00092,93,5,16,2026-02-28,Venta telefónica,Completado,767.11
+93,O00093,128,1,15,2026-01-24,Tienda web,Completado,70.00
+94,O00094,108,5,39,2026-04-12,App OnlineMarket,Completado,1550.18
+95,O00095,139,1,23,2026-02-05,Marketplace,Completado,358.05
+96,O00096,158,3,7,2026-03-25,Venta telefónica,Completado,127.62
+97,O00097,188,2,38,2026-01-11,Tienda web,Observado,2980.00
+98,O00098,132,5,25,2026-04-28,App OnlineMarket,Pendiente,1513.52
+99,O00099,113,6,19,2026-05-07,Marketplace,Completado,240.72
+100,O00100,180,3,16,2026-05-03,Venta telefónica,Observado,1440.00
+101,O00101,167,3,13,2026-02-25,Tienda web,Pendiente,358.26
+102,O00102,31,3,5,2026-05-06,App OnlineMarket,Completado,2114.26
+103,O00103,35,3,1,2026-02-05,Marketplace,Observado,13152.90
+104,O00104,13,6,17,2026-02-10,Venta telefónica,Completado,1159.07
+105,O00105,187,5,21,2026-01-03,Tienda web,Cancelado,11415.44
+106,O00106,152,1,12,2026-02-16,App OnlineMarket,Completado,4555.20
+107,O00107,111,5,20,2026-05-09,Marketplace,Cancelado,399.56
+108,O00108,153,3,28,2026-01-20,Venta telefónica,Completado,2785.68
+109,O00109,154,4,39,2026-04-20,Tienda web,Completado,3364.95
+110,O00110,183,5,5,2026-06-26,App OnlineMarket,Completado,1583.39
+111,O00111,125,2,34,2026-01-24,Marketplace,Cancelado,713.90
+112,O00112,46,3,23,2026-01-26,Venta telefónica,Completado,-7704.3
+113,O00113,154,1,7,2026-05-22,Tienda web,Completado,1365.38
+114,O00114,142,6,8,2026-03-14,App OnlineMarket,Pendiente,2965.44
+115,O00115,114,6,8,2026-05-01,Marketplace,Completado,400.74
+116,O00116,58,4,2,16/06/2026,Venta telefónica,Pendiente,-4783.9
+117,O00117,67,3,21,2026-02-27,Tienda web,Cancelado,3223.78
+118,O00118,12,2,3,2026-04-22,App OnlineMarket,Completado,1304.58
+119,O00119,12,6,7,2026-05-02,Marketplace,Pendiente,800.80
+120,O00120,44,6,37,19/03/2026,Venta telefónica,Observado,1088.57
+121,O00121,58,4,22,2026-02-27,Tienda web,Completado,1300.00
+122,O00122,175,2,9,2026-02-26,App OnlineMarket,Cancelado,315.00
+123,O00123,65,3,17,2026-01-25,Marketplace,Cancelado,100.00
+124,O00124,52,1,,2026-02-23,Venta telefónica,Completado,235.78
+125,O00125,47,4,13,2026-01-17,Tienda web,Completado,1244.55
+126,O00126,179,4,5,2026-03-04,App OnlineMarket,Completado,958.66
+127,O00127,101,2,26,2026-01-05,Marketplace,Completado,2569.57
+128,O00128,138,5,28,2026-03-23,Venta telefónica,Completado,79.86
+129,O00129,194,1,28,2026-01-26,Tienda web,Completado,1299.58
+130,O00130,184,2,25,2026-02-26,App OnlineMarket,Completado,161.50
+131,O00131,30,6,20,2026-02-16,Marketplace,Completado,1510.00
+132,O00132,20,3,15,2026-01-08,Venta telefónica,Completado,3174.16
+133,O00133,11,2,3,2026-05-12,Tienda web,Completado,262.20
+134,O00134,29,4,24,2026-02-09,App OnlineMarket,Pendiente,1261.56
+135,O00135,123,5,9,2026-03-26,Marketplace,Pendiente,854.34
+136,O00136,104,3,11,2026-05-22,Venta telefónica,Completado,162.77
+137,O00137,63,3,35,2026-02-02,Tienda web,Observado,4959.80
+138,O00138,79,1,25,2026-05-07,App OnlineMarket,Completado,3305.16
+139,O00139,174,1,36,2026-05-28,Marketplace,Observado,239.58
+140,O00140,11,6,39,2026-01-07,Venta telefónica,Completado,1203.26
+141,O00141,47,4,33,2026-02-18,Tienda web,Completado,-4966.56
+142,O00142,102,4,18,2026-05-13,App OnlineMarket,Completado,12076.62
+143,O00143,101,3,31,2026-02-13,Marketplace,Completado,174.66
+144,O00144,98,6,10,2026-05-02,Venta telefónica,Completado,980.66
+145,O00145,28,3,3,2026-06-24,Tienda web,Completado,133.68
+146,O00146,12,4,29,07/01/2026,App OnlineMarket,Observado,10951.64
+147,O00147,26,6,19,2026-04-18,Marketplace,Completado,2368.03
+148,O00148,136,6,40,01/06/2026,Venta telefónica,Pendiente,679.30
+149,O00149,49,2,33,2026-01-10,Tienda web,Completado,386.95
+150,O00150,176,6,35,2026-05-28,App OnlineMarket,Completado,3385.54
+151,O00151,77,1,,2026-04-23,Marketplace,Completado,133.68
+152,O00152,26,2,,2026-05-03,Venta telefónica,Completado,158.68
+153,O00153,158,1,8,2026-06-12,Tienda web,Completado,1026.72
+154,O00154,197,2,18,2026-04-15,App OnlineMarket,Pendiente,4029.11
+155,O00155,49,3,3,2026-04-08,Marketplace,Completado,401.04
+156,O00156,167,6,19,07/03/2026,Venta telefónica,Completado,836.66
+157,O00157,28,1,12,2026-04-03,Tienda web,Completado,3139.98
+158,O00158,85,5,12,2026-04-19,App OnlineMarket,Pendiente,1491.65
+159,O00159,119,4,22,2026-05-22,Marketplace,Pendiente,1195.64
+160,O00160,53,4,36,2026-06-26,Venta telefónica,Cancelado,215.00
+161,O00161,41,5,,2026-04-15,Tienda web,Cancelado,2204.98
+162,O00162,142,5,15,2026-01-15,App OnlineMarket,Completado,4812.50
+163,O00163,76,6,31,2026-04-28,Marketplace,Cancelado,77.39
+164,O00164,129,5,32,2026-05-19,Venta telefónica,Completado,1993.21
+165,O00165,108,3,,2026-04-20,Tienda web,Observado,259.72
+166,O00166,151,2,7,2026-02-12,App OnlineMarket,Completado,1913.79
+167,O00167,24,2,22,2026-02-06,Marketplace,Cancelado,4040.00
+168,O00168,147,3,7,2026-01-27,Venta telefónica,Completado,756.76
+169,O00169,103,6,22,2026-03-26,Tienda web,Pendiente,150.80
+170,O00170,71,5,15,2026-01-05,App OnlineMarket,Pendiente,171.12
+171,O00171,186,3,27,2026-05-14,Marketplace,Cancelado,2068.94
+172,O00172,105,6,15,21/03/2026,Venta telefónica,Completado,938.80
+173,O00173,5,1,9,2026-01-06,Tienda web,Cancelado,822.94
+174,O00174,32,2,16,2026-05-23,App OnlineMarket,Pendiente,4474.48
+175,O00175,53,6,12,2026-03-25,Marketplace,Completado,1513.52
+176,O00176,50,6,6,2026-01-04,Venta telefónica,Cancelado,334.20
+177,O00177,86,4,6,2026-04-09,Tienda web,Completado,1582.26
+178,O00178,80,6,10,2026-05-13,App OnlineMarket,Completado,3981.22
+179,O00179,24,6,30,2026-02-26,Marketplace,Cancelado,1300.00
+180,O00180,34,6,17,2026-06-14,Venta telefónica,Completado,5667.88
+181,O00181,128,4,23,2026-04-18,Tienda web,Pendiente,144.67
+182,O00182,38,5,27,2026-02-01,App OnlineMarket,Observado,4645.21
+183,O00183,40,5,6,2026-04-03,Marketplace,Completado,807.50
+184,O00184,20,1,25,2026-05-03,Venta telefónica,Pendiente,856.76
+185,O00185,139,2,7,2026-03-19,Tienda web,Cancelado,464.34
+186,O00186,83,2,18,2026-04-22,App OnlineMarket,Completado,1411.45
+187,O00187,51,6,24,06/02/2026,Marketplace,Completado,1000.05
+188,O00188,168,1,36,2026-06-15,Venta telefónica,Cancelado,3508.9
+189,O00189,60,2,23,2026-03-04,Tienda web,Completado,2061.50
+190,O00190,133,6,28,2026-03-05,App OnlineMarket,Cancelado,12414.73
+191,O00191,15,4,14,2026-03-19,Marketplace,Pendiente,2683.49
+192,O00192,170,5,15,2026-03-12,Venta telefónica,Completado,855.60
+193,O00193,138,6,36,2026-04-23,Tienda web,Cancelado,1007.19
+194,O00194,13,4,29,2026-06-14,App OnlineMarket,Completado,650.00
+195,O00195,72,6,,2026-02-20,Marketplace,Observado,9579.08
+196,O00196,28,3,34,03/05/2026,Venta telefónica,Completado,3197.88
+197,O00197,14,3,28,2026-03-01,Tienda web,Completado,1440.00
+198,O00198,170,2,13,2026-02-06,App OnlineMarket,Cancelado,2566.02
+199,O00199,88,3,19,2026-05-20,Marketplace,Completado,982.16
+200,O00200,5,5,19,2026-02-03,Venta telefónica,Pendiente,888.70
+201,O00201,155,1,40,2026-05-14,Tienda web,Pendiente,537.52
+202,O00202,112,2,21,2026-01-01,App OnlineMarket,Completado,369.50
+203,O00203,141,2,6,2026-06-23,Marketplace,Completado,1943.28
+204,O00204,130,4,22,2026-02-01,Venta telefónica,Completado,1722.82
+205,O00205,162,3,2,2026-02-03,Tienda web,Pendiente,836.66
+206,O00206,176,3,1,2026-01-07,App OnlineMarket,Completado,2172.29
+207,O00207,142,5,40,2026-06-03,Marketplace,Completado,140.00
+208,O00208,42,3,36,2026-01-23,Venta telefónica,Pendiente,1084.74
+209,O00209,125,2,40,06/02/2026,Tienda web,Pendiente,40.00
+210,O00210,110,5,1,2026-03-24,App OnlineMarket,Completado,9250.00
+211,O00211,45,2,1,2026-05-26,Marketplace,Pendiente,7639.80
+212,O00212,91,6,31,2026-02-07,Venta telefónica,Completado,4605.96
+213,O00213,141,1,37,2026-05-11,Tienda web,Pendiente,10680.00
+214,O00214,140,6,38,2026-02-22,App OnlineMarket,Completado,1529.88
+215,O00215,107,5,30,2026-06-13,Marketplace,Completado,3390.08
+216,O00216,77,3,13,2026-03-11,Venta telefónica,Completado,534.34
+217,O00217,45,2,22,17/01/2026,Tienda web,Completado,1198.51
+218,O00218,123,1,29,2026-05-11,App OnlineMarket,Completado,908.40
+219,O00219,198,6,24,2026-05-20,Marketplace,Completado,1260.00
+220,O00220,108,3,28,2026-03-06,Venta telefónica,Completado,780.00
+221,O00221,70,3,18,2026-03-02,Tienda web,Pendiente,1450.00
+222,O00222,198,3,28,2026-05-07,App OnlineMarket,Pendiente,171.12
+223,O00223,63,6,1,2026-05-21,Marketplace,Completado,477.02
+224,O00224,181,1,40,2026-06-27,Venta telefónica,Completado,2709.63
+225,O00225,63,5,6,2026-02-09,Tienda web,Completado,1950.00
+226,O00226,39,5,12,18/04/2026,App OnlineMarket,Completado,9631.87
+227,O00227,14,2,29,2026-02-24,Marketplace,Cancelado,1682.92
+228,O00228,116,5,40,2026-03-04,Venta telefónica,Cancelado,378.21
+229,O00229,162,3,6,2026-02-07,Tienda web,Completado,4460.98
+230,O00230,79,6,29,2026-01-25,App OnlineMarket,Completado,260.00
+231,O00231,51,5,38,2026-01-27,Marketplace,Completado,1934.89
+232,O00232,122,1,33,2026-03-15,Venta telefónica,Completado,1594.13
+233,O00233,75,6,24,2026-06-06,Tienda web,Observado,322.00
+234,O00234,20,3,28,2026-03-27,App OnlineMarket,Completado,342.24
+235,O00235,118,6,7,2026-04-01,Marketplace,Observado,37.70
+236,O00236,150,1,28,06/05/2026,Venta telefónica,Completado,2669.27
+237,O00237,156,4,24,2026-01-28,Tienda web,Cancelado,72.00
+238,O00238,94,4,21,2026-06-05,App OnlineMarket,Cancelado,2159.66
+239,O00239,20,4,36,2026-01-02,Marketplace,Pendiente,541.04
+240,O00240,122,6,18,2026-03-26,Venta telefónica,Completado,188.50
+241,O00241,182,6,38,28/06/2026,Tienda web,Completado,138.84
+242,O00242,37,2,23,2026-02-28,App OnlineMarket,Completado,3911.3
+243,O00243,3,4,10,2026-02-19,Marketplace,Cancelado,482.83
+244,O00244,89,2,27,2026-01-06,Venta telefónica,Completado,2664.76
+245,O00245,27,2,23,2026-06-12,Tienda web,Pendiente,1657.08
+246,O00246,160,4,17,2026-03-07,App OnlineMarket,Completado,1668.00
+247,O00247,154,6,26,2026-01-05,Marketplace,Observado,2263.88
+248,O00248,137,1,5,2026-01-15,Venta telefónica,Completado,236.94
+249,O00249,52,5,32,2026-06-22,Tienda web,Completado,1009.00
+250,O00250,24,6,4,2026-04-14,App OnlineMarket,Completado,2008.02
+251,O00251,48,5,39,2026-06-09,Marketplace,Completado,150.00
+252,O00252,53,2,10,27/03/2026,Venta telefónica,Completado,490.20
+253,O00253,41,5,11,2026-01-18,Tienda web,Cancelado,1253.88
+254,O00254,117,1,28,2026-04-02,App OnlineMarket,Completado,1567.88
+255,O00255,145,3,11,09/06/2026,Marketplace,Completado,759.59
+256,O00256,8,2,11,2026-06-08,Venta telefónica,Completado,463.38
+257,O00257,28,6,31,2026-03-11,Tienda web,Completado,3650.00
+258,O00258,4,3,21,05/06/2026,App OnlineMarket,Pendiente,186.00
+259,O00259,3,2,15,2026-06-21,Marketplace,Completado,4349.36
+260,O00260,105,4,13,2026-03-26,Venta telefónica,Completado,1066.72
+261,O00261,198,1,35,2026-01-25,Tienda web,Completado,2394.43
+262,O00262,44,2,20,2026-05-28,App OnlineMarket,Completado,1347.38
+263,O00263,115,5,23,2026-06-07,Marketplace,Observado,993.00
+264,O00264,114,6,37,2026-03-12,Venta telefónica,Completado,138.84
+265,O00265,113,5,16,2026-03-11,Tienda web,Completado,12.00
+266,O00266,153,2,20,2026-06-20,App OnlineMarket,Completado,1495.71
+267,O00267,143,6,34,2026-02-15,Marketplace,Cancelado,1619.95
+268,O00268,121,4,23,2026-03-17,Venta telefónica,Pendiente,440.55
+269,O00269,133,6,12,2026-05-12,Tienda web,Completado,807.50
+270,O00270,116,1,39,2026-01-22,App OnlineMarket,Completado,1197.16
+271,O00271,83,6,28,2026-04-23,Marketplace,Pendiente,459.13
+272,O00272,48,3,36,2026-06-17,Venta telefónica,Completado,651.08
+273,O00273,67,3,12,15/03/2026,Tienda web,Completado,35.00
+274,O00274,181,3,31,14/06/2026,App OnlineMarket,Observado,8370.00
+275,O00275,182,3,,2026-02-08,Marketplace,Completado,8314.35
+276,O00276,115,4,40,2026-04-02,Venta telefónica,Completado,210.00
+277,O00277,109,3,22,2026-03-10,Tienda web,Completado,916.42
+278,O00278,41,5,25,2026-06-08,App OnlineMarket,Pendiente,1823.98
+279,O00279,182,5,31,05/06/2026,Marketplace,Completado,10124.93
+280,O00280,63,2,39,2026-05-25,Venta telefónica,Pendiente,2332.00
+281,O00281,3,6,12,2026-06-13,Tienda web,Completado,1440.46
+282,O00282,170,6,18,2026-04-19,App OnlineMarket,Completado,2013.79
+283,O00283,13,2,14,2026-01-01,Marketplace,Completado,4642.18
+284,O00284,15,5,27,2026-05-25,Venta telefónica,Completado,2061.80
+285,O00285,63,6,14,2026-01-18,Tienda web,Completado,1853.28
+286,O00286,56,6,15,2026-04-10,App OnlineMarket,Completado,12060.00
+287,O00287,179,4,39,2026-03-19,Marketplace,Completado,208.26
+288,O00288,17,1,23,2026-05-04,Venta telefónica,Completado,1426.00
+289,O00289,145,2,11,2026-02-09,Tienda web,Completado,1454.22
+290,O00290,156,3,25,2026-01-10,App OnlineMarket,Pendiente,555.72
+291,O00291,70,2,12,2026-03-14,Marketplace,Pendiente,997.15
+292,O00292,140,4,30,2026-04-12,Venta telefónica,Observado,1623.44
+293,O00293,196,4,10,2026-05-04,Tienda web,Pendiente,511.18
+294,O00294,84,2,37,2026-05-05,App OnlineMarket,Completado,882.48
+295,O00295,164,6,15,2026-06-15,Marketplace,Completado,113.90
+296,O00296,116,2,23,2026-05-15,Venta telefónica,Completado,337.45
+297,O00297,128,5,36,2026-01-18,Tienda web,Cancelado,1958.45
+298,O00298,82,2,39,26/03/2026,App OnlineMarket,Pendiente,1127.95
+299,O00299,98,5,18,2026-03-28,Marketplace,Cancelado,1262.56
+300,O00300,96,2,7,2026-04-04,Venta telefónica,Completado,3024.66
+301,O00301,173,4,35,20/02/2026,Tienda web,Completado,544.83
+302,O00302,5,5,15,2026-06-25,App OnlineMarket,Completado,240.72
+303,O00303,134,2,10,2026-06-26,Marketplace,Cancelado,836.66
+304,O00304,11,2,31,2026-02-18,Venta telefónica,Completado,651.08
+305,O00305,165,6,23,26/02/2026,Tienda web,Completado,2178.16
+306,O00306,87,6,6,2026-03-13,App OnlineMarket,Completado,4176.66
+307,O00307,100,3,29,2026-03-04,Marketplace,Pendiente,2675.00
+308,O00308,73,4,4,16/04/2026,Venta telefónica,Completado,2484.09
+309,O00309,186,6,2,2026-06-20,Tienda web,Completado,1940.43
+310,O00310,9691,2,14,2026-06-02,App OnlineMarket,Completado,319.58
+311,O00311,119,2,22,2026-05-04,Marketplace,Completado,3362.61
+312,O00312,167,6,33,2026-04-13,Venta telefónica,Completado,1996.48
+313,O00313,93,3,17,2026-03-07,Tienda web,Cancelado,2444.80
+314,O00314,195,2,27,2026-04-19,App OnlineMarket,Cancelado,846.67
+315,O00315,75,3,27,2026-04-23,Marketplace,Pendiente,2019.50
+316,O00316,76,4,8,2026-03-01,Venta telefónica,Completado,2001.58
+317,O00317,174,5,7,2026-02-23,Tienda web,Observado,878.17
+318,O00318,189,3,28,2026-06-14,App OnlineMarket,Completado,50.00
+319,O00319,98,4,28,2026-03-07,Marketplace,Completado,2836.17
+320,O00320,29,3,7,2026-04-28,Venta telefónica,Observado,512.94
+321,O00321,158,4,38,2026-04-17,Tienda web,Observado,1681.20
+322,O00322,181,5,7,2026-04-07,App OnlineMarket,Observado,1627.06
+323,O00323,183,6,21,2026-02-17,Marketplace,Completado,729.04
+324,O00324,97,3,28,2026-04-18,Venta telefónica,Completado,2778.88
+325,O00325,143,2,5,2026-06-17,Tienda web,Cancelado,2474.68
+326,O00326,156,1,16,2026-01-11,App OnlineMarket,Completado,6745.54
+327,O00327,129,4,2,2026-02-04,Marketplace,Pendiente,6962.74
+328,O00328,104,1,15,2026-02-06,Venta telefónica,Observado,3900.00
+329,O00329,39,2,12,2026-06-23,Tienda web,Completado,864.26
+330,O00330,163,3,14,2026-02-15,App OnlineMarket,Pendiente,5070.52
+331,O00331,152,5,29,18/06/2026,Marketplace,Pendiente,995.64
+332,O00332,38,1,36,2026-04-24,Venta telefónica,Completado,37.70
+333,O00333,23,3,17,2026-05-25,Tienda web,Pendiente,1198.95
+334,O00334,130,4,5,2026-05-08,App OnlineMarket,Completado,164.13
+335,O00335,96,1,29,2026-03-26,Marketplace,Completado,2688.50
+336,O00336,76,2,18,2026-04-11,Venta telefónica,Completado,300.60
+337,O00337,153,6,9,2026-01-19,Tienda web,Completado,8213.85
+338,O00338,122,3,,2026-05-22,App OnlineMarket,Cancelado,2900.08
+339,O00339,184,2,36,2026-05-18,Marketplace,Completado,2021.14
+340,O00340,184,4,9,2026-04-01,Venta telefónica,Cancelado,654.48
+341,O00341,106,3,1,2026-05-10,Tienda web,Completado,2395.76
+342,O00342,141,1,30,2026-06-17,App OnlineMarket,Completado,2097.56
+343,O00343,179,3,10,2026-04-17,Marketplace,Completado,1590.52
+344,O00344,103,1,36,2026-06-21,Venta telefónica,Pendiente,1625.60
+345,O00345,69,2,18,2026-01-05,Tienda web,Cancelado,108.00
+346,O00346,56,3,8,2026-01-27,App OnlineMarket,Completado,4252.13
+347,O00347,123,1,27,2026-03-10,Marketplace,Completado,3239.90
+348,O00348,97,3,26,2026-03-12,Venta telefónica,Cancelado,322.00
+349,O00349,62,6,40,2026-01-09,Tienda web,Completado,2625.00
+350,O00350,162,5,3,2026-04-01,App OnlineMarket,Observado,3805.13
+351,O00351,101,2,29,2026-05-13,Marketplace,Completado,3927.45
+352,O00352,22,1,31,2026-01-17,Venta telefónica,Completado,318.95
+353,O00353,60,3,19,2026-01-12,Tienda web,Completado,293.04
+354,O00354,9,3,15,2026-06-06,App OnlineMarket,Cancelado,5493.84
+355,O00355,19,6,24,2026-04-06,Marketplace,Cancelado,20350.00
+356,O00356,172,6,38,2026-03-23,Venta telefónica,Completado,1019.82
+357,O00357,126,6,8,2026-01-16,Tienda web,Completado,3250.00
+358,O00358,71,2,7,2026-05-16,App OnlineMarket,Cancelado,66.94
+359,O00359,194,1,29,2026-02-21,Marketplace,Completado,3641.18
+360,O00360,166,6,24,2026-01-17,Venta telefónica,Completado,249.08
+361,O00361,38,4,38,2026-05-15,Tienda web,Cancelado,1211.59
+362,O00362,34,1,2,2026-04-12,App OnlineMarket,Completado,4165.47
+363,O00363,80,3,5,2026-04-23,Marketplace,Completado,383.99
+364,O00364,156,3,1,2026-06-11,Venta telefónica,Pendiente,1026.81
+365,O00365,162,5,20,2026-02-09,Tienda web,Completado,1714.36
+366,O00366,200,3,31,2026-03-27,App OnlineMarket,Completado,1955.15
+367,O00367,50,2,4,2026-05-15,Marketplace,Pendiente,1860.20
+368,O00368,165,5,28,2026-01-03,Venta telefónica,Pendiente,171.12
+369,O00369,132,1,20,2026-03-26,Tienda web,Completado,2243.26
+370,O00370,46,6,29,2026-03-17,App OnlineMarket,Completado,1925.16
+371,O00371,147,1,36,2026-01-20,Marketplace,Cancelado,141.00
+372,O00372,147,4,35,2026-04-15,Venta telefónica,Completado,2209.65
+373,O00373,46,5,5,2026-05-09,Tienda web,Completado,358.18
+374,O00374,45,3,35,2026-06-16,App OnlineMarket,Completado,381.10
+375,O00375,9975,1,2,2026-02-20,Marketplace,Completado,3900.00
+376,O00376,41,3,37,2026-06-24,Venta telefónica,Completado,812.50
+377,O00377,65,1,19,2026-04-07,Tienda web,Completado,673.24
+378,O00378,194,1,20,2026-06-17,App OnlineMarket,Pendiente,707.46
+379,O00379,197,6,27,2026-03-23,Marketplace,Completado,1228.26
+380,O00380,136,2,14,2026-05-07,Venta telefónica,Completado,2153.32
+381,O00381,152,5,12,2026-04-25,Tienda web,Completado,36.00
+382,O00382,137,3,1,2026-01-28,App OnlineMarket,Cancelado,3672.18
+383,O00383,189,1,6,2026-04-19,Marketplace,Observado,4336.08
+384,O00384,188,4,34,2026-05-13,Venta telefónica,Cancelado,40.12
+385,O00385,154,1,18,2026-01-06,Tienda web,Completado,5249.54
+386,O00386,27,3,24,2026-01-27,App OnlineMarket,Completado,904.03
+387,O00387,42,1,19,2026-01-02,Marketplace,Observado,3346.64
+388,O00388,30,3,10,2026-04-13,Venta telefónica,Pendiente,1619.95
+389,O00389,128,6,14,2026-05-28,Tienda web,Completado,1076.32
+390,O00390,66,5,32,2026-02-20,App OnlineMarket,Completado,2430.31
+391,O00391,190,5,30,17/05/2026,Marketplace,Pendiente,2060.56
+392,O00392,134,4,29,2026-01-01,Venta telefónica,Pendiente,288.62
+393,O00393,156,5,16,2026-01-02,Tienda web,Completado,1122.80
+394,O00394,97,5,13,18/05/2026,App OnlineMarket,Completado,133.68
+395,O00395,63,1,37,2026-03-09,Marketplace,Cancelado,1231.68
+396,O00396,126,1,26,2026-04-18,Venta telefónica,Completado,604.14
+397,O00397,9,1,32,2026-04-15,Tienda web,Completado,1716.95
+398,O00398,55,6,12,2026-05-26,App OnlineMarket,Completado,335.43
+399,O00399,124,3,18,2026-01-23,Marketplace,Completado,14860.00
+400,O00400,16,6,34,2026-03-06,Venta telefónica,Completado,1974.70
+401,O00401,199,4,39,2026-05-28,Tienda web,Cancelado,1040.00
+402,O00402,141,6,20,2026-03-09,App OnlineMarket,Pendiente,7505.00
+403,O00403,93,2,19,2026-02-09,Marketplace,Observado,1186.20
+404,O00404,69,3,15,2026-05-25,Venta telefónica,Completado,180.00
+405,O00405,190,5,33,2026-02-02,Tienda web,Pendiente,200.60
+406,O00406,161,2,14,2026-01-07,App OnlineMarket,Completado,2505.33
+407,O00407,23,6,8,2026-03-12,Marketplace,Observado,558.79
+408,O00408,56,6,20,2026-05-19,Venta telefónica,Completado,-1594.78
+409,O00409,194,3,2,2026-02-18,Tienda web,Completado,4228.24
+410,O00410,50,4,32,2026-01-01,App OnlineMarket,Completado,598.19
+411,O00411,89,5,5,2026-04-07,Marketplace,Pendiente,3234.0
+412,O00412,150,2,40,2026-02-12,Venta telefónica,Cancelado,2903.84
+413,O00413,151,5,30,2026-01-18,Tienda web,Completado,509.00
+414,O00414,195,6,23,18/01/2026,App OnlineMarket,Completado,203.08
+415,O00415,117,4,37,2026-03-01,Marketplace,Pendiente,1161.72
+416,O00416,168,5,4,2026-03-05,Venta telefónica,Completado,2934.00
+417,O00417,116,5,27,2026-01-14,Tienda web,Completado,2273.99
+418,O00418,108,5,23,2026-01-26,App OnlineMarket,Completado,301.55
+419,O00419,144,3,18,2026-06-22,Marketplace,Completado,1468.84
+420,O00420,64,5,,2026-02-08,Venta telefónica,Pendiente,4366.33
+421,O00421,60,3,9,2026-02-16,Tienda web,Pendiente,947.36
+422,O00422,99,2,36,2026-06-22,App OnlineMarket,Observado,162.77
+423,O00423,4,2,38,2026-01-06,Marketplace,Completado,1035.76
+424,O00424,19,1,32,28/01/2026,Venta telefónica,Completado,2270.28
+425,O00425,102,3,34,2026-06-28,Tienda web,Completado,903.56
+426,O00426,44,5,30,2026-02-19,App OnlineMarket,Observado,1098.26
+427,O00427,73,3,29,2026-03-22,Marketplace,Observado,968.63
+428,O00428,140,2,10,2026-05-18,Venta telefónica,Completado,2446.24
+429,O00429,51,5,34,10/05/2026,Tienda web,Cancelado,378.38
+430,O00430,142,4,23,2026-05-10,App OnlineMarket,Completado,966.35
+431,O00431,45,6,35,2026-02-18,Marketplace,Cancelado,1987.40
+432,O00432,15,5,40,2026-05-19,Venta telefónica,Completado,3275.00
+433,O00433,166,4,30,2026-03-19,Tienda web,Completado,468.98
+434,O00434,90,2,8,2026-02-10,App OnlineMarket,Cancelado,2479.17
+435,O00435,132,1,19,2026-02-27,Marketplace,Completado,862.74
+436,O00436,67,1,21,2026-05-27,Venta telefónica,Pendiente,37.70
+437,O00437,134,3,26,2026-02-16,Tienda web,Pendiente,1891.90
+438,O00438,14,5,22,2026-01-12,App OnlineMarket,Completado,80.00
+439,O00439,194,3,17,2026-01-01,Marketplace,Completado,3690.22
+440,O00440,21,2,24,12/01/2026,Venta telefónica,Completado,1035.40
+441,O00441,198,5,25,2026-03-21,Tienda web,Cancelado,616.32
+442,O00442,6,6,5,2026-04-04,App OnlineMarket,Pendiente,1446.97
+443,O00443,7,6,2,2026-06-16,Marketplace,Pendiente,406.50
+444,O00444,26,4,31,2026-06-26,Venta telefónica,Cancelado,1405.28
+445,O00445,124,3,18,2026-02-17,Tienda web,Completado,246.12
+446,O00446,143,6,9,2026-03-13,App OnlineMarket,Completado,813.25
+447,O00447,169,4,38,22/06/2026,Marketplace,Pendiente,509.50
+448,O00448,159,6,5,2026-06-23,Venta telefónica,Pendiente,1540.73
+449,O00449,81,1,1,2026-01-15,Tienda web,Cancelado,37.70
+450,O00450,158,5,22,2026-02-27,App OnlineMarket,Pendiente,478.42
+451,O00451,198,4,10,2026-05-19,Marketplace,Pendiente,1796.23
+452,O00452,8,4,12,2026-03-25,Venta telefónica,Completado,7400.00
+453,O00453,93,2,16,2026-01-12,Tienda web,Completado,1280.72
+454,O00454,78,3,27,2026-05-05,App OnlineMarket,Pendiente,3739.93
+455,O00455,16,6,34,2026-02-03,Marketplace,Completado,4428.70
+456,O00456,1,1,39,2026-05-07,Venta telefónica,Completado,4474.48
+457,O00457,155,4,21,2026-05-06,Tienda web,Completado,1694.02
+458,O00458,59,3,27,2026-01-05,App OnlineMarket,Completado,7822.37
+459,O00459,61,3,11,2026-03-20,Marketplace,Pendiente,636.66
+460,O00460,179,2,38,2026-03-20,Venta telefónica,Cancelado,3690.25
+461,O00461,76,1,26,2026-03-26,Tienda web,Completado,3133.85
+462,O00462,67,4,14,2026-06-14,App OnlineMarket,Observado,401.64
+463,O00463,19,1,31,2026-02-28,Marketplace,Observado,720.50
+464,O00464,122,4,39,2026-05-20,Venta telefónica,Completado,1237.04
+465,O00465,58,4,9,2026-05-16,Tienda web,Completado,1260.00
+466,O00466,148,6,15,2026-03-20,App OnlineMarket,Completado,48.00
+467,O00467,70,4,24,2026-05-01,Marketplace,Pendiente,2704.53
+468,O00468,195,3,25,2026-04-10,Venta telefónica,Pendiente,1199.67
+469,O00469,104,4,17,2026-05-17,Tienda web,Completado,1478.60
+470,O00470,2,4,10,2026-06-08,App OnlineMarket,Observado,1117.40
+471,O00471,173,5,22,2026-04-27,Marketplace,Completado,185.08
+472,O00472,79,5,28,2026-02-25,Venta telefónica,Completado,200.60
+473,O00473,13,4,29,2026-01-04,Tienda web,Completado,572.45
+474,O00474,5,3,40,2026-05-21,App OnlineMarket,Completado,2683.87
+475,O00475,96,5,37,2026-06-22,Marketplace,Pendiente,1260.00
+476,O00476,2,2,21,2026-05-25,Venta telefónica,Completado,650.00
+477,O00477,26,4,21,2026-02-18,Tienda web,Pendiente,3752.73
+478,O00478,173,2,2,01/03/2026,App OnlineMarket,Completado,2388.70
+479,O00479,194,5,18,2026-03-27,Marketplace,Completado,3021.90
+480,O00480,179,4,40,2026-05-08,Venta telefónica,Pendiente,1516.16
+481,O00481,26,2,37,2026-05-25,Tienda web,Completado,69.42
+482,O00482,93,1,32,2026-05-13,App OnlineMarket,Completado,849.10
+483,O00483,94,3,1,04/04/2026,Marketplace,Completado,560.30
+484,O00484,71,5,23,2026-04-18,Venta telefónica,Completado,2467.49
+485,O00485,155,6,10,2026-04-07,Tienda web,Completado,1521.11
+486,O00486,57,3,35,2026-06-03,App OnlineMarket,Completado,79.86
+487,O00487,174,6,32,2026-05-13,Marketplace,Completado,342.24
+488,O00488,189,2,21,2026-05-08,Venta telefónica,Completado,79.86
+489,O00489,139,6,17,2026-01-19,Tienda web,Completado,1962.54
+490,O00490,121,1,28,2026-06-09,App OnlineMarket,Completado,3823.22
+491,O00491,42,5,5,23/01/2026,Marketplace,Pendiente,2310.00
+492,O00492,138,3,26,2026-04-22,Venta telefónica,Cancelado,960.00
+493,O00493,105,1,1,2026-05-03,Tienda web,Cancelado,3651.44
+494,O00494,164,3,4,2026-06-27,App OnlineMarket,Pendiente,290.24
+495,O00495,45,2,18,2026-05-28,Marketplace,Completado,141.00
+496,O00496,144,2,12,2026-05-08,Venta telefónica,Completado,862.94
+497,O00497,72,5,4,2026-01-24,Tienda web,Completado,1169.41
+498,O00498,43,4,24,2026-04-24,App OnlineMarket,Completado,544.20
+499,O00499,103,2,36,2026-03-06,Marketplace,Completado,749.79
+500,O00500,138,3,14,2026-02-26,Venta telefónica,Completado,9646.76
+501,O00501,164,6,38,2026-03-21,Tienda web,Completado,651.41
+502,O00502,142,5,6,2026-05-11,App OnlineMarket,Completado,2104.94
+503,O00503,137,1,6,2026-03-13,Marketplace,Pendiente,1599.68
+504,O00504,157,3,23,2026-04-01,Venta telefónica,Pendiente,2249.42
+505,O00505,151,5,25,2026-02-21,Tienda web,Cancelado,4594.42
+506,O00506,94,1,20,2026-04-09,App OnlineMarket,Completado,5701.96
+507,O00507,16,3,17,2026-06-26,Marketplace,Cancelado,645.40
+508,O00508,194,4,29,2026-01-18,Venta telefónica,Completado,1516.97
+509,O00509,65,4,26,2026-05-08,Tienda web,Pendiente,1350.12
+510,O00510,161,1,23,2026-05-10,App OnlineMarket,Completado,3466.43
+511,O00511,150,5,30,2026-01-06,Marketplace,Completado,731.39
+512,O00512,159,3,3,2026-05-18,Venta telefónica,Completado,334.70
+513,O00513,125,1,27,2026-02-06,Tienda web,Completado,438.12
+514,O00514,9543,4,31,2026-05-23,App OnlineMarket,Pendiente,3174.22
+515,O00515,76,5,21,2026-04-14,Marketplace,Cancelado,236.94
+516,O00516,130,4,38,2026-01-02,Venta telefónica,Completado,1686.05
+517,O00517,49,1,35,2026-04-17,Tienda web,Completado,1160.00
+518,O00518,47,1,37,2026-03-04,App OnlineMarket,Pendiente,1798.27
+519,O00519,112,1,14,2026-06-01,Marketplace,Completado,1236.08
+520,O00520,9195,6,18,2026-03-11,Venta telefónica,Completado,1799.24
+521,O00521,111,1,27,2026-01-10,Tienda web,Pendiente,780.21
+522,O00522,20,3,22,2026-01-14,App OnlineMarket,Completado,2033.61
+523,O00523,95,1,32,2026-01-16,Marketplace,Completado,432.24
+524,O00524,32,4,26,2026-01-04,Venta telefónica,Completado,2410.34
+525,O00525,175,1,4,2026-06-14,Tienda web,Completado,1850.00
+526,O00526,190,4,16,2026-05-24,App OnlineMarket,Completado,173.55
+527,O00527,59,5,34,2026-02-23,Marketplace,Completado,1943.94
+528,O00528,191,2,30,2026-06-28,Venta telefónica,Completado,2752.00
+529,O00529,73,6,23,2026-06-08,Tienda web,Completado,5194.42
+530,O00530,63,5,8,2026-01-21,App OnlineMarket,Completado,1990.00
+531,O00531,126,2,8,28/06/2026,Marketplace,Cancelado,969.00
+532,O00532,54,1,30,22/05/2026,Venta telefónica,Completado,106.71
+533,O00533,165,6,14,2026-04-28,Tienda web,Completado,1407.67
+534,O00534,48,4,17,2026-04-19,App OnlineMarket,Observado,359.88
+535,O00535,55,1,13,2026-02-20,Marketplace,Completado,2558.35
+536,O00536,56,6,12,2026-01-21,Venta telefónica,Cancelado,756.76
+537,O00537,162,4,23,2026-02-02,Tienda web,Completado,162.77
+538,O00538,83,5,36,2026-06-02,App OnlineMarket,Observado,424.17
+539,O00539,193,1,38,2026-06-08,Marketplace,Cancelado,127.58
+540,O00540,118,3,5,2026-06-20,Venta telefónica,Pendiente,5550.00
+541,O00541,184,1,2,2026-03-09,Tienda web,Pendiente,72.00
+542,O00542,140,5,12,2026-06-04,App OnlineMarket,Pendiente,6297.12
+543,O00543,85,5,,2026-01-23,Marketplace,Cancelado,4136.51
+544,O00544,161,4,17,2026-05-12,Venta telefónica,Cancelado,768.12
+545,O00545,61,3,16,2026-01-21,Tienda web,Completado,2010.78
+546,O00546,46,3,35,2026-02-19,App OnlineMarket,Completado,378.38
+547,O00547,27,2,34,16/04/2026,Marketplace,Completado,322.00
+548,O00548,76,1,39,2026-03-19,Venta telefónica,Completado,1920.75
+549,O00549,160,1,2,2026-03-18,Tienda web,Completado,551.32
+550,O00550,118,4,24,2026-02-02,App OnlineMarket,Completado,1659.36
+551,O00551,98,5,24,2026-03-22,Marketplace,Completado,1260.91
+552,O00552,9191,2,33,2026-03-25,Venta telefónica,Completado,3289.93
+553,O00553,92,3,23,2026-04-06,Tienda web,Pendiente,1920.00
+554,O00554,75,6,6,2026-04-22,App OnlineMarket,Observado,3281.34
+555,O00555,39,6,2,2026-05-03,Marketplace,Completado,688.04
+556,O00556,140,5,14,2026-01-20,Venta telefónica,Cancelado,1423.54
+557,O00557,143,2,32,2026-05-16,Tienda web,Completado,9854.72
+558,O00558,135,3,1,2026-03-09,App OnlineMarket,Pendiente,805.70
+559,O00559,124,6,30,2026-02-07,Marketplace,Completado,1939.00
+560,O00560,164,5,13,2026-03-27,Venta telefónica,Pendiente,1307.37
+561,O00561,137,5,26,2026-01-21,Tienda web,Completado,1499.65
+562,O00562,61,3,7,2026-05-15,App OnlineMarket,Completado,9472.31
+563,O00563,25,4,36,2026-02-11,Marketplace,Pendiente,675.36
+564,O00564,34,6,24,2026-04-13,Venta telefónica,Completado,342.24
+565,O00565,161,2,11,2026-01-13,Tienda web,Observado,289.64
+566,O00566,73,6,9,2026-01-06,App OnlineMarket,Completado,349.49
+567,O00567,131,5,16,2026-04-19,Marketplace,Completado,2299.51
+568,O00568,146,4,31,2026-02-07,Venta telefónica,Completado,698.70
+569,O00569,162,5,35,2026-04-01,Tienda web,Completado,516.32
+570,O00570,30,5,37,2026-06-24,App OnlineMarket,Completado,-2503.83
+571,O00571,119,4,11,25/03/2026,Marketplace,Cancelado,5750.82
+572,O00572,169,6,12,2026-01-26,Venta telefónica,Pendiente,3044.78
+573,O00573,121,2,26,2026-02-04,Tienda web,Completado,452.86
+574,O00574,16,3,24,2026-03-28,App OnlineMarket,Completado,341.70
+575,O00575,22,3,40,2026-05-12,Marketplace,Cancelado,3110.00
+576,O00576,9436,5,11,2026-05-25,Venta telefónica,Completado,255.16
+577,O00577,68,1,13,2026-01-17,Tienda web,Pendiente,8094.55
+578,O00578,102,2,34,2026-01-25,App OnlineMarket,Completado,1560.58
+579,O00579,66,5,30,2026-05-07,Marketplace,Completado,1182.50
+580,O00580,130,6,18,2026-02-20,Venta telefónica,Completado,5087.98
+581,O00581,159,5,2,2026-06-08,Tienda web,Pendiente,7658.16
+582,O00582,127,3,24,2026-03-01,App OnlineMarket,Completado,2509.98
+583,O00583,9,4,25,2026-04-11,Marketplace,Pendiente,4548.46
+584,O00584,101,1,30,2026-05-03,Venta telefónica,Completado,239.58
+585,O00585,62,4,27,2026-04-16,Tienda web,Completado,1442.38
+586,O00586,20,6,,06/01/2026,App OnlineMarket,Observado,90.00
+587,O00587,95,2,1,2026-01-21,Marketplace,Completado,1832.68
+588,O00588,37,2,36,2026-03-09,Venta telefónica,Pendiente,2247.99
+589,O00589,112,3,26,2026-02-25,Tienda web,Completado,385.54
+590,O00590,19,3,29,17/02/2026,App OnlineMarket,Completado,326.30
+591,O00591,100,5,19,2026-02-27,Marketplace,Completado,1490.00
+592,O00592,189,5,30,2026-03-05,Venta telefónica,Pendiente,637.72
+593,O00593,40,2,39,2026-01-25,Tienda web,Observado,3121.50
+594,O00594,86,1,14,2026-02-19,App OnlineMarket,Completado,163.58
+595,O00595,158,2,37,2026-06-18,Marketplace,Completado,1360.28
+596,O00596,21,6,9,2026-02-26,Venta telefónica,Completado,543.53
+597,O00597,127,2,1,2026-03-25,Tienda web,Completado,3299.78
+598,O00598,22,3,8,2026-03-15,App OnlineMarket,Cancelado,1619.95
+599,O00599,15,5,5,2026-04-04,Marketplace,Cancelado,1508.60
+600,O00600,1,6,13,20/01/2026,Venta telefónica,Pendiente,2785.18
+601,O00601,57,4,3,2026-02-27,Tienda web,Completado,3213.50
+602,O00602,68,1,21,2026-05-04,App OnlineMarket,Completado,2045.53
+603,O00603,79,6,23,2026-02-12,Marketplace,Completado,1167.73
+604,O00604,68,4,14,2026-02-24,Venta telefónica,Completado,80.00
+605,O00605,49,6,26,2026-01-07,Tienda web,Completado,460.41
+606,O00606,9,3,1,07/01/2026,App OnlineMarket,Completado,72.00
+607,O00607,197,5,30,2026-04-14,Marketplace,Completado,2350.83
+608,O00608,78,5,31,2026-01-11,Venta telefónica,Pendiente,812.39
+609,O00609,53,3,16,2026-01-12,Tienda web,Pendiente,1662.50
+610,O00610,81,4,15,2026-02-15,App OnlineMarket,Completado,952.47
+611,O00611,8,2,24,2026-03-24,Marketplace,Completado,2228.55
+612,O00612,22,6,1,2026-05-14,Venta telefónica,Completado,3544.91
+613,O00613,53,5,5,2026-01-27,Tienda web,Completado,1920.00
+614,O00614,37,3,3,2026-04-27,App OnlineMarket,Cancelado,334.70
+615,O00615,58,5,33,13/05/2026,Marketplace,Completado,3318.68
+616,O00616,35,5,35,2026-04-15,Venta telefónica,Completado,630.11
+617,O00617,22,6,36,2026-01-17,Tienda web,Completado,2377.13
+618,O00618,155,2,30,2026-02-14,App OnlineMarket,Completado,1684.64
+619,O00619,48,3,,2026-03-14,Marketplace,Pendiente,930.04
+620,O00620,77,3,28,2026-01-13,Venta telefónica,Pendiente,684.48
+621,O00621,68,6,13,2026-05-05,Tienda web,Completado,1067.22
+622,O00622,102,4,18,2026-01-19,App OnlineMarket,Completado,63.79
+623,O00623,191,1,20,2026-05-24,Marketplace,Cancelado,232.17
+624,O00624,92,2,38,2026-03-25,Venta telefónica,Completado,1733.55
+625,O00625,126,1,10,11/05/2026,Tienda web,Pendiente,816.15
+626,O00626,92,6,28,2026-03-06,App OnlineMarket,Pendiente,968.52
+627,O00627,183,6,14,2026-06-12,Marketplace,Completado,3044.66
+628,O00628,116,1,40,2026-04-09,Venta telefónica,Completado,3346.64
+629,O00629,83,1,40,2026-04-05,Tienda web,Completado,1081.69
+630,O00630,116,1,34,2026-06-14,App OnlineMarket,Completado,3700.00
+631,O00631,130,1,28,2026-03-04,Marketplace,Completado,2406.10
+632,O00632,57,2,26,06/06/2026,Venta telefónica,Completado,78.00
+633,O00633,196,6,20,2026-02-15,Tienda web,Cancelado,50.00
+634,O00634,165,6,15,2026-01-04,App OnlineMarket,Pendiente,1013.79
+635,O00635,15,3,2,2026-02-02,Marketplace,Pendiente,1700.00
+636,O00636,133,6,2,2026-04-28,Venta telefónica,Pendiente,402.47
+637,O00637,82,2,7,2026-04-06,Tienda web,Pendiente,6308.33
+638,O00638,58,4,40,2026-04-14,App OnlineMarket,Completado,807.50
+639,O00639,134,5,30,2026-03-16,Marketplace,Completado,411.39
+640,O00640,85,2,27,2026-04-12,Venta telefónica,Completado,768.01
+641,O00641,30,1,38,2026-06-16,Tienda web,Completado,473.88
+642,O00642,157,2,21,2026-04-16,App OnlineMarket,Completado,2734.62
+643,O00643,169,4,39,2026-03-19,Marketplace,Completado,1949.73
+644,O00644,49,3,12,2026-03-03,Venta telefónica,Pendiente,1405.08
+645,O00645,81,2,25,2026-05-08,Tienda web,Completado,309.56
+646,O00646,94,4,27,2026-02-03,App OnlineMarket,Completado,260.00
+647,O00647,175,6,15,2026-04-22,Marketplace,Completado,2129.45
+648,O00648,73,3,31,2026-02-11,Venta telefónica,Observado,4999.98
+649,O00649,113,5,12,2026-05-17,Tienda web,Pendiente,342.24
+650,O00650,109,1,13,2026-02-12,App OnlineMarket,Completado,7425.00
+651,O00651,52,3,31,2026-01-24,Marketplace,Completado,1932.72
+652,O00652,171,6,36,2026-01-23,Venta telefónica,Observado,7540.00
+653,O00653,53,6,3,2026-01-12,Tienda web,Pendiente,1286.72
+654,O00654,77,6,22,2026-06-15,App OnlineMarket,Pendiente,4183.30
+655,O00655,46,5,38,2026-06-24,Marketplace,Pendiente,1777.90
+656,O00656,87,3,14,2026-04-12,Venta telefónica,Pendiente,4383.33
+657,O00657,68,1,9,2026-01-02,Tienda web,Completado,322.00
+658,O00658,109,2,12,2026-01-01,App OnlineMarket,Observado,80.24
+659,O00659,31,4,2,2026-05-24,Marketplace,Cancelado,529.56
+660,O00660,174,5,32,2026-03-12,Venta telefónica,Completado,1943.94
+661,O00661,35,1,15,06/04/2026,Tienda web,Completado,8598.55
+662,O00662,58,2,16,2026-02-07,App OnlineMarket,Completado,36.00
+663,O00663,141,5,3,2026-03-05,Marketplace,Observado,1141.29
+664,O00664,163,4,34,2026-02-15,Venta telefónica,Cancelado,3501.11
+665,O00665,93,4,36,2026-02-05,Tienda web,Pendiente,1933.60
+666,O00666,126,2,30,2026-03-25,App OnlineMarket,Completado,36.00
+667,O00667,133,2,30,2026-04-13,Marketplace,Completado,644.26
+668,O00668,116,1,7,2026-06-06,Venta telefónica,Observado,1878.26
+669,O00669,8,5,17,2026-04-10,Tienda web,Completado,2863.57
+670,O00670,95,4,10,2026-03-20,App OnlineMarket,Completado,119.79
+671,O00671,74,5,30,2026-06-02,Marketplace,Completado,4584.34
+672,O00672,165,4,35,2026-05-21,Venta telefónica,Completado,346.70
+673,O00673,58,5,32,2026-03-21,Tienda web,Completado,381.42
+674,O00674,117,1,12,2026-06-20,App OnlineMarket,Completado,488.31
+675,O00675,149,5,34,2026-04-19,Marketplace,Completado,646.00
+676,O00676,83,5,26,2026-04-16,Venta telefónica,Completado,11994.48
+677,O00677,4,6,37,2026-04-28,Tienda web,Cancelado,12140.08
+678,O00678,183,3,29,2026-04-25,App OnlineMarket,Completado,527.55
+679,O00679,84,4,29,2026-05-16,Marketplace,Cancelado,634.28
+680,O00680,13,3,3,2026-03-07,Venta telefónica,Pendiente,676.87
+681,O00681,50,3,32,2026-06-14,Tienda web,Completado,390.12
+682,O00682,163,5,36,2026-02-28,App OnlineMarket,Pendiente,3050.68
+683,O00683,16,3,17,2026-04-16,Marketplace,Pendiente,1898.33
+684,O00684,92,5,6,2026-04-20,Venta telefónica,Completado,151.93
+685,O00685,73,4,16,2026-03-13,Tienda web,Completado,1682.11
+686,O00686,60,1,3,2026-02-09,App OnlineMarket,Completado,280.27
+687,O00687,9637,2,35,2026-04-23,Marketplace,Cancelado,80.24
+688,O00688,93,2,13,2026-04-17,Venta telefónica,Completado,220.48
+689,O00689,104,1,12,2026-03-02,Tienda web,Pendiente,1027.50
+690,O00690,46,4,,2026-02-22,App OnlineMarket,Pendiente,308.94
+691,O00691,169,3,12,2026-01-16,Marketplace,Completado,323.00
+692,O00692,32,5,30,2026-04-01,Venta telefónica,Completado,267.76
+693,O00693,185,6,,2026-03-07,Tienda web,Completado,4018.47
+694,O00694,196,5,31,2026-06-19,App OnlineMarket,Observado,1560.00
+695,O00695,172,3,24,2026-05-06,Marketplace,Pendiente,647.82
+696,O00696,35,5,10,2026-06-22,Venta telefónica,Cancelado,561.46
+697,O00697,172,4,8,2026-05-08,Tienda web,Completado,430.95
+698,O00698,16,4,30,2026-05-09,App OnlineMarket,Completado,179.79
+699,O00699,169,3,6,2026-05-03,Marketplace,Completado,3107.22
+700,O00700,83,3,26,2026-06-25,Venta telefónica,Completado,1363.79
+701,O00701,33,2,9,2026-05-03,Tienda web,Completado,970.46
+702,O00702,198,3,32,2026-06-20,App OnlineMarket,Completado,787.22
+703,O00703,165,3,34,2026-03-28,Marketplace,Completado,1539.51
+704,O00704,4,2,4,2026-01-10,Venta telefónica,Cancelado,1822.98
+705,O00705,83,5,31,2026-03-07,Tienda web,Completado,401.64
+706,O00706,25,6,32,2026-02-18,App OnlineMarket,Observado,2778.60
+707,O00707,9680,6,10,2026-04-01,Marketplace,Completado,386.95
+708,O00708,148,6,13,2026-04-18,Venta telefónica,Pendiente,382.74
+709,O00709,51,3,38,2026-04-06,Tienda web,Pendiente,2166.05
+710,O00710,9658,6,31,2026-04-16,App OnlineMarket,Completado,2019.42
+711,O00711,158,1,12,2026-01-07,Marketplace,Cancelado,1874.61
+712,O00712,43,3,38,2026-04-13,Venta telefónica,Completado,-1793.64
+713,O00713,88,1,2,2026-05-06,Tienda web,Completado,1703.82
+714,O00714,140,5,28,2026-04-11,App OnlineMarket,Cancelado,2538.41
+715,O00715,163,2,13,2026-01-28,Marketplace,Completado,1153.47
+716,O00716,24,2,32,2026-05-17,Venta telefónica,Completado,191.37
+717,O00717,190,6,11,2026-01-28,Tienda web,Cancelado,7400.00
+718,O00718,164,6,5,2026-06-14,App OnlineMarket,Cancelado,1764.83
+719,O00719,199,6,15,2026-06-28,Marketplace,Completado,6710.36
+720,O00720,99,1,31,2026-02-17,Venta telefónica,Completado,696.51
+721,O00721,8,2,13,2026-03-18,Tienda web,Completado,1323.35
+722,O00722,135,6,6,2026-03-12,App OnlineMarket,Completado,2416.71
+723,O00723,177,4,2,2026-05-06,Marketplace,Pendiente,2559.69
+724,O00724,142,3,8,18/06/2026,Venta telefónica,Pendiente,839.58
+725,O00725,66,4,30,2026-02-09,Tienda web,Completado,2911.02
+726,O00726,119,4,32,2026-05-10,App OnlineMarket,Pendiente,645.40
+727,O00727,29,3,8,2026-06-10,Marketplace,Completado,161.00
+728,O00728,106,6,6,2026-06-16,Venta telefónica,Pendiente,571.24
+729,O00729,19,6,28,2026-03-07,Tienda web,Completado,2905.00
+730,O00730,146,4,34,21/01/2026,App OnlineMarket,Pendiente,2880.00
+731,O00731,61,2,34,14/05/2026,Marketplace,Completado,850.04
+732,O00732,36,1,36,14/06/2026,Venta telefónica,Pendiente,658.68
+733,O00733,60,3,23,2026-06-04,Tienda web,Completado,950.06
+734,O00734,21,3,16,2026-03-20,App OnlineMarket,Completado,1619.95
+735,O00735,156,5,20,2026-01-01,Marketplace,Cancelado,2718.54
+736,O00736,30,4,36,2026-06-17,Venta telefónica,Cancelado,1133.04
+737,O00737,98,5,4,22/06/2026,Tienda web,Completado,2452.60
+738,O00738,141,4,37,2026-06-28,App OnlineMarket,Cancelado,1372.08
+739,O00739,84,3,18,2026-06-12,Marketplace,Completado,528.33
+740,O00740,159,5,24,2026-02-09,Venta telefónica,Completado,1513.52
+741,O00741,22,5,28,2026-02-12,Tienda web,Cancelado,274.64
+742,O00742,72,1,8,2026-01-24,App OnlineMarket,Pendiente,120.36
+743,O00743,169,3,7,2026-03-23,Marketplace,Completado,360.40
+744,O00744,140,5,6,2026-03-16,Venta telefónica,Pendiente,2543.46
+745,O00745,105,4,40,2026-03-17,Tienda web,Completado,18.00
+746,O00746,56,1,26,2026-02-18,App OnlineMarket,Completado,226.20
+747,O00747,125,2,37,2026-05-11,Marketplace,Completado,609.59
+748,O00748,1,4,18,2026-04-25,Venta telefónica,Pendiente,752.98
+749,O00749,29,3,32,2026-06-09,Tienda web,Completado,319.44
+750,O00750,153,2,36,2026-06-18,App OnlineMarket,Cancelado,200.52
+751,O00751,175,5,10,2026-06-24,Marketplace,Completado,378.38
+752,O00752,85,5,19,2026-04-08,Venta telefónica,Pendiente,1018.90
+753,O00753,187,3,4,2026-05-25,Tienda web,Completado,1404.41
+754,O00754,156,4,39,2026-01-23,App OnlineMarket,Completado,497.02
+755,O00755,86,3,10,2026-04-05,Marketplace,Completado,999.26
+756,O00756,28,6,19,2026-03-01,Venta telefónica,Completado,154.78
+757,O00757,198,1,3,2026-06-20,Tienda web,Observado,2768.14
+758,O00758,148,1,5,2026-04-19,App OnlineMarket,Pendiente,2506.35
+759,O00759,26,1,8,2026-03-24,Marketplace,Pendiente,273.02
+760,O00760,70,1,15,2026-01-26,Venta telefónica,Completado,318.99
+761,O00761,7,2,23,2026-03-12,Tienda web,Completado,1245.97
+762,O00762,130,4,31,2026-01-22,App OnlineMarket,Cancelado,2976.62
+763,O00763,105,2,36,2026-01-12,Marketplace,Pendiente,620.86
+764,O00764,38,2,14,2026-04-17,Venta telefónica,Completado,421.09
+765,O00765,145,1,25,2026-03-16,Tienda web,Completado,6406.76
+766,O00766,161,5,26,2026-03-04,App OnlineMarket,Completado,175.00
+767,O00767,133,3,7,2026-04-03,Marketplace,Completado,1541.81
+768,O00768,87,2,18,2026-05-04,Venta telefónica,Completado,4870.00
+769,O00769,4,3,36,2026-05-03,Tienda web,Pendiente,2177.23
+770,O00770,68,1,2,2026-03-18,App OnlineMarket,Completado,4088.50
+771,O00771,27,6,12,2026-02-01,Marketplace,Cancelado,689.13
+772,O00772,46,2,33,2026-03-01,Venta telefónica,Completado,2436.00
+773,O00773,150,4,20,2026-02-23,Tienda web,Completado,960.00
+774,O00774,151,5,37,2026-01-04,App OnlineMarket,Observado,3165.84
+775,O00775,23,2,5,2026-01-25,Marketplace,Completado,2075.96
+776,O00776,187,2,14,2026-02-26,Venta telefónica,Completado,3349.98
+777,O00777,177,1,6,2026-06-04,Tienda web,Cancelado,1907.28
+778,O00778,127,3,1,2026-04-06,App OnlineMarket,Cancelado,106.35
+779,O00779,178,4,5,2026-06-07,Marketplace,Pendiente,1177.14
+780,O00780,37,3,,2026-01-04,Venta telefónica,Pendiente,884.15
+781,O00781,149,3,30,2026-05-22,Tienda web,Completado,1482.66
+782,O00782,34,3,20,2026-03-09,App OnlineMarket,Cancelado,127.62
+783,O00783,42,3,12,2026-06-09,Marketplace,Completado,386.50
+784,O00784,68,3,18,16/03/2026,Venta telefónica,Completado,1402.38
+785,O00785,30,6,25,2026-04-12,Tienda web,Pendiente,772.94
+786,O00786,159,4,31,2026-04-15,App OnlineMarket,Pendiente,1067.01
+787,O00787,149,1,14,2026-05-25,Marketplace,Completado,1279.49
+788,O00788,97,6,17,2026-01-25,Venta telefónica,Cancelado,1496.02
+789,O00789,192,3,18,2026-04-01,Tienda web,Completado,9287.70
+790,O00790,77,6,21,2026-03-24,App OnlineMarket,Observado,1523.37
+791,O00791,57,2,37,2026-03-02,Marketplace,Completado,5727.21
+792,O00792,73,5,35,2026-05-23,Venta telefónica,Observado,5257.13
+793,O00793,161,1,19,2026-01-12,Tienda web,Completado,1540.30
+794,O00794,28,6,16,2026-04-03,App OnlineMarket,Completado,248.13
+795,O00795,135,4,10,03/01/2026,Marketplace,Completado,2055.58
+796,O00796,125,6,35,2026-06-13,Venta telefónica,Completado,2958.02
+797,O00797,133,3,31,2026-01-04,Tienda web,Completado,2563.98
+798,O00798,50,3,20,2026-04-03,App OnlineMarket,Cancelado,90.00
+799,O00799,112,2,17,2026-06-27,Marketplace,Pendiente,741.02
+800,O00800,28,6,39,2026-04-19,Venta telefónica,Completado,1560.00
+801,O00801,25,4,28,2026-06-28,Tienda web,Completado,200.82
+802,O00802,64,1,40,2026-06-08,App OnlineMarket,Completado,7671.65
+803,O00803,6,5,33,2026-02-20,Marketplace,Completado,740.20
+804,O00804,48,3,12,2026-04-12,Venta telefónica,Pendiente,85.08
+805,O00805,12,5,,2026-05-18,Tienda web,Completado,2400.00
+806,O00806,74,5,21,2026-01-01,App OnlineMarket,Pendiente,550.50
+807,O00807,76,2,28,2026-01-28,Marketplace,Completado,1400.85
+808,O00808,187,2,16,06/03/2026,Venta telefónica,Observado,2769.98
+809,O00809,141,3,30,2026-06-03,Tienda web,Observado,410.93
+810,O00810,135,3,28,2026-03-04,App OnlineMarket,Completado,1005.22
+811,O00811,183,4,10,26/04/2026,Marketplace,Observado,647.98
+812,O00812,177,1,13,2026-02-10,Venta telefónica,Cancelado,1613.99
+813,O00813,52,6,21,11/06/2026,Tienda web,Completado,2127.66
+814,O00814,172,3,37,2026-03-19,App OnlineMarket,Cancelado,723.38
+815,O00815,200,3,1,01/02/2026,Marketplace,Completado,473.88
+816,O00816,155,1,4,2026-01-16,Venta telefónica,Pendiente,637.02
+817,O00817,69,4,12,2026-03-28,Tienda web,Completado,1764.55
+818,O00818,12,5,23,2026-06-20,App OnlineMarket,Completado,651.08
+819,O00819,113,6,14,2026-01-14,Marketplace,Completado,2261.80
+820,O00820,173,4,21,2026-01-07,Venta telefónica,Completado,425.54
+821,O00821,117,4,16,28/04/2026,Tienda web,Cancelado,4282.35
+822,O00822,103,1,40,2026-05-22,App OnlineMarket,Pendiente,323.25
+823,O00823,125,5,31,2026-04-02,Marketplace,Completado,742.76
+824,O00824,95,3,12,2026-01-05,Venta telefónica,Cancelado,5094.96
+825,O00825,103,3,33,2026-01-13,Tienda web,Completado,2112.90
+826,O00826,9510,5,12,2026-02-28,App OnlineMarket,Pendiente,369.56
+827,O00827,170,4,31,2026-03-24,Marketplace,Pendiente,586.89
+828,O00828,187,1,21,2026-02-19,Venta telefónica,Pendiente,4302.55
+829,O00829,83,6,26,2026-03-27,Tienda web,Completado,150.00
+830,O00830,196,1,32,2026-01-09,App OnlineMarket,Cancelado,10649.38
+831,O00831,105,2,15,2026-06-22,Marketplace,Pendiente,2003.83
+832,O00832,130,5,39,2026-01-09,Venta telefónica,Completado,3726.0
+833,O00833,96,6,32,2026-05-22,Tienda web,Completado,129.08
+834,O00834,163,6,2,2026-06-26,App OnlineMarket,Completado,12070.60
+835,O00835,106,4,3,2026-04-07,Marketplace,Completado,88.81
+836,O00836,76,3,25,2026-05-04,Venta telefónica,Completado,1911.50
+837,O00837,168,2,25,2026-01-04,Tienda web,Pendiente,812.41
+838,O00838,143,5,5,2026-04-16,App OnlineMarket,Pendiente,7442.53
+839,O00839,200,6,24,2026-03-11,Marketplace,Completado,261.50
+840,O00840,131,2,29,2026-01-17,Venta telefónica,Completado,180.24
+841,O00841,111,3,15,2026-06-18,Tienda web,Completado,3060.00
+842,O00842,151,3,39,2026-03-19,App OnlineMarket,Completado,509.20
+843,O00843,197,3,4,2026-02-12,Marketplace,Pendiente,3538.72
+844,O00844,56,3,23,2026-01-26,Venta telefónica,Completado,709.19
+845,O00845,32,5,12,2026-05-26,Tienda web,Pendiente,1578.20
+846,O00846,60,4,11,2026-03-19,App OnlineMarket,Pendiente,1825.67
+847,O00847,7,6,,2026-02-07,Marketplace,Completado,3351.29
+848,O00848,179,4,35,2026-03-24,Venta telefónica,Pendiente,36.00
+849,O00849,125,2,15,2026-04-15,Tienda web,Pendiente,342.24
+850,O00850,179,2,17,2026-05-15,App OnlineMarket,Cancelado,5656.71
+851,O00851,56,1,32,2026-01-11,Marketplace,Observado,9286.00
+852,O00852,196,3,33,2026-06-13,Venta telefónica,Completado,255.16
+853,O00853,168,2,12,2026-06-22,Tienda web,Observado,2209.45
+854,O00854,126,6,6,2026-02-24,App OnlineMarket,Completado,2057.04
+855,O00855,83,1,17,2026-05-15,Marketplace,Completado,101.90
+856,O00856,69,2,29,2026-04-08,Venta telefónica,Completado,210.00
+857,O00857,83,2,11,2026-03-08,Tienda web,Observado,5098.26
+858,O00858,53,6,11,2026-02-22,App OnlineMarket,Completado,4295.82
+859,O00859,2,5,28,2026-03-07,Marketplace,Completado,6041.17
+860,O00860,110,4,37,08/02/2026,Venta telefónica,Completado,1435.25
+861,O00861,62,3,18,2026-05-08,Tienda web,Completado,1407.32
+862,O00862,92,5,12,2026-03-18,App OnlineMarket,Completado,1450.90
+863,O00863,101,3,,18/03/2026,Marketplace,Completado,11243.92
+864,O00864,177,2,36,2026-04-24,Venta telefónica,Completado,1431.21
+865,O00865,124,1,19,2026-04-09,Tienda web,Cancelado,1401.90
+866,O00866,55,4,11,2026-01-18,App OnlineMarket,Pendiente,5550.00
+867,O00867,73,1,19,2026-04-02,Marketplace,Completado,1734.71
+868,O00868,76,2,3,08/05/2026,Venta telefónica,Cancelado,200.82
+869,O00869,143,6,1,2026-04-24,Tienda web,Completado,1569.92
+870,O00870,193,2,20,2026-06-18,App OnlineMarket,Completado,172.00
+871,O00871,162,6,17,2026-03-18,Marketplace,Completado,960.00
+872,O00872,52,6,6,2026-03-07,Venta telefónica,Completado,1154.69
+873,O00873,63,4,39,26/03/2026,Tienda web,Completado,3043.43
+874,O00874,52,6,3,07/01/2026,App OnlineMarket,Cancelado,1391.13
+875,O00875,198,6,2,11/04/2026,Marketplace,Completado,267.36
+876,O00876,11,2,,2026-01-22,Venta telefónica,Completado,6395.42
+877,O00877,84,2,34,2026-01-18,Tienda web,Completado,878.91
+878,O00878,198,2,19,2026-01-07,App OnlineMarket,Completado,2773.91
+879,O00879,50,5,34,2026-05-20,Marketplace,Completado,1729.29
+880,O00880,15,2,38,2026-03-10,Venta telefónica,Completado,4774.69
+881,O00881,43,3,31,2026-01-24,Tienda web,Completado,24.00
+882,O00882,94,4,17,2026-04-22,App OnlineMarket,Completado,1850.74
+883,O00883,197,3,17,2026-06-11,Marketplace,Pendiente,976.62
+884,O00884,70,2,7,2026-05-24,Venta telefónica,Pendiente,3096.32
+885,O00885,9133,1,10,2026-06-05,Tienda web,Completado,159.72
+886,O00886,1,3,6,2026-06-19,App OnlineMarket,Pendiente,151.86
+887,O00887,143,3,1,2026-04-25,Marketplace,Pendiente,1490.13
+888,O00888,143,3,8,05/05/2026,Venta telefónica,Pendiente,69.42
+889,O00889,200,5,33,2026-01-28,Tienda web,Completado,842.21
+890,O00890,190,1,33,2026-04-13,App OnlineMarket,Pendiente,4294.99
+891,O00891,16,5,25,2026-02-27,Marketplace,Cancelado,625.63
+892,O00892,59,3,36,2026-03-20,Venta telefónica,Completado,680.60
+893,O00893,61,3,10,2026-06-25,Tienda web,Completado,502.53
+894,O00894,191,4,11,08/04/2026,App OnlineMarket,Pendiente,391.90
+895,O00895,99,1,22,2026-06-16,Marketplace,Pendiente,-1519.04
+896,O00896,28,6,5,2026-04-06,Venta telefónica,Completado,100.00
+897,O00897,133,4,20,2026-02-21,Tienda web,Completado,384.35
+898,O00898,23,2,19,2026-05-02,App OnlineMarket,Completado,656.03
+899,O00899,156,4,18,2026-06-15,Marketplace,Observado,249.32
+900,O00900,51,2,10,2026-05-14,Venta telefónica,Completado,469.82
+901,O00901,191,6,19,2026-01-08,Tienda web,Completado,840.00
+902,O00902,120,2,22,2026-06-21,App OnlineMarket,Completado,309.90
+903,O00903,97,6,10,2026-03-06,Marketplace,Pendiente,6019.69
+904,O00904,195,4,25,2026-06-23,Venta telefónica,Cancelado,506.57
+905,O00905,34,6,33,2026-03-26,Tienda web,Cancelado,714.92
+906,O00906,130,1,21,2026-05-19,App OnlineMarket,Completado,305.70
+907,O00907,58,5,38,2026-01-06,Marketplace,Pendiente,1125.00
+908,O00908,120,2,39,03/02/2026,Venta telefónica,Pendiente,360.00
+909,O00909,107,3,7,2026-01-03,Tienda web,Completado,855.60
+910,O00910,21,3,33,2026-05-27,App OnlineMarket,Pendiente,5233.30
+911,O00911,159,3,13,2026-01-15,Marketplace,Completado,783.88
+912,O00912,125,1,10,2026-03-15,Venta telefónica,Cancelado,2742.7
+913,O00913,60,5,3,2026-04-23,Tienda web,Completado,1219.00
+914,O00914,34,3,15,2026-06-10,App OnlineMarket,Pendiente,144.00
+915,O00915,173,4,7,2026-06-13,Marketplace,Pendiente,1040.00
+916,O00916,34,1,17,2026-04-26,Venta telefónica,Pendiente,2024.07
+917,O00917,195,3,13,10/05/2026,Tienda web,Observado,875.23
+918,O00918,111,2,40,2026-04-05,App OnlineMarket,Completado,601.29
+919,O00919,188,6,36,2026-06-27,Marketplace,Pendiente,414.70
+920,O00920,153,2,20,2026-02-15,Venta telefónica,Completado,3942.54
+921,O00921,9,3,37,2026-03-21,Tienda web,Completado,520.00
+922,O00922,67,2,35,2026-03-26,App OnlineMarket,Completado,526.02
+923,O00923,9946,1,8,2026-03-19,Marketplace,Observado,1440.00
+924,O00924,45,1,23,2026-01-13,Venta telefónica,Pendiente,4777.53
+925,O00925,191,4,39,2026-01-02,Tienda web,Completado,200.60
+926,O00926,137,4,5,2026-02-25,App OnlineMarket,Completado,5190.35
+927,O00927,38,3,6,2026-05-06,Marketplace,Observado,173.55
+928,O00928,97,1,35,2026-02-11,Venta telefónica,Completado,630.00
+929,O00929,8,5,9,2026-03-05,Tienda web,Completado,514.37
+930,O00930,62,5,11,2026-06-01,App OnlineMarket,Completado,2350.40
+931,O00931,126,4,24,2026-04-25,Marketplace,Completado,843.72
+932,O00932,49,4,3,2026-05-03,Venta telefónica,Completado,150.35
+933,O00933,149,5,27,2026-03-17,Tienda web,Completado,552.32
+934,O00934,3,1,31,2026-06-25,App OnlineMarket,Observado,1780.43
+935,O00935,27,5,9,2026-02-12,Marketplace,Completado,4730.40
+936,O00936,14,3,13,2026-02-13,Venta telefónica,Completado,3514.83
+937,O00937,67,6,7,12/02/2026,Tienda web,Cancelado,1689.95
+938,O00938,188,1,38,2026-04-09,App OnlineMarket,Pendiente,2079.01
+939,O00939,166,5,12,2026-01-05,Marketplace,Pendiente,549.08
+940,O00940,93,2,27,2026-02-20,Venta telefónica,Completado,1025.23
+941,O00941,1,3,2,2026-06-03,Tienda web,Completado,5019.96
+942,O00942,79,2,13,2026-04-16,App OnlineMarket,Pendiente,288.80
+943,O00943,12,3,10,2026-01-27,Marketplace,Completado,37.70
+944,O00944,194,4,14,2026-06-14,Venta telefónica,Completado,6266.52
+945,O00945,62,5,9,23/03/2026,Tienda web,Completado,2324.40
+946,O00946,9,6,31,2026-06-10,App OnlineMarket,Observado,5554.11
+947,O00947,34,1,12,2026-06-15,Marketplace,Completado,200.52
+948,O00948,151,3,15,11/01/2026,Venta telefónica,Completado,2830.94
+949,O00949,152,6,10,2026-05-03,Tienda web,Cancelado,37.70
+950,O00950,155,2,40,2026-03-24,App OnlineMarket,Completado,10901.37
+951,O00951,109,1,10,2026-01-09,Marketplace,Completado,7969.74
+952,O00952,177,2,36,2026-05-06,Venta telefónica,Observado,2724.11
+953,O00953,66,1,7,2026-01-08,Tienda web,Pendiente,2395.30
+954,O00954,170,5,35,12/04/2026,App OnlineMarket,Cancelado,2270.28
+955,O00955,155,6,17,2026-04-08,Marketplace,Observado,3939.58
+956,O00956,148,5,23,2026-06-14,Venta telefónica,Completado,2206.65
+957,O00957,174,1,6,2026-01-14,Tienda web,Pendiente,3043.26
+958,O00958,104,1,9,2026-04-21,App OnlineMarket,Completado,126.35
+959,O00959,72,4,3,2026-03-06,Marketplace,Completado,171.12
+960,O00960,114,5,40,2026-04-27,Venta telefónica,Completado,1793.73
+961,O00961,59,6,24,2026-06-02,Tienda web,Pendiente,156.44
+962,O00962,136,5,13,21/05/2026,App OnlineMarket,Pendiente,104.13
+963,O00963,128,3,36,2026-04-23,Marketplace,Completado,1432.41
+964,O00964,32,3,33,2026-06-20,Venta telefónica,Completado,1377.39
+965,O00965,14,1,24,2026-02-03,Tienda web,Cancelado,645.40
+966,O00966,116,6,35,2026-02-16,App OnlineMarket,Completado,842.17
+967,O00967,79,2,2,2026-02-16,Marketplace,Completado,534.32
+968,O00968,2,4,38,2026-04-27,Venta telefónica,Completado,1035.58
+969,O00969,67,2,40,2026-01-23,Tienda web,Completado,1296.00
+970,O00970,189,2,10,2026-03-22,App OnlineMarket,Completado,2848.26
+971,O00971,87,1,32,2026-01-22,Marketplace,Cancelado,20.00
+972,O00972,135,2,19,2026-04-20,Venta telefónica,Completado,305.70
+973,O00973,30,2,11,2026-05-24,Tienda web,Completado,276.72
+974,O00974,197,4,9,2026-04-11,App OnlineMarket,Completado,873.78
+975,O00975,105,3,7,2026-02-06,Marketplace,Pendiente,2390.72
+976,O00976,105,6,34,2026-05-11,Venta telefónica,Completado,3731.64
+977,O00977,145,2,40,2026-05-14,Tienda web,Pendiente,127.58
+978,O00978,29,6,25,11/03/2026,App OnlineMarket,Pendiente,1007.48
+979,O00979,187,1,31,2026-01-21,Marketplace,Completado,1513.52
+980,O00980,134,6,21,2026-02-18,Venta telefónica,Pendiente,4726.00
+981,O00981,63,6,7,2026-04-09,Tienda web,Cancelado,3114.00
+982,O00982,134,5,11,2026-06-27,App OnlineMarket,Observado,2755.31
+983,O00983,25,4,3,2026-06-03,Marketplace,Cancelado,1675.25
+984,O00984,128,6,25,2026-01-09,Venta telefónica,Completado,3900.00
+985,O00985,193,3,10,2026-01-13,Tienda web,Cancelado,561.16
+986,O00986,11,3,40,2026-02-04,App OnlineMarket,Completado,611.40
+987,O00987,162,1,21,2026-05-08,Marketplace,Completado,440.55
+988,O00988,60,6,21,2026-03-09,Venta telefónica,Completado,11739.10
+989,O00989,170,4,25,2026-02-28,Tienda web,Completado,10000.21
+990,O00990,45,6,22,2026-01-20,App OnlineMarket,Completado,40.00
+991,O00991,9586,6,12,14/02/2026,Marketplace,Cancelado,11379.72
+992,O00992,145,2,33,2026-02-12,Venta telefónica,Completado,3736.32
+993,O00993,47,5,17,2026-04-20,Tienda web,Completado,1813.00
+994,O00994,115,5,30,2026-04-01,App OnlineMarket,Cancelado,618.78
+995,O00995,135,6,31,2026-01-10,Marketplace,Pendiente,1560.00
+996,O00996,158,2,13,2026-06-15,Venta telefónica,Completado,2460.31
+997,O00997,29,6,11,2026-03-14,Tienda web,Completado,39.93
+998,O00998,99,5,30,2026-01-07,App OnlineMarket,Completado,5086.76
+999,O00999,89,2,31,2026-03-22,Marketplace,Cancelado,567.60
+1000,O01000,76,5,37,2026-01-10,Venta telefónica,Completado,627.97
+1001,O01001,58,4,2,2026-06-16,Tienda web,Pendiente,3971.72
+1002,O01002,60,1,3,2026-02-09,App OnlineMarket,Completado,1260.8
+1003,O01003,45,6,35,2026-02-18,Marketplace,Cancelado,2929.52
+1004,O01004,23,2,19,2026-05-02,Venta telefónica,Completado,2648.0
+1005,O01005,132,1,20,2026-03-26,Tienda web,Completado,4607.98
+1006,O01006,80,3,5,2026-04-23,App OnlineMarket,Completado,2157.73
+1007,O01007,164,3,4,2026-06-27,Marketplace,Pendiente,1021.25
+1008,O01008,22,3,40,2026-05-12,Venta telefónica,Cancelado,3014.52
+1009,O01009,112,1,14,2026-06-01,Tienda web,Completado,3727.21
+1010,O01010,196,2,14,2026-06-02,App OnlineMarket,Completado,1207.5

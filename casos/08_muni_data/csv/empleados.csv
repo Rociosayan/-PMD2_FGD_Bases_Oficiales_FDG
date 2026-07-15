@@ -1,0 +1,41 @@
+id_empleado,codigo_empleado,nombres,apellidos,num_documento,cargo,id_sede,correo,sueldo,fecha_ingreso
+1,E0001,Rosa,Chávez Gutiérrez,56956220,Orientador municipal,1,rosa.chávez@muni_data.pe,1982.22,2026-01-12
+2,E0002,Raúl,Aguirre Chávez,23891938,Registrador civil,6,raúl.aguirre@muni_data.pe,3583.38,2026-02-25
+3,E0003,Lucía,Romero Rivera,71406138,Fiscalizador municipal,6,lucía.romero@muni_data.pe,3377.64,2026-02-19
+4,E0004,Claudia,Sánchez Ninaquispe,57993139,Analista tributario,5,claudia.sánchez@muni_data.pe,3853.46,2026-02-05
+5,E0005,Fernando,Flores Chávez,77075993,Técnico de catastro,3,fernando.flores@muni_data.pe,3592.69,2026-03-16
+6,E0006,Óscar,Romero Chávez,82159697,Jefe de atención ciudadana,6,óscar.romero@muni_data.pe,5066.73,2026-01-18
+7,E0007,Isabel,Díaz Flores,21438530,Orientador municipal,1,isabel.díaz@muni_data.pe,,2026-02-14
+8,E0008,Claudia,Chávez Zevallos,79677080,Registrador civil,6,claudia.chávez@muni_data.pe,1736.94,2026-01-25
+9,E0009,Verónica,Torres Sánchez,20537951,Fiscalizador municipal,3,verónica.torres@muni_data.pe,4519.64,2026-03-28
+10,E0010,Álvaro,Lévano Vargas,12033851,Analista tributario,6,álvaro.lévano@muni_data.pe,2289.19,2026-02-14
+11,E0011,Natalia,Zevallos Espinoza,88291301,Técnico de catastro,1,natalia.zevallos@muni_data.pe,,2026-03-11
+12,E0012,Patricia,Zevallos Bautista,42454827,Jefe de atención ciudadana,2,patricia.zevallos@muni_data.pe,3876.16,2026-01-27
+13,E0013,Sergio,Gutiérrez Quispe,69934831,Orientador municipal,2,sergio.gutiérrez@muni_data.pe,3911.5,2026-01-07
+14,E0014,Diego,Chávez Paredes,43979197,Registrador civil,2,diego.chávez@muni_data.pe,2322.4,2026-02-01
+15,E0015,Hugo,Castillo Paredes,11227079,Fiscalizador municipal,6,hugo.castillo@muni_data.pe,1688.24,2026-03-27
+16,E0016,Ana,Rojas Cornejo,68424760,Analista tributario,1,ana.rojas@muni_data.pe,5958.89,2026-03-14
+17,E0017,Gabriela,Romero Rojas,21835674,Técnico de catastro,2,gabriela.romero@muni_data.pe,,2026-02-20
+18,E0018,Paola,Cárdenas Romero,43145745,Jefe de atención ciudadana,1,paola.cárdenas@muni_data.pe,1441.39,2026-02-18
+19,E0019,Rosa,Cárdenas Gutiérrez,78416857,Orientador municipal,3,rosa.cárdenas@muni_data.pe,,2026-03-05
+20,E0020,José,Ríos Aguirre,60450742,Registrador civil,1,josé.ríos@muni_data.pe,,2026-03-06
+21,E0021,Diego,Díaz Mendoza,44392765,Fiscalizador municipal,1,diego.díaz@muni_data.pe,5705.76,2026-01-17
+22,E0022,Pedro,Cárdenas Rivera,75013867,Analista tributario,2,pedro.cárdenas@muni_data.pe,1466.48,2026-03-27
+23,E0023,Ana,Chávez Ríos,79943286,Técnico de catastro,6,ana.chávez@muni_data.pe,4264.29,2026-01-04
+24,E0024,Luis,Flores Torres,15844991,Jefe de atención ciudadana,1,luis.flores@muni_data.pe,,2026-02-11
+25,E0025,Óscar,Huamán Ramos,67664200,Orientador municipal,4,óscar.huamán@muni_data.pe,2287.78,2026-01-04
+26,E0026,Isabel,Aguirre Villanueva,42080299,Registrador civil,6,isabel.aguirre@muni_data.pe,5766.65,2026-03-11
+27,E0027,Karla,Rojas Vargas,17968202,Fiscalizador municipal,1,karla.rojas@muni_data.pe,2247.6,2026-01-07
+28,E0028,Pedro,Espinoza Villanueva,39037311,Analista tributario,2,pedro.espinoza@muni_data.pe,2138.76,2026-03-14
+29,E0029,Óscar,Flores Villanueva,63638400,Técnico de catastro,3,óscar.flores@muni_data.pe,6448.76,2026-03-22
+30,E0030,Miguel,Ríos Mendoza,70361850,Jefe de atención ciudadana,1,miguel.ríos@muni_data.pe,5146.97,2026-01-06
+31,E0031,Paola,Paredes Flores,29704859,Orientador municipal,6,paola.paredes@muni_data.pe,3495.89,2026-01-14
+32,E0032,José,Paredes Vargas,52760421,Registrador civil,2,josé.paredes@muni_data.pe,2575.16,2026-03-24
+33,E0033,Renzo,Cárdenas Cárdenas,96713193,Fiscalizador municipal,1,renzo.cárdenas@muni_data.pe,3187.39,2026-02-16
+34,E0034,Claudia,Romero Díaz,36021839,Analista tributario,2,claudia.romero@muni_data.pe,5672.21,2026-02-12
+35,E0035,Andrés,Torres Salazar,34806353,Técnico de catastro,6,andrés.torres@muni_data.pe,4725.61,2026-01-01
+36,E0036,Patricia,Vargas Gutiérrez,52223071,Jefe de atención ciudadana,6,patricia.vargas@muni_data.pe,5653.86,2026-02-23
+37,E0037,Elena,Huamán Ríos,41305075,Orientador municipal,6,elena.huamán@muni_data.pe,1967.92,2026-02-19
+38,E0038,Pamela,Mendoza Flores,67453702,Registrador civil,4,pamela.mendoza@muni_data.pe,3273.7,2026-01-16
+39,E0039,Isabel,Díaz Salazar,27838411,Fiscalizador municipal,6,isabel.díaz@muni_data.pe,3412.77,2026-02-19
+40,E0040,Milagros,Espinoza Ríos,37591179,Analista tributario,6,milagros.espinoza@muni_data.pe,6215.93,2026-02-18

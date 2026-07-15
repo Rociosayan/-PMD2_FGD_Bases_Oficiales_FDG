@@ -1,96 +1,161 @@
-﻿id_incidencia,codigo_incidencia,id_operacion,tipo_incidencia,severidad,fecha_reporte,estado_incidencia
-1,I00001,291,Dato inconsistente,Media,2026-04-06,En revisi?n
-2,I00002,13,Reprogramaci?n,Alta,2026-02-01,En revisi?n
-3,I00003,249,Falla de registro,Alta,2026-04-07,Abierta
-4,I00004,468,Dato inconsistente,Baja,2026-01-31,Abierta
-5,I00005,227,Reclamo,Media,2026-01-20,Cerrada
-6,I00006,332,Falla de registro,Media,2026-03-02,En revisi?n
-7,I00007,372,Reclamo,Media,2026-04-28,En revisi?n
-8,I00008,382,Demora,Alta,2026-06-22,En revisi?n
-9,I00009,198,Falla de registro,Alta,2026-03-12,Abierta
-10,I00010,259,Dato inconsistente,Baja,2026-01-22,Cerrada
-11,I00011,8,Demora,Alta,2026-05-15,Abierta
-12,I00012,310,Dato inconsistente,Media,2026-04-07,Abierta
-13,I00013,300,Reclamo,Baja,2026-05-28,En revisi?n
-14,I00014,220,Demora,Alta,2026-05-17,Cerrada
-15,I00015,210,Dato inconsistente,Media,2026-06-02,Abierta
-16,I00016,236,Reclamo,Alta,2026-04-22,Abierta
-17,I00017,274,Demora,Media,2026-01-07,En revisi?n
-18,I00018,155,Falla de registro,Alta,2026-02-23,En revisi?n
-19,I00019,138,Reclamo,Media,2026-04-27,En revisi?n
-20,I00020,101,Demora,Alta,2026-01-09,En revisi?n
-21,I00021,158,Reclamo,Alta,2026-01-04,En revisi?n
-22,I00022,131,Reclamo,Media,2026-02-18,En revisi?n
-23,I00023,490,Demora,Alta,2026-05-03,Cerrada
-24,I00024,185,Demora,Alta,2026-01-06,Abierta
-25,I00025,409,Dato inconsistente,Baja,2026-03-01,Abierta
-26,I00026,127,Dato inconsistente,Media,2026-02-16,En revisi?n
-27,I00027,202,Demora,Media,2026-01-31,Abierta
-28,I00028,447,Reclamo,Baja,2026-05-08,En revisi?n
-29,I00029,342,Dato inconsistente,Media,2026-05-01,En revisi?n
-30,I00030,56,Demora,Media,2026-01-04,Abierta
-31,I00031,379,Demora,Baja,2026-01-25,Cerrada
-32,I00032,374,Dato inconsistente,Alta,2026-06-08,Abierta
-33,I00033,14,Reprogramaci?n,Media,2026-06-12,Cerrada
-34,I00034,496,Reprogramaci?n,Baja,2026-02-12,Abierta
-35,I00035,440,Reclamo,Media,2026-04-05,Cerrada
-36,I00036,146,Dato inconsistente,Alta,2026-05-14,En revisi?n
-37,I00037,410,Demora,Baja,2026-03-25,Cerrada
-38,I00038,70,Reclamo,Media,2026-01-07,Cerrada
-39,I00039,142,Reclamo,Alta,2026-01-05,Abierta
-40,I00040,334,Reprogramaci?n,Alta,2026-03-19,Abierta
-41,I00041,251,Demora,Alta,2026-01-11,Abierta
-42,I00042,21,Falla de registro,Media,2026-01-28,En revisi?n
-43,I00043,427,Reprogramaci?n,Alta,2026-05-18,Cerrada
-44,I00044,17,Reclamo,Baja,2026-06-15,Abierta
-45,I00045,156,Reclamo,Media,2026-01-19,Abierta
-46,I00046,350,Reprogramaci?n,Baja,2026-03-14,En revisi?n
-47,I00047,312,Reclamo,Media,2026-06-04,Cerrada
-48,I00048,9,Demora,Alta,2026-04-24,En revisi?n
-49,I00049,446,Reclamo,Baja,2026-02-02,Abierta
-50,I00050,118,Falla de registro,Baja,2026-05-04,En revisi?n
-51,I00051,183,Reclamo,Alta,2026-06-20,En revisi?n
-52,I00052,93,Demora,Alta,2026-02-14,Cerrada
-53,I00053,82,Reclamo,Alta,2026-01-23,Abierta
-54,I00054,35,Reclamo,Baja,2026-02-01,Abierta
-55,I00055,352,Demora,Alta,2026-04-27,En revisi?n
-56,I00056,448,Dato inconsistente,Alta,2026-06-19,Abierta
-57,I00057,12,Dato inconsistente,Media,2026-01-28,Abierta
-58,I00058,119,Demora,Baja,2026-03-15,Abierta
-59,I00059,290,Falla de registro,Baja,2026-05-02,Cerrada
-60,I00060,398,Reprogramaci?n,Alta,2026-04-07,Abierta
-61,I00061,402,Reclamo,Alta,2026-02-24,Abierta
-62,I00062,237,Dato inconsistente,Baja,2026-06-03,En revisi?n
-63,I00063,57,Dato inconsistente,Media,2026-02-27,Cerrada
-64,I00064,420,Falla de registro,Media,2026-01-30,Cerrada
-65,I00065,292,Reprogramaci?n,Baja,2026-02-13,Cerrada
-66,I00066,79,Falla de registro,Alta,2026-04-11,Cerrada
-67,I00067,73,Reprogramaci?n,Baja,2026-05-08,Cerrada
-68,I00068,200,Reclamo,Media,2026-05-07,Cerrada
-69,I00069,23,Demora,Media,2026-02-17,En revisi?n
-70,I00070,233,Reprogramaci?n,Media,2026-03-28,En revisi?n
-71,I00071,234,Dato inconsistente,Media,2026-03-05,Cerrada
-72,I00072,39,Falla de registro,Baja,2026-04-13,Abierta
-73,I00073,449,Dato inconsistente,Media,2026-01-23,En revisi?n
-74,I00074,84,Dato inconsistente,Media,2026-01-08,En revisi?n
-75,I00075,97,Falla de registro,Media,2026-01-13,Abierta
-76,I00076,30,Demora,Baja,2026-06-24,Cerrada
-77,I00077,336,Reprogramaci?n,Alta,2026-05-13,En revisi?n
-78,I00078,207,Falla de registro,Baja,2026-03-26,En revisi?n
-79,I00079,6,Reprogramaci?n,Alta,2026-05-03,Cerrada
-80,I00080,248,Reclamo,Media,2026-03-04,Cerrada
-81,I00081,367,Reprogramaci?n,Media,2026-05-25,En revisi?n
-82,I00082,238,Reprogramaci?n,Baja,2026-03-23,Abierta
-83,I00083,134,Reprogramaci?n,Alta,2026-04-21,En revisi?n
-84,I00084,485,Falla de registro,Baja,2026-06-15,Abierta
-85,I00085,494,Dato inconsistente,Baja,2026-03-11,Abierta
-86,I00086,370,Dato inconsistente,Media,2026-06-26,En revisi?n
-87,I00087,111,Dato inconsistente,Media,2026-03-31,Abierta
-88,I00088,482,Demora,Media,2026-01-26,Abierta
-89,I00089,343,Demora,Baja,2026-03-27,Abierta
-90,I00090,246,Reclamo,Alta,2026-06-15,En revisi?n
-91,I00091,463,Demora,Alta,2026-04-18,En revisi?n
-92,I00092,429,Reprogramaci?n,Media,2026-03-10,En revisi?n
-93,I00093,120,Reprogramaci?n,Media,2026-04-10,Cerrada
-94,I00094,442,Reclamo,Baja,2026-03-08,En revisi?n
-95,I00095,437,Demora,Media,2026-06-05,Cerrada
+id_incidencia,codigo_incidencia,id_operacion,tipo_incidencia,severidad,fecha_reporte,estado_incidencia
+1,I00001,9,Habitación no disponible,Alta,2026-02-01,En revisión
+2,I00002,12,Solicitud de limpieza,Alta,2026-05-14,En revisión
+3,I00003,20,Ruido reportado,Media,2026-04-03,Cerrada
+4,I00004,24,Cargo observado,Alta,2026-05-07,En revisión
+5,I00005,30,Objeto olvidado,Baja,2026-03-15,En revisión
+6,I00006,36,Habitación no disponible,Baja,2026-02-22,Cerrada
+7,I00007,43,Solicitud de limpieza,Alta,2026-06-28,Abierta
+8,I00008,51,Ruido reportado,Baja,2026-03-23,Cerrada
+9,I00009,52,Cargo observado,Baja,2026-02-14,En revisión
+10,I00010,61,Objeto olvidado,Alta,2026-03-16,Abierta
+11,I00011,63,Habitación no disponible,Alta,2026-06-21,En revisión
+12,I00012,94,Solicitud de limpieza,Media,2026-05-08,En revisión
+13,I00013,95,Ruido reportado,Alta,2026-02-20,Cerrada
+14,I00014,97,Cargo observado,Media,2026-03-22,En revisión
+15,I00015,106,Objeto olvidado,Media,2026-06-05,Abierta
+16,I00016,108,Habitación no disponible,Media,2026-06-07,Abierta
+17,I00017,113,Solicitud de limpieza,Media,2026-05-09,En revisión
+18,I00018,116,Ruido reportado,Baja,2026-04-02,Cerrada
+19,I00019,118,Cargo observado,Media,2026-02-16,Abierta
+20,I00020,119,Objeto olvidado,Baja,2026-05-21,Abierta
+21,I00021,129,Habitación no disponible,Media,2026-02-26,Abierta
+22,I00022,133,Solicitud de limpieza,Baja,2026-02-07,Cerrada
+23,I00023,134,Ruido reportado,Baja,2026-02-12,En revisión
+24,I00024,135,Cargo observado,Baja,2026-03-06,Cerrada
+25,I00025,143,Objeto olvidado,Baja,2026-05-18,Cerrada
+26,I00026,151,Habitación no disponible,Baja,2026-06-07,Abierta
+27,I00027,183,Solicitud de limpieza,Alta,2026-04-23,Abierta
+28,I00028,200,Ruido reportado,Alta,2026-02-27,En revisión
+29,I00029,206,Cargo observado,Baja,2026-03-21,En revisión
+30,I00030,213,Objeto olvidado,Media,2026-05-05,En revisión
+31,I00031,221,Habitación no disponible,Media,2026-05-05,Abierta
+32,I00032,234,Solicitud de limpieza,Media,2026-03-27,Abierta
+33,I00033,242,Ruido reportado,Media,2026-05-05,En revisión
+34,I00034,262,Cargo observado,Alta,2026-03-03,En revisión
+35,I00035,266,Objeto olvidado,Alta,2026-06-20,En revisión
+36,I00036,269,Habitación no disponible,Baja,2026-04-09,Abierta
+37,I00037,270,Solicitud de limpieza,Baja,2026-03-12,En revisión
+38,I00038,272,Ruido reportado,Alta,2026-05-19,En revisión
+39,I00039,275,Cargo observado,Alta,2026-03-22,Cerrada
+40,I00040,282,Objeto olvidado,Baja,2026-04-25,En revisión
+41,I00041,285,Habitación no disponible,Alta,2026-05-28,Abierta
+42,I00042,301,Solicitud de limpieza,Alta,2026-06-22,Cerrada
+43,I00043,305,Ruido reportado,Alta,2026-04-21,En revisión
+44,I00044,307,Cargo observado,Media,2026-02-05,En revisión
+45,I00045,319,Objeto olvidado,Baja,2026-06-21,Cerrada
+46,I00046,323,Habitación no disponible,Alta,2026-04-12,Cerrada
+47,I00047,327,Solicitud de limpieza,Alta,2026-04-17,En revisión
+48,I00048,331,Ruido reportado,Alta,2026-04-26,En revisión
+49,I00049,332,Cargo observado,Alta,2026-02-05,Cerrada
+50,I00050,335,Objeto olvidado,Alta,2026-04-21,Abierta
+51,I00051,336,Habitación no disponible,Alta,2026-02-08,En revisión
+52,I00052,338,Solicitud de limpieza,Baja,2026-05-09,Cerrada
+53,I00053,340,Ruido reportado,Media,2026-02-28,En revisión
+54,I00054,351,Cargo observado,Media,2026-02-04,Cerrada
+55,I00055,357,Objeto olvidado,Alta,2026-05-10,Cerrada
+56,I00056,358,Habitación no disponible,Alta,2026-05-04,En revisión
+57,I00057,361,Solicitud de limpieza,Media,2026-02-05,Abierta
+58,I00058,362,Ruido reportado,Baja,2026-03-24,Abierta
+59,I00059,366,Cargo observado,Media,2026-04-05,En revisión
+60,I00060,375,Objeto olvidado,Alta,2026-06-28,Abierta
+61,I00061,385,Habitación no disponible,Alta,2026-05-14,Abierta
+62,I00062,387,Solicitud de limpieza,Baja,2026-02-20,Abierta
+63,I00063,395,Ruido reportado,Alta,2026-03-13,Cerrada
+64,I00064,400,Cargo observado,Alta,2026-05-20,Abierta
+65,I00065,407,Objeto olvidado,Media,2026-04-21,Cerrada
+66,I00066,417,Habitación no disponible,Media,2026-02-09,Cerrada
+67,I00067,427,Solicitud de limpieza,Baja,2026-06-06,Cerrada
+68,I00068,430,Ruido reportado,Alta,2026-06-04,Cerrada
+69,I00069,435,Cargo observado,Alta,2026-03-25,En revisión
+70,I00070,438,Objeto olvidado,Alta,2026-05-18,Abierta
+71,I00071,439,Habitación no disponible,Baja,2026-05-14,En revisión
+72,I00072,446,Solicitud de limpieza,Baja,2026-02-18,Abierta
+73,I00073,452,Ruido reportado,Alta,2026-02-27,Abierta
+74,I00074,454,Cargo observado,Media,2026-02-15,En revisión
+75,I00075,473,Objeto olvidado,Media,2026-03-23,Cerrada
+76,I00076,474,Habitación no disponible,Baja,2026-04-10,En revisión
+77,I00077,490,Solicitud de limpieza,Baja,2026-05-02,Abierta
+78,I00078,495,Ruido reportado,Baja,2026-03-10,En revisión
+79,I00079,496,Cargo observado,Baja,2026-05-24,En revisión
+80,I00080,497,Objeto olvidado,Media,2026-06-18,Abierta
+81,I00081,506,Habitación no disponible,Media,2026-05-16,Abierta
+82,I00082,513,Solicitud de limpieza,Media,2026-05-28,En revisión
+83,I00083,517,Ruido reportado,Media,2026-03-08,En revisión
+84,I00084,527,Cargo observado,Alta,2026-05-04,En revisión
+85,I00085,528,Objeto olvidado,Alta,2026-06-26,Abierta
+86,I00086,536,Habitación no disponible,Media,2026-06-26,Cerrada
+87,I00087,537,Solicitud de limpieza,Alta,2026-05-17,En revisión
+88,I00088,538,Ruido reportado,Media,2026-02-16,Cerrada
+89,I00089,549,Cargo observado,Baja,2026-06-25,Abierta
+90,I00090,558,Objeto olvidado,Alta,2026-04-25,Abierta
+91,I00091,559,Habitación no disponible,Baja,2026-04-03,Cerrada
+92,I00092,564,Solicitud de limpieza,Baja,2026-06-01,Abierta
+93,I00093,568,Ruido reportado,Baja,2026-03-13,En revisión
+94,I00094,570,Cargo observado,Media,2026-05-01,Cerrada
+95,I00095,575,Objeto olvidado,Baja,2026-06-17,Cerrada
+96,I00096,576,Habitación no disponible,Media,2026-03-09,Abierta
+97,I00097,596,Solicitud de limpieza,Media,2026-03-17,Abierta
+98,I00098,609,Ruido reportado,Media,2026-06-14,Cerrada
+99,I00099,612,Cargo observado,Alta,2026-03-10,Cerrada
+100,I00100,614,Objeto olvidado,Baja,2026-06-22,Cerrada
+101,I00101,615,Habitación no disponible,Baja,2026-06-11,Abierta
+102,I00102,631,Solicitud de limpieza,Media,2026-03-12,Abierta
+103,I00103,637,Ruido reportado,Media,2026-05-16,En revisión
+104,I00104,643,Cargo observado,Baja,2026-03-19,Abierta
+105,I00105,644,Objeto olvidado,Media,2026-05-09,En revisión
+106,I00106,653,Habitación no disponible,Baja,2026-06-28,Abierta
+107,I00107,667,Solicitud de limpieza,Media,2026-04-05,Abierta
+108,I00108,668,Ruido reportado,Baja,2026-02-18,En revisión
+109,I00109,673,Cargo observado,Alta,2026-02-08,Abierta
+110,I00110,678,Objeto olvidado,Media,2026-03-09,En revisión
+111,I00111,684,Habitación no disponible,Baja,2026-05-25,Abierta
+112,I00112,699,Solicitud de limpieza,Alta,2026-04-03,Abierta
+113,I00113,713,Ruido reportado,Media,2026-02-02,Cerrada
+114,I00114,715,Cargo observado,Baja,2026-03-16,En revisión
+115,I00115,717,Objeto olvidado,Baja,2026-03-24,Cerrada
+116,I00116,718,Habitación no disponible,Alta,2026-03-05,En revisión
+117,I00117,720,Solicitud de limpieza,Alta,2026-06-18,Abierta
+118,I00118,722,Ruido reportado,Alta,2026-04-13,Cerrada
+119,I00119,724,Cargo observado,Media,2026-06-21,Cerrada
+120,I00120,727,Objeto olvidado,Media,2026-05-17,En revisión
+121,I00121,732,Habitación no disponible,Alta,2026-02-12,Cerrada
+122,I00122,734,Solicitud de limpieza,Alta,2026-05-02,Abierta
+123,I00123,742,Ruido reportado,Baja,2026-05-23,Cerrada
+124,I00124,749,Cargo observado,Alta,2026-05-25,Cerrada
+125,I00125,755,Objeto olvidado,Alta,2026-05-07,En revisión
+126,I00126,770,Habitación no disponible,Baja,2026-05-26,Abierta
+127,I00127,773,Solicitud de limpieza,Baja,2026-03-25,Cerrada
+128,I00128,778,Ruido reportado,Alta,2026-06-08,Abierta
+129,I00129,787,Cargo observado,Media,2026-04-13,Abierta
+130,I00130,796,Objeto olvidado,Alta,2026-03-16,Abierta
+131,I00131,801,Habitación no disponible,Media,2026-04-24,En revisión
+132,I00132,814,Solicitud de limpieza,Baja,2026-02-12,En revisión
+133,I00133,819,Ruido reportado,Alta,2026-03-03,Cerrada
+134,I00134,823,Cargo observado,Media,2026-02-12,Cerrada
+135,I00135,828,Objeto olvidado,Media,2026-03-24,Abierta
+136,I00136,833,Habitación no disponible,Alta,2026-05-22,En revisión
+137,I00137,834,Solicitud de limpieza,Baja,2026-06-14,Abierta
+138,I00138,837,Ruido reportado,Media,2026-06-20,Abierta
+139,I00139,845,Cargo observado,Baja,2026-05-16,Cerrada
+140,I00140,852,Objeto olvidado,Media,2026-03-11,Cerrada
+141,I00141,853,Habitación no disponible,Baja,2026-06-04,Cerrada
+142,I00142,860,Solicitud de limpieza,Media,2026-05-11,En revisión
+143,I00143,866,Ruido reportado,Baja,2026-05-08,Cerrada
+144,I00144,879,Cargo observado,Alta,2026-02-23,Abierta
+145,I00145,880,Objeto olvidado,Alta,2026-06-15,Cerrada
+146,I00146,882,Habitación no disponible,Alta,2026-03-23,Cerrada
+147,I00147,889,Solicitud de limpieza,Media,2026-04-02,En revisión
+148,I00148,904,Ruido reportado,Media,2026-03-01,Abierta
+149,I00149,908,Cargo observado,Baja,2026-05-26,En revisión
+150,I00150,909,Objeto olvidado,Media,2026-04-19,En revisión
+151,I00151,923,Habitación no disponible,Media,2026-04-02,En revisión
+152,I00152,924,Solicitud de limpieza,Alta,2026-03-17,Abierta
+153,I00153,925,Ruido reportado,Media,2026-05-21,Abierta
+154,I00154,961,Cargo observado,Baja,2026-02-20,En revisión
+155,I00155,978,Objeto olvidado,Media,2026-04-07,Cerrada
+156,I00156,979,Habitación no disponible,Alta,2026-04-14,Abierta
+157,I00157,982,Solicitud de limpieza,Baja,2026-06-08,Cerrada
+158,I00158,983,Ruido reportado,Media,2026-05-15,Cerrada
+159,I00159,989,Cargo observado,Alta,2026-03-03,Abierta
+160,I00160,998,Objeto olvidado,Baja,2026-03-11,Cerrada

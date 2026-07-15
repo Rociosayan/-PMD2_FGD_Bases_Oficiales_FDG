@@ -1,16 +1,31 @@
-﻿id_producto,codigo_producto,nombre_producto,categoria,precio_base,activo
-1,P0001,Servicio/Producto 01,Especializado,88.77,1
-2,P0002,Servicio/Producto 02,Especializado,102.52,1
-3,P0003,Servicio/Producto 03,Especializado,371.44,1
-4,P0004,Servicio/Producto 04,B?sico,315.34,1
-5,P0005,Servicio/Producto 05,B?sico,259.18,1
-6,P0006,Servicio/Producto 06,Especializado,202.06,1
-7,P0007,Servicio/Producto 07,Premium,158.9,1
-8,P0008,Servicio/Producto 08,Est?ndar,43.23,1
-9,P0009,Servicio/Producto 09,B?sico,366.37,1
-10,P0010,Servicio/Producto 10,B?sico,165.31,1
-11,P0011,Servicio/Producto 11,Premium,62.48,1
-12,P0012,Servicio/Producto 12,Especializado,120.82,1
-13,P0013,Servicio/Producto 13,B?sico,164.16,1
-14,P0014,Servicio/Producto 14,Premium,370.9,1
-15,P0015,Servicio/Producto 15,Est?ndar,45.2,1
+id_producto,codigo_producto,nombre_producto,categoria,precio_base,activo
+1,AE0001,Palta Hass caja 4 kg,Fruta fresca,18.00,1
+2,AE0002,Arándano fresco clamshell 1.5 kg,Fruta fresca,22.80,1
+3,AE0003,Uva Red Globe caja 8.2 kg,Fruta fresca,27.60,1
+4,AE0004,Mango Kent caja 4 kg,Fruta fresca,32.40,1
+5,AE0005,Mandarina W. Murcott caja 10 kg,Fruta fresca,37.20,1
+6,AE0006,Granada Wonderful caja 3.8 kg,Fruta fresca,42.00,0
+7,AE0007,Quinua blanca orgánica saco 25 kg,Orgánico,22.00,1
+8,AE0008,Jengibre orgánico caja 13.6 kg,Orgánico,28.60,1
+9,AE0009,Banano orgánico caja 18 kg,Orgánico,35.20,1
+10,AE0010,Cúrcuma orgánica caja 10 kg,Orgánico,41.80,0
+11,AE0011,Cacao orgánico en grano 25 kg,Orgánico,48.40,1
+12,AE0012,Café orgánico verde 60 kg,Orgánico,55.00,1
+13,AE0013,Mango congelado IQF 10 kg,Congelado,28.00,1
+14,AE0014,Palta congelada IQF 10 kg,Congelado,36.00,1
+15,AE0015,Arándano congelado IQF 10 kg,Congelado,44.00,1
+16,AE0016,Espárrago congelado 10 kg,Congelado,52.00,1
+17,AE0017,Maracuyá congelada 10 kg,Congelado,60.00,1
+18,AE0018,Fresa congelada IQF 10 kg,Congelado,68.00,1
+19,AE0019,Pulpa de mango 20 kg,Procesado,16.00,1
+20,AE0020,Concentrado de maracuyá 20 kg,Procesado,21.79,1
+21,AE0021,Quinua lavada 25 kg,Procesado,29.68,1
+22,AE0022,Harina de maca 20 kg,Procesado,40.43,0
+23,AE0023,Nib de cacao 10 kg,Procesado,55.06,1
+24,AE0024,Café tostado en grano 10 kg,Procesado,75.00,1
+25,AE0025,Espárrago verde caja 5 kg,Hortaliza,20.00,1
+26,AE0026,Alcachofa fresca caja 10 kg,Hortaliza,27.60,1
+27,AE0027,Cebolla dulce caja 18 kg,Hortaliza,35.20,0
+28,AE0028,Pimiento piquillo caja 5 kg,Hortaliza,42.80,1
+29,AE0029,Arveja fresca caja 5 kg,Hortaliza,50.40,1
+30,AE0030,Ajo morado malla 10 kg,Hortaliza,58.00,1

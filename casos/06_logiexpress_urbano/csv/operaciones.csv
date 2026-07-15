@@ -1,501 +1,1011 @@
-﻿id_operacion,codigo_operacion,id_entidad,id_sede,id_producto,fecha_operacion,cantidad,monto_total,estado,canal
-1,O00001,5,5,11,2026-06-25,4,1013.11,Observado,App
-2,O00002,3,2,11,2026-03-08,5,879.53,Completado,Web
-3,O00003,4,6,15,2026-05-04,6,1221.77,Completado,Presencial
-4,O00004,17,2,14,2026-01-23,3,748.13,Observado,Call Center
-5,O00005,18,5,3,2026-06-07,4,365.83,Cancelado,Web
-6,O00006,12,3,10,2026-03-15,4,821.41,Completado,App
-7,O00007,34,2,14,2026-04-28,2,661.27,Completado,Web
-8,O00008,49,6,1,2026-03-02,6,1094.72,Completado,App
-9,O00009,31,6,3,2026-01-31,3,247.05,Observado,Presencial
-10,O00010,60,6,15,2026-02-22,4,618.4,Observado,Web
-11,O00011,59,5,14,2026-06-30,1,329.32,Completado,Web
-12,O00012,63,6,4,2026-06-01,4,799.91,Completado,Call Center
-13,O00013,9,2,15,2026-06-13,1,145.88,Completado,Call Center
-14,O00014,51,4,6,2026-02-11,6,569.9,Completado,App
-15,O00015,61,6,5,2026-02-21,3,786.43,Completado,Call Center
-16,O00016,70,4,5,2026-05-11,6,1511.56,Completado,App
-17,O00017,64,2,8,2026-06-15,6,343.64,Cancelado,Call Center
-18,O00018,17,6,7,2026-02-01,5,816.37,Completado,App
-19,O00019,36,5,15,2026-01-18,2,326.74,Cancelado,Presencial
-20,O00020,51,5,2,2026-02-04,4,176.36,Pendiente,Web
-21,O00021,26,3,12,2026-05-05,3,1130.29,Completado,Web
-22,O00022,49,1,6,2026-02-17,2,196.91,Completado,Presencial
-23,O00023,30,1,6,2026-03-10,4,452.27,Observado,Presencial
-24,O00024,3,6,15,2026-04-01,1,149.17,Cancelado,App
-25,O00025,15,4,8,2026-02-13,6,281.98,Completado,Web
-26,O00026,11,1,11,2026-06-11,2,358.21,Completado,Web
-27,O00027,80,1,5,2026-05-05,3,703.38,Pendiente,Call Center
-28,O00028,7,2,14,2026-03-26,5,1282.26,Observado,Web
-29,O00029,13,6,8,2026-02-13,6,272.12,Completado,Call Center
-30,O00030,16,4,6,2026-01-19,5,509.15,Completado,Web
-31,O00031,32,5,10,2026-04-15,3,516.96,Completado,Call Center
-32,O00032,49,3,15,2026-02-09,3,579.1,Completado,Call Center
-33,O00033,29,1,8,2026-02-03,4,195.25,Completado,Web
-34,O00034,57,5,15,2026-03-22,1,184.67,Completado,Call Center
-35,O00035,16,5,1,2026-05-30,1,239.0,Completado,Presencial
-36,O00036,27,5,6,2026-04-25,5,543.16,Completado,Web
-37,O00037,33,4,15,2026-04-19,3,558.81,Cancelado,Call Center
-38,O00038,79,5,6,2026-02-21,3,275.08,Completado,Web
-39,O00039,36,5,1,2026-05-09,1,237.57,Completado,Web
-40,O00040,74,1,9,2026-01-23,6,919.51,Completado,Web
-41,O00041,21,6,1,2026-05-15,6,1143.39,Observado,Call Center
-42,O00042,34,6,13,2026-02-19,6,1772.07,Observado,App
-43,O00043,27,2,4,2026-02-25,2,394.18,Completado,Call Center
-44,O00044,60,6,3,2026-02-11,4,381.36,Pendiente,App
-45,O00045,31,5,5,2026-03-14,2,512.04,Completado,App
-46,O00046,77,5,15,2026-04-08,6,1087.16,Observado,Call Center
-47,O00047,52,6,12,2026-02-07,4,1334.29,Completado,App
-48,O00048,11,5,5,2026-06-19,2,544.86,Completado,App
-49,O00049,30,5,5,2026-02-07,5,1247.58,Completado,Presencial
-50,O00050,61,5,5,2026-01-31,5,1331.61,Observado,Presencial
-51,O00051,54,3,10,2026-05-26,4,851.91,Completado,App
-52,O00052,43,2,12,2026-03-18,3,1002.05,Cancelado,Web
-53,O00053,53,3,8,2026-03-31,2,81.79,Pendiente,Call Center
-54,O00054,9,6,9,2026-05-03,6,900.49,Completado,App
-55,O00055,20,4,13,2026-05-30,6,2158.03,Completado,Web
-56,O00056,71,3,7,2026-02-28,2,347.96,Completado,App
-57,O00057,39,3,5,2026-05-28,3,627.48,Cancelado,App
-58,O00058,50,5,12,2026-05-17,5,1653.81,Completado,Web
-59,O00059,76,5,13,2026-06-05,4,1216.55,Completado,Call Center
-60,O00060,1,5,2,2026-02-07,3,144.16,Pendiente,Web
-61,O00061,15,1,15,2026-01-18,2,366.73,Completado,Call Center
-62,O00062,55,6,8,2026-05-29,6,263.19,Pendiente,Call Center
-63,O00063,18,1,3,2026-03-28,5,507.28,Observado,App
-64,O00064,1,3,9,2026-06-08,5,882.28,Completado,App
-65,O00065,48,2,9,2026-01-12,4,565.29,Completado,Call Center
-66,O00066,78,3,6,2026-01-01,4,451.83,Completado,Call Center
-67,O00067,67,4,11,2026-04-02,3,648.72,Observado,Call Center
-68,O00068,59,2,9,2026-03-24,2,307.73,Completado,App
-69,O00069,30,2,4,2026-02-07,1,190.08,Completado,Call Center
-70,O00070,73,2,2,2026-04-24,5,286.3,Completado,Web
-71,O00071,21,6,13,2026-04-19,2,547.47,Pendiente,Presencial
-72,O00072,50,6,3,2026-01-09,3,288.92,Completado,App
-73,O00073,19,3,6,2026-05-31,1,86.68,Completado,Presencial
-74,O00074,59,2,11,2026-04-07,4,783.83,Observado,Presencial
-75,O00075,64,3,4,2026-03-17,4,759.44,Completado,Call Center
-76,O00076,60,5,8,2026-06-02,6,345.09,Completado,App
-77,O00077,78,5,6,2026-01-07,3,344.98,Completado,Presencial
-78,O00078,10,4,14,2026-03-07,2,693.01,Completado,App
-79,O00079,5,5,7,2026-01-15,5,777.36,Completado,Web
-80,O00080,65,1,11,2026-04-25,3,617.47,Completado,Web
-81,O00081,80,3,15,2026-05-29,3,466.43,Cancelado,Web
-82,O00082,8,1,11,2026-03-13,4,914.01,Completado,App
-83,O00083,47,2,15,2026-05-17,4,665.41,Completado,App
-84,O00084,72,6,4,2026-05-02,2,283.99,Pendiente,Call Center
-85,O00085,2,6,12,2026-01-10,1,354.62,Completado,Call Center
-86,O00086,68,3,1,2026-04-16,5,1139.97,Completado,App
-87,O00087,4,3,2,2026-02-15,6,374.42,Pendiente,Presencial
-88,O00088,20,4,5,2026-04-30,1,258.14,Cancelado,Web
-89,O00089,43,2,13,2026-01-02,6,2139.0,Completado,Call Center
-90,O00090,50,6,1,2026-02-17,3,721.84,Observado,Presencial
-91,O00091,73,6,7,2026-01-10,3,530.89,Observado,Web
-92,O00092,56,2,10,2026-04-30,1,202.1,Observado,Web
-93,O00093,36,4,8,2026-06-21,6,289.17,Completado,Web
-94,O00094,72,4,4,2026-01-15,3,553.07,Pendiente,Presencial
-95,O00095,3,4,4,2026-01-30,5,827.25,Completado,Presencial
-96,O00096,59,2,1,2026-03-27,4,972.49,Completado,App
-97,O00097,63,5,4,2026-05-30,5,810.28,Completado,Presencial
-98,O00098,49,4,13,2026-05-04,1,271.69,Pendiente,Presencial
-99,O00099,50,2,8,2026-03-11,6,286.6,Completado,Call Center
-100,O00100,36,1,2,2026-02-07,2,92.63,Completado,Call Center
-101,O00101,21,5,4,2026-02-22,2,319.49,Completado,Web
-102,O00102,70,6,2,2026-04-03,4,184.54,Completado,Presencial
-103,O00103,1,4,12,2026-02-17,4,1237.14,Completado,Call Center
-104,O00104,50,3,4,2026-05-17,1,196.34,Completado,App
-105,O00105,21,1,4,2026-05-01,2,293.32,Completado,Call Center
-106,O00106,7,2,15,2026-04-01,2,361.88,Completado,Presencial
-107,O00107,73,6,5,2026-02-22,3,734.7,Completado,Presencial
-108,O00108,70,2,14,2026-03-25,5,1721.28,Completado,App
-109,O00109,31,5,12,2026-03-24,1,377.81,Completado,Presencial
-110,O00110,33,3,10,2026-04-17,1,203.35,Completado,Web
-111,O00111,28,6,10,2026-02-13,6,1179.97,Completado,Web
-112,O00112,73,2,6,2026-06-29,5,436.41,Pendiente,Presencial
-113,O00113,34,5,3,2026-06-03,4,433.57,Completado,App
-114,O00114,34,4,10,2026-03-29,3,541.84,Completado,Call Center
-115,O00115,63,4,6,2026-06-12,3,281.76,Completado,Call Center
-116,O00116,25,4,5,2026-04-29,6,1502.43,Completado,Presencial
-117,O00117,68,4,3,2026-01-11,6,525.86,Completado,App
-118,O00118,40,6,3,2026-05-05,6,609.22,Completado,App
-119,O00119,33,4,7,2026-02-15,1,177.06,Completado,Web
-120,O00120,37,6,10,2026-05-29,5,982.51,Completado,Call Center
-121,O00121,21,3,3,2026-04-07,1,81.56,Completado,App
-122,O00122,68,5,1,2026-01-20,6,1147.29,Pendiente,Call Center
-123,O00123,36,6,14,2026-03-24,2,694.75,Completado,Presencial
-124,O00124,21,4,5,2026-03-01,4,1086.52,Completado,App
-125,O00125,9,2,8,2026-06-26,1,42.04,Completado,Call Center
-126,O00126,66,5,7,2026-03-10,5,960.66,Completado,Web
-127,O00127,24,1,8,2026-06-13,4,194.53,Observado,Call Center
-128,O00128,67,3,3,2026-03-21,2,208.35,Pendiente,App
-129,O00129,24,5,14,2026-01-07,2,652.24,Completado,Web
-130,O00130,56,6,10,2026-02-07,4,738.1,Completado,App
-131,O00131,36,2,2,2026-06-25,6,325.21,Completado,Presencial
-132,O00132,4,2,8,2026-06-09,2,79.47,Completado,Web
-133,O00133,46,3,3,2026-04-01,4,360.7,Observado,Web
-134,O00134,40,5,11,2026-01-20,2,381.87,Completado,Presencial
-135,O00135,2,4,10,2026-05-20,3,475.83,Completado,App
-136,O00136,2,5,11,2026-05-08,6,1309.81,Cancelado,App
-137,O00137,67,2,15,2026-06-08,4,670.32,Observado,Web
-138,O00138,18,5,3,2026-04-17,5,379.7,Cancelado,App
-139,O00139,1,1,1,2026-01-27,1,241.96,Completado,App
-140,O00140,38,5,3,2026-06-26,6,469.9,Completado,Presencial
-141,O00141,11,1,5,2026-05-29,2,500.05,Completado,App
-142,O00142,35,4,7,2026-02-23,5,776.03,Cancelado,Call Center
-143,O00143,51,3,9,2026-01-21,5,873.87,Completado,Presencial
-144,O00144,30,2,10,2026-04-01,4,822.59,Cancelado,Web
-145,O00145,43,4,5,2026-01-05,5,995.58,Completado,Call Center
-146,O00146,16,1,14,2026-04-13,2,580.56,Cancelado,Presencial
-147,O00147,61,2,10,2026-06-18,5,1016.9,Completado,Call Center
-148,O00148,49,2,4,2026-02-03,3,461.46,Completado,Web
-149,O00149,30,5,1,2026-02-08,2,516.25,Completado,App
-150,O00150,9,3,5,2026-05-06,1,204.31,Completado,Call Center
-151,O00151,43,4,13,2026-01-04,4,1205.51,Completado,Call Center
-152,O00152,51,3,8,2026-02-26,6,314.41,Completado,Web
-153,O00153,10,3,3,2026-04-27,2,161.29,Completado,Call Center
-154,O00154,51,2,2,2026-04-06,5,241.08,Cancelado,Call Center
-155,O00155,56,2,8,2026-06-02,2,97.01,Completado,Web
-156,O00156,69,4,7,2026-01-10,2,284.26,Observado,App
-157,O00157,31,3,2,2026-02-12,6,360.0,Completado,App
-158,O00158,40,3,8,2026-01-30,1,43.14,Completado,App
-159,O00159,45,1,6,2026-02-16,6,692.91,Completado,Web
-160,O00160,15,3,1,2026-02-18,3,736.67,Cancelado,Web
-161,O00161,49,3,1,2026-02-07,3,681.63,Pendiente,Presencial
-162,O00162,4,3,11,2026-05-25,1,238.75,Completado,Web
-163,O00163,40,5,10,2026-06-08,1,212.66,Completado,Web
-164,O00164,23,1,7,2026-06-12,6,999.84,Completado,Call Center
-165,O00165,38,2,3,2026-02-13,2,165.21,Completado,Web
-166,O00166,24,1,11,2026-06-13,4,832.02,Completado,Presencial
-167,O00167,16,1,14,2026-05-08,1,281.74,Completado,Call Center
-168,O00168,31,6,10,2026-05-10,3,623.05,Completado,Call Center
-169,O00169,73,5,15,2026-05-09,5,888.77,Cancelado,Presencial
-170,O00170,79,4,6,2026-03-10,1,90.18,Completado,App
-171,O00171,52,4,5,2026-06-03,6,1205.15,Completado,Web
-172,O00172,58,2,8,2026-02-16,1,53.58,Completado,App
-173,O00173,2,6,13,2026-05-18,3,845.01,Completado,Call Center
-174,O00174,24,6,13,2026-05-15,1,284.42,Completado,Presencial
-175,O00175,70,1,13,2026-06-07,5,1637.3,Completado,Presencial
-176,O00176,40,6,13,2026-02-14,6,1746.47,Completado,Web
-177,O00177,47,6,15,2026-01-09,5,992.83,Completado,Presencial
-178,O00178,14,1,7,2026-03-04,3,421.18,Completado,Web
-179,O00179,27,3,14,2026-02-01,6,1911.2,Observado,Web
-180,O00180,10,1,14,2026-01-22,6,1698.0,Completado,Presencial
-181,O00181,4,1,7,2026-04-04,3,575.98,Completado,App
-182,O00182,3,3,6,2026-03-08,2,215.42,Completado,App
-183,O00183,3,2,2,2026-04-20,5,227.28,Cancelado,Web
-184,O00184,62,6,7,2026-06-19,5,697.74,Pendiente,App
-185,O00185,3,4,3,2026-05-10,6,601.98,Completado,Call Center
-186,O00186,32,5,9,2026-05-30,4,527.45,Completado,Presencial
-187,O00187,20,4,15,2026-01-29,6,960.68,Cancelado,Call Center
-188,O00188,25,4,12,2026-03-31,6,2268.28,Observado,Web
-189,O00189,31,6,12,2026-05-10,3,898.36,Completado,Presencial
-190,O00190,16,3,14,2026-04-10,4,1063.69,Observado,Presencial
-191,O00191,74,1,15,2026-01-20,4,832.53,Completado,Call Center
-192,O00192,23,6,2,2026-03-20,1,47.62,Completado,Call Center
-193,O00193,16,2,2,2026-01-24,3,147.83,Completado,Call Center
-194,O00194,16,1,4,2026-04-21,1,139.65,Completado,Presencial
-195,O00195,6,3,8,2026-04-04,6,332.28,Observado,Presencial
-196,O00196,23,2,7,2026-03-24,4,594.9,Completado,Web
-197,O00197,31,5,1,2026-05-08,2,396.89,Completado,Call Center
-198,O00198,61,3,6,2026-03-30,4,436.45,Completado,Call Center
-199,O00199,66,3,11,2026-04-08,4,859.16,Completado,App
-200,O00200,63,3,2,2026-01-13,2,95.19,Completado,Web
-201,O00201,77,5,2,2026-05-10,3,137.76,Completado,Call Center
-202,O00202,78,3,13,2026-05-12,3,1027.67,Completado,Web
-203,O00203,77,4,10,2026-03-03,5,1011.81,Completado,Call Center
-204,O00204,38,6,11,2026-05-28,2,396.3,Completado,App
-205,O00205,8,3,13,2026-06-26,1,266.35,Pendiente,App
-206,O00206,33,2,13,2026-06-17,4,1466.47,Cancelado,App
-207,O00207,5,6,8,2026-01-29,1,41.06,Observado,Presencial
-208,O00208,62,4,1,2026-02-23,1,215.54,Completado,Presencial
-209,O00209,24,6,9,2026-03-07,1,132.76,Completado,App
-210,O00210,65,4,4,2026-01-15,6,968.72,Completado,Web
-211,O00211,36,4,3,2026-05-02,2,216.87,Completado,Presencial
-212,O00212,13,2,6,2026-03-30,5,568.17,Completado,App
-213,O00213,62,4,11,2026-06-15,4,978.58,Pendiente,Presencial
-214,O00214,27,1,5,2026-04-12,1,204.93,Completado,Web
-215,O00215,72,4,7,2026-04-23,2,326.39,Observado,Call Center
-216,O00216,29,4,6,2026-06-13,5,469.65,Completado,Web
-217,O00217,60,6,11,2026-01-20,4,860.23,Completado,Call Center
-218,O00218,13,1,14,2026-05-01,6,1934.61,Completado,Call Center
-219,O00219,65,5,2,2026-03-21,2,104.01,Completado,Web
-220,O00220,28,3,3,2026-05-12,6,628.76,Completado,Presencial
-221,O00221,39,6,15,2026-05-05,5,965.56,Observado,Presencial
-222,O00222,51,2,1,2026-04-07,5,1310.93,Completado,Presencial
-223,O00223,71,2,7,2026-01-07,6,895.76,Completado,Web
-224,O00224,62,2,7,2026-02-11,4,687.38,Completado,App
-225,O00225,14,5,4,2026-03-02,2,408.02,Completado,Call Center
-226,O00226,30,3,14,2026-06-29,3,1030.36,Cancelado,Web
-227,O00227,79,5,3,2026-02-20,5,486.58,Completado,Call Center
-228,O00228,2,5,13,2026-06-16,2,769.82,Completado,Presencial
-229,O00229,26,4,9,2026-06-16,6,1028.83,Completado,App
-230,O00230,30,1,14,2026-05-18,1,286.8,Completado,Presencial
-231,O00231,59,2,11,2026-01-05,4,1001.31,Completado,App
-232,O00232,78,5,11,2026-01-15,3,747.5,Pendiente,App
-233,O00233,39,4,6,2026-03-25,5,434.82,Completado,Web
-234,O00234,19,6,6,2026-04-10,6,489.46,Completado,Web
-235,O00235,8,1,5,2026-04-03,5,1070.23,Completado,Web
-236,O00236,6,2,3,2026-02-27,4,311.38,Pendiente,Web
-237,O00237,52,3,15,2026-01-18,5,850.42,Completado,App
-238,O00238,13,2,13,2026-06-19,3,1082.13,Observado,Web
-239,O00239,5,4,5,2026-02-21,6,1617.28,Completado,Presencial
-240,O00240,79,3,6,2026-01-26,2,195.35,Completado,Call Center
-241,O00241,18,6,4,2026-02-09,5,866.32,Completado,Web
-242,O00242,74,6,3,2026-03-22,1,106.02,Pendiente,Presencial
-243,O00243,33,5,1,2026-04-16,5,1275.06,Completado,App
-244,O00244,28,6,10,2026-03-10,4,653.07,Completado,Presencial
-245,O00245,47,2,1,2026-04-21,2,404.09,Completado,App
-246,O00246,4,2,1,2026-04-09,5,964.36,Completado,Presencial
-247,O00247,68,3,9,2026-03-21,4,540.64,Completado,Call Center
-248,O00248,16,4,3,2026-01-08,3,326.27,Completado,Presencial
-249,O00249,80,6,4,2026-04-26,1,176.2,Observado,App
-250,O00250,20,5,10,2026-04-26,4,815.9,Completado,Web
-251,O00251,14,3,15,2026-05-20,5,970.73,Pendiente,Call Center
-252,O00252,9,4,14,2026-04-05,4,1295.96,Cancelado,App
-253,O00253,59,5,3,2026-05-08,6,635.23,Completado,Call Center
-254,O00254,3,3,2,2026-03-01,1,62.88,Completado,App
-255,O00255,45,1,3,2026-04-29,6,642.9,Pendiente,Presencial
-256,O00256,28,2,1,2026-01-04,5,1024.3,Completado,Presencial
-257,O00257,44,3,15,2026-04-12,6,993.91,Completado,Call Center
-258,O00258,29,5,4,2026-01-22,3,586.86,Completado,Call Center
-259,O00259,34,5,14,2026-02-03,2,539.81,Observado,Call Center
-260,O00260,77,6,14,2026-03-17,6,1705.71,Completado,Web
-261,O00261,49,6,3,2026-04-27,4,303.07,Pendiente,App
-262,O00262,55,6,8,2026-02-23,5,243.33,Completado,Call Center
-263,O00263,37,2,13,2026-06-29,1,381.77,Completado,Presencial
-264,O00264,58,5,11,2026-01-10,1,199.51,Completado,App
-265,O00265,73,4,7,2026-03-17,3,504.83,Cancelado,App
-266,O00266,54,6,8,2026-05-23,3,122.85,Completado,Presencial
-267,O00267,65,6,8,2026-04-28,4,215.91,Completado,Web
-268,O00268,18,1,6,2026-03-14,5,484.06,Observado,Call Center
-269,O00269,39,6,1,2026-03-16,4,853.11,Completado,Presencial
-270,O00270,6,2,8,2026-01-07,1,50.82,Observado,Presencial
-271,O00271,36,1,6,2026-05-13,5,453.12,Completado,Presencial
-272,O00272,11,2,11,2026-03-18,5,979.0,Observado,Call Center
-273,O00273,69,2,1,2026-02-04,1,232.81,Completado,Web
-274,O00274,7,1,9,2026-05-31,6,799.22,Completado,Presencial
-275,O00275,72,1,8,2026-03-18,2,80.58,Completado,Call Center
-276,O00276,60,3,10,2026-02-11,6,1271.35,Cancelado,Web
-277,O00277,3,3,3,2026-06-04,2,153.11,Completado,App
-278,O00278,44,6,7,2026-05-28,1,182.1,Completado,Web
-279,O00279,4,6,8,2026-02-07,2,79.63,Completado,Call Center
-280,O00280,74,3,5,2026-01-05,4,954.79,Completado,App
-281,O00281,26,5,1,2026-06-29,4,1027.42,Completado,Web
-282,O00282,72,6,15,2026-04-11,2,324.11,Completado,Call Center
-283,O00283,7,4,1,2026-04-06,3,544.72,Observado,App
-284,O00284,16,2,1,2026-01-07,1,227.79,Completado,Presencial
-285,O00285,5,4,5,2026-04-28,2,518.29,Completado,Web
-286,O00286,35,1,2,2026-06-07,3,174.79,Pendiente,Presencial
-287,O00287,74,3,6,2026-05-05,5,535.31,Completado,Web
-288,O00288,19,1,5,2026-03-08,5,1355.63,Cancelado,Presencial
-289,O00289,45,3,14,2026-01-30,2,523.62,Completado,Web
-290,O00290,56,6,4,2026-02-23,2,285.45,Observado,Presencial
-291,O00291,66,5,14,2026-05-20,4,1162.68,Completado,App
-292,O00292,11,2,8,2026-01-27,4,215.96,Observado,App
-293,O00293,24,6,13,2026-03-15,2,714.99,Observado,Web
-294,O00294,50,4,12,2026-02-18,1,320.67,Observado,App
-295,O00295,42,4,7,2026-01-22,2,326.77,Completado,App
-296,O00296,60,1,2,2026-04-30,6,309.5,Observado,Web
-297,O00297,44,2,7,2026-05-15,2,359.42,Completado,Call Center
-298,O00298,47,6,13,2026-05-04,1,298.85,Completado,App
-299,O00299,55,4,7,2026-01-24,6,799.16,Completado,Web
-300,O00300,1,2,3,2026-03-02,5,511.48,Observado,App
-301,O00301,22,5,15,2026-03-30,4,816.98,Pendiente,Presencial
-302,O00302,27,1,3,2026-02-08,3,293.91,Observado,Presencial
-303,O00303,73,3,11,2026-03-23,3,734.54,Completado,Call Center
-304,O00304,36,5,7,2026-03-18,4,593.62,Completado,Web
-305,O00305,63,3,5,2026-06-03,6,1536.74,Pendiente,Call Center
-306,O00306,1,4,8,2026-05-13,3,125.63,Completado,App
-307,O00307,77,5,15,2026-06-06,1,193.05,Completado,Presencial
-308,O00308,51,6,7,2026-02-16,3,474.91,Observado,App
-309,O00309,33,6,6,2026-02-02,4,352.13,Completado,App
-310,O00310,62,5,15,2026-04-28,3,440.85,Completado,Web
-311,O00311,11,6,7,2026-02-22,5,841.89,Completado,App
-312,O00312,54,1,4,2026-06-17,4,587.81,Completado,App
-313,O00313,60,1,13,2026-02-27,2,565.07,Completado,Web
-314,O00314,30,5,4,2026-03-24,6,1199.3,Completado,Presencial
-315,O00315,28,1,8,2026-06-13,6,298.64,Completado,Presencial
-316,O00316,27,3,4,2026-01-20,6,868.21,Completado,Web
-317,O00317,13,6,8,2026-06-20,6,344.62,Completado,Presencial
-318,O00318,37,6,4,2026-06-11,6,1130.81,Completado,Call Center
-319,O00319,7,6,5,2026-04-06,4,1061.63,Completado,Call Center
-320,O00320,71,5,3,2026-01-08,4,406.64,Completado,App
-321,O00321,25,2,15,2026-01-24,2,319.0,Completado,Web
-322,O00322,34,5,1,2026-06-01,3,576.28,Completado,Presencial
-323,O00323,58,5,6,2026-04-28,2,222.45,Observado,Web
-324,O00324,34,4,10,2026-04-21,5,1070.17,Completado,Presencial
-325,O00325,20,3,11,2026-04-20,4,1025.37,Completado,App
-326,O00326,39,5,9,2026-06-09,1,181.92,Cancelado,App
-327,O00327,3,5,15,2026-04-08,6,982.68,Completado,Presencial
-328,O00328,18,4,6,2026-01-22,5,518.02,Completado,Web
-329,O00329,76,5,8,2026-04-16,6,326.84,Completado,App
-330,O00330,65,3,9,2026-06-08,1,165.51,Completado,Web
-331,O00331,7,2,3,2026-05-20,6,577.51,Cancelado,Call Center
-332,O00332,60,2,2,2026-06-02,4,209.33,Completado,App
-333,O00333,19,4,11,2026-02-22,3,644.84,Completado,Call Center
-334,O00334,44,2,12,2026-02-01,3,916.91,Cancelado,App
-335,O00335,15,5,2,2026-04-27,3,175.84,Completado,Presencial
-336,O00336,28,2,10,2026-01-17,6,1230.07,Completado,App
-337,O00337,41,2,5,2026-01-27,4,997.52,Completado,App
-338,O00338,22,4,2,2026-01-21,1,51.43,Completado,Call Center
-339,O00339,46,6,13,2026-05-10,6,1873.98,Completado,App
-340,O00340,33,5,3,2026-06-18,1,85.29,Completado,Presencial
-341,O00341,11,4,1,2026-05-14,3,630.29,Completado,Presencial
-342,O00342,61,3,4,2026-01-30,4,578.74,Completado,Call Center
-343,O00343,25,4,14,2026-06-12,5,1253.68,Completado,Web
-344,O00344,42,6,13,2026-06-23,4,1092.97,Completado,App
-345,O00345,30,5,9,2026-04-15,2,261.6,Completado,Web
-346,O00346,78,6,5,2026-01-19,3,810.3,Completado,Web
-347,O00347,76,6,2,2026-05-27,3,157.7,Completado,Web
-348,O00348,79,5,15,2026-01-23,3,441.08,Completado,Presencial
-349,O00349,26,4,15,2026-03-30,5,856.05,Pendiente,Call Center
-350,O00350,17,3,10,2026-01-13,1,159.13,Completado,Presencial
-351,O00351,34,3,5,2026-05-02,1,250.99,Completado,Call Center
-352,O00352,42,3,7,2026-01-31,6,949.4,Completado,App
-353,O00353,55,3,4,2026-06-21,5,856.31,Completado,Presencial
-354,O00354,34,1,5,2026-03-31,5,1273.09,Completado,Call Center
-355,O00355,40,6,12,2026-02-17,6,1934.07,Cancelado,App
-356,O00356,18,3,11,2026-03-08,6,1297.45,Completado,Web
-357,O00357,50,3,7,2026-03-16,1,155.12,Completado,Web
-358,O00358,60,6,4,2026-06-05,4,658.6,Completado,Call Center
-359,O00359,78,5,11,2026-01-24,2,463.21,Completado,Presencial
-360,O00360,44,6,8,2026-04-11,5,268.46,Pendiente,Web
-361,O00361,11,6,12,2026-03-23,6,2089.91,Completado,Web
-362,O00362,10,1,9,2026-06-17,3,455.49,Observado,App
-363,O00363,20,5,4,2026-01-08,1,139.78,Cancelado,Web
-364,O00364,54,4,15,2026-01-01,4,593.7,Cancelado,Web
-365,O00365,80,6,9,2026-03-09,2,302.98,Pendiente,Call Center
-366,O00366,15,4,1,2026-01-10,3,701.19,Completado,Call Center
-367,O00367,42,2,8,2026-03-07,3,154.69,Completado,App
-368,O00368,31,4,1,2026-06-06,6,1312.89,Completado,Web
-369,O00369,20,1,15,2026-03-08,6,910.61,Completado,Call Center
-370,O00370,48,3,12,2026-04-19,1,295.22,Completado,Web
-371,O00371,64,2,6,2026-04-02,3,308.85,Completado,Presencial
-372,O00372,77,5,3,2026-03-22,1,77.56,Observado,Presencial
-373,O00373,8,4,1,2026-04-22,1,254.2,Completado,Web
-374,O00374,68,6,12,2026-04-14,4,1483.85,Completado,Call Center
-375,O00375,67,4,2,2026-02-22,6,327.65,Observado,Call Center
-376,O00376,1,5,5,2026-02-27,6,1372.41,Observado,Web
-377,O00377,30,2,8,2026-04-16,4,231.59,Observado,Call Center
-378,O00378,6,5,12,2026-03-20,1,386.87,Completado,Call Center
-379,O00379,32,5,14,2026-01-31,6,2034.4,Completado,App
-380,O00380,10,6,2,2026-06-01,2,99.55,Observado,Presencial
-381,O00381,78,3,4,2026-01-31,3,518.81,Completado,Call Center
-382,O00382,45,4,1,2026-06-06,5,1312.26,Observado,Web
-383,O00383,62,5,1,2026-06-07,2,503.9,Completado,Web
-384,O00384,9,2,9,2026-04-07,4,611.22,Cancelado,Presencial
-385,O00385,46,1,8,2026-02-19,4,210.34,Completado,Presencial
-386,O00386,49,1,11,2026-02-22,4,819.57,Completado,App
-387,O00387,37,6,10,2026-06-17,6,1105.01,Observado,Presencial
-388,O00388,1,5,5,2026-06-19,4,965.58,Pendiente,Presencial
-389,O00389,60,5,15,2026-06-05,4,811.86,Completado,Presencial
-390,O00390,58,5,11,2026-06-06,4,904.16,Cancelado,Call Center
-391,O00391,56,1,8,2026-02-11,1,51.93,Completado,App
-392,O00392,54,6,5,2026-04-18,4,1130.21,Completado,App
-393,O00393,74,3,2,2026-06-05,5,284.3,Cancelado,Web
-394,O00394,29,3,14,2026-03-10,5,1498.33,Completado,Presencial
-395,O00395,63,1,1,2026-04-01,5,1210.8,Completado,App
-396,O00396,20,6,3,2026-01-07,2,216.27,Completado,Web
-397,O00397,67,3,12,2026-05-06,6,1806.15,Completado,Call Center
-398,O00398,41,1,2,2026-03-08,4,215.53,Completado,Presencial
-399,O00399,70,2,7,2026-05-15,2,352.8,Completado,App
-400,O00400,68,3,5,2026-03-08,5,1428.1,Completado,Web
-401,O00401,59,6,3,2026-01-15,5,392.48,Completado,Presencial
-402,O00402,14,6,10,2026-04-21,5,749.68,Completado,Presencial
-403,O00403,3,2,6,2026-04-01,4,335.56,Completado,App
-404,O00404,56,6,3,2026-01-16,6,643.28,Completado,Call Center
-405,O00405,14,2,7,2026-03-06,6,1085.91,Completado,Call Center
-406,O00406,38,5,4,2026-06-09,6,1204.1,Completado,Call Center
-407,O00407,31,2,3,2026-02-20,4,395.23,Pendiente,Call Center
-408,O00408,62,2,7,2026-04-08,2,366.12,Pendiente,Call Center
-409,O00409,60,4,12,2026-02-24,2,586.22,Completado,Web
-410,O00410,65,4,8,2026-03-27,4,165.11,Completado,Call Center
-411,O00411,33,4,9,2026-03-05,2,316.32,Completado,Call Center
-412,O00412,10,4,7,2026-04-23,2,372.44,Completado,App
-413,O00413,49,6,5,2026-03-06,5,1280.36,Completado,Web
-414,O00414,32,6,15,2026-01-16,4,850.83,Observado,Web
-415,O00415,39,6,12,2026-05-14,4,1223.38,Completado,App
-416,O00416,28,1,14,2026-03-03,4,977.58,Completado,Presencial
-417,O00417,30,5,1,2026-01-10,3,699.2,Completado,App
-418,O00418,4,3,5,2026-05-23,2,460.79,Completado,Presencial
-419,O00419,61,5,14,2026-05-29,6,1801.49,Completado,Web
-420,O00420,5,4,15,2026-03-05,2,370.6,Completado,App
-421,O00421,68,3,15,2026-05-30,3,443.68,Cancelado,Presencial
-422,O00422,11,3,12,2026-01-21,2,708.92,Completado,Web
-423,O00423,30,3,2,2026-05-24,2,107.82,Observado,Call Center
-424,O00424,29,3,4,2026-01-24,4,814.22,Completado,Call Center
-425,O00425,8,6,1,2026-06-20,5,1200.05,Completado,Web
-426,O00426,1,6,15,2026-02-10,4,734.74,Observado,Call Center
-427,O00427,69,4,15,2026-03-02,4,800.12,Pendiente,Presencial
-428,O00428,53,3,15,2026-06-24,3,541.45,Completado,Call Center
-429,O00429,19,2,9,2026-06-13,5,931.91,Completado,Call Center
-430,O00430,11,4,15,2026-01-19,2,424.87,Completado,Call Center
-431,O00431,40,3,2,2026-03-29,4,229.72,Completado,Call Center
-432,O00432,74,2,4,2026-03-29,1,173.35,Completado,Presencial
-433,O00433,14,1,1,2026-03-18,6,1271.66,Completado,Web
-434,O00434,41,1,8,2026-06-17,3,122.81,Completado,App
-435,O00435,48,3,7,2026-01-18,1,169.09,Cancelado,Web
-436,O00436,11,3,12,2026-04-01,3,885.45,Completado,App
-437,O00437,42,6,5,2026-03-04,4,885.68,Completado,Call Center
-438,O00438,60,3,4,2026-01-07,4,779.63,Completado,Web
-439,O00439,21,2,8,2026-05-23,6,317.86,Completado,App
-440,O00440,55,5,12,2026-05-15,5,1383.4,Observado,Presencial
-441,O00441,9,4,6,2026-01-04,5,498.92,Completado,Call Center
-442,O00442,41,1,15,2026-01-02,4,607.3,Completado,Presencial
-443,O00443,68,1,6,2026-02-18,5,435.63,Completado,App
-444,O00444,31,3,3,2026-02-24,3,312.95,Completado,App
-445,O00445,57,6,10,2026-03-23,4,790.88,Completado,Call Center
-446,O00446,31,2,2,2026-04-12,5,314.44,Completado,Web
-447,O00447,1,1,1,2026-03-22,3,735.75,Completado,Presencial
-448,O00448,79,3,2,2026-04-23,3,184.19,Completado,Call Center
-449,O00449,41,1,3,2026-04-13,5,409.26,Completado,Presencial
-450,O00450,69,4,14,2026-03-11,5,1373.36,Pendiente,Web
-451,O00451,53,3,15,2026-01-04,6,905.54,Observado,Call Center
-452,O00452,39,2,11,2026-03-16,5,958.35,Completado,Presencial
-453,O00453,6,4,3,2026-04-13,6,540.41,Completado,App
-454,O00454,74,5,13,2026-03-16,5,1400.64,Completado,Web
-455,O00455,61,2,5,2026-03-24,2,467.01,Completado,Presencial
-456,O00456,54,3,3,2026-06-15,1,95.66,Completado,Web
-457,O00457,3,2,10,2026-03-06,5,1075.75,Completado,App
-458,O00458,10,4,5,2026-02-27,5,1393.75,Observado,App
-459,O00459,17,5,3,2026-02-23,6,601.75,Completado,App
-460,O00460,60,4,6,2026-03-23,4,405.14,Completado,Web
-461,O00461,56,2,14,2026-04-23,6,1821.14,Completado,Web
-462,O00462,50,5,7,2026-01-06,1,133.86,Completado,Web
-463,O00463,38,1,13,2026-06-08,5,1916.83,Completado,App
-464,O00464,2,1,4,2026-03-17,5,758.9,Completado,Call Center
-465,O00465,65,4,6,2026-06-02,2,226.37,Pendiente,App
-466,O00466,67,2,11,2026-03-23,6,1270.88,Completado,Presencial
-467,O00467,65,3,15,2026-03-10,6,1104.18,Completado,Presencial
-468,O00468,41,3,1,2026-05-18,2,439.23,Completado,App
-469,O00469,44,3,4,2026-05-17,6,876.48,Completado,App
-470,O00470,17,5,14,2026-01-19,6,1846.41,Pendiente,Call Center
-471,O00471,26,6,11,2026-05-23,6,1355.73,Completado,Web
-472,O00472,67,4,13,2026-05-05,1,371.28,Pendiente,Call Center
-473,O00473,70,2,14,2026-06-09,5,1198.75,Completado,App
-474,O00474,14,1,12,2026-02-06,1,276.83,Observado,Call Center
-475,O00475,35,6,4,2026-05-06,6,1150.08,Completado,App
-476,O00476,60,4,8,2026-03-27,6,307.9,Completado,Presencial
-477,O00477,15,4,5,2026-02-15,6,1233.21,Completado,App
-478,O00478,3,6,13,2026-06-09,3,986.7,Completado,Web
-479,O00479,8,3,1,2026-04-29,1,189.37,Completado,Web
-480,O00480,66,4,3,2026-06-16,3,323.7,Pendiente,Web
-481,O00481,62,5,2,2026-03-18,1,45.02,Pendiente,Web
-482,O00482,53,2,4,2026-05-05,4,588.74,Completado,Presencial
-483,O00483,23,6,7,2026-06-04,3,476.21,Completado,Call Center
-484,O00484,11,1,5,2026-03-07,6,1341.63,Cancelado,App
-485,O00485,74,3,12,2026-06-15,4,1263.05,Completado,Web
-486,O00486,55,4,5,2026-05-04,3,744.73,Completado,Call Center
-487,O00487,79,3,2,2026-01-26,5,263.25,Completado,Call Center
-488,O00488,26,3,13,2026-05-26,4,1285.66,Completado,Call Center
-489,O00489,18,4,8,2026-04-01,4,226.14,Completado,Call Center
-490,O00490,45,4,14,2026-06-30,6,1508.44,Pendiente,App
-491,O00491,40,1,2,2026-02-09,2,115.05,Completado,Web
-492,O00492,19,3,2,2026-02-27,2,112.89,Completado,Call Center
-493,O00493,53,3,15,2026-06-08,5,732.67,Cancelado,Web
-494,O00494,25,4,13,2026-01-26,4,1530.5,Completado,Web
-495,O00495,48,3,12,2026-06-02,1,284.46,Cancelado,Web
-496,O00496,35,2,11,2026-02-21,3,632.47,Completado,Web
-497,O00497,46,4,5,2026-01-19,2,467.18,Completado,Presencial
-498,O00498,25,4,13,2026-05-23,6,1760.2,Completado,Presencial
-499,O00499,8,1,15,2026-04-01,6,1044.82,Completado,Presencial
-500,O00500,56,3,8,2026-01-25,5,286.45,Completado,Presencial
+id_operacion,codigo_operacion,id_cliente,id_sede,id_empleado,fecha_operacion,canal,estado,monto_total
+1,O00001,197,4,11,2026-04-09,Agencia,Pendiente,95.00
+2,O00002,12,2,12,2026-04-20,Portal empresarial,Completado,703.78
+3,O00003,121,4,25,2026-04-27,App LogiExpress,Pendiente,257.80
+4,O00004,26,6,11,2026-05-14,Recojo programado,Pendiente,780.00
+5,O00005,17,4,20,11/04/2026,Agencia,Completado,325.60
+6,O00006,3,3,4,2026-05-23,Portal empresarial,Completado,228.30
+7,O00007,122,5,40,01/01/2026,App LogiExpress,Completado,158.21
+8,O00008,56,6,1,2026-06-17,Recojo programado,Completado,1299.39
+9,O00009,13,4,19,2026-06-25,Agencia,Completado,1688.05
+10,O00010,56,3,38,2026-01-24,Portal empresarial,Pendiente,1546.47
+11,O00011,162,1,26,2026-01-12,App LogiExpress,Cancelado,830.44
+12,O00012,104,2,30,2026-04-22,Recojo programado,Observado,380.00
+13,O00013,11,6,17,2026-05-19,Agencia,Pendiente,144.00
+14,O00014,9768,1,10,2026-01-24,Portal empresarial,Completado,3394.18
+15,O00015,66,3,32,2026-04-20,App LogiExpress,Completado,2227.22
+16,O00016,18,4,10,2026-03-25,Recojo programado,Completado,1727.35
+17,O00017,88,5,15,2026-06-24,Agencia,Completado,282.66
+18,O00018,172,5,18,2026-02-06,Portal empresarial,Completado,1282.22
+19,O00019,146,5,34,2026-03-27,App LogiExpress,Pendiente,624.58
+20,O00020,179,4,16,2026-03-27,Recojo programado,Completado,1057.16
+21,O00021,135,6,,2026-01-19,Agencia,Completado,603.28
+22,O00022,128,3,2,2026-04-10,Portal empresarial,Completado,481.06
+23,O00023,183,6,10,2026-01-27,App LogiExpress,Pendiente,58.17
+24,O00024,58,6,5,17/02/2026,Recojo programado,Completado,1366.42
+25,O00025,1,4,1,2026-03-23,Agencia,Completado,1267.59
+26,O00026,138,6,24,2026-01-08,Portal empresarial,Pendiente,312.88
+27,O00027,28,6,15,2026-01-24,App LogiExpress,Cancelado,156.30
+28,O00028,168,2,37,2026-02-09,Recojo programado,Completado,1596.93
+29,O00029,98,4,3,2026-06-02,Agencia,Completado,2119.00
+30,O00030,188,2,26,2026-02-07,Portal empresarial,Completado,341.05
+31,O00031,111,4,10,2026-04-06,App LogiExpress,Completado,960.00
+32,O00032,114,2,14,2026-01-24,Recojo programado,Cancelado,204.00
+33,O00033,171,5,22,12/02/2026,Agencia,Completado,726.44
+34,O00034,126,4,5,2026-03-27,Portal empresarial,Pendiente,260.00
+35,O00035,9,2,19,2026-03-22,App LogiExpress,Completado,1712.20
+36,O00036,171,4,38,2026-01-03,Recojo programado,Pendiente,809.41
+37,O00037,86,3,32,2026-06-28,Agencia,Completado,144.00
+38,O00038,27,3,10,2026-01-23,Portal empresarial,Pendiente,163.20
+39,O00039,27,1,30,2026-03-12,App LogiExpress,Completado,1090.32
+40,O00040,183,4,2,2026-02-05,Recojo programado,Pendiente,201.60
+41,O00041,129,1,24,2026-02-27,Agencia,Completado,365.72
+42,O00042,126,2,22,2026-01-02,Portal empresarial,Cancelado,2477.42
+43,O00043,98,3,32,2026-03-04,App LogiExpress,Pendiente,155.12
+44,O00044,195,6,19,2026-01-25,Recojo programado,Completado,1596.42
+45,O00045,110,3,32,2026-06-18,Agencia,Pendiente,773.40
+46,O00046,6,3,39,2026-05-15,Portal empresarial,Completado,363.04
+47,O00047,165,4,24,2026-02-12,App LogiExpress,Observado,1848.35
+48,O00048,63,3,34,2026-04-24,Recojo programado,Pendiente,599.40
+49,O00049,11,3,21,2026-02-19,Agencia,Completado,1862.40
+50,O00050,142,3,33,04/01/2026,Portal empresarial,Completado,347.17
+51,O00051,24,5,19,2026-03-18,App LogiExpress,Completado,3444.92
+52,O00052,11,6,5,2026-01-15,Recojo programado,Completado,769.84
+53,O00053,9,2,28,2026-04-12,Agencia,Completado,475.00
+54,O00054,114,2,,2026-05-06,Portal empresarial,Completado,150.80
+55,O00055,54,1,18,2026-04-05,App LogiExpress,Completado,1653.32
+56,O00056,100,2,10,2026-05-21,Recojo programado,Completado,1194.44
+57,O00057,118,3,14,2026-06-09,Agencia,Cancelado,3243.27
+58,O00058,189,6,17,2026-03-24,Portal empresarial,Cancelado,1126.62
+59,O00059,153,5,14,2026-03-01,App LogiExpress,Cancelado,1827.35
+60,O00060,122,2,7,23/01/2026,Recojo programado,Completado,285.00
+61,O00061,139,5,19,2026-05-05,Agencia,Observado,2039.41
+62,O00062,69,6,17,2026-02-17,Portal empresarial,Pendiente,525.40
+63,O00063,186,4,14,2026-02-05,App LogiExpress,Observado,255.64
+64,O00064,196,1,33,2026-03-02,Recojo programado,Completado,302.40
+65,O00065,55,2,21,2026-06-21,Agencia,Pendiente,5931.11
+66,O00066,50,2,8,2026-06-02,Portal empresarial,Completado,4875.98
+67,O00067,24,2,22,2026-01-10,App LogiExpress,Completado,590.20
+68,O00068,96,2,14,2026-04-09,Recojo programado,Completado,1649.67
+69,O00069,139,3,13,2026-05-16,Agencia,Completado,2477.30
+70,O00070,10,5,27,2026-03-21,Portal empresarial,Pendiente,1463.37
+71,O00071,108,1,2,2026-01-03,App LogiExpress,Completado,773.40
+72,O00072,55,6,40,2026-03-23,Recojo programado,Completado,1575.06
+73,O00073,168,6,3,2026-03-22,Agencia,Completado,158.21
+74,O00074,154,1,30,2026-04-01,Portal empresarial,Completado,2395.80
+75,O00075,135,1,21,2026-05-23,App LogiExpress,Observado,36.00
+76,O00076,97,2,9,2026-04-01,Recojo programado,Completado,1049.29
+77,O00077,14,3,7,2026-05-02,Agencia,Completado,884.80
+78,O00078,154,4,20,2026-03-24,Portal empresarial,Completado,248.85
+79,O00079,195,1,,2026-04-14,App LogiExpress,Completado,960.00
+80,O00080,51,3,40,2026-04-12,Recojo programado,Pendiente,775.43
+81,O00081,180,4,8,2026-05-23,Agencia,Cancelado,2051.42
+82,O00082,180,2,33,2026-03-05,Portal empresarial,Completado,494.57
+83,O00083,118,6,22,2026-06-04,App LogiExpress,Completado,593.75
+84,O00084,139,2,8,02/01/2026,Recojo programado,Completado,1818.77
+85,O00085,158,3,19,08/02/2026,Agencia,Completado,1558.01
+86,O00086,150,1,35,2026-06-20,Portal empresarial,Completado,289.66
+87,O00087,80,5,38,2026-05-07,App LogiExpress,Observado,348.90
+88,O00088,138,6,,2026-01-09,Recojo programado,Observado,163.20
+89,O00089,132,1,24,06/03/2026,Agencia,Completado,12.00
+90,O00090,65,1,9,2026-06-28,Portal empresarial,Completado,597.80
+91,O00091,190,3,1,2026-01-05,App LogiExpress,Completado,319.55
+92,O00092,51,3,4,2026-01-04,Recojo programado,Completado,1125.05
+93,O00093,95,2,17,2026-03-26,Agencia,Pendiente,471.36
+94,O00094,67,5,26,2026-02-06,Portal empresarial,Cancelado,104.20
+95,O00095,113,3,27,2026-03-24,App LogiExpress,Cancelado,1050.77
+96,O00096,179,4,29,2026-02-11,Recojo programado,Pendiente,260.15
+97,O00097,23,6,26,2026-03-13,Agencia,Cancelado,764.84
+98,O00098,113,4,13,08/01/2026,Portal empresarial,Cancelado,1882.49
+99,O00099,37,1,2,2026-04-08,App LogiExpress,Pendiente,2154.91
+100,O00100,72,6,6,2026-04-27,Recojo programado,Completado,185.18
+101,O00101,68,5,1,2026-04-12,Agencia,Completado,657.80
+102,O00102,63,1,10,2026-02-21,Portal empresarial,Completado,726.64
+103,O00103,141,3,18,2026-03-07,App LogiExpress,Completado,12.00
+104,O00104,184,6,16,2026-04-23,Recojo programado,Completado,225.00
+105,O00105,70,6,2,2026-04-06,Agencia,Completado,723.00
+106,O00106,135,5,17,2026-05-25,Portal empresarial,Pendiente,-270.52
+107,O00107,9751,5,14,2026-04-03,App LogiExpress,Completado,1419.79
+108,O00108,184,6,11,11/03/2026,Recojo programado,Completado,834.71
+109,O00109,76,3,38,2026-04-06,Agencia,Completado,150.22
+110,O00110,172,1,21,2026-01-18,Portal empresarial,Completado,-5140.73
+111,O00111,172,2,,2026-05-22,App LogiExpress,Pendiente,1251.20
+112,O00112,15,6,4,2026-04-01,Recojo programado,Pendiente,4057.45
+113,O00113,9,6,33,2026-06-27,Agencia,Cancelado,511.52
+114,O00114,175,6,24,2026-04-11,Portal empresarial,Observado,1768.10
+115,O00115,10,5,9,2026-04-11,App LogiExpress,Completado,762.83
+116,O00116,131,4,29,2026-02-09,Recojo programado,Pendiente,100.80
+117,O00117,15,3,2,2026-04-24,Agencia,Completado,1725.28
+118,O00118,13,5,35,2026-05-05,Portal empresarial,Cancelado,1328.50
+119,O00119,78,5,15,10/06/2026,App LogiExpress,Completado,982.34
+120,O00120,54,2,7,2026-03-17,Recojo programado,Completado,145.15
+121,O00121,62,5,32,13/01/2026,Agencia,Completado,108.00
+122,O00122,141,3,22,24/05/2026,Portal empresarial,Completado,490.07
+123,O00123,100,3,15,2026-03-26,App LogiExpress,Completado,1742.92
+124,O00124,15,3,4,2026-02-02,Recojo programado,Completado,1151.22
+125,O00125,110,4,9,2026-01-03,Agencia,Observado,2244.26
+126,O00126,162,6,1,2026-06-01,Portal empresarial,Completado,19.39
+127,O00127,160,5,7,2026-02-09,App LogiExpress,Pendiente,1953.58
+128,O00128,200,1,15,2026-04-19,Recojo programado,Pendiente,1536.80
+129,O00129,184,6,20,2026-01-14,Agencia,Pendiente,953.56
+130,O00130,85,1,30,2026-05-03,Portal empresarial,Completado,351.24
+131,O00131,25,4,29,2026-04-08,App LogiExpress,Pendiente,1418.84
+132,O00132,134,2,14,2026-05-23,Recojo programado,Observado,3288.18
+133,O00133,161,6,7,2026-01-01,Agencia,Completado,359.55
+134,O00134,92,1,24,2026-03-18,Portal empresarial,Completado,2966.64
+135,O00135,68,3,14,2026-06-22,App LogiExpress,Pendiente,884.30
+136,O00136,187,2,18,2026-02-26,Recojo programado,Completado,728.96
+137,O00137,42,5,36,2026-03-20,Agencia,Completado,48.00
+138,O00138,63,2,13,2026-04-28,Portal empresarial,Cancelado,1702.89
+139,O00139,54,4,24,2026-03-12,App LogiExpress,Completado,570.70
+140,O00140,128,1,33,2026-06-20,Recojo programado,Cancelado,127.82
+141,O00141,88,6,11,2026-02-25,Agencia,Completado,257.80
+142,O00142,75,2,35,2026-03-15,Portal empresarial,Pendiente,1920.00
+143,O00143,175,6,14,2026-05-05,App LogiExpress,Cancelado,202.45
+144,O00144,80,4,11,2026-03-09,Recojo programado,Completado,3779.52
+145,O00145,89,3,27,2026-01-22,Agencia,Completado,1058.68
+146,O00146,176,5,23,09/05/2026,Portal empresarial,Observado,103.00
+147,O00147,196,6,22,2026-03-05,App LogiExpress,Pendiente,2529.50
+148,O00148,66,5,3,2026-05-23,Recojo programado,Completado,648.04
+149,O00149,38,4,26,22/05/2026,Agencia,Completado,753.27
+150,O00150,93,6,2,2026-04-20,Portal empresarial,Cancelado,368.00
+151,O00151,168,6,22,2026-02-22,App LogiExpress,Pendiente,3520.00
+152,O00152,155,5,28,06/01/2026,Recojo programado,Completado,544.83
+153,O00153,77,4,9,2026-05-02,Agencia,Completado,346.00
+154,O00154,84,2,29,2026-04-22,Portal empresarial,Completado,220.00
+155,O00155,61,5,29,2026-06-16,App LogiExpress,Completado,427.35
+156,O00156,12,6,32,2026-03-23,Recojo programado,Completado,2181.74
+157,O00157,9865,6,33,2026-06-08,Agencia,Completado,429.88
+158,O00158,152,5,39,2026-06-28,Portal empresarial,Completado,480.87
+159,O00159,153,5,33,28/06/2026,App LogiExpress,Completado,1681.75
+160,O00160,105,1,11,2026-03-24,Recojo programado,Completado,276.00
+161,O00161,162,3,22,2026-05-25,Agencia,Cancelado,3102.90
+162,O00162,71,1,38,2026-03-03,Portal empresarial,Pendiente,792.93
+163,O00163,58,3,24,2026-01-21,App LogiExpress,Pendiente,425.14
+164,O00164,82,3,26,2026-02-19,Recojo programado,Completado,36.00
+165,O00165,30,3,17,2026-04-24,Agencia,Pendiente,133.63
+166,O00166,55,6,19,2026-02-21,Portal empresarial,Pendiente,679.00
+167,O00167,118,3,16,2026-03-13,App LogiExpress,Pendiente,649.28
+168,O00168,148,6,24,2026-05-17,Recojo programado,Completado,-788.51
+169,O00169,126,4,19,2026-04-17,Agencia,Cancelado,-2460.8
+170,O00170,200,5,10,2026-03-04,Portal empresarial,Pendiente,5480.82
+171,O00171,125,1,35,2026-05-18,App LogiExpress,Cancelado,859.80
+172,O00172,153,2,37,2026-03-26,Recojo programado,Observado,1722.44
+173,O00173,124,3,37,2026-06-05,Agencia,Completado,105.00
+174,O00174,26,3,33,2026-06-03,Portal empresarial,Completado,3400.92
+175,O00175,178,2,36,2026-06-12,App LogiExpress,Completado,4057.78
+176,O00176,8,6,11,2026-03-17,Recojo programado,Completado,24.00
+177,O00177,197,5,34,2026-05-21,Agencia,Pendiente,778.55
+178,O00178,52,1,16,2026-04-03,Portal empresarial,Pendiente,2271.90
+179,O00179,116,3,37,2026-06-28,App LogiExpress,Pendiente,703.26
+180,O00180,109,2,28,2026-06-17,Recojo programado,Completado,72.00
+181,O00181,101,5,16,2026-02-07,Agencia,Completado,2906.95
+182,O00182,105,6,25,2026-02-25,Portal empresarial,Pendiente,753.27
+183,O00183,193,5,31,2026-01-25,App LogiExpress,Completado,585.16
+184,O00184,115,2,14,2026-04-23,Recojo programado,Completado,3071.13
+185,O00185,105,6,16,2026-05-27,Agencia,Observado,5340.99
+186,O00186,91,4,,2026-02-06,Portal empresarial,Completado,2635.00
+187,O00187,20,6,25,2026-01-26,App LogiExpress,Observado,2115.26
+188,O00188,42,6,26,2026-02-20,Recojo programado,Cancelado,603.56
+189,O00189,162,1,13,2026-04-23,Agencia,Completado,135.00
+190,O00190,36,2,36,2026-02-13,Portal empresarial,Completado,1089.66
+191,O00191,182,3,39,2026-05-18,App LogiExpress,Pendiente,2652.28
+192,O00192,151,4,12,2026-02-28,Recojo programado,Completado,392.17
+193,O00193,107,5,40,2026-06-21,Agencia,Pendiente,1888.85
+194,O00194,119,6,40,2026-03-08,Portal empresarial,Pendiente,288.91
+195,O00195,101,4,2,2026-04-05,App LogiExpress,Completado,2884.02
+196,O00196,50,1,38,2026-01-28,Recojo programado,Completado,1515.23
+197,O00197,182,2,24,2026-02-10,Agencia,Completado,1953.27
+198,O00198,9862,4,31,2026-06-05,Portal empresarial,Completado,132.00
+199,O00199,186,6,9,2026-01-16,App LogiExpress,Observado,111.24
+200,O00200,24,3,39,2026-03-28,Recojo programado,Pendiente,953.05
+201,O00201,172,5,39,2026-01-25,Agencia,Completado,643.24
+202,O00202,62,1,38,2026-02-13,Portal empresarial,Completado,1280.00
+203,O00203,104,1,29,2026-02-11,App LogiExpress,Completado,319.55
+204,O00204,138,6,33,2026-01-10,Recojo programado,Completado,459.51
+205,O00205,5,2,22,2026-02-12,Agencia,Completado,1920.00
+206,O00206,16,5,11,2026-05-01,Portal empresarial,Completado,739.14
+207,O00207,119,4,31,2026-01-17,App LogiExpress,Observado,1099.89
+208,O00208,154,1,19,2026-01-17,Recojo programado,Pendiente,1317.05
+209,O00209,31,2,10,2026-01-20,Agencia,Cancelado,380.00
+210,O00210,124,2,13,2026-01-12,Portal empresarial,Completado,270.00
+211,O00211,139,1,30,2026-06-28,App LogiExpress,Completado,554.20
+212,O00212,176,1,24,2026-04-15,Recojo programado,Cancelado,662.50
+213,O00213,31,4,4,2026-05-21,Agencia,Completado,1029.55
+214,O00214,52,3,37,2026-03-28,Portal empresarial,Pendiente,2748.22
+215,O00215,22,1,14,2026-01-12,App LogiExpress,Pendiente,903.46
+216,O00216,152,6,35,2026-06-18,Recojo programado,Completado,2457.76
+217,O00217,199,4,9,2026-05-20,Agencia,Completado,78.22
+218,O00218,35,6,16,2026-06-20,Portal empresarial,Pendiente,786.60
+219,O00219,105,1,17,2026-03-04,App LogiExpress,Completado,1661.02
+220,O00220,84,6,4,2026-02-28,Recojo programado,Completado,260.00
+221,O00221,41,5,,2026-02-09,Agencia,Observado,183.07
+222,O00222,9005,2,7,2026-03-16,Portal empresarial,Completado,242.00
+223,O00223,59,2,,2026-05-12,App LogiExpress,Observado,1982.44
+224,O00224,57,4,26,2026-01-26,Recojo programado,Cancelado,3048.05
+225,O00225,45,2,15,2026-02-16,Agencia,Completado,1560.00
+226,O00226,135,4,10,21/04/2026,Portal empresarial,Cancelado,96.00
+227,O00227,71,3,9,2026-06-16,App LogiExpress,Completado,850.26
+228,O00228,80,6,33,2026-04-18,Recojo programado,Completado,429.70
+229,O00229,165,5,39,2026-01-03,Agencia,Completado,2012.12
+230,O00230,181,2,16,2026-04-28,Portal empresarial,Completado,363.04
+231,O00231,73,3,3,2026-01-03,App LogiExpress,Completado,110.00
+232,O00232,18,1,16,2026-03-25,Recojo programado,Pendiente,386.70
+233,O00233,171,1,15,2026-01-16,Agencia,Completado,1029.65
+234,O00234,65,1,32,2026-05-17,Portal empresarial,Completado,1208.45
+235,O00235,54,6,27,2026-04-17,App LogiExpress,Completado,468.46
+236,O00236,76,3,6,2026-01-16,Recojo programado,Completado,900.84
+237,O00237,162,3,31,2026-04-22,Agencia,Completado,665.09
+238,O00238,100,3,26,2026-03-04,Portal empresarial,Pendiente,2112.35
+239,O00239,73,5,28,2026-04-08,App LogiExpress,Pendiente,1669.74
+240,O00240,92,3,6,2026-05-05,Recojo programado,Cancelado,63.91
+241,O00241,33,2,7,2026-03-09,Agencia,Completado,459.92
+242,O00242,165,3,3,2026-02-16,Portal empresarial,Completado,663.89
+243,O00243,99,5,25,2026-05-24,App LogiExpress,Completado,1298.05
+244,O00244,155,4,6,2026-02-23,Recojo programado,Completado,5301.71
+245,O00245,34,4,20,2026-01-22,Agencia,Observado,192.00
+246,O00246,21,1,4,2026-02-09,Portal empresarial,Completado,1787.13
+247,O00247,12,6,34,2026-06-23,App LogiExpress,Pendiente,2137.83
+248,O00248,143,3,22,2026-04-09,Recojo programado,Pendiente,475.00
+249,O00249,13,1,5,2026-04-22,Agencia,Completado,570.00
+250,O00250,48,4,21,2026-04-27,Portal empresarial,Pendiente,3117.29
+251,O00251,4,2,12,05/04/2026,App LogiExpress,Completado,244.53
+252,O00252,181,6,38,2026-01-06,Recojo programado,Completado,197.60
+253,O00253,143,5,36,2026-06-25,Agencia,Completado,272.28
+254,O00254,72,5,15,2026-06-08,Portal empresarial,Completado,383.46
+255,O00255,10,3,2,05/05/2026,App LogiExpress,Completado,1686.84
+256,O00256,3,1,14,2026-06-03,Recojo programado,Completado,390.00
+257,O00257,120,3,36,2026-05-14,Agencia,Cancelado,316.42
+258,O00258,125,5,39,2026-03-23,Portal empresarial,Completado,1643.70
+259,O00259,84,2,7,2026-04-22,App LogiExpress,Observado,3090.00
+260,O00260,63,3,15,07/03/2026,Recojo programado,Pendiente,52.80
+261,O00261,77,1,18,2026-04-13,Agencia,Pendiente,932.30
+262,O00262,3,3,20,2026-06-04,Portal empresarial,Pendiente,48.00
+263,O00263,140,6,35,2026-05-07,App LogiExpress,Pendiente,519.46
+264,O00264,195,1,17,2026-04-06,Recojo programado,Cancelado,14.44
+265,O00265,20,1,1,2026-06-27,Agencia,Completado,1170.42
+266,O00266,160,6,11,01/02/2026,Portal empresarial,Completado,2282.45
+267,O00267,24,6,9,2026-05-13,App LogiExpress,Cancelado,769.57
+268,O00268,99,5,17,2026-04-22,Recojo programado,Observado,1695.00
+269,O00269,197,3,34,2026-01-28,Agencia,Cancelado,2030.27
+270,O00270,132,2,32,2026-05-05,Portal empresarial,Completado,570.14
+271,O00271,93,3,31,07/02/2026,App LogiExpress,Cancelado,502.18
+272,O00272,123,3,7,2026-04-20,Recojo programado,Pendiente,2433.60
+273,O00273,14,3,34,2026-04-15,Agencia,Completado,1424.84
+274,O00274,2,3,40,2026-04-18,Portal empresarial,Cancelado,785.80
+275,O00275,147,4,29,2026-03-06,App LogiExpress,Cancelado,2801.80
+276,O00276,109,4,11,2026-03-01,Recojo programado,Completado,1732.18
+277,O00277,192,1,20,2026-02-26,Agencia,Completado,1167.14
+278,O00278,159,1,27,2026-04-24,Portal empresarial,Completado,723.90
+279,O00279,9220,5,37,2026-01-03,App LogiExpress,Cancelado,2064.20
+280,O00280,78,2,24,2026-04-23,Recojo programado,Pendiente,700.89
+281,O00281,84,6,30,2026-01-21,Agencia,Pendiente,1453.16
+282,O00282,61,6,18,2026-02-25,Portal empresarial,Completado,182.40
+283,O00283,190,4,37,23/05/2026,App LogiExpress,Pendiente,1445.80
+284,O00284,3,1,5,2026-03-15,Recojo programado,Cancelado,657.00
+285,O00285,102,1,23,2026-03-09,Agencia,Completado,1405.60
+286,O00286,10,5,31,2026-05-03,Portal empresarial,Pendiente,1098.42
+287,O00287,98,2,27,2026-02-26,App LogiExpress,Completado,323.00
+288,O00288,6,6,22,2026-06-15,Recojo programado,Completado,900.04
+289,O00289,52,1,32,2026-02-24,Agencia,Completado,14.44
+290,O00290,123,1,33,2026-02-07,Portal empresarial,Observado,541.42
+291,O00291,169,1,14,2026-04-10,App LogiExpress,Cancelado,43.00
+292,O00292,96,6,17,2026-05-04,Recojo programado,Pendiente,2400.00
+293,O00293,73,6,38,2026-02-28,Agencia,Cancelado,750.60
+294,O00294,2,1,1,2026-05-27,Portal empresarial,Pendiente,1353.73
+295,O00295,137,1,30,2026-05-08,App LogiExpress,Completado,3000.39
+296,O00296,137,5,27,2026-02-16,Recojo programado,Cancelado,3195.00
+297,O00297,138,2,34,19/06/2026,Agencia,Observado,498.04
+298,O00298,52,1,21,2026-05-13,Portal empresarial,Pendiente,131.35
+299,O00299,138,2,40,2026-06-22,App LogiExpress,Completado,260.20
+300,O00300,165,3,11,2026-03-14,Recojo programado,Completado,1053.03
+301,O00301,29,4,28,2026-02-16,Agencia,Completado,1598.41
+302,O00302,66,3,10,2026-05-11,Portal empresarial,Cancelado,5679.36
+303,O00303,96,4,27,2026-03-10,App LogiExpress,Completado,166.40
+304,O00304,84,4,4,2026-04-21,Recojo programado,Completado,3520.00
+305,O00305,84,3,19,2026-04-13,Agencia,Completado,1628.72
+306,O00306,121,4,34,2026-06-10,Portal empresarial,Completado,1596.39
+307,O00307,47,6,33,10/04/2026,App LogiExpress,Pendiente,756.83
+308,O00308,96,6,29,2026-02-17,Recojo programado,Pendiente,393.22
+309,O00309,122,3,2,2026-01-14,Agencia,Completado,1088.43
+310,O00310,161,2,11,2026-04-22,Portal empresarial,Pendiente,2110.68
+311,O00311,144,3,6,20/06/2026,App LogiExpress,Cancelado,980.15
+312,O00312,178,3,36,2026-06-10,Recojo programado,Completado,1118.98
+313,O00313,37,2,10,2026-01-14,Agencia,Observado,57.60
+314,O00314,74,2,33,2026-01-21,Portal empresarial,Completado,2317.74
+315,O00315,154,2,12,2026-04-18,App LogiExpress,Observado,1859.35
+316,O00316,122,6,19,2026-04-11,Recojo programado,Cancelado,279.64
+317,O00317,41,5,1,2026-04-13,Agencia,Cancelado,604.20
+318,O00318,52,6,16,2026-02-28,Portal empresarial,Completado,8.00
+319,O00319,166,2,8,2026-05-21,App LogiExpress,Cancelado,70.00
+320,O00320,163,4,7,2026-02-09,Recojo programado,Pendiente,1532.15
+321,O00321,136,4,33,2026-06-09,Agencia,Completado,497.80
+322,O00322,157,2,1,2026-03-25,Portal empresarial,Cancelado,342.76
+323,O00323,191,4,9,2026-06-22,App LogiExpress,Completado,1312.83
+324,O00324,159,1,15,2026-04-22,Recojo programado,Cancelado,807.00
+325,O00325,127,1,31,2026-06-01,Agencia,Pendiente,2952.12
+326,O00326,142,5,17,2026-03-16,Portal empresarial,Cancelado,1814.48
+327,O00327,50,4,27,2026-01-20,App LogiExpress,Completado,158.21
+328,O00328,47,6,36,2026-03-21,Recojo programado,Completado,960.00
+329,O00329,51,1,35,2026-02-14,Agencia,Pendiente,180.80
+330,O00330,117,1,21,2026-05-11,Portal empresarial,Completado,745.15
+331,O00331,182,3,27,2026-01-25,App LogiExpress,Completado,1299.61
+332,O00332,82,2,10,2026-01-15,Recojo programado,Pendiente,1135.04
+333,O00333,154,1,29,2026-03-07,Agencia,Completado,1586.50
+334,O00334,24,5,34,2026-01-25,Portal empresarial,Completado,3708.22
+335,O00335,22,6,,2026-01-09,App LogiExpress,Cancelado,43.00
+336,O00336,44,4,26,2026-06-15,Recojo programado,Observado,482.18
+337,O00337,46,6,25,2026-01-10,Agencia,Completado,261.60
+338,O00338,66,6,29,2026-05-16,Portal empresarial,Completado,1164.50
+339,O00339,117,5,9,2026-05-28,App LogiExpress,Completado,1303.80
+340,O00340,56,3,40,2026-06-18,Recojo programado,Completado,3537.20
+341,O00341,191,5,20,2026-02-11,Agencia,Cancelado,1539.48
+342,O00342,145,2,13,2026-03-13,Portal empresarial,Pendiente,333.72
+343,O00343,67,3,28,2026-02-14,App LogiExpress,Completado,335.56
+344,O00344,104,1,10,2026-04-20,Recojo programado,Completado,204.00
+345,O00345,104,2,39,2026-03-20,Agencia,Completado,760.20
+346,O00346,78,5,11,2026-06-21,Portal empresarial,Completado,100.80
+347,O00347,82,2,18,2026-05-24,App LogiExpress,Completado,19.39
+348,O00348,129,2,38,2026-02-05,Recojo programado,Cancelado,1034.87
+349,O00349,136,1,5,2026-04-04,Agencia,Completado,223.15
+350,O00350,87,1,39,2026-06-11,Portal empresarial,Completado,718.76
+351,O00351,72,1,17,2026-03-02,App LogiExpress,Cancelado,1668.86
+352,O00352,143,3,11,2026-04-01,Recojo programado,Completado,175.00
+353,O00353,160,1,30,2026-01-26,Agencia,Completado,1335.70
+354,O00354,103,6,35,2026-05-05,Portal empresarial,Completado,5677.07
+355,O00355,105,3,16,2026-03-13,App LogiExpress,Completado,1047.27
+356,O00356,169,5,30,2026-05-07,Recojo programado,Completado,516.62
+357,O00357,145,3,16,2026-03-18,Agencia,Cancelado,1898.45
+358,O00358,40,6,3,2026-06-06,Portal empresarial,Completado,408.34
+359,O00359,67,3,17,2026-03-09,App LogiExpress,Completado,1458.62
+360,O00360,164,6,9,04/04/2026,Recojo programado,Pendiente,1850.00
+361,O00361,13,1,11,2026-05-14,Agencia,Pendiente,1521.60
+362,O00362,151,3,37,2026-01-02,Portal empresarial,Observado,105.60
+363,O00363,4,4,22,2026-04-21,App LogiExpress,Completado,452.76
+364,O00364,180,6,27,2026-06-15,Recojo programado,Completado,2208.25
+365,O00365,175,3,36,2026-02-11,Agencia,Completado,4679.21
+366,O00366,161,4,23,12/01/2026,Portal empresarial,Observado,501.61
+367,O00367,101,4,17,2026-02-07,App LogiExpress,Completado,1684.25
+368,O00368,196,5,32,2026-01-04,Recojo programado,Pendiente,1679.63
+369,O00369,189,2,25,2026-05-11,Agencia,Completado,952.44
+370,O00370,130,5,36,2026-06-19,Portal empresarial,Cancelado,453.80
+371,O00371,23,3,14,2026-03-13,App LogiExpress,Completado,696.75
+372,O00372,27,4,7,2026-06-07,Recojo programado,Completado,48.00
+373,O00373,43,3,34,2026-06-18,Agencia,Pendiente,1002.28
+374,O00374,127,3,40,2026-04-08,Portal empresarial,Cancelado,915.04
+375,O00375,140,5,32,2026-02-27,App LogiExpress,Observado,589.56
+376,O00376,73,1,24,2026-04-06,Recojo programado,Observado,1018.04
+377,O00377,96,5,17,2026-04-02,Agencia,Pendiente,1019.83
+378,O00378,74,5,36,2026-05-26,Portal empresarial,Completado,78.22
+379,O00379,70,4,27,2026-04-15,App LogiExpress,Completado,175.00
+380,O00380,157,1,3,17/02/2026,Recojo programado,Observado,423.35
+381,O00381,148,6,39,2026-01-18,Agencia,Completado,142.75
+382,O00382,139,4,30,2026-01-26,Portal empresarial,Completado,220.00
+383,O00383,82,3,4,2026-02-20,App LogiExpress,Completado,139.32
+384,O00384,42,3,21,2026-01-22,Recojo programado,Completado,960.00
+385,O00385,9,5,23,2026-05-15,Agencia,Completado,11174.18
+386,O00386,166,1,14,2026-02-28,Portal empresarial,Completado,469.80
+387,O00387,111,2,12,2026-02-25,App LogiExpress,Pendiente,859.00
+388,O00388,3,5,8,2026-03-23,Recojo programado,Completado,3413.75
+389,O00389,27,5,2,2026-03-10,Agencia,Completado,222.48
+390,O00390,180,2,25,2026-06-07,Portal empresarial,Pendiente,1202.99
+391,O00391,173,3,35,2026-02-02,App LogiExpress,Completado,5847.57
+392,O00392,174,4,8,2026-04-11,Recojo programado,Cancelado,1836.78
+393,O00393,115,4,19,2026-02-23,Agencia,Cancelado,791.05
+394,O00394,127,6,18,2026-03-01,Portal empresarial,Pendiente,960.00
+395,O00395,45,4,28,2026-04-10,App LogiExpress,Pendiente,363.04
+396,O00396,28,5,40,2026-02-25,Recojo programado,Completado,366.14
+397,O00397,94,3,40,2026-02-06,Agencia,Completado,528.20
+398,O00398,57,2,29,2026-02-02,Portal empresarial,Completado,716.70
+399,O00399,69,6,11,2026-04-17,App LogiExpress,Pendiente,220.00
+400,O00400,151,3,25,11/05/2026,Recojo programado,Observado,1404.45
+401,O00401,130,2,15,20/04/2026,Agencia,Pendiente,1901.83
+402,O00402,64,2,33,2026-04-20,Portal empresarial,Completado,1004.36
+403,O00403,192,1,11,2026-06-11,App LogiExpress,Observado,600.32
+404,O00404,16,1,14,2026-01-01,Recojo programado,Cancelado,518.34
+405,O00405,46,3,,26/03/2026,Agencia,Completado,84.10
+406,O00406,96,1,27,2026-03-20,Portal empresarial,Completado,722.44
+407,O00407,88,5,34,2026-01-13,App LogiExpress,Completado,260.00
+408,O00408,183,6,12,2026-05-13,Recojo programado,Completado,272.28
+409,O00409,112,1,31,2026-05-20,Agencia,Observado,2730.29
+410,O00410,63,2,26,2026-05-13,Portal empresarial,Pendiente,500.91
+411,O00411,105,3,29,2026-06-01,App LogiExpress,Completado,869.50
+412,O00412,46,2,9,2026-05-08,Recojo programado,Completado,973.57
+413,O00413,50,6,18,10/06/2026,Agencia,Pendiente,556.20
+414,O00414,122,3,,2026-01-13,Portal empresarial,Observado,40.00
+415,O00415,108,3,22,2026-06-18,App LogiExpress,Completado,1272.18
+416,O00416,9060,1,25,2026-05-13,Recojo programado,Pendiente,807.02
+417,O00417,79,3,21,2026-01-06,Agencia,Observado,391.10
+418,O00418,29,2,9,2026-05-24,Portal empresarial,Completado,3168.67
+419,O00419,50,6,36,2026-06-27,App LogiExpress,Pendiente,1936.75
+420,O00420,178,4,16,2026-04-25,Recojo programado,Observado,530.64
+421,O00421,160,5,16,2026-02-24,Agencia,Completado,569.65
+422,O00422,163,4,9,2026-03-06,Portal empresarial,Completado,623.53
+423,O00423,42,5,21,2026-02-25,App LogiExpress,Cancelado,586.05
+424,O00424,3,2,39,2026-01-19,Recojo programado,Observado,1703.34
+425,O00425,163,3,25,2026-02-06,Agencia,Cancelado,1025.52
+426,O00426,197,1,34,2026-05-08,Portal empresarial,Pendiente,644.50
+427,O00427,9,6,19,11/03/2026,App LogiExpress,Completado,659.80
+428,O00428,84,4,24,2026-03-15,Recojo programado,Completado,1959.35
+429,O00429,126,6,35,2026-02-08,Agencia,Completado,596.93
+430,O00430,66,1,2,2026-02-19,Portal empresarial,Observado,63.91
+431,O00431,29,5,23,2026-03-20,App LogiExpress,Completado,182.21
+432,O00432,106,2,6,2026-06-10,Recojo programado,Completado,751.24
+433,O00433,140,3,18,2026-04-06,Agencia,Completado,1539.26
+434,O00434,161,1,37,2026-02-21,Portal empresarial,Observado,192.00
+435,O00435,198,2,25,2026-01-05,App LogiExpress,Completado,846.33
+436,O00436,173,3,12,2026-01-08,Recojo programado,Pendiente,266.94
+437,O00437,64,1,8,2026-05-24,Agencia,Completado,418.40
+438,O00438,138,1,13,2026-04-27,Portal empresarial,Completado,1468.88
+439,O00439,30,2,27,2026-05-12,App LogiExpress,Completado,2777.79
+440,O00440,70,4,1,2026-01-06,Recojo programado,Completado,1563.59
+441,O00441,158,4,25,2026-02-13,Agencia,Completado,876.81
+442,O00442,23,2,11,2026-05-24,Portal empresarial,Completado,2322.74
+443,O00443,10,6,1,2026-06-26,App LogiExpress,Completado,40.00
+444,O00444,16,3,11,2026-02-25,Recojo programado,Completado,1920.00
+445,O00445,106,1,28,2026-01-27,Agencia,Completado,1984.50
+446,O00446,33,3,8,2026-04-14,Portal empresarial,Completado,417.90
+447,O00447,110,5,13,01/01/2026,App LogiExpress,Cancelado,196.80
+448,O00448,2,2,38,2026-01-18,Recojo programado,Completado,3429.21
+449,O00449,82,4,40,2026-03-09,Agencia,Completado,1875.24
+450,O00450,82,6,20,2026-03-03,Portal empresarial,Completado,844.22
+451,O00451,170,1,10,2026-05-12,App LogiExpress,Completado,1757.10
+452,O00452,178,3,8,2026-06-12,Recojo programado,Cancelado,774.44
+453,O00453,186,5,14,2026-02-01,Agencia,Completado,1489.35
+454,O00454,20,5,25,2026-02-07,Portal empresarial,Completado,3012.19
+455,O00455,113,1,25,2026-05-13,App LogiExpress,Pendiente,520.00
+456,O00456,105,5,24,2026-06-25,Recojo programado,Completado,1973.4
+457,O00457,110,1,19,2026-03-05,Agencia,Observado,3004.43
+458,O00458,195,6,35,2026-03-19,Portal empresarial,Completado,1234.82
+459,O00459,23,2,7,2026-03-11,App LogiExpress,Observado,1186.23
+460,O00460,177,2,14,2026-01-07,Recojo programado,Completado,1174.23
+461,O00461,14,2,29,2026-03-19,Agencia,Pendiente,1046.68
+462,O00462,86,2,13,2026-05-03,Portal empresarial,Cancelado,1146.55
+463,O00463,86,3,30,2026-02-24,App LogiExpress,Completado,127.82
+464,O00464,170,4,1,2026-01-15,Recojo programado,Pendiente,695.25
+465,O00465,154,6,5,2026-01-07,Agencia,Completado,2175.05
+466,O00466,86,5,38,2026-06-04,Portal empresarial,Pendiente,2167.85
+467,O00467,20,5,14,2026-01-27,App LogiExpress,Pendiente,795.49
+468,O00468,180,3,20,2026-02-17,Recojo programado,Completado,105.60
+469,O00469,20,1,24,2026-04-10,Agencia,Completado,135.00
+470,O00470,182,6,2,2026-03-08,Portal empresarial,Completado,148.80
+471,O00471,102,3,7,2026-03-18,App LogiExpress,Cancelado,40.00
+472,O00472,170,3,11,2026-05-12,Recojo programado,Completado,648.43
+473,O00473,46,2,20,2026-04-10,Agencia,Completado,386.70
+474,O00474,29,2,3,2026-05-06,Portal empresarial,Completado,1150.53
+475,O00475,30,6,11,2026-05-25,App LogiExpress,Completado,833.48
+476,O00476,16,2,28,23/01/2026,Recojo programado,Completado,1089.66
+477,O00477,9844,5,13,2026-02-09,Agencia,Completado,1626.78
+478,O00478,107,6,8,2026-05-03,Portal empresarial,Pendiente,4003.02
+479,O00479,103,2,12,2026-05-12,App LogiExpress,Completado,1403.19
+480,O00480,121,1,34,2026-06-16,Recojo programado,Completado,3141.21
+481,O00481,14,6,16,2026-06-25,Agencia,Completado,1285.35
+482,O00482,85,3,39,2026-05-04,Portal empresarial,Completado,1053.75
+483,O00483,122,2,12,19/06/2026,App LogiExpress,Completado,2555.85
+484,O00484,86,3,15,2026-02-02,Recojo programado,Completado,1101.71
+485,O00485,96,6,34,2026-04-25,Agencia,Pendiente,746.16
+486,O00486,108,5,25,2026-02-01,Portal empresarial,Completado,411.40
+487,O00487,40,4,10,2026-04-04,App LogiExpress,Cancelado,946.44
+488,O00488,89,5,37,2026-03-27,Recojo programado,Completado,4156.30
+489,O00489,149,4,13,2026-02-25,Agencia,Cancelado,5869.33
+490,O00490,124,2,21,2026-02-05,Portal empresarial,Completado,1389.98
+491,O00491,195,6,38,2026-06-06,App LogiExpress,Completado,1480.43
+492,O00492,12,6,37,2026-04-23,Recojo programado,Completado,4088.00
+493,O00493,13,3,22,2026-02-13,Agencia,Observado,626.16
+494,O00494,77,6,28,2026-03-13,Portal empresarial,Completado,49.60
+495,O00495,130,3,33,2026-04-09,App LogiExpress,Pendiente,158.40
+496,O00496,162,4,3,19/03/2026,Recojo programado,Pendiente,287.26
+497,O00497,157,6,28,2026-03-05,Agencia,Pendiente,960.15
+498,O00498,152,2,14,2026-06-25,Portal empresarial,Pendiente,1594.00
+499,O00499,130,4,7,2026-05-08,App LogiExpress,Pendiente,1503.91
+500,O00500,9395,5,16,2026-01-08,Recojo programado,Completado,2056.00
+501,O00501,79,2,13,2026-05-15,Agencia,Completado,3171.16
+502,O00502,91,2,10,2026-03-16,Portal empresarial,Pendiente,86.64
+503,O00503,4,6,31,2026-02-13,App LogiExpress,Completado,926.40
+504,O00504,17,3,34,2026-06-28,Recojo programado,Pendiente,915.35
+505,O00505,9,1,25,2026-03-09,Agencia,Observado,2891.67
+506,O00506,47,1,19,01/03/2026,Portal empresarial,Observado,2171.67
+507,O00507,157,1,27,2026-03-15,App LogiExpress,Cancelado,995.03
+508,O00508,155,3,7,2026-05-23,Recojo programado,Completado,2554.07
+509,O00509,70,2,2,24/03/2026,Agencia,Completado,220.56
+510,O00510,145,5,15,2026-04-09,Portal empresarial,Completado,998.86
+511,O00511,42,4,29,2026-02-10,App LogiExpress,Cancelado,1042.83
+512,O00512,180,2,3,2026-03-03,Recojo programado,Completado,3807.60
+513,O00513,56,4,29,2026-05-13,Agencia,Cancelado,55.00
+514,O00514,109,1,21,2026-05-17,Portal empresarial,Completado,1809.84
+515,O00515,8,2,23,2026-04-02,App LogiExpress,Pendiente,156.95
+516,O00516,52,2,18,2026-05-10,Recojo programado,Completado,814.96
+517,O00517,107,3,33,13/04/2026,Agencia,Completado,866.10
+518,O00518,34,5,31,2026-06-14,Portal empresarial,Completado,1730.18
+519,O00519,83,3,29,2026-03-02,App LogiExpress,Completado,3179.56
+520,O00520,108,1,17,2026-05-09,Recojo programado,Completado,36.00
+521,O00521,68,3,8,2026-01-14,Agencia,Cancelado,1182.61
+522,O00522,104,3,19,2026-05-11,Portal empresarial,Pendiente,110.00
+523,O00523,199,1,11,2026-03-03,App LogiExpress,Cancelado,469.32
+524,O00524,128,4,9,2026-03-03,Recojo programado,Cancelado,1537.18
+525,O00525,123,4,21,2026-02-27,Agencia,Cancelado,1041.51
+526,O00526,140,4,17,2026-05-19,Portal empresarial,Completado,974.40
+527,O00527,118,5,14,2026-03-02,App LogiExpress,Cancelado,391.03
+528,O00528,38,6,19,26/01/2026,Recojo programado,Observado,773.40
+529,O00529,169,2,6,2026-05-02,Agencia,Completado,1038.25
+530,O00530,69,4,8,2026-05-15,Portal empresarial,Completado,1262.16
+531,O00531,152,1,14,2026-01-15,App LogiExpress,Completado,479.75
+532,O00532,138,5,38,2026-04-03,Recojo programado,Cancelado,1021.26
+533,O00533,57,6,9,2026-05-03,Agencia,Observado,1060.50
+534,O00534,155,3,11,2026-04-20,Portal empresarial,Pendiente,175.00
+535,O00535,114,6,22,2026-06-05,App LogiExpress,Completado,1943.75
+536,O00536,172,6,32,2026-02-01,Recojo programado,Cancelado,1991.44
+537,O00537,125,1,24,2026-06-10,Agencia,Completado,231.95
+538,O00538,167,3,40,2026-05-10,Portal empresarial,Pendiente,610.69
+539,O00539,192,6,36,2026-05-27,App LogiExpress,Completado,659.46
+540,O00540,156,5,4,2026-06-11,Recojo programado,Pendiente,127.82
+541,O00541,31,5,24,2026-04-03,Agencia,Observado,6061.72
+542,O00542,86,5,15,2026-05-12,Portal empresarial,Cancelado,1160.15
+543,O00543,149,3,5,11/01/2026,App LogiExpress,Pendiente,520.00
+544,O00544,173,6,14,2026-05-07,Recojo programado,Observado,3660.21
+545,O00545,80,5,27,2026-01-26,Agencia,Pendiente,73.60
+546,O00546,90,5,11,2026-04-22,Portal empresarial,Pendiente,796.79
+547,O00547,136,2,18,2026-05-08,App LogiExpress,Observado,1815.17
+548,O00548,115,4,26,2026-03-14,Recojo programado,Cancelado,812.40
+549,O00549,9030,2,6,23/02/2026,Agencia,Completado,570.00
+550,O00550,154,5,11,2026-04-16,Portal empresarial,Completado,251.09
+551,O00551,92,3,19,26/03/2026,App LogiExpress,Pendiente,2880.00
+552,O00552,166,5,2,2026-04-08,Recojo programado,Completado,637.27
+553,O00553,168,1,24,2026-05-06,Agencia,Pendiente,581.63
+554,O00554,180,3,5,2026-05-07,Portal empresarial,Completado,156.95
+555,O00555,92,5,15,2026-02-26,App LogiExpress,Pendiente,1500.10
+556,O00556,165,4,31,2026-03-11,Recojo programado,Cancelado,907.84
+557,O00557,130,1,4,2026-06-22,Agencia,Completado,1183.71
+558,O00558,61,5,24,2026-03-01,Portal empresarial,Completado,1604.50
+559,O00559,122,1,22,2026-06-15,App LogiExpress,Completado,2774.63
+560,O00560,147,3,9,2026-02-05,Recojo programado,Completado,1884.12
+561,O00561,170,2,33,08/02/2026,Agencia,Observado,284.00
+562,O00562,146,2,24,2026-04-17,Portal empresarial,Completado,180.80
+563,O00563,104,5,24,2026-02-13,App LogiExpress,Pendiente,2328.85
+564,O00564,97,2,13,2026-06-16,Recojo programado,Pendiente,792.79
+565,O00565,164,3,29,2026-01-11,Agencia,Completado,753.27
+566,O00566,200,5,7,2026-05-11,Portal empresarial,Completado,777.79
+567,O00567,182,1,29,2026-06-26,App LogiExpress,Observado,2441.64
+568,O00568,67,2,24,2026-02-10,Recojo programado,Pendiente,264.00
+569,O00569,78,1,23,2026-01-27,Agencia,Pendiente,756.47
+570,O00570,50,5,35,2026-02-26,Portal empresarial,Completado,3038.40
+571,O00571,80,2,28,2026-05-06,App LogiExpress,Completado,2080.00
+572,O00572,22,4,15,2026-05-14,Recojo programado,Observado,1508.67
+573,O00573,76,5,26,2026-04-18,Agencia,Completado,4150.44
+574,O00574,9,4,39,2026-03-23,Portal empresarial,Pendiente,1752.78
+575,O00575,34,5,22,2026-03-04,App LogiExpress,Cancelado,139.20
+576,O00576,42,1,28,2026-05-19,Recojo programado,Completado,631.54
+577,O00577,14,2,27,2026-05-07,Agencia,Pendiente,687.20
+578,O00578,42,5,39,2026-06-02,Portal empresarial,Completado,1355.67
+579,O00579,57,5,29,2026-03-22,App LogiExpress,Completado,-2355.71
+580,O00580,167,5,28,2026-02-07,Recojo programado,Completado,1098.42
+581,O00581,146,5,38,2026-01-20,Agencia,Completado,1534.15
+582,O00582,157,5,,2026-01-04,Portal empresarial,Cancelado,52.10
+583,O00583,132,5,20,12/05/2026,App LogiExpress,Cancelado,827.34
+584,O00584,63,2,22,2026-03-19,Recojo programado,Completado,2515.15
+585,O00585,198,1,31,2026-05-19,Agencia,Cancelado,320.00
+586,O00586,126,4,5,2026-04-09,Portal empresarial,Completado,1678.15
+587,O00587,144,1,19,2026-01-01,App LogiExpress,Completado,270.00
+588,O00588,71,5,36,2026-02-21,Recojo programado,Completado,220.00
+589,O00589,51,3,13,2026-01-07,Agencia,Completado,1307.52
+590,O00590,134,5,4,2026-04-01,Portal empresarial,Completado,352.00
+591,O00591,36,4,21,2026-02-08,App LogiExpress,Cancelado,1156.34
+592,O00592,159,6,12,2026-06-08,Recojo programado,Completado,72.20
+593,O00593,179,1,23,2026-01-10,Agencia,Completado,192.30
+594,O00594,98,2,34,12/01/2026,Portal empresarial,Pendiente,622.71
+595,O00595,179,2,16,2026-02-26,App LogiExpress,Completado,187.32
+596,O00596,55,2,14,2026-02-16,Recojo programado,Pendiente,482.72
+597,O00597,113,2,35,2026-02-02,Agencia,Completado,1338.42
+598,O00598,89,6,6,2026-04-18,Portal empresarial,Observado,1815.92
+599,O00599,60,3,7,2026-05-20,App LogiExpress,Completado,1332.25
+600,O00600,182,3,23,2026-01-20,Recojo programado,Completado,2034.80
+601,O00601,11,2,24,2026-03-09,Agencia,Completado,284.52
+602,O00602,108,5,2,2026-05-08,Portal empresarial,Cancelado,430.76
+603,O00603,38,3,6,2026-05-14,App LogiExpress,Completado,1483.80
+604,O00604,36,6,31,2026-01-02,Recojo programado,Completado,470.08
+605,O00605,152,1,16,12/06/2026,Agencia,Completado,2446.88
+606,O00606,184,4,19,2026-05-03,Portal empresarial,Pendiente,582.60
+607,O00607,184,1,13,2026-03-04,App LogiExpress,Cancelado,330.00
+608,O00608,96,3,9,2026-06-26,Recojo programado,Observado,827.18
+609,O00609,141,3,,2026-04-20,Agencia,Pendiente,439.24
+610,O00610,89,5,39,2026-04-24,Portal empresarial,Completado,270.00
+611,O00611,140,2,16,2026-03-27,App LogiExpress,Completado,742.68
+612,O00612,69,2,7,2026-04-22,Recojo programado,Cancelado,1240.62
+613,O00613,154,2,19,2026-02-13,Agencia,Cancelado,356.20
+614,O00614,98,3,,2026-04-19,Portal empresarial,Completado,404.02
+615,O00615,91,4,5,2026-06-16,App LogiExpress,Completado,3400.38
+616,O00616,88,4,20,2026-04-08,Recojo programado,Observado,303.73
+617,O00617,80,1,33,2026-06-24,Agencia,Pendiente,57.60
+618,O00618,121,3,36,2026-01-27,Portal empresarial,Completado,240.00
+619,O00619,70,4,1,2026-01-16,App LogiExpress,Completado,614.83
+620,O00620,136,6,17,2026-03-15,Recojo programado,Cancelado,557.24
+621,O00621,55,5,9,2026-04-15,Agencia,Completado,3254.52
+622,O00622,106,5,3,2026-02-02,Portal empresarial,Cancelado,1735.85
+623,O00623,130,2,19,2026-04-26,App LogiExpress,Completado,1600.00
+624,O00624,13,6,3,2026-01-03,Recojo programado,Completado,2083.02
+625,O00625,158,6,25,2026-04-09,Agencia,Completado,1322.10
+626,O00626,37,4,13,2026-03-22,Portal empresarial,Completado,2561.01
+627,O00627,95,4,21,2026-05-22,App LogiExpress,Completado,105.00
+628,O00628,161,4,36,2026-05-05,Recojo programado,Completado,81.60
+629,O00629,1,3,23,2026-04-12,Agencia,Completado,657.83
+630,O00630,90,5,29,2026-02-10,Portal empresarial,Completado,306.89
+631,O00631,163,6,27,2026-05-08,App LogiExpress,Completado,96.00
+632,O00632,88,4,4,2026-04-04,Recojo programado,Completado,177.60
+633,O00633,73,2,16,2026-01-09,Agencia,Completado,355.25
+634,O00634,118,4,12,2026-04-11,Portal empresarial,Completado,109.86
+635,O00635,138,2,34,2026-01-19,App LogiExpress,Observado,560.50
+636,O00636,95,4,7,2026-01-26,Recojo programado,Completado,1374.06
+637,O00637,127,3,39,2026-03-20,Agencia,Pendiente,938.77
+638,O00638,56,2,33,2026-02-22,Portal empresarial,Completado,1620.10
+639,O00639,103,3,16,2026-03-28,App LogiExpress,Pendiente,779.02
+640,O00640,136,2,7,2026-02-10,Recojo programado,Cancelado,3132.28
+641,O00641,9,1,24,2026-03-11,Agencia,Cancelado,1611.33
+642,O00642,189,3,5,25/03/2026,Portal empresarial,Cancelado,64.10
+643,O00643,190,3,8,2026-03-05,App LogiExpress,Completado,1114.71
+644,O00644,147,2,33,2026-06-06,Recojo programado,Completado,306.76
+645,O00645,136,1,15,2026-05-13,Agencia,Pendiente,501.50
+646,O00646,165,5,4,2026-02-05,Portal empresarial,Observado,2165.55
+647,O00647,47,6,33,2026-05-23,App LogiExpress,Completado,285.00
+648,O00648,185,4,10,2026-05-24,Recojo programado,Completado,383.46
+649,O00649,103,3,13,2026-06-26,Agencia,Completado,2905.25
+650,O00650,110,1,16,2026-02-21,Portal empresarial,Completado,459.74
+651,O00651,21,2,37,2026-01-13,App LogiExpress,Completado,397.81
+652,O00652,138,6,14,2026-04-07,Recojo programado,Completado,3082.20
+653,O00653,193,2,1,2026-02-09,Agencia,Observado,1653.27
+654,O00654,101,4,31,2026-02-08,Portal empresarial,Completado,2988.72
+655,O00655,196,6,11,2026-01-03,App LogiExpress,Completado,516.30
+656,O00656,78,5,10,11/04/2026,Recojo programado,Cancelado,144.80
+657,O00657,13,1,,2026-03-15,Agencia,Completado,1871.30
+658,O00658,25,3,9,2026-03-11,Portal empresarial,Completado,889.64
+659,O00659,94,4,17,2026-04-11,App LogiExpress,Completado,763.46
+660,O00660,187,2,22,2026-01-28,Recojo programado,Pendiente,983.40
+661,O00661,89,4,26,2026-03-23,Agencia,Completado,949.26
+662,O00662,41,4,6,2026-03-23,Portal empresarial,Completado,2218.55
+663,O00663,173,1,24,2026-05-27,App LogiExpress,Completado,879.03
+664,O00664,122,6,25,2026-04-13,Recojo programado,Completado,130.25
+665,O00665,32,1,27,2026-03-28,Agencia,Completado,1506.54
+666,O00666,36,4,31,2026-01-10,Portal empresarial,Observado,165.00
+667,O00667,69,6,31,04/01/2026,App LogiExpress,Completado,960.00
+668,O00668,106,6,17,2026-01-09,Recojo programado,Cancelado,330.00
+669,O00669,159,5,14,2026-04-19,Agencia,Pendiente,394.50
+670,O00670,27,1,,2026-04-13,Portal empresarial,Cancelado,48.00
+671,O00671,9027,5,16,2026-02-27,App LogiExpress,Completado,26.05
+672,O00672,190,5,34,2026-03-15,Recojo programado,Observado,1725.13
+673,O00673,79,5,10,2026-03-15,Agencia,Completado,1118.64
+674,O00674,55,1,,2026-05-09,Portal empresarial,Cancelado,105.00
+675,O00675,149,5,25,2026-01-20,App LogiExpress,Observado,349.20
+676,O00676,190,3,40,2026-01-14,Recojo programado,Pendiente,1144.81
+677,O00677,96,6,18,27/06/2026,Agencia,Completado,1488.09
+678,O00678,49,5,27,2026-06-21,Portal empresarial,Cancelado,613.55
+679,O00679,57,6,23,2026-01-06,App LogiExpress,Completado,1009.12
+680,O00680,193,5,39,2026-03-11,Recojo programado,Cancelado,307.20
+681,O00681,8,6,36,2026-05-19,Agencia,Completado,40.00
+682,O00682,184,1,15,2026-03-12,Portal empresarial,Completado,-3092.06
+683,O00683,150,4,29,2026-05-02,App LogiExpress,Completado,21.50
+684,O00684,157,3,14,2026-04-25,Recojo programado,Completado,4166.30
+685,O00685,103,4,11,2026-05-26,Agencia,Pendiente,288.00
+686,O00686,4,3,21,2026-01-22,Portal empresarial,Cancelado,1866.45
+687,O00687,113,5,12,2026-04-07,App LogiExpress,Completado,2193.90
+688,O00688,168,3,18,2026-06-17,Recojo programado,Pendiente,3633.27
+689,O00689,194,6,29,2026-02-23,Agencia,Completado,640.04
+690,O00690,120,3,20,2026-04-04,Portal empresarial,Observado,1716.54
+691,O00691,23,1,1,2026-06-05,App LogiExpress,Completado,876.42
+692,O00692,100,1,3,2026-05-10,Recojo programado,Cancelado,371.50
+693,O00693,127,6,9,2026-02-21,Agencia,Observado,225.60
+694,O00694,45,2,39,2026-04-23,Portal empresarial,Completado,1408.01
+695,O00695,148,1,34,2026-05-10,App LogiExpress,Completado,497.40
+696,O00696,90,2,21,2026-04-11,Recojo programado,Pendiente,1350.06
+697,O00697,59,3,37,2026-01-18,Agencia,Observado,1770.00
+698,O00698,1,4,28,2026-03-12,Portal empresarial,Completado,640.00
+699,O00699,18,6,40,2026-02-13,App LogiExpress,Completado,510.25
+700,O00700,38,6,11,2026-06-10,Recojo programado,Completado,119.24
+701,O00701,143,1,3,2026-01-14,Agencia,Completado,645.63
+702,O00702,152,2,27,2026-01-14,Portal empresarial,Completado,1441.24
+703,O00703,26,2,38,19/03/2026,App LogiExpress,Completado,225.00
+704,O00704,155,4,22,2026-05-07,Recojo programado,Completado,527.46
+705,O00705,83,5,17,2026-01-16,Agencia,Completado,484.62
+706,O00706,117,4,5,18/03/2026,Portal empresarial,Completado,1588.88
+707,O00707,40,6,36,2026-01-16,App LogiExpress,Completado,798.76
+708,O00708,115,6,39,2026-02-02,Recojo programado,Completado,285.00
+709,O00709,199,2,19,2026-06-03,Agencia,Completado,5652.32
+710,O00710,10,6,1,2026-04-08,Portal empresarial,Completado,2258.66
+711,O00711,117,3,28,2026-02-14,App LogiExpress,Cancelado,982.07
+712,O00712,114,2,8,2026-01-25,Recojo programado,Completado,60.00
+713,O00713,19,3,31,2026-06-06,Agencia,Completado,1015.61
+714,O00714,123,2,,10/01/2026,Portal empresarial,Completado,995.04
+715,O00715,33,6,14,2026-01-05,App LogiExpress,Completado,1236.95
+716,O00716,41,3,10,2026-04-03,Recojo programado,Completado,3813.45
+717,O00717,176,6,2,2026-05-18,Agencia,Pendiente,2376.24
+718,O00718,129,2,37,2026-06-01,Portal empresarial,Pendiente,24.00
+719,O00719,56,4,15,2026-04-28,App LogiExpress,Cancelado,721.42
+720,O00720,127,6,14,2026-01-22,Recojo programado,Pendiente,132.00
+721,O00721,37,1,7,2026-02-19,Agencia,Cancelado,990.19
+722,O00722,169,2,13,2026-02-10,Portal empresarial,Pendiente,72.20
+723,O00723,164,3,37,2026-02-22,App LogiExpress,Completado,4314.63
+724,O00724,162,3,11,2026-03-13,Recojo programado,Cancelado,302.40
+725,O00725,138,3,1,2026-05-02,Agencia,Completado,1169.90
+726,O00726,106,6,9,2026-02-25,Portal empresarial,Completado,3128.05
+727,O00727,165,5,18,2026-06-25,App LogiExpress,Completado,-2673.04
+728,O00728,16,3,25,2026-04-24,Recojo programado,Pendiente,890.35
+729,O00729,168,2,20,22/06/2026,Agencia,Completado,3152.55
+730,O00730,10,3,8,2026-04-20,Portal empresarial,Observado,1195.26
+731,O00731,153,5,39,2026-04-23,App LogiExpress,Completado,1144.77
+732,O00732,12,2,15,20/02/2026,Recojo programado,Completado,81.60
+733,O00733,191,2,14,2026-04-19,Agencia,Pendiente,430.52
+734,O00734,115,6,11,2026-03-25,Portal empresarial,Completado,64.50
+735,O00735,127,5,12,2026-05-02,App LogiExpress,Completado,934.60
+736,O00736,149,4,,2026-06-08,Recojo programado,Completado,379.42
+737,O00737,105,6,27,2026-05-18,Agencia,Completado,316.42
+738,O00738,171,5,18,2026-01-16,Portal empresarial,Cancelado,444.96
+739,O00739,54,3,25,2026-05-09,App LogiExpress,Cancelado,960.00
+740,O00740,9142,4,30,2026-02-07,Recojo programado,Cancelado,1382.72
+741,O00741,44,5,14,2026-01-18,Agencia,Completado,1163.00
+742,O00742,9312,3,25,2026-02-03,Portal empresarial,Pendiente,243.75
+743,O00743,155,6,13,18/05/2026,App LogiExpress,Completado,474.63
+744,O00744,130,1,20,2026-02-06,Recojo programado,Pendiente,907.52
+745,O00745,101,3,35,2026-01-21,Agencia,Completado,1255.45
+746,O00746,96,2,31,2026-05-21,Portal empresarial,Cancelado,10.75
+747,O00747,149,4,9,2026-06-13,App LogiExpress,Cancelado,5868.13
+748,O00748,47,2,6,2026-06-14,Recojo programado,Completado,2122.15
+749,O00749,127,1,21,2026-01-09,Agencia,Completado,3780.75
+750,O00750,186,2,27,2026-04-04,Portal empresarial,Completado,380.00
+751,O00751,157,1,39,10/03/2026,App LogiExpress,Completado,4097.24
+752,O00752,151,2,10,2026-04-18,Recojo programado,Completado,175.00
+753,O00753,100,4,33,2026-05-27,Agencia,Observado,1667.45
+754,O00754,178,1,7,2026-04-13,Portal empresarial,Completado,2621.35
+755,O00755,53,5,34,2026-02-27,App LogiExpress,Completado,163.20
+756,O00756,69,6,30,2026-01-07,Recojo programado,Completado,2449.32
+757,O00757,33,6,4,2026-01-21,Agencia,Completado,317.80
+758,O00758,11,2,4,2026-02-20,Portal empresarial,Completado,861.60
+759,O00759,10,2,30,2026-06-21,App LogiExpress,Completado,3981.34
+760,O00760,177,6,31,2026-05-08,Recojo programado,Cancelado,572.00
+761,O00761,170,3,40,2026-04-13,Agencia,Completado,682.92
+762,O00762,166,5,1,2026-01-16,Portal empresarial,Completado,575.46
+763,O00763,65,5,8,2026-04-06,App LogiExpress,Completado,3268.09
+764,O00764,112,4,13,2026-05-23,Recojo programado,Completado,156.30
+765,O00765,40,2,27,2026-04-28,Agencia,Pendiente,3856.45
+766,O00766,25,1,12,2026-06-21,Portal empresarial,Completado,505.00
+767,O00767,104,3,31,2026-06-16,App LogiExpress,Completado,2393.00
+768,O00768,28,3,9,2026-04-07,Recojo programado,Pendiente,1388.68
+769,O00769,132,5,9,2026-02-12,Agencia,Cancelado,2554.50
+770,O00770,122,6,39,2026-05-17,Portal empresarial,Completado,190.00
+771,O00771,53,5,40,2026-04-23,App LogiExpress,Completado,1350.06
+772,O00772,62,2,4,2026-05-26,Recojo programado,Completado,1690.35
+773,O00773,200,2,35,2026-06-16,Agencia,Cancelado,3437.03
+774,O00774,22,1,31,2026-04-17,Portal empresarial,Completado,-126.75
+775,O00775,66,3,14,2026-01-03,App LogiExpress,Cancelado,1602.62
+776,O00776,71,5,9,2026-02-07,Recojo programado,Completado,124.39
+777,O00777,46,5,37,14/04/2026,Agencia,Completado,1435.86
+778,O00778,84,3,21,2026-04-08,Portal empresarial,Completado,544.83
+779,O00779,176,6,35,2026-04-15,App LogiExpress,Completado,1542.20
+780,O00780,198,1,6,2026-06-16,Recojo programado,Completado,328.88
+781,O00781,182,6,3,22/06/2026,Agencia,Pendiente,521.62
+782,O00782,132,5,17,2026-04-06,Portal empresarial,Completado,486.32
+783,O00783,37,3,17,2026-03-17,App LogiExpress,Cancelado,1094.96
+784,O00784,118,4,37,2026-02-25,Recojo programado,Pendiente,287.73
+785,O00785,112,1,26,2026-04-25,Agencia,Pendiente,262.90
+786,O00786,51,6,4,2026-03-28,Portal empresarial,Completado,895.83
+787,O00787,37,1,6,2026-02-08,App LogiExpress,Completado,201.84
+788,O00788,124,1,29,2026-04-27,Recojo programado,Completado,189.00
+789,O00789,109,6,36,2026-06-15,Agencia,Completado,201.60
+790,O00790,51,3,24,2026-03-28,Portal empresarial,Cancelado,296.44
+791,O00791,114,5,24,2026-06-03,App LogiExpress,Completado,776.10
+792,O00792,3,3,40,2026-01-25,Recojo programado,Completado,459.55
+793,O00793,123,5,18,2026-06-08,Agencia,Pendiente,2282.80
+794,O00794,94,1,1,2026-05-08,Portal empresarial,Pendiente,2837.77
+795,O00795,118,4,29,2026-05-06,App LogiExpress,Completado,180.00
+796,O00796,64,2,20,2026-03-19,Recojo programado,Completado,999.60
+797,O00797,127,6,16,2026-04-11,Agencia,Completado,461.60
+798,O00798,165,3,35,2026-01-15,Portal empresarial,Completado,1350.45
+799,O00799,155,1,9,01/06/2026,App LogiExpress,Completado,394.05
+800,O00800,41,5,14,2026-05-16,Recojo programado,Observado,71.00
+801,O00801,143,4,21,2026-06-27,Agencia,Completado,316.42
+802,O00802,99,6,8,2026-01-02,Portal empresarial,Completado,253.88
+803,O00803,156,2,11,2026-05-19,App LogiExpress,Completado,211.44
+804,O00804,62,6,26,2026-06-17,Recojo programado,Pendiente,2177.09
+805,O00805,159,4,16,2026-05-01,Agencia,Pendiente,277.56
+806,O00806,28,3,4,2026-03-12,Portal empresarial,Pendiente,1798.22
+807,O00807,103,4,16,2026-06-14,App LogiExpress,Completado,240.00
+808,O00808,192,1,10,2026-04-17,Recojo programado,Completado,4980.47
+809,O00809,127,1,30,2026-01-04,Agencia,Pendiente,423.00
+810,O00810,177,3,37,2026-05-24,Portal empresarial,Observado,1539.68
+811,O00811,70,5,,2026-05-13,App LogiExpress,Cancelado,1117.69
+812,O00812,139,3,23,2026-05-28,Recojo programado,Observado,363.04
+813,O00813,65,2,40,2026-01-19,Agencia,Completado,72.00
+814,O00814,105,5,21,2026-05-08,Portal empresarial,Completado,1008.91
+815,O00815,56,2,31,2026-06-24,App LogiExpress,Completado,776.54
+816,O00816,68,3,33,2026-03-06,Recojo programado,Cancelado,1809.62
+817,O00817,185,1,21,2026-03-25,Agencia,Completado,2752.59
+818,O00818,129,1,22,2026-01-02,Portal empresarial,Completado,1114.65
+819,O00819,175,4,26,2026-06-11,App LogiExpress,Completado,2714.07
+820,O00820,112,1,13,2026-04-27,Recojo programado,Completado,465.06
+821,O00821,36,3,19,2026-05-07,Agencia,Completado,1082.96
+822,O00822,5,1,39,2026-05-25,Portal empresarial,Completado,817.47
+823,O00823,19,4,11,2026-04-14,App LogiExpress,Pendiente,1306.45
+824,O00824,33,3,33,2026-06-03,Recojo programado,Completado,2573.48
+825,O00825,170,1,15,2026-06-25,Agencia,Completado,64.50
+826,O00826,96,1,7,2026-03-17,Portal empresarial,Completado,240.59
+827,O00827,54,4,1,2026-02-19,App LogiExpress,Completado,272.55
+828,O00828,161,4,33,2026-02-05,Recojo programado,Completado,2400.00
+829,O00829,113,1,2,2026-03-20,Agencia,Pendiente,1295.51
+830,O00830,189,2,22,2026-02-23,Portal empresarial,Completado,563.70
+831,O00831,88,1,22,2026-04-11,App LogiExpress,Completado,337.60
+832,O00832,105,2,23,2026-04-17,Recojo programado,Pendiente,1244.71
+833,O00833,157,3,17,2026-02-20,Agencia,Cancelado,1847.29
+834,O00834,39,3,16,2026-03-17,Portal empresarial,Pendiente,656.75
+835,O00835,28,3,32,2026-03-11,App LogiExpress,Cancelado,487.71
+836,O00836,95,4,3,2026-05-25,Recojo programado,Completado,614.93
+837,O00837,165,1,28,2026-05-14,Agencia,Completado,243.92
+838,O00838,31,5,5,2026-03-12,Portal empresarial,Completado,4153.36
+839,O00839,64,2,2,14/02/2026,App LogiExpress,Completado,8866.15
+840,O00840,5,3,32,2026-06-22,Recojo programado,Observado,3400.00
+841,O00841,17,4,4,2026-06-11,Agencia,Pendiente,401.12
+842,O00842,4,1,28,2026-03-12,Portal empresarial,Completado,355.00
+843,O00843,102,1,23,2026-01-26,App LogiExpress,Completado,599.24
+844,O00844,53,4,39,2026-03-20,Recojo programado,Completado,706.18
+845,O00845,47,4,6,2026-01-03,Agencia,Completado,333.72
+846,O00846,24,2,36,2026-05-03,Portal empresarial,Completado,2400.00
+847,O00847,110,2,1,2026-06-11,App LogiExpress,Completado,314.24
+848,O00848,151,3,7,2026-04-23,Recojo programado,Completado,24.00
+849,O00849,187,4,5,2026-06-09,Agencia,Pendiente,341.35
+850,O00850,17,1,15,2026-03-28,Portal empresarial,Pendiente,100.80
+851,O00851,137,6,10,2026-01-13,App LogiExpress,Pendiente,296.28
+852,O00852,100,4,40,2026-01-02,Recojo programado,Observado,1639.57
+853,O00853,35,1,10,2026-02-18,Agencia,Pendiente,1710.54
+854,O00854,117,5,6,2026-04-01,Portal empresarial,Completado,202.45
+855,O00855,104,2,26,2026-01-07,App LogiExpress,Completado,291.48
+856,O00856,176,6,34,2026-06-13,Recojo programado,Completado,344.60
+857,O00857,83,4,25,2026-03-14,Agencia,Cancelado,333.72
+858,O00858,111,1,13,2026-02-15,Portal empresarial,Observado,2297.44
+859,O00859,106,5,14,2026-04-08,App LogiExpress,Pendiente,210.00
+860,O00860,4,1,30,2026-06-08,Recojo programado,Pendiente,1645.25
+861,O00861,51,6,24,2026-03-18,Agencia,Pendiente,3045.00
+862,O00862,197,3,7,2026-01-28,Portal empresarial,Completado,880.01
+863,O00863,17,2,24,2026-03-21,App LogiExpress,Completado,2083.89
+864,O00864,133,4,12,2026-05-20,Recojo programado,Completado,1472.88
+865,O00865,131,4,39,2026-06-28,Agencia,Completado,762.80
+866,O00866,53,5,34,2026-03-23,Portal empresarial,Completado,1165.40
+867,O00867,152,5,22,07/01/2026,App LogiExpress,Completado,952.88
+868,O00868,21,2,10,2026-06-23,Recojo programado,Completado,2230.24
+869,O00869,81,5,30,2026-06-12,Agencia,Cancelado,791.05
+870,O00870,139,3,17,2026-01-15,Portal empresarial,Completado,992.98
+871,O00871,64,4,7,2026-01-17,App LogiExpress,Completado,2577.04
+872,O00872,53,2,13,2026-03-10,Recojo programado,Cancelado,939.17
+873,O00873,115,1,25,2026-04-07,Agencia,Completado,389.75
+874,O00874,19,4,30,2026-02-17,Portal empresarial,Cancelado,411.07
+875,O00875,37,5,14,2026-05-13,App LogiExpress,Completado,28.88
+876,O00876,192,3,25,2026-04-01,Recojo programado,Observado,992.05
+877,O00877,155,2,4,2026-02-07,Agencia,Pendiente,284.78
+878,O00878,142,2,16,28/06/2026,Portal empresarial,Pendiente,1664.94
+879,O00879,30,6,33,2026-05-22,App LogiExpress,Observado,2159.90
+880,O00880,74,6,22,2026-01-19,Recojo programado,Observado,3365.56
+881,O00881,152,6,35,2026-05-17,Agencia,Completado,1008.00
+882,O00882,169,5,37,2026-01-06,Portal empresarial,Completado,947.30
+883,O00883,109,5,29,2026-05-07,App LogiExpress,Completado,706.25
+884,O00884,55,6,31,2026-01-18,Recojo programado,Completado,226.73
+885,O00885,152,3,26,2026-05-08,Agencia,Completado,894.55
+886,O00886,45,2,19,2026-01-02,Portal empresarial,Completado,1943.87
+887,O00887,190,3,24,2026-02-22,App LogiExpress,Completado,1468.83
+888,O00888,51,3,33,2026-01-17,Recojo programado,Completado,104.20
+889,O00889,14,1,27,2026-04-20,Agencia,Pendiente,319.55
+890,O00890,9,2,3,2026-03-28,Portal empresarial,Completado,77.56
+891,O00891,7,1,35,2026-04-03,App LogiExpress,Completado,893.74
+892,O00892,155,1,10,16/03/2026,Recojo programado,Completado,1676.34
+893,O00893,48,5,25,2026-04-09,Agencia,Pendiente,915.35
+894,O00894,55,3,2,2026-04-23,Portal empresarial,Observado,1177.62
+895,O00895,21,1,18,26/03/2026,App LogiExpress,Completado,943.19
+896,O00896,135,1,11,2026-05-15,Recojo programado,Completado,7808.52
+897,O00897,95,2,34,2026-03-20,Agencia,Observado,544.56
+898,O00898,67,1,12,2026-05-23,Portal empresarial,Completado,647.89
+899,O00899,160,4,19,2026-01-18,App LogiExpress,Completado,1391.24
+900,O00900,12,3,29,2026-06-02,Recojo programado,Cancelado,1271.60
+901,O00901,154,4,4,2026-05-25,Agencia,Completado,3021.02
+902,O00902,24,3,39,2026-06-20,Portal empresarial,Observado,1956.75
+903,O00903,168,5,38,2026-01-05,App LogiExpress,Cancelado,553.04
+904,O00904,49,1,39,16/01/2026,Recojo programado,Cancelado,1560.00
+905,O00905,153,2,34,05/02/2026,Agencia,Completado,961.90
+906,O00906,94,4,18,11/05/2026,Portal empresarial,Completado,2650.05
+907,O00907,79,6,38,2026-06-01,App LogiExpress,Completado,504.39
+908,O00908,135,2,12,2026-03-07,Recojo programado,Cancelado,328.00
+909,O00909,68,4,21,2026-04-18,Agencia,Cancelado,780.00
+910,O00910,10,5,26,2026-06-11,Portal empresarial,Completado,275.00
+911,O00911,197,5,3,2026-02-25,App LogiExpress,Pendiente,271.80
+912,O00912,21,2,33,2026-01-22,Recojo programado,Completado,2083.70
+913,O00913,54,4,26,2026-03-03,Agencia,Completado,909.51
+914,O00914,55,3,33,2026-06-16,Portal empresarial,Pendiente,1407.08
+915,O00915,175,1,16,05/06/2026,App LogiExpress,Completado,5213.47
+916,O00916,77,3,11,15/05/2026,Recojo programado,Completado,3188.10
+917,O00917,196,3,37,2026-01-19,Agencia,Completado,4418.55
+918,O00918,182,5,1,2026-02-11,Portal empresarial,Completado,1920.00
+919,O00919,106,2,40,2026-01-08,App LogiExpress,Observado,2344.55
+920,O00920,184,2,36,2026-06-04,Recojo programado,Completado,1208.73
+921,O00921,134,2,16,2026-01-03,Agencia,Completado,2400.00
+922,O00922,94,2,1,2026-01-04,Portal empresarial,Pendiente,1220.82
+923,O00923,61,1,37,2026-01-07,App LogiExpress,Observado,1113.73
+924,O00924,7,5,21,20/06/2026,Recojo programado,Completado,1351.24
+925,O00925,56,4,25,2026-02-28,Agencia,Pendiente,797.88
+926,O00926,128,6,29,2026-05-12,Portal empresarial,Completado,1309.36
+927,O00927,47,6,35,2026-01-22,App LogiExpress,Completado,1735.85
+928,O00928,82,1,12,2026-05-09,Recojo programado,Completado,2775.84
+929,O00929,35,4,29,2026-04-21,Agencia,Completado,36.00
+930,O00930,66,5,39,2026-05-04,Portal empresarial,Completado,446.32
+931,O00931,7,5,5,2026-02-16,App LogiExpress,Pendiente,2023.26
+932,O00932,39,4,16,2026-04-15,Recojo programado,Completado,827.76
+933,O00933,93,6,30,2026-05-28,Agencia,Completado,640.00
+934,O00934,33,3,28,2026-04-22,Portal empresarial,Completado,874.60
+935,O00935,88,6,1,27/02/2026,App LogiExpress,Pendiente,4237.66
+936,O00936,74,1,4,2026-04-11,Recojo programado,Completado,1200.26
+937,O00937,114,2,34,2026-02-20,Agencia,Completado,55.00
+938,O00938,145,2,10,2026-03-16,Portal empresarial,Completado,2022.80
+939,O00939,72,2,30,2026-03-13,App LogiExpress,Completado,755.48
+940,O00940,115,4,36,2026-06-04,Recojo programado,Completado,2880.00
+941,O00941,36,1,26,18/04/2026,Agencia,Completado,220.00
+942,O00942,102,6,30,2026-06-22,Portal empresarial,Pendiente,914.34
+943,O00943,109,3,14,2026-04-05,App LogiExpress,Completado,1348.04
+944,O00944,147,6,25,2026-02-05,Recojo programado,Completado,693.38
+945,O00945,58,1,5,2026-01-25,Agencia,Completado,945.29
+946,O00946,155,1,32,2026-01-19,Portal empresarial,Observado,1619.39
+947,O00947,65,4,24,2026-05-07,App LogiExpress,Completado,150.75
+948,O00948,197,5,13,2026-01-19,Recojo programado,Completado,1556.00
+949,O00949,70,6,8,2026-04-22,Agencia,Completado,276.64
+950,O00950,94,5,24,2026-01-25,Portal empresarial,Completado,48.00
+951,O00951,22,4,25,2026-04-23,App LogiExpress,Completado,1375.69
+952,O00952,178,2,6,2026-05-28,Recojo programado,Completado,192.00
+953,O00953,35,1,21,2026-05-26,Agencia,Pendiente,3151.23
+954,O00954,87,3,28,2026-02-27,Portal empresarial,Pendiente,667.44
+955,O00955,200,3,,2026-03-26,App LogiExpress,Cancelado,122.40
+956,O00956,131,5,18,2026-06-24,Recojo programado,Completado,328.34
+957,O00957,174,6,10,2026-01-18,Agencia,Cancelado,1693.80
+958,O00958,136,1,17,2026-05-05,Portal empresarial,Observado,2224.00
+959,O00959,73,1,5,2026-04-08,App LogiExpress,Completado,112.50
+960,O00960,118,4,26,2026-05-08,Recojo programado,Cancelado,1307.17
+961,O00961,4,6,23,2026-02-24,Agencia,Completado,1276.32
+962,O00962,98,6,23,2026-04-15,Portal empresarial,Completado,966.94
+963,O00963,124,5,6,2026-05-09,App LogiExpress,Completado,340.80
+964,O00964,36,6,29,20/06/2026,Recojo programado,Completado,445.14
+965,O00965,77,5,17,2026-06-12,Agencia,Completado,1106.68
+966,O00966,27,6,27,2026-04-03,Portal empresarial,Completado,38.40
+967,O00967,129,2,35,2026-05-26,App LogiExpress,Completado,789.84
+968,O00968,50,5,39,2026-05-15,Recojo programado,Completado,675.50
+969,O00969,44,4,16,2026-05-19,Agencia,Completado,472.92
+970,O00970,119,6,,2026-05-21,Portal empresarial,Completado,3893.46
+971,O00971,9816,1,21,2026-04-16,App LogiExpress,Cancelado,589.90
+972,O00972,6,5,21,2026-05-03,Recojo programado,Completado,272.60
+973,O00973,133,4,14,2026-04-04,Agencia,Pendiente,960.00
+974,O00974,2,6,15,2026-04-04,Portal empresarial,Completado,1022.44
+975,O00975,166,4,31,2026-03-17,App LogiExpress,Observado,2400.00
+976,O00976,155,6,36,2026-04-20,Recojo programado,Pendiente,3899.02
+977,O00977,28,4,28,2026-06-16,Agencia,Completado,2666.19
+978,O00978,146,6,15,2026-03-28,Portal empresarial,Completado,742.79
+979,O00979,165,5,40,2026-02-12,App LogiExpress,Completado,1847.09
+980,O00980,197,2,35,2026-03-12,Recojo programado,Cancelado,225.01
+981,O00981,136,2,12,2026-04-21,Agencia,Cancelado,280.76
+982,O00982,99,5,30,2026-02-12,Portal empresarial,Completado,1076.56
+983,O00983,97,4,36,2026-04-03,App LogiExpress,Pendiente,1160.80
+984,O00984,89,4,23,2026-05-06,Recojo programado,Completado,188.90
+985,O00985,81,2,13,2026-02-21,Agencia,Completado,2300.00
+986,O00986,1,2,37,2026-04-05,Portal empresarial,Completado,351.02
+987,O00987,169,3,4,2026-03-19,App LogiExpress,Cancelado,637.70
+988,O00988,74,2,4,2026-06-16,Recojo programado,Completado,2265.42
+989,O00989,2,4,15,2026-01-24,Agencia,Cancelado,334.47
+990,O00990,10,6,17,2026-04-02,Portal empresarial,Completado,630.67
+991,O00991,9774,6,1,2026-05-03,App LogiExpress,Completado,1466.62
+992,O00992,175,1,1,2026-06-03,Recojo programado,Pendiente,1384.35
+993,O00993,182,5,6,12/05/2026,Agencia,Completado,79.20
+994,O00994,109,4,32,2026-02-19,Portal empresarial,Completado,849.15
+995,O00995,8,2,10,2026-03-24,App LogiExpress,Cancelado,2671.08
+996,O00996,171,3,3,2026-03-15,Recojo programado,Observado,175.00
+997,O00997,187,5,2,2026-05-17,Agencia,Completado,53.75
+998,O00998,117,5,4,2026-06-24,Portal empresarial,Completado,1037.12
+999,O00999,148,3,24,2026-06-12,App LogiExpress,Completado,979.00
+1000,O01000,94,3,7,2026-02-12,Recojo programado,Completado,2218.43
+1001,O01001,129,1,22,2026-01-02,Agencia,Completado,2467.16
+1002,O01002,172,5,18,2026-02-06,Portal empresarial,Completado,4079.07
+1003,O01003,93,3,31,2026-02-07,App LogiExpress,Cancelado,760.18
+1004,O01004,65,1,9,2026-06-28,Recojo programado,Completado,2759.44
+1005,O01005,195,6,35,2026-03-19,Agencia,Completado,4038.92
+1006,O01006,76,3,6,2026-01-16,Portal empresarial,Completado,3709.41
+1007,O01007,132,5,17,2026-04-06,App LogiExpress,Completado,1138.08
+1008,O01008,114,6,22,2026-06-05,Recojo programado,Completado,5888.82
+1009,O01009,58,3,24,2026-01-21,Agencia,Pendiente,3327.98
+1010,O01010,2,3,40,2026-04-18,Portal empresarial,Cancelado,5729.9

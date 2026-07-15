@@ -1,7 +1,7 @@
-﻿id_sede,codigo_sede,nombre_sede,distrito_sede,responsable
-1,S001,Sede Centro 1,Ate,Administraci?n
-2,S002,Sede Norte 2,Miraflores,Administraci?n
-3,S003,Sede Oeste 3,Miraflores,Calidad
-4,S004,Sede Principal 4,San Miguel,Operaciones
-5,S005,Sede Sur 5,Comas,Comercial
-6,S006,Sede Centro 6,Comas,Operaciones
+id_sede,codigo_sede,nombre_sede,distrito_sede,responsable
+1,VSS01,Clínica VitalSalud Cercado de Lima,Cercado de Lima,Jorge Espinoza
+2,VSS02,Clínica VitalSalud San Miguel,San Miguel,Milagros Zevallos
+3,VSS03,Clínica VitalSalud Jesús María,Jesús María,Pamela Torres
+4,VSS04,Clínica VitalSalud Los Olivos,Los Olivos,Luis Zevallos
+5,VSS05,Clínica VitalSalud Santiago de Surco,Santiago de Surco,Iván Zevallos
+6,VSS06,Clínica VitalSalud San Borja,San Borja,Luis Salazar

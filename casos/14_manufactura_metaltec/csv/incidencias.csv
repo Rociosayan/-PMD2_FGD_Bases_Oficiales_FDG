@@ -1,96 +1,151 @@
-﻿id_incidencia,codigo_incidencia,id_operacion,tipo_incidencia,severidad,fecha_reporte,estado_incidencia
-1,I00001,460,Demora,Alta,2026-04-20,En revisi?n
-2,I00002,199,Dato inconsistente,Baja,2026-01-06,En revisi?n
-3,I00003,56,Demora,Baja,2026-06-04,Abierta
-4,I00004,227,Dato inconsistente,Alta,2026-02-13,Cerrada
-5,I00005,459,Demora,Baja,2026-03-23,Abierta
-6,I00006,143,Falla de registro,Baja,2026-03-27,Abierta
-7,I00007,361,Reclamo,Media,2026-04-17,Abierta
-8,I00008,152,Reclamo,Baja,2026-05-20,En revisi?n
-9,I00009,439,Falla de registro,Alta,2026-05-08,Cerrada
-10,I00010,300,Demora,Alta,2026-04-27,Cerrada
-11,I00011,156,Reprogramaci?n,Baja,2026-06-27,En revisi?n
-12,I00012,498,Falla de registro,Alta,2026-01-27,En revisi?n
-13,I00013,320,Demora,Baja,2026-06-16,Cerrada
-14,I00014,76,Reclamo,Alta,2026-03-02,Abierta
-15,I00015,264,Reclamo,Alta,2026-06-29,Cerrada
-16,I00016,91,Dato inconsistente,Alta,2026-04-11,Abierta
-17,I00017,52,Falla de registro,Baja,2026-03-17,En revisi?n
-18,I00018,458,Reclamo,Media,2026-04-29,Abierta
-19,I00019,139,Falla de registro,Alta,2026-03-01,En revisi?n
-20,I00020,95,Reprogramaci?n,Alta,2026-05-16,En revisi?n
-21,I00021,450,Demora,Baja,2026-05-01,En revisi?n
-22,I00022,340,Falla de registro,Media,2026-05-05,Abierta
-23,I00023,69,Reprogramaci?n,Alta,2026-01-29,Cerrada
-24,I00024,353,Reclamo,Baja,2026-02-15,Abierta
-25,I00025,469,Falla de registro,Media,2026-06-16,En revisi?n
-26,I00026,370,Reprogramaci?n,Alta,2026-03-12,Abierta
-27,I00027,176,Falla de registro,Baja,2026-04-21,En revisi?n
-28,I00028,79,Reprogramaci?n,Alta,2026-02-23,Cerrada
-29,I00029,363,Falla de registro,Media,2026-04-19,En revisi?n
-30,I00030,497,Reprogramaci?n,Media,2026-06-07,Cerrada
-31,I00031,73,Falla de registro,Alta,2026-06-13,En revisi?n
-32,I00032,113,Falla de registro,Alta,2026-03-10,En revisi?n
-33,I00033,291,Reprogramaci?n,Baja,2026-02-14,Cerrada
-34,I00034,299,Reprogramaci?n,Media,2026-05-19,Abierta
-35,I00035,481,Reprogramaci?n,Media,2026-04-21,En revisi?n
-36,I00036,77,Reprogramaci?n,Baja,2026-03-23,Abierta
-37,I00037,33,Falla de registro,Media,2026-01-02,Cerrada
-38,I00038,399,Reclamo,Baja,2026-05-30,Abierta
-39,I00039,233,Dato inconsistente,Alta,2026-02-14,En revisi?n
-40,I00040,119,Reprogramaci?n,Baja,2026-02-10,Cerrada
-41,I00041,198,Reclamo,Alta,2026-04-29,Abierta
-42,I00042,313,Reclamo,Baja,2026-02-27,En revisi?n
-43,I00043,416,Falla de registro,Media,2026-05-23,En revisi?n
-44,I00044,215,Falla de registro,Media,2026-02-25,Abierta
-45,I00045,174,Dato inconsistente,Media,2026-02-07,Cerrada
-46,I00046,384,Dato inconsistente,Alta,2026-04-24,Cerrada
-47,I00047,381,Reprogramaci?n,Baja,2026-03-05,En revisi?n
-48,I00048,39,Dato inconsistente,Baja,2026-02-27,Cerrada
-49,I00049,470,Reprogramaci?n,Baja,2026-01-27,En revisi?n
-50,I00050,480,Demora,Alta,2026-05-03,En revisi?n
-51,I00051,101,Demora,Baja,2026-02-20,En revisi?n
-52,I00052,265,Dato inconsistente,Media,2026-04-06,Cerrada
-53,I00053,161,Falla de registro,Baja,2026-05-24,Cerrada
-54,I00054,386,Dato inconsistente,Baja,2026-02-07,Abierta
-55,I00055,218,Demora,Baja,2026-03-14,Cerrada
-56,I00056,98,Dato inconsistente,Media,2026-02-16,Cerrada
-57,I00057,202,Demora,Media,2026-03-18,Cerrada
-58,I00058,383,Reprogramaci?n,Media,2026-03-19,Abierta
-59,I00059,335,Demora,Media,2026-01-12,Cerrada
-60,I00060,262,Demora,Alta,2026-03-23,En revisi?n
-61,I00061,466,Demora,Baja,2026-05-18,Cerrada
-62,I00062,403,Dato inconsistente,Media,2026-06-21,Abierta
-63,I00063,252,Reclamo,Alta,2026-02-23,Abierta
-64,I00064,181,Reclamo,Media,2026-05-05,Abierta
-65,I00065,63,Dato inconsistente,Baja,2026-03-02,En revisi?n
-66,I00066,128,Reclamo,Baja,2026-03-17,Abierta
-67,I00067,243,Reprogramaci?n,Alta,2026-04-21,Cerrada
-68,I00068,8,Reprogramaci?n,Baja,2026-06-14,En revisi?n
-69,I00069,197,Dato inconsistente,Baja,2026-01-01,En revisi?n
-70,I00070,2,Demora,Media,2026-02-22,Abierta
-71,I00071,25,Reprogramaci?n,Baja,2026-02-18,Cerrada
-72,I00072,182,Demora,Media,2026-01-02,Cerrada
-73,I00073,352,Falla de registro,Baja,2026-06-04,En revisi?n
-74,I00074,350,Dato inconsistente,Alta,2026-06-20,Abierta
-75,I00075,307,Dato inconsistente,Baja,2026-06-12,Abierta
-76,I00076,476,Demora,Baja,2026-01-03,Cerrada
-77,I00077,58,Falla de registro,Baja,2026-01-31,Abierta
-78,I00078,154,Falla de registro,Media,2026-05-18,En revisi?n
-79,I00079,43,Reprogramaci?n,Media,2026-02-16,Abierta
-80,I00080,314,Demora,Alta,2026-02-08,En revisi?n
-81,I00081,499,Dato inconsistente,Media,2026-06-28,Abierta
-82,I00082,482,Falla de registro,Baja,2026-01-04,En revisi?n
-83,I00083,228,Dato inconsistente,Baja,2026-06-26,En revisi?n
-84,I00084,489,Demora,Media,2026-05-06,En revisi?n
-85,I00085,500,Reprogramaci?n,Alta,2026-05-04,Cerrada
-86,I00086,229,Reprogramaci?n,Media,2026-02-26,Abierta
-87,I00087,488,Falla de registro,Alta,2026-06-15,En revisi?n
-88,I00088,472,Falla de registro,Media,2026-04-22,Cerrada
-89,I00089,219,Reclamo,Alta,2026-02-24,Cerrada
-90,I00090,188,Falla de registro,Media,2026-02-12,Abierta
-91,I00091,93,Reclamo,Baja,2026-04-12,Abierta
-92,I00092,114,Demora,Alta,2026-01-27,Abierta
-93,I00093,78,Dato inconsistente,Media,2026-03-31,Abierta
-94,I00094,203,Reclamo,Alta,2026-03-18,Abierta
-95,I00095,86,Dato inconsistente,Baja,2026-05-01,Cerrada
+id_incidencia,codigo_incidencia,id_operacion,tipo_incidencia,severidad,fecha_reporte,estado_incidencia
+1,I00001,2,Pieza fuera de tolerancia,Baja,2026-02-13,En revisión
+2,I00002,5,Retraso de producción,Baja,2026-02-05,Abierta
+3,I00003,10,Falla de soldadura,Baja,2026-03-09,En revisión
+4,I00004,12,Materia prima no conforme,Alta,2026-06-18,En revisión
+5,I00005,25,Plano desactualizado,Media,2026-06-11,En revisión
+6,I00006,26,Pieza fuera de tolerancia,Alta,2026-04-04,En revisión
+7,I00007,33,Retraso de producción,Baja,2026-03-03,En revisión
+8,I00008,34,Falla de soldadura,Alta,2026-05-11,Abierta
+9,I00009,36,Materia prima no conforme,Baja,2026-03-18,En revisión
+10,I00010,45,Plano desactualizado,Baja,2026-05-25,Cerrada
+11,I00011,46,Pieza fuera de tolerancia,Alta,2026-05-12,En revisión
+12,I00012,47,Retraso de producción,Media,2026-03-22,Abierta
+13,I00013,59,Falla de soldadura,Media,2026-03-20,Abierta
+14,I00014,60,Materia prima no conforme,Baja,2026-06-26,En revisión
+15,I00015,66,Plano desactualizado,Baja,2026-02-22,Abierta
+16,I00016,80,Pieza fuera de tolerancia,Baja,2026-05-12,Cerrada
+17,I00017,92,Retraso de producción,Media,2026-02-03,En revisión
+18,I00018,105,Falla de soldadura,Alta,2026-04-05,Abierta
+19,I00019,109,Materia prima no conforme,Baja,2026-02-25,En revisión
+20,I00020,116,Plano desactualizado,Media,2026-04-25,En revisión
+21,I00021,122,Pieza fuera de tolerancia,Baja,2026-06-07,En revisión
+22,I00022,148,Retraso de producción,Alta,2026-03-09,En revisión
+23,I00023,154,Falla de soldadura,Media,2026-04-17,Abierta
+24,I00024,162,Materia prima no conforme,Media,2026-04-21,En revisión
+25,I00025,168,Plano desactualizado,Baja,2026-06-11,En revisión
+26,I00026,171,Pieza fuera de tolerancia,Baja,2026-03-15,Cerrada
+27,I00027,187,Retraso de producción,Baja,2026-02-24,Cerrada
+28,I00028,189,Falla de soldadura,Media,2026-06-02,Cerrada
+29,I00029,190,Materia prima no conforme,Baja,2026-06-04,Abierta
+30,I00030,196,Plano desactualizado,Alta,2026-05-11,Abierta
+31,I00031,199,Pieza fuera de tolerancia,Alta,2026-06-03,En revisión
+32,I00032,203,Retraso de producción,Alta,2026-02-17,Cerrada
+33,I00033,211,Falla de soldadura,Baja,2026-06-23,Cerrada
+34,I00034,223,Materia prima no conforme,Baja,2026-04-16,Abierta
+35,I00035,225,Plano desactualizado,Alta,2026-02-15,En revisión
+36,I00036,227,Pieza fuera de tolerancia,Baja,2026-02-10,En revisión
+37,I00037,240,Retraso de producción,Alta,2026-05-26,Abierta
+38,I00038,241,Falla de soldadura,Media,2026-03-12,Cerrada
+39,I00039,253,Materia prima no conforme,Baja,2026-04-19,Abierta
+40,I00040,256,Plano desactualizado,Media,2026-04-19,Abierta
+41,I00041,261,Pieza fuera de tolerancia,Media,2026-04-01,En revisión
+42,I00042,265,Retraso de producción,Baja,2026-02-27,Cerrada
+43,I00043,270,Falla de soldadura,Alta,2026-04-26,En revisión
+44,I00044,292,Materia prima no conforme,Media,2026-03-25,Abierta
+45,I00045,294,Plano desactualizado,Media,2026-06-20,Cerrada
+46,I00046,296,Pieza fuera de tolerancia,Media,2026-06-08,Abierta
+47,I00047,304,Retraso de producción,Media,2026-03-22,En revisión
+48,I00048,317,Falla de soldadura,Media,2026-02-19,Abierta
+49,I00049,320,Materia prima no conforme,Alta,2026-06-02,Abierta
+50,I00050,323,Plano desactualizado,Media,2026-02-18,En revisión
+51,I00051,336,Pieza fuera de tolerancia,Baja,2026-02-11,Cerrada
+52,I00052,367,Retraso de producción,Alta,2026-04-21,Cerrada
+53,I00053,374,Falla de soldadura,Alta,2026-06-13,Abierta
+54,I00054,381,Materia prima no conforme,Baja,2026-04-11,Cerrada
+55,I00055,382,Plano desactualizado,Alta,2026-06-18,Cerrada
+56,I00056,390,Pieza fuera de tolerancia,Media,2026-06-19,En revisión
+57,I00057,391,Retraso de producción,Alta,2026-06-12,En revisión
+58,I00058,392,Falla de soldadura,Alta,2026-04-06,Cerrada
+59,I00059,393,Materia prima no conforme,Baja,2026-06-15,Cerrada
+60,I00060,395,Plano desactualizado,Media,2026-05-01,Cerrada
+61,I00061,398,Pieza fuera de tolerancia,Alta,2026-06-06,En revisión
+62,I00062,403,Retraso de producción,Baja,2026-02-17,Cerrada
+63,I00063,405,Falla de soldadura,Alta,2026-05-08,Abierta
+64,I00064,409,Materia prima no conforme,Alta,2026-03-22,Cerrada
+65,I00065,414,Plano desactualizado,Media,2026-03-03,Abierta
+66,I00066,421,Pieza fuera de tolerancia,Alta,2026-03-11,Abierta
+67,I00067,422,Retraso de producción,Alta,2026-06-03,En revisión
+68,I00068,428,Falla de soldadura,Alta,2026-06-22,En revisión
+69,I00069,431,Materia prima no conforme,Alta,2026-04-26,Cerrada
+70,I00070,438,Plano desactualizado,Baja,2026-02-06,Cerrada
+71,I00071,472,Pieza fuera de tolerancia,Media,2026-04-27,Cerrada
+72,I00072,474,Retraso de producción,Baja,2026-02-21,Abierta
+73,I00073,475,Falla de soldadura,Alta,2026-03-06,En revisión
+74,I00074,485,Materia prima no conforme,Baja,2026-02-03,En revisión
+75,I00075,490,Plano desactualizado,Alta,2026-02-16,Abierta
+76,I00076,492,Pieza fuera de tolerancia,Alta,2026-04-07,Cerrada
+77,I00077,500,Retraso de producción,Media,2026-06-04,En revisión
+78,I00078,504,Falla de soldadura,Media,2026-04-20,Abierta
+79,I00079,505,Materia prima no conforme,Baja,2026-03-16,Cerrada
+80,I00080,519,Plano desactualizado,Media,2026-02-17,En revisión
+81,I00081,521,Pieza fuera de tolerancia,Media,2026-04-19,Abierta
+82,I00082,523,Retraso de producción,Media,2026-05-02,Abierta
+83,I00083,534,Falla de soldadura,Baja,2026-02-18,En revisión
+84,I00084,535,Materia prima no conforme,Baja,2026-06-07,Cerrada
+85,I00085,537,Plano desactualizado,Media,2026-04-07,Cerrada
+86,I00086,544,Pieza fuera de tolerancia,Alta,2026-03-24,Cerrada
+87,I00087,548,Retraso de producción,Media,2026-04-24,Cerrada
+88,I00088,561,Falla de soldadura,Baja,2026-05-16,Cerrada
+89,I00089,572,Materia prima no conforme,Baja,2026-06-07,En revisión
+90,I00090,578,Plano desactualizado,Media,2026-02-03,En revisión
+91,I00091,586,Pieza fuera de tolerancia,Media,2026-05-05,En revisión
+92,I00092,597,Retraso de producción,Media,2026-06-22,Cerrada
+93,I00093,602,Falla de soldadura,Alta,2026-04-26,Cerrada
+94,I00094,606,Materia prima no conforme,Alta,2026-06-23,Abierta
+95,I00095,615,Plano desactualizado,Baja,2026-03-08,Cerrada
+96,I00096,630,Pieza fuera de tolerancia,Baja,2026-04-12,En revisión
+97,I00097,631,Retraso de producción,Baja,2026-04-07,En revisión
+98,I00098,632,Falla de soldadura,Baja,2026-02-11,Abierta
+99,I00099,633,Materia prima no conforme,Alta,2026-03-19,En revisión
+100,I00100,644,Plano desactualizado,Baja,2026-04-23,Cerrada
+101,I00101,648,Pieza fuera de tolerancia,Media,2026-06-21,Abierta
+102,I00102,652,Retraso de producción,Alta,2026-05-01,Abierta
+103,I00103,677,Falla de soldadura,Baja,2026-06-08,Cerrada
+104,I00104,682,Materia prima no conforme,Alta,2026-04-22,Cerrada
+105,I00105,693,Plano desactualizado,Alta,2026-04-02,Cerrada
+106,I00106,705,Pieza fuera de tolerancia,Media,2026-02-17,Abierta
+107,I00107,707,Retraso de producción,Baja,2026-02-17,En revisión
+108,I00108,708,Falla de soldadura,Baja,2026-03-26,En revisión
+109,I00109,710,Materia prima no conforme,Alta,2026-02-22,Cerrada
+110,I00110,713,Plano desactualizado,Baja,2026-03-07,En revisión
+111,I00111,726,Pieza fuera de tolerancia,Baja,2026-06-13,En revisión
+112,I00112,751,Retraso de producción,Alta,2026-02-09,Abierta
+113,I00113,767,Falla de soldadura,Baja,2026-05-28,Abierta
+114,I00114,768,Materia prima no conforme,Media,2026-02-04,Cerrada
+115,I00115,770,Plano desactualizado,Media,2026-04-17,En revisión
+116,I00116,774,Pieza fuera de tolerancia,Baja,2026-02-24,En revisión
+117,I00117,780,Retraso de producción,Media,2026-06-26,En revisión
+118,I00118,781,Falla de soldadura,Alta,2026-05-08,Cerrada
+119,I00119,786,Materia prima no conforme,Media,2026-03-16,En revisión
+120,I00120,788,Plano desactualizado,Alta,2026-03-07,En revisión
+121,I00121,790,Pieza fuera de tolerancia,Media,2026-04-22,Cerrada
+122,I00122,791,Retraso de producción,Alta,2026-03-24,Cerrada
+123,I00123,794,Falla de soldadura,Media,2026-04-28,En revisión
+124,I00124,796,Materia prima no conforme,Alta,2026-03-28,Cerrada
+125,I00125,799,Plano desactualizado,Baja,2026-03-26,En revisión
+126,I00126,800,Pieza fuera de tolerancia,Alta,2026-03-04,Cerrada
+127,I00127,801,Retraso de producción,Media,2026-06-13,Abierta
+128,I00128,818,Falla de soldadura,Media,2026-06-21,Abierta
+129,I00129,827,Materia prima no conforme,Alta,2026-06-24,Cerrada
+130,I00130,831,Plano desactualizado,Baja,2026-05-15,Cerrada
+131,I00131,859,Pieza fuera de tolerancia,Alta,2026-04-28,En revisión
+132,I00132,867,Retraso de producción,Media,2026-05-22,En revisión
+133,I00133,870,Falla de soldadura,Media,2026-05-13,En revisión
+134,I00134,876,Materia prima no conforme,Media,2026-03-07,En revisión
+135,I00135,884,Plano desactualizado,Media,2026-02-28,Cerrada
+136,I00136,885,Pieza fuera de tolerancia,Media,2026-03-18,En revisión
+137,I00137,889,Retraso de producción,Media,2026-05-08,Cerrada
+138,I00138,898,Falla de soldadura,Media,2026-02-03,En revisión
+139,I00139,906,Materia prima no conforme,Alta,2026-06-13,Abierta
+140,I00140,928,Plano desactualizado,Media,2026-02-11,Abierta
+141,I00141,936,Pieza fuera de tolerancia,Media,2026-06-24,Abierta
+142,I00142,946,Retraso de producción,Baja,2026-05-03,En revisión
+143,I00143,949,Falla de soldadura,Baja,2026-02-02,En revisión
+144,I00144,967,Materia prima no conforme,Media,2026-05-06,En revisión
+145,I00145,975,Plano desactualizado,Media,2026-06-13,En revisión
+146,I00146,977,Pieza fuera de tolerancia,Baja,2026-02-10,Cerrada
+147,I00147,980,Retraso de producción,Media,2026-05-11,Cerrada
+148,I00148,984,Falla de soldadura,Baja,2026-05-10,Abierta
+149,I00149,997,Materia prima no conforme,Alta,2026-05-04,En revisión
+150,I00150,998,Plano desactualizado,Baja,2026-04-05,Cerrada

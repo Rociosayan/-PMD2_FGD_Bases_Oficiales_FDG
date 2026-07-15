@@ -1,0 +1,209 @@
+id_cliente,codigo_cliente,tipo_documento,num_documento,nombres,apellidos,correo,telefono,distrito,segmento,fecha_registro,direccion_entrega
+1,C0001,DNI,89952308,José,Ríos Sánchez,josé1correo.com,920464382,Lince,Persona natural,2026-03-21,Av. Brasil 1646
+2,C0002,RUC,50679648,Renzo,Gutiérrez Castillo,renzo2@correo.com,920891962,Miraflores,Tienda virtual,2026-03-22,Av. Los Pinos 331
+3,C0003,CE,42698957,Isabel,Palomino Cárdenas,isabel3@correo.com,953511180,La Molina,Pyme,2026-02-15,Av. El Sol 1406
+4,C0004,RUC,25894858,Pedro,Bautista Ponce,pedro4@correo.com,938963413,Chorrillos,Cliente corporativo,2026-04-20,Av. Los Pinos 1934
+5,C0005,CE,13847345,Sergio,Cornejo Villanueva,sergio5correo.com,912376130,Chorrillos,Persona natural,2026-05-12,Av. La Marina 1057
+6,C0006,DNI,18535270,Ana,Zevallos Zevallos,ana6@correo.com,,Los Olivos,Tienda virtual,2026-04-27,Av. La Marina 1922
+7,C0007,DNI,10660452,Diego,Ninaquispe Romero,,951578320,Miraflores,Pyme,2026-01-08,Av. Grau 2210
+8,C0008,CE,54428728,Milagros,Ríos Gutiérrez,milagros8@correo.com,982288857,Ate,Cliente corporativo,2026-04-20,Av. El Sol 2201
+9,C0009,RUC,83941431,Paola,Villanueva Ríos,paola9@correo.com,999196964,La Molina,Persona natural,2026-03-04,Av. La Marina 2329
+10,C0010,RUC,18809727,Karla,Aguirre Díaz,karla10@correo.com,981693192,Miraflores,Tienda virtual,2026-04-11,Av. Los Pinos 2138
+11,C0011,RUC,35688806,Hugo,Cornejo Cárdenas,hugo11@correo.com,981072702,Chorrillos,Pyme,2026-01-24,Av. La Marina 1420
+12,C0012,DNI,10281371,Gabriela,Cruz Torres,gabriela12@correo.com,960611326,San Borja,Cliente corporativo,2026-01-24,Av. La Marina 114
+13,C0013,DNI,88201466,Óscar,Lévano Chávez,óscar13@correo.com,941624908,San Borja,Persona natural,2026-03-17,Av. Grau 523
+14,C0014,RUC,30012477,Ana,Villanueva Torres,ana14@correo.com,915490520,Chorrillos,Tienda virtual,2026-05-05,Av. Los Pinos 1063
+15,C0015,DNI,78511874,Paola,Rivera Romero,paola15@correo.com,947012842,Lince,Pyme,2026-05-01,Av. Los Pinos 540
+16,C0016,DNI,82930255,Ricardo,Cárdenas Cárdenas,ricardo16@correo.com,926729159,Villa El Salvador,Cliente corporativo,2026-01-16,Av. Brasil 1959
+17,C0017,DNI,43440535,Elena,Gutiérrez Ríos,elena17@correo.com,959140520,Comas,Persona natural,2026-03-09,Av. La Marina 1937
+18,C0018,DNI,685973,Sofía,Salazar Rojas,sofía18@correo.com,979579627,Los Olivos,Tienda virtual,2026-01-24,Av. El Sol 1976
+19,C0019,RUC,27204371,Karla,Paredes Villanueva,karla19@correo.com,963073444,Surco,Pyme,2026-05-20,Av. El Sol 1162
+20,C0020,RUC,65564269,Pedro,Ninaquispe Ponce,,929291673,Callao,Cliente corporativo,2026-02-13,Av. Brasil 244
+21,C0021,CE,57624091,Diego,Castillo Rivera,diego21@correo.com,959298436,Lince,Persona natural,2026-02-26,Av. La Marina 2002
+22,C0022,DNI,41056306,Verónica,Mendoza Mendoza,verónica22@correo.com,930486273,Independencia,Tienda virtual,2026-05-26,Av. La Marina 1677
+23,C0023,CE,80285256,Pamela,Torres Bautista,pamela23@correo.com,955693648,Los Olivos,Pyme,2026-03-17,Av. Brasil 1084
+24,C0024,CE,27454866,Julia,Espinoza Torres,julia24@correo.com,938537621,Chorrillos,Cliente corporativo,2026-03-15,Av. Los Pinos 593
+25,C0025,CE,94879648,Miguel,Zevallos Ponce,miguel25@correo.com,947166450,Ate,Persona natural,2026-05-18,Av. La Marina 1553
+26,C0026,DNI,22883949,Renzo,Huamán Torres,renzo26@correo.com,978241082,Surco,Tienda virtual,2026-04-21,Av. El Sol 466
+27,C0027,CE,41109888,Jorge,Cornejo Chávez,jorge27@correo.com,943002753,Rímac,Pyme,2026-04-04,Av. El Sol 2035
+28,C0028,CE,25152188,Hugo,Cárdenas Ninaquispe,hugo28@correo.com,994462103,Lince,Cliente corporativo,2026-04-04,Av. Grau 1088
+29,C0029,DNI,29257348,Bruno,Romero Huamán,bruno29@correo.com,,Villa El Salvador,Persona natural,2026-03-22,Av. La Marina 416
+30,C0030,RUC,14327779,Daniela,Cruz Romero,daniela30@correo.com,919171533,San Juan de Lurigancho,Tienda virtual,2026-04-10,Av. El Sol 408
+31,C0031,DNI,25200697,Lucía,Díaz Palomino,lucía31@correo.com,943225508,La Molina,Pyme,2026-05-26,Av. La Marina 1554
+32,C0032,DNI,91115320,Isabel,Torres Ponce,isabel32@correo.com,918951589,San Juan de Lurigancho,Cliente corporativo,2026-01-28,Av. Los Pinos 757
+33,C0033,CE,44821164,Natalia,Aguirre Ninaquispe,natalia33@correo.com,994406086,Miraflores,Persona natural,2026-02-20,Av. Grau 2067
+34,C0034,CE,725155,Óscar,Villanueva Díaz,óscar34@correo.com,923165070,Comas,Tienda virtual,2026-05-16,Av. Brasil 1210
+35,C0035,RUC,67908951,Raúl,Cárdenas Huamán,raúl35@correo.com,989305513,San Juan de Lurigancho,Pyme,2026-03-18,Av. La Marina 1038
+36,C0036,DNI,27124485,Lucía,Flores Palomino,lucía36@correo.com,,Breña,Cliente corporativo,2026-05-19,Av. Los Pinos 1871
+37,C0037,DNI,40362846,Óscar,Bautista Mendoza,óscar37@correo.com,982342340,San Borja,Persona natural,2026-02-27,Av. Los Pinos 209
+38,C0038,DNI,79274815,Fernando,Castillo Ponce,fernando38@correo.com,948345141,Lince,Tienda virtual,2026-03-05,Av. Grau 525
+39,C0039,DNI,23711854,Diego,Salazar Chávez,diego39@correo.com,948964550,Comas,Pyme,2026-03-28,Av. Brasil 1071
+40,C0040,DNI,92038772,Jorge,Quispe Flores,jorge40@correo.com,938110503,Rímac,Cliente corporativo,2026-01-07,Av. Grau 691
+41,C0041,DNI,218727,Rosa,Ríos Bautista,rosa41@correo.com,963876283,Ate,Persona natural,2026-05-17,Av. Los Pinos 379
+42,C0042,RUC,25220610,Paola,Cornejo Zevallos,paola42@correo.com,913961599,Ate,Tienda virtual,2026-04-27,Av. Los Pinos 1189
+43,C0043,DNI,47505275,Ricardo,Mendoza Paredes,,994740327,Los Olivos,Pyme,2026-05-03,Av. Brasil 1541
+44,C0044,RUC,71580782,Luis,Palomino Quispe,luis44@correo.com,938243794,Rímac,Cliente corporativo,2026-03-18,Av. El Sol 578
+45,C0045,CE,19332071,Jorge,Ramos Gutiérrez,jorge45@correo.com,955898253,Villa El Salvador,Persona natural,2026-05-01,Av. La Marina 581
+46,C0046,DNI,64969102,Óscar,Ponce Ramos,óscar46@correo.com,925668788,Independencia,Tienda virtual,2026-02-16,Av. Brasil 306
+47,C0047,DNI,29738930,Miguel,Rivera Rivera,miguel47@correo.com,966514071,San Juan de Lurigancho,Pyme,2026-01-04,Av. La Marina 339
+48,C0048,DNI,55960558,Isabel,Vargas Vargas,isabel48@correo.com,992656417,San Borja,Cliente corporativo,2026-04-06,Av. El Sol 2475
+49,C0049,DNI,88836227,Melissa,Villanueva Paredes,melissa49@correo.com,968205177,Los Olivos,Persona natural,2026-02-11,Av. La Marina 2456
+50,C0050,RUC,34543954,Gabriela,Romero Castillo,gabriela50@correo.com,,Comas,Tienda virtual,2026-04-25,Av. Brasil 1501
+51,C0051,DNI,32288953,Verónica,Cárdenas Espinoza,verónica51@correo.com,917289848,Ate,Pyme,2026-01-12,Av. Los Pinos 1800
+52,C0052,CE,87694266,Raúl,Castillo Romero,,938224814,Surco,Cliente corporativo,2026-02-07,Av. Grau 306
+53,C0053,CE,38808304,Álvaro,Sánchez Castillo,álvaro53@correo.com,999292945,San Borja,Persona natural,2026-02-01,Av. La Marina 1319
+54,C0054,DNI,39793440,María,Lévano Castillo,,936606731,Chorrillos,Tienda virtual,2026-05-08,Av. Los Pinos 1717
+55,C0055,RUC,34198658,Luis,Cornejo Salazar,luis55@correo.com,968522357,Surco,Pyme,2026-05-15,Av. El Sol 270
+56,C0056,CE,45325708,Verónica,Torres Romero,verónica56@correo.com,918628854,Breña,Cliente corporativo,2026-04-27,Av. Los Pinos 2086
+57,C0057,DNI,31810003,Andrés,Ponce Cruz,andrés57correo.com,982476589,,Persona natural,2026-01-23,Av. Los Pinos 1776
+58,C0058,DNI,56993199,Verónica,Lévano Villanueva,verónica58@correo.com,962534578,La Molina,Tienda virtual,2026-03-12,Av. El Sol 1821
+59,C0059,RUC,42288062,Claudia,Paredes Cárdenas,claudia59@correo.com,960482219,Miraflores,Pyme,2026-05-28,Av. La Marina 2340
+60,C0060,CE,15708406,Carlos,Cornejo Villanueva,carlos60@correo.com,940751976,Breña,Cliente corporativo,2026-03-13,Av. Los Pinos 748
+61,C0061,CE,94631874,Patricia,Flores Chávez,patricia61@correo.com,966628864,Independencia,Persona natural,2026-02-18,Av. Brasil 116
+62,C0062,CE,12801938,Bruno,Espinoza Ponce,bruno62@correo.com,930169573,Villa El Salvador,Tienda virtual,2026-01-12,Av. Grau 1599
+63,C0063,CE,72733707,José,Cornejo Ninaquispe,josé63@correo.com,931823785,Villa El Salvador,Pyme,2026-01-13,Av. Brasil 1913
+64,C0064,DNI,771680,Melissa,Lévano Villanueva,melissa64@correo.com,927629599,La Molina,Cliente corporativo,2026-05-08,Av. La Marina 1641
+65,C0065,DNI,72008412,Carmen,Sánchez Paredes,carmen65@correo.com,,Independencia,Persona natural,2026-03-17,Av. Brasil 640
+66,C0066,DNI,83041427,Paola,Bautista Aguirre,paola66@correo.com,977125759,Miraflores,Tienda virtual,2026-05-28,Av. La Marina 995
+67,C0067,RUC,38305912,Paola,Quispe Palomino,paola67correo.com,965292259,Breña,Pyme,2026-01-17,Av. Grau 1876
+68,C0068,RUC,40624908,Gabriela,Cornejo Mendoza,gabriela68@correo.com,967667333,Chorrillos,Cliente corporativo,2026-03-11,Av. Grau 2131
+69,C0069,RUC,36688435,Pamela,Aguirre Gutiérrez,pamela69@correo.com,931092273,,Persona natural,2026-04-14,Av. Los Pinos 1365
+70,C0070,DNI,42022976,Hugo,Torres Cornejo,hugo70@correo.com,936046860,Independencia,Tienda virtual,2026-05-17,Av. La Marina 740
+71,C0071,DNI,798778,Carlos,Salazar Rojas,carlos71@correo.com,986823697,,Pyme,2026-03-12,Av. El Sol 526
+72,C0072,CE,57798383,Renzo,Quispe Espinoza,renzo72@correo.com,969037794,Ate,Cliente corporativo,2026-01-18,Av. Brasil 1913
+73,C0073,DNI,67266711,Fernando,Chávez Villanueva,fernando73@correo.com,,Miraflores,Persona natural,2026-05-22,Av. El Sol 671
+74,C0074,RUC,22226977,José,Flores Romero,josé74@correo.com,964341054,Miraflores,Tienda virtual,2026-04-23,Av. Grau 247
+75,C0075,DNI,47154458,Isabel,Gutiérrez Torres,isabel75@correo.com,,Rímac,Pyme,2026-01-16,Av. Grau 1714
+76,C0076,DNI,73320137,Julia,Mendoza Flores,julia76@correo.com,949049923,Lince,Cliente corporativo,2026-03-08,Av. Brasil 931
+77,C0077,DNI,25276421,Iván,Ninaquispe Castillo,iván77@correo.com,965107002,Los Olivos,Persona natural,2026-03-06,Av. Brasil 973
+78,C0078,RUC,82673788,Natalia,Ninaquispe Cornejo,natalia78@correo.com,920180116,San Borja,Tienda virtual,2026-01-25,Av. Brasil 1854
+79,C0079,DNI,14545272,Lucía,Torres Ponce,lucía79@correo.com,968118637,Comas,Pyme,2026-01-05,Av. Los Pinos 501
+80,C0080,CE,47019042,Jorge,Romero Cornejo,jorge80@correo.com,994972550,Ate,Cliente corporativo,2026-03-14,Av. Grau 992
+81,C0081,RUC,53074246,Hugo,Torres Gutiérrez,hugo81@correo.com,924292597,Breña,Persona natural,2026-01-03,Av. Los Pinos 2386
+82,C0082,DNI,22383164,Verónica,Castillo Aguirre,verónica82@correo.com,942727718,Chorrillos,Tienda virtual,2026-03-20,Av. Brasil 1993
+83,C0083,RUC,68544033,Verónica,Ríos Aguirre,verónica83@correo.com,979099361,Callao,Pyme,2026-02-24,Av. El Sol 2432
+84,C0084,DNI,58698040,Milagros,Díaz Palomino,milagros84@correo.com,914212917,Independencia,Cliente corporativo,2026-05-03,Av. Brasil 1116
+85,C0085,RUC,21627982,Hugo,Bautista Ponce,hugo85@correo.com,918024405,San Borja,Persona natural,2026-05-09,Av. La Marina 1341
+86,C0086,DNI,143601,Ricardo,Cárdenas Chávez,ricardo86@correo.com,980800693,Breña,Tienda virtual,2026-03-22,Av. El Sol 364
+87,C0087,CE,10725781,Renzo,Díaz Aguirre,renzo87@correo.com,938034585,San Miguel,Pyme,2026-01-09,Av. Los Pinos 935
+88,C0088,RUC,48432696,Carlos,Rivera Ponce,,980155062,San Juan de Lurigancho,Cliente corporativo,2026-04-23,Av. Grau 674
+89,C0089,DNI,66686748,Bruno,Sánchez Rojas,bruno89@correo.com,925881305,Miraflores,Persona natural,2026-05-16,Av. Grau 448
+90,C0090,CE,73333972,Daniela,Ninaquispe Huamán,daniela90@correo.com,933464727,,Tienda virtual,2026-04-05,Av. Brasil 535
+91,C0091,DNI,37364134,Natalia,Díaz Bautista,natalia91@correo.com,947248957,Independencia,Pyme,2026-03-28,Av. Grau 172
+92,C0092,DNI,42162956,Claudia,Salazar Lévano,claudia92@correo.com,974541724,La Molina,Cliente corporativo,2026-03-22,Av. La Marina 313
+93,C0093,DNI,69679240,Carmen,Cornejo Díaz,carmen93@correo.com,995654191,Los Olivos,Persona natural,2026-04-28,Av. Los Pinos 946
+94,C0094,DNI,75843484,Iván,Cárdenas Mendoza,iván94@correo.com,921591124,Comas,Tienda virtual,2026-01-04,Av. El Sol 508
+95,C0095,DNI,32264069,Luis,Aguirre Zevallos,luis95@correo.com,948550246,La Molina,Pyme,2026-02-12,Av. El Sol 1829
+96,C0096,DNI,65823344,Pedro,Díaz Ríos,pedro96@correo.com,,Ate,Cliente corporativo,2026-03-07,Av. Grau 2413
+97,C0097,DNI,46834046,Diego,Mendoza Zevallos,diego97@correo.com,959467533,Lince,Persona natural,2026-03-02,Av. Brasil 1563
+98,C0098,CE,20235614,Jorge,Palomino Bautista,jorge98@correo.com,913418512,La Molina,Tienda virtual,2026-02-06,Av. El Sol 952
+99,C0099,CE,76531984,Víctor,Cornejo Espinoza,,925096654,Chorrillos,Pyme,2026-01-07,Av. La Marina 707
+100,C0100,DNI,72184560,Paola,Lévano Cornejo,paola100@correo.com,949179146,San Miguel,Cliente corporativo,2026-04-01,Av. Grau 594
+101,C0101,CE,13704553,Ana,Torres Flores,ana101@correo.com,925463975,Independencia,Persona natural,2026-02-10,Av. La Marina 700
+102,C0102,CE,67547501,Diego,Cornejo Castillo,,976090702,Rímac,Tienda virtual,2026-02-27,Av. La Marina 1466
+103,C0103,DNI,99461155,Renzo,Sánchez Salazar,renzo103@correo.com,990052330,Callao,Pyme,2026-04-15,Av. Los Pinos 2178
+104,C0104,DNI,75366372,Julia,Rojas Romero,julia104correo.com,949421072,Ate,Cliente corporativo,2026-04-22,Av. La Marina 1463
+105,C0105,DNI,19738984,Karla,Espinoza Díaz,karla105@correo.com,983066760,Miraflores,Persona natural,2026-05-05,Av. Los Pinos 2364
+106,C0106,DNI,13744238,Claudia,Gutiérrez Bautista,claudia106@correo.com,992856024,Rímac,Tienda virtual,2026-04-17,Av. Brasil 2183
+107,C0107,RUC,79824823,Diego,Gutiérrez Paredes,diego107@correo.com,977593961,Miraflores,Pyme,2026-02-04,Av. La Marina 914
+108,C0108,DNI,339307,Karla,Ramos Gutiérrez,karla108@correo.com,940854896,Callao,Cliente corporativo,2026-02-04,Av. Grau 2053
+109,C0109,RUC,54172029,Lucía,Romero Palomino,lucía109@correo.com,,Chorrillos,Persona natural,2026-01-04,Av. Brasil 768
+110,C0110,DNI,75666782,Lucía,Vargas Cruz,lucía110@correo.com,,Los Olivos,Tienda virtual,2026-05-26,Av. El Sol 1103
+111,C0111,DNI,93927686,Lucía,Flores Díaz,lucía111@correo.com,936663155,Breña,Pyme,2026-01-05,Av. Los Pinos 2332
+112,C0112,DNI,11511764,Claudia,Sánchez Bautista,claudia112correo.com,966357453,Los Olivos,Cliente corporativo,2026-02-07,Av. Grau 2363
+113,C0113,DNI,97159267,Víctor,Castillo Rivera,víctor113@correo.com,957071810,La Molina,Persona natural,2026-03-19,Av. Brasil 2135
+114,C0114,RUC,81709456,Raúl,Ríos Cornejo,raúl114@correo.com,964108479,Breña,Tienda virtual,2026-03-27,Av. Brasil 1609
+115,C0115,RUC,39667092,Pedro,Huamán Chávez,pedro115@correo.com,963828313,Villa El Salvador,Pyme,2026-05-03,Av. Grau 1159
+116,C0116,DNI,69703315,Daniela,Rojas Sánchez,daniela116@correo.com,920794782,Callao,Cliente corporativo,2026-01-08,Av. Grau 1884
+117,C0117,DNI,196261,Álvaro,Aguirre Quispe,álvaro117@correo.com,928111809,La Molina,Persona natural,2026-01-11,Av. Brasil 1971
+118,C0118,RUC,45164888,Natalia,Aguirre Ninaquispe,,987377902,San Miguel,Tienda virtual,2026-01-28,Av. Brasil 500
+119,C0119,DNI,95505877,Paola,Aguirre Paredes,,929839450,San Juan de Lurigancho,Pyme,2026-05-22,Av. El Sol 126
+120,C0120,DNI,37669739,Ana,Zevallos Ríos,ana120@correo.com,931451093,Chorrillos,Cliente corporativo,2026-01-26,Av. Brasil 358
+121,C0121,DNI,36036950,Álvaro,Huamán Gutiérrez,álvaro121@correo.com,992014074,Comas,Persona natural,2026-01-25,Av. Grau 1541
+122,C0122,DNI,55435843,Ricardo,Sánchez Cruz,,952168876,San Borja,Tienda virtual,2026-03-02,Av. Los Pinos 456
+123,C0123,DNI,55526434,Óscar,Villanueva Espinoza,óscar123@correo.com,991321425,La Molina,Pyme,2026-05-16,Av. La Marina 838
+124,C0124,RUC,44598706,Daniela,Chávez Ramos,daniela124@correo.com,964762941,Callao,Cliente corporativo,2026-05-13,Av. Brasil 1090
+125,C0125,DNI,27986179,Milagros,Quispe Flores,milagros125@correo.com,981359293,San Borja,Persona natural,2026-05-03,Av. La Marina 2102
+126,C0126,RUC,15225868,Pedro,Cruz Lévano,pedro126@correo.com,941431691,Lince,Tienda virtual,2026-05-07,Av. Los Pinos 105
+127,C0127,CE,20852125,Miguel,Flores Cornejo,miguel127@correo.com,984209582,La Molina,Pyme,2026-05-28,Av. El Sol 2194
+128,C0128,DNI,95590477,Raúl,Cornejo Ríos,raúl128@correo.com,942360126,Los Olivos,Cliente corporativo,2026-01-26,Av. La Marina 964
+129,C0129,DNI,86070356,Paola,Torres Salazar,paola129@correo.com,999477452,San Juan de Lurigancho,Persona natural,2026-05-10,Av. Grau 1892
+130,C0130,DNI,14252577,Carmen,Rojas Vargas,carmen130@correo.com,949967335,Ate,Tienda virtual,2026-04-14,Av. Grau 843
+131,C0131,DNI,71953865,Verónica,Bautista Vargas,verónica131@correo.com,924144526,Chorrillos,Pyme,2026-05-08,Av. Grau 1445
+132,C0132,DNI,47400904,Paola,Chávez Rivera,paola132@correo.com,934597371,Lince,Cliente corporativo,2026-02-01,Av. Grau 1126
+133,C0133,DNI,48570645,Diego,Espinoza Cruz,diego133@correo.com,974785600,,Persona natural,2026-02-07,Av. Grau 1759
+134,C0134,DNI,33941731,Verónica,Paredes Sánchez,verónica134@correo.com,977390770,Rímac,Tienda virtual,2026-01-10,Av. Los Pinos 1768
+135,C0135,DNI,25568957,Carmen,Ramos Díaz,carmen135@correo.com,943332474,Los Olivos,Pyme,2026-03-09,Av. Los Pinos 106
+136,C0136,DNI,20868418,Óscar,Rivera Espinoza,óscar136@correo.com,950290691,Callao,Cliente corporativo,2026-03-10,Av. La Marina 1006
+137,C0137,CE,46389007,Hugo,Castillo Rivera,hugo137correo.com,958178333,,Persona natural,2026-02-09,Av. El Sol 1784
+138,C0138,DNI,72958810,Pamela,Huamán Flores,pamela138@correo.com,934509329,,Tienda virtual,2026-02-04,Av. Grau 2402
+139,C0139,DNI,52402566,Ricardo,Villanueva Cruz,ricardo139correo.com,935384691,San Miguel,Pyme,2026-03-19,Av. Grau 599
+140,C0140,CE,98028273,Ana,Bautista Vargas,,983018458,Breña,Cliente corporativo,2026-01-27,Av. Los Pinos 1339
+141,C0141,DNI,98741960,Paola,Flores Ramos,paola141@correo.com,978037765,San Juan de Lurigancho,Persona natural,2026-01-04,Av. Los Pinos 1914
+142,C0142,DNI,12256281,Hugo,Lévano Sánchez,hugo142@correo.com,995075516,Miraflores,Tienda virtual,2026-02-27,Av. Brasil 1517
+143,C0143,CE,87119428,Ricardo,Bautista Villanueva,ricardo143@correo.com,960485969,Lince,Pyme,2026-03-24,Av. Grau 1483
+144,C0144,CE,78103464,Julia,Ríos Cruz,julia144@correo.com,954255758,Rímac,Cliente corporativo,2026-01-12,Av. La Marina 368
+145,C0145,CE,83585086,Milagros,Cruz Mendoza,,951611923,San Miguel,Persona natural,2026-05-25,Av. El Sol 889
+146,C0146,DNI,38847542,Álvaro,Salazar Romero,álvaro146@correo.com,962709523,Surco,Tienda virtual,2026-03-23,Av. El Sol 222
+147,C0147,RUC,92054036,Manuel,Villanueva Lévano,manuel147@correo.com,989791390,San Miguel,Pyme,2026-03-01,Av. La Marina 1241
+148,C0148,RUC,15226633,Julia,Ramos Ramos,julia148@correo.com,910223907,Ate,Cliente corporativo,2026-02-20,Av. Brasil 1666
+149,C0149,CE,61888212,Sergio,Vargas Rojas,sergio149@correo.com,947151836,Los Olivos,Persona natural,2026-04-05,Av. Grau 157
+150,C0150,CE,60714915,María,Cárdenas Ríos,maría150@correo.com,931605317,San Juan de Lurigancho,Tienda virtual,2026-01-18,Av. Grau 2283
+151,C0151,DNI,55425548,María,Aguirre Lévano,maría151@correo.com,981782243,San Miguel,Pyme,2026-04-27,Av. Brasil 554
+152,C0152,DNI,94923384,Álvaro,Flores Ríos,álvaro152@correo.com,987047081,Callao,Cliente corporativo,2026-05-27,Av. Grau 226
+153,C0153,CE,91011842,Andrés,Espinoza Bautista,andrés153@correo.com,939339928,Surco,Persona natural,2026-04-28,Av. La Marina 1714
+154,C0154,CE,86018481,Diego,Vargas Huamán,diego154@correo.com,977075308,Lince,Tienda virtual,2026-02-07,Av. Grau 1093
+155,C0155,RUC,43609943,Raúl,Huamán Ninaquispe,raúl155@correo.com,930059384,San Miguel,Pyme,2026-02-09,Av. Grau 2086
+156,C0156,CE,58776919,Sergio,Aguirre Chávez,sergio156@correo.com,992976851,Rímac,Cliente corporativo,2026-05-28,Av. Los Pinos 1268
+157,C0157,CE,92577254,Karla,Ponce Cárdenas,karla157@correo.com,955095413,Callao,Persona natural,2026-05-07,Av. Brasil 559
+158,C0158,RUC,22207523,Julia,Bautista Ninaquispe,julia158@correo.com,924384111,Rímac,Tienda virtual,2026-03-23,Av. La Marina 1924
+159,C0159,RUC,14682873,Fernando,Gutiérrez Salazar,fernando159@correo.com,979213327,Independencia,Pyme,2026-04-27,Av. Los Pinos 2005
+160,C0160,DNI,73725573,Karla,Cruz Quispe,karla160@correo.com,939677151,Rímac,Cliente corporativo,2026-04-09,Av. Grau 1075
+161,C0161,DNI,24734049,Isabel,Ninaquispe Palomino,isabel161@correo.com,954886331,Independencia,Persona natural,2026-03-28,Av. La Marina 2063
+162,C0162,DNI,71504359,Isabel,Aguirre Salazar,isabel162@correo.com,940759560,Comas,Tienda virtual,2026-03-13,Av. Brasil 146
+163,C0163,DNI,95210668,Paola,Gutiérrez Sánchez,paola163@correo.com,927108752,Ate,Pyme,2026-05-19,Av. Los Pinos 1019
+164,C0164,DNI,19694608,Óscar,Torres Palomino,,973491595,San Borja,Cliente corporativo,2026-04-26,Av. Los Pinos 2228
+165,C0165,RUC,61643868,Gabriela,Torres Cornejo,gabriela165@correo.com,942031476,Los Olivos,Persona natural,2026-02-22,Av. Grau 2450
+166,C0166,RUC,95350173,Iván,Paredes Ponce,iván166@correo.com,918342449,Independencia,Tienda virtual,2026-04-24,Av. Brasil 2126
+167,C0167,DNI,57294464,José,Quispe Mendoza,josé167@correo.com,955128202,Ate,Pyme,2026-04-17,Av. La Marina 1127
+168,C0168,RUC,42030028,Iván,Quispe Chávez,iván168@correo.com,,Villa El Salvador,Cliente corporativo,2026-03-25,Av. La Marina 459
+169,C0169,CE,35117288,Daniela,Cárdenas Cornejo,daniela169@correo.com,,San Miguel,Persona natural,2026-02-23,Av. La Marina 2312
+170,C0170,DNI,28593443,Karla,Palomino Ramos,karla170@correo.com,996948570,,Tienda virtual,2026-03-09,Av. Brasil 1225
+171,C0171,DNI,88630717,Lucía,Gutiérrez Villanueva,lucía171@correo.com,936673887,Breña,Pyme,2026-05-14,Av. El Sol 1823
+172,C0172,DNI,49596320,Carmen,Aguirre Aguirre,carmen172correo.com,921169837,Los Olivos,Cliente corporativo,2026-03-06,Av. La Marina 816
+173,C0173,CE,91863209,Renzo,Bautista Díaz,renzo173@correo.com,,Miraflores,Persona natural,2026-02-11,Av. Los Pinos 1872
+174,C0174,DNI,37346899,Óscar,Castillo Chávez,óscar174@correo.com,912231233,Ate,Tienda virtual,2026-05-16,Av. El Sol 140
+175,C0175,CE,30615834,Sergio,Villanueva Chávez,sergio175correo.com,994896772,San Juan de Lurigancho,Pyme,2026-02-27,Av. Los Pinos 1710
+176,C0176,CE,64986383,Isabel,Cárdenas Espinoza,isabel176@correo.com,946276216,Surco,Cliente corporativo,2026-03-01,Av. La Marina 1931
+177,C0177,CE,37146180,Manuel,Mendoza Rojas,manuel177@correo.com,914448356,Chorrillos,Persona natural,2026-03-21,Av. Brasil 184
+178,C0178,DNI,23212889,Isabel,Villanueva Gutiérrez,isabel178@correo.com,973846056,San Juan de Lurigancho,Tienda virtual,2026-05-13,Av. El Sol 391
+179,C0179,DNI,74601488,Gabriela,Paredes Ríos,gabriela179@correo.com,972948952,San Juan de Lurigancho,Pyme,2026-04-25,Av. Grau 1027
+180,C0180,DNI,39845478,Sergio,Espinoza Vargas,sergio180@correo.com,937249880,San Borja,Cliente corporativo,2026-02-01,Av. El Sol 181
+181,C0181,RUC,83619651,Diego,Torres Espinoza,diego181@correo.com,,Miraflores,Persona natural,2026-01-20,Av. Brasil 2012
+182,C0182,DNI,27081847,Isabel,Ponce Bautista,isabel182@correo.com,923136924,San Juan de Lurigancho,Tienda virtual,2026-02-02,Av. La Marina 2139
+183,C0183,DNI,18280151,Luis,Rojas Chávez,luis183@correo.com,997660853,San Juan de Lurigancho,Pyme,2026-03-01,Av. Los Pinos 825
+184,C0184,RUC,57537309,Raúl,Ramos Castillo,raúl184@correo.com,948975657,,Cliente corporativo,2026-05-15,Av. Los Pinos 2177
+185,C0185,CE,34864251,Pedro,Flores Ninaquispe,pedro185@correo.com,911394494,San Miguel,Persona natural,2026-02-09,Av. Grau 1519
+186,C0186,CE,49195797,Lucía,Aguirre Cárdenas,lucía186@correo.com,971983156,Villa El Salvador,Tienda virtual,2026-01-12,Av. La Marina 1058
+187,C0187,DNI,28215271,José,Torres Romero,josé187@correo.com,,Breña,Pyme,2026-01-01,Av. Grau 696
+188,C0188,DNI,81066841,Isabel,Zevallos Zevallos,isabel188@correo.com,911665954,Callao,Cliente corporativo,2026-04-10,Av. La Marina 1670
+189,C0189,DNI,244027,Carmen,Aguirre Ramos,carmen189@correo.com,942914345,San Miguel,Persona natural,2026-04-01,Av. Brasil 1008
+190,C0190,CE,95134711,Karla,Cruz Zevallos,karla190@correo.com,955514037,La Molina,Tienda virtual,2026-05-28,Av. La Marina 2104
+191,C0191,DNI,28569170,Ricardo,Ponce Ponce,ricardo191@correo.com,923174484,Los Olivos,Pyme,2026-03-13,Av. Brasil 483
+192,C0192,RUC,88613131,Jorge,Rivera Ponce,jorge192@correo.com,968621947,Villa El Salvador,Cliente corporativo,2026-04-27,Av. La Marina 150
+193,C0193,DNI,84681767,Bruno,Paredes Gutiérrez,bruno193@correo.com,,San Juan de Lurigancho,Persona natural,2026-01-24,Av. Grau 236
+194,C0194,DNI,43412401,Lucía,Rojas Palomino,lucía194@correo.com,962939153,La Molina,Tienda virtual,2026-02-07,Av. El Sol 1614
+195,C0195,DNI,25686226,Manuel,Villanueva Chávez,manuel195@correo.com,990868556,Chorrillos,Pyme,2026-02-03,Av. Brasil 1581
+196,C0196,DNI,33257911,Miguel,Rojas Quispe,miguel196@correo.com,936867579,San Borja,Cliente corporativo,2026-03-17,Av. Los Pinos 1079
+197,C0197,RUC,44134937,Ana,Chávez Rivera,ana197@correo.com,917154786,Miraflores,Persona natural,2026-03-01,Av. El Sol 2018
+198,C0198,CE,78883126,Fernando,Vargas Torres,fernando198@correo.com,937609547,Villa El Salvador,Tienda virtual,2026-02-08,Av. Grau 2489
+199,C0199,DNI,31630012,Isabel,Bautista Espinoza,isabel199@correo.com,970644047,Villa El Salvador,Pyme,2026-01-18,Av. Brasil 689
+200,C0200,DNI,705733,Karla,Villanueva Flores,karla200@correo.com,969718791,San Miguel,Cliente corporativo,2026-01-09,Av. El Sol 1563
+201,C0201,DNI,46834046,Diego,Mendoza Zevallos,diego97@correo.com,959467533,Lince,Persona natural,2026-03-02,Av. Brasil 1563
+202,C0202,CE,38808304,Álvaro,Sánchez Castillo,álvaro53correo.com,999292945,San Borja,Tienda virtual,2026-02-01,Av. La Marina 1319
+203,C0203,CE,95134711,Karla,Cruz Zevallos,karla190@correo.com,955514037,La Molina,Pyme,2026-05-28,Av. La Marina 2104
+204,C0204,DNI,88201466,Óscar,Lévano Chávez,óscar13@correo.com,941624908,San Borja,Cliente corporativo,2026-03-17,Av. Grau 523
+205,C0205,DNI,94923384,Álvaro,Flores Ríos,álvaro152@correo.com,987047081,Callao,Persona natural,2026-05-27,Av. Grau 226
+206,C0206,DNI,75666782,Lucía,Vargas Cruz,lucía110@correo.com,,Los Olivos,Tienda virtual,2026-05-26,Av. El Sol 1103
+207,C0207,DNI,55435843,Ricardo,Sánchez Cruz,,952168876,San Borja,Pyme,2026-03-02,Av. Los Pinos 456
+208,C0208,DNI,69679240,Carmen,Cornejo Díaz,carmen93@correo.com,995654191,Los Olivos,Cliente corporativo,2026-04-28,Av. Los Pinos 946

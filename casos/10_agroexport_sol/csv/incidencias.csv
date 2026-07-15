@@ -1,96 +1,148 @@
-﻿id_incidencia,codigo_incidencia,id_operacion,tipo_incidencia,severidad,fecha_reporte,estado_incidencia
-1,I00001,436,Reclamo,Media,2026-01-06,En revisi?n
-2,I00002,129,Dato inconsistente,Alta,2026-06-29,En revisi?n
-3,I00003,252,Falla de registro,Alta,2026-02-16,Abierta
-4,I00004,363,Demora,Media,2026-05-05,Abierta
-5,I00005,311,Demora,Baja,2026-05-24,En revisi?n
-6,I00006,287,Reclamo,Media,2026-02-12,Cerrada
-7,I00007,174,Demora,Baja,2026-02-05,En revisi?n
-8,I00008,27,Dato inconsistente,Media,2026-04-01,Cerrada
-9,I00009,218,Demora,Alta,2026-05-23,Abierta
-10,I00010,318,Demora,Baja,2026-01-07,En revisi?n
-11,I00011,319,Dato inconsistente,Baja,2026-04-16,En revisi?n
-12,I00012,412,Reprogramaci?n,Baja,2026-06-23,Cerrada
-13,I00013,89,Falla de registro,Baja,2026-06-19,En revisi?n
-14,I00014,37,Reclamo,Media,2026-04-20,En revisi?n
-15,I00015,157,Reclamo,Baja,2026-02-07,Cerrada
-16,I00016,105,Reprogramaci?n,Alta,2026-05-07,En revisi?n
-17,I00017,242,Dato inconsistente,Media,2026-05-11,En revisi?n
-18,I00018,292,Reprogramaci?n,Baja,2026-05-31,Cerrada
-19,I00019,154,Falla de registro,Alta,2026-04-29,En revisi?n
-20,I00020,455,Reclamo,Media,2026-04-04,Abierta
-21,I00021,70,Falla de registro,Baja,2026-02-26,Abierta
-22,I00022,161,Falla de registro,Baja,2026-04-09,En revisi?n
-23,I00023,427,Falla de registro,Baja,2026-02-08,Cerrada
-24,I00024,57,Demora,Baja,2026-01-15,En revisi?n
-25,I00025,99,Demora,Media,2026-06-25,Abierta
-26,I00026,211,Reprogramaci?n,Alta,2026-03-28,Abierta
-27,I00027,397,Demora,Baja,2026-02-13,Cerrada
-28,I00028,325,Demora,Media,2026-05-27,Cerrada
-29,I00029,40,Demora,Baja,2026-01-23,Abierta
-30,I00030,151,Reclamo,Alta,2026-05-27,Cerrada
-31,I00031,388,Falla de registro,Baja,2026-01-19,Abierta
-32,I00032,321,Demora,Alta,2026-04-15,Cerrada
-33,I00033,351,Reprogramaci?n,Media,2026-02-08,Abierta
-34,I00034,9,Falla de registro,Baja,2026-03-05,En revisi?n
-35,I00035,269,Dato inconsistente,Media,2026-05-12,En revisi?n
-36,I00036,144,Dato inconsistente,Alta,2026-01-13,Cerrada
-37,I00037,139,Reclamo,Baja,2026-06-04,Cerrada
-38,I00038,410,Reclamo,Alta,2026-06-21,Abierta
-39,I00039,34,Falla de registro,Alta,2026-01-14,En revisi?n
-40,I00040,184,Reclamo,Alta,2026-06-19,Abierta
-41,I00041,367,Falla de registro,Baja,2026-06-19,Abierta
-42,I00042,26,Falla de registro,Media,2026-06-20,Cerrada
-43,I00043,240,Demora,Alta,2026-03-12,En revisi?n
-44,I00044,362,Dato inconsistente,Media,2026-04-09,En revisi?n
-45,I00045,403,Demora,Baja,2026-04-12,Cerrada
-46,I00046,210,Reclamo,Media,2026-05-04,Abierta
-47,I00047,138,Demora,Baja,2026-05-03,Abierta
-48,I00048,454,Reclamo,Baja,2026-02-28,Abierta
-49,I00049,224,Demora,Media,2026-03-16,Abierta
-50,I00050,322,Reclamo,Media,2026-03-07,Cerrada
-51,I00051,247,Reprogramaci?n,Media,2026-05-23,En revisi?n
-52,I00052,106,Dato inconsistente,Baja,2026-01-16,Abierta
-53,I00053,476,Demora,Alta,2026-04-02,En revisi?n
-54,I00054,479,Reprogramaci?n,Media,2026-05-02,Abierta
-55,I00055,128,Demora,Alta,2026-04-21,Abierta
-56,I00056,226,Demora,Media,2026-04-27,En revisi?n
-57,I00057,206,Demora,Alta,2026-01-06,Cerrada
-58,I00058,493,Falla de registro,Baja,2026-01-24,En revisi?n
-59,I00059,102,Demora,Media,2026-05-05,Cerrada
-60,I00060,331,Reprogramaci?n,Alta,2026-03-09,Cerrada
-61,I00061,160,Dato inconsistente,Baja,2026-04-08,Abierta
-62,I00062,153,Falla de registro,Media,2026-03-07,En revisi?n
-63,I00063,433,Demora,Alta,2026-04-06,Abierta
-64,I00064,194,Falla de registro,Media,2026-05-15,Abierta
-65,I00065,93,Falla de registro,Alta,2026-01-13,Cerrada
-66,I00066,65,Dato inconsistente,Media,2026-05-17,Abierta
-67,I00067,408,Dato inconsistente,Alta,2026-06-24,En revisi?n
-68,I00068,109,Reclamo,Media,2026-01-01,Abierta
-69,I00069,309,Demora,Alta,2026-01-23,Abierta
-70,I00070,183,Reprogramaci?n,Alta,2026-03-28,Cerrada
-71,I00071,307,Falla de registro,Alta,2026-01-11,Cerrada
-72,I00072,147,Falla de registro,Media,2026-02-24,Abierta
-73,I00073,281,Dato inconsistente,Media,2026-02-19,Cerrada
-74,I00074,441,Demora,Baja,2026-01-27,Abierta
-75,I00075,171,Reprogramaci?n,Media,2026-02-18,Cerrada
-76,I00076,192,Dato inconsistente,Baja,2026-04-04,Abierta
-77,I00077,458,Reclamo,Baja,2026-06-14,En revisi?n
-78,I00078,358,Dato inconsistente,Media,2026-05-01,Abierta
-79,I00079,499,Reprogramaci?n,Baja,2026-05-14,Abierta
-80,I00080,495,Falla de registro,Media,2026-04-01,Cerrada
-81,I00081,379,Falla de registro,Media,2026-05-25,Cerrada
-82,I00082,323,Demora,Baja,2026-05-19,Cerrada
-83,I00083,75,Reprogramaci?n,Media,2026-03-06,Cerrada
-84,I00084,205,Dato inconsistente,Baja,2026-03-30,En revisi?n
-85,I00085,33,Dato inconsistente,Baja,2026-01-30,Cerrada
-86,I00086,401,Falla de registro,Media,2026-04-03,Cerrada
-87,I00087,356,Reclamo,Alta,2026-03-06,Abierta
-88,I00088,262,Reclamo,Alta,2026-01-13,Abierta
-89,I00089,148,Demora,Baja,2026-02-09,Cerrada
-90,I00090,199,Reprogramaci?n,Baja,2026-02-19,Abierta
-91,I00091,185,Dato inconsistente,Alta,2026-06-22,En revisi?n
-92,I00092,56,Dato inconsistente,Alta,2026-04-19,Cerrada
-93,I00093,12,Reprogramaci?n,Baja,2026-02-24,En revisi?n
-94,I00094,86,Dato inconsistente,Media,2026-03-18,En revisi?n
-95,I00095,355,Reprogramaci?n,Alta,2026-01-04,Cerrada
+id_incidencia,codigo_incidencia,id_operacion,tipo_incidencia,severidad,fecha_reporte,estado_incidencia
+1,I00001,2,Lote observado,Media,2026-04-01,Cerrada
+2,I00002,3,Temperatura fuera de rango,Media,2026-02-22,En revisión
+3,I00003,4,Demora aduanera,Baja,2026-05-23,En revisión
+4,I00004,8,Calibre no conforme,Media,2026-03-04,En revisión
+5,I00005,10,Certificado pendiente,Baja,2026-02-20,Cerrada
+6,I00006,14,Lote observado,Media,2026-02-05,En revisión
+7,I00007,17,Temperatura fuera de rango,Alta,2026-03-04,En revisión
+8,I00008,33,Demora aduanera,Alta,2026-03-23,Cerrada
+9,I00009,38,Calibre no conforme,Media,2026-02-05,Abierta
+10,I00010,66,Certificado pendiente,Baja,2026-03-02,En revisión
+11,I00011,67,Lote observado,Alta,2026-02-13,Cerrada
+12,I00012,69,Temperatura fuera de rango,Alta,2026-04-05,Cerrada
+13,I00013,74,Demora aduanera,Media,2026-04-01,Abierta
+14,I00014,78,Calibre no conforme,Media,2026-05-11,Abierta
+15,I00015,95,Certificado pendiente,Baja,2026-06-08,Abierta
+16,I00016,119,Lote observado,Media,2026-05-06,Cerrada
+17,I00017,131,Temperatura fuera de rango,Alta,2026-05-18,Abierta
+18,I00018,136,Demora aduanera,Alta,2026-02-23,Cerrada
+19,I00019,157,Calibre no conforme,Alta,2026-05-14,Abierta
+20,I00020,159,Certificado pendiente,Media,2026-05-04,Abierta
+21,I00021,164,Lote observado,Baja,2026-04-07,Abierta
+22,I00022,172,Temperatura fuera de rango,Alta,2026-06-12,Abierta
+23,I00023,177,Demora aduanera,Alta,2026-04-19,En revisión
+24,I00024,184,Calibre no conforme,Baja,2026-04-13,En revisión
+25,I00025,191,Certificado pendiente,Alta,2026-05-09,Cerrada
+26,I00026,199,Lote observado,Baja,2026-03-14,En revisión
+27,I00027,214,Temperatura fuera de rango,Alta,2026-02-16,Abierta
+28,I00028,232,Demora aduanera,Media,2026-06-23,En revisión
+29,I00029,236,Calibre no conforme,Baja,2026-02-19,En revisión
+30,I00030,239,Certificado pendiente,Baja,2026-04-07,En revisión
+31,I00031,244,Lote observado,Baja,2026-03-26,Abierta
+32,I00032,250,Temperatura fuera de rango,Baja,2026-04-21,Cerrada
+33,I00033,254,Demora aduanera,Alta,2026-04-18,Cerrada
+34,I00034,257,Calibre no conforme,Baja,2026-03-06,Cerrada
+35,I00035,258,Certificado pendiente,Media,2026-02-26,Abierta
+36,I00036,266,Lote observado,Alta,2026-06-07,En revisión
+37,I00037,275,Temperatura fuera de rango,Media,2026-02-21,En revisión
+38,I00038,276,Demora aduanera,Alta,2026-05-20,En revisión
+39,I00039,287,Calibre no conforme,Alta,2026-04-05,Abierta
+40,I00040,291,Certificado pendiente,Media,2026-02-10,Abierta
+41,I00041,297,Lote observado,Media,2026-06-15,Abierta
+42,I00042,305,Temperatura fuera de rango,Alta,2026-05-24,Abierta
+43,I00043,309,Demora aduanera,Media,2026-03-16,En revisión
+44,I00044,332,Calibre no conforme,Baja,2026-05-16,En revisión
+45,I00045,335,Certificado pendiente,Alta,2026-04-13,Abierta
+46,I00046,339,Lote observado,Baja,2026-05-04,Cerrada
+47,I00047,347,Temperatura fuera de rango,Alta,2026-02-04,En revisión
+48,I00048,348,Demora aduanera,Baja,2026-04-08,Cerrada
+49,I00049,354,Calibre no conforme,Alta,2026-06-12,Cerrada
+50,I00050,364,Certificado pendiente,Baja,2026-05-10,Abierta
+51,I00051,373,Lote observado,Media,2026-04-23,En revisión
+52,I00052,382,Temperatura fuera de rango,Alta,2026-04-02,En revisión
+53,I00053,386,Demora aduanera,Alta,2026-06-14,En revisión
+54,I00054,393,Calibre no conforme,Baja,2026-02-23,Abierta
+55,I00055,394,Certificado pendiente,Media,2026-04-18,Cerrada
+56,I00056,400,Lote observado,Media,2026-04-02,Cerrada
+57,I00057,411,Temperatura fuera de rango,Alta,2026-03-28,Abierta
+58,I00058,420,Demora aduanera,Media,2026-02-26,Cerrada
+59,I00059,425,Calibre no conforme,Media,2026-04-18,Cerrada
+60,I00060,429,Certificado pendiente,Baja,2026-02-16,Cerrada
+61,I00061,434,Lote observado,Baja,2026-04-21,Cerrada
+62,I00062,436,Temperatura fuera de rango,Media,2026-03-26,Abierta
+63,I00063,445,Demora aduanera,Media,2026-06-11,Cerrada
+64,I00064,449,Calibre no conforme,Media,2026-05-19,En revisión
+65,I00065,451,Certificado pendiente,Alta,2026-06-13,En revisión
+66,I00066,452,Lote observado,Media,2026-03-19,En revisión
+67,I00067,470,Temperatura fuera de rango,Baja,2026-04-24,En revisión
+68,I00068,482,Demora aduanera,Baja,2026-06-26,Cerrada
+69,I00069,483,Calibre no conforme,Alta,2026-02-10,En revisión
+70,I00070,488,Certificado pendiente,Baja,2026-02-17,Abierta
+71,I00071,497,Lote observado,Baja,2026-02-25,En revisión
+72,I00072,514,Temperatura fuera de rango,Media,2026-03-02,En revisión
+73,I00073,522,Demora aduanera,Alta,2026-03-02,En revisión
+74,I00074,525,Calibre no conforme,Baja,2026-03-09,Abierta
+75,I00075,529,Certificado pendiente,Baja,2026-02-08,Cerrada
+76,I00076,542,Lote observado,Alta,2026-05-09,En revisión
+77,I00077,547,Temperatura fuera de rango,Alta,2026-02-03,Abierta
+78,I00078,550,Demora aduanera,Alta,2026-06-24,Cerrada
+79,I00079,558,Calibre no conforme,Baja,2026-06-03,En revisión
+80,I00080,559,Certificado pendiente,Media,2026-04-20,En revisión
+81,I00081,564,Lote observado,Media,2026-06-12,Cerrada
+82,I00082,570,Temperatura fuera de rango,Media,2026-06-08,En revisión
+83,I00083,581,Demora aduanera,Media,2026-04-24,En revisión
+84,I00084,592,Calibre no conforme,Alta,2026-06-06,En revisión
+85,I00085,594,Certificado pendiente,Media,2026-03-28,En revisión
+86,I00086,595,Lote observado,Baja,2026-03-10,En revisión
+87,I00087,614,Temperatura fuera de rango,Media,2026-03-23,En revisión
+88,I00088,615,Demora aduanera,Alta,2026-06-22,En revisión
+89,I00089,619,Calibre no conforme,Media,2026-02-01,En revisión
+90,I00090,622,Certificado pendiente,Alta,2026-02-03,Abierta
+91,I00091,627,Lote observado,Media,2026-03-07,Abierta
+92,I00092,639,Temperatura fuera de rango,Media,2026-02-15,Cerrada
+93,I00093,647,Demora aduanera,Media,2026-05-19,En revisión
+94,I00094,653,Calibre no conforme,Media,2026-05-19,En revisión
+95,I00095,654,Certificado pendiente,Media,2026-04-09,Abierta
+96,I00096,659,Lote observado,Alta,2026-06-18,Cerrada
+97,I00097,668,Temperatura fuera de rango,Alta,2026-03-20,En revisión
+98,I00098,675,Demora aduanera,Baja,2026-03-02,Abierta
+99,I00099,678,Calibre no conforme,Baja,2026-02-04,Abierta
+100,I00100,685,Certificado pendiente,Media,2026-03-05,En revisión
+101,I00101,703,Lote observado,Baja,2026-05-20,Cerrada
+102,I00102,705,Temperatura fuera de rango,Media,2026-04-24,Abierta
+103,I00103,706,Demora aduanera,Media,2026-05-13,En revisión
+104,I00104,718,Calibre no conforme,Alta,2026-02-04,Abierta
+105,I00105,724,Certificado pendiente,Media,2026-02-25,Cerrada
+106,I00106,752,Lote observado,Alta,2026-05-08,Cerrada
+107,I00107,756,Temperatura fuera de rango,Baja,2026-06-25,Abierta
+108,I00108,765,Demora aduanera,Media,2026-05-25,Abierta
+109,I00109,790,Calibre no conforme,Media,2026-05-26,En revisión
+110,I00110,791,Certificado pendiente,Alta,2026-06-10,Abierta
+111,I00111,797,Lote observado,Media,2026-05-08,Cerrada
+112,I00112,799,Temperatura fuera de rango,Media,2026-03-20,Abierta
+113,I00113,810,Demora aduanera,Media,2026-06-17,Cerrada
+114,I00114,813,Calibre no conforme,Alta,2026-02-15,Cerrada
+115,I00115,817,Certificado pendiente,Baja,2026-04-25,En revisión
+116,I00116,826,Lote observado,Media,2026-03-02,Cerrada
+117,I00117,829,Temperatura fuera de rango,Alta,2026-04-27,Cerrada
+118,I00118,833,Demora aduanera,Baja,2026-02-27,En revisión
+119,I00119,844,Calibre no conforme,Media,2026-05-24,En revisión
+120,I00120,845,Certificado pendiente,Alta,2026-03-07,Abierta
+121,I00121,858,Lote observado,Media,2026-03-06,Abierta
+122,I00122,863,Temperatura fuera de rango,Media,2026-02-18,Abierta
+123,I00123,865,Demora aduanera,Baja,2026-06-09,En revisión
+124,I00124,868,Calibre no conforme,Media,2026-04-20,Cerrada
+125,I00125,870,Certificado pendiente,Media,2026-06-07,Cerrada
+126,I00126,875,Lote observado,Media,2026-02-13,Cerrada
+127,I00127,881,Temperatura fuera de rango,Alta,2026-06-04,Cerrada
+128,I00128,883,Demora aduanera,Alta,2026-04-06,Abierta
+129,I00129,886,Calibre no conforme,Media,2026-06-13,Abierta
+130,I00130,905,Certificado pendiente,Alta,2026-04-25,Cerrada
+131,I00131,906,Lote observado,Media,2026-02-17,Abierta
+132,I00132,913,Temperatura fuera de rango,Media,2026-05-03,En revisión
+133,I00133,923,Demora aduanera,Baja,2026-06-18,Abierta
+134,I00134,924,Calibre no conforme,Media,2026-06-27,En revisión
+135,I00135,934,Certificado pendiente,Alta,2026-04-08,Abierta
+136,I00136,946,Lote observado,Baja,2026-05-05,En revisión
+137,I00137,951,Temperatura fuera de rango,Baja,2026-03-10,En revisión
+138,I00138,955,Demora aduanera,Media,2026-06-02,En revisión
+139,I00139,958,Calibre no conforme,Baja,2026-05-12,Abierta
+140,I00140,963,Certificado pendiente,Media,2026-05-17,En revisión
+141,I00141,973,Lote observado,Baja,2026-04-12,Abierta
+142,I00142,976,Temperatura fuera de rango,Media,2026-04-07,En revisión
+143,I00143,991,Demora aduanera,Alta,2026-03-01,En revisión
+144,I00144,992,Calibre no conforme,Media,2026-02-25,En revisión
+145,I00145,993,Certificado pendiente,Alta,2026-02-25,Abierta
+146,I00146,994,Lote observado,Alta,2026-06-01,Cerrada
+147,I00147,998,Temperatura fuera de rango,Alta,2026-02-10,Cerrada

@@ -1,0 +1,41 @@
+id_empleado,codigo_empleado,nombres,apellidos,num_documento,cargo,id_sede,correo,sueldo,fecha_ingreso
+1,E0001,Natalia,Espinoza Flores,52903520,Químico farmacéutico,6,natalia.espinoza@farmacia_medisur.pe,4167.03,2026-01-05
+2,E0002,Sergio,Castillo Flores,82578268,Técnico en farmacia,6,sergio.castillo@farmacia_medisur.pe,5945.51,2026-02-02
+3,E0003,Diego,Gutiérrez Palomino,27653876,Cajero de botica,4,diego.gutiérrez@farmacia_medisur.pe,3464.05,2026-01-07
+4,E0004,Patricia,Romero Bautista,36643790,Auxiliar de almacén,2,patricia.romero@farmacia_medisur.pe,4286.47,2026-03-28
+5,E0005,Patricia,Ramos Quispe,61112099,Encargado de delivery,6,patricia.ramos@farmacia_medisur.pe,3007.45,2026-03-12
+6,E0006,Carlos,Espinoza Ríos,68424058,Administrador de local,1,carlos.espinoza@farmacia_medisur.pe,2255.41,2026-03-14
+7,E0007,Pedro,Ríos Díaz,78179013,Químico farmacéutico,1,pedro.ríos@farmacia_medisur.pe,3592.54,2026-02-21
+8,E0008,Verónica,Zevallos Paredes,63146833,Técnico en farmacia,5,verónica.zevallos@farmacia_medisur.pe,1211.72,2026-03-17
+9,E0009,Renzo,Quispe Flores,55869522,Cajero de botica,2,renzo.quispe@farmacia_medisur.pe,3235.41,2026-02-26
+10,E0010,Isabel,Espinoza Paredes,90109968,Auxiliar de almacén,2,isabel.espinoza@farmacia_medisur.pe,5443.79,2026-03-21
+11,E0011,Claudia,Villanueva Sánchez,68500749,Encargado de delivery,2,claudia.villanueva@farmacia_medisur.pe,,2026-03-11
+12,E0012,Natalia,Castillo Flores,14353904,Administrador de local,1,natalia.castillo@farmacia_medisur.pe,3807.04,2026-01-04
+13,E0013,Daniela,Cornejo Ramos,32521543,Químico farmacéutico,5,daniela.cornejo@farmacia_medisur.pe,1568.58,2026-03-04
+14,E0014,Isabel,Castillo Díaz,50377093,Técnico en farmacia,6,isabel.castillo@farmacia_medisur.pe,1693.06,2026-02-10
+15,E0015,Melissa,Castillo Vargas,62242937,Cajero de botica,6,melissa.castillo@farmacia_medisur.pe,3276.46,2026-01-26
+16,E0016,Hugo,Ramos Cruz,23488342,Auxiliar de almacén,1,hugo.ramos@farmacia_medisur.pe,6362.62,2026-02-09
+17,E0017,Julia,Castillo Flores,14768050,Encargado de delivery,4,julia.castillo@farmacia_medisur.pe,6036.94,2026-02-08
+18,E0018,Elena,Ponce Zevallos,34682634,Administrador de local,1,elena.ponce@farmacia_medisur.pe,,2026-01-08
+19,E0019,Carmen,Rivera Lévano,84125373,Químico farmacéutico,1,carmen.rivera@farmacia_medisur.pe,,2026-01-17
+20,E0020,Carmen,Aguirre Sánchez,52436161,Técnico en farmacia,1,carmen.aguirre@farmacia_medisur.pe,1910.23,2026-01-08
+21,E0021,Natalia,Torres Paredes,54136489,Cajero de botica,4,natalia.torres@farmacia_medisur.pe,5556.59,2026-02-06
+22,E0022,Lucía,Sánchez Cárdenas,83403033,Auxiliar de almacén,2,lucía.sánchez@farmacia_medisur.pe,5783.56,2026-03-13
+23,E0023,Iván,Cornejo Paredes,71059508,Encargado de delivery,2,iván.cornejo@farmacia_medisur.pe,,2026-03-12
+24,E0024,Manuel,Rivera Huamán,38204324,Administrador de local,1,manuel.rivera@farmacia_medisur.pe,2083.45,2026-01-27
+25,E0025,Bruno,Aguirre Lévano,61394370,Químico farmacéutico,4,bruno.aguirre@farmacia_medisur.pe,6480.02,2026-01-21
+26,E0026,Hugo,Castillo Cárdenas,44340404,Técnico en farmacia,5,hugo.castillo@farmacia_medisur.pe,,2026-02-25
+27,E0027,Víctor,Mendoza Paredes,24179069,Cajero de botica,3,víctor.mendoza@farmacia_medisur.pe,6180.63,2026-03-21
+28,E0028,Natalia,Quispe Aguirre,58880013,Auxiliar de almacén,4,natalia.quispe@farmacia_medisur.pe,4969.01,2026-02-14
+29,E0029,Carmen,Aguirre Lévano,74243996,Encargado de delivery,4,carmen.aguirre@farmacia_medisur.pe,3327.72,2026-02-01
+30,E0030,Karla,Lévano Díaz,88824989,Administrador de local,5,karla.lévano@farmacia_medisur.pe,,2026-03-13
+31,E0031,Pedro,Cárdenas Gutiérrez,80003095,Químico farmacéutico,4,pedro.cárdenas@farmacia_medisur.pe,2869.28,2026-01-26
+32,E0032,Patricia,Vargas Castillo,87348988,Técnico en farmacia,3,patricia.vargas@farmacia_medisur.pe,6048.9,2026-03-23
+33,E0033,Rosa,Díaz Cárdenas,61796312,Cajero de botica,1,rosa.díaz@farmacia_medisur.pe,4297.59,2026-01-10
+34,E0034,Claudia,Cornejo Rivera,32197230,Auxiliar de almacén,5,claudia.cornejo@farmacia_medisur.pe,3452.14,2026-03-24
+35,E0035,Rosa,Cruz Cruz,11018488,Encargado de delivery,6,rosa.cruz@farmacia_medisur.pe,2836.0,2026-01-17
+36,E0036,Patricia,Castillo Gutiérrez,55324411,Administrador de local,3,patricia.castillo@farmacia_medisur.pe,3579.29,2026-03-21
+37,E0037,Milagros,Flores Ninaquispe,44056662,Químico farmacéutico,5,milagros.flores@farmacia_medisur.pe,2857.91,2026-02-19
+38,E0038,Víctor,Aguirre Paredes,43812645,Técnico en farmacia,6,víctor.aguirre@farmacia_medisur.pe,2182.32,2026-01-09
+39,E0039,Julia,Ninaquispe Torres,13047285,Cajero de botica,3,julia.ninaquispe@farmacia_medisur.pe,5950.09,2026-02-17
+40,E0040,Karla,Ramos Cornejo,42843158,Auxiliar de almacén,3,karla.ramos@farmacia_medisur.pe,2136.65,2026-02-20

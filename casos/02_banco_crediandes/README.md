@@ -1,31 +1,41 @@
 # Banco CrediAndes
 
-**Sector:** Finanzas
+**Sector:** Finanzas  |  **Código del caso:** `02_banco_crediandes`
 
-## Objetivo del caso
-Analizar clientes, cuentas, productos y transacciones para detectar patrones operativos.
+## Contexto
+Banco CrediAndes es una banco de microfinanzas con agencias en Lima Norte y Callao. Registra a sus clientes, su personal,
+su catálogo de productos financieros, las operaciones del negocio, los pagos y las incidencias.
+La dirección necesita **ordenar, auditar y gobernar** estos datos (semanas 9 a 15 del curso).
 
 ## Archivos
-- `02_banco_crediandes.db`: base SQLite oficial del caso.
-- `schema.sql`: estructura de tablas y claves.
-- `csv/`: tablas exportadas para revisi?n o carga alternativa.
+- `02_banco_crediandes.db` — base SQLite oficial del caso.
+- `schema.sql` — estructura de las 8 tablas y sus claves.
+- `csv/` — cada tabla exportada a CSV (carga alternativa).
+- `diccionario_datos.csv` — metadatos: tabla, columna, tipo, clave y sensibilidad.
 
-## Tablas principales
-- `entidades`: clientes, pacientes, ciudadanos, usuarios u objetos principales del caso.
-- `sedes`: puntos de atenci?n, locales o unidades operativas.
-- `productos_servicios`: cat?logo de productos o servicios.
-- `operaciones`: transacciones o eventos centrales.
-- `incidencias`: observaciones, reclamos o problemas asociados.
-- `pagos`: pagos o movimientos monetarios.
+## Tablas
+| Tabla | Descripción |
+|---|---|
+| `sedes` | Locales / puntos de atención. |
+| `empleados` | Personal (incluye datos personales y sueldo). |
+| `clientes` | Clientes — incluye PII y el dato sensible `saldo_cuenta`. |
+| `productos_servicios` | Catálogo de productos financieros. |
+| `operaciones` | Transacciones (tabla de hechos). |
+| `detalle_operacion` | Líneas por operación (N:M con productos). |
+| `pagos` | Pagos por operación. |
+| `incidencias` | Reclamos / observaciones. |
 
-## Uso en Colab
+> ⚠️ **Aviso:** la base contiene, de forma intencional, problemas de calidad
+> (nulos, duplicados, inconsistencias, valores inválidos, huérfanos y formatos mezclados)
+> y **datos personales/sensibles** para que el equipo los audite y proponga gobierno de datos.
+> Los datos son ficticios.
+
+## Carga en Google Colab
 ```python
 import requests, sqlite3, pandas as pd
 caso = "02_banco_crediandes"
-url = f"https://raw.githubusercontent.com/Rociosayan/PMD2_FGD_Bases_Oficiales_FDG/main/casos/{caso}/{caso}.db"
-r = requests.get(url)
-open("base.sqlite", "wb").write(r.content)
+url = "https://raw.githubusercontent.com/Rociosayan/-PMD2_FGD_Bases_Oficiales_FDG/main/casos/02_banco_crediandes/02_banco_crediandes.db"
+open("base.sqlite","wb").write(requests.get(url).content)
 conn = sqlite3.connect("base.sqlite")
-tablas = pd.read_sql_query("SELECT name FROM sqlite_schema WHERE type='table' ORDER BY name", conn)
-display(tablas)
+display(pd.read_sql_query("SELECT name FROM sqlite_master WHERE type='table' ORDER BY name", conn))
 ```

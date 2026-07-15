@@ -1,0 +1,41 @@
+id_empleado,codigo_empleado,nombres,apellidos,num_documento,cargo,id_sede,correo,sueldo,fecha_ingreso
+1,E0001,Daniela,Castillo Sánchez,50656899,Médico veterinario,1,daniela.castillo@vet_cuidapatas.pe,3463.03,2026-02-24
+2,E0002,José,Lévano Mendoza,84124504,Técnico veterinario,2,josé.lévano@vet_cuidapatas.pe,5944.65,2026-03-13
+3,E0003,Gabriela,Romero Flores,35134931,Peluquero canino,4,gabriela.romero@vet_cuidapatas.pe,3802.66,2026-03-13
+4,E0004,Karla,Ramos Chávez,72757129,Recepcionista veterinaria,2,karla.ramos@vet_cuidapatas.pe,3703.48,2026-03-06
+5,E0005,Luis,Romero Vargas,81501150,Auxiliar de farmacia veterinaria,5,luis.romero@vet_cuidapatas.pe,1364.45,2026-02-05
+6,E0006,Fernando,Romero Ponce,62277319,Administrador de sede,4,fernando.romero@vet_cuidapatas.pe,,2026-03-16
+7,E0007,Víctor,Salazar Rojas,68771002,Médico veterinario,4,víctor.salazar@vet_cuidapatas.pe,2518.59,2026-03-24
+8,E0008,Julia,Vargas Sánchez,58154847,Técnico veterinario,5,julia.vargas@vet_cuidapatas.pe,1485.62,2026-01-09
+9,E0009,Miguel,Aguirre Rojas,21169412,Peluquero canino,5,miguel.aguirre@vet_cuidapatas.pe,5641.29,2026-02-28
+10,E0010,Andrés,Ninaquispe Aguirre,68768722,Recepcionista veterinaria,3,andrés.ninaquispe@vet_cuidapatas.pe,6221.91,2026-01-04
+11,E0011,Verónica,Salazar Torres,47523536,Auxiliar de farmacia veterinaria,2,verónica.salazar@vet_cuidapatas.pe,5374.61,2026-02-22
+12,E0012,Hugo,Villanueva Cruz,91180354,Administrador de sede,1,hugo.villanueva@vet_cuidapatas.pe,,2026-01-27
+13,E0013,Claudia,Sánchez Salazar,88351419,Médico veterinario,6,claudia.sánchez@vet_cuidapatas.pe,,2026-01-06
+14,E0014,Daniela,Rojas Mendoza,84240047,Técnico veterinario,5,daniela.rojas@vet_cuidapatas.pe,5043.53,2026-02-08
+15,E0015,Patricia,Gutiérrez Zevallos,46232229,Peluquero canino,3,patricia.gutiérrez@vet_cuidapatas.pe,3932.93,2026-01-09
+16,E0016,Natalia,Chávez Ponce,15096595,Recepcionista veterinaria,3,natalia.chávez@vet_cuidapatas.pe,2203.93,2026-02-15
+17,E0017,Carmen,Aguirre Vargas,80100074,Auxiliar de farmacia veterinaria,2,carmen.aguirre@vet_cuidapatas.pe,1288.27,2026-03-10
+18,E0018,Karla,Ponce Villanueva,81469043,Administrador de sede,4,karla.ponce@vet_cuidapatas.pe,2386.75,2026-02-18
+19,E0019,Iván,Villanueva Chávez,91705206,Médico veterinario,1,iván.villanueva@vet_cuidapatas.pe,4220.11,2026-03-12
+20,E0020,Fernando,Ríos Quispe,93728100,Técnico veterinario,4,fernando.ríos@vet_cuidapatas.pe,,2026-03-08
+21,E0021,Julia,Ninaquispe Cruz,96606953,Peluquero canino,4,julia.ninaquispe@vet_cuidapatas.pe,,2026-02-17
+22,E0022,Jorge,Rojas Bautista,60143229,Recepcionista veterinaria,1,jorge.rojas@vet_cuidapatas.pe,5879.11,2026-03-06
+23,E0023,Rosa,Gutiérrez Mendoza,22869462,Auxiliar de farmacia veterinaria,4,rosa.gutiérrez@vet_cuidapatas.pe,4535.88,2026-02-17
+24,E0024,Pamela,Paredes Vargas,75097856,Administrador de sede,6,pamela.paredes@vet_cuidapatas.pe,1885.69,2026-02-06
+25,E0025,Ricardo,Díaz Torres,54597249,Médico veterinario,6,ricardo.díaz@vet_cuidapatas.pe,4572.69,2026-02-08
+26,E0026,Sofía,Zevallos Villanueva,39218876,Técnico veterinario,3,sofía.zevallos@vet_cuidapatas.pe,,2026-03-06
+27,E0027,Víctor,Mendoza Sánchez,48969703,Peluquero canino,3,víctor.mendoza@vet_cuidapatas.pe,2346.14,2026-03-27
+28,E0028,José,Cruz Mendoza,84084715,Recepcionista veterinaria,2,josé.cruz@vet_cuidapatas.pe,4242.97,2026-03-04
+29,E0029,Pamela,Aguirre Ríos,70034234,Auxiliar de farmacia veterinaria,5,pamela.aguirre@vet_cuidapatas.pe,6261.86,2026-03-12
+30,E0030,Isabel,Torres Bautista,81642159,Administrador de sede,1,isabel.torres@vet_cuidapatas.pe,6349.88,2026-01-06
+31,E0031,Luis,Lévano Villanueva,64706121,Médico veterinario,5,luis.lévano@vet_cuidapatas.pe,6474.77,2026-02-23
+32,E0032,Pedro,Flores Torres,36484410,Técnico veterinario,4,pedro.flores@vet_cuidapatas.pe,4469.79,2026-02-25
+33,E0033,Lucía,Castillo Bautista,36574134,Peluquero canino,5,lucía.castillo@vet_cuidapatas.pe,5088.34,2026-01-14
+34,E0034,Bruno,Bautista Torres,86208004,Recepcionista veterinaria,1,bruno.bautista@vet_cuidapatas.pe,5537.17,2026-03-24
+35,E0035,Rosa,Romero Zevallos,13163419,Auxiliar de farmacia veterinaria,5,rosa.romero@vet_cuidapatas.pe,5776.27,2026-02-16
+36,E0036,Manuel,Ríos Torres,67809709,Administrador de sede,3,manuel.ríos@vet_cuidapatas.pe,1349.42,2026-03-19
+37,E0037,Claudia,Díaz Cornejo,14975579,Médico veterinario,6,claudia.díaz@vet_cuidapatas.pe,3310.95,2026-01-20
+38,E0038,Bruno,Sánchez Paredes,35043555,Técnico veterinario,5,bruno.sánchez@vet_cuidapatas.pe,5861.74,2026-01-25
+39,E0039,Ana,Torres Chávez,36507739,Peluquero canino,2,ana.torres@vet_cuidapatas.pe,5048.16,2026-02-01
+40,E0040,Miguel,Huamán Vargas,41457674,Recepcionista veterinaria,4,miguel.huamán@vet_cuidapatas.pe,1489.92,2026-01-23

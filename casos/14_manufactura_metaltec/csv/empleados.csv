@@ -1,0 +1,41 @@
+id_empleado,codigo_empleado,nombres,apellidos,num_documento,cargo,id_sede,correo,sueldo,fecha_ingreso
+1,E0001,Carlos,Rivera Espinoza,54441194,Soldador homologado,2,carlos.rivera@manufactura_metaltec.pe,6078.35,2026-01-25
+2,E0002,Diego,Romero Ponce,75642184,Operador CNC,5,diego.romero@manufactura_metaltec.pe,3439.39,2026-01-11
+3,E0003,Natalia,Lévano Salazar,33641544,Técnico de mantenimiento,4,natalia.lévano@manufactura_metaltec.pe,5061.27,2026-01-18
+4,E0004,Hugo,Chávez Huamán,19310586,Inspector de calidad,4,hugo.chávez@manufactura_metaltec.pe,,2026-01-27
+5,E0005,José,Salazar Ninaquispe,69588653,Planificador de producción,6,josé.salazar@manufactura_metaltec.pe,4445.26,2026-01-24
+6,E0006,Gabriela,Huamán Gutiérrez,89397513,Jefe de planta,3,gabriela.huamán@manufactura_metaltec.pe,1514.41,2026-01-04
+7,E0007,Karla,Flores Espinoza,45849623,Soldador homologado,6,karla.flores@manufactura_metaltec.pe,3010.28,2026-03-01
+8,E0008,Pedro,Zevallos Ríos,57624256,Operador CNC,6,pedro.zevallos@manufactura_metaltec.pe,,2026-03-14
+9,E0009,Manuel,Zevallos Rivera,42027072,Técnico de mantenimiento,1,manuel.zevallos@manufactura_metaltec.pe,4638.68,2026-01-02
+10,E0010,Gabriela,Ninaquispe Ninaquispe,26640330,Inspector de calidad,4,gabriela.ninaquispe@manufactura_metaltec.pe,3765.48,2026-01-05
+11,E0011,Milagros,Vargas Mendoza,42731756,Planificador de producción,4,milagros.vargas@manufactura_metaltec.pe,1715.98,2026-02-07
+12,E0012,Bruno,Paredes Ponce,42246656,Jefe de planta,5,bruno.paredes@manufactura_metaltec.pe,4937.57,2026-01-14
+13,E0013,Raúl,Mendoza Ramos,53887406,Soldador homologado,3,raúl.mendoza@manufactura_metaltec.pe,1290.33,2026-02-13
+14,E0014,José,Cruz Aguirre,89969451,Operador CNC,5,josé.cruz@manufactura_metaltec.pe,3803.89,2026-02-18
+15,E0015,Melissa,Palomino Cruz,30411667,Técnico de mantenimiento,2,melissa.palomino@manufactura_metaltec.pe,2933.27,2026-01-01
+16,E0016,Paola,Gutiérrez Quispe,20266748,Inspector de calidad,6,paola.gutiérrez@manufactura_metaltec.pe,4845.51,2026-01-18
+17,E0017,Patricia,Castillo Cárdenas,91883016,Planificador de producción,2,patricia.castillo@manufactura_metaltec.pe,1535.67,2026-01-14
+18,E0018,Pedro,Villanueva Ramos,48525423,Jefe de planta,1,pedro.villanueva@manufactura_metaltec.pe,6070.23,2026-03-04
+19,E0019,Hugo,Bautista Salazar,38110144,Soldador homologado,2,hugo.bautista@manufactura_metaltec.pe,6222.24,2026-01-11
+20,E0020,Raúl,Flores Paredes,52786490,Operador CNC,4,raúl.flores@manufactura_metaltec.pe,5890.29,2026-01-06
+21,E0021,Diego,Espinoza Rivera,68134933,Técnico de mantenimiento,3,diego.espinoza@manufactura_metaltec.pe,5079.59,2026-02-16
+22,E0022,Daniela,Sánchez Flores,92161349,Inspector de calidad,6,daniela.sánchez@manufactura_metaltec.pe,,2026-02-10
+23,E0023,Carmen,Romero Gutiérrez,95929418,Planificador de producción,5,carmen.romero@manufactura_metaltec.pe,3391.85,2026-03-27
+24,E0024,Karla,Gutiérrez Salazar,85382558,Jefe de planta,4,karla.gutiérrez@manufactura_metaltec.pe,1579.78,2026-01-25
+25,E0025,Fernando,Castillo Díaz,18691187,Soldador homologado,4,fernando.castillo@manufactura_metaltec.pe,5288.42,2026-02-14
+26,E0026,Natalia,Cornejo Flores,11595965,Operador CNC,4,natalia.cornejo@manufactura_metaltec.pe,3886.26,2026-02-04
+27,E0027,Iván,Ninaquispe Vargas,89646188,Técnico de mantenimiento,1,iván.ninaquispe@manufactura_metaltec.pe,2794.95,2026-01-21
+28,E0028,Sergio,Quispe Cruz,95902500,Inspector de calidad,5,sergio.quispe@manufactura_metaltec.pe,5925.89,2026-02-07
+29,E0029,Ana,Rivera Huamán,69232280,Planificador de producción,2,ana.rivera@manufactura_metaltec.pe,2865.44,2026-01-11
+30,E0030,Iván,Palomino Paredes,85130379,Jefe de planta,5,iván.palomino@manufactura_metaltec.pe,5116.2,2026-02-06
+31,E0031,Elena,Romero Díaz,58892990,Soldador homologado,2,elena.romero@manufactura_metaltec.pe,,2026-01-05
+32,E0032,Ricardo,Ramos Zevallos,96388626,Operador CNC,2,ricardo.ramos@manufactura_metaltec.pe,,2026-03-04
+33,E0033,Elena,Espinoza Quispe,32818665,Técnico de mantenimiento,3,elena.espinoza@manufactura_metaltec.pe,4316.58,2026-01-09
+34,E0034,Luis,Vargas Ríos,85742659,Inspector de calidad,1,luis.vargas@manufactura_metaltec.pe,5470.47,2026-01-18
+35,E0035,José,Cárdenas Ríos,51758227,Planificador de producción,2,josé.cárdenas@manufactura_metaltec.pe,6415.3,2026-03-06
+36,E0036,Gabriela,Torres Rojas,45456101,Jefe de planta,4,gabriela.torres@manufactura_metaltec.pe,4849.42,2026-01-10
+37,E0037,Daniela,Romero Vargas,46716418,Soldador homologado,1,daniela.romero@manufactura_metaltec.pe,4777.15,2026-01-22
+38,E0038,Ana,Espinoza Rivera,43473140,Operador CNC,3,ana.espinoza@manufactura_metaltec.pe,5771.75,2026-03-05
+39,E0039,Sergio,Rivera Torres,41984860,Técnico de mantenimiento,6,sergio.rivera@manufactura_metaltec.pe,4975.6,2026-01-07
+40,E0040,Ana,Cárdenas Sánchez,87035564,Inspector de calidad,6,ana.cárdenas@manufactura_metaltec.pe,,2026-02-22

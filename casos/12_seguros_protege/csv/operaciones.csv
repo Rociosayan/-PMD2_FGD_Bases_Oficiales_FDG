@@ -1,501 +1,1011 @@
-﻿id_operacion,codigo_operacion,id_entidad,id_sede,id_producto,fecha_operacion,cantidad,monto_total,estado,canal
-1,O00001,57,5,13,2026-02-23,1,141.5,Completado,Web
-2,O00002,36,4,15,2026-02-13,6,1362.23,Completado,Call Center
-3,O00003,25,6,11,2026-05-16,6,636.3,Observado,Web
-4,O00004,63,4,1,2026-01-31,1,228.43,Completado,Web
-5,O00005,41,6,4,2026-02-14,2,232.54,Cancelado,Call Center
-6,O00006,13,4,3,2026-02-21,1,307.71,Completado,Web
-7,O00007,46,5,4,2026-02-26,3,474.94,Completado,App
-8,O00008,48,4,5,2026-01-13,2,760.99,Completado,Call Center
-9,O00009,79,6,3,2026-02-26,1,390.52,Completado,App
-10,O00010,56,2,3,2026-03-02,5,1921.5,Pendiente,Call Center
-11,O00011,26,4,12,2026-03-13,3,634.39,Completado,Web
-12,O00012,31,2,3,2026-01-20,6,2213.72,Completado,Web
-13,O00013,15,1,4,2026-03-20,3,397.2,Completado,Presencial
-14,O00014,60,6,4,2026-03-09,1,123.52,Completado,Call Center
-15,O00015,17,3,13,2026-06-16,5,537.69,Completado,Presencial
-16,O00016,22,2,4,2026-03-05,5,746.22,Completado,Web
-17,O00017,24,4,3,2026-05-14,1,331.24,Pendiente,App
-18,O00018,58,2,10,2026-06-12,6,174.1,Completado,Web
-19,O00019,3,6,5,2026-01-21,2,808.78,Completado,Web
-20,O00020,65,4,7,2026-03-31,6,2129.73,Completado,Web
-21,O00021,13,1,5,2026-06-21,2,772.59,Pendiente,App
-22,O00022,76,3,13,2026-02-20,2,290.96,Completado,Call Center
-23,O00023,10,1,10,2026-02-16,5,126.22,Completado,Call Center
-24,O00024,48,4,1,2026-03-13,2,513.92,Completado,App
-25,O00025,15,3,9,2026-05-30,3,384.46,Completado,App
-26,O00026,44,1,11,2026-03-06,4,537.39,Completado,Call Center
-27,O00027,32,6,4,2026-05-25,2,303.36,Observado,Presencial
-28,O00028,10,5,5,2026-05-31,6,2298.42,Completado,Call Center
-29,O00029,31,2,5,2026-04-04,3,1186.83,Completado,Presencial
-30,O00030,33,5,4,2026-01-11,6,923.25,Observado,App
-31,O00031,73,5,15,2026-05-08,1,260.61,Pendiente,Call Center
-32,O00032,38,5,12,2026-06-29,2,429.56,Completado,Web
-33,O00033,71,3,5,2026-04-04,5,2205.17,Completado,App
-34,O00034,24,5,10,2026-02-27,6,187.66,Completado,Call Center
-35,O00035,54,6,8,2026-05-09,1,45.32,Pendiente,Web
-36,O00036,40,6,9,2026-01-27,6,963.71,Completado,Presencial
-37,O00037,32,2,8,2026-03-09,3,169.38,Completado,Presencial
-38,O00038,71,1,1,2026-06-26,4,981.05,Completado,Presencial
-39,O00039,77,2,15,2026-02-08,1,294.48,Completado,Web
-40,O00040,75,2,15,2026-03-16,6,1960.27,Completado,Presencial
-41,O00041,24,6,7,2026-04-07,4,1409.49,Completado,Call Center
-42,O00042,51,1,3,2026-03-12,2,615.11,Completado,Call Center
-43,O00043,59,4,5,2026-03-23,5,2124.18,Completado,App
-44,O00044,24,1,3,2026-02-25,3,1070.06,Pendiente,Presencial
-45,O00045,38,5,5,2026-05-01,3,1249.8,Observado,Web
-46,O00046,13,3,11,2026-02-19,3,304.71,Completado,Web
-47,O00047,25,2,5,2026-02-20,3,1233.9,Completado,Web
-48,O00048,17,6,5,2026-04-21,6,2304.36,Completado,App
-49,O00049,2,2,1,2026-06-18,1,240.6,Observado,Presencial
-50,O00050,20,5,2,2026-01-03,3,719.14,Pendiente,Web
-51,O00051,47,5,2,2026-02-17,5,1154.24,Completado,Call Center
-52,O00052,37,2,6,2026-04-02,4,1086.75,Completado,App
-53,O00053,60,6,14,2026-04-30,6,1842.2,Completado,Call Center
-54,O00054,9,2,6,2026-03-26,6,1709.59,Completado,App
-55,O00055,64,1,14,2026-01-11,5,1472.89,Observado,App
-56,O00056,51,5,6,2026-05-11,2,585.56,Cancelado,Web
-57,O00057,76,5,15,2026-01-19,1,325.81,Observado,App
-58,O00058,20,4,2,2026-03-29,1,192.79,Completado,Presencial
-59,O00059,13,1,2,2026-05-29,1,260.96,Completado,Web
-60,O00060,36,6,9,2026-04-24,1,141.29,Completado,Call Center
-61,O00061,22,1,1,2026-06-05,6,1584.04,Pendiente,App
-62,O00062,30,2,12,2026-05-01,3,689.58,Completado,Call Center
-63,O00063,15,3,3,2026-02-03,1,351.83,Completado,Web
-64,O00064,45,5,13,2026-06-19,1,124.29,Completado,Call Center
-65,O00065,70,1,14,2026-05-17,1,344.06,Completado,Presencial
-66,O00066,10,5,7,2026-02-10,3,1092.96,Completado,App
-67,O00067,15,6,3,2026-03-08,5,1968.41,Completado,Call Center
-68,O00068,68,1,11,2026-02-11,6,691.97,Completado,App
-69,O00069,32,6,10,2026-06-23,2,59.06,Completado,Call Center
-70,O00070,62,6,4,2026-03-03,1,159.48,Observado,Web
-71,O00071,16,3,7,2026-06-10,6,2571.55,Completado,App
-72,O00072,41,2,2,2026-05-19,6,1201.04,Pendiente,App
-73,O00073,48,5,2,2026-04-29,6,1182.09,Observado,Web
-74,O00074,60,4,11,2026-04-18,3,372.52,Observado,Presencial
-75,O00075,18,3,12,2026-05-02,3,588.72,Completado,App
-76,O00076,13,6,8,2026-04-29,5,197.61,Pendiente,App
-77,O00077,41,1,13,2026-02-01,3,351.25,Completado,Call Center
-78,O00078,35,4,12,2026-05-23,2,403.24,Completado,App
-79,O00079,62,4,15,2026-04-30,1,241.55,Observado,Call Center
-80,O00080,65,3,6,2026-05-30,1,317.31,Completado,Call Center
-81,O00081,13,1,14,2026-04-08,1,393.87,Pendiente,Presencial
-82,O00082,42,3,12,2026-01-27,5,962.3,Completado,Presencial
-83,O00083,22,1,6,2026-01-18,3,925.05,Completado,Call Center
-84,O00084,74,5,12,2026-04-13,1,199.85,Completado,App
-85,O00085,66,3,14,2026-05-04,6,1947.21,Cancelado,Call Center
-86,O00086,45,6,1,2026-03-06,2,471.15,Completado,Call Center
-87,O00087,27,5,9,2026-03-06,4,540.43,Pendiente,Web
-88,O00088,18,3,5,2026-03-20,3,1268.64,Cancelado,Call Center
-89,O00089,22,6,4,2026-01-05,5,647.25,Completado,Presencial
-90,O00090,43,2,4,2026-06-26,4,586.77,Completado,Web
-91,O00091,14,6,14,2026-04-05,1,338.45,Completado,Web
-92,O00092,33,3,7,2026-03-22,3,1321.53,Completado,Call Center
-93,O00093,14,1,10,2026-04-01,4,133.3,Completado,Web
-94,O00094,66,2,9,2026-02-23,2,344.06,Observado,Presencial
-95,O00095,4,5,11,2026-03-07,6,735.14,Completado,App
-96,O00096,6,5,12,2026-04-16,3,773.49,Cancelado,Call Center
-97,O00097,7,5,10,2026-04-16,3,94.97,Completado,Web
-98,O00098,30,1,14,2026-03-14,4,1199.67,Completado,Call Center
-99,O00099,38,1,8,2026-01-22,6,279.99,Completado,App
-100,O00100,34,3,6,2026-06-03,3,1126.1,Completado,App
-101,O00101,50,3,2,2026-06-10,2,560.53,Pendiente,App
-102,O00102,4,1,4,2026-05-31,5,620.08,Completado,Call Center
-103,O00103,41,2,1,2026-04-28,3,724.35,Observado,App
-104,O00104,60,4,14,2026-04-11,5,1585.15,Observado,Presencial
-105,O00105,77,1,3,2026-04-25,3,999.0,Completado,App
-106,O00106,64,5,2,2026-05-29,5,1076.66,Cancelado,Presencial
-107,O00107,11,2,5,2026-02-03,4,1229.65,Completado,App
-108,O00108,45,3,1,2026-04-10,4,1150.29,Completado,App
-109,O00109,55,5,14,2026-02-17,2,798.39,Cancelado,Web
-110,O00110,45,5,8,2026-05-11,3,167.69,Completado,App
-111,O00111,31,4,12,2026-01-02,6,1390.21,Completado,Presencial
-112,O00112,35,3,11,2026-04-13,1,103.05,Completado,Call Center
-113,O00113,72,4,7,2026-04-12,4,1388.18,Cancelado,Presencial
-114,O00114,50,4,15,2026-05-05,5,1421.27,Completado,Call Center
-115,O00115,70,4,11,2026-06-12,3,425.26,Pendiente,Presencial
-116,O00116,51,1,3,2026-02-07,4,1185.99,Completado,App
-117,O00117,22,1,8,2026-03-24,2,107.28,Completado,Web
-118,O00118,9,6,14,2026-01-21,1,379.7,Completado,Presencial
-119,O00119,17,3,1,2026-01-22,2,469.73,Completado,Call Center
-120,O00120,16,6,9,2026-04-23,2,359.52,Completado,Call Center
-121,O00121,79,6,3,2026-03-19,2,680.58,Pendiente,Web
-122,O00122,2,6,6,2026-06-24,2,633.82,Completado,Presencial
-123,O00123,42,2,14,2026-02-25,1,331.55,Completado,Web
-124,O00124,61,2,8,2026-01-02,3,171.32,Completado,Presencial
-125,O00125,31,1,6,2026-02-28,5,1559.17,Observado,Presencial
-126,O00126,41,1,5,2026-01-29,1,429.89,Completado,Web
-127,O00127,2,2,11,2026-04-19,1,110.95,Completado,Web
-128,O00128,61,1,2,2026-03-24,3,587.31,Completado,Presencial
-129,O00129,51,6,3,2026-03-30,4,1254.88,Completado,Web
-130,O00130,25,4,7,2026-06-11,6,2008.14,Completado,Presencial
-131,O00131,41,4,15,2026-06-27,1,270.61,Completado,App
-132,O00132,17,1,2,2026-02-22,5,969.34,Completado,Call Center
-133,O00133,54,3,4,2026-04-20,3,376.91,Cancelado,Web
-134,O00134,19,4,3,2026-04-15,4,1443.89,Completado,Presencial
-135,O00135,33,5,10,2026-06-10,3,86.65,Completado,Presencial
-136,O00136,30,6,8,2026-04-15,3,143.56,Completado,App
-137,O00137,10,5,2,2026-02-02,3,829.98,Completado,Presencial
-138,O00138,31,6,1,2026-03-04,2,560.66,Completado,Presencial
-139,O00139,24,6,13,2026-01-16,2,278.89,Completado,Call Center
-140,O00140,79,3,12,2026-04-02,2,469.45,Pendiente,App
-141,O00141,20,5,1,2026-02-04,3,679.43,Completado,Presencial
-142,O00142,26,4,14,2026-05-10,1,402.18,Completado,Web
-143,O00143,71,3,14,2026-03-17,5,1654.88,Completado,Call Center
-144,O00144,39,1,10,2026-04-11,1,31.41,Observado,Web
-145,O00145,46,6,10,2026-04-01,5,132.82,Completado,Presencial
-146,O00146,16,4,15,2026-03-02,2,567.83,Completado,Web
-147,O00147,61,6,12,2026-05-14,6,1153.58,Completado,App
-148,O00148,60,5,5,2026-01-09,4,1439.71,Completado,App
-149,O00149,20,5,7,2026-04-29,3,1387.01,Pendiente,Presencial
-150,O00150,37,3,11,2026-06-30,2,196.27,Completado,App
-151,O00151,59,4,13,2026-02-09,3,332.56,Pendiente,Call Center
-152,O00152,14,4,13,2026-04-12,4,519.19,Completado,Call Center
-153,O00153,6,5,2,2026-06-30,3,579.51,Completado,App
-154,O00154,65,5,1,2026-06-18,5,1114.8,Completado,Call Center
-155,O00155,16,3,5,2026-04-12,4,1759.93,Pendiente,Web
-156,O00156,40,5,11,2026-06-22,4,496.53,Completado,Call Center
-157,O00157,67,2,11,2026-03-22,3,409.75,Cancelado,App
-158,O00158,68,2,13,2026-01-25,3,401.17,Observado,Web
-159,O00159,5,1,8,2026-06-12,5,254.46,Observado,Web
-160,O00160,69,2,15,2026-04-25,5,1509.11,Completado,Call Center
-161,O00161,3,1,9,2026-03-31,2,279.37,Completado,Presencial
-162,O00162,25,5,9,2026-06-07,6,802.65,Completado,Presencial
-163,O00163,19,3,4,2026-03-08,3,459.07,Completado,Web
-164,O00164,45,4,14,2026-01-12,4,1114.39,Observado,Presencial
-165,O00165,52,1,11,2026-05-09,3,357.78,Completado,Web
-166,O00166,24,6,6,2026-05-20,6,2212.03,Completado,Call Center
-167,O00167,40,5,6,2026-01-16,5,1756.63,Completado,App
-168,O00168,44,2,11,2026-03-30,3,323.13,Completado,Call Center
-169,O00169,77,2,7,2026-03-29,4,1303.87,Completado,Call Center
-170,O00170,75,1,7,2026-04-09,2,913.45,Completado,App
-171,O00171,39,5,13,2026-06-20,4,581.75,Completado,Web
-172,O00172,19,3,2,2026-01-02,5,1091.89,Observado,Call Center
-173,O00173,73,5,10,2026-04-29,4,124.04,Completado,App
-174,O00174,11,5,13,2026-04-14,1,141.52,Completado,Call Center
-175,O00175,59,3,13,2026-01-27,6,764.88,Completado,Web
-176,O00176,75,2,14,2026-02-12,5,1587.87,Completado,Call Center
-177,O00177,20,3,10,2026-06-11,2,62.33,Pendiente,Presencial
-178,O00178,5,6,9,2026-01-27,1,133.37,Completado,Web
-179,O00179,74,4,8,2026-06-14,5,285.01,Completado,Web
-180,O00180,66,2,1,2026-03-08,2,573.69,Cancelado,Call Center
-181,O00181,13,1,13,2026-03-10,5,775.52,Observado,Web
-182,O00182,30,3,11,2026-05-28,6,683.31,Completado,Presencial
-183,O00183,67,6,12,2026-01-09,3,716.15,Completado,Web
-184,O00184,31,1,11,2026-05-13,6,693.67,Completado,Web
-185,O00185,10,6,12,2026-03-12,2,518.74,Observado,Web
-186,O00186,20,6,3,2026-03-11,5,1974.6,Completado,App
-187,O00187,41,4,5,2026-01-24,6,2246.91,Completado,Web
-188,O00188,80,1,11,2026-06-11,5,562.01,Completado,App
-189,O00189,9,6,14,2026-02-17,5,1456.13,Completado,Call Center
-190,O00190,71,3,10,2026-02-15,1,32.45,Completado,App
-191,O00191,60,3,1,2026-02-01,6,1483.51,Completado,App
-192,O00192,77,3,6,2026-04-13,5,1751.35,Pendiente,Call Center
-193,O00193,32,5,9,2026-03-07,4,678.98,Observado,Web
-194,O00194,60,3,5,2026-04-10,4,1266.42,Observado,Web
-195,O00195,4,6,13,2026-04-30,6,914.51,Pendiente,App
-196,O00196,69,4,13,2026-01-31,1,132.7,Observado,App
-197,O00197,68,1,11,2026-05-05,4,537.44,Observado,Presencial
-198,O00198,40,3,12,2026-05-04,2,374.25,Pendiente,Web
-199,O00199,7,5,5,2026-05-29,5,2084.72,Cancelado,Web
-200,O00200,18,6,5,2026-05-31,6,2594.17,Observado,Web
-201,O00201,35,6,11,2026-02-19,3,428.15,Completado,Presencial
-202,O00202,52,3,13,2026-05-26,4,470.45,Completado,Presencial
-203,O00203,57,6,7,2026-02-13,6,2320.12,Completado,App
-204,O00204,36,5,14,2026-06-19,3,1012.88,Pendiente,Presencial
-205,O00205,70,1,5,2026-06-14,6,2063.48,Observado,Web
-206,O00206,73,1,8,2026-01-16,5,237.08,Completado,Presencial
-207,O00207,60,1,7,2026-06-27,1,405.48,Completado,App
-208,O00208,76,2,5,2026-02-17,1,326.85,Completado,Web
-209,O00209,75,1,14,2026-02-07,3,1057.14,Pendiente,Presencial
-210,O00210,44,6,4,2026-06-18,4,595.31,Completado,Web
-211,O00211,1,3,2,2026-05-01,3,774.57,Completado,Presencial
-212,O00212,9,3,6,2026-05-31,6,1957.79,Completado,Web
-213,O00213,3,5,7,2026-05-17,1,358.17,Completado,App
-214,O00214,14,2,15,2026-01-28,5,1333.08,Completado,Web
-215,O00215,39,5,9,2026-06-20,2,283.79,Pendiente,Web
-216,O00216,58,2,1,2026-01-27,5,1392.12,Cancelado,Web
-217,O00217,23,1,4,2026-05-13,4,631.57,Completado,Presencial
-218,O00218,75,2,2,2026-04-29,5,1199.27,Completado,App
-219,O00219,8,4,10,2026-05-27,2,49.14,Completado,Web
-220,O00220,62,2,11,2026-03-07,2,202.59,Cancelado,Presencial
-221,O00221,79,3,11,2026-01-13,6,711.66,Completado,Call Center
-222,O00222,29,3,11,2026-03-23,3,420.15,Cancelado,Web
-223,O00223,10,6,14,2026-06-17,3,836.9,Completado,Presencial
-224,O00224,31,6,2,2026-01-01,2,447.8,Observado,App
-225,O00225,32,2,2,2026-01-20,4,919.38,Observado,App
-226,O00226,18,2,11,2026-06-01,1,119.04,Completado,Call Center
-227,O00227,57,2,10,2026-01-01,1,26.69,Completado,Presencial
-228,O00228,41,4,8,2026-03-22,1,52.28,Completado,App
-229,O00229,70,5,14,2026-03-29,4,1144.89,Completado,App
-230,O00230,9,2,6,2026-04-22,5,1654.62,Completado,Call Center
-231,O00231,34,2,11,2026-01-20,3,352.61,Completado,App
-232,O00232,5,5,14,2026-05-01,2,789.56,Completado,Web
-233,O00233,15,6,11,2026-05-27,5,702.12,Completado,App
-234,O00234,3,5,7,2026-01-22,2,847.88,Pendiente,Web
-235,O00235,76,1,6,2026-03-08,4,1411.22,Completado,Call Center
-236,O00236,5,3,5,2026-06-01,2,693.57,Pendiente,Presencial
-237,O00237,73,6,7,2026-02-09,1,366.17,Completado,App
-238,O00238,22,6,1,2026-03-01,6,1313.96,Completado,Presencial
-239,O00239,52,4,12,2026-01-17,4,847.7,Completado,Web
-240,O00240,51,5,3,2026-02-13,1,320.93,Completado,App
-241,O00241,48,2,14,2026-03-23,6,1847.39,Completado,App
-242,O00242,78,2,4,2026-01-19,6,836.94,Observado,Call Center
-243,O00243,80,2,9,2026-01-22,2,277.22,Completado,Presencial
-244,O00244,35,5,3,2026-05-26,6,1942.24,Completado,Presencial
-245,O00245,1,4,11,2026-01-30,4,551.95,Completado,Call Center
-246,O00246,40,6,7,2026-04-26,1,351.51,Completado,App
-247,O00247,28,2,3,2026-02-04,2,724.38,Completado,Web
-248,O00248,32,3,3,2026-05-14,4,1528.18,Pendiente,Call Center
-249,O00249,29,1,5,2026-05-30,5,1514.6,Completado,Call Center
-250,O00250,73,4,4,2026-06-08,5,788.87,Completado,App
-251,O00251,27,6,11,2026-06-17,2,265.13,Completado,Presencial
-252,O00252,9,4,3,2026-05-01,1,288.94,Observado,Web
-253,O00253,13,4,13,2026-01-02,4,623.07,Completado,Web
-254,O00254,27,4,4,2026-05-30,3,337.69,Completado,App
-255,O00255,26,1,8,2026-03-12,1,49.26,Completado,Presencial
-256,O00256,29,5,14,2026-03-16,6,2213.78,Cancelado,Presencial
-257,O00257,28,1,8,2026-06-04,6,278.93,Cancelado,Web
-258,O00258,4,4,1,2026-01-30,2,510.36,Completado,App
-259,O00259,77,2,12,2026-01-12,4,932.78,Completado,Call Center
-260,O00260,3,2,11,2026-06-17,2,224.16,Completado,Web
-261,O00261,34,3,7,2026-03-16,5,2237.11,Completado,App
-262,O00262,1,4,4,2026-06-22,6,894.19,Completado,Web
-263,O00263,26,3,11,2026-01-05,3,340.27,Completado,Presencial
-264,O00264,29,1,14,2026-03-02,6,1896.12,Completado,Web
-265,O00265,48,4,14,2026-02-21,3,1183.22,Completado,App
-266,O00266,29,1,11,2026-04-08,5,658.61,Completado,Call Center
-267,O00267,27,1,3,2026-02-23,6,1616.81,Cancelado,Web
-268,O00268,43,4,15,2026-03-06,1,241.8,Completado,Presencial
-269,O00269,12,4,7,2026-02-16,3,1302.55,Completado,Call Center
-270,O00270,12,1,11,2026-01-07,3,372.89,Completado,Presencial
-271,O00271,40,1,5,2026-02-13,4,1651.08,Completado,Presencial
-272,O00272,31,1,11,2026-06-12,4,521.69,Completado,Web
-273,O00273,34,4,15,2026-06-20,1,255.7,Completado,App
-274,O00274,16,6,14,2026-06-26,4,1175.74,Completado,Presencial
-275,O00275,45,1,12,2026-02-15,6,1495.31,Completado,Call Center
-276,O00276,48,2,12,2026-01-11,1,261.15,Completado,Call Center
-277,O00277,38,5,11,2026-03-02,3,323.18,Pendiente,App
-278,O00278,75,4,13,2026-01-31,5,719.72,Completado,Presencial
-279,O00279,35,3,11,2026-01-14,5,669.15,Pendiente,Call Center
-280,O00280,65,6,10,2026-05-02,1,31.15,Cancelado,Web
-281,O00281,70,5,7,2026-06-23,2,731.11,Completado,Call Center
-282,O00282,13,6,8,2026-02-20,6,266.68,Cancelado,Web
-283,O00283,79,4,3,2026-04-25,6,2213.6,Observado,Call Center
-284,O00284,54,6,4,2026-06-28,3,444.97,Completado,App
-285,O00285,25,3,9,2026-06-08,6,1050.1,Completado,Presencial
-286,O00286,13,1,6,2026-06-23,5,1726.99,Completado,App
-287,O00287,74,3,13,2026-04-13,3,423.53,Completado,App
-288,O00288,11,3,6,2026-03-17,4,1191.87,Completado,Web
-289,O00289,41,4,14,2026-03-11,6,1965.28,Completado,Call Center
-290,O00290,26,6,4,2026-03-18,5,635.54,Observado,App
-291,O00291,34,2,15,2026-01-11,3,686.11,Cancelado,Presencial
-292,O00292,77,5,11,2026-03-22,5,645.08,Cancelado,Presencial
-293,O00293,10,4,4,2026-05-28,3,447.05,Completado,App
-294,O00294,66,1,13,2026-05-13,5,602.54,Completado,App
-295,O00295,57,6,13,2026-06-23,5,567.84,Observado,Web
-296,O00296,60,6,9,2026-01-08,6,873.39,Completado,Presencial
-297,O00297,19,4,8,2026-06-05,6,279.74,Pendiente,App
-298,O00298,47,1,12,2026-03-21,4,941.79,Cancelado,Call Center
-299,O00299,44,1,15,2026-03-17,5,1190.84,Completado,Call Center
-300,O00300,14,3,5,2026-01-15,4,1357.81,Completado,App
-301,O00301,28,3,13,2026-01-14,5,678.26,Completado,App
-302,O00302,79,3,2,2026-05-19,6,1192.8,Completado,App
-303,O00303,10,1,3,2026-05-14,6,2109.57,Completado,App
-304,O00304,12,5,10,2026-01-18,4,98.35,Completado,App
-305,O00305,26,2,14,2026-02-17,4,1185.74,Completado,Web
-306,O00306,18,4,4,2026-02-21,1,128.35,Pendiente,Presencial
-307,O00307,33,6,4,2026-01-25,2,317.49,Completado,Presencial
-308,O00308,49,5,11,2026-03-04,3,372.21,Cancelado,App
-309,O00309,72,2,6,2026-05-21,2,623.22,Observado,Web
-310,O00310,48,6,4,2026-04-18,2,321.74,Cancelado,Web
-311,O00311,50,5,1,2026-01-26,2,484.83,Completado,Web
-312,O00312,45,2,1,2026-04-03,6,1680.89,Pendiente,Call Center
-313,O00313,41,1,13,2026-03-25,4,437.44,Completado,Call Center
-314,O00314,17,6,9,2026-02-02,5,758.4,Completado,App
-315,O00315,31,3,14,2026-03-02,6,1771.05,Completado,Presencial
-316,O00316,24,1,9,2026-03-24,2,250.51,Completado,App
-317,O00317,38,1,2,2026-05-23,2,534.53,Completado,Presencial
-318,O00318,1,1,5,2026-04-13,6,2301.75,Completado,Call Center
-319,O00319,38,3,4,2026-03-14,3,467.21,Observado,App
-320,O00320,28,3,3,2026-02-07,4,1330.38,Completado,Presencial
-321,O00321,31,4,7,2026-02-27,2,658.24,Completado,Presencial
-322,O00322,40,1,8,2026-03-12,3,152.92,Completado,Web
-323,O00323,9,6,13,2026-02-14,2,281.35,Completado,App
-324,O00324,60,5,11,2026-01-23,5,523.07,Observado,Presencial
-325,O00325,12,3,2,2026-04-04,4,907.39,Cancelado,App
-326,O00326,59,2,2,2026-06-07,2,524.89,Completado,Call Center
-327,O00327,19,6,8,2026-06-22,6,324.91,Completado,Presencial
-328,O00328,22,3,10,2026-06-24,6,142.15,Completado,Web
-329,O00329,7,6,15,2026-05-24,4,1172.11,Completado,Web
-330,O00330,41,6,8,2026-04-21,5,212.7,Completado,App
-331,O00331,24,6,14,2026-03-01,1,350.41,Completado,App
-332,O00332,3,4,7,2026-01-12,6,2136.31,Completado,Presencial
-333,O00333,70,5,3,2026-06-21,2,573.23,Completado,Web
-334,O00334,64,4,2,2026-05-20,2,554.62,Observado,Call Center
-335,O00335,76,6,2,2026-01-30,1,231.62,Completado,App
-336,O00336,8,1,3,2026-05-01,1,375.96,Completado,App
-337,O00337,57,2,4,2026-03-04,3,413.87,Completado,Web
-338,O00338,34,2,8,2026-04-06,3,155.54,Observado,Web
-339,O00339,20,1,15,2026-05-17,3,880.7,Observado,Web
-340,O00340,62,6,3,2026-03-22,6,1778.51,Completado,Web
-341,O00341,53,2,7,2026-01-13,3,1155.75,Completado,Web
-342,O00342,39,2,4,2026-05-25,5,589.09,Pendiente,Web
-343,O00343,78,1,13,2026-02-18,4,454.54,Observado,Web
-344,O00344,37,1,10,2026-01-26,3,75.74,Completado,App
-345,O00345,3,5,1,2026-04-13,3,752.03,Completado,Web
-346,O00346,38,5,1,2026-06-22,1,237.63,Completado,App
-347,O00347,68,1,3,2026-02-13,6,1963.06,Completado,Presencial
-348,O00348,44,4,10,2026-05-19,6,142.81,Completado,Call Center
-349,O00349,24,3,2,2026-06-05,2,515.19,Completado,App
-350,O00350,74,6,2,2026-01-15,2,459.92,Completado,App
-351,O00351,79,5,11,2026-02-11,1,132.73,Observado,Web
-352,O00352,43,4,4,2026-04-23,2,249.32,Completado,App
-353,O00353,75,1,8,2026-01-06,2,84.45,Completado,Call Center
-354,O00354,11,5,10,2026-03-18,3,74.56,Observado,App
-355,O00355,60,6,8,2026-02-25,6,334.64,Completado,Presencial
-356,O00356,8,5,10,2026-03-23,5,150.64,Pendiente,Web
-357,O00357,71,1,11,2026-05-24,1,107.15,Completado,App
-358,O00358,20,1,2,2026-04-04,5,1380.72,Observado,Presencial
-359,O00359,25,6,2,2026-01-19,5,1261.06,Completado,Web
-360,O00360,40,6,15,2026-05-01,3,973.58,Completado,App
-361,O00361,11,3,5,2026-05-20,1,327.2,Observado,Presencial
-362,O00362,1,3,1,2026-03-30,4,801.2,Observado,Presencial
-363,O00363,66,4,4,2026-04-15,4,533.25,Completado,Presencial
-364,O00364,74,4,1,2026-02-06,5,1061.25,Observado,Web
-365,O00365,53,5,10,2026-02-17,2,54.47,Completado,Presencial
-366,O00366,26,3,6,2026-06-07,3,1125.29,Observado,Presencial
-367,O00367,76,1,2,2026-06-29,5,1186.63,Completado,App
-368,O00368,53,2,5,2026-04-30,6,2192.48,Completado,Web
-369,O00369,26,4,2,2026-03-28,1,240.67,Completado,Presencial
-370,O00370,13,1,12,2026-02-05,3,612.98,Completado,Call Center
-371,O00371,41,2,12,2026-04-16,2,383.71,Completado,Call Center
-372,O00372,77,6,13,2026-03-23,3,405.23,Completado,Call Center
-373,O00373,78,5,14,2026-04-27,5,2026.54,Completado,App
-374,O00374,38,3,5,2026-02-14,4,1238.19,Completado,Web
-375,O00375,15,2,5,2026-02-07,4,1767.03,Cancelado,Call Center
-376,O00376,50,1,1,2026-03-24,5,1314.39,Completado,Web
-377,O00377,2,4,10,2026-02-28,6,203.14,Cancelado,Presencial
-378,O00378,10,4,4,2026-02-15,1,157.88,Cancelado,Web
-379,O00379,9,5,2,2026-04-01,3,813.25,Pendiente,App
-380,O00380,73,4,14,2026-03-29,1,282.84,Cancelado,Call Center
-381,O00381,41,5,6,2026-05-26,4,1267.85,Completado,Call Center
-382,O00382,79,5,1,2026-04-26,6,1493.07,Completado,Presencial
-383,O00383,19,2,15,2026-06-22,2,646.68,Completado,Call Center
-384,O00384,26,6,3,2026-01-28,4,1329.54,Observado,Call Center
-385,O00385,20,6,4,2026-01-26,1,156.37,Completado,App
-386,O00386,19,5,3,2026-01-01,1,285.89,Pendiente,Call Center
-387,O00387,29,6,7,2026-03-21,4,1500.77,Completado,App
-388,O00388,30,3,1,2026-01-07,5,1043.75,Completado,Web
-389,O00389,56,4,6,2026-04-29,4,1564.66,Cancelado,App
-390,O00390,6,5,6,2026-01-18,3,1095.23,Pendiente,App
-391,O00391,49,3,4,2026-03-30,1,113.72,Pendiente,Presencial
-392,O00392,70,6,13,2026-02-25,2,271.94,Cancelado,App
-393,O00393,6,2,9,2026-06-21,4,720.24,Cancelado,Web
-394,O00394,17,1,13,2026-03-01,2,262.82,Observado,Presencial
-395,O00395,5,4,1,2026-06-14,3,701.93,Observado,Presencial
-396,O00396,65,2,14,2026-01-20,6,1798.11,Cancelado,Call Center
-397,O00397,34,4,9,2026-01-04,5,897.42,Completado,Web
-398,O00398,42,4,11,2026-03-02,1,121.64,Completado,Presencial
-399,O00399,35,3,14,2026-01-30,4,1322.81,Completado,Call Center
-400,O00400,67,4,15,2026-03-28,3,776.97,Completado,Presencial
-401,O00401,79,3,13,2026-03-21,6,830.0,Completado,Web
-402,O00402,48,3,11,2026-04-20,2,203.4,Observado,Call Center
-403,O00403,9,3,2,2026-03-29,5,1052.39,Observado,Web
-404,O00404,46,3,1,2026-05-02,6,1473.43,Completado,Call Center
-405,O00405,4,1,4,2026-01-21,2,295.31,Cancelado,Presencial
-406,O00406,14,3,6,2026-04-19,2,685.48,Completado,Web
-407,O00407,31,2,5,2026-05-06,2,867.9,Completado,Web
-408,O00408,59,3,15,2026-06-23,1,256.32,Completado,Presencial
-409,O00409,23,1,10,2026-02-01,3,82.5,Completado,Presencial
-410,O00410,45,1,9,2026-05-30,3,536.76,Completado,Web
-411,O00411,7,2,3,2026-06-08,2,667.59,Completado,Web
-412,O00412,66,2,15,2026-06-18,6,1552.46,Completado,App
-413,O00413,28,5,1,2026-01-20,2,435.49,Pendiente,Web
-414,O00414,77,1,13,2026-04-12,6,833.59,Completado,App
-415,O00415,64,6,10,2026-04-24,6,182.0,Completado,App
-416,O00416,41,4,9,2026-04-04,4,546.28,Cancelado,App
-417,O00417,58,6,15,2026-01-29,4,1081.57,Completado,Web
-418,O00418,4,4,11,2026-01-03,5,590.64,Completado,App
-419,O00419,64,3,15,2026-04-19,5,1472.12,Observado,Presencial
-420,O00420,51,5,6,2026-02-05,4,1192.69,Completado,App
-421,O00421,12,3,14,2026-05-29,4,1405.09,Completado,Presencial
-422,O00422,70,1,4,2026-05-13,1,130.68,Observado,Call Center
-423,O00423,80,1,9,2026-06-27,2,321.26,Completado,App
-424,O00424,80,3,9,2026-02-05,4,534.13,Pendiente,Presencial
-425,O00425,26,6,6,2026-05-21,6,1829.41,Completado,App
-426,O00426,38,6,7,2026-04-25,6,2078.13,Cancelado,Presencial
-427,O00427,57,4,12,2026-04-01,6,1476.63,Completado,App
-428,O00428,5,6,9,2026-02-09,1,163.09,Completado,Web
-429,O00429,19,4,9,2026-06-05,5,649.94,Observado,Call Center
-430,O00430,46,3,4,2026-02-20,1,114.74,Completado,Web
-431,O00431,33,3,9,2026-04-21,1,156.1,Completado,Web
-432,O00432,76,2,15,2026-04-29,4,1175.74,Completado,Presencial
-433,O00433,43,3,2,2026-04-24,2,533.13,Observado,App
-434,O00434,24,1,2,2026-05-27,3,599.25,Cancelado,App
-435,O00435,26,4,2,2026-05-22,1,203.35,Completado,Presencial
-436,O00436,42,5,3,2026-01-15,1,321.06,Completado,Web
-437,O00437,27,5,4,2026-06-13,2,237.11,Cancelado,Web
-438,O00438,7,4,8,2026-06-10,1,43.52,Completado,Call Center
-439,O00439,80,2,15,2026-05-30,3,948.9,Cancelado,Web
-440,O00440,71,4,11,2026-04-09,1,100.03,Completado,Web
-441,O00441,1,2,8,2026-02-08,4,192.43,Completado,Presencial
-442,O00442,69,5,13,2026-06-21,6,728.88,Cancelado,Web
-443,O00443,9,3,3,2026-04-28,3,1038.69,Completado,Call Center
-444,O00444,23,5,6,2026-05-12,2,792.25,Completado,Call Center
-445,O00445,55,6,8,2026-05-16,1,51.05,Pendiente,Presencial
-446,O00446,55,5,8,2026-01-09,4,186.19,Completado,Presencial
-447,O00447,51,3,12,2026-02-16,2,432.65,Completado,Call Center
-448,O00448,77,4,2,2026-06-07,6,1659.36,Completado,Web
-449,O00449,43,5,3,2026-05-15,4,1164.17,Observado,Presencial
-450,O00450,32,2,6,2026-04-02,4,1235.69,Completado,Call Center
-451,O00451,41,3,12,2026-06-03,5,1230.26,Cancelado,Presencial
-452,O00452,70,5,11,2026-01-12,5,661.02,Completado,Presencial
-453,O00453,50,2,11,2026-01-24,3,377.97,Completado,Web
-454,O00454,32,3,6,2026-03-27,3,1144.98,Completado,Web
-455,O00455,64,4,10,2026-03-21,3,99.55,Completado,App
-456,O00456,62,5,3,2026-02-27,6,1745.56,Cancelado,App
-457,O00457,29,1,15,2026-03-16,3,716.62,Pendiente,App
-458,O00458,34,1,10,2026-06-24,1,27.63,Completado,App
-459,O00459,50,1,6,2026-05-12,5,1693.14,Pendiente,Presencial
-460,O00460,9,3,10,2026-06-05,6,185.7,Observado,Call Center
-461,O00461,42,4,13,2026-01-26,5,656.42,Cancelado,Web
-462,O00462,42,6,9,2026-03-01,4,591.34,Pendiente,App
-463,O00463,1,6,1,2026-02-20,1,251.45,Completado,Call Center
-464,O00464,23,5,13,2026-06-02,5,738.78,Pendiente,Presencial
-465,O00465,5,2,1,2026-01-18,1,240.87,Cancelado,App
-466,O00466,35,3,9,2026-01-21,5,713.3,Completado,Call Center
-467,O00467,37,4,12,2026-03-08,6,1571.86,Completado,Presencial
-468,O00468,57,1,14,2026-05-29,1,401.34,Cancelado,Web
-469,O00469,39,3,2,2026-04-05,5,1231.84,Completado,Call Center
-470,O00470,28,6,1,2026-04-15,6,1219.48,Completado,Call Center
-471,O00471,67,1,4,2026-01-22,5,730.05,Completado,App
-472,O00472,75,3,9,2026-05-29,2,269.31,Completado,Presencial
-473,O00473,34,1,5,2026-03-21,5,2099.34,Pendiente,Call Center
-474,O00474,75,2,4,2026-03-19,3,406.02,Completado,Web
-475,O00475,53,3,14,2026-01-12,5,1475.91,Completado,Web
-476,O00476,3,6,10,2026-06-11,1,32.28,Completado,Web
-477,O00477,77,1,3,2026-03-21,2,579.9,Completado,Web
-478,O00478,49,1,6,2026-05-10,3,1104.78,Observado,Presencial
-479,O00479,24,3,15,2026-05-18,3,983.38,Completado,Call Center
-480,O00480,23,6,7,2026-01-15,4,1314.08,Pendiente,Call Center
-481,O00481,17,3,11,2026-02-24,6,649.6,Observado,App
-482,O00482,52,4,1,2026-06-23,1,209.69,Completado,Web
-483,O00483,41,4,15,2026-02-08,6,1713.08,Completado,Web
-484,O00484,56,1,8,2026-01-08,6,251.29,Completado,Presencial
-485,O00485,79,4,4,2026-03-07,1,161.76,Completado,Presencial
-486,O00486,4,3,10,2026-05-14,1,33.65,Pendiente,Web
-487,O00487,21,6,1,2026-03-30,3,727.62,Completado,Web
-488,O00488,42,4,5,2026-06-27,3,1065.89,Pendiente,Call Center
-489,O00489,16,4,14,2026-01-22,4,1525.38,Completado,Presencial
-490,O00490,22,2,15,2026-05-17,3,728.38,Cancelado,Web
-491,O00491,47,4,12,2026-02-12,4,892.83,Completado,Presencial
-492,O00492,25,1,8,2026-03-29,1,57.71,Completado,Web
-493,O00493,10,6,8,2026-02-15,3,137.42,Completado,Web
-494,O00494,46,6,7,2026-02-27,5,1934.69,Completado,Presencial
-495,O00495,67,5,14,2026-04-10,4,1127.94,Pendiente,App
-496,O00496,63,6,10,2026-06-10,3,96.05,Pendiente,App
-497,O00497,75,2,14,2026-05-27,5,1772.7,Pendiente,App
-498,O00498,71,5,13,2026-01-01,2,268.86,Completado,App
-499,O00499,66,5,7,2026-03-10,6,2119.82,Observado,App
-500,O00500,59,2,8,2026-01-29,6,248.5,Completado,Call Center
+id_operacion,codigo_operacion,id_cliente,id_sede,id_empleado,fecha_operacion,canal,estado,monto_total
+1,O00001,143,6,28,2026-03-20,Oficina,Completado,680.00
+2,O00002,38,4,5,2026-03-11,Portal del asegurado,Pendiente,62.69
+3,O00003,60,3,17,2026-02-05,Corredor de seguros,Completado,50.00
+4,O00004,17,3,7,2026-06-02,Central telefónica,Completado,2780.14
+5,O00005,183,5,21,2026-04-12,Oficina,Pendiente,148.40
+6,O00006,57,1,32,2026-03-10,Portal del asegurado,Observado,2140.50
+7,O00007,181,1,36,2026-02-01,Corredor de seguros,Completado,2130.97
+8,O00008,23,1,25,2026-01-28,Central telefónica,Completado,745.47
+9,O00009,183,1,6,09/06/2026,Oficina,Pendiente,511.79
+10,O00010,168,2,10,2026-05-24,Portal del asegurado,Completado,2698.46
+11,O00011,159,6,14,2026-02-16,Corredor de seguros,Completado,475.84
+12,O00012,153,6,1,2026-05-08,Central telefónica,Cancelado,1739.14
+13,O00013,184,4,2,2026-01-07,Oficina,Pendiente,1497.12
+14,O00014,150,2,25,2026-05-13,Portal del asegurado,Completado,1393.45
+15,O00015,173,4,1,2026-05-14,Corredor de seguros,Completado,2095.55
+16,O00016,79,2,3,2026-01-10,Central telefónica,Observado,2103.94
+17,O00017,192,6,34,2026-05-15,Oficina,Observado,3044.06
+18,O00018,110,2,38,2026-02-12,Portal del asegurado,Pendiente,2602.71
+19,O00019,86,4,6,2026-03-03,Corredor de seguros,Completado,380.00
+20,O00020,49,3,,2026-04-07,Central telefónica,Completado,1493.10
+21,O00021,25,6,7,2026-02-22,Oficina,Completado,1569.96
+22,O00022,116,4,31,2026-04-23,Portal del asegurado,Completado,668.44
+23,O00023,17,6,18,2026-02-18,Corredor de seguros,Completado,1238.07
+24,O00024,163,5,13,2026-06-11,Central telefónica,Completado,4497.52
+25,O00025,138,1,38,06/03/2026,Oficina,Cancelado,572.39
+26,O00026,108,4,1,2026-04-19,Portal del asegurado,Cancelado,1416.31
+27,O00027,174,3,10,2026-04-04,Corredor de seguros,Completado,842.10
+28,O00028,163,1,37,2026-05-02,Central telefónica,Pendiente,376.87
+29,O00029,9005,1,36,2026-01-09,Oficina,Completado,1620.81
+30,O00030,165,1,14,2026-01-01,Portal del asegurado,Completado,610.12
+31,O00031,16,4,1,2026-01-12,Corredor de seguros,Cancelado,2551.00
+32,O00032,29,3,20,2026-05-11,Central telefónica,Cancelado,2220.00
+33,O00033,136,2,10,2026-06-21,Oficina,Completado,413.70
+34,O00034,26,5,23,2026-02-07,Portal del asegurado,Pendiente,1494.63
+35,O00035,113,3,11,2026-06-04,Corredor de seguros,Completado,749.10
+36,O00036,150,2,33,2026-06-04,Central telefónica,Completado,1039.98
+37,O00037,4,4,38,2026-01-01,Oficina,Pendiente,1286.40
+38,O00038,69,1,37,2026-03-20,Portal del asegurado,Cancelado,281.40
+39,O00039,123,5,22,2026-02-08,Corredor de seguros,Completado,2489.60
+40,O00040,79,1,22,2026-02-22,Central telefónica,Pendiente,556.78
+41,O00041,121,4,11,2026-04-12,Oficina,Pendiente,363.84
+42,O00042,132,3,24,2026-06-08,Portal del asegurado,Observado,468.76
+43,O00043,146,5,34,2026-01-27,Corredor de seguros,Pendiente,721.25
+44,O00044,189,1,29,2026-02-17,Central telefónica,Completado,251.40
+45,O00045,191,1,36,2026-01-11,Oficina,Completado,1722.92
+46,O00046,101,4,35,2026-01-03,Portal del asegurado,Pendiente,5367.38
+47,O00047,164,2,23,22/05/2026,Corredor de seguros,Observado,1149.35
+48,O00048,45,3,20,2026-03-10,Central telefónica,Completado,904.74
+49,O00049,130,6,14,2026-03-18,Oficina,Completado,5447.25
+50,O00050,13,2,38,2026-02-27,Portal del asegurado,Completado,1802.85
+51,O00051,73,4,31,2026-06-20,Corredor de seguros,Completado,1233.32
+52,O00052,195,4,18,2026-04-12,Central telefónica,Completado,682.04
+53,O00053,6,1,39,2026-06-10,Oficina,Completado,1048.95
+54,O00054,18,4,11,2026-02-13,Portal del asegurado,Completado,1252.56
+55,O00055,49,2,3,2026-03-23,Corredor de seguros,Cancelado,41.90
+56,O00056,165,4,40,2026-04-25,Central telefónica,Completado,3960.05
+57,O00057,95,1,20,2026-01-06,Oficina,Completado,976.80
+58,O00058,164,3,11,2026-05-18,Portal del asegurado,Completado,309.45
+59,O00059,171,3,30,2026-04-03,Corredor de seguros,Completado,3067.83
+60,O00060,172,3,23,2026-03-06,Central telefónica,Completado,605.70
+61,O00061,158,5,24,2026-06-11,Oficina,Completado,1140.00
+62,O00062,41,5,36,2026-01-03,Portal del asegurado,Cancelado,344.75
+63,O00063,32,3,12,2026-04-17,Corredor de seguros,Completado,1099.80
+64,O00064,171,1,23,2026-02-07,Central telefónica,Completado,1783.80
+65,O00065,147,6,27,2026-04-17,Oficina,Cancelado,3406.40
+66,O00066,42,2,8,2026-02-01,Portal del asegurado,Completado,2339.89
+67,O00067,113,3,11,2026-05-27,Corredor de seguros,Completado,41.90
+68,O00068,56,4,25,01/01/2026,Central telefónica,Completado,1030.00
+69,O00069,73,6,12,2026-06-13,Oficina,Completado,1173.56
+70,O00070,183,4,19,2026-06-20,Portal del asegurado,Completado,3871.40
+71,O00071,11,2,35,2026-01-09,Corredor de seguros,Completado,405.00
+72,O00072,63,2,29,2026-06-11,Central telefónica,Completado,940.30
+73,O00073,101,2,12,2026-05-13,Oficina,Completado,326.00
+74,O00074,34,6,30,2026-04-09,Portal del asegurado,Completado,1567.08
+75,O00075,134,6,11,2026-06-25,Corredor de seguros,Completado,548.30
+76,O00076,171,3,36,2026-03-13,Central telefónica,Completado,1441.19
+77,O00077,145,2,28,2026-05-19,Oficina,Completado,163.44
+78,O00078,193,3,40,26/01/2026,Portal del asegurado,Completado,3998.16
+79,O00079,2,3,16,2026-03-02,Corredor de seguros,Completado,411.30
+80,O00080,89,4,7,2026-04-10,Central telefónica,Pendiente,180.00
+81,O00081,77,3,9,2026-06-19,Oficina,Completado,344.75
+82,O00082,59,4,33,2026-06-23,Portal del asegurado,Completado,675.59
+83,O00083,37,3,34,2026-02-17,Corredor de seguros,Pendiente,844.98
+84,O00084,21,1,32,2026-03-06,Central telefónica,Completado,971.22
+85,O00085,191,4,15,2026-03-12,Oficina,Pendiente,94.40
+86,O00086,161,2,2,2026-03-14,Portal del asegurado,Completado,140.00
+87,O00087,83,5,27,2026-04-13,Corredor de seguros,Completado,759.70
+88,O00088,135,5,26,2026-06-09,Central telefónica,Observado,878.09
+89,O00089,5,1,7,2026-04-16,Oficina,Completado,1604.60
+90,O00090,129,6,15,2026-06-24,Portal del asegurado,Completado,1515.05
+91,O00091,175,2,25,22/05/2026,Corredor de seguros,Completado,653.96
+92,O00092,76,6,34,2026-06-17,Central telefónica,Completado,225.00
+93,O00093,98,1,20,02/02/2026,Oficina,Cancelado,1930.40
+94,O00094,13,1,39,2026-06-19,Portal del asegurado,Completado,105.64
+95,O00095,136,5,15,2026-05-24,Corredor de seguros,Completado,1173.95
+96,O00096,16,5,38,2026-02-20,Central telefónica,Completado,1470.84
+97,O00097,57,4,1,2026-04-22,Oficina,Pendiente,4916.09
+98,O00098,34,1,20,2026-06-02,Portal del asegurado,Pendiente,2629.69
+99,O00099,170,6,19,2026-06-20,Corredor de seguros,Completado,211.28
+100,O00100,151,2,21,2026-02-03,Central telefónica,Completado,756.66
+101,O00101,186,3,38,2026-04-04,Oficina,Completado,210.00
+102,O00102,187,5,16,2026-04-04,Portal del asegurado,Completado,501.64
+103,O00103,117,2,36,2026-03-05,Corredor de seguros,Pendiente,3481.56
+104,O00104,6,5,38,2026-03-18,Central telefónica,Cancelado,585.00
+105,O00105,199,3,27,2026-02-27,Oficina,Completado,398.24
+106,O00106,2,3,33,11/01/2026,Portal del asegurado,Pendiente,1874.72
+107,O00107,168,1,36,2026-02-17,Corredor de seguros,Completado,2851.16
+108,O00108,148,5,12,2026-06-17,Central telefónica,Completado,1668.43
+109,O00109,83,4,11,2026-04-05,Oficina,Completado,2359.23
+110,O00110,115,1,33,2026-03-23,Portal del asegurado,Pendiente,3018.82
+111,O00111,154,5,13,2026-04-01,Corredor de seguros,Completado,5096.89
+112,O00112,168,2,20,2026-05-16,Central telefónica,Completado,804.09
+113,O00113,181,1,3,2026-02-05,Oficina,Completado,1817.74
+114,O00114,123,5,17,2026-01-15,Portal del asegurado,Cancelado,422.49
+115,O00115,196,2,17,2026-02-28,Corredor de seguros,Completado,25.00
+116,O00116,8,2,22,2026-03-23,Central telefónica,Pendiente,1275.60
+117,O00117,133,6,20,2026-02-03,Oficina,Pendiente,1162.75
+118,O00118,9643,5,9,2026-02-17,Portal del asegurado,Pendiente,283.20
+119,O00119,119,3,15,2026-05-12,Corredor de seguros,Cancelado,68.95
+120,O00120,64,5,15,2026-01-28,Central telefónica,Completado,136.30
+121,O00121,125,5,24,2026-04-13,Oficina,Completado,245.16
+122,O00122,71,4,35,2026-01-20,Portal del asegurado,Completado,1884.39
+123,O00123,159,5,15,2026-02-15,Corredor de seguros,Completado,1140.00
+124,O00124,59,4,9,2026-01-15,Central telefónica,Completado,1181.66
+125,O00125,95,6,16,2026-01-23,Oficina,Completado,3074.84
+126,O00126,169,2,36,2026-06-06,Portal del asegurado,Cancelado,1645.01
+127,O00127,103,4,33,07/03/2026,Corredor de seguros,Cancelado,2358.60
+128,O00128,39,3,22,2026-04-05,Central telefónica,Cancelado,528.20
+129,O00129,148,5,23,2026-05-28,Oficina,Pendiente,1214.23
+130,O00130,15,3,16,2026-05-18,Portal del asegurado,Completado,742.42
+131,O00131,65,1,4,06/03/2026,Corredor de seguros,Completado,682.58
+132,O00132,186,1,10,2026-01-10,Central telefónica,Cancelado,1741.14
+133,O00133,13,2,37,2026-04-07,Oficina,Completado,322.60
+134,O00134,103,6,2,2026-04-22,Portal del asegurado,Completado,1150.27
+135,O00135,10,1,30,2026-05-11,Corredor de seguros,Completado,1160.02
+136,O00136,99,6,39,01/05/2026,Central telefónica,Completado,178.40
+137,O00137,58,6,8,2026-06-01,Oficina,Completado,1210.01
+138,O00138,107,3,27,2026-05-02,Portal del asegurado,Completado,62.69
+139,O00139,133,4,16,2026-01-27,Corredor de seguros,Completado,3678.16
+140,O00140,25,2,40,2026-05-14,Central telefónica,Completado,3087.44
+141,O00141,57,2,36,2026-02-13,Oficina,Completado,1835.36
+142,O00142,140,3,3,2026-04-11,Portal del asegurado,Completado,583.44
+143,O00143,52,1,,2026-04-22,Corredor de seguros,Completado,1174.20
+144,O00144,116,5,27,2026-04-28,Central telefónica,Completado,1739.72
+145,O00145,75,6,36,2026-06-15,Oficina,Completado,3370.91
+146,O00146,59,6,1,2026-06-15,Portal del asegurado,Pendiente,3296.48
+147,O00147,106,6,30,2026-03-23,Corredor de seguros,Completado,1102.80
+148,O00148,129,4,22,2026-05-05,Central telefónica,Completado,390.00
+149,O00149,76,4,2,2026-04-26,Oficina,Cancelado,537.92
+150,O00150,190,6,9,2026-03-15,Portal del asegurado,Completado,520.76
+151,O00151,66,6,11,2026-04-25,Corredor de seguros,Completado,2641.17
+152,O00152,79,4,13,2026-03-25,Central telefónica,Completado,693.38
+153,O00153,79,6,29,2026-01-20,Oficina,Pendiente,3123.90
+154,O00154,89,6,11,2026-05-03,Portal del asegurado,Completado,867.57
+155,O00155,4,4,14,2026-02-19,Corredor de seguros,Completado,1818.96
+156,O00156,179,3,32,26/01/2026,Central telefónica,Completado,672.00
+157,O00157,180,5,23,2026-06-15,Oficina,Pendiente,2145.08
+158,O00158,74,3,4,2026-02-01,Portal del asegurado,Observado,144.41
+159,O00159,178,3,1,2026-02-08,Corredor de seguros,Completado,1224.98
+160,O00160,59,3,25,12/01/2026,Central telefónica,Pendiente,842.10
+161,O00161,31,6,13,22/02/2026,Oficina,Completado,880.80
+162,O00162,100,1,26,2026-05-12,Portal del asegurado,Completado,2015.14
+163,O00163,27,1,9,23/02/2026,Corredor de seguros,Completado,633.88
+164,O00164,120,6,39,2026-01-07,Central telefónica,Completado,561.40
+165,O00165,26,5,39,2026-02-19,Oficina,Completado,125.38
+166,O00166,118,3,12,2026-06-23,Portal del asegurado,Completado,281.66
+167,O00167,164,1,36,2026-06-23,Corredor de seguros,Pendiente,2340.00
+168,O00168,73,2,11,2026-03-02,Central telefónica,Completado,1571.16
+169,O00169,114,2,27,2026-01-25,Oficina,Pendiente,2879.22
+170,O00170,77,2,39,2026-01-04,Portal del asegurado,Pendiente,1889.69
+171,O00171,120,1,3,2026-05-01,Corredor de seguros,Completado,1800.58
+172,O00172,176,2,3,2026-06-18,Central telefónica,Completado,1334.95
+173,O00173,33,5,34,2026-06-06,Oficina,Completado,232.30
+174,O00174,53,2,26,2026-02-12,Portal del asegurado,Completado,1466.75
+175,O00175,20,2,38,2026-01-25,Corredor de seguros,Cancelado,209.50
+176,O00176,109,3,12,2026-03-03,Central telefónica,Cancelado,979.95
+177,O00177,178,1,23,2026-02-12,Oficina,Completado,1218.24
+178,O00178,179,3,24,2026-04-01,Portal del asegurado,Pendiente,84.00
+179,O00179,40,1,30,2026-02-22,Corredor de seguros,Completado,3265.43
+180,O00180,191,6,2,2026-06-21,Central telefónica,Completado,1408.50
+181,O00181,144,4,9,2026-04-04,Oficina,Completado,2864.75
+182,O00182,41,3,31,2026-03-25,Portal del asegurado,Pendiente,943.20
+183,O00183,80,3,28,2026-04-08,Corredor de seguros,Completado,680.00
+184,O00184,61,6,14,2026-03-08,Central telefónica,Completado,2792.69
+185,O00185,158,6,12,26/02/2026,Oficina,Completado,1240.05
+186,O00186,178,4,21,2026-03-15,Portal del asegurado,Pendiente,4421.25
+187,O00187,100,6,38,2026-05-23,Corredor de seguros,Completado,1098.28
+188,O00188,20,4,37,2026-05-05,Central telefónica,Completado,965.70
+189,O00189,25,5,23,2026-05-24,Oficina,Pendiente,931.80
+190,O00190,9305,3,23,2026-04-28,Portal del asegurado,Completado,2548.23
+191,O00191,48,3,19,2026-06-23,Corredor de seguros,Cancelado,360.00
+192,O00192,155,4,38,2026-01-02,Central telefónica,Pendiente,1658.33
+193,O00193,96,2,5,2026-03-09,Oficina,Observado,411.30
+194,O00194,142,1,16,2026-05-17,Portal del asegurado,Completado,1407.27
+195,O00195,48,4,21,2026-04-17,Corredor de seguros,Completado,4549.33
+196,O00196,123,6,27,2026-05-06,Central telefónica,Completado,2048.72
+197,O00197,173,4,25,2026-02-27,Oficina,Observado,137.10
+198,O00198,188,3,8,2026-04-03,Portal del asegurado,Completado,398.76
+199,O00199,200,5,7,2026-05-28,Corredor de seguros,Completado,490.32
+200,O00200,14,4,31,2026-04-01,Central telefónica,Completado,554.47
+201,O00201,71,4,30,2026-03-01,Oficina,Completado,1284.05
+202,O00202,183,5,34,2026-04-13,Portal del asegurado,Completado,81.72
+203,O00203,60,4,24,2026-01-14,Corredor de seguros,Observado,55.06
+204,O00204,42,3,25,2026-03-28,Central telefónica,Completado,1547.25
+205,O00205,150,6,31,2026-02-23,Oficina,Completado,1243.40
+206,O00206,20,5,21,2026-01-23,Portal del asegurado,Completado,597.61
+207,O00207,33,3,10,2026-01-16,Corredor de seguros,Completado,867.57
+208,O00208,109,2,21,2026-01-23,Central telefónica,Pendiente,2060.14
+209,O00209,151,1,36,2026-03-17,Oficina,Observado,275.30
+210,O00210,170,3,36,2026-02-05,Portal del asegurado,Completado,1407.35
+211,O00211,150,4,15,2026-04-09,Corredor de seguros,Pendiente,3735.04
+212,O00212,149,2,,2026-01-23,Central telefónica,Completado,1152.00
+213,O00213,24,6,24,2026-06-12,Oficina,Observado,928.35
+214,O00214,66,1,16,2026-06-07,Portal del asegurado,Completado,-3911.75
+215,O00215,28,6,10,2026-04-22,Corredor de seguros,Completado,3561.87
+216,O00216,110,6,33,2026-06-16,Central telefónica,Completado,209.50
+217,O00217,17,5,36,2026-03-18,Oficina,Completado,1520.00
+218,O00218,134,6,34,2026-03-26,Portal del asegurado,Completado,2050.24
+219,O00219,189,1,19,2026-03-18,Corredor de seguros,Cancelado,245.16
+220,O00220,39,3,23,26/04/2026,Central telefónica,Completado,1158.76
+221,O00221,92,3,3,2026-04-20,Oficina,Observado,2961.30
+222,O00222,3,3,22,2026-03-10,Portal del asegurado,Completado,731.97
+223,O00223,77,6,32,2026-03-08,Corredor de seguros,Observado,971.22
+224,O00224,187,2,15,2026-04-23,Central telefónica,Observado,485.64
+225,O00225,96,5,17,2026-05-17,Oficina,Completado,1629.23
+226,O00226,96,2,30,2026-01-05,Portal del asegurado,Pendiente,980.62
+227,O00227,169,5,6,2026-01-05,Corredor de seguros,Completado,420.00
+228,O00228,28,2,16,2026-03-17,Central telefónica,Completado,248.01
+229,O00229,9836,2,37,2026-03-21,Oficina,Completado,140.00
+230,O00230,161,1,26,2026-05-01,Portal del asegurado,Cancelado,2091.92
+231,O00231,170,2,16,2026-02-15,Corredor de seguros,Pendiente,1905.94
+232,O00232,200,4,14,28/05/2026,Central telefónica,Pendiente,3254.27
+233,O00233,23,3,36,2026-05-22,Oficina,Completado,647.48
+234,O00234,175,6,24,2026-04-08,Portal del asegurado,Completado,4087.35
+235,O00235,89,3,40,2026-05-13,Corredor de seguros,Completado,4518.38
+236,O00236,186,1,14,2026-04-20,Central telefónica,Completado,1418.30
+237,O00237,187,6,21,2026-04-05,Oficina,Observado,2559.91
+238,O00238,121,1,12,2026-03-17,Portal del asegurado,Completado,3133.88
+239,O00239,89,1,27,2026-03-03,Corredor de seguros,Pendiente,1466.36
+240,O00240,114,1,8,2026-01-07,Central telefónica,Completado,1764.00
+241,O00241,27,6,34,2026-06-27,Oficina,Pendiente,1470.21
+242,O00242,27,4,11,2026-05-18,Portal del asegurado,Completado,2150.76
+243,O00243,144,2,16,2026-01-02,Corredor de seguros,Completado,3152.42
+244,O00244,58,3,17,2026-06-17,Central telefónica,Completado,517.71
+245,O00245,154,5,13,2026-03-23,Oficina,Completado,163.44
+246,O00246,163,6,27,2026-06-18,Portal del asegurado,Completado,330.36
+247,O00247,4,2,35,2026-03-01,Corredor de seguros,Completado,2189.37
+248,O00248,124,6,13,2026-03-11,Central telefónica,Completado,3853.55
+249,O00249,82,3,32,2026-02-01,Oficina,Completado,835.04
+250,O00250,40,4,6,2026-02-12,Portal del asegurado,Completado,2001.07
+251,O00251,77,6,11,2026-04-10,Corredor de seguros,Completado,380.00
+252,O00252,128,2,19,2026-05-05,Central telefónica,Cancelado,3948.04
+253,O00253,54,3,36,2026-06-20,Oficina,Completado,2350.00
+254,O00254,159,1,17,2026-01-28,Portal del asegurado,Completado,1258.99
+255,O00255,109,6,40,27/02/2026,Corredor de seguros,Pendiente,615.04
+256,O00256,164,4,39,2026-03-20,Central telefónica,Completado,140.83
+257,O00257,144,2,11,2026-01-19,Oficina,Completado,430.76
+258,O00258,78,2,24,2026-06-07,Portal del asegurado,Completado,1024.76
+259,O00259,65,1,23,2026-04-23,Corredor de seguros,Completado,4563.1
+260,O00260,74,5,37,2026-05-07,Central telefónica,Pendiente,1576.04
+261,O00261,9621,5,40,18/02/2026,Oficina,Completado,876.54
+262,O00262,89,5,27,2026-03-28,Portal del asegurado,Pendiente,140.35
+263,O00263,16,5,14,2026-01-03,Corredor de seguros,Completado,2712.99
+264,O00264,124,5,24,2026-02-09,Central telefónica,Cancelado,2300.49
+265,O00265,187,1,40,2026-03-27,Oficina,Completado,4195.16
+266,O00266,12,3,17,2026-05-11,Portal del asegurado,Cancelado,2193.75
+267,O00267,55,6,31,2026-04-22,Corredor de seguros,Completado,1611.39
+268,O00268,2,1,26,2026-02-18,Central telefónica,Completado,2462.72
+269,O00269,107,3,17,2026-06-07,Oficina,Completado,1256.02
+270,O00270,97,3,2,2026-04-08,Portal del asegurado,Completado,1576.98
+271,O00271,149,3,39,2026-01-03,Corredor de seguros,Pendiente,1003.20
+272,O00272,73,1,19,2026-03-21,Central telefónica,Completado,360.00
+273,O00273,39,6,15,2026-05-03,Oficina,Pendiente,528.20
+274,O00274,196,2,5,2026-04-16,Portal del asegurado,Completado,329.46
+275,O00275,152,2,12,2026-05-08,Corredor de seguros,Observado,647.48
+276,O00276,40,5,23,2026-06-19,Central telefónica,Completado,2897.02
+277,O00277,18,5,19,2026-06-28,Oficina,Completado,2681.25
+278,O00278,153,3,32,2026-06-20,Portal del asegurado,Completado,260.00
+279,O00279,29,6,1,2026-03-24,Corredor de seguros,Completado,2293.33
+280,O00280,59,3,12,09/03/2026,Central telefónica,Observado,647.48
+281,O00281,175,5,39,25/03/2026,Oficina,Pendiente,3400.00
+282,O00282,18,4,11,2026-01-15,Portal del asegurado,Completado,2566.95
+283,O00283,57,5,2,2026-01-03,Corredor de seguros,Pendiente,1736.06
+284,O00284,124,1,27,22/05/2026,Central telefónica,Completado,2390.97
+285,O00285,43,5,27,2026-01-28,Oficina,Completado,2528.81
+286,O00286,104,4,,2026-03-28,Portal del asegurado,Completado,631.20
+287,O00287,152,4,11,2026-01-04,Corredor de seguros,Completado,4196.00
+288,O00288,192,6,15,2026-05-12,Central telefónica,Pendiente,2175.18
+289,O00289,74,4,29,2026-03-20,Oficina,Observado,413.70
+290,O00290,95,5,5,2026-05-11,Portal del asegurado,Completado,2171.30
+291,O00291,28,1,12,18/04/2026,Corredor de seguros,Cancelado,2452.30
+292,O00292,9046,2,5,2026-02-17,Central telefónica,Cancelado,2409.03
+293,O00293,113,1,3,2026-06-01,Oficina,Cancelado,1204.76
+294,O00294,135,2,35,2026-03-05,Portal del asegurado,Pendiente,4320.00
+295,O00295,6,1,40,2026-04-16,Corredor de seguros,Completado,180.00
+296,O00296,4,2,5,01/01/2026,Central telefónica,Completado,6108.06
+297,O00297,76,6,4,2026-06-17,Oficina,Cancelado,5280.08
+298,O00298,30,5,5,2026-05-08,Portal del asegurado,Completado,1388.35
+299,O00299,6,2,,2026-05-27,Corredor de seguros,Cancelado,777.56
+300,O00300,81,5,12,2026-01-06,Central telefónica,Completado,400.72
+301,O00301,7,5,,2026-04-07,Oficina,Completado,137.10
+302,O00302,59,2,33,2026-04-09,Portal del asegurado,Observado,3454.07
+303,O00303,109,1,12,2026-04-14,Corredor de seguros,Completado,1568.76
+304,O00304,17,3,36,2026-03-11,Central telefónica,Completado,2229.54
+305,O00305,84,1,24,2026-01-06,Oficina,Completado,4614.42
+306,O00306,38,3,38,2026-05-04,Portal del asegurado,Completado,1856.80
+307,O00307,78,6,1,2026-05-27,Corredor de seguros,Completado,274.20
+308,O00308,192,2,23,17/01/2026,Central telefónica,Completado,1240.96
+309,O00309,194,3,29,2026-06-03,Oficina,Cancelado,668.62
+310,O00310,34,3,33,2026-01-04,Portal del asegurado,Observado,2014.88
+311,O00311,169,2,37,2026-03-17,Corredor de seguros,Completado,503.70
+312,O00312,160,2,12,2026-04-10,Central telefónica,Pendiente,3170.55
+313,O00313,79,5,22,2026-01-16,Oficina,Completado,2594.20
+314,O00314,35,3,6,2026-04-09,Portal del asegurado,Completado,2469.36
+315,O00315,156,6,2,2026-06-21,Corredor de seguros,Completado,521.42
+316,O00316,156,4,19,2026-05-04,Central telefónica,Completado,2355.08
+317,O00317,20,4,26,2026-06-21,Oficina,Completado,1502.49
+318,O00318,50,5,14,2026-02-07,Portal del asegurado,Completado,385.00
+319,O00319,50,3,19,2026-02-10,Corredor de seguros,Completado,1240.05
+320,O00320,35,3,13,2026-03-26,Central telefónica,Completado,1333.49
+321,O00321,90,3,33,2026-01-23,Oficina,Completado,484.52
+322,O00322,30,1,25,2026-01-06,Portal del asegurado,Pendiente,1092.74
+323,O00323,20,4,36,2026-01-28,Corredor de seguros,Completado,832.19
+324,O00324,173,1,5,2026-06-23,Central telefónica,Cancelado,1079.08
+325,O00325,135,1,25,2026-05-27,Oficina,Completado,5775.00
+326,O00326,31,1,38,03/04/2026,Portal del asegurado,Completado,1370.68
+327,O00327,187,3,12,2026-06-20,Corredor de seguros,Cancelado,4548.51
+328,O00328,85,4,16,2026-06-07,Central telefónica,Pendiente,324.20
+329,O00329,16,6,40,2026-02-02,Oficina,Pendiente,1410.60
+330,O00330,71,4,25,2026-03-22,Portal del asegurado,Completado,486.05
+331,O00331,195,5,4,2026-06-07,Corredor de seguros,Completado,527.60
+332,O00332,75,6,14,2026-01-20,Central telefónica,Completado,163.44
+333,O00333,113,6,4,25/04/2026,Oficina,Completado,839.00
+334,O00334,163,5,30,2026-01-01,Portal del asegurado,Pendiente,4059.81
+335,O00335,189,1,13,2026-01-17,Corredor de seguros,Pendiente,558.00
+336,O00336,83,2,40,2026-04-16,Central telefónica,Completado,2838.98
+337,O00337,100,5,20,2026-04-01,Oficina,Completado,809.35
+338,O00338,119,5,7,2026-05-21,Portal del asegurado,Completado,4334.60
+339,O00339,30,6,13,2026-01-07,Corredor de seguros,Completado,2510.90
+340,O00340,34,3,7,19/05/2026,Central telefónica,Completado,4448.95
+341,O00341,145,6,33,2026-04-22,Oficina,Pendiente,4745.60
+342,O00342,62,6,36,2026-04-07,Portal del asegurado,Completado,934.16
+343,O00343,182,5,33,2026-02-09,Corredor de seguros,Completado,305.25
+344,O00344,53,1,12,2026-06-22,Central telefónica,Observado,706.75
+345,O00345,46,2,12,2026-05-12,Oficina,Completado,270.00
+346,O00346,104,3,6,08/01/2026,Portal del asegurado,Pendiente,180.00
+347,O00347,4,3,29,2026-02-06,Corredor de seguros,Cancelado,-1013.64
+348,O00348,84,3,37,2026-05-02,Central telefónica,Completado,3798.15
+349,O00349,119,4,4,17/05/2026,Oficina,Completado,539.47
+350,O00350,66,2,18,2026-03-09,Portal del asegurado,Pendiente,2492.67
+351,O00351,167,4,1,2026-02-01,Corredor de seguros,Completado,490.14
+352,O00352,13,1,11,2026-06-23,Central telefónica,Pendiente,1071.68
+353,O00353,93,1,30,2026-05-17,Oficina,Completado,5556.86
+354,O00354,106,1,8,2026-06-27,Portal del asegurado,Completado,1049.67
+355,O00355,109,5,6,2026-03-08,Corredor de seguros,Completado,720.00
+356,O00356,21,4,5,2026-05-23,Central telefónica,Completado,923.03
+357,O00357,32,6,32,2026-01-26,Oficina,Pendiente,1391.22
+358,O00358,171,2,,2026-02-04,Portal del asegurado,Pendiente,1669.12
+359,O00359,96,4,22,2026-02-01,Corredor de seguros,Completado,2636.01
+360,O00360,50,2,18,2026-01-11,Central telefónica,Completado,2290.40
+361,O00361,14,6,16,2026-03-03,Oficina,Completado,1836.42
+362,O00362,141,1,3,2026-05-08,Portal del asegurado,Cancelado,246.66
+363,O00363,35,5,20,2026-05-25,Corredor de seguros,Completado,1225.22
+364,O00364,64,6,20,2026-01-12,Central telefónica,Cancelado,472.00
+365,O00365,31,4,39,2026-06-24,Oficina,Completado,1140.00
+366,O00366,101,5,8,2026-05-05,Portal del asegurado,Completado,934.03
+367,O00367,76,2,29,11/02/2026,Corredor de seguros,Cancelado,990.00
+368,O00368,11,6,22,2026-02-16,Central telefónica,Completado,645.04
+369,O00369,47,1,36,2026-06-11,Oficina,Completado,2390.25
+370,O00370,126,5,1,2026-02-08,Portal del asegurado,Completado,4676.16
+371,O00371,181,1,11,2026-03-21,Corredor de seguros,Completado,422.49
+372,O00372,16,6,23,2026-02-14,Central telefónica,Completado,3079.98
+373,O00373,111,1,29,2026-01-28,Oficina,Completado,472.00
+374,O00374,171,4,23,2026-06-22,Portal del asegurado,Pendiente,1581.21
+375,O00375,53,1,8,2026-05-18,Corredor de seguros,Cancelado,482.65
+376,O00376,136,4,7,2026-01-02,Central telefónica,Completado,1194.72
+377,O00377,71,3,21,2026-04-03,Oficina,Cancelado,1068.58
+378,O00378,126,5,32,2026-01-25,Portal del asegurado,Completado,1577.73
+379,O00379,23,5,3,2026-05-26,Corredor de seguros,Cancelado,3996.92
+380,O00380,115,3,34,2026-02-23,Central telefónica,Completado,25.00
+381,O00381,52,3,20,2026-02-10,Oficina,Completado,130.00
+382,O00382,68,2,29,22/04/2026,Portal del asegurado,Completado,249.72
+383,O00383,118,2,13,2026-05-26,Corredor de seguros,Pendiente,1284.20
+384,O00384,58,5,5,14/06/2026,Central telefónica,Completado,1635.99
+385,O00385,90,6,1,2026-01-06,Oficina,Cancelado,626.28
+386,O00386,57,3,35,2026-02-17,Portal del asegurado,Completado,1578.36
+387,O00387,161,2,22,2026-04-20,Corredor de seguros,Pendiente,2062.10
+388,O00388,36,1,15,2026-04-13,Central telefónica,Completado,893.00
+389,O00389,28,4,,2026-05-20,Oficina,Cancelado,1437.28
+390,O00390,46,6,32,2026-01-11,Portal del asegurado,Completado,380.00
+391,O00391,100,5,11,2026-05-20,Corredor de seguros,Completado,469.00
+392,O00392,17,1,21,2026-04-05,Central telefónica,Pendiente,137.90
+393,O00393,112,6,30,2026-01-07,Oficina,Cancelado,248.01
+394,O00394,16,5,38,2026-05-26,Portal del asegurado,Completado,3156.91
+395,O00395,124,5,33,2026-05-14,Corredor de seguros,Pendiente,826.38
+396,O00396,53,2,22,2026-05-27,Central telefónica,Pendiente,1192.10
+397,O00397,198,6,31,2026-06-01,Oficina,Completado,1792.00
+398,O00398,110,2,34,2026-01-06,Portal del asegurado,Completado,1017.40
+399,O00399,11,4,36,2026-06-09,Corredor de seguros,Pendiente,316.92
+400,O00400,142,6,4,2026-02-06,Central telefónica,Completado,6250.32
+401,O00401,169,6,33,2026-02-25,Oficina,Completado,1141.14
+402,O00402,6,1,25,2026-03-22,Portal del asegurado,Completado,275.80
+403,O00403,107,2,31,2026-01-06,Corredor de seguros,Pendiente,867.57
+404,O00404,169,1,28,2026-06-06,Central telefónica,Completado,1262.40
+405,O00405,110,6,15,2026-02-05,Oficina,Pendiente,1341.50
+406,O00406,22,4,11,2026-03-08,Portal del asegurado,Completado,4085.26
+407,O00407,37,4,35,2026-06-16,Corredor de seguros,Completado,3611.30
+408,O00408,101,3,14,2026-03-23,Central telefónica,Completado,547.49
+409,O00409,63,3,18,2026-01-06,Oficina,Cancelado,948.40
+410,O00410,195,6,14,2026-06-23,Portal del asegurado,Pendiente,2052.91
+411,O00411,10,4,29,2026-04-02,Corredor de seguros,Completado,594.24
+412,O00412,200,4,2,2026-04-03,Central telefónica,Completado,1445.95
+413,O00413,35,3,34,2026-04-15,Oficina,Completado,1856.72
+414,O00414,64,5,9,26/06/2026,Portal del asegurado,Cancelado,251.40
+415,O00415,139,1,34,2026-05-19,Corredor de seguros,Completado,4413.86
+416,O00416,71,6,32,2026-01-11,Central telefónica,Pendiente,148.40
+417,O00417,86,4,,2026-06-26,Oficina,Pendiente,148.40
+418,O00418,103,5,21,05/01/2026,Portal del asegurado,Completado,1221.76
+419,O00419,1,5,4,2026-04-07,Corredor de seguros,Completado,247.44
+420,O00420,166,6,8,2026-05-06,Central telefónica,Observado,1727.93
+421,O00421,193,4,1,2026-02-09,Oficina,Pendiente,1445.95
+422,O00422,102,2,28,2026-06-14,Portal del asegurado,Completado,150.00
+423,O00423,171,6,12,2026-01-22,Corredor de seguros,Pendiente,195.00
+424,O00424,91,5,35,2026-03-27,Central telefónica,Completado,2862.00
+425,O00425,14,3,14,2026-04-12,Oficina,Completado,2784.35
+426,O00426,112,1,40,2026-06-17,Portal del asegurado,Completado,867.57
+427,O00427,143,1,1,2026-05-02,Corredor de seguros,Completado,1546.99
+428,O00428,20,1,19,2026-03-11,Central telefónica,Pendiente,380.00
+429,O00429,197,5,31,2026-01-02,Oficina,Pendiente,2391.51
+430,O00430,95,4,16,2026-04-28,Portal del asegurado,Completado,2350.24
+431,O00431,16,1,9,2026-02-20,Corredor de seguros,Observado,290.16
+432,O00432,9,2,23,10/04/2026,Central telefónica,Pendiente,888.90
+433,O00433,7,3,36,2026-02-22,Oficina,Completado,3491.22
+434,O00434,109,3,21,2026-04-26,Portal del asegurado,Pendiente,1360.72
+435,O00435,113,5,32,2026-04-23,Corredor de seguros,Completado,1361.40
+436,O00436,148,6,21,2026-03-24,Central telefónica,Pendiente,2452.00
+437,O00437,27,4,16,2026-03-22,Oficina,Pendiente,2308.26
+438,O00438,57,4,12,2026-02-18,Portal del asegurado,Completado,281.66
+439,O00439,147,4,26,2026-06-21,Corredor de seguros,Cancelado,195.00
+440,O00440,53,5,5,22/05/2026,Central telefónica,Completado,3936.76
+441,O00441,19,3,10,2026-05-11,Oficina,Completado,2024.10
+442,O00442,111,6,8,2026-03-24,Portal del asegurado,Cancelado,413.27
+443,O00443,181,5,27,2026-06-17,Corredor de seguros,Observado,372.75
+444,O00444,48,2,21,2026-06-19,Central telefónica,Completado,4937.46
+445,O00445,178,3,7,2026-05-07,Oficina,Observado,1186.60
+446,O00446,113,3,19,26/02/2026,Portal del asegurado,Completado,5329.02
+447,O00447,54,4,9,2026-04-14,Corredor de seguros,Pendiente,1526.41
+448,O00448,44,5,39,2026-02-13,Central telefónica,Completado,625.61
+449,O00449,58,6,9,2026-04-06,Oficina,Completado,2274.93
+450,O00450,7,1,14,2026-03-06,Portal del asegurado,Completado,377.60
+451,O00451,25,3,34,2026-02-20,Corredor de seguros,Completado,1874.96
+452,O00452,64,3,25,2026-02-16,Central telefónica,Observado,3298.32
+453,O00453,41,5,38,2026-02-03,Oficina,Pendiente,5369.48
+454,O00454,14,2,19,2026-05-12,Portal del asegurado,Completado,1297.11
+455,O00455,179,4,7,2026-01-18,Corredor de seguros,Completado,251.12
+456,O00456,30,1,15,2026-03-01,Central telefónica,Pendiente,1047.10
+457,O00457,156,5,30,2026-02-03,Oficina,Observado,2870.30
+458,O00458,29,1,6,2026-05-04,Portal del asegurado,Completado,4706.28
+459,O00459,71,1,1,2026-03-24,Corredor de seguros,Pendiente,1363.59
+460,O00460,6,3,26,2026-03-01,Central telefónica,Completado,590.32
+461,O00461,187,3,40,2026-03-15,Oficina,Completado,1912.46
+462,O00462,157,4,17,2026-01-22,Portal del asegurado,Pendiente,401.40
+463,O00463,96,6,21,10/01/2026,Corredor de seguros,Completado,606.40
+464,O00464,12,4,24,2026-05-25,Central telefónica,Pendiente,212.00
+465,O00465,15,6,40,2026-02-18,Oficina,Pendiente,5282.28
+466,O00466,181,6,32,2026-05-19,Portal del asegurado,Completado,1685.61
+467,O00467,39,3,34,2026-02-18,Corredor de seguros,Pendiente,3502.77
+468,O00468,143,4,32,2026-02-19,Central telefónica,Pendiente,270.00
+469,O00469,132,4,4,2026-01-12,Oficina,Completado,1891.58
+470,O00470,52,1,37,26/05/2026,Portal del asegurado,Cancelado,1767.37
+471,O00471,24,1,26,2026-05-25,Corredor de seguros,Completado,901.62
+472,O00472,2,5,26,2026-03-11,Central telefónica,Completado,1009.00
+473,O00473,61,3,16,2026-05-17,Oficina,Completado,895.35
+474,O00474,130,2,36,12/06/2026,Portal del asegurado,Pendiente,943.20
+475,O00475,2,4,28,2026-06-27,Corredor de seguros,Completado,826.40
+476,O00476,113,2,1,2026-02-04,Central telefónica,Pendiente,1443.84
+477,O00477,55,5,7,2026-03-13,Oficina,Pendiente,50.00
+478,O00478,75,1,24,2026-05-05,Portal del asegurado,Completado,986.55
+479,O00479,98,1,33,2026-01-13,Corredor de seguros,Pendiente,195.00
+480,O00480,172,6,40,2026-04-01,Central telefónica,Completado,1803.20
+481,O00481,142,5,34,2026-02-02,Oficina,Completado,1334.83
+482,O00482,170,2,32,12/02/2026,Portal del asegurado,Completado,841.65
+483,O00483,51,3,31,2026-03-03,Corredor de seguros,Pendiente,1457.88
+484,O00484,126,5,27,2026-03-05,Central telefónica,Completado,1636.38
+485,O00485,179,4,1,2026-06-14,Oficina,Completado,209.50
+486,O00486,141,2,14,2026-03-12,Portal del asegurado,Pendiente,222.60
+487,O00487,66,1,14,2026-02-17,Corredor de seguros,Pendiente,875.20
+488,O00488,132,5,1,2026-03-25,Central telefónica,Observado,3158.06
+489,O00489,177,3,24,2026-04-10,Oficina,Completado,597.36
+490,O00490,76,6,32,2026-01-13,Portal del asegurado,Completado,2133.38
+491,O00491,2,6,33,2026-03-08,Corredor de seguros,Completado,2508.60
+492,O00492,119,5,16,16/06/2026,Central telefónica,Completado,1592.85
+493,O00493,40,6,2,2026-03-24,Oficina,Completado,672.40
+494,O00494,1,6,14,03/04/2026,Portal del asegurado,Completado,161.87
+495,O00495,76,2,2,2026-01-12,Corredor de seguros,Completado,428.75
+496,O00496,87,6,36,2026-06-26,Central telefónica,Completado,1444.00
+497,O00497,54,5,23,2026-02-02,Oficina,Pendiente,1172.62
+498,O00498,141,6,39,2026-01-23,Portal del asegurado,Completado,185.50
+499,O00499,37,6,12,2026-05-24,Corredor de seguros,Observado,37.10
+500,O00500,200,1,6,04/03/2026,Central telefónica,Completado,435.67
+501,O00501,51,4,16,2026-05-08,Oficina,Completado,750.00
+502,O00502,69,3,1,2026-02-01,Portal del asegurado,Completado,2752.32
+503,O00503,136,3,7,2026-03-28,Corredor de seguros,Cancelado,1916.20
+504,O00504,79,2,19,2026-03-01,Central telefónica,Cancelado,614.83
+505,O00505,149,6,12,2026-01-22,Oficina,Completado,463.74
+506,O00506,181,5,13,2026-05-21,Portal del asegurado,Pendiente,325.00
+507,O00507,48,5,28,2026-02-21,Corredor de seguros,Cancelado,3530.00
+508,O00508,58,1,10,2026-06-15,Central telefónica,Completado,730.04
+509,O00509,37,5,11,2026-02-10,Oficina,Completado,2320.75
+510,O00510,98,1,29,2026-04-13,Portal del asegurado,Completado,313.45
+511,O00511,176,5,30,2026-05-15,Corredor de seguros,Observado,1518.21
+512,O00512,138,1,32,2026-02-13,Central telefónica,Completado,75.00
+513,O00513,71,4,7,2026-02-16,Oficina,Completado,1722.70
+514,O00514,90,5,3,2026-03-06,Portal del asegurado,Completado,7311.40
+515,O00515,193,2,10,2026-05-18,Corredor de seguros,Pendiente,2170.35
+516,O00516,23,5,36,2026-04-05,Central telefónica,Observado,408.60
+517,O00517,176,4,5,2026-03-16,Oficina,Completado,1055.20
+518,O00518,172,4,12,2026-05-08,Portal del asegurado,Completado,2431.60
+519,O00519,94,3,14,2026-04-23,Corredor de seguros,Completado,3576.59
+520,O00520,72,5,6,2026-04-04,Central telefónica,Completado,1325.04
+521,O00521,99,6,10,2026-06-10,Oficina,Cancelado,447.13
+522,O00522,28,1,33,2026-03-07,Portal del asegurado,Cancelado,2920.56
+523,O00523,57,6,13,2026-02-18,Corredor de seguros,Cancelado,251.40
+524,O00524,29,2,15,2026-01-05,Central telefónica,Completado,988.40
+525,O00525,200,3,19,2026-06-26,Oficina,Completado,1549.21
+526,O00526,149,2,3,2026-06-26,Portal del asegurado,Observado,606.40
+527,O00527,90,5,4,2026-05-24,Corredor de seguros,Completado,1597.53
+528,O00528,17,4,32,2026-03-23,Central telefónica,Pendiente,647.48
+529,O00529,23,6,3,2026-06-13,Oficina,Cancelado,62.69
+530,O00530,60,4,32,2026-03-23,Portal del asegurado,Completado,831.22
+531,O00531,85,2,7,2026-03-01,Corredor de seguros,Completado,1588.17
+532,O00532,148,5,5,2026-02-10,Central telefónica,Completado,683.28
+533,O00533,163,2,23,2026-05-12,Oficina,Completado,2483.14
+534,O00534,110,5,22,2026-03-04,Portal del asegurado,Completado,2562.55
+535,O00535,48,2,27,2026-04-03,Corredor de seguros,Completado,3028.35
+536,O00536,75,6,1,2026-05-28,Central telefónica,Pendiente,1723.86
+537,O00537,53,3,17,08/01/2026,Oficina,Completado,2975.90
+538,O00538,9338,4,8,2026-04-05,Portal del asegurado,Pendiente,1586.84
+539,O00539,147,3,28,2026-04-13,Corredor de seguros,Completado,927.80
+540,O00540,182,2,25,2026-02-02,Central telefónica,Completado,56.00
+541,O00541,9876,5,34,2026-06-19,Oficina,Completado,1276.78
+542,O00542,101,4,24,2026-01-18,Portal del asegurado,Completado,1291.08
+543,O00543,10,6,14,2026-05-28,Corredor de seguros,Completado,-1498.72
+544,O00544,78,5,20,2026-01-04,Central telefónica,Observado,101.00
+545,O00545,109,1,38,2026-06-09,Oficina,Completado,610.16
+546,O00546,30,3,12,2026-02-24,Portal del asegurado,Pendiente,1053.35
+547,O00547,13,5,19,2026-03-01,Corredor de seguros,Observado,1615.04
+548,O00548,29,1,20,19/04/2026,Central telefónica,Completado,623.02
+549,O00549,84,6,7,2026-02-16,Oficina,Completado,1201.11
+550,O00550,149,3,8,2026-03-03,Portal del asegurado,Completado,1017.16
+551,O00551,60,4,21,2026-06-19,Corredor de seguros,Pendiente,125.38
+552,O00552,96,5,21,2026-01-12,Central telefónica,Cancelado,561.40
+553,O00553,25,1,36,2026-01-27,Oficina,Completado,1067.04
+554,O00554,50,5,23,2026-02-23,Portal del asegurado,Completado,3597.75
+555,O00555,39,5,35,2026-04-27,Corredor de seguros,Cancelado,1080.00
+556,O00556,93,5,32,2026-03-19,Central telefónica,Observado,741.91
+557,O00557,83,3,3,2026-03-16,Oficina,Completado,2823.20
+558,O00558,79,3,9,2026-05-23,Portal del asegurado,Completado,441.80
+559,O00559,15,2,23,2026-04-03,Corredor de seguros,Completado,4333.44
+560,O00560,60,1,17,2026-01-04,Central telefónica,Completado,323.74
+561,O00561,107,5,36,2026-02-09,Oficina,Completado,1442.69
+562,O00562,9275,4,32,2026-01-18,Portal del asegurado,Completado,485.61
+563,O00563,139,4,1,2026-05-05,Corredor de seguros,Cancelado,2322.60
+564,O00564,192,4,,2026-03-13,Central telefónica,Pendiente,910.24
+565,O00565,56,2,7,2026-06-02,Oficina,Completado,1192.68
+566,O00566,58,3,29,2026-03-25,Portal del asegurado,Completado,822.64
+567,O00567,86,2,18,2026-06-20,Corredor de seguros,Completado,485.12
+568,O00568,153,5,38,2026-03-04,Central telefónica,Pendiente,1177.02
+569,O00569,167,1,8,2026-01-03,Oficina,Completado,3261.90
+570,O00570,124,3,39,2026-01-21,Portal del asegurado,Completado,2098.54
+571,O00571,126,4,12,2026-05-05,Corredor de seguros,Completado,2185.04
+572,O00572,22,1,18,2026-06-02,Central telefónica,Completado,951.58
+573,O00573,178,3,39,2026-04-23,Oficina,Pendiente,441.22
+574,O00574,143,4,7,2026-05-19,Portal del asegurado,Observado,3214.82
+575,O00575,159,1,13,2026-01-04,Corredor de seguros,Completado,165.18
+576,O00576,162,5,31,2026-01-23,Central telefónica,Observado,1169.26
+577,O00577,45,1,13,25/03/2026,Oficina,Completado,842.48
+578,O00578,45,1,31,14/01/2026,Portal del asegurado,Completado,28.00
+579,O00579,158,4,36,2026-04-11,Corredor de seguros,Completado,74.20
+580,O00580,87,5,6,2026-05-22,Central telefónica,Completado,2618.20
+581,O00581,134,1,10,23/01/2026,Oficina,Pendiente,467.60
+582,O00582,105,4,7,2026-06-24,Portal del asegurado,Pendiente,4080.00
+583,O00583,3,3,26,2026-02-14,Corredor de seguros,Pendiente,1927.31
+584,O00584,103,1,26,2026-04-06,Central telefónica,Completado,1733.79
+585,O00585,143,5,1,2026-05-02,Oficina,Pendiente,951.75
+586,O00586,190,2,4,2026-02-07,Portal del asegurado,Completado,4324.66
+587,O00587,93,1,10,2026-04-22,Corredor de seguros,Completado,330.36
+588,O00588,198,4,33,2026-01-07,Central telefónica,Completado,2570.97
+589,O00589,11,2,40,2026-06-11,Oficina,Completado,683.40
+590,O00590,1,5,11,2026-02-10,Portal del asegurado,Completado,2458.37
+591,O00591,77,6,4,2026-03-10,Corredor de seguros,Completado,494.75
+592,O00592,119,1,23,2026-03-28,Central telefónica,Completado,1054.51
+593,O00593,153,6,7,2026-02-08,Oficina,Observado,3152.71
+594,O00594,3,5,23,2026-01-01,Portal del asegurado,Pendiente,4256.16
+595,O00595,54,2,17,2026-02-08,Corredor de seguros,Completado,796.48
+596,O00596,168,3,6,2026-04-13,Central telefónica,Completado,3239.70
+597,O00597,95,6,6,2026-04-17,Oficina,Cancelado,1530.17
+598,O00598,33,6,26,2026-06-19,Portal del asegurado,Pendiente,1687.08
+599,O00599,181,3,25,2026-06-03,Corredor de seguros,Completado,1087.62
+600,O00600,95,3,20,2026-02-14,Central telefónica,Completado,2908.64
+601,O00601,12,3,4,2026-02-26,Oficina,Completado,-3609.32
+602,O00602,153,2,35,2026-04-25,Portal del asegurado,Pendiente,2822.11
+603,O00603,119,4,38,2026-02-03,Corredor de seguros,Completado,3260.70
+604,O00604,152,1,2,2026-02-13,Central telefónica,Completado,2601.75
+605,O00605,34,2,28,2026-06-21,Oficina,Pendiente,519.52
+606,O00606,78,6,19,04/01/2026,Portal del asegurado,Pendiente,1376.16
+607,O00607,163,6,30,2026-04-23,Corredor de seguros,Completado,3560.16
+608,O00608,107,6,38,2026-01-17,Central telefónica,Completado,2609.40
+609,O00609,88,1,25,2026-06-14,Oficina,Completado,2125.93
+610,O00610,64,3,5,2026-03-19,Portal del asegurado,Observado,248.01
+611,O00611,142,5,,2026-06-05,Corredor de seguros,Completado,1109.93
+612,O00612,86,4,7,2026-01-15,Central telefónica,Completado,4377.46
+613,O00613,196,5,36,2026-01-10,Oficina,Pendiente,1173.84
+614,O00614,85,5,16,2026-02-26,Portal del asegurado,Cancelado,2761.75
+615,O00615,29,4,11,20/03/2026,Corredor de seguros,Pendiente,900.00
+616,O00616,12,5,28,2026-05-26,Central telefónica,Cancelado,661.29
+617,O00617,92,1,39,2026-05-04,Oficina,Cancelado,1407.47
+618,O00618,111,3,12,2026-05-16,Portal del asegurado,Completado,1900.00
+619,O00619,189,5,11,2026-01-19,Corredor de seguros,Completado,867.57
+620,O00620,25,5,27,2026-05-17,Central telefónica,Cancelado,275.30
+621,O00621,132,1,6,2026-06-08,Oficina,Completado,-3277.48
+622,O00622,128,3,16,2026-06-28,Portal del asegurado,Completado,3400.00
+623,O00623,9169,3,12,2026-05-26,Corredor de seguros,Cancelado,917.44
+624,O00624,80,2,38,2026-05-08,Central telefónica,Completado,1848.00
+625,O00625,45,4,19,2026-04-25,Oficina,Completado,3081.88
+626,O00626,73,4,16,2026-05-03,Portal del asegurado,Pendiente,2429.83
+627,O00627,38,3,,2026-02-02,Corredor de seguros,Pendiente,121.28
+628,O00628,103,6,39,2026-03-27,Central telefónica,Observado,907.32
+629,O00629,24,5,39,2026-05-10,Oficina,Cancelado,317.60
+630,O00630,65,4,21,2026-01-27,Portal del asegurado,Completado,2384.15
+631,O00631,156,4,37,2026-02-01,Corredor de seguros,Completado,2128.38
+632,O00632,191,5,7,22/05/2026,Central telefónica,Pendiente,2368.20
+633,O00633,174,4,,2026-03-15,Oficina,Cancelado,1280.38
+634,O00634,86,1,30,2026-06-10,Portal del asegurado,Observado,393.56
+635,O00635,174,3,38,2026-06-19,Corredor de seguros,Completado,2480.00
+636,O00636,8,6,23,2026-04-11,Central telefónica,Observado,992.04
+637,O00637,126,1,5,2026-06-10,Oficina,Cancelado,1156.76
+638,O00638,160,2,11,2026-04-01,Portal del asegurado,Completado,385.38
+639,O00639,163,1,31,2026-06-05,Corredor de seguros,Cancelado,7462.68
+640,O00640,189,6,23,2026-06-26,Central telefónica,Completado,1474.56
+641,O00641,45,6,40,2026-06-04,Oficina,Completado,1159.58
+642,O00642,200,5,28,2026-02-26,Portal del asegurado,Completado,2680.00
+643,O00643,139,6,16,2026-03-24,Corredor de seguros,Pendiente,2666.40
+644,O00644,108,4,23,2026-04-09,Central telefónica,Cancelado,971.22
+645,O00645,55,4,2,2026-02-16,Oficina,Observado,1785.89
+646,O00646,3,3,40,2026-03-05,Portal del asegurado,Completado,1333.20
+647,O00647,96,4,35,2026-05-24,Corredor de seguros,Cancelado,1900.00
+648,O00648,125,3,8,2026-05-16,Central telefónica,Pendiente,2241.57
+649,O00649,71,2,7,2026-06-10,Oficina,Cancelado,422.56
+650,O00650,12,1,4,2026-06-02,Portal del asegurado,Observado,1765.98
+651,O00651,48,1,2,2026-03-22,Corredor de seguros,Completado,2997.10
+652,O00652,98,6,27,2026-02-23,Central telefónica,Completado,607.75
+653,O00653,31,5,10,2026-03-07,Oficina,Completado,1197.45
+654,O00654,35,1,23,2026-05-01,Portal del asegurado,Completado,441.70
+655,O00655,188,2,27,2026-05-26,Corredor de seguros,Completado,400.30
+656,O00656,127,6,4,25/06/2026,Central telefónica,Completado,1186.75
+657,O00657,36,5,36,2026-06-22,Oficina,Cancelado,879.26
+658,O00658,1,5,37,07/02/2026,Portal del asegurado,Completado,470.13
+659,O00659,196,2,17,2026-02-04,Corredor de seguros,Completado,3628.01
+660,O00660,135,1,9,2026-04-12,Central telefónica,Pendiente,199.12
+661,O00661,74,3,12,2026-03-05,Oficina,Completado,768.01
+662,O00662,109,2,25,2026-03-18,Portal del asegurado,Completado,3815.82
+663,O00663,87,2,40,2026-02-07,Corredor de seguros,Completado,496.02
+664,O00664,38,5,7,2026-06-09,Central telefónica,Pendiente,1652.83
+665,O00665,131,1,29,2026-05-22,Oficina,Completado,-398.68
+666,O00666,79,3,40,2026-04-15,Portal del asegurado,Completado,28.00
+667,O00667,151,4,18,2026-01-07,Corredor de seguros,Completado,2492.61
+668,O00668,37,2,13,2026-02-07,Central telefónica,Cancelado,1520.00
+669,O00669,106,3,20,2026-02-23,Oficina,Completado,1823.40
+670,O00670,63,3,2,2026-04-23,Portal del asegurado,Completado,1707.50
+671,O00671,177,5,28,11/05/2026,Corredor de seguros,Pendiente,6782.52
+672,O00672,199,2,32,2026-05-27,Central telefónica,Pendiente,825.75
+673,O00673,173,3,28,2026-05-08,Oficina,Completado,663.61
+674,O00674,43,2,19,2026-03-18,Portal del asegurado,Completado,1208.82
+675,O00675,27,5,14,2026-03-10,Corredor de seguros,Completado,360.00
+676,O00676,180,4,21,15/03/2026,Central telefónica,Completado,2643.31
+677,O00677,149,6,13,2026-06-03,Oficina,Pendiente,867.57
+678,O00678,159,4,28,2026-03-13,Portal del asegurado,Pendiente,146.00
+679,O00679,190,6,22,2026-02-23,Corredor de seguros,Pendiente,1202.46
+680,O00680,151,5,20,2026-01-27,Central telefónica,Completado,1213.02
+681,O00681,9,3,35,2026-04-21,Oficina,Completado,2550.00
+682,O00682,155,5,33,2026-04-17,Portal del asegurado,Completado,3060.80
+683,O00683,183,5,37,2026-01-28,Corredor de seguros,Cancelado,2211.79
+684,O00684,180,1,24,2026-05-08,Central telefónica,Observado,2616.75
+685,O00685,186,5,38,2026-02-12,Oficina,Completado,2293.60
+686,O00686,199,6,34,2026-01-27,Portal del asegurado,Completado,2002.86
+687,O00687,69,5,21,2026-06-03,Corredor de seguros,Completado,583.26
+688,O00688,91,1,38,2026-02-11,Central telefónica,Completado,570.00
+689,O00689,188,3,36,2026-06-18,Oficina,Completado,842.14
+690,O00690,175,3,17,2026-06-07,Portal del asegurado,Observado,316.28
+691,O00691,30,6,19,2026-01-04,Corredor de seguros,Completado,1380.88
+692,O00692,173,5,16,2026-01-26,Central telefónica,Completado,998.76
+693,O00693,32,3,31,2026-06-05,Oficina,Cancelado,3199.73
+694,O00694,30,4,12,2026-03-26,Portal del asegurado,Pendiente,375.20
+695,O00695,90,3,2,2026-01-06,Corredor de seguros,Completado,1605.39
+696,O00696,45,6,13,2026-04-01,Central telefónica,Completado,4928.18
+697,O00697,197,2,4,2026-01-27,Oficina,Completado,541.02
+698,O00698,56,5,30,2026-06-03,Portal del asegurado,Observado,1163.60
+699,O00699,99,5,22,2026-04-07,Corredor de seguros,Completado,6272.21
+700,O00700,105,5,12,2026-04-24,Central telefónica,Pendiente,205.00
+701,O00701,197,5,5,2026-05-07,Oficina,Completado,1379.82
+702,O00702,48,6,23,2026-02-22,Portal del asegurado,Completado,1736.13
+703,O00703,99,3,1,2026-04-13,Corredor de seguros,Cancelado,280.70
+704,O00704,144,3,30,2026-05-24,Central telefónica,Completado,1718.22
+705,O00705,146,5,17,2026-04-09,Oficina,Observado,618.90
+706,O00706,153,6,3,13/02/2026,Portal del asegurado,Pendiente,1334.45
+707,O00707,112,6,35,2026-03-24,Corredor de seguros,Completado,1910.58
+708,O00708,157,5,7,2026-01-27,Central telefónica,Pendiente,222.60
+709,O00709,87,3,30,2026-04-06,Oficina,Pendiente,817.58
+710,O00710,150,3,3,2026-04-07,Portal del asegurado,Pendiente,1537.40
+711,O00711,181,1,19,2026-05-25,Corredor de seguros,Cancelado,1368.04
+712,O00712,112,6,39,2026-06-27,Central telefónica,Completado,3651.40
+713,O00713,154,3,6,2026-02-08,Oficina,Completado,3884.44
+714,O00714,159,3,29,2026-01-27,Portal del asegurado,Completado,642.16
+715,O00715,8,2,11,2026-01-13,Corredor de seguros,Pendiente,3283.90
+716,O00716,55,5,22,2026-06-14,Central telefónica,Completado,469.00
+717,O00717,98,4,5,14/06/2026,Oficina,Completado,904.20
+718,O00718,29,3,10,2026-01-02,Portal del asegurado,Cancelado,1080.08
+719,O00719,119,5,9,2026-04-14,Corredor de seguros,Completado,240.00
+720,O00720,186,5,35,2026-05-22,Central telefónica,Completado,7630.00
+721,O00721,141,2,4,2026-03-10,Oficina,Completado,1139.52
+722,O00722,85,5,23,2026-01-04,Portal del asegurado,Completado,1099.12
+723,O00723,40,1,,2026-03-13,Corredor de seguros,Pendiente,1156.76
+724,O00724,115,3,25,2026-04-14,Central telefónica,Completado,296.75
+725,O00725,51,6,31,2026-05-25,Oficina,Completado,28.00
+726,O00726,57,6,36,2026-01-17,Portal del asegurado,Completado,3192.57
+727,O00727,78,5,37,2026-04-11,Corredor de seguros,Completado,386.04
+728,O00728,115,6,8,2026-02-16,Central telefónica,Cancelado,3245.40
+729,O00729,91,3,2,2026-05-19,Oficina,Completado,999.69
+730,O00730,124,6,39,2026-06-19,Portal del asegurado,Pendiente,662.06
+731,O00731,33,3,2,2026-06-04,Corredor de seguros,Completado,110.12
+732,O00732,19,6,36,2026-06-24,Central telefónica,Completado,1787.50
+733,O00733,143,2,17,2026-02-20,Oficina,Pendiente,209.50
+734,O00734,123,1,23,2026-02-15,Portal del asegurado,Completado,905.50
+735,O00735,92,4,39,11/05/2026,Corredor de seguros,Cancelado,1105.84
+736,O00736,51,1,30,2026-06-08,Central telefónica,Completado,135.00
+737,O00737,150,5,31,2026-06-11,Oficina,Completado,1935.44
+738,O00738,161,5,17,2026-02-24,Portal del asegurado,Completado,1385.16
+739,O00739,132,1,26,2026-06-17,Corredor de seguros,Pendiente,1810.20
+740,O00740,23,2,16,12/04/2026,Central telefónica,Observado,492.60
+741,O00741,63,2,3,2026-06-01,Oficina,Completado,2405.23
+742,O00742,141,4,,09/05/2026,Portal del asegurado,Completado,373.20
+743,O00743,177,3,26,2026-02-10,Corredor de seguros,Completado,566.40
+744,O00744,35,6,16,2026-02-10,Central telefónica,Pendiente,563.32
+745,O00745,36,3,23,2026-03-19,Oficina,Completado,2226.96
+746,O00746,138,5,36,2026-01-11,Portal del asegurado,Completado,2706.20
+747,O00747,154,1,7,2026-06-27,Corredor de seguros,Observado,597.36
+748,O00748,59,2,16,2026-04-11,Central telefónica,Completado,3316.70
+749,O00749,138,6,29,22/02/2026,Oficina,Completado,3399.84
+750,O00750,9490,5,37,2026-05-19,Portal del asegurado,Pendiente,128.80
+751,O00751,25,5,30,2026-04-12,Corredor de seguros,Completado,137.10
+752,O00752,8,2,16,03/04/2026,Central telefónica,Observado,546.06
+753,O00753,82,6,20,2026-06-07,Oficina,Completado,2463.59
+754,O00754,140,4,,2026-02-07,Portal del asegurado,Completado,62.69
+755,O00755,16,3,18,2026-02-16,Corredor de seguros,Completado,588.00
+756,O00756,9621,3,27,2026-04-19,Central telefónica,Cancelado,459.91
+757,O00757,74,3,32,2026-04-01,Oficina,Completado,2012.63
+758,O00758,44,2,34,2026-02-16,Portal del asegurado,Pendiente,1195.23
+759,O00759,63,3,32,2026-03-18,Corredor de seguros,Completado,3804.56
+760,O00760,194,5,20,13/04/2026,Central telefónica,Completado,84.00
+761,O00761,109,1,2,2026-03-24,Oficina,Cancelado,765.69
+762,O00762,163,2,18,2026-05-05,Portal del asegurado,Completado,125.70
+763,O00763,91,3,15,2026-04-26,Corredor de seguros,Completado,3154.56
+764,O00764,167,2,5,2026-03-11,Central telefónica,Completado,561.03
+765,O00765,147,3,8,2026-03-06,Oficina,Completado,137.10
+766,O00766,57,1,11,2026-01-05,Portal del asegurado,Pendiente,1260.00
+767,O00767,141,6,15,2026-03-12,Corredor de seguros,Completado,3909.44
+768,O00768,95,6,8,2026-04-15,Central telefónica,Pendiente,2495.84
+769,O00769,173,5,24,2026-04-15,Oficina,Pendiente,2506.02
+770,O00770,118,1,6,2026-03-19,Portal del asegurado,Observado,787.48
+771,O00771,193,1,3,2026-02-25,Corredor de seguros,Completado,2752.58
+772,O00772,123,3,25,2026-06-25,Central telefónica,Pendiente,2097.74
+773,O00773,146,5,,2026-03-19,Oficina,Pendiente,178.80
+774,O00774,83,4,24,2026-02-01,Portal del asegurado,Cancelado,1946.18
+775,O00775,144,5,37,2026-05-09,Corredor de seguros,Completado,921.74
+776,O00776,28,1,5,2026-02-15,Central telefónica,Pendiente,743.74
+777,O00777,186,3,30,2026-02-21,Oficina,Completado,723.04
+778,O00778,39,5,14,2026-06-01,Portal del asegurado,Completado,3327.36
+779,O00779,126,4,23,2026-06-19,Corredor de seguros,Completado,1845.41
+780,O00780,4,6,6,2026-03-13,Central telefónica,Pendiente,1137.45
+781,O00781,198,6,15,2026-05-11,Oficina,Completado,2442.55
+782,O00782,196,1,14,2026-05-14,Portal del asegurado,Completado,418.76
+783,O00783,99,6,34,2026-03-27,Corredor de seguros,Completado,4726.24
+784,O00784,182,1,32,2026-05-03,Central telefónica,Pendiente,-978.3
+785,O00785,5,4,12,2026-04-09,Oficina,Pendiente,309.45
+786,O00786,175,3,9,2026-06-04,Portal del asegurado,Observado,188.07
+787,O00787,34,3,,2026-01-11,Corredor de seguros,Pendiente,712.80
+788,O00788,167,2,14,2026-05-18,Central telefónica,Pendiente,2180.00
+789,O00789,146,4,34,2026-01-27,Oficina,Cancelado,1680.00
+790,O00790,81,5,1,2026-06-01,Portal del asegurado,Completado,978.40
+791,O00791,83,3,2,2026-03-24,Corredor de seguros,Completado,2039.77
+792,O00792,164,3,28,2026-03-24,Central telefónica,Pendiente,1999.90
+793,O00793,175,1,39,2026-04-21,Oficina,Cancelado,566.51
+794,O00794,39,3,34,2026-04-02,Portal del asegurado,Pendiente,2657.39
+795,O00795,58,2,1,2026-02-04,Corredor de seguros,Completado,458.07
+796,O00796,177,1,24,2026-02-04,Central telefónica,Completado,1327.80
+797,O00797,108,5,12,2026-03-12,Oficina,Pendiente,633.94
+798,O00798,35,5,1,17/03/2026,Portal del asegurado,Observado,3475.89
+799,O00799,195,2,40,2026-03-22,Corredor de seguros,Completado,1333.27
+800,O00800,126,2,39,2026-01-08,Central telefónica,Observado,137.90
+801,O00801,125,3,14,2026-02-21,Oficina,Cancelado,926.40
+802,O00802,165,1,19,2026-05-17,Portal del asegurado,Pendiente,653.32
+803,O00803,180,6,30,2026-03-20,Corredor de seguros,Pendiente,1024.75
+804,O00804,23,6,14,2026-01-05,Central telefónica,Completado,4018.12
+805,O00805,110,5,16,2026-03-03,Oficina,Completado,4036.31
+806,O00806,59,1,2,2026-03-22,Portal del asegurado,Completado,4330.24
+807,O00807,191,5,26,2026-04-09,Corredor de seguros,Pendiente,2386.00
+808,O00808,27,4,2,2026-04-05,Central telefónica,Completado,3750.00
+809,O00809,21,3,16,2026-01-28,Oficina,Completado,1105.44
+810,O00810,53,2,11,2026-06-09,Portal del asegurado,Completado,1803.80
+811,O00811,92,1,40,2026-04-11,Corredor de seguros,Completado,105.64
+812,O00812,103,1,18,2026-06-23,Central telefónica,Cancelado,1542.91
+813,O00813,54,4,32,2026-05-07,Oficina,Completado,3400.00
+814,O00814,54,5,19,2026-05-28,Portal del asegurado,Completado,2829.80
+815,O00815,19,2,7,2026-02-17,Corredor de seguros,Completado,84.00
+816,O00816,154,6,37,2026-04-21,Central telefónica,Completado,313.45
+817,O00817,6,2,5,2026-01-26,Oficina,Completado,1578.12
+818,O00818,124,3,18,2026-05-23,Portal del asegurado,Completado,4169.63
+819,O00819,61,3,28,12/02/2026,Corredor de seguros,Cancelado,1119.83
+820,O00820,129,2,33,2026-04-19,Central telefónica,Completado,3208.91
+821,O00821,51,6,2,2026-01-06,Oficina,Pendiente,1445.95
+822,O00822,190,1,7,2026-02-19,Portal del asegurado,Completado,760.00
+823,O00823,43,4,13,2026-02-04,Corredor de seguros,Completado,2608.35
+824,O00824,129,6,15,2026-05-01,Central telefónica,Completado,2293.60
+825,O00825,189,6,15,2026-05-13,Oficina,Completado,785.55
+826,O00826,158,1,26,2026-01-13,Portal del asegurado,Pendiente,528.20
+827,O00827,57,5,2,2026-01-14,Corredor de seguros,Completado,1307.64
+828,O00828,85,2,19,22/06/2026,Central telefónica,Cancelado,1434.67
+829,O00829,113,4,24,2026-05-06,Oficina,Completado,56.00
+830,O00830,25,6,11,2026-02-03,Portal del asegurado,Pendiente,960.04
+831,O00831,125,1,2,17/03/2026,Corredor de seguros,Cancelado,1346.3
+832,O00832,127,1,31,2026-01-08,Central telefónica,Completado,1221.30
+833,O00833,47,6,13,2026-04-05,Oficina,Completado,2183.80
+834,O00834,137,2,3,2026-05-06,Portal del asegurado,Completado,1467.64
+835,O00835,146,4,40,2026-04-14,Corredor de seguros,Completado,789.85
+836,O00836,15,2,10,2026-03-04,Central telefónica,Completado,375.20
+837,O00837,68,1,12,2026-01-09,Oficina,Completado,5264.17
+838,O00838,162,4,25,25/01/2026,Portal del asegurado,Completado,3216.70
+839,O00839,123,3,4,2026-01-15,Corredor de seguros,Completado,74.20
+840,O00840,117,5,15,2026-01-09,Central telefónica,Completado,2708.90
+841,O00841,148,6,40,2026-06-01,Oficina,Completado,760.00
+842,O00842,59,3,36,2026-04-06,Portal del asegurado,Pendiente,1278.59
+843,O00843,104,2,24,2026-01-04,Corredor de seguros,Completado,681.05
+844,O00844,110,2,7,2026-05-26,Central telefónica,Observado,1920.00
+845,O00845,27,4,26,2026-05-28,Oficina,Observado,469.00
+846,O00846,141,5,5,03/06/2026,Portal del asegurado,Completado,375.20
+847,O00847,183,4,10,2026-02-09,Corredor de seguros,Completado,984.25
+848,O00848,67,5,25,2026-04-11,Central telefónica,Completado,5452.35
+849,O00849,91,3,32,2026-03-06,Oficina,Cancelado,1587.76
+850,O00850,129,2,27,2026-02-14,Portal del asegurado,Pendiente,571.75
+851,O00851,80,5,12,2026-04-08,Corredor de seguros,Observado,1597.24
+852,O00852,133,1,11,2026-06-10,Central telefónica,Completado,422.56
+853,O00853,176,4,27,2026-05-18,Oficina,Completado,701.75
+854,O00854,15,4,9,2026-03-05,Portal del asegurado,Completado,1355.04
+855,O00855,70,6,37,2026-06-11,Corredor de seguros,Completado,600.61
+856,O00856,77,5,13,2026-01-27,Central telefónica,Completado,1706.28
+857,O00857,58,2,16,2026-03-03,Oficina,Pendiente,1990.25
+858,O00858,5,3,9,2026-01-09,Portal del asegurado,Completado,280.70
+859,O00859,3,1,34,2026-01-05,Corredor de seguros,Completado,688.50
+860,O00860,189,6,21,2026-06-22,Central telefónica,Completado,1968.22
+861,O00861,9160,3,,2026-06-19,Oficina,Completado,4149.70
+862,O00862,126,2,40,03/01/2026,Portal del asegurado,Cancelado,313.45
+863,O00863,167,3,23,2026-02-01,Corredor de seguros,Cancelado,1426.14
+864,O00864,86,5,23,12/06/2026,Central telefónica,Pendiente,1157.97
+865,O00865,130,4,31,2026-02-16,Oficina,Completado,406.66
+866,O00866,66,1,14,2026-04-10,Portal del asegurado,Pendiente,679.80
+867,O00867,125,2,25,2026-01-12,Corredor de seguros,Completado,840.00
+868,O00868,75,1,21,2026-02-02,Central telefónica,Pendiente,185.50
+869,O00869,126,3,17,2026-03-13,Oficina,Completado,274.20
+870,O00870,49,5,32,2026-02-13,Portal del asegurado,Completado,2230.03
+871,O00871,125,5,20,06/06/2026,Corredor de seguros,Completado,211.28
+872,O00872,67,4,40,2026-01-08,Central telefónica,Cancelado,822.60
+873,O00873,45,5,4,2026-03-06,Oficina,Completado,1252.56
+874,O00874,36,5,22,2026-05-05,Portal del asegurado,Completado,1240.05
+875,O00875,83,6,13,2026-05-10,Corredor de seguros,Pendiente,420.00
+876,O00876,10,1,24,2026-04-05,Central telefónica,Completado,3126.97
+877,O00877,162,4,9,2026-05-16,Oficina,Completado,1806.31
+878,O00878,97,6,32,2026-05-19,Portal del asegurado,Cancelado,4934.15
+879,O00879,9584,6,16,2026-03-18,Corredor de seguros,Observado,485.61
+880,O00880,108,5,33,2026-03-06,Central telefónica,Completado,2238.53
+881,O00881,185,1,21,08/01/2026,Oficina,Completado,2873.50
+882,O00882,63,2,30,2026-06-25,Portal del asegurado,Completado,1653.36
+883,O00883,14,2,28,2026-06-26,Corredor de seguros,Observado,41.90
+884,O00884,30,4,31,2026-05-18,Central telefónica,Pendiente,763.71
+885,O00885,59,4,9,2026-02-11,Oficina,Pendiente,875.18
+886,O00886,37,3,17,2026-02-18,Portal del asegurado,Completado,3601.45
+887,O00887,89,6,13,2026-05-03,Corredor de seguros,Completado,1010.90
+888,O00888,167,1,24,2026-04-13,Central telefónica,Pendiente,970.44
+889,O00889,24,1,1,2026-02-07,Oficina,Completado,2408.71
+890,O00890,111,4,3,2026-02-03,Portal del asegurado,Cancelado,1097.30
+891,O00891,45,4,37,2026-02-15,Corredor de seguros,Completado,835.04
+892,O00892,47,1,13,2026-05-24,Central telefónica,Cancelado,3818.6
+893,O00893,68,5,32,2026-04-04,Oficina,Pendiente,2090.51
+894,O00894,92,4,2,2026-04-04,Portal del asegurado,Completado,848.88
+895,O00895,106,6,15,2026-04-24,Corredor de seguros,Completado,685.50
+896,O00896,23,4,20,2026-05-01,Central telefónica,Completado,1588.92
+897,O00897,57,5,12,2026-05-13,Oficina,Cancelado,1562.79
+898,O00898,42,6,30,21/03/2026,Portal del asegurado,Pendiente,1352.60
+899,O00899,82,5,8,2026-01-28,Corredor de seguros,Completado,358.36
+900,O00900,91,2,7,2026-02-01,Central telefónica,Pendiente,1043.92
+901,O00901,136,3,23,2026-02-24,Oficina,Pendiente,1121.40
+902,O00902,115,1,31,2026-04-07,Portal del asegurado,Completado,704.15
+903,O00903,29,2,14,2026-04-12,Corredor de seguros,Completado,2676.19
+904,O00904,198,6,34,2026-06-05,Central telefónica,Pendiente,-2238.3
+905,O00905,173,1,21,2026-03-06,Oficina,Cancelado,1383.30
+906,O00906,7,1,36,06/02/2026,Portal del asegurado,Completado,1343.12
+907,O00907,187,4,23,2026-03-22,Corredor de seguros,Cancelado,1734.56
+908,O00908,79,3,37,2026-06-13,Central telefónica,Completado,110.12
+909,O00909,8,6,20,2026-03-16,Oficina,Cancelado,381.44
+910,O00910,41,1,28,28/06/2026,Portal del asegurado,Completado,1630.87
+911,O00911,79,1,40,2026-06-23,Corredor de seguros,Pendiente,3523.74
+912,O00912,5,2,31,2026-01-15,Central telefónica,Cancelado,1010.48
+913,O00913,100,4,4,2026-05-26,Oficina,Completado,1993.07
+914,O00914,90,4,24,2026-01-17,Portal del asegurado,Completado,62.69
+915,O00915,54,4,30,2026-02-11,Corredor de seguros,Pendiente,209.50
+916,O00916,107,2,12,2026-04-26,Central telefónica,Completado,1571.00
+917,O00917,113,4,14,2026-03-03,Oficina,Cancelado,999.31
+918,O00918,70,6,5,2026-04-03,Portal del asegurado,Completado,2360.66
+919,O00919,124,2,24,2026-01-25,Corredor de seguros,Completado,2274.52
+920,O00920,40,1,19,2026-06-03,Central telefónica,Completado,678.40
+921,O00921,2,4,27,2026-03-08,Oficina,Completado,1237.80
+922,O00922,151,1,23,2026-01-12,Portal del asegurado,Completado,250.76
+923,O00923,103,6,15,2026-03-01,Corredor de seguros,Cancelado,2573.25
+924,O00924,169,5,21,2026-05-09,Central telefónica,Completado,3685.00
+925,O00925,4,3,36,2026-02-08,Oficina,Observado,3813.70
+926,O00926,189,2,29,2026-02-13,Portal del asegurado,Pendiente,680.00
+927,O00927,50,2,2,2026-03-28,Corredor de seguros,Completado,3629.92
+928,O00928,165,3,4,2026-02-22,Central telefónica,Cancelado,1237.80
+929,O00929,125,6,1,2026-06-11,Oficina,Pendiente,3294.45
+930,O00930,153,2,28,2026-03-08,Portal del asegurado,Completado,490.80
+931,O00931,11,3,5,2026-04-08,Corredor de seguros,Pendiente,659.00
+932,O00932,160,1,1,2026-01-02,Central telefónica,Pendiente,1834.88
+933,O00933,34,3,,2026-01-20,Oficina,Observado,1963.20
+934,O00934,175,4,19,2026-01-04,Portal del asegurado,Observado,1538.03
+935,O00935,90,4,17,2026-01-24,Corredor de seguros,Completado,3136.93
+936,O00936,106,2,40,2026-03-17,Central telefónica,Completado,2475.60
+937,O00937,3,2,28,2026-05-17,Oficina,Cancelado,1856.70
+938,O00938,137,2,27,2026-05-25,Portal del asegurado,Completado,5352.85
+939,O00939,122,2,35,2026-02-25,Corredor de seguros,Completado,2841.28
+940,O00940,21,1,28,2026-03-21,Central telefónica,Completado,208.76
+941,O00941,145,6,34,2026-03-21,Oficina,Completado,2009.80
+942,O00942,198,2,25,2026-01-28,Portal del asegurado,Completado,83.80
+943,O00943,200,2,25,2026-05-01,Corredor de seguros,Pendiente,2644.14
+944,O00944,53,4,29,2026-01-15,Central telefónica,Completado,597.36
+945,O00945,13,3,15,2026-06-21,Oficina,Completado,1289.64
+946,O00946,90,1,21,2026-03-02,Portal del asegurado,Completado,1087.04
+947,O00947,37,1,25,2026-05-24,Corredor de seguros,Completado,4590.15
+948,O00948,56,6,39,2026-03-09,Central telefónica,Completado,168.00
+949,O00949,199,3,38,2026-05-27,Oficina,Pendiente,1328.60
+950,O00950,35,4,28,2026-01-09,Portal del asegurado,Completado,469.00
+951,O00951,7,6,33,2026-06-21,Corredor de seguros,Observado,1303.22
+952,O00952,9737,3,17,2026-03-11,Central telefónica,Completado,1914.08
+953,O00953,75,2,13,2026-05-15,Oficina,Completado,943.64
+954,O00954,34,5,10,2026-02-16,Portal del asegurado,Completado,1735.14
+955,O00955,13,2,34,2026-03-10,Corredor de seguros,Completado,1286.36
+956,O00956,138,4,30,2026-06-13,Central telefónica,Pendiente,387.34
+957,O00957,112,2,38,2026-02-02,Oficina,Completado,111.30
+958,O00958,166,2,11,2026-05-17,Portal del asegurado,Completado,1265.32
+959,O00959,21,1,28,2026-02-02,Corredor de seguros,Completado,4270.00
+960,O00960,5,2,36,2026-01-16,Central telefónica,Completado,81.72
+961,O00961,87,3,29,2026-01-26,Oficina,Pendiente,1060.60
+962,O00962,96,2,14,2026-03-07,Portal del asegurado,Cancelado,959.85
+963,O00963,69,6,24,2026-04-19,Corredor de seguros,Cancelado,260.00
+964,O00964,21,1,35,2026-06-01,Central telefónica,Pendiente,2952.58
+965,O00965,67,3,19,2026-05-03,Oficina,Completado,2541.54
+966,O00966,116,1,5,2026-05-25,Portal del asegurado,Completado,1478.12
+967,O00967,161,4,12,2026-05-22,Corredor de seguros,Completado,56.00
+968,O00968,128,6,7,2026-05-06,Central telefónica,Pendiente,840.00
+969,O00969,92,2,7,2026-02-14,Oficina,Completado,203.38
+970,O00970,80,4,31,2026-06-28,Portal del asegurado,Observado,4033.84
+971,O00971,90,5,2,2026-01-25,Corredor de seguros,Completado,1096.28
+972,O00972,68,6,21,2026-01-03,Central telefónica,Observado,335.20
+973,O00973,193,1,37,2026-06-28,Oficina,Completado,2585.04
+974,O00974,125,5,,2026-02-21,Portal del asegurado,Completado,355.67
+975,O00975,65,4,25,2026-04-07,Corredor de seguros,Completado,282.92
+976,O00976,14,3,14,2026-01-28,Central telefónica,Pendiente,140.35
+977,O00977,105,5,,2026-03-23,Oficina,Completado,165.90
+978,O00978,152,5,10,2026-01-02,Portal del asegurado,Cancelado,3383.66
+979,O00979,100,3,19,2026-06-19,Corredor de seguros,Completado,701.75
+980,O00980,22,3,4,2026-03-07,Central telefónica,Completado,2044.72
+981,O00981,74,6,10,2026-04-24,Oficina,Completado,1841.00
+982,O00982,70,2,25,2026-04-16,Portal del asegurado,Completado,1098.28
+983,O00983,169,4,23,2026-02-16,Corredor de seguros,Completado,2118.95
+984,O00984,65,5,3,2026-01-20,Central telefónica,Pendiente,1197.80
+985,O00985,177,4,39,2026-03-02,Oficina,Completado,1278.52
+986,O00986,82,1,21,11/05/2026,Portal del asegurado,Completado,809.35
+987,O00987,167,5,19,2026-05-06,Corredor de seguros,Pendiente,2582.83
+988,O00988,9,1,34,2026-06-26,Central telefónica,Completado,2234.40
+989,O00989,113,1,21,2026-06-08,Oficina,Completado,1174.09
+990,O00990,157,1,7,2026-05-23,Portal del asegurado,Cancelado,95.73
+991,O00991,63,1,17,2026-02-14,Corredor de seguros,Completado,65.00
+992,O00992,107,6,15,2026-02-22,Central telefónica,Completado,1457.30
+993,O00993,11,1,3,2026-02-24,Oficina,Cancelado,1236.62
+994,O00994,171,3,29,2026-06-03,Portal del asegurado,Completado,1707.57
+995,O00995,164,4,30,2026-02-22,Corredor de seguros,Completado,1361.40
+996,O00996,145,2,18,2026-05-15,Central telefónica,Pendiente,1072.50
+997,O00997,164,2,30,2026-01-17,Oficina,Completado,445.56
+998,O00998,17,1,13,2026-06-07,Portal del asegurado,Completado,2196.26
+999,O00999,5,5,30,2026-01-01,Corredor de seguros,Completado,1873.87
+1000,O01000,130,4,22,2026-02-16,Central telefónica,Completado,1252.56
+1001,O01001,63,1,17,2026-02-14,Oficina,Completado,23.08
+1002,O01002,57,3,35,2026-02-17,Portal del asegurado,Completado,1741.01
+1003,O01003,137,2,3,2026-05-06,Corredor de seguros,Completado,1199.78
+1004,O01004,12,3,4,2026-02-26,Central telefónica,Completado,3609.32
+1005,O01005,68,5,32,2026-04-04,Oficina,Pendiente,1920.45
+1006,O01006,96,2,5,2026-03-09,Portal del asegurado,Observado,104.13
+1007,O01007,189,6,15,2026-05-13,Corredor de seguros,Completado,820.91
+1008,O01008,170,3,36,2026-02-05,Central telefónica,Completado,4879.63
+1009,O01009,149,2,,2026-01-23,Oficina,Completado,1647.16
+1010,O01010,198,4,33,2026-01-07,Portal del asegurado,Completado,1553.92

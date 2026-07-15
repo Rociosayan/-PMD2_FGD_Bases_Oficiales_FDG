@@ -1,0 +1,41 @@
+id_empleado,codigo_empleado,nombres,apellidos,num_documento,cargo,id_sede,correo,sueldo,fecha_ingreso
+1,E0001,Ana,Ríos Ríos,84101972,Ingeniero agrónomo,6,ana.ríos@agroexport_sol.pe,4946.89,2026-01-05
+2,E0002,Daniela,Palomino Ramos,13414102,Supervisor de campo,4,daniela.palomino@agroexport_sol.pe,1767.68,2026-01-28
+3,E0003,Luis,Huamán Espinoza,16888584,Técnico de calidad,3,luis.huamán@agroexport_sol.pe,5805.52,2026-01-03
+4,E0004,Julia,Villanueva Mendoza,86363163,Operario de packing,2,julia.villanueva@agroexport_sol.pe,5601.26,2026-01-11
+5,E0005,Lucía,Castillo Ponce,21947803,Coordinador de exportaciones,4,lucía.castillo@agroexport_sol.pe,6319.29,2026-01-12
+6,E0006,Pedro,Huamán Cárdenas,39436333,Jefe de planta,3,pedro.huamán@agroexport_sol.pe,1332.48,2026-01-13
+7,E0007,Iván,Ríos Rojas,54862985,Ingeniero agrónomo,2,iván.ríos@agroexport_sol.pe,1466.12,2026-02-28
+8,E0008,Karla,Aguirre Palomino,57191236,Supervisor de campo,3,karla.aguirre@agroexport_sol.pe,5065.71,2026-01-17
+9,E0009,Ana,Ramos Villanueva,21744299,Técnico de calidad,6,ana.ramos@agroexport_sol.pe,3589.85,2026-01-02
+10,E0010,Raúl,Cornejo Torres,44439685,Operario de packing,3,raúl.cornejo@agroexport_sol.pe,4495.25,2026-01-09
+11,E0011,Patricia,Cruz Torres,11902042,Coordinador de exportaciones,4,patricia.cruz@agroexport_sol.pe,1470.35,2026-02-21
+12,E0012,Sofía,Sánchez Zevallos,32800240,Jefe de planta,2,sofía.sánchez@agroexport_sol.pe,4555.15,2026-03-26
+13,E0013,Lucía,Bautista Cárdenas,29010901,Ingeniero agrónomo,5,lucía.bautista@agroexport_sol.pe,5532.26,2026-01-03
+14,E0014,Raúl,Aguirre Paredes,79453909,Supervisor de campo,3,raúl.aguirre@agroexport_sol.pe,5931.36,2026-03-10
+15,E0015,Álvaro,Villanueva Ponce,69421092,Técnico de calidad,2,álvaro.villanueva@agroexport_sol.pe,,2026-02-24
+16,E0016,Óscar,Cruz Quispe,55696728,Operario de packing,5,óscar.cruz@agroexport_sol.pe,5006.24,2026-01-22
+17,E0017,Natalia,Lévano Bautista,45729341,Coordinador de exportaciones,3,natalia.lévano@agroexport_sol.pe,1437.64,2026-02-26
+18,E0018,Paola,Huamán Huamán,71942847,Jefe de planta,3,paola.huamán@agroexport_sol.pe,1726.27,2026-02-15
+19,E0019,Daniela,Ponce Mendoza,71225554,Ingeniero agrónomo,4,daniela.ponce@agroexport_sol.pe,4707.12,2026-03-06
+20,E0020,Hugo,Aguirre Díaz,21328102,Supervisor de campo,2,hugo.aguirre@agroexport_sol.pe,4688.53,2026-02-25
+21,E0021,Álvaro,Huamán Cornejo,69451774,Técnico de calidad,3,álvaro.huamán@agroexport_sol.pe,3449.96,2026-03-20
+22,E0022,Rosa,Ramos Ríos,19943171,Operario de packing,6,rosa.ramos@agroexport_sol.pe,5141.54,2026-03-03
+23,E0023,Óscar,Palomino Castillo,65795846,Coordinador de exportaciones,5,óscar.palomino@agroexport_sol.pe,5313.61,2026-03-10
+24,E0024,Iván,Romero Mendoza,35331599,Jefe de planta,2,iván.romero@agroexport_sol.pe,1262.0,2026-01-17
+25,E0025,Manuel,Sánchez Sánchez,52480448,Ingeniero agrónomo,6,manuel.sánchez@agroexport_sol.pe,,2026-01-17
+26,E0026,Manuel,Cárdenas Díaz,46062038,Supervisor de campo,1,manuel.cárdenas@agroexport_sol.pe,6133.56,2026-03-13
+27,E0027,Luis,Cárdenas Vargas,84176222,Técnico de calidad,5,luis.cárdenas@agroexport_sol.pe,2375.13,2026-03-19
+28,E0028,Carlos,Torres Mendoza,35655123,Operario de packing,5,carlos.torres@agroexport_sol.pe,4617.04,2026-03-04
+29,E0029,Sofía,Mendoza Vargas,95065124,Coordinador de exportaciones,2,sofía.mendoza@agroexport_sol.pe,6176.6,2026-03-19
+30,E0030,Natalia,Ramos Aguirre,51120617,Jefe de planta,4,natalia.ramos@agroexport_sol.pe,,2026-01-10
+31,E0031,Patricia,Espinoza Cárdenas,80162460,Ingeniero agrónomo,5,patricia.espinoza@agroexport_sol.pe,2200.24,2026-03-11
+32,E0032,Gabriela,Rivera Chávez,51840647,Supervisor de campo,3,gabriela.rivera@agroexport_sol.pe,3872.94,2026-03-19
+33,E0033,Milagros,Cornejo Espinoza,11750977,Técnico de calidad,4,milagros.cornejo@agroexport_sol.pe,,2026-02-28
+34,E0034,Raúl,Bautista Huamán,12386701,Operario de packing,3,raúl.bautista@agroexport_sol.pe,3069.83,2026-02-15
+35,E0035,Diego,Palomino Flores,91556246,Coordinador de exportaciones,5,diego.palomino@agroexport_sol.pe,4281.98,2026-01-07
+36,E0036,Daniela,Rojas Cárdenas,17489639,Jefe de planta,5,daniela.rojas@agroexport_sol.pe,3949.02,2026-01-02
+37,E0037,Karla,Aguirre Salazar,63370439,Ingeniero agrónomo,2,karla.aguirre@agroexport_sol.pe,1561.89,2026-03-25
+38,E0038,Rosa,Flores Paredes,65244966,Supervisor de campo,1,rosa.flores@agroexport_sol.pe,,2026-01-09
+39,E0039,Fernando,Flores Flores,50090946,Técnico de calidad,1,fernando.flores@agroexport_sol.pe,,2026-03-25
+40,E0040,María,Cruz Huamán,81050340,Operario de packing,5,maría.cruz@agroexport_sol.pe,6329.1,2026-01-18

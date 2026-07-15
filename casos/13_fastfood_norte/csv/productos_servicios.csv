@@ -1,16 +1,31 @@
-﻿id_producto,codigo_producto,nombre_producto,categoria,precio_base,activo
-1,P0001,Servicio/Producto 01,Est?ndar,314.79,1
-2,P0002,Servicio/Producto 02,B?sico,57.73,1
-3,P0003,Servicio/Producto 03,Est?ndar,68.46,1
-4,P0004,Servicio/Producto 04,Est?ndar,259.12,1
-5,P0005,Servicio/Producto 05,Especializado,340.72,1
-6,P0006,Servicio/Producto 06,B?sico,27.42,1
-7,P0007,Servicio/Producto 07,Est?ndar,262.03,1
-8,P0008,Servicio/Producto 08,Est?ndar,300.66,1
-9,P0009,Servicio/Producto 09,B?sico,56.91,1
-10,P0010,Servicio/Producto 10,Premium,26.65,1
-11,P0011,Servicio/Producto 11,Premium,208.02,1
-12,P0012,Servicio/Producto 12,Premium,316.56,1
-13,P0013,Servicio/Producto 13,Est?ndar,74.62,1
-14,P0014,Servicio/Producto 14,B?sico,32.34,1
-15,P0015,Servicio/Producto 15,Est?ndar,119.15,1
+id_producto,codigo_producto,nombre_producto,categoria,precio_base,activo
+1,FN0001,Hamburguesa Norte Clásica,Hamburguesa,9.90,1
+2,FN0002,Cheeseburger Doble,Hamburguesa,12.90,1
+3,FN0003,Hamburguesa BBQ Andina,Hamburguesa,15.90,1
+4,FN0004,Hamburguesa de Pollo Crispy,Hamburguesa,18.90,0
+5,FN0005,Hamburguesa Veggie Quinua,Hamburguesa,21.90,1
+6,FN0006,Hamburguesa Picante Norteña,Hamburguesa,24.90,0
+7,FN0007,Cuarto de pollo crocante,Pollo,12.90,1
+8,FN0008,Medio pollo crocante,Pollo,16.90,1
+9,FN0009,Alitas BBQ x 8,Pollo,20.90,1
+10,FN0010,Alitas picantes x 8,Pollo,24.90,1
+11,FN0011,Tiras de pollo x 6,Pollo,28.90,1
+12,FN0012,Nuggets de pollo x 10,Pollo,32.90,1
+13,FN0013,Combo Norte Clásico,Combo,18.90,1
+14,FN0014,Combo Familiar Hamburguesas,Combo,25.10,1
+15,FN0015,Combo Pollo Crispy,Combo,31.30,1
+16,FN0016,Combo Alitas para Dos,Combo,37.50,1
+17,FN0017,Combo Infantil Aventura,Combo,43.70,0
+18,FN0018,Combo Veggie Completo,Combo,49.90,1
+19,FN0019,Papas fritas medianas,Acompañamiento,4.90,0
+20,FN0020,Papas nativas con huancaína,Acompañamiento,6.70,1
+21,FN0021,Aros de cebolla x 8,Acompañamiento,8.50,1
+22,FN0022,Ensalada fresca,Acompañamiento,10.30,1
+23,FN0023,Tequeños de queso x 6,Acompañamiento,12.10,1
+24,FN0024,Choclo con mantequilla,Acompañamiento,13.90,1
+25,FN0025,Chicha morada 500 ml,Bebida y postre,3.90,1
+26,FN0026,Limonada frozen 500 ml,Bebida y postre,6.10,1
+27,FN0027,Gaseosa 500 ml,Bebida y postre,8.30,1
+28,FN0028,Milkshake de lúcuma,Bebida y postre,10.50,1
+29,FN0029,Brownie con helado,Bebida y postre,12.70,1
+30,FN0030,Cheesecake de maracuyá,Bebida y postre,14.90,1

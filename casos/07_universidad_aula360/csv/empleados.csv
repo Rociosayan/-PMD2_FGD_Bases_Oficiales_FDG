@@ -1,0 +1,41 @@
+id_empleado,codigo_empleado,nombres,apellidos,num_documento,cargo,id_sede,correo,sueldo,fecha_ingreso
+1,E0001,José,Aguirre Díaz,96896177,Docente,3,josé.aguirre@universidad_aula360.pe,,2026-03-01
+2,E0002,Andrés,Salazar Castillo,22272059,Coordinador académico,1,andrés.salazar@universidad_aula360.pe,1460.43,2026-02-04
+3,E0003,Renzo,Gutiérrez Mendoza,66779534,Asistente de laboratorio,1,renzo.gutiérrez@universidad_aula360.pe,3194.82,2026-02-06
+4,E0004,Sofía,Quispe Ríos,76518947,Asesor de admisión,5,sofía.quispe@universidad_aula360.pe,5358.99,2026-01-26
+5,E0005,Isabel,Torres Rojas,41811462,Secretario académico,3,isabel.torres@universidad_aula360.pe,,2026-01-06
+6,E0006,Hugo,Vargas Ponce,43629014,Director de escuela,2,hugo.vargas@universidad_aula360.pe,5894.61,2026-03-10
+7,E0007,Rosa,Bautista Ninaquispe,45312868,Docente,2,rosa.bautista@universidad_aula360.pe,2148.01,2026-03-21
+8,E0008,Raúl,Rivera Cornejo,17887632,Coordinador académico,4,raúl.rivera@universidad_aula360.pe,3633.56,2026-02-11
+9,E0009,Renzo,Aguirre Torres,88395769,Asistente de laboratorio,3,renzo.aguirre@universidad_aula360.pe,6182.6,2026-03-27
+10,E0010,Sofía,Bautista Quispe,82665274,Asesor de admisión,3,sofía.bautista@universidad_aula360.pe,6355.73,2026-02-11
+11,E0011,Hugo,Cruz Villanueva,34683701,Secretario académico,3,hugo.cruz@universidad_aula360.pe,1320.45,2026-03-08
+12,E0012,Fernando,Rojas Paredes,69170129,Director de escuela,4,fernando.rojas@universidad_aula360.pe,2577.59,2026-02-13
+13,E0013,Gabriela,Villanueva Sánchez,28648662,Docente,6,gabriela.villanueva@universidad_aula360.pe,4388.84,2026-02-03
+14,E0014,Óscar,Vargas Aguirre,26133429,Coordinador académico,1,óscar.vargas@universidad_aula360.pe,4666.82,2026-03-19
+15,E0015,Natalia,Ríos Cruz,79170293,Asistente de laboratorio,5,natalia.ríos@universidad_aula360.pe,3844.57,2026-02-24
+16,E0016,Óscar,Vargas Díaz,42404019,Asesor de admisión,1,óscar.vargas@universidad_aula360.pe,2075.94,2026-02-17
+17,E0017,Ana,Chávez Zevallos,25578007,Secretario académico,3,ana.chávez@universidad_aula360.pe,2212.53,2026-03-15
+18,E0018,María,Quispe Torres,86084825,Director de escuela,6,maría.quispe@universidad_aula360.pe,,2026-02-20
+19,E0019,Lucía,Romero Flores,50519793,Docente,5,lucía.romero@universidad_aula360.pe,5267.01,2026-02-03
+20,E0020,Sofía,Huamán Mendoza,25603632,Coordinador académico,4,sofía.huamán@universidad_aula360.pe,,2026-02-15
+21,E0021,Elena,Palomino Mendoza,54860190,Asistente de laboratorio,3,elena.palomino@universidad_aula360.pe,2551.5,2026-02-17
+22,E0022,Ana,Ninaquispe Lévano,32830556,Asesor de admisión,4,ana.ninaquispe@universidad_aula360.pe,5147.01,2026-03-01
+23,E0023,Carmen,Torres Cruz,78867375,Secretario académico,3,carmen.torres@universidad_aula360.pe,1344.15,2026-02-21
+24,E0024,Carmen,Cárdenas Ríos,37459281,Director de escuela,1,carmen.cárdenas@universidad_aula360.pe,4297.11,2026-02-13
+25,E0025,Claudia,Aguirre Chávez,63437008,Docente,5,claudia.aguirre@universidad_aula360.pe,,2026-01-20
+26,E0026,Víctor,Díaz Ramos,93248464,Coordinador académico,1,víctor.díaz@universidad_aula360.pe,5810.1,2026-02-20
+27,E0027,Isabel,Chávez Chávez,70619226,Asistente de laboratorio,3,isabel.chávez@universidad_aula360.pe,2116.4,2026-03-01
+28,E0028,Bruno,Ponce Mendoza,62141053,Asesor de admisión,5,bruno.ponce@universidad_aula360.pe,6414.3,2026-03-28
+29,E0029,Isabel,Zevallos Villanueva,15807969,Secretario académico,6,isabel.zevallos@universidad_aula360.pe,3633.9,2026-01-04
+30,E0030,Milagros,Paredes Flores,22017516,Director de escuela,2,milagros.paredes@universidad_aula360.pe,4016.67,2026-02-09
+31,E0031,Milagros,Ponce Lévano,11609089,Docente,5,milagros.ponce@universidad_aula360.pe,2407.64,2026-02-21
+32,E0032,María,Romero Torres,76756809,Coordinador académico,1,maría.romero@universidad_aula360.pe,3780.52,2026-02-28
+33,E0033,Karla,Palomino Cruz,70182962,Asistente de laboratorio,3,karla.palomino@universidad_aula360.pe,2407.34,2026-02-02
+34,E0034,Pedro,Rivera Castillo,76731548,Asesor de admisión,5,pedro.rivera@universidad_aula360.pe,4772.96,2026-02-28
+35,E0035,Pamela,Salazar Vargas,12577463,Secretario académico,4,pamela.salazar@universidad_aula360.pe,,2026-01-27
+36,E0036,Renzo,Rivera Huamán,91342504,Director de escuela,6,renzo.rivera@universidad_aula360.pe,2165.29,2026-02-24
+37,E0037,Ricardo,Ríos Zevallos,60178817,Docente,4,ricardo.ríos@universidad_aula360.pe,5142.28,2026-03-23
+38,E0038,Iván,Chávez Lévano,79490542,Coordinador académico,5,iván.chávez@universidad_aula360.pe,1879.67,2026-01-28
+39,E0039,Melissa,Romero Castillo,74040659,Asistente de laboratorio,4,melissa.romero@universidad_aula360.pe,4583.26,2026-02-23
+40,E0040,Paola,Salazar Bautista,62258070,Asesor de admisión,2,paola.salazar@universidad_aula360.pe,5693.59,2026-02-15

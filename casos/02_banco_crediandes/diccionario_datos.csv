@@ -1,0 +1,63 @@
+tabla,columna,tipo_sqlite,clave,sensibilidad,descripcion_tabla
+sedes,id_sede,INTEGER,PK,No sensible,Puntos de atención / locales de la empresa.
+sedes,codigo_sede,TEXT,,No sensible,Puntos de atención / locales de la empresa.
+sedes,nombre_sede,TEXT,,No sensible,Puntos de atención / locales de la empresa.
+sedes,distrito_sede,TEXT,,No sensible,Puntos de atención / locales de la empresa.
+sedes,responsable,TEXT,,No sensible,Puntos de atención / locales de la empresa.
+empleados,id_empleado,INTEGER,PK,No sensible,Personal que atiende operaciones (contiene datos personales).
+empleados,codigo_empleado,TEXT,,No sensible,Personal que atiende operaciones (contiene datos personales).
+empleados,nombres,TEXT,,Personal,Personal que atiende operaciones (contiene datos personales).
+empleados,apellidos,TEXT,,Personal,Personal que atiende operaciones (contiene datos personales).
+empleados,num_documento,TEXT,,Sensible (identificador),Personal que atiende operaciones (contiene datos personales).
+empleados,cargo,TEXT,,No sensible,Personal que atiende operaciones (contiene datos personales).
+empleados,id_sede,INTEGER,FK,No sensible,Personal que atiende operaciones (contiene datos personales).
+empleados,correo,TEXT,,Personal,Personal que atiende operaciones (contiene datos personales).
+empleados,sueldo,REAL,,Sensible (RRHH),Personal que atiende operaciones (contiene datos personales).
+empleados,fecha_ingreso,TEXT,,No sensible,Personal que atiende operaciones (contiene datos personales).
+clientes,id_cliente,INTEGER,PK,No sensible,Clientes de la empresa (contiene PII y dato sensible).
+clientes,codigo_cliente,TEXT,,No sensible,Clientes de la empresa (contiene PII y dato sensible).
+clientes,tipo_documento,TEXT,,No sensible,Clientes de la empresa (contiene PII y dato sensible).
+clientes,num_documento,TEXT,,Sensible (identificador),Clientes de la empresa (contiene PII y dato sensible).
+clientes,nombres,TEXT,,Personal,Clientes de la empresa (contiene PII y dato sensible).
+clientes,apellidos,TEXT,,Personal,Clientes de la empresa (contiene PII y dato sensible).
+clientes,correo,TEXT,,Personal,Clientes de la empresa (contiene PII y dato sensible).
+clientes,telefono,TEXT,,Personal,Clientes de la empresa (contiene PII y dato sensible).
+clientes,distrito,TEXT,,Personal,Clientes de la empresa (contiene PII y dato sensible).
+clientes,segmento,TEXT,,No sensible,Clientes de la empresa (contiene PII y dato sensible).
+clientes,fecha_registro,TEXT,,No sensible,Clientes de la empresa (contiene PII y dato sensible).
+clientes,saldo_cuenta,REAL,,Sensible (dato del rubro),Clientes de la empresa (contiene PII y dato sensible).
+productos_servicios,id_producto,INTEGER,PK,No sensible,Catálogo de productos financieros.
+productos_servicios,codigo_producto,TEXT,,No sensible,Catálogo de productos financieros.
+productos_servicios,nombre_producto,TEXT,,No sensible,Catálogo de productos financieros.
+productos_servicios,categoria,TEXT,,No sensible,Catálogo de productos financieros.
+productos_servicios,precio_base,REAL,,No sensible,Catálogo de productos financieros.
+productos_servicios,activo,INTEGER,,No sensible,Catálogo de productos financieros.
+operaciones,id_operacion,INTEGER,PK,No sensible,Transacciones o atenciones (tabla de hechos).
+operaciones,codigo_operacion,TEXT,,No sensible,Transacciones o atenciones (tabla de hechos).
+operaciones,id_cliente,INTEGER,FK,No sensible,Transacciones o atenciones (tabla de hechos).
+operaciones,id_sede,INTEGER,FK,No sensible,Transacciones o atenciones (tabla de hechos).
+operaciones,id_empleado,INTEGER,FK,No sensible,Transacciones o atenciones (tabla de hechos).
+operaciones,fecha_operacion,TEXT,,No sensible,Transacciones o atenciones (tabla de hechos).
+operaciones,canal,TEXT,,No sensible,Transacciones o atenciones (tabla de hechos).
+operaciones,estado,TEXT,,No sensible,Transacciones o atenciones (tabla de hechos).
+operaciones,monto_total,REAL,,No sensible,Transacciones o atenciones (tabla de hechos).
+detalle_operacion,id_detalle,INTEGER,PK,No sensible,Líneas de cada operación (relación N:M con productos).
+detalle_operacion,id_operacion,INTEGER,FK,No sensible,Líneas de cada operación (relación N:M con productos).
+detalle_operacion,id_producto,INTEGER,FK,No sensible,Líneas de cada operación (relación N:M con productos).
+detalle_operacion,cantidad,INTEGER,,No sensible,Líneas de cada operación (relación N:M con productos).
+detalle_operacion,precio_unitario,REAL,,No sensible,Líneas de cada operación (relación N:M con productos).
+detalle_operacion,subtotal,REAL,,No sensible,Líneas de cada operación (relación N:M con productos).
+pagos,id_pago,INTEGER,PK,No sensible,Pagos asociados a cada operación.
+pagos,codigo_pago,TEXT,,No sensible,Pagos asociados a cada operación.
+pagos,id_operacion,INTEGER,FK,No sensible,Pagos asociados a cada operación.
+pagos,fecha_pago,TEXT,,No sensible,Pagos asociados a cada operación.
+pagos,medio_pago,TEXT,,No sensible,Pagos asociados a cada operación.
+pagos,monto_pagado,REAL,,No sensible,Pagos asociados a cada operación.
+pagos,estado_pago,TEXT,,No sensible,Pagos asociados a cada operación.
+incidencias,id_incidencia,INTEGER,PK,No sensible,Reclamos u observaciones sobre operaciones.
+incidencias,codigo_incidencia,TEXT,,No sensible,Reclamos u observaciones sobre operaciones.
+incidencias,id_operacion,INTEGER,FK,No sensible,Reclamos u observaciones sobre operaciones.
+incidencias,tipo_incidencia,TEXT,,No sensible,Reclamos u observaciones sobre operaciones.
+incidencias,severidad,TEXT,,No sensible,Reclamos u observaciones sobre operaciones.
+incidencias,fecha_reporte,TEXT,,No sensible,Reclamos u observaciones sobre operaciones.
+incidencias,estado_incidencia,TEXT,,No sensible,Reclamos u observaciones sobre operaciones.

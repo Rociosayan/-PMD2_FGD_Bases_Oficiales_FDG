@@ -1,0 +1,41 @@
+id_empleado,codigo_empleado,nombres,apellidos,num_documento,cargo,id_sede,correo,sueldo,fecha_ingreso
+1,E0001,Renzo,Quispe Ríos,28034486,Asesor de ventas online,6,renzo.quispe@retail_online_market.pe,1931.54,2026-03-21
+2,E0002,Renzo,Lévano Ninaquispe,39059519,Picker de pedidos,1,renzo.lévano@retail_online_market.pe,5372.95,2026-02-15
+3,E0003,Fernando,Mendoza Díaz,38910525,Empacador,3,fernando.mendoza@retail_online_market.pe,5946.55,2026-02-02
+4,E0004,Karla,Espinoza Díaz,52360428,Analista de catálogo,6,karla.espinoza@retail_online_market.pe,5663.74,2026-01-25
+5,E0005,Natalia,Castillo Paredes,52051616,Coordinador de despacho,1,natalia.castillo@retail_online_market.pe,6470.2,2026-01-15
+6,E0006,Víctor,Cornejo Mendoza,36412267,Jefe de e-commerce,5,víctor.cornejo@retail_online_market.pe,5038.92,2026-02-04
+7,E0007,Hugo,Ríos Lévano,59533058,Asesor de ventas online,2,hugo.ríos@retail_online_market.pe,3301.95,2026-03-01
+8,E0008,Milagros,Mendoza Bautista,53348484,Picker de pedidos,2,milagros.mendoza@retail_online_market.pe,2017.26,2026-01-13
+9,E0009,Verónica,Ninaquispe Cárdenas,90792439,Empacador,2,verónica.ninaquispe@retail_online_market.pe,5249.39,2026-02-11
+10,E0010,Diego,Huamán Vargas,81382585,Analista de catálogo,4,diego.huamán@retail_online_market.pe,1501.17,2026-01-16
+11,E0011,Jorge,Bautista Romero,83075372,Coordinador de despacho,5,jorge.bautista@retail_online_market.pe,3555.15,2026-02-22
+12,E0012,Fernando,Flores Paredes,53624542,Jefe de e-commerce,5,fernando.flores@retail_online_market.pe,4701.19,2026-01-23
+13,E0013,Iván,Ríos Paredes,14942104,Asesor de ventas online,4,iván.ríos@retail_online_market.pe,5816.86,2026-02-28
+14,E0014,María,Torres Chávez,91257584,Picker de pedidos,6,maría.torres@retail_online_market.pe,4013.07,2026-01-25
+15,E0015,Pamela,Aguirre Bautista,22304886,Empacador,2,pamela.aguirre@retail_online_market.pe,4549.25,2026-01-17
+16,E0016,Jorge,Sánchez Gutiérrez,18428023,Analista de catálogo,5,jorge.sánchez@retail_online_market.pe,,2026-02-26
+17,E0017,Álvaro,Chávez Quispe,83891367,Coordinador de despacho,3,álvaro.chávez@retail_online_market.pe,1798.81,2026-03-26
+18,E0018,Luis,Rojas Quispe,47696394,Jefe de e-commerce,6,luis.rojas@retail_online_market.pe,5510.94,2026-03-22
+19,E0019,Gabriela,Quispe Flores,24659536,Asesor de ventas online,3,gabriela.quispe@retail_online_market.pe,4504.59,2026-01-02
+20,E0020,Sofía,Sánchez Romero,50749299,Picker de pedidos,3,sofía.sánchez@retail_online_market.pe,4831.78,2026-02-06
+21,E0021,Natalia,Quispe Villanueva,68346233,Empacador,6,natalia.quispe@retail_online_market.pe,3729.87,2026-02-07
+22,E0022,María,Gutiérrez Aguirre,90329696,Analista de catálogo,2,maría.gutiérrez@retail_online_market.pe,3157.65,2026-01-08
+23,E0023,Daniela,Castillo Cornejo,99350183,Coordinador de despacho,5,daniela.castillo@retail_online_market.pe,1344.74,2026-02-27
+24,E0024,Paola,Cornejo Vargas,48969415,Jefe de e-commerce,4,paola.cornejo@retail_online_market.pe,,2026-01-04
+25,E0025,Carlos,Mendoza Espinoza,59685171,Asesor de ventas online,3,carlos.mendoza@retail_online_market.pe,1228.43,2026-03-16
+26,E0026,Julia,Quispe Torres,46444656,Picker de pedidos,5,julia.quispe@retail_online_market.pe,,2026-01-14
+27,E0027,Sergio,Ponce Torres,97886635,Empacador,3,sergio.ponce@retail_online_market.pe,4837.12,2026-01-22
+28,E0028,Gabriela,Ríos Mendoza,96911063,Analista de catálogo,1,gabriela.ríos@retail_online_market.pe,4479.51,2026-01-25
+29,E0029,Manuel,Espinoza Ninaquispe,54958266,Coordinador de despacho,2,manuel.espinoza@retail_online_market.pe,4821.65,2026-02-24
+30,E0030,Claudia,Cárdenas Ninaquispe,20732939,Jefe de e-commerce,1,claudia.cárdenas@retail_online_market.pe,3049.51,2026-01-15
+31,E0031,Bruno,Bautista Salazar,89516315,Asesor de ventas online,2,bruno.bautista@retail_online_market.pe,,2026-02-12
+32,E0032,Óscar,Sánchez Cornejo,28393173,Picker de pedidos,5,óscar.sánchez@retail_online_market.pe,6342.62,2026-03-04
+33,E0033,Karla,Mendoza Vargas,76718841,Empacador,1,karla.mendoza@retail_online_market.pe,5251.71,2026-01-26
+34,E0034,Renzo,Flores Palomino,42174832,Analista de catálogo,5,renzo.flores@retail_online_market.pe,2737.63,2026-01-28
+35,E0035,Raúl,Rivera Cruz,81731925,Coordinador de despacho,5,raúl.rivera@retail_online_market.pe,,2026-01-24
+36,E0036,Isabel,Castillo Zevallos,50345489,Jefe de e-commerce,3,isabel.castillo@retail_online_market.pe,1788.73,2026-03-08
+37,E0037,Renzo,Flores Vargas,42510804,Asesor de ventas online,3,renzo.flores@retail_online_market.pe,1917.71,2026-02-22
+38,E0038,Gabriela,Flores Ramos,52899816,Picker de pedidos,4,gabriela.flores@retail_online_market.pe,2032.8,2026-01-25
+39,E0039,Pamela,Zevallos Sánchez,11811077,Empacador,6,pamela.zevallos@retail_online_market.pe,,2026-01-16
+40,E0040,Isabel,Díaz Villanueva,53397555,Analista de catálogo,6,isabel.díaz@retail_online_market.pe,1937.73,2026-02-24

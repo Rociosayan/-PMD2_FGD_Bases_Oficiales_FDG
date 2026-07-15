@@ -1,0 +1,31 @@
+id_producto,codigo_producto,nombre_producto,categoria,precio_base,activo
+1,TN0001,Recarga Prepago S/ 5,Prepago,5.00,1
+2,TN0002,Recarga Prepago S/ 10,Prepago,7.58,1
+3,TN0003,Paquete Redes Ilimitadas 7 días,Prepago,11.49,1
+4,TN0004,Paquete Datos 5 GB,Prepago,17.41,0
+5,TN0005,Paquete Voz Nacional,Prepago,26.39,1
+6,TN0006,Chip Prepago 5G,Prepago,40.00,1
+7,TN0007,Plan Norte 30 GB,Postpago,29.90,1
+8,TN0008,Plan Norte 60 GB,Postpago,40.11,1
+9,TN0009,Plan Norte 100 GB,Postpago,53.81,0
+10,TN0010,Plan Norte Ilimitado,Postpago,72.18,1
+11,TN0011,Plan Familiar 3 líneas,Postpago,96.83,1
+12,TN0012,Plan Senior Conectado,Postpago,129.90,1
+13,TN0013,Internet Hogar Fibra 150 Mbps,Internet,59.90,1
+14,TN0014,Internet Hogar Fibra 300 Mbps,Internet,83.90,1
+15,TN0015,Internet Hogar Fibra 600 Mbps,Internet,107.90,1
+16,TN0016,Internet Hogar 1 Gbps,Internet,131.90,1
+17,TN0017,Internet Móvil 100 GB,Internet,155.90,1
+18,TN0018,Router WiFi Mesh,Internet,179.90,1
+19,TN0019,Smartphone Básico 64 GB,Equipo,89.00,1
+20,TN0020,Smartphone Norte 5G 128 GB,Equipo,163.29,1
+21,TN0021,Smartphone Pro 5G 256 GB,Equipo,299.57,1
+22,TN0022,Tablet LTE 128 GB,Equipo,549.62,1
+23,TN0023,Smartwatch Conectado,Equipo,1008.36,1
+24,TN0024,Router 5G Portátil,Equipo,1850.00,1
+25,TN0025,Portabilidad numérica,Servicio,0.00,1
+26,TN0026,Reposición de chip,Servicio,15.00,1
+27,TN0027,Activación eSIM,Servicio,30.00,0
+28,TN0028,Roaming Sudamérica 7 días,Servicio,45.00,1
+29,TN0029,Seguro de equipo móvil,Servicio,60.00,1
+30,TN0030,Instalación fibra óptica,Servicio,75.00,1

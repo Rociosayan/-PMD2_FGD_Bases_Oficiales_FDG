@@ -1,0 +1,41 @@
+id_empleado,codigo_empleado,nombres,apellidos,num_documento,cargo,id_sede,correo,sueldo,fecha_ingreso
+1,E0001,Rosa,Ponce Aguirre,64577579,Médico general,1,rosa.ponce@clinica_vitalsalud.pe,5772.25,2026-02-14
+2,E0002,Bruno,Palomino Huamán,82885561,Enfermera,1,bruno.palomino@clinica_vitalsalud.pe,2825.04,2026-01-13
+3,E0003,María,Vargas Lévano,22724307,Técnico de laboratorio,1,maría.vargas@clinica_vitalsalud.pe,3495.44,2026-02-07
+4,E0004,Lucía,Espinoza Romero,39263092,Recepcionista,1,lucía.espinoza@clinica_vitalsalud.pe,3162.7,2026-01-27
+5,E0005,Miguel,Paredes Rivera,80850330,Tecnólogo médico,1,miguel.paredes@clinica_vitalsalud.pe,4455.41,2026-01-17
+6,E0006,Bruno,Rivera Cruz,12869373,Administrador de clínica,1,bruno.rivera@clinica_vitalsalud.pe,4595.68,2026-01-04
+7,E0007,Isabel,Aguirre Ponce,45523716,Médico general,1,isabel.aguirre@clinica_vitalsalud.pe,5734.77,2026-01-08
+8,E0008,Miguel,Cruz Torres,84782151,Enfermera,1,miguel.cruz@clinica_vitalsalud.pe,1560.81,2026-02-17
+9,E0009,Verónica,Cruz Quispe,72604471,Técnico de laboratorio,3,verónica.cruz@clinica_vitalsalud.pe,,2026-02-17
+10,E0010,Natalia,Castillo Paredes,39224350,Recepcionista,3,natalia.castillo@clinica_vitalsalud.pe,,2026-01-03
+11,E0011,Manuel,Cornejo Díaz,84728035,Tecnólogo médico,1,manuel.cornejo@clinica_vitalsalud.pe,1789.84,2026-01-28
+12,E0012,Jorge,Lévano Zevallos,43281019,Administrador de clínica,2,jorge.lévano@clinica_vitalsalud.pe,3916.71,2026-02-17
+13,E0013,Pamela,Lévano Rojas,71829515,Médico general,2,pamela.lévano@clinica_vitalsalud.pe,5917.43,2026-03-17
+14,E0014,María,Villanueva Lévano,18667594,Enfermera,4,maría.villanueva@clinica_vitalsalud.pe,,2026-03-24
+15,E0015,Karla,Vargas Vargas,90045225,Técnico de laboratorio,3,karla.vargas@clinica_vitalsalud.pe,2685.18,2026-03-10
+16,E0016,Karla,Palomino Ponce,20186919,Recepcionista,1,karla.palomino@clinica_vitalsalud.pe,2562.17,2026-02-24
+17,E0017,Renzo,Quispe Palomino,32609970,Tecnólogo médico,2,renzo.quispe@clinica_vitalsalud.pe,,2026-02-23
+18,E0018,Manuel,Aguirre Rojas,96564519,Administrador de clínica,6,manuel.aguirre@clinica_vitalsalud.pe,6281.16,2026-03-25
+19,E0019,Hugo,Cruz Cruz,32435746,Médico general,2,hugo.cruz@clinica_vitalsalud.pe,4074.5,2026-02-01
+20,E0020,Patricia,Gutiérrez Paredes,10297314,Enfermera,5,patricia.gutiérrez@clinica_vitalsalud.pe,5805.2,2026-03-15
+21,E0021,Fernando,Palomino Cárdenas,43948778,Técnico de laboratorio,1,fernando.palomino@clinica_vitalsalud.pe,4175.56,2026-02-17
+22,E0022,Karla,Ramos Gutiérrez,48522628,Recepcionista,2,karla.ramos@clinica_vitalsalud.pe,,2026-02-24
+23,E0023,Sergio,Rivera Romero,26654006,Tecnólogo médico,5,sergio.rivera@clinica_vitalsalud.pe,3429.67,2026-01-27
+24,E0024,Víctor,Bautista Torres,58232549,Administrador de clínica,1,víctor.bautista@clinica_vitalsalud.pe,4502.48,2026-01-13
+25,E0025,Daniela,Paredes Lévano,87739733,Médico general,1,daniela.paredes@clinica_vitalsalud.pe,1227.21,2026-03-04
+26,E0026,Isabel,Huamán Cárdenas,34039783,Enfermera,1,isabel.huamán@clinica_vitalsalud.pe,3073.2,2026-03-24
+27,E0027,Pedro,Rivera Aguirre,37260962,Técnico de laboratorio,5,pedro.rivera@clinica_vitalsalud.pe,6456.66,2026-03-03
+28,E0028,María,Ponce Vargas,34418253,Recepcionista,4,maría.ponce@clinica_vitalsalud.pe,,2026-01-24
+29,E0029,Verónica,Mendoza Cárdenas,24474707,Tecnólogo médico,6,verónica.mendoza@clinica_vitalsalud.pe,5584.9,2026-02-19
+30,E0030,Sergio,Gutiérrez Díaz,37039748,Administrador de clínica,2,sergio.gutiérrez@clinica_vitalsalud.pe,3711.34,2026-03-04
+31,E0031,Rosa,Ninaquispe Palomino,52886264,Médico general,5,rosa.ninaquispe@clinica_vitalsalud.pe,1306.31,2026-01-22
+32,E0032,Álvaro,Huamán Castillo,21403952,Enfermera,5,álvaro.huamán@clinica_vitalsalud.pe,3530.13,2026-03-19
+33,E0033,Iván,Quispe Cruz,93285292,Técnico de laboratorio,6,iván.quispe@clinica_vitalsalud.pe,3385.23,2026-01-07
+34,E0034,Álvaro,Ríos Ponce,36174454,Recepcionista,5,álvaro.ríos@clinica_vitalsalud.pe,3557.78,2026-01-18
+35,E0035,Diego,Cruz Villanueva,31858740,Tecnólogo médico,2,diego.cruz@clinica_vitalsalud.pe,1763.0,2026-03-25
+36,E0036,Bruno,Mendoza Villanueva,28066338,Administrador de clínica,3,bruno.mendoza@clinica_vitalsalud.pe,2690.77,2026-03-02
+37,E0037,Pedro,Palomino Díaz,70005695,Médico general,1,pedro.palomino@clinica_vitalsalud.pe,6053.5,2026-02-03
+38,E0038,Manuel,Ninaquispe Palomino,86937701,Enfermera,6,manuel.ninaquispe@clinica_vitalsalud.pe,3669.73,2026-01-04
+39,E0039,Lucía,Zevallos Quispe,97471326,Técnico de laboratorio,4,lucía.zevallos@clinica_vitalsalud.pe,3590.09,2026-01-21
+40,E0040,Isabel,Sánchez Zevallos,15997077,Recepcionista,4,isabel.sánchez@clinica_vitalsalud.pe,6414.04,2026-02-18

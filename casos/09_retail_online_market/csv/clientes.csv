@@ -1,0 +1,209 @@
+id_cliente,codigo_cliente,tipo_documento,num_documento,nombres,apellidos,correo,telefono,distrito,segmento,fecha_registro,tarjeta_terminacion
+1,C0001,RUC,63545017,Milagros,Cruz Quispe,milagros1@correo.com,959799076,Rímac,Comprador nuevo,2026-05-15,****-6452
+2,C0002,RUC,89306975,María,Gutiérrez Mendoza,maría2@correo.com,954320331,Surco,Comprador frecuente,2026-03-08,****-9426
+3,C0003,DNI,73925330,Claudia,Palomino Aguirre,claudia3correo.com,992706089,Independencia,Cliente premium,2026-05-19,****-2157
+4,C0004,DNI,77092193,Paola,Gutiérrez Bautista,paola4@correo.com,974777819,San Miguel,Cuenta empresa,2026-02-10,****-8448
+5,C0005,CE,95071367,Andrés,Romero Chávez,andrés5@correo.com,968181878,Rímac,Comprador nuevo,2026-02-05,****-4898
+6,C0006,DNI,51559572,Gabriela,Bautista Bautista,gabriela6@correo.com,979280284,Chorrillos,Comprador frecuente,2026-05-01,****-4293
+7,C0007,DNI,69526808,Sofía,Cornejo Mendoza,sofía7@correo.com,949665881,Rímac,Cliente premium,2026-03-14,****-1296
+8,C0008,DNI,88686468,Andrés,Flores Cruz,andrés8@correo.com,955622143,Callao,Cuenta empresa,2026-04-20,****-6978
+9,C0009,CE,20565057,Pamela,Villanueva Vargas,pamela9@correo.com,,San Borja,Comprador nuevo,2026-03-07,****-2281
+10,C0010,RUC,54067828,Paola,Ramos Rivera,paola10@correo.com,969118178,Miraflores,Comprador frecuente,2026-02-11,****-7573
+11,C0011,DNI,86560051,Daniela,Romero Espinoza,daniela11@correo.com,912664416,Villa El Salvador,Cliente premium,2026-04-20,****-5331
+12,C0012,DNI,86387854,Rosa,Cornejo Bautista,rosa12correo.com,942212924,Surco,Cuenta empresa,2026-02-19,****-1877
+13,C0013,DNI,57988813,José,Díaz Bautista,josé13@correo.com,932520205,La Molina,Comprador nuevo,2026-05-01,****-5605
+14,C0014,DNI,60686196,Carmen,Flores Espinoza,carmen14@correo.com,984838924,Miraflores,Comprador frecuente,2026-02-12,****-5764
+15,C0015,DNI,77905027,Melissa,Aguirre Quispe,melissa15@correo.com,956840138,Villa El Salvador,Cliente premium,2026-04-15,****-5673
+16,C0016,DNI,41957234,Karla,Cornejo Villanueva,karla16@correo.com,,Chorrillos,Cuenta empresa,2026-02-19,****-4619
+17,C0017,CE,82226380,María,Torres Ramos,maría17@correo.com,989626556,Los Olivos,Comprador nuevo,2026-04-23,****-7852
+18,C0018,CE,29840437,Fernando,Cruz Quispe,fernando18@correo.com,946148791,Callao,Comprador frecuente,2026-03-17,****-6255
+19,C0019,RUC,29717457,Sofía,Ninaquispe Cárdenas,sofía19@correo.com,943263877,Breña,Cliente premium,2026-02-25,****-6753
+20,C0020,RUC,77087761,Víctor,Quispe Gutiérrez,víctor20@correo.com,997402793,Ate,Cuenta empresa,2026-01-13,****-7875
+21,C0021,DNI,95747199,Patricia,Espinoza Ninaquispe,patricia21@correo.com,,Comas,Comprador nuevo,2026-03-11,****-2614
+22,C0022,DNI,15627519,Sofía,Quispe Cruz,sofía22@correo.com,937443364,,Comprador frecuente,2026-01-02,****-8250
+23,C0023,DNI,27947614,Isabel,Zevallos Flores,isabel23@correo.com,,Chorrillos,Cliente premium,2026-04-09,****-4426
+24,C0024,DNI,334550,Carmen,Chávez Gutiérrez,carmen24@correo.com,966610536,,Cuenta empresa,2026-01-06,****-3755
+25,C0025,DNI,25613146,Luis,Aguirre Bautista,luis25@correo.com,924111242,San Miguel,Comprador nuevo,2026-04-22,****-8463
+26,C0026,DNI,94194117,Hugo,Salazar Rojas,hugo26@correo.com,955239296,San Borja,Comprador frecuente,2026-02-18,****-4801
+27,C0027,DNI,17628761,Sergio,Aguirre Aguirre,sergio27@correo.com,924389531,Surco,Cliente premium,2026-02-02,****-8585
+28,C0028,RUC,75655662,Claudia,Palomino Zevallos,claudia28@correo.com,956350969,Ate,Cuenta empresa,2026-03-26,****-4359
+29,C0029,DNI,12293556,Iván,Rivera Vargas,iván29@correo.com,968748394,Rímac,Comprador nuevo,2026-05-11,****-4512
+30,C0030,RUC,28185195,Carmen,Ponce Ramos,carmen30@correo.com,958643889,Callao,Comprador frecuente,2026-02-09,****-3329
+31,C0031,RUC,90196060,Hugo,Flores Cornejo,,925516270,Breña,Cliente premium,2026-05-25,****-6511
+32,C0032,DNI,46759254,Carlos,Vargas Ninaquispe,carlos32correo.com,978276046,Lince,Cuenta empresa,2026-04-19,****-5803
+33,C0033,DNI,74285088,Natalia,Sánchez Díaz,natalia33@correo.com,998959288,Los Olivos,Comprador nuevo,2026-05-18,****-1836
+34,C0034,DNI,99606334,Isabel,Huamán Vargas,,943858168,Villa El Salvador,Comprador frecuente,2026-05-08,****-1338
+35,C0035,CE,20061944,Melissa,Zevallos Rivera,melissa35@correo.com,963403181,San Juan de Lurigancho,Cliente premium,2026-05-15,****-2822
+36,C0036,RUC,84771131,Andrés,Flores Gutiérrez,andrés36@correo.com,921820277,Rímac,Cuenta empresa,2026-05-24,****-7973
+37,C0037,DNI,79108323,Andrés,Zevallos Palomino,andrés37@correo.com,993133460,La Molina,Comprador nuevo,2026-02-15,****-9375
+38,C0038,DNI,93620999,Renzo,Quispe Castillo,renzo38@correo.com,927346758,San Miguel,Comprador frecuente,2026-05-26,****-5206
+39,C0039,CE,17340357,Hugo,Romero Rivera,hugo39@correo.com,995204170,Ate,Cliente premium,2026-04-03,****-8180
+40,C0040,DNI,78794169,Gabriela,Bautista Bautista,gabriela40@correo.com,955795588,La Molina,Cuenta empresa,2026-02-17,****-7225
+41,C0041,DNI,87545171,Ana,Romero Villanueva,ana41correo.com,965598297,San Miguel,Comprador nuevo,2026-01-09,****-4281
+42,C0042,DNI,73554751,Claudia,Romero Flores,claudia42@correo.com,941034277,,Comprador frecuente,2026-02-24,****-7196
+43,C0043,CE,61308247,Elena,Cárdenas Chávez,elena43@correo.com,947671595,Los Olivos,Cliente premium,2026-05-05,****-4843
+44,C0044,DNI,83857978,Isabel,Zevallos Villanueva,isabel44@correo.com,940969935,Breña,Cuenta empresa,2026-03-09,****-3111
+45,C0045,DNI,87901812,Paola,Palomino Vargas,paola45@correo.com,992481279,San Borja,Comprador nuevo,2026-04-10,****-4415
+46,C0046,RUC,79415919,Paola,Rojas Romero,paola46@correo.com,986109461,Breña,Comprador frecuente,2026-03-07,****-8304
+47,C0047,DNI,60826957,Rosa,Ramos Quispe,rosa47@correo.com,927174099,Rímac,Cliente premium,2026-01-25,****-6284
+48,C0048,RUC,36174549,Luis,Flores Cruz,luis48@correo.com,925182443,Comas,Cuenta empresa,2026-04-18,****-2217
+49,C0049,RUC,51856586,María,Torres Ramos,maría49@correo.com,982027569,Chorrillos,Comprador nuevo,2026-03-16,****-3873
+50,C0050,DNI,52510588,Lucía,Rivera Zevallos,lucía50@correo.com,926594772,Surco,Comprador frecuente,2026-04-20,****-1588
+51,C0051,DNI,96940507,Carmen,Salazar Cárdenas,carmen51@correo.com,961691340,San Juan de Lurigancho,Cliente premium,2026-05-05,****-3408
+52,C0052,RUC,89469183,Víctor,Vargas Bautista,víctor52@correo.com,980167603,San Borja,Cuenta empresa,2026-05-05,****-3010
+53,C0053,DNI,83014267,Gabriela,Castillo Cruz,gabriela53@correo.com,984522110,Lince,Comprador nuevo,2026-01-20,****-2593
+54,C0054,CE,89420734,Melissa,Lévano Vargas,melissa54@correo.com,,San Borja,Comprador frecuente,2026-04-16,****-7067
+55,C0055,CE,28890384,Pamela,Aguirre Chávez,pamela55@correo.com,938460148,Callao,Cliente premium,2026-02-18,****-2630
+56,C0056,CE,81986552,Hugo,Lévano Palomino,hugo56@correo.com,955472072,San Miguel,Cuenta empresa,2026-03-12,****-5497
+57,C0057,RUC,85702027,Óscar,Ninaquispe Flores,óscar57@correo.com,980434257,Rímac,Comprador nuevo,2026-03-14,****-2233
+58,C0058,RUC,606482,Lucía,Paredes Cárdenas,lucía58@correo.com,953907352,Surco,Comprador frecuente,2026-05-27,****-4469
+59,C0059,DNI,56074560,Diego,Flores Sánchez,diego59@correo.com,943277255,San Borja,Cliente premium,2026-01-05,****-7817
+60,C0060,RUC,329597,Bruno,Torres Romero,bruno60correo.com,992713044,San Borja,Cuenta empresa,2026-03-08,****-4740
+61,C0061,RUC,65508545,Jorge,Quispe Mendoza,jorge61@correo.com,978127819,Villa El Salvador,Comprador nuevo,2026-02-26,****-7560
+62,C0062,RUC,90022644,Milagros,Cornejo Sánchez,milagros62@correo.com,958071922,San Borja,Comprador frecuente,2026-05-07,****-4453
+63,C0063,DNI,62032501,Ana,Aguirre Cruz,ana63@correo.com,962589283,Chorrillos,Cliente premium,2026-04-16,****-2135
+64,C0064,RUC,55488047,Ricardo,Sánchez Castillo,ricardo64@correo.com,995573242,Callao,Cuenta empresa,2026-01-12,****-8006
+65,C0065,DNI,67663328,Óscar,Chávez Cornejo,óscar65@correo.com,996138631,Rímac,Comprador nuevo,2026-02-08,****-3251
+66,C0066,RUC,10584277,Manuel,Quispe Lévano,manuel66@correo.com,996776922,San Miguel,Comprador frecuente,2026-05-22,****-6163
+67,C0067,DNI,39191696,Sergio,Torres Cárdenas,sergio67@correo.com,971325852,Los Olivos,Cliente premium,2026-05-20,****-7606
+68,C0068,DNI,96482703,Víctor,Chávez Cornejo,víctor68@correo.com,968476544,Comas,Cuenta empresa,2026-03-16,****-8245
+69,C0069,DNI,79864699,Pamela,Díaz Flores,pamela69@correo.com,924927981,Miraflores,Comprador nuevo,2026-05-28,****-5211
+70,C0070,CE,77276929,Pamela,Sánchez Rivera,pamela70@correo.com,970097426,San Juan de Lurigancho,Comprador frecuente,2026-04-09,****-7274
+71,C0071,RUC,96898960,Miguel,Sánchez Quispe,miguel71@correo.com,,Rímac,Cliente premium,2026-05-04,****-5787
+72,C0072,RUC,24528962,Raúl,Rojas Bautista,raúl72@correo.com,944537937,Lince,Cuenta empresa,2026-01-05,****-5987
+73,C0073,CE,21137903,Hugo,Palomino Gutiérrez,hugo73@correo.com,985542743,Rímac,Comprador nuevo,2026-03-14,****-4099
+74,C0074,RUC,86907413,Manuel,Cárdenas Ramos,manuel74@correo.com,999352582,San Miguel,Comprador frecuente,2026-02-11,****-8979
+75,C0075,DNI,19543945,Patricia,Ríos Flores,patricia75@correo.com,,San Miguel,Cliente premium,2026-02-04,****-6537
+76,C0076,DNI,66940475,Elena,Quispe Mendoza,elena76@correo.com,943070532,Los Olivos,Cuenta empresa,2026-01-19,****-4296
+77,C0077,DNI,69935963,Karla,Lévano Mendoza,karla77@correo.com,925533303,San Juan de Lurigancho,Comprador nuevo,2026-05-28,****-1437
+78,C0078,DNI,25751017,Julia,Cornejo Quispe,julia78correo.com,965989248,Rímac,Comprador frecuente,2026-01-12,****-8010
+79,C0079,DNI,67535383,Melissa,Mendoza Salazar,melissa79@correo.com,,Independencia,Cliente premium,2026-05-08,****-3056
+80,C0080,CE,66643536,Verónica,Cornejo Bautista,verónica80@correo.com,966604949,La Molina,Cuenta empresa,2026-02-26,****-2899
+81,C0081,CE,40013162,Fernando,Palomino Ponce,fernando81@correo.com,954546233,San Miguel,Comprador nuevo,2026-05-10,****-4295
+82,C0082,DNI,68941252,Isabel,Zevallos Cornejo,isabel82@correo.com,980508367,Los Olivos,Comprador frecuente,2026-04-27,****-1375
+83,C0083,DNI,24212259,Víctor,Rojas Gutiérrez,víctor83@correo.com,969665650,Callao,Cliente premium,2026-02-08,****-9577
+84,C0084,DNI,49752759,Gabriela,Espinoza Salazar,gabriela84@correo.com,946400744,Miraflores,Cuenta empresa,2026-02-08,****-9239
+85,C0085,DNI,92161894,María,Cruz Rojas,maría85correo.com,932654525,Los Olivos,Comprador nuevo,2026-01-19,****-9579
+86,C0086,DNI,74588854,Andrés,Castillo Salazar,andrés86@correo.com,920020929,Ate,Comprador frecuente,2026-01-28,****-7070
+87,C0087,RUC,516638,Iván,Ramos Ríos,iván87@correo.com,969839639,San Miguel,Cliente premium,2026-05-08,****-1931
+88,C0088,RUC,971044,Andrés,Sánchez Ramos,andrés88@correo.com,989756112,Los Olivos,Cuenta empresa,2026-01-20,****-3987
+89,C0089,DNI,69712189,Paola,Ramos Quispe,paola89@correo.com,984561279,Villa El Salvador,Comprador nuevo,2026-04-22,****-6566
+90,C0090,DNI,95529840,Lucía,Ninaquispe Ramos,lucía90@correo.com,995207439,Miraflores,Comprador frecuente,2026-02-04,****-9048
+91,C0091,CE,25453041,Diego,Torres Flores,diego91@correo.com,962187058,Miraflores,Cliente premium,2026-01-19,****-3648
+92,C0092,DNI,12310730,Gabriela,Romero Cornejo,gabriela92correo.com,944090964,Ate,Cuenta empresa,2026-02-02,****-9895
+93,C0093,DNI,20513713,Hugo,Zevallos Torres,hugo93@correo.com,916462469,Ate,Comprador nuevo,2026-02-12,****-5378
+94,C0094,CE,81870000,Óscar,Gutiérrez Flores,óscar94@correo.com,995343946,Rímac,Comprador frecuente,2026-02-24,****-1538
+95,C0095,RUC,63413405,Julia,Palomino Zevallos,julia95@correo.com,967824994,Breña,Cliente premium,2026-01-16,****-8651
+96,C0096,DNI,71663253,Luis,Salazar Mendoza,luis96@correo.com,922075936,Surco,Cuenta empresa,2026-02-01,****-8674
+97,C0097,DNI,26005577,Álvaro,Vargas Gutiérrez,,988872190,Ate,Comprador nuevo,2026-02-11,****-9655
+98,C0098,DNI,17382825,Milagros,Rivera Díaz,milagros98@correo.com,946302547,,Comprador frecuente,2026-05-03,****-3541
+99,C0099,DNI,82390695,Álvaro,Cruz Díaz,álvaro99@correo.com,928371310,Rímac,Cliente premium,2026-02-01,****-5476
+100,C0100,DNI,11821583,Lucía,Ponce Flores,lucía100@correo.com,933692841,Ate,Cuenta empresa,2026-05-23,****-5952
+101,C0101,RUC,39289468,Daniela,Torres Villanueva,daniela101@correo.com,995350987,Comas,Comprador nuevo,2026-03-22,****-1319
+102,C0102,RUC,94593324,Paola,Rojas Rivera,paola102@correo.com,987111897,Rímac,Comprador frecuente,2026-05-07,****-5020
+103,C0103,DNI,97127096,Andrés,Díaz Ponce,,925768703,Comas,Cliente premium,2026-02-02,****-3883
+104,C0104,CE,91352376,Iván,Cornejo Huamán,iván104@correo.com,912227250,Comas,Cuenta empresa,2026-04-20,****-9487
+105,C0105,RUC,75340931,Manuel,Torres Torres,manuel105@correo.com,991990060,San Miguel,Comprador nuevo,2026-02-11,****-8114
+106,C0106,RUC,99938545,Fernando,Flores Cornejo,fernando106@correo.com,969354330,Villa El Salvador,Comprador frecuente,2026-02-19,****-1778
+107,C0107,CE,51905918,Sofía,Vargas Bautista,sofía107@correo.com,,Comas,Cliente premium,2026-03-23,****-5969
+108,C0108,DNI,79541007,Ricardo,Torres Sánchez,,936409423,Comas,Cuenta empresa,2026-04-24,****-5893
+109,C0109,CE,13622006,Óscar,Castillo Gutiérrez,óscar109@correo.com,940508395,Ate,Comprador nuevo,2026-05-23,****-4215
+110,C0110,DNI,53131826,Víctor,Mendoza Díaz,víctor110@correo.com,911800582,San Borja,Comprador frecuente,2026-03-12,****-7984
+111,C0111,RUC,84230311,Carmen,Romero Gutiérrez,carmen111@correo.com,980982502,Ate,Cliente premium,2026-01-28,****-7975
+112,C0112,DNI,52570544,Verónica,Rojas Aguirre,verónica112@correo.com,,Rímac,Cuenta empresa,2026-02-01,****-3380
+113,C0113,DNI,97208979,María,Cruz Flores,maría113@correo.com,978858367,Miraflores,Comprador nuevo,2026-02-22,****-4045
+114,C0114,CE,592756,Ricardo,Huamán Villanueva,ricardo114@correo.com,917442286,,Comprador frecuente,2026-03-19,****-2354
+115,C0115,DNI,10398060,Elena,Bautista Zevallos,elena115@correo.com,995424717,Miraflores,Cliente premium,2026-01-12,****-4567
+116,C0116,DNI,58403741,Ricardo,Romero Rivera,,942763843,San Juan de Lurigancho,Cuenta empresa,2026-02-11,****-2895
+117,C0117,CE,66711120,Rosa,Vargas Cárdenas,rosa117@correo.com,912238044,Lince,Comprador nuevo,2026-05-11,****-2008
+118,C0118,RUC,25878578,Ricardo,Ramos Ninaquispe,ricardo118@correo.com,935797973,Chorrillos,Comprador frecuente,2026-05-17,****-1624
+119,C0119,DNI,62268652,Raúl,Vargas Salazar,raúl119@correo.com,935977787,San Miguel,Cliente premium,2026-05-24,****-1605
+120,C0120,RUC,79152000,Jorge,Zevallos Cornejo,jorge120@correo.com,989054771,La Molina,Cuenta empresa,2026-02-12,****-8129
+121,C0121,RUC,44154323,Verónica,Lévano Cornejo,verónica121correo.com,941312301,Villa El Salvador,Comprador nuevo,2026-02-17,****-8772
+122,C0122,CE,59814974,Daniela,Ríos Huamán,daniela122@correo.com,979194507,Independencia,Comprador frecuente,2026-02-15,****-4262
+123,C0123,CE,68387240,Pamela,Gutiérrez Lévano,pamela123@correo.com,965515019,Surco,Cliente premium,2026-04-11,****-6776
+124,C0124,DNI,14282720,Víctor,Ponce Quispe,víctor124@correo.com,937761378,La Molina,Cuenta empresa,2026-04-12,****-5042
+125,C0125,DNI,36063610,Óscar,Palomino Flores,óscar125@correo.com,917978357,Independencia,Comprador nuevo,2026-02-06,****-5893
+126,C0126,DNI,16347563,Manuel,Cárdenas Ríos,manuel126@correo.com,,,Comprador frecuente,2026-04-07,****-4796
+127,C0127,RUC,86814678,Ana,Ponce Cárdenas,ana127@correo.com,,Los Olivos,Cliente premium,2026-01-07,****-8153
+128,C0128,RUC,954003,Miguel,Espinoza Flores,miguel128@correo.com,952319032,,Cuenta empresa,2026-02-09,****-5286
+129,C0129,DNI,57512872,Rosa,Palomino Romero,rosa129@correo.com,952118773,Los Olivos,Comprador nuevo,2026-02-02,****-8173
+130,C0130,DNI,76108159,Karla,Ponce Ríos,karla130@correo.com,954681786,Villa El Salvador,Comprador frecuente,2026-02-05,****-4453
+131,C0131,DNI,84471475,Milagros,Cárdenas Aguirre,milagros131@correo.com,976247580,San Borja,Cliente premium,2026-01-25,****-9392
+132,C0132,DNI,55371465,Raúl,Lévano Vargas,raúl132@correo.com,954897567,Los Olivos,Cuenta empresa,2026-02-02,****-2804
+133,C0133,RUC,18342006,Luis,Ninaquispe Salazar,luis133@correo.com,922155486,Chorrillos,Comprador nuevo,2026-05-01,****-8943
+134,C0134,RUC,34980731,Lucía,Díaz Vargas,lucía134@correo.com,940635120,Independencia,Comprador frecuente,2026-01-15,****-1628
+135,C0135,DNI,13160674,Elena,Flores Chávez,elena135@correo.com,983434853,La Molina,Cliente premium,2026-05-22,****-4259
+136,C0136,DNI,57307507,Karla,Cruz Ramos,karla136@correo.com,965149496,Miraflores,Cuenta empresa,2026-01-02,****-7131
+137,C0137,DNI,60680469,Óscar,Ponce Bautista,óscar137@correo.com,997322711,Breña,Comprador nuevo,2026-03-17,****-4647
+138,C0138,DNI,38936489,Daniela,Villanueva Cruz,daniela138@correo.com,947005683,San Miguel,Comprador frecuente,2026-02-24,****-6103
+139,C0139,DNI,89059626,Carmen,Cornejo Quispe,carmen139correo.com,996974471,Rímac,Cliente premium,2026-04-14,****-9912
+140,C0140,DNI,63198696,Óscar,Sánchez Ninaquispe,óscar140@correo.com,952721371,La Molina,Cuenta empresa,2026-02-10,****-8496
+141,C0141,CE,88899212,Manuel,Vargas Rojas,manuel141@correo.com,994060444,Callao,Comprador nuevo,2026-05-27,****-4705
+142,C0142,RUC,68388852,José,Palomino Cornejo,josé142@correo.com,975379015,Ate,Comprador frecuente,2026-02-14,****-8776
+143,C0143,DNI,85595486,Álvaro,Vargas Paredes,álvaro143@correo.com,953844527,La Molina,Cliente premium,2026-02-26,****-7744
+144,C0144,RUC,90249531,Verónica,Salazar Ponce,verónica144@correo.com,928517940,San Miguel,Cuenta empresa,2026-05-18,****-9911
+145,C0145,DNI,45977780,Renzo,Cornejo Torres,renzo145@correo.com,,Ate,Comprador nuevo,2026-05-14,****-7716
+146,C0146,DNI,88473448,Patricia,Ponce Chávez,patricia146@correo.com,944988360,Lince,Comprador frecuente,2026-03-04,****-7869
+147,C0147,DNI,23513908,Rosa,Cruz Ramos,rosa147@correo.com,963682005,Rímac,Cliente premium,2026-01-08,****-3961
+148,C0148,DNI,17879970,Julia,Palomino Espinoza,julia148@correo.com,911352015,Comas,Cuenta empresa,2026-03-09,****-2941
+149,C0149,DNI,66540017,Víctor,Salazar Bautista,víctor149@correo.com,944126981,Miraflores,Comprador nuevo,2026-04-26,****-4287
+150,C0150,RUC,26031144,Sergio,Sánchez Palomino,sergio150@correo.com,931139025,Independencia,Comprador frecuente,2026-01-26,****-7308
+151,C0151,DNI,38510795,Rosa,Paredes Ramos,rosa151@correo.com,952655583,La Molina,Cliente premium,2026-04-16,****-7837
+152,C0152,DNI,41539680,Manuel,Sánchez Vargas,manuel152@correo.com,,Callao,Cuenta empresa,2026-04-24,****-9475
+153,C0153,DNI,96028022,Iván,Torres Palomino,iván153@correo.com,960264093,Rímac,Comprador nuevo,2026-01-22,****-4489
+154,C0154,DNI,36415274,Daniela,Huamán Díaz,daniela154@correo.com,960787472,Chorrillos,Comprador frecuente,2026-01-25,****-1714
+155,C0155,DNI,76089095,Raúl,Sánchez Bautista,raúl155@correo.com,992179922,Lince,Cliente premium,2026-03-02,****-7544
+156,C0156,CE,27981885,José,Rivera Romero,josé156@correo.com,980938057,San Borja,Cuenta empresa,2026-05-25,****-1411
+157,C0157,DNI,85857548,Daniela,Villanueva Villanueva,daniela157@correo.com,938177060,Surco,Comprador nuevo,2026-03-17,****-9274
+158,C0158,DNI,83042179,María,Palomino Ninaquispe,maría158@correo.com,913038338,Lince,Comprador frecuente,2026-01-08,****-6403
+159,C0159,RUC,73615443,Fernando,Rojas Ramos,fernando159@correo.com,964465245,Villa El Salvador,Cliente premium,2026-05-12,****-8286
+160,C0160,DNI,45782078,Sofía,Vargas Gutiérrez,sofía160@correo.com,985727693,La Molina,Cuenta empresa,2026-03-05,****-8975
+161,C0161,CE,81963979,Elena,Ninaquispe Cárdenas,elena161@correo.com,969920914,Lince,Comprador nuevo,2026-02-07,****-7252
+162,C0162,CE,77448765,Iván,Ramos Paredes,iván162@correo.com,949428477,Lince,Comprador frecuente,2026-04-04,****-6526
+163,C0163,DNI,30319746,Paola,Mendoza Díaz,paola163@correo.com,942840030,Comas,Cliente premium,2026-03-07,****-9697
+164,C0164,DNI,53602634,Patricia,Cornejo Quispe,,915293478,Villa El Salvador,Cuenta empresa,2026-02-10,****-9335
+165,C0165,RUC,19242177,Sofía,Cárdenas Torres,sofía165@correo.com,911389959,Comas,Comprador nuevo,2026-01-14,****-9366
+166,C0166,DNI,12258227,Melissa,Gutiérrez Zevallos,melissa166correo.com,932199653,Los Olivos,Comprador frecuente,2026-01-20,****-8971
+167,C0167,DNI,92782066,Gabriela,Romero Rojas,gabriela167@correo.com,920128741,Villa El Salvador,Cliente premium,2026-04-10,****-4767
+168,C0168,CE,85358378,Pamela,Villanueva Castillo,pamela168@correo.com,966438968,Miraflores,Cuenta empresa,2026-03-27,****-2968
+169,C0169,DNI,71756098,Patricia,Lévano Mendoza,,944203649,Lince,Comprador nuevo,2026-03-14,****-6806
+170,C0170,RUC,99018588,Diego,Ponce Rojas,,910725902,Miraflores,Comprador frecuente,2026-03-22,****-1511
+171,C0171,DNI,18081760,Isabel,Ponce Flores,isabel171@correo.com,963413629,Rímac,Cliente premium,2026-02-04,****-9722
+172,C0172,DNI,65103329,Melissa,Torres Quispe,,959252305,Los Olivos,Cuenta empresa,2026-02-07,****-7155
+173,C0173,DNI,27741785,Diego,Paredes Bautista,diego173@correo.com,911947309,La Molina,Comprador nuevo,2026-02-21,****-8434
+174,C0174,DNI,39959437,Natalia,Ríos Huamán,natalia174@correo.com,999864633,Chorrillos,Comprador frecuente,2026-01-21,****-2871
+175,C0175,DNI,38590822,Pedro,Ponce Ninaquispe,,925785180,Rímac,Cliente premium,2026-05-13,****-4158
+176,C0176,DNI,95987132,Manuel,Lévano Sánchez,manuel176@correo.com,954067029,Chorrillos,Cuenta empresa,2026-01-22,****-8707
+177,C0177,DNI,29287746,Julia,Cornejo Villanueva,julia177@correo.com,991252058,Rímac,Comprador nuevo,2026-03-23,****-8651
+178,C0178,DNI,35657362,Iván,Palomino Lévano,iván178@correo.com,924551130,Breña,Comprador frecuente,2026-01-04,****-6659
+179,C0179,CE,38980831,Sergio,Huamán Quispe,sergio179@correo.com,930321463,Los Olivos,Cliente premium,2026-05-08,****-4295
+180,C0180,DNI,42459997,Rosa,Paredes Flores,rosa180@correo.com,924030950,La Molina,Cuenta empresa,2026-03-07,****-5512
+181,C0181,DNI,26409421,Pedro,Flores Bautista,pedro181@correo.com,,San Borja,Comprador nuevo,2026-01-10,****-2554
+182,C0182,CE,75494540,Julia,Romero Ponce,julia182@correo.com,918908421,La Molina,Comprador frecuente,2026-04-13,****-3017
+183,C0183,DNI,40098791,Isabel,Sánchez Sánchez,isabel183@correo.com,920952966,San Juan de Lurigancho,Cliente premium,2026-02-14,****-4504
+184,C0184,RUC,53906725,Miguel,Zevallos Gutiérrez,miguel184@correo.com,962070409,Breña,Cuenta empresa,2026-05-12,****-2001
+185,C0185,RUC,53066497,Bruno,Espinoza Chávez,,,Callao,Comprador nuevo,2026-03-06,****-8362
+186,C0186,DNI,48837949,Ricardo,Gutiérrez Quispe,,939087394,,Comprador frecuente,2026-05-20,****-4937
+187,C0187,DNI,76620897,Isabel,Lévano Flores,isabel187@correo.com,919158404,Breña,Cliente premium,2026-04-21,****-7981
+188,C0188,DNI,551885,Manuel,Cruz Sánchez,manuel188@correo.com,953626440,Miraflores,Cuenta empresa,2026-03-26,****-7622
+189,C0189,DNI,28024876,Patricia,Aguirre Huamán,patricia189@correo.com,916296173,,Comprador nuevo,2026-04-18,****-4728
+190,C0190,DNI,85616914,Carlos,Sánchez Gutiérrez,carlos190@correo.com,928565076,Chorrillos,Comprador frecuente,2026-02-19,****-9287
+191,C0191,RUC,90785515,Raúl,Cornejo Quispe,raúl191@correo.com,991643604,Miraflores,Cliente premium,2026-05-24,****-7266
+192,C0192,DNI,41751535,Diego,Sánchez Ponce,,990166060,San Juan de Lurigancho,Cuenta empresa,2026-03-23,****-4676
+193,C0193,CE,91919687,Elena,Paredes Huamán,elena193@correo.com,939947120,Miraflores,Comprador nuevo,2026-05-12,****-9210
+194,C0194,CE,79095595,Bruno,Flores Rojas,bruno194@correo.com,951748312,Los Olivos,Comprador frecuente,2026-05-06,****-9535
+195,C0195,DNI,20478671,Daniela,Ninaquispe Ponce,daniela195@correo.com,974501229,San Juan de Lurigancho,Cliente premium,2026-03-20,****-2336
+196,C0196,RUC,25883886,José,Espinoza Espinoza,josé196@correo.com,955774710,Los Olivos,Cuenta empresa,2026-05-01,****-4758
+197,C0197,DNI,514487,Óscar,Paredes Paredes,óscar197@correo.com,941635421,Chorrillos,Comprador nuevo,2026-02-06,****-7241
+198,C0198,RUC,49982634,Claudia,Chávez Ríos,claudia198@correo.com,953422842,Comas,Comprador frecuente,2026-05-26,****-8515
+199,C0199,RUC,95796857,Sergio,Rojas Díaz,sergio199@correo.com,984650217,Comas,Cliente premium,2026-01-19,****-4357
+200,C0200,DNI,27720474,Jorge,Ramos Castillo,jorge200@correo.com,920382382,Ate,Cuenta empresa,2026-04-11,****-8345
+201,C0201,DNI,20513713,Hugo,Zevallos Torres,hugo93@correo.com,916462469,Ate,Comprador nuevo,2026-02-12,****-5378
+202,C0202,DNI,84471475,Milagros,Cárdenas Aguirre,milagros131@correo.com,976247580,San Borja,Comprador frecuente,2026-01-25,****-9392
+203,C0203,RUC,85702027,Óscar,Ninaquispe Flores,óscar57@correo.com,980434257,Rímac,Cliente premium,2026-03-14,****-2233
+204,C0204,DNI,830421,María,Palomino Ninaquispe,maría158@correo.com,913038338,Lince,Cuenta empresa,2026-01-08,****-6403
+205,C0205,DNI,52510588,Lucía,Rivera Zevallos,lucía50@correo.com,926594772,Surco,Comprador nuevo,2026-04-20,****-1588
+206,C0206,RUC,90785515,Raúl,Cornejo Quispe,raúl191@correo.com,991643604,Miraflores,Comprador frecuente,2026-05-24,****-7266
+207,C0207,DNI,57988813,José,Díaz Bautista,josé13@correo.com,932520205,La Molina,Cliente premium,2026-05-01,****-5605
+208,C0208,DNI,13160674,Elena,Flores Chávez,elena135@correo.com,983434853,La Molina,Cuenta empresa,2026-05-22,****-4259

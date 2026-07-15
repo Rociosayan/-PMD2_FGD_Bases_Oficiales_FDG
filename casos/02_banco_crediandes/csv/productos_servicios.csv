@@ -1,16 +1,31 @@
-﻿id_producto,codigo_producto,nombre_producto,categoria,precio_base,activo
-1,P0001,Servicio/Producto 01,Premium,270.61,1
-2,P0002,Servicio/Producto 02,Premium,35.9,1
-3,P0003,Servicio/Producto 03,B?sico,205.4,1
-4,P0004,Servicio/Producto 04,B?sico,65.57,1
-5,P0005,Servicio/Producto 05,B?sico,219.4,1
-6,P0006,Servicio/Producto 06,Est?ndar,313.0,1
-7,P0007,Servicio/Producto 07,B?sico,125.71,1
-8,P0008,Servicio/Producto 08,B?sico,133.76,1
-9,P0009,Servicio/Producto 09,Est?ndar,112.1,1
-10,P0010,Servicio/Producto 10,Especializado,69.36,1
-11,P0011,Servicio/Producto 11,Especializado,273.24,1
-12,P0012,Servicio/Producto 12,Premium,306.41,1
-13,P0013,Servicio/Producto 13,Especializado,267.74,1
-14,P0014,Servicio/Producto 14,B?sico,146.49,1
-15,P0015,Servicio/Producto 15,Est?ndar,108.41,1
+id_producto,codigo_producto,nombre_producto,categoria,precio_base,activo
+1,CA0001,Cuenta Ahorro Libre,Ahorro,0.00,1
+2,CA0002,Cuenta Sueldo Andes,Ahorro,5.00,0
+3,CA0003,Cuenta Ahorro Joven,Ahorro,10.00,1
+4,CA0004,Cuenta Meta Segura,Ahorro,15.00,1
+5,CA0005,Cuenta Digital Cero,Ahorro,20.00,1
+6,CA0006,Cuenta CTS Protegida,Ahorro,25.00,1
+7,CA0007,Préstamo Personal Flexible,Crédito,120.00,1
+8,CA0008,Crédito Vehicular,Crédito,168.24,1
+9,CA0009,Crédito Hipotecario,Crédito,235.87,1
+10,CA0010,Crédito para Estudios,Crédito,330.69,0
+11,CA0011,Capital de Trabajo Pyme,Crédito,463.63,1
+12,CA0012,Crédito Emprendedor,Crédito,650.00,1
+13,CA0013,Tarjeta Clásica Visa,Tarjeta,0.00,1
+14,CA0014,Tarjeta Oro Visa,Tarjeta,36.00,1
+15,CA0015,Tarjeta Platinum,Tarjeta,72.00,1
+16,CA0016,Tarjeta Compras Online,Tarjeta,108.00,0
+17,CA0017,Tarjeta Empresarial,Tarjeta,144.00,0
+18,CA0018,Tarjeta con Depósito,Tarjeta,180.00,1
+19,CA0019,Seguro Protección de Tarjeta,Seguros,8.00,1
+20,CA0020,Seguro de Vida Deudor,Seguros,12.16,1
+21,CA0021,Seguro Oncológico,Seguros,18.49,1
+22,CA0022,Seguro Hogar Seguro,Seguros,28.12,1
+23,CA0023,Seguro de Accidentes,Seguros,42.75,1
+24,CA0024,Seguro Protección Digital,Seguros,65.00,0
+25,CA0025,Transferencia inmediata,Servicios,0.00,0
+26,CA0026,Giro nacional,Servicios,9.00,1
+27,CA0027,Pago de servicios,Servicios,18.00,1
+28,CA0028,Cambio de moneda,Servicios,27.00,1
+29,CA0029,Caja de seguridad,Servicios,36.00,1
+30,CA0030,Certificado bancario,Servicios,45.00,1

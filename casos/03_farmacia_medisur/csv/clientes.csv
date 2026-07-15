@@ -1,0 +1,209 @@
+id_cliente,codigo_cliente,tipo_documento,num_documento,nombres,apellidos,correo,telefono,distrito,segmento,fecha_registro,condicion_cronica
+1,C0001,RUC,79941052,Iván,Aguirre Bautista,iván1@correo.com,923380330,Rímac,Cliente frecuente,2026-01-24,Hipertensión
+2,C0002,DNI,377593,Melissa,Torres Lévano,melissa2@correo.com,966971049,Villa El Salvador,Paciente crónico,2026-05-18,Asma
+3,C0003,DNI,38119160,Milagros,Villanueva Zevallos,milagros3@correo.com,911285064,Surco,Compra ocasional,2026-03-08,Ninguna
+4,C0004,DNI,14282620,Karla,Ríos Ninaquispe,karla4@correo.com,999382396,Villa El Salvador,Convenio corporativo,2026-05-10,Ninguna
+5,C0005,DNI,12191834,Hugo,Romero Castillo,hugo5@correo.com,982000067,Surco,Cliente frecuente,2026-04-20,Asma
+6,C0006,RUC,16485924,Natalia,Ríos Sánchez,natalia6@correo.com,957360193,,Paciente crónico,2026-05-06,Diabetes
+7,C0007,DNI,68567899,Gabriela,Aguirre Chávez,gabriela7@correo.com,995318955,Ate,Compra ocasional,2026-04-11,Diabetes
+8,C0008,DNI,11741349,Víctor,Torres Romero,víctor8@correo.com,913555823,Comas,Convenio corporativo,2026-05-20,Colesterol alto
+9,C0009,DNI,12055906,Lucía,Romero Rojas,lucía9@correo.com,921860547,San Borja,Cliente frecuente,2026-03-17,Ninguna
+10,C0010,DNI,55658713,Manuel,Quispe Cruz,manuel10@correo.com,933813783,La Molina,Paciente crónico,2026-01-17,Colesterol alto
+11,C0011,CE,87518432,Luis,Paredes Mendoza,luis11@correo.com,912160684,,Compra ocasional,2026-01-01,Colesterol alto
+12,C0012,DNI,73561379,Diego,Rivera Quispe,,956476776,San Miguel,Convenio corporativo,2026-01-05,Colesterol alto
+13,C0013,RUC,95719883,Melissa,Mendoza Ramos,melissa13@correo.com,954485419,Independencia,Cliente frecuente,2026-02-13,Diabetes
+14,C0014,CE,93789309,Rosa,Romero Rojas,rosa14@correo.com,968878578,Lince,Paciente crónico,2026-05-23,Asma
+15,C0015,DNI,96636896,Verónica,Chávez Rojas,verónica15@correo.com,975187524,Callao,Compra ocasional,2026-05-11,Hipertensión
+16,C0016,DNI,34327220,Verónica,Rojas Romero,verónica16@correo.com,954484368,Los Olivos,Convenio corporativo,2026-03-02,Ninguna
+17,C0017,DNI,68377870,Bruno,Ramos Palomino,bruno17correo.com,932732243,Ate,Cliente frecuente,2026-03-09,Ninguna
+18,C0018,DNI,90609735,Andrés,Ponce Ninaquispe,andrés18@correo.com,924459213,San Juan de Lurigancho,Paciente crónico,2026-05-21,Ninguna
+19,C0019,RUC,74095095,Lucía,Quispe Paredes,,,Breña,Compra ocasional,2026-04-19,Asma
+20,C0020,DNI,52792994,Diego,Chávez Aguirre,diego20@correo.com,989705030,Chorrillos,Convenio corporativo,2026-05-18,Asma
+21,C0021,RUC,38306671,Melissa,Lévano Aguirre,melissa21@correo.com,959490863,Villa El Salvador,Cliente frecuente,2026-05-16,Diabetes
+22,C0022,RUC,79252923,José,Rojas Chávez,josé22@correo.com,999119896,,Paciente crónico,2026-04-22,Colesterol alto
+23,C0023,DNI,89492627,Verónica,Cornejo Vargas,verónica23@correo.com,926227920,Villa El Salvador,Compra ocasional,2026-02-11,Hipertensión
+24,C0024,DNI,86794677,Carmen,Gutiérrez Zevallos,carmen24@correo.com,966183339,Villa El Salvador,Convenio corporativo,2026-01-23,Diabetes
+25,C0025,RUC,31812827,Andrés,Díaz Chávez,andrés25@correo.com,927129614,Chorrillos,Cliente frecuente,2026-05-21,Colesterol alto
+26,C0026,RUC,43603257,Lucía,Bautista Romero,lucía26@correo.com,970981197,San Miguel,Paciente crónico,2026-02-25,Colesterol alto
+27,C0027,CE,35606612,Daniela,Díaz Bautista,daniela27correo.com,972001163,Callao,Compra ocasional,2026-03-22,Diabetes
+28,C0028,DNI,18455799,Fernando,Romero Aguirre,fernando28@correo.com,930028418,Comas,Convenio corporativo,2026-05-08,Asma
+29,C0029,DNI,90482445,Ana,Rojas Rojas,ana29@correo.com,964894140,Ate,Cliente frecuente,2026-02-06,Asma
+30,C0030,RUC,30439994,Rosa,Bautista Ramos,rosa30@correo.com,965717737,Breña,Paciente crónico,2026-03-12,Hipertensión
+31,C0031,CE,79936897,Claudia,Chávez Aguirre,claudia31@correo.com,956818007,San Juan de Lurigancho,Compra ocasional,2026-05-23,Colesterol alto
+32,C0032,CE,80476387,Paola,Ponce Chávez,paola32@correo.com,947366561,Independencia,Convenio corporativo,2026-03-13,Asma
+33,C0033,DNI,47938771,José,Cruz Cruz,josé33@correo.com,962272332,Los Olivos,Cliente frecuente,2026-01-25,Colesterol alto
+34,C0034,DNI,77118369,Óscar,Flores Salazar,,990592014,Rímac,Paciente crónico,2026-03-24,Ninguna
+35,C0035,CE,46984000,Melissa,Chávez Ponce,melissa35@correo.com,983394241,Ate,Compra ocasional,2026-01-08,Ninguna
+36,C0036,RUC,32997467,Sofía,Quispe Ríos,sofía36correo.com,920946434,Los Olivos,Convenio corporativo,2026-03-08,Colesterol alto
+37,C0037,RUC,22297122,Ana,Ninaquispe Rivera,ana37@correo.com,,Independencia,Cliente frecuente,2026-05-02,Colesterol alto
+38,C0038,DNI,86789430,Ana,Vargas Aguirre,ana38@correo.com,962141012,Miraflores,Paciente crónico,2026-05-16,Hipertensión
+39,C0039,DNI,34185749,Rosa,Quispe Vargas,rosa39@correo.com,934931231,Miraflores,Compra ocasional,2026-01-03,Ninguna
+40,C0040,DNI,66620007,Paola,Quispe Vargas,paola40@correo.com,961831068,San Juan de Lurigancho,Convenio corporativo,2026-05-17,Diabetes
+41,C0041,CE,19257570,Renzo,Rojas Paredes,renzo41@correo.com,965282807,Ate,Cliente frecuente,2026-02-14,Colesterol alto
+42,C0042,RUC,63974678,Álvaro,Aguirre Aguirre,álvaro42@correo.com,979394438,Rímac,Paciente crónico,2026-01-23,Hipertensión
+43,C0043,CE,64901899,Lucía,Ramos Torres,lucía43@correo.com,938576021,San Miguel,Compra ocasional,2026-02-19,Ninguna
+44,C0044,DNI,85997345,Claudia,Cárdenas Gutiérrez,claudia44@correo.com,,Lince,Convenio corporativo,2026-04-27,Hipertensión
+45,C0045,DNI,84815663,Verónica,Sánchez Torres,,947323141,Chorrillos,Cliente frecuente,2026-05-27,Hipertensión
+46,C0046,DNI,21088918,Andrés,Ríos Sánchez,andrés46@correo.com,,Miraflores,Paciente crónico,2026-01-24,Ninguna
+47,C0047,DNI,65036609,Iván,Cárdenas Cárdenas,iván47@correo.com,917551962,Surco,Compra ocasional,2026-04-02,Asma
+48,C0048,RUC,50260167,Rosa,Rojas Rivera,rosa48@correo.com,974141611,Ate,Convenio corporativo,2026-01-21,Hipertensión
+49,C0049,DNI,99911240,Pamela,Ponce Mendoza,pamela49@correo.com,,San Borja,Cliente frecuente,2026-05-14,Diabetes
+50,C0050,DNI,89454266,Patricia,Díaz Cornejo,patricia50@correo.com,964936625,Callao,Paciente crónico,2026-01-04,Ninguna
+51,C0051,DNI,79477116,Paola,Villanueva Espinoza,paola51@correo.com,947996396,Surco,Compra ocasional,2026-04-12,Diabetes
+52,C0052,DNI,70791134,Milagros,Rojas Ríos,milagros52@correo.com,921144917,Lince,Convenio corporativo,2026-02-15,Diabetes
+53,C0053,DNI,659460,Ana,Zevallos Quispe,ana53@correo.com,911788374,Lince,Cliente frecuente,2026-02-23,Ninguna
+54,C0054,DNI,79854599,Daniela,Huamán Mendoza,daniela54@correo.com,941295560,La Molina,Paciente crónico,2026-01-05,Diabetes
+55,C0055,CE,125901,José,Romero Ponce,josé55@correo.com,978910604,San Borja,Compra ocasional,2026-03-22,Colesterol alto
+56,C0056,RUC,86561069,Fernando,Paredes Díaz,fernando56@correo.com,936731338,La Molina,Convenio corporativo,2026-02-04,Asma
+57,C0057,DNI,89607993,Óscar,Lévano Castillo,óscar57@correo.com,968514590,San Juan de Lurigancho,Cliente frecuente,2026-05-20,Diabetes
+58,C0058,RUC,30484647,Pedro,Villanueva Castillo,pedro58@correo.com,983309138,Miraflores,Paciente crónico,2026-01-27,Ninguna
+59,C0059,CE,18125711,Natalia,Cornejo Lévano,natalia59@correo.com,955184416,,Compra ocasional,2026-01-17,Diabetes
+60,C0060,CE,468701,Fernando,Salazar Rivera,fernando60@correo.com,952725596,Villa El Salvador,Convenio corporativo,2026-02-17,Ninguna
+61,C0061,DNI,84534833,Karla,Castillo Castillo,karla61@correo.com,985143913,Ate,Cliente frecuente,2026-04-13,Diabetes
+62,C0062,DNI,69916562,Óscar,Paredes Vargas,óscar62@correo.com,990061660,Villa El Salvador,Paciente crónico,2026-01-20,Asma
+63,C0063,DNI,27871003,Daniela,Ríos Vargas,daniela63@correo.com,,San Miguel,Compra ocasional,2026-02-18,Diabetes
+64,C0064,DNI,26305566,Natalia,Cruz Espinoza,natalia64@correo.com,964846799,Miraflores,Convenio corporativo,2026-03-24,Diabetes
+65,C0065,CE,66828713,Renzo,Huamán Mendoza,renzo65correo.com,988927331,Comas,Cliente frecuente,2026-02-19,Hipertensión
+66,C0066,RUC,81591964,Karla,Castillo Zevallos,karla66@correo.com,966107259,Villa El Salvador,Paciente crónico,2026-05-13,Ninguna
+67,C0067,DNI,96756358,Patricia,Paredes Zevallos,patricia67@correo.com,961402841,Chorrillos,Compra ocasional,2026-04-25,Colesterol alto
+68,C0068,CE,16967495,Sofía,Gutiérrez Cornejo,sofía68@correo.com,932735500,Villa El Salvador,Convenio corporativo,2026-04-25,Diabetes
+69,C0069,DNI,85238173,Sergio,Mendoza Aguirre,sergio69@correo.com,947436791,,Cliente frecuente,2026-01-25,Hipertensión
+70,C0070,DNI,92799824,Milagros,Zevallos Mendoza,milagros70@correo.com,961002238,Rímac,Paciente crónico,2026-01-11,Diabetes
+71,C0071,DNI,17890346,Carmen,Ramos Paredes,carmen71@correo.com,934322717,Independencia,Compra ocasional,2026-05-08,Ninguna
+72,C0072,DNI,56075470,Paola,Bautista Cárdenas,,938028452,San Juan de Lurigancho,Convenio corporativo,2026-03-21,Ninguna
+73,C0073,DNI,17640544,Diego,Villanueva Zevallos,diego73correo.com,959718731,Rímac,Cliente frecuente,2026-03-20,Asma
+74,C0074,DNI,15764054,Miguel,Ninaquispe Romero,miguel74@correo.com,972423035,Breña,Paciente crónico,2026-02-25,Diabetes
+75,C0075,CE,85845912,Karla,Vargas Sánchez,karla75@correo.com,932024727,Miraflores,Compra ocasional,2026-05-16,Colesterol alto
+76,C0076,RUC,20978626,Hugo,Vargas Paredes,hugo76@correo.com,939779554,Callao,Convenio corporativo,2026-03-08,Diabetes
+77,C0077,DNI,94769771,María,Cornejo Cornejo,maría77@correo.com,910828927,Surco,Cliente frecuente,2026-04-12,Hipertensión
+78,C0078,DNI,85025403,Carlos,Vargas Quispe,carlos78@correo.com,930579765,Comas,Paciente crónico,2026-05-18,Diabetes
+79,C0079,DNI,38231878,Sofía,Gutiérrez Zevallos,sofía79@correo.com,981409419,San Borja,Compra ocasional,2026-01-09,Hipertensión
+80,C0080,DNI,81518242,Óscar,Aguirre Palomino,óscar80@correo.com,992294609,Miraflores,Convenio corporativo,2026-03-06,Hipertensión
+81,C0081,DNI,66219877,Carmen,Rojas Espinoza,carmen81@correo.com,,Callao,Cliente frecuente,2026-05-14,Ninguna
+82,C0082,DNI,57500063,Renzo,Zevallos Flores,renzo82@correo.com,970778674,La Molina,Paciente crónico,2026-05-26,Diabetes
+83,C0083,CE,91474849,Miguel,Salazar Cruz,miguel83@correo.com,930352915,San Miguel,Compra ocasional,2026-02-17,Asma
+84,C0084,DNI,29316174,Natalia,Zevallos Aguirre,natalia84@correo.com,949203095,San Juan de Lurigancho,Convenio corporativo,2026-05-21,Hipertensión
+85,C0085,DNI,45808812,Gabriela,Aguirre Ninaquispe,gabriela85@correo.com,965601574,Rímac,Cliente frecuente,2026-05-08,Diabetes
+86,C0086,DNI,20116844,María,Vargas Bautista,maría86@correo.com,917613194,Lince,Paciente crónico,2026-05-09,Colesterol alto
+87,C0087,CE,15131479,Daniela,Quispe Ramos,daniela87@correo.com,968366307,Callao,Compra ocasional,2026-03-26,Asma
+88,C0088,DNI,33719495,Raúl,Palomino Paredes,raúl88@correo.com,970778911,Los Olivos,Convenio corporativo,2026-04-16,Colesterol alto
+89,C0089,RUC,14786215,Miguel,Torres Romero,miguel89@correo.com,985817930,La Molina,Cliente frecuente,2026-04-14,Asma
+90,C0090,DNI,46327423,María,Quispe Palomino,maría90@correo.com,988011372,Rímac,Paciente crónico,2026-02-23,Ninguna
+91,C0091,CE,86469244,Rosa,Ramos Villanueva,rosa91@correo.com,923599045,San Juan de Lurigancho,Compra ocasional,2026-01-11,Diabetes
+92,C0092,CE,60986413,Andrés,Gutiérrez Vargas,andrés92@correo.com,975301479,Los Olivos,Convenio corporativo,2026-02-13,Asma
+93,C0093,RUC,48907055,María,Salazar Ponce,maría93@correo.com,955513272,La Molina,Cliente frecuente,2026-04-11,Diabetes
+94,C0094,DNI,12768617,Melissa,Lévano Bautista,melissa94@correo.com,918358892,Chorrillos,Paciente crónico,2026-02-07,Hipertensión
+95,C0095,DNI,16840911,Óscar,Ramos Vargas,óscar95@correo.com,988149530,Surco,Compra ocasional,2026-03-05,Hipertensión
+96,C0096,RUC,79282151,José,Vargas Vargas,josé96@correo.com,,Comas,Convenio corporativo,2026-01-02,Hipertensión
+97,C0097,DNI,22850888,Álvaro,Espinoza Ríos,álvaro97@correo.com,970071699,Los Olivos,Cliente frecuente,2026-04-14,Hipertensión
+98,C0098,DNI,25294065,Víctor,Rojas Cornejo,víctor98@correo.com,981839769,Miraflores,Paciente crónico,2026-05-10,Asma
+99,C0099,DNI,93796024,Miguel,Espinoza Ninaquispe,miguel99@correo.com,916929945,Miraflores,Compra ocasional,2026-04-13,Diabetes
+100,C0100,RUC,11151735,Rosa,Salazar Lévano,rosa100@correo.com,,Ate,Convenio corporativo,2026-05-14,Ninguna
+101,C0101,DNI,31560141,Rosa,Ponce Ríos,rosa101@correo.com,950580216,Los Olivos,Cliente frecuente,2026-05-05,Asma
+102,C0102,DNI,377392,Paola,Mendoza Sánchez,paola102@correo.com,916214732,San Juan de Lurigancho,Paciente crónico,2026-02-05,Hipertensión
+103,C0103,DNI,23229930,Iván,Salazar Rivera,iván103@correo.com,960305850,Callao,Compra ocasional,2026-03-01,Ninguna
+104,C0104,DNI,57216717,Ana,Rivera Huamán,ana104@correo.com,938807875,Callao,Convenio corporativo,2026-03-04,Ninguna
+105,C0105,CE,55115318,Fernando,Paredes Ríos,fernando105@correo.com,919568791,Breña,Cliente frecuente,2026-02-11,Hipertensión
+106,C0106,CE,48145029,Julia,Quispe Espinoza,julia106@correo.com,954643756,Independencia,Paciente crónico,2026-04-12,Hipertensión
+107,C0107,RUC,42110057,Julia,Rivera Cruz,julia107@correo.com,956297049,Comas,Compra ocasional,2026-03-03,Diabetes
+108,C0108,DNI,35584406,Andrés,Romero Espinoza,andrés108@correo.com,973817103,La Molina,Convenio corporativo,2026-04-25,Ninguna
+109,C0109,DNI,72509605,Ana,Romero Díaz,ana109@correo.com,939426647,La Molina,Cliente frecuente,2026-02-14,Colesterol alto
+110,C0110,DNI,42796399,Diego,Chávez Vargas,diego110@correo.com,968308106,Surco,Paciente crónico,2026-03-27,Diabetes
+111,C0111,RUC,91509717,Manuel,Ramos Huamán,manuel111@correo.com,,,Compra ocasional,2026-04-14,Asma
+112,C0112,DNI,20174714,Carlos,Romero Lévano,carlos112@correo.com,987765517,Comas,Convenio corporativo,2026-01-04,Diabetes
+113,C0113,DNI,98463051,Luis,Vargas Salazar,luis113@correo.com,910715284,Rímac,Cliente frecuente,2026-03-24,Ninguna
+114,C0114,DNI,37362700,Claudia,Salazar Quispe,claudia114@correo.com,,Rímac,Paciente crónico,2026-03-14,Diabetes
+115,C0115,DNI,43123410,Diego,Lévano Díaz,diego115correo.com,949578169,San Borja,Compra ocasional,2026-02-08,Hipertensión
+116,C0116,DNI,64698032,Milagros,Rivera Castillo,milagros116@correo.com,994438707,Lince,Convenio corporativo,2026-04-19,Diabetes
+117,C0117,DNI,95646109,Manuel,Romero Vargas,manuel117@correo.com,988110757,Chorrillos,Cliente frecuente,2026-02-20,Colesterol alto
+118,C0118,DNI,89237996,Víctor,Mendoza Díaz,víctor118@correo.com,980970064,Lince,Paciente crónico,2026-01-17,Ninguna
+119,C0119,DNI,61486453,Pedro,Zevallos Quispe,,911430009,Miraflores,Compra ocasional,2026-02-28,Hipertensión
+120,C0120,DNI,41546397,Ana,Paredes Bautista,,912985391,Callao,Convenio corporativo,2026-01-01,Hipertensión
+121,C0121,DNI,82288452,Claudia,Espinoza Zevallos,,940585006,Ate,Cliente frecuente,2026-02-20,Ninguna
+122,C0122,CE,44770272,Ana,Ramos Espinoza,ana122@correo.com,952103841,Miraflores,Paciente crónico,2026-04-17,Colesterol alto
+123,C0123,CE,30534576,Raúl,Ninaquispe Espinoza,raúl123@correo.com,971716566,Breña,Compra ocasional,2026-05-27,Ninguna
+124,C0124,DNI,11763359,Hugo,Salazar Chávez,hugo124@correo.com,936590176,Villa El Salvador,Convenio corporativo,2026-01-12,Hipertensión
+125,C0125,DNI,83810329,Julia,Bautista Cruz,julia125@correo.com,970150231,Villa El Salvador,Cliente frecuente,2026-01-06,Ninguna
+126,C0126,CE,28059894,Miguel,Díaz Mendoza,miguel126@correo.com,995449641,Breña,Paciente crónico,2026-03-19,Colesterol alto
+127,C0127,DNI,14058022,Verónica,Espinoza Salazar,verónica127@correo.com,995246206,Breña,Compra ocasional,2026-01-22,Ninguna
+128,C0128,CE,28576866,Paola,Chávez Ponce,paola128@correo.com,917107122,Miraflores,Convenio corporativo,2026-03-05,Colesterol alto
+129,C0129,CE,74703745,Natalia,Torres Bautista,,958799267,Independencia,Cliente frecuente,2026-04-01,Colesterol alto
+130,C0130,CE,45454335,Ricardo,Lévano Zevallos,ricardo130@correo.com,991705523,Comas,Paciente crónico,2026-01-22,Diabetes
+131,C0131,DNI,72233354,Gabriela,Ríos Castillo,gabriela131@correo.com,939663346,Miraflores,Compra ocasional,2026-01-23,Colesterol alto
+132,C0132,RUC,25202970,Hugo,Romero Rivera,hugo132@correo.com,991125946,La Molina,Convenio corporativo,2026-04-04,Colesterol alto
+133,C0133,DNI,46249108,Pedro,Huamán Zevallos,pedro133correo.com,999617515,Los Olivos,Cliente frecuente,2026-01-15,Hipertensión
+134,C0134,CE,59160906,Patricia,Romero Villanueva,patricia134@correo.com,963645608,Chorrillos,Paciente crónico,2026-01-19,Colesterol alto
+135,C0135,DNI,53457241,Carlos,Paredes Díaz,carlos135@correo.com,969675114,San Borja,Compra ocasional,2026-01-15,Diabetes
+136,C0136,CE,54455338,Andrés,Ninaquispe Gutiérrez,,991434736,Lince,Convenio corporativo,2026-05-23,Colesterol alto
+137,C0137,DNI,58476931,Paola,Cruz Díaz,paola137@correo.com,988788469,Los Olivos,Cliente frecuente,2026-01-21,Asma
+138,C0138,DNI,80077091,Melissa,Díaz Díaz,melissa138@correo.com,913445982,San Juan de Lurigancho,Paciente crónico,2026-03-08,Colesterol alto
+139,C0139,CE,12777897,José,Palomino Castillo,josé139@correo.com,969893274,Independencia,Compra ocasional,2026-01-25,Diabetes
+140,C0140,DNI,46849818,Carmen,Salazar Díaz,carmen140@correo.com,930316446,La Molina,Convenio corporativo,2026-01-25,Colesterol alto
+141,C0141,DNI,730851,Ricardo,Salazar Rojas,ricardo141@correo.com,956721797,Comas,Cliente frecuente,2026-02-14,Diabetes
+142,C0142,DNI,94684522,Paola,Aguirre Ninaquispe,paola142@correo.com,944116924,Ate,Paciente crónico,2026-05-05,Ninguna
+143,C0143,RUC,82966881,Elena,Huamán Flores,elena143@correo.com,993244486,Lince,Compra ocasional,2026-04-23,Colesterol alto
+144,C0144,RUC,85173998,Paola,Romero Palomino,paola144@correo.com,957183363,San Juan de Lurigancho,Convenio corporativo,2026-05-21,Colesterol alto
+145,C0145,DNI,390569,Miguel,Aguirre Quispe,miguel145@correo.com,946101630,Callao,Cliente frecuente,2026-03-04,Diabetes
+146,C0146,DNI,96029791,Daniela,Cárdenas Castillo,daniela146correo.com,947807978,Independencia,Paciente crónico,2026-05-15,Colesterol alto
+147,C0147,DNI,94224569,Julia,Vargas Chávez,julia147@correo.com,943458011,Miraflores,Compra ocasional,2026-04-20,Colesterol alto
+148,C0148,DNI,59672776,Ricardo,Villanueva Chávez,ricardo148@correo.com,989624196,Chorrillos,Convenio corporativo,2026-02-04,Ninguna
+149,C0149,CE,36097515,Fernando,Espinoza Lévano,fernando149@correo.com,920802269,Rímac,Cliente frecuente,2026-02-27,Diabetes
+150,C0150,RUC,71737001,Paola,Castillo Quispe,paola150@correo.com,,Miraflores,Paciente crónico,2026-03-08,Colesterol alto
+151,C0151,RUC,92375828,Karla,Vargas Ponce,karla151@correo.com,923099292,Chorrillos,Compra ocasional,2026-01-09,Ninguna
+152,C0152,DNI,18815345,María,Bautista Ríos,maría152@correo.com,980012507,Independencia,Convenio corporativo,2026-04-22,Ninguna
+153,C0153,RUC,63555789,Carmen,Chávez Espinoza,carmen153@correo.com,984962367,Rímac,Cliente frecuente,2026-02-11,Hipertensión
+154,C0154,DNI,63021117,Hugo,Sánchez Rivera,hugo154correo.com,936844542,Rímac,Paciente crónico,2026-04-24,Diabetes
+155,C0155,DNI,34721014,Julia,Villanueva Aguirre,julia155@correo.com,945345157,Breña,Compra ocasional,2026-01-19,Diabetes
+156,C0156,DNI,84924054,Andrés,Cornejo Salazar,andrés156@correo.com,916778253,Rímac,Convenio corporativo,2026-02-12,Hipertensión
+157,C0157,DNI,46600335,José,Villanueva Villanueva,josé157@correo.com,985832076,La Molina,Cliente frecuente,2026-05-27,Diabetes
+158,C0158,DNI,77508472,Manuel,Castillo Ríos,manuel158@correo.com,999966261,Lince,Paciente crónico,2026-05-03,Hipertensión
+159,C0159,DNI,79307890,Paola,Espinoza Romero,paola159@correo.com,,Comas,Compra ocasional,2026-04-17,Colesterol alto
+160,C0160,CE,88373513,Álvaro,Salazar Chávez,álvaro160@correo.com,970895474,Rímac,Convenio corporativo,2026-02-05,Diabetes
+161,C0161,CE,52610956,Víctor,Aguirre Cárdenas,víctor161@correo.com,953246736,Ate,Cliente frecuente,2026-05-23,Asma
+162,C0162,CE,51632113,Sergio,Villanueva Rivera,sergio162@correo.com,963277068,Chorrillos,Paciente crónico,2026-01-10,Hipertensión
+163,C0163,DNI,39296408,María,Rojas Zevallos,maría163@correo.com,997981474,Chorrillos,Compra ocasional,2026-04-21,Colesterol alto
+164,C0164,DNI,47659422,Miguel,Castillo Cárdenas,miguel164@correo.com,971338696,Lince,Convenio corporativo,2026-02-05,Asma
+165,C0165,DNI,86621138,Óscar,Castillo Cornejo,,,Villa El Salvador,Cliente frecuente,2026-05-28,Hipertensión
+166,C0166,DNI,73434819,Verónica,Villanueva Quispe,,936810017,Los Olivos,Paciente crónico,2026-03-16,Colesterol alto
+167,C0167,RUC,17185655,Iván,Cárdenas Rojas,,996770829,Surco,Compra ocasional,2026-02-07,Hipertensión
+168,C0168,RUC,420168,Lucía,Díaz Salazar,lucía168@correo.com,963472327,Surco,Convenio corporativo,2026-01-02,Colesterol alto
+169,C0169,CE,291315,María,Cruz Torres,maría169correo.com,918187440,La Molina,Cliente frecuente,2026-05-03,Diabetes
+170,C0170,CE,44238540,Paola,Ninaquispe Ponce,paola170@correo.com,926266457,,Paciente crónico,2026-01-17,Ninguna
+171,C0171,RUC,30986403,Fernando,Cornejo Aguirre,fernando171@correo.com,984542586,San Miguel,Compra ocasional,2026-01-03,Hipertensión
+172,C0172,DNI,29177851,Ana,Torres Bautista,ana172@correo.com,993639066,Ate,Convenio corporativo,2026-04-25,Diabetes
+173,C0173,DNI,45061868,Diego,Cruz Zevallos,diego173@correo.com,914971700,Comas,Cliente frecuente,2026-04-07,Hipertensión
+174,C0174,RUC,62176836,Jorge,Salazar Sánchez,jorge174@correo.com,973470603,Chorrillos,Paciente crónico,2026-01-21,Asma
+175,C0175,CE,52721131,Iván,Ramos Rojas,iván175@correo.com,920811773,San Juan de Lurigancho,Compra ocasional,2026-01-27,Ninguna
+176,C0176,DNI,58762718,Andrés,Ninaquispe Aguirre,andrés176@correo.com,951772216,Lince,Convenio corporativo,2026-01-16,Asma
+177,C0177,DNI,83507812,Manuel,Vargas Torres,manuel177@correo.com,984756132,Chorrillos,Cliente frecuente,2026-02-10,Hipertensión
+178,C0178,CE,56950421,Luis,Villanueva Cárdenas,luis178@correo.com,,,Paciente crónico,2026-05-15,Diabetes
+179,C0179,DNI,69293624,Fernando,Gutiérrez Ponce,fernando179@correo.com,974633157,Los Olivos,Compra ocasional,2026-03-03,Hipertensión
+180,C0180,DNI,95217293,Ana,Rivera Villanueva,ana180@correo.com,930562569,Surco,Convenio corporativo,2026-05-18,Colesterol alto
+181,C0181,CE,62354905,María,Bautista Gutiérrez,maría181@correo.com,926681319,Independencia,Cliente frecuente,2026-03-17,Asma
+182,C0182,DNI,92681941,Víctor,Huamán Vargas,víctor182@correo.com,,Ate,Paciente crónico,2026-03-04,Asma
+183,C0183,CE,51932969,José,Ramos Gutiérrez,josé183@correo.com,928576921,Lince,Compra ocasional,2026-03-06,Asma
+184,C0184,DNI,24021451,Carlos,Torres Castillo,carlos184@correo.com,954913816,Chorrillos,Convenio corporativo,2026-01-26,Colesterol alto
+185,C0185,DNI,16156514,Raúl,Huamán Salazar,raúl185@correo.com,997732929,,Cliente frecuente,2026-01-04,Diabetes
+186,C0186,DNI,40707656,Isabel,Rivera Lévano,isabel186@correo.com,957520100,Surco,Paciente crónico,2026-05-08,Colesterol alto
+187,C0187,DNI,50088054,Claudia,Villanueva Villanueva,claudia187@correo.com,954914971,Lince,Compra ocasional,2026-01-09,Diabetes
+188,C0188,DNI,83547150,Elena,Mendoza Huamán,elena188correo.com,990612654,Independencia,Convenio corporativo,2026-04-01,Hipertensión
+189,C0189,DNI,65440806,José,Paredes Espinoza,josé189@correo.com,955510922,Ate,Cliente frecuente,2026-01-26,Hipertensión
+190,C0190,CE,85341613,Víctor,Aguirre Castillo,víctor190@correo.com,981291682,San Juan de Lurigancho,Paciente crónico,2026-05-07,Hipertensión
+191,C0191,RUC,34031239,Ricardo,Ramos Torres,ricardo191@correo.com,971970545,Surco,Compra ocasional,2026-01-19,Diabetes
+192,C0192,DNI,30236333,Ricardo,Lévano Huamán,ricardo192@correo.com,916059181,San Miguel,Convenio corporativo,2026-03-20,Ninguna
+193,C0193,CE,39871837,Álvaro,Espinoza Espinoza,álvaro193@correo.com,923080286,Surco,Cliente frecuente,2026-03-14,Hipertensión
+194,C0194,DNI,80762350,Bruno,Flores Díaz,bruno194@correo.com,987670825,San Miguel,Paciente crónico,2026-03-10,Hipertensión
+195,C0195,DNI,54134784,Natalia,Rivera Ríos,natalia195@correo.com,998273216,Rímac,Compra ocasional,2026-01-12,Ninguna
+196,C0196,DNI,31294418,Rosa,Chávez Sánchez,rosa196@correo.com,995146956,Ate,Convenio corporativo,2026-01-22,Ninguna
+197,C0197,RUC,934929,Pamela,Flores Quispe,pamela197@correo.com,935990595,Los Olivos,Cliente frecuente,2026-04-09,Colesterol alto
+198,C0198,DNI,38746967,Raúl,Torres Huamán,,936482265,Lince,Paciente crónico,2026-01-08,Asma
+199,C0199,CE,55227378,Ricardo,Ramos Salazar,ricardo199@correo.com,965220734,San Miguel,Compra ocasional,2026-01-04,Ninguna
+200,C0200,CE,49113555,Luis,Cruz Lévano,luis200@correo.com,922613330,San Miguel,Convenio corporativo,2026-03-14,Colesterol alto
+201,C0201,DNI,72509605,Ana,Romero Díaz,ana109@correo.com,939426647,La Molina,Cliente frecuente,2026-02-14,Colesterol alto
+202,C0202,DNI,57216717,Ana,Rivera Huamán,ana104@correo.com,938807875,Callao,Paciente crónico,2026-03-04,Ninguna
+203,C0203,RUC,81591964,Karla,Castillo Zevallos,karla66@correo.com,966107259,Villa El Salvador,Compra ocasional,2026-05-13,Ninguna
+204,C0204,DNI,37739269,Paola,Mendoza Sánchez,paola102@correo.com,916214732,San Juan de Lurigancho,Convenio corporativo,2026-02-05,Hipertensión
+205,C0205,RUC,42110057,Julia,Rivera Cruz,julia107@correo.com,956297049,Comas,Cliente frecuente,2026-03-03,Diabetes
+206,C0206,RUC,91509717,Manuel,Ramos Huamán,manuel111@correo.com,,,Paciente crónico,2026-04-14,Asma
+207,C0207,DNI,21088918,Andrés,Ríos Sánchez,andrés46@correo.com,,Miraflores,Compra ocasional,2026-01-24,Ninguna
+208,C0208,DNI,37759391,Melissa,Torres Lévano,melissa2@correo.com,966971049,Villa El Salvador,Convenio corporativo,2026-05-18,Asma

@@ -1,7 +1,7 @@
-﻿id_sede,codigo_sede,nombre_sede,distrito_sede,responsable
-1,S001,Sede Principal 1,Miraflores,Operaciones
-2,S002,Sede Norte 2,Lince,Administraci?n
-3,S003,Sede Este 3,Miraflores,Administraci?n
-4,S004,Sede Norte 4,Lince,Operaciones
-5,S005,Sede Sur 5,Ate,Comercial
-6,S006,Sede Norte 6,Ate,Calidad
+id_sede,codigo_sede,nombre_sede,distrito_sede,responsable
+1,A3S01,Campus Aula360 Cercado de Lima,Cercado de Lima,Fernando Zevallos
+2,A3S02,Campus Aula360 San Miguel,San Miguel,Julia Ríos
+3,A3S03,Campus Aula360 Jesús María,Jesús María,Álvaro Flores
+4,A3S04,Campus Aula360 Los Olivos,Los Olivos,Iván Flores
+5,A3S05,Campus Aula360 Santiago de Surco,Santiago de Surco,Sofía Chávez
+6,A3S06,Campus Aula360 San Borja,San Borja,Miguel Villanueva

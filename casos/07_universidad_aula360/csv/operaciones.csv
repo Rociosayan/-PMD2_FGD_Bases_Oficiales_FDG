@@ -1,501 +1,1011 @@
-﻿id_operacion,codigo_operacion,id_entidad,id_sede,id_producto,fecha_operacion,cantidad,monto_total,estado,canal
-1,O00001,76,5,1,2026-03-06,3,1043.48,Cancelado,Presencial
-2,O00002,21,1,8,2026-01-26,6,540.35,Completado,Presencial
-3,O00003,8,4,12,2026-06-17,5,1752.44,Pendiente,App
-4,O00004,20,1,15,2026-05-02,2,734.28,Completado,Web
-5,O00005,38,1,12,2026-04-30,5,1783.96,Cancelado,Presencial
-6,O00006,69,5,10,2026-05-31,2,366.09,Completado,App
-7,O00007,39,4,1,2026-03-17,6,2039.04,Completado,Call Center
-8,O00008,67,3,13,2026-06-18,1,296.49,Completado,Presencial
-9,O00009,22,1,11,2026-05-28,6,578.37,Pendiente,Call Center
-10,O00010,42,2,3,2026-02-17,4,859.32,Completado,App
-11,O00011,50,5,10,2026-02-25,6,1152.53,Completado,App
-12,O00012,20,6,14,2026-02-12,4,1469.97,Pendiente,App
-13,O00013,31,2,12,2026-03-23,1,325.45,Completado,Call Center
-14,O00014,11,4,3,2026-05-31,1,269.98,Observado,App
-15,O00015,47,6,1,2026-02-19,6,2207.97,Completado,Call Center
-16,O00016,75,4,6,2026-03-22,6,2199.85,Completado,Web
-17,O00017,72,1,6,2026-04-18,4,1721.3,Observado,Web
-18,O00018,63,6,15,2026-03-08,3,1276.24,Completado,Web
-19,O00019,6,2,9,2026-05-29,3,219.48,Cancelado,App
-20,O00020,52,5,15,2026-02-02,6,2129.26,Completado,App
-21,O00021,42,2,14,2026-04-09,3,1159.04,Completado,App
-22,O00022,73,1,13,2026-02-14,6,1580.25,Completado,Presencial
-23,O00023,75,3,10,2026-04-24,3,512.17,Observado,Presencial
-24,O00024,59,6,13,2026-03-19,2,484.52,Completado,Web
-25,O00025,65,3,12,2026-01-21,4,1563.14,Completado,Call Center
-26,O00026,74,5,1,2026-06-05,5,2156.9,Completado,Presencial
-27,O00027,30,3,15,2026-06-30,3,1356.13,Cancelado,Call Center
-28,O00028,48,6,4,2026-06-15,2,194.94,Pendiente,App
-29,O00029,22,2,4,2026-05-02,5,532.16,Completado,Web
-30,O00030,18,6,1,2026-06-16,5,2319.09,Completado,Call Center
-31,O00031,47,4,5,2026-05-20,2,863.24,Completado,Web
-32,O00032,25,1,4,2026-04-02,1,132.12,Completado,Presencial
-33,O00033,27,4,12,2026-03-26,1,375.05,Completado,Presencial
-34,O00034,53,1,14,2026-04-15,2,706.57,Completado,Web
-35,O00035,56,1,2,2026-06-01,3,787.73,Completado,Web
-36,O00036,25,3,14,2026-01-31,2,619.81,Completado,Call Center
-37,O00037,67,3,3,2026-04-27,6,1552.34,Completado,Web
-38,O00038,29,1,11,2026-01-22,3,235.9,Pendiente,Presencial
-39,O00039,75,4,9,2026-03-14,2,110.51,Observado,Presencial
-40,O00040,17,5,6,2026-05-26,5,1497.63,Completado,Call Center
-41,O00041,38,6,6,2026-01-14,6,1818.84,Observado,App
-42,O00042,47,1,14,2026-01-01,1,291.41,Observado,Presencial
-43,O00043,42,2,13,2026-06-22,4,1028.7,Completado,Presencial
-44,O00044,9,5,7,2026-04-10,6,563.12,Pendiente,Presencial
-45,O00045,69,2,15,2026-06-19,4,1769.83,Completado,App
-46,O00046,64,6,6,2026-01-27,4,1216.87,Completado,Web
-47,O00047,23,6,3,2026-03-11,2,569.37,Completado,Call Center
-48,O00048,47,4,3,2026-05-28,5,1239.84,Completado,Web
-49,O00049,74,1,10,2026-06-21,6,1212.46,Completado,Web
-50,O00050,78,3,11,2026-06-16,2,178.22,Completado,Web
-51,O00051,2,1,10,2026-05-16,5,889.0,Completado,App
-52,O00052,76,2,15,2026-02-08,2,849.71,Completado,Presencial
-53,O00053,2,2,13,2026-06-08,6,1409.51,Completado,Call Center
-54,O00054,48,4,4,2026-05-10,5,593.14,Completado,App
-55,O00055,35,6,10,2026-05-27,3,592.01,Completado,Call Center
-56,O00056,42,5,11,2026-06-08,4,311.82,Completado,Presencial
-57,O00057,18,2,10,2026-06-20,6,978.8,Completado,Call Center
-58,O00058,28,5,3,2026-04-22,5,1338.73,Completado,Call Center
-59,O00059,74,2,10,2026-02-25,3,591.31,Completado,App
-60,O00060,72,3,4,2026-02-10,6,774.02,Completado,Presencial
-61,O00061,58,1,2,2026-03-19,1,301.68,Completado,App
-62,O00062,32,5,7,2026-04-14,2,144.07,Completado,Call Center
-63,O00063,36,5,15,2026-01-30,5,1569.09,Completado,Call Center
-64,O00064,40,2,12,2026-03-27,2,880.47,Completado,App
-65,O00065,39,2,11,2026-06-10,3,235.62,Completado,Web
-66,O00066,21,6,13,2026-06-19,5,1539.32,Completado,App
-67,O00067,19,5,9,2026-03-25,4,210.95,Completado,Web
-68,O00068,8,3,4,2026-01-13,6,811.86,Completado,Presencial
-69,O00069,38,5,11,2026-03-08,1,74.75,Completado,Presencial
-70,O00070,46,4,15,2026-03-09,1,454.23,Completado,Presencial
-71,O00071,12,3,5,2026-01-15,3,907.85,Completado,App
-72,O00072,50,1,3,2026-03-16,2,449.73,Completado,App
-73,O00073,28,3,13,2026-04-18,2,564.83,Pendiente,Call Center
-74,O00074,52,6,1,2026-01-07,2,906.54,Completado,Presencial
-75,O00075,78,6,4,2026-03-13,4,543.82,Completado,Web
-76,O00076,49,5,7,2026-03-02,5,392.07,Cancelado,Call Center
-77,O00077,24,2,6,2026-05-04,4,1512.03,Completado,Presencial
-78,O00078,50,2,12,2026-02-01,2,737.87,Completado,Call Center
-79,O00079,54,3,13,2026-05-14,5,1297.33,Completado,Presencial
-80,O00080,79,1,10,2026-03-11,2,312.51,Completado,App
-81,O00081,48,5,12,2026-04-09,3,992.36,Completado,Call Center
-82,O00082,27,5,6,2026-01-23,3,1050.93,Cancelado,App
-83,O00083,54,2,8,2026-06-05,4,458.84,Cancelado,Web
-84,O00084,74,2,10,2026-03-13,1,195.17,Completado,Call Center
-85,O00085,59,1,14,2026-05-31,6,1848.24,Completado,Call Center
-86,O00086,4,6,15,2026-03-13,5,1974.06,Completado,App
-87,O00087,17,1,10,2026-06-29,2,309.17,Completado,Call Center
-88,O00088,3,6,14,2026-03-04,2,632.62,Completado,App
-89,O00089,20,1,6,2026-05-06,1,294.45,Cancelado,App
-90,O00090,39,3,6,2026-02-06,5,2014.72,Completado,Call Center
-91,O00091,34,6,5,2026-02-20,4,1519.34,Completado,App
-92,O00092,35,1,2,2026-04-10,1,317.72,Cancelado,Presencial
-93,O00093,76,4,5,2026-01-21,2,803.63,Completado,Presencial
-94,O00094,55,5,12,2026-03-08,3,975.26,Completado,Call Center
-95,O00095,1,4,8,2026-01-22,2,232.72,Completado,Presencial
-96,O00096,12,6,4,2026-01-31,6,804.41,Completado,App
-97,O00097,66,2,15,2026-05-06,1,365.23,Completado,Web
-98,O00098,71,1,15,2026-02-03,1,430.33,Completado,Presencial
-99,O00099,26,6,4,2026-03-03,6,754.99,Cancelado,App
-100,O00100,78,4,7,2026-05-31,2,158.71,Completado,Presencial
-101,O00101,57,2,10,2026-02-28,5,979.81,Observado,App
-102,O00102,12,6,15,2026-04-08,5,1667.74,Completado,Presencial
-103,O00103,79,2,11,2026-01-03,4,354.25,Cancelado,App
-104,O00104,3,2,4,2026-05-06,6,598.82,Cancelado,Call Center
-105,O00105,26,6,14,2026-03-17,1,340.36,Completado,Web
-106,O00106,78,2,9,2026-02-22,1,63.58,Completado,Presencial
-107,O00107,52,6,3,2026-05-13,6,1726.56,Completado,Call Center
-108,O00108,5,3,6,2026-04-28,4,1564.03,Completado,Web
-109,O00109,80,1,4,2026-02-03,3,309.37,Completado,Call Center
-110,O00110,43,4,7,2026-02-02,2,195.69,Pendiente,Web
-111,O00111,13,6,14,2026-01-28,6,1851.8,Completado,Call Center
-112,O00112,79,4,5,2026-03-01,6,2072.43,Cancelado,Presencial
-113,O00113,25,1,14,2026-04-07,5,1553.81,Completado,Call Center
-114,O00114,40,1,7,2026-02-16,6,509.02,Completado,Web
-115,O00115,16,3,13,2026-02-28,1,326.92,Completado,App
-116,O00116,6,5,14,2026-02-25,5,1501.24,Completado,Presencial
-117,O00117,76,3,13,2026-02-27,1,274.91,Completado,Call Center
-118,O00118,71,4,4,2026-03-23,1,120.02,Completado,Call Center
-119,O00119,24,6,14,2026-01-11,1,337.54,Completado,Web
-120,O00120,66,1,14,2026-06-03,5,1837.57,Observado,App
-121,O00121,79,5,10,2026-01-31,5,1010.4,Completado,Web
-122,O00122,1,6,6,2026-02-17,5,2005.49,Observado,Web
-123,O00123,10,3,5,2026-04-04,5,1747.67,Pendiente,Presencial
-124,O00124,75,5,2,2026-04-25,5,1337.07,Completado,Web
-125,O00125,79,2,8,2026-02-18,5,437.86,Completado,Presencial
-126,O00126,16,1,13,2026-06-26,4,1114.38,Completado,Web
-127,O00127,78,4,2,2026-06-16,2,518.47,Completado,Call Center
-128,O00128,5,6,11,2026-06-26,2,205.93,Completado,Call Center
-129,O00129,49,6,4,2026-04-16,1,111.7,Completado,Web
-130,O00130,3,3,13,2026-01-14,2,628.15,Completado,Call Center
-131,O00131,64,4,9,2026-05-09,3,215.3,Completado,Presencial
-132,O00132,17,3,7,2026-03-29,4,308.89,Completado,Presencial
-133,O00133,34,6,7,2026-06-11,6,464.46,Completado,App
-134,O00134,32,4,5,2026-03-15,3,1153.51,Cancelado,App
-135,O00135,41,5,2,2026-01-26,4,952.66,Completado,App
-136,O00136,17,5,5,2026-04-11,3,1268.71,Cancelado,Web
-137,O00137,12,4,6,2026-03-20,5,1626.13,Observado,Call Center
-138,O00138,45,3,2,2026-03-30,4,995.36,Completado,Presencial
-139,O00139,24,4,12,2026-06-30,1,400.12,Completado,App
-140,O00140,55,6,4,2026-05-03,3,402.47,Completado,App
-141,O00141,50,2,11,2026-06-10,6,442.18,Pendiente,Call Center
-142,O00142,77,3,3,2026-03-16,1,249.36,Completado,Web
-143,O00143,71,2,9,2026-04-06,4,246.46,Completado,Web
-144,O00144,60,5,10,2026-03-19,3,539.62,Completado,App
-145,O00145,53,1,12,2026-04-10,4,1281.08,Completado,Web
-146,O00146,66,5,4,2026-01-18,3,386.46,Completado,Call Center
-147,O00147,78,4,9,2026-02-11,3,183.62,Completado,Call Center
-148,O00148,62,6,10,2026-01-10,5,755.13,Cancelado,App
-149,O00149,13,4,5,2026-01-27,5,1948.45,Completado,Call Center
-150,O00150,75,6,15,2026-02-12,4,1307.21,Completado,App
-151,O00151,58,5,7,2026-01-31,5,372.19,Completado,App
-152,O00152,47,4,14,2026-06-05,6,1714.43,Completado,Web
-153,O00153,23,5,7,2026-06-25,4,351.06,Pendiente,Presencial
-154,O00154,54,2,14,2026-03-14,4,1317.88,Completado,Call Center
-155,O00155,40,1,2,2026-05-21,5,1348.1,Completado,Call Center
-156,O00156,27,4,15,2026-04-10,4,1374.95,Completado,App
-157,O00157,30,3,1,2026-05-26,4,1349.49,Completado,App
-158,O00158,72,5,5,2026-02-26,5,2055.6,Completado,Call Center
-159,O00159,73,2,11,2026-02-17,3,242.03,Pendiente,Web
-160,O00160,44,5,10,2026-06-14,1,164.8,Observado,App
-161,O00161,37,1,15,2026-05-17,5,1962.37,Completado,Presencial
-162,O00162,70,5,14,2026-04-25,5,1349.3,Completado,App
-163,O00163,14,6,4,2026-04-20,3,387.32,Completado,Call Center
-164,O00164,1,4,5,2026-03-14,3,917.28,Completado,App
-165,O00165,26,6,2,2026-06-02,2,509.28,Observado,Web
-166,O00166,4,5,10,2026-06-17,6,1068.79,Completado,Web
-167,O00167,14,2,11,2026-04-15,3,278.5,Cancelado,Web
-168,O00168,74,4,7,2026-05-04,3,201.13,Cancelado,Call Center
-169,O00169,16,3,10,2026-03-05,4,799.14,Completado,Call Center
-170,O00170,62,1,12,2026-02-19,1,426.63,Completado,Presencial
-171,O00171,69,5,1,2026-06-16,4,1793.96,Observado,Call Center
-172,O00172,57,4,14,2026-05-01,3,979.87,Completado,Presencial
-173,O00173,29,2,2,2026-02-11,4,954.63,Observado,Web
-174,O00174,6,2,9,2026-01-24,5,336.95,Completado,Presencial
-175,O00175,31,1,6,2026-06-27,4,1618.73,Completado,Presencial
-176,O00176,11,1,5,2026-05-04,5,2152.13,Observado,Presencial
-177,O00177,14,4,6,2026-04-06,6,2383.79,Completado,Call Center
-178,O00178,11,4,8,2026-04-03,3,337.72,Completado,Web
-179,O00179,32,5,12,2026-05-11,2,818.86,Completado,Web
-180,O00180,17,1,1,2026-05-25,4,1626.92,Completado,Call Center
-181,O00181,16,2,7,2026-03-10,4,297.33,Observado,Presencial
-182,O00182,35,5,12,2026-04-05,4,1276.08,Completado,Call Center
-183,O00183,68,3,10,2026-02-09,4,784.42,Completado,App
-184,O00184,14,2,3,2026-02-22,5,1294.28,Cancelado,Presencial
-185,O00185,58,5,11,2026-05-07,5,477.4,Completado,App
-186,O00186,78,6,10,2026-05-20,6,1223.68,Completado,Presencial
-187,O00187,44,4,7,2026-02-11,2,136.77,Completado,Web
-188,O00188,14,4,4,2026-04-07,4,511.09,Completado,Presencial
-189,O00189,48,1,11,2026-06-12,3,270.29,Completado,App
-190,O00190,67,2,6,2026-04-10,5,2029.53,Completado,App
-191,O00191,78,5,12,2026-04-08,5,1643.76,Completado,Presencial
-192,O00192,29,1,5,2026-01-28,6,2110.4,Cancelado,Web
-193,O00193,28,1,7,2026-01-05,5,406.18,Completado,Web
-194,O00194,19,6,8,2026-06-04,4,342.82,Pendiente,App
-195,O00195,17,5,1,2026-01-08,3,1301.48,Completado,Presencial
-196,O00196,56,4,2,2026-04-21,4,980.49,Completado,Call Center
-197,O00197,47,6,13,2026-04-14,1,321.71,Observado,Web
-198,O00198,5,2,11,2026-05-14,2,199.17,Completado,Web
-199,O00199,53,1,5,2026-06-26,4,1687.31,Completado,Call Center
-200,O00200,28,5,4,2026-05-03,6,795.61,Cancelado,Presencial
-201,O00201,21,2,15,2026-01-28,5,2270.13,Completado,Web
-202,O00202,42,5,10,2026-03-21,5,844.52,Completado,Call Center
-203,O00203,4,4,10,2026-03-08,3,594.13,Completado,App
-204,O00204,10,5,1,2026-06-27,2,637.9,Completado,App
-205,O00205,46,5,4,2026-05-19,4,443.2,Completado,Web
-206,O00206,60,1,11,2026-05-10,4,374.76,Completado,Presencial
-207,O00207,35,2,9,2026-01-24,2,123.6,Completado,Call Center
-208,O00208,53,2,1,2026-04-02,5,1997.29,Completado,Presencial
-209,O00209,17,6,6,2026-01-22,6,2463.52,Cancelado,App
-210,O00210,73,4,2,2026-06-23,4,1288.53,Pendiente,Presencial
-211,O00211,27,1,11,2026-06-16,2,210.52,Pendiente,Web
-212,O00212,37,3,3,2026-02-05,1,238.69,Completado,Presencial
-213,O00213,71,5,11,2026-02-23,5,533.97,Completado,Presencial
-214,O00214,23,4,10,2026-02-23,3,577.73,Completado,Web
-215,O00215,10,4,13,2026-01-12,3,686.01,Completado,Presencial
-216,O00216,55,6,1,2026-03-22,2,823.73,Completado,App
-217,O00217,71,4,6,2026-02-24,2,799.85,Completado,Call Center
-218,O00218,38,6,15,2026-05-29,6,2257.95,Cancelado,Web
-219,O00219,26,3,2,2026-02-03,3,981.72,Completado,Web
-220,O00220,59,2,12,2026-05-07,4,1324.53,Observado,Web
-221,O00221,66,5,12,2026-04-23,3,1191.99,Completado,App
-222,O00222,19,2,1,2026-04-16,6,1968.7,Completado,Presencial
-223,O00223,12,3,5,2026-03-19,2,727.42,Completado,Call Center
-224,O00224,74,4,12,2026-03-21,5,2101.43,Pendiente,Call Center
-225,O00225,44,5,1,2026-03-20,3,1337.35,Pendiente,Web
-226,O00226,56,3,6,2026-05-04,3,1194.25,Completado,Web
-227,O00227,22,3,6,2026-05-19,5,1750.61,Completado,App
-228,O00228,70,6,10,2026-03-13,1,188.26,Completado,Web
-229,O00229,16,3,9,2026-03-17,1,73.85,Completado,Presencial
-230,O00230,36,1,5,2026-05-23,5,1852.72,Completado,Presencial
-231,O00231,3,2,14,2026-05-05,3,1070.98,Completado,Presencial
-232,O00232,53,3,10,2026-03-18,4,717.36,Completado,App
-233,O00233,69,2,9,2026-03-26,4,263.28,Completado,Call Center
-234,O00234,50,2,6,2026-01-20,5,2123.57,Completado,Web
-235,O00235,31,3,3,2026-03-13,2,435.4,Completado,Web
-236,O00236,18,5,10,2026-06-15,3,592.8,Pendiente,App
-237,O00237,64,5,1,2026-01-24,1,320.09,Pendiente,Web
-238,O00238,73,4,1,2026-01-28,3,1372.38,Completado,App
-239,O00239,6,2,4,2026-05-16,6,665.97,Completado,Call Center
-240,O00240,49,1,2,2026-06-28,1,304.54,Completado,Presencial
-241,O00241,65,4,2,2026-05-17,4,1049.61,Completado,Web
-242,O00242,62,2,12,2026-03-18,4,1323.8,Completado,Web
-243,O00243,78,2,2,2026-03-17,1,324.86,Observado,Presencial
-244,O00244,75,6,13,2026-03-28,4,1159.98,Completado,Presencial
-245,O00245,45,4,9,2026-02-18,1,72.22,Observado,Call Center
-246,O00246,24,4,9,2026-04-23,2,148.73,Completado,App
-247,O00247,30,3,7,2026-03-15,2,146.12,Observado,Web
-248,O00248,54,4,11,2026-02-12,5,525.21,Completado,Call Center
-249,O00249,66,3,5,2026-04-05,1,427.95,Observado,Call Center
-250,O00250,12,3,6,2026-02-04,2,687.18,Completado,Call Center
-251,O00251,25,2,14,2026-04-12,2,628.09,Completado,Call Center
-252,O00252,36,5,1,2026-02-03,3,1163.32,Completado,Call Center
-253,O00253,14,6,3,2026-02-13,3,687.98,Completado,Presencial
-254,O00254,19,2,6,2026-03-23,2,734.53,Observado,Call Center
-255,O00255,79,2,11,2026-06-26,6,565.04,Completado,App
-256,O00256,22,1,7,2026-05-30,5,484.17,Completado,Presencial
-257,O00257,37,3,14,2026-02-08,6,2320.62,Completado,Call Center
-258,O00258,72,5,6,2026-02-23,6,1830.17,Completado,Presencial
-259,O00259,76,2,6,2026-05-21,4,1214.62,Completado,Presencial
-260,O00260,55,1,8,2026-02-13,6,602.43,Completado,Presencial
-261,O00261,65,3,8,2026-05-09,4,417.85,Observado,Presencial
-262,O00262,79,6,1,2026-02-22,5,1749.59,Completado,Call Center
-263,O00263,30,5,1,2026-03-30,2,858.05,Observado,Web
-264,O00264,63,2,8,2026-01-11,5,521.82,Completado,App
-265,O00265,63,5,13,2026-04-03,6,1687.3,Observado,App
-266,O00266,40,3,12,2026-01-08,2,641.23,Pendiente,Web
-267,O00267,11,3,6,2026-02-19,6,2408.97,Completado,Web
-268,O00268,55,6,7,2026-01-08,6,565.02,Completado,App
-269,O00269,30,2,10,2026-04-07,2,390.29,Completado,App
-270,O00270,53,1,7,2026-02-20,6,497.87,Completado,Web
-271,O00271,29,6,8,2026-03-28,2,216.11,Completado,Web
-272,O00272,42,1,6,2026-03-26,5,1487.4,Completado,Web
-273,O00273,38,5,15,2026-04-04,3,932.96,Completado,Presencial
-274,O00274,45,2,6,2026-03-26,6,1787.28,Completado,Presencial
-275,O00275,52,5,5,2026-02-22,6,2589.6,Completado,App
-276,O00276,73,6,14,2026-03-24,1,333.52,Completado,App
-277,O00277,57,2,2,2026-06-06,5,1235.04,Completado,App
-278,O00278,40,4,12,2026-06-16,1,350.12,Completado,App
-279,O00279,35,5,2,2026-03-11,4,979.42,Completado,Call Center
-280,O00280,24,6,13,2026-05-15,1,259.39,Completado,Presencial
-281,O00281,26,1,9,2026-03-10,2,140.96,Pendiente,Call Center
-282,O00282,63,3,15,2026-03-20,2,724.56,Completado,Presencial
-283,O00283,4,3,13,2026-03-11,6,1902.17,Completado,App
-284,O00284,63,4,13,2026-05-07,6,1515.87,Completado,App
-285,O00285,37,1,4,2026-06-23,5,539.88,Completado,Web
-286,O00286,79,5,1,2026-01-21,3,1036.24,Pendiente,Call Center
-287,O00287,63,6,15,2026-02-21,4,1698.85,Completado,App
-288,O00288,47,6,2,2026-06-11,3,744.16,Completado,App
-289,O00289,38,5,8,2026-04-14,1,111.66,Completado,Web
-290,O00290,57,6,7,2026-02-05,1,84.18,Completado,Presencial
-291,O00291,37,6,11,2026-01-07,3,279.1,Completado,Call Center
-292,O00292,46,4,7,2026-03-29,2,139.45,Completado,Web
-293,O00293,7,4,10,2026-04-25,6,981.87,Completado,Presencial
-294,O00294,42,5,8,2026-03-14,4,440.63,Pendiente,App
-295,O00295,14,3,5,2026-03-03,3,1294.99,Observado,App
-296,O00296,37,4,10,2026-05-04,2,330.26,Cancelado,App
-297,O00297,70,6,6,2026-01-03,6,1780.36,Completado,Presencial
-298,O00298,15,4,5,2026-03-12,5,1531.64,Completado,App
-299,O00299,30,1,12,2026-04-11,6,2666.29,Completado,Call Center
-300,O00300,22,5,15,2026-05-24,1,385.0,Completado,Call Center
-301,O00301,45,2,8,2026-04-09,4,394.07,Completado,Call Center
-302,O00302,34,5,13,2026-01-20,3,797.66,Completado,App
-303,O00303,71,6,11,2026-05-24,5,488.97,Completado,Call Center
-304,O00304,69,5,5,2026-02-27,3,1032.9,Observado,Web
-305,O00305,20,1,5,2026-05-15,4,1434.57,Completado,Presencial
-306,O00306,45,5,15,2026-02-14,6,2311.96,Completado,Web
-307,O00307,16,5,12,2026-02-13,6,1957.41,Completado,Presencial
-308,O00308,10,4,2,2026-05-17,2,600.9,Completado,App
-309,O00309,29,4,15,2026-01-09,2,674.81,Completado,App
-310,O00310,74,2,4,2026-05-11,1,101.16,Completado,Web
-311,O00311,31,6,12,2026-06-14,5,1767.99,Pendiente,Web
-312,O00312,5,4,12,2026-02-02,6,2193.29,Completado,Presencial
-313,O00313,8,2,8,2026-03-25,4,331.02,Completado,Call Center
-314,O00314,11,4,1,2026-04-23,5,2261.0,Pendiente,App
-315,O00315,24,6,7,2026-06-05,3,231.01,Observado,Presencial
-316,O00316,52,3,15,2026-05-24,2,857.7,Completado,Call Center
-317,O00317,9,2,6,2026-04-02,1,332.2,Completado,App
-318,O00318,12,6,1,2026-01-03,4,1284.85,Completado,Web
-319,O00319,62,5,14,2026-05-12,2,561.02,Cancelado,Web
-320,O00320,67,4,8,2026-04-15,4,368.47,Completado,Presencial
-321,O00321,71,3,15,2026-06-24,6,2205.53,Completado,Web
-322,O00322,47,5,8,2026-04-16,1,113.81,Completado,Call Center
-323,O00323,69,6,1,2026-05-04,2,706.03,Completado,Web
-324,O00324,33,6,5,2026-03-30,6,2429.06,Completado,App
-325,O00325,43,3,3,2026-04-19,4,1084.8,Completado,Call Center
-326,O00326,9,3,13,2026-01-25,4,1300.12,Completado,Call Center
-327,O00327,36,2,11,2026-02-10,2,205.77,Observado,App
-328,O00328,9,3,12,2026-05-12,6,2206.43,Pendiente,Call Center
-329,O00329,49,2,5,2026-05-21,4,1659.8,Observado,Web
-330,O00330,21,2,7,2026-01-15,4,309.7,Completado,App
-331,O00331,46,3,2,2026-01-10,4,1315.0,Cancelado,Presencial
-332,O00332,7,1,4,2026-02-04,4,536.08,Completado,App
-333,O00333,39,5,10,2026-03-11,2,299.71,Cancelado,App
-334,O00334,56,3,8,2026-01-16,3,335.55,Completado,Presencial
-335,O00335,53,3,5,2026-05-29,2,857.68,Observado,Presencial
-336,O00336,76,4,1,2026-02-28,4,1491.13,Completado,Presencial
-337,O00337,64,2,4,2026-01-28,1,95.81,Completado,Call Center
-338,O00338,16,3,14,2026-06-05,3,886.25,Completado,Web
-339,O00339,32,2,9,2026-04-21,5,267.14,Pendiente,Web
-340,O00340,59,1,5,2026-01-04,5,1981.83,Completado,Call Center
-341,O00341,21,6,2,2026-01-26,5,1316.15,Completado,Web
-342,O00342,18,5,5,2026-01-09,3,1030.1,Completado,Call Center
-343,O00343,27,5,7,2026-01-04,5,459.9,Completado,App
-344,O00344,14,6,14,2026-05-24,1,391.51,Cancelado,Presencial
-345,O00345,25,6,11,2026-02-19,2,178.91,Completado,App
-346,O00346,15,6,10,2026-03-16,4,817.68,Observado,Presencial
-347,O00347,46,5,3,2026-05-01,3,728.5,Completado,Call Center
-348,O00348,39,2,15,2026-06-09,5,1635.96,Completado,Presencial
-349,O00349,1,3,6,2026-02-13,2,783.2,Completado,Call Center
-350,O00350,6,3,12,2026-01-02,4,1219.41,Completado,App
-351,O00351,60,1,9,2026-03-06,6,439.28,Completado,Presencial
-352,O00352,10,2,1,2026-03-21,6,2223.73,Observado,App
-353,O00353,15,3,12,2026-03-12,2,655.96,Completado,Presencial
-354,O00354,50,4,6,2026-02-11,3,1276.34,Completado,Call Center
-355,O00355,41,4,4,2026-01-05,5,526.21,Completado,Presencial
-356,O00356,71,1,2,2026-04-18,2,673.42,Cancelado,Call Center
-357,O00357,65,5,15,2026-03-07,1,389.08,Completado,App
-358,O00358,42,4,7,2026-04-16,3,281.67,Completado,Call Center
-359,O00359,44,4,2,2026-05-19,1,273.79,Completado,Web
-360,O00360,31,2,10,2026-06-03,2,308.83,Completado,Web
-361,O00361,20,1,12,2026-05-09,2,750.61,Completado,Call Center
-362,O00362,19,5,13,2026-01-04,3,981.66,Completado,Presencial
-363,O00363,80,3,9,2026-05-13,5,275.9,Completado,App
-364,O00364,50,6,14,2026-04-08,1,300.55,Completado,Presencial
-365,O00365,66,2,10,2026-03-26,6,1084.19,Pendiente,Web
-366,O00366,49,5,15,2026-04-22,2,740.85,Completado,Web
-367,O00367,57,6,7,2026-02-04,5,385.74,Completado,App
-368,O00368,46,1,8,2026-03-31,6,678.06,Completado,Web
-369,O00369,78,4,11,2026-02-25,3,311.48,Completado,Presencial
-370,O00370,66,4,13,2026-06-19,6,1787.23,Completado,Web
-371,O00371,6,6,12,2026-05-16,5,1910.27,Pendiente,Call Center
-372,O00372,62,5,10,2026-06-24,3,533.34,Completado,Web
-373,O00373,29,6,15,2026-06-12,6,2114.28,Completado,Web
-374,O00374,54,1,1,2026-01-28,6,1970.0,Completado,Call Center
-375,O00375,57,1,4,2026-01-14,2,265.04,Completado,Web
-376,O00376,76,1,1,2026-05-24,4,1483.33,Completado,Web
-377,O00377,74,2,2,2026-03-09,4,1157.65,Completado,Call Center
-378,O00378,78,4,1,2026-04-15,2,817.13,Completado,Web
-379,O00379,21,4,13,2026-01-19,1,278.54,Completado,Presencial
-380,O00380,62,3,12,2026-03-23,6,1845.15,Completado,Web
-381,O00381,57,2,15,2026-04-29,2,673.24,Completado,App
-382,O00382,56,1,11,2026-02-20,6,616.98,Observado,Web
-383,O00383,39,5,14,2026-03-28,2,784.78,Completado,Presencial
-384,O00384,22,2,1,2026-06-05,6,2529.4,Completado,Presencial
-385,O00385,44,3,9,2026-06-10,1,61.12,Completado,Presencial
-386,O00386,56,3,14,2026-06-17,3,1057.46,Pendiente,Web
-387,O00387,18,3,9,2026-04-21,1,67.62,Completado,App
-388,O00388,33,1,14,2026-06-22,2,596.05,Completado,Call Center
-389,O00389,45,5,2,2026-03-04,3,1000.15,Observado,Call Center
-390,O00390,42,6,11,2026-03-04,6,607.56,Completado,Presencial
-391,O00391,8,3,15,2026-05-24,2,656.98,Cancelado,Presencial
-392,O00392,48,5,13,2026-05-12,2,665.88,Completado,App
-393,O00393,41,2,4,2026-05-12,1,97.83,Completado,App
-394,O00394,47,3,5,2026-02-03,5,2025.78,Completado,Call Center
-395,O00395,1,6,7,2026-03-24,5,451.62,Observado,App
-396,O00396,52,1,10,2026-01-04,5,917.2,Completado,Web
-397,O00397,3,3,12,2026-05-24,2,782.24,Completado,Presencial
-398,O00398,54,1,2,2026-01-02,5,1301.06,Completado,Call Center
-399,O00399,35,6,7,2026-01-18,4,315.84,Cancelado,Call Center
-400,O00400,8,5,3,2026-01-23,5,1407.08,Completado,Web
-401,O00401,43,4,15,2026-03-19,3,954.37,Completado,App
-402,O00402,62,2,14,2026-05-09,4,1383.47,Completado,App
-403,O00403,40,6,14,2026-04-28,5,1368.06,Completado,Web
-404,O00404,70,2,7,2026-03-10,3,230.43,Completado,Web
-405,O00405,39,1,10,2026-06-22,4,713.79,Completado,Call Center
-406,O00406,5,3,9,2026-06-23,3,184.75,Completado,Presencial
-407,O00407,64,4,6,2026-03-07,2,816.12,Completado,Presencial
-408,O00408,19,4,5,2026-06-25,5,1562.33,Observado,Presencial
-409,O00409,9,1,8,2026-06-10,6,527.35,Completado,Call Center
-410,O00410,29,1,9,2026-05-19,1,61.84,Observado,App
-411,O00411,51,4,2,2026-04-14,4,990.74,Completado,App
-412,O00412,29,1,12,2026-05-04,5,2165.63,Observado,App
-413,O00413,18,1,1,2026-01-05,5,2113.36,Completado,Web
-414,O00414,26,1,15,2026-01-11,2,687.37,Completado,Web
-415,O00415,29,2,4,2026-04-26,1,118.48,Completado,Call Center
-416,O00416,34,4,6,2026-04-18,3,1048.15,Completado,App
-417,O00417,71,3,4,2026-06-05,1,122.63,Completado,Presencial
-418,O00418,19,3,13,2026-05-15,4,1063.78,Completado,App
-419,O00419,29,1,15,2026-04-03,2,700.82,Pendiente,App
-420,O00420,43,2,7,2026-01-06,2,186.43,Observado,App
-421,O00421,61,1,4,2026-03-22,4,546.04,Cancelado,Call Center
-422,O00422,31,4,14,2026-02-23,1,389.62,Observado,Presencial
-423,O00423,6,3,8,2026-05-19,2,178.17,Completado,Presencial
-424,O00424,44,4,5,2026-06-09,4,1281.93,Completado,App
-425,O00425,22,6,13,2026-03-21,4,1032.06,Completado,App
-426,O00426,74,1,5,2026-03-14,3,912.46,Completado,Presencial
-427,O00427,64,4,1,2026-03-03,1,356.72,Cancelado,App
-428,O00428,18,5,15,2026-05-12,5,2218.82,Completado,Web
-429,O00429,30,4,10,2026-06-20,4,629.67,Completado,Presencial
-430,O00430,55,5,14,2026-04-28,5,1890.34,Completado,Call Center
-431,O00431,14,3,11,2026-05-09,6,604.96,Observado,Web
-432,O00432,39,3,14,2026-03-17,5,1487.54,Completado,App
-433,O00433,48,5,9,2026-05-06,4,243.86,Cancelado,Web
-434,O00434,1,2,7,2026-05-06,3,228.61,Completado,Call Center
-435,O00435,17,1,11,2026-05-23,2,160.59,Completado,Web
-436,O00436,61,2,10,2026-05-02,2,373.24,Completado,Call Center
-437,O00437,55,1,9,2026-06-15,3,190.28,Completado,App
-438,O00438,32,1,1,2026-04-14,2,837.22,Completado,Web
-439,O00439,68,1,12,2026-05-25,3,964.42,Completado,Presencial
-440,O00440,65,3,13,2026-05-13,4,1002.28,Completado,Presencial
-441,O00441,7,6,8,2026-01-02,3,340.57,Completado,Web
-442,O00442,21,2,11,2026-03-14,1,92.77,Completado,Call Center
-443,O00443,76,2,15,2026-02-27,4,1289.92,Completado,Web
-444,O00444,31,1,12,2026-02-12,3,967.55,Observado,Presencial
-445,O00445,21,2,11,2026-01-01,2,198.65,Completado,App
-446,O00446,35,5,4,2026-06-21,3,359.96,Completado,Web
-447,O00447,56,6,8,2026-03-25,6,663.74,Completado,Web
-448,O00448,17,6,15,2026-01-25,1,378.11,Completado,App
-449,O00449,22,5,9,2026-06-14,2,142.07,Completado,Call Center
-450,O00450,48,1,4,2026-02-15,6,591.55,Completado,Presencial
-451,O00451,70,3,10,2026-01-15,2,309.04,Pendiente,App
-452,O00452,69,5,7,2026-01-31,1,95.35,Completado,Web
-453,O00453,10,6,5,2026-02-06,2,793.7,Cancelado,App
-454,O00454,31,6,9,2026-05-21,3,158.72,Completado,Presencial
-455,O00455,63,6,8,2026-01-16,3,355.43,Completado,Call Center
-456,O00456,62,2,3,2026-04-06,5,1175.24,Completado,Presencial
-457,O00457,28,2,14,2026-05-26,1,292.66,Observado,Call Center
-458,O00458,55,1,11,2026-03-23,2,163.71,Pendiente,Web
-459,O00459,25,1,13,2026-06-02,4,1019.59,Observado,Presencial
-460,O00460,47,1,1,2026-03-28,1,364.69,Completado,Call Center
-461,O00461,45,1,13,2026-05-25,6,1412.33,Completado,Call Center
-462,O00462,73,5,13,2026-02-21,1,276.81,Completado,Web
-463,O00463,79,6,12,2026-01-24,1,389.77,Cancelado,Call Center
-464,O00464,22,6,13,2026-03-20,5,1378.91,Completado,Presencial
-465,O00465,35,6,12,2026-04-02,4,1507.72,Observado,Web
-466,O00466,28,2,2,2026-02-26,2,530.31,Completado,Call Center
-467,O00467,29,5,4,2026-06-24,3,363.23,Observado,App
-468,O00468,57,2,7,2026-05-30,6,540.63,Completado,App
-469,O00469,32,6,3,2026-04-08,4,829.95,Completado,Presencial
-470,O00470,5,5,5,2026-03-28,2,838.48,Completado,Web
-471,O00471,1,2,7,2026-03-06,6,488.73,Completado,Presencial
-472,O00472,53,2,3,2026-01-05,1,207.52,Completado,Call Center
-473,O00473,51,3,7,2026-04-20,6,520.27,Completado,Web
-474,O00474,19,1,6,2026-05-10,5,1909.43,Completado,App
-475,O00475,27,6,7,2026-03-07,5,424.46,Completado,App
-476,O00476,72,2,2,2026-05-23,3,900.33,Completado,Web
-477,O00477,63,3,3,2026-03-22,5,1136.57,Pendiente,Web
-478,O00478,21,5,6,2026-02-20,5,1715.56,Completado,Web
-479,O00479,39,1,2,2026-01-31,6,1646.51,Observado,App
-480,O00480,43,5,11,2026-01-18,1,82.2,Completado,App
-481,O00481,62,4,9,2026-03-11,5,338.09,Completado,Presencial
-482,O00482,9,1,8,2026-04-13,1,115.97,Completado,App
-483,O00483,21,4,8,2026-02-03,5,504.12,Cancelado,App
-484,O00484,42,4,15,2026-03-21,5,2186.53,Pendiente,Call Center
-485,O00485,71,6,14,2026-05-28,2,690.17,Completado,App
-486,O00486,78,1,6,2026-06-02,5,1834.51,Completado,Call Center
-487,O00487,16,4,13,2026-04-04,4,1245.26,Completado,Call Center
-488,O00488,14,5,1,2026-04-06,5,2321.2,Completado,App
-489,O00489,19,5,2,2026-01-20,2,668.01,Completado,Call Center
-490,O00490,58,3,15,2026-02-06,1,397.3,Completado,Presencial
-491,O00491,74,1,2,2026-04-18,3,864.49,Completado,App
-492,O00492,57,1,7,2026-02-24,2,149.23,Cancelado,Web
-493,O00493,39,4,11,2026-02-11,2,175.74,Completado,App
-494,O00494,77,1,5,2026-01-25,4,1432.01,Observado,Web
-495,O00495,27,3,8,2026-03-04,2,184.88,Completado,Web
-496,O00496,54,6,14,2026-03-30,4,1486.24,Completado,Call Center
-497,O00497,45,4,13,2026-05-19,2,624.04,Completado,Presencial
-498,O00498,6,2,5,2026-06-11,2,746.96,Completado,Web
-499,O00499,49,5,5,2026-02-11,3,1142.12,Completado,Web
-500,O00500,14,6,4,2026-03-31,5,645.83,Completado,App
+id_operacion,codigo_operacion,id_cliente,id_sede,id_empleado,fecha_operacion,canal,estado,monto_total
+1,O00001,180,5,4,2026-06-27,Campus,Cancelado,2426.00
+2,O00002,169,2,10,2026-05-04,Aula virtual,Cancelado,1982.00
+3,O00003,1,1,21,2026-05-01,Portal del estudiante,Observado,4260.00
+4,O00004,136,1,16,2026-02-15,Admisión telefónica,Completado,340.00
+5,O00005,52,6,6,2026-02-05,Campus,Completado,4996.00
+6,O00006,182,4,39,2026-02-20,Aula virtual,Completado,2932.00
+7,O00007,180,5,17,2026-06-04,Portal del estudiante,Completado,6988.00
+8,O00008,42,6,25,22/06/2026,Admisión telefónica,Completado,11842.00
+9,O00009,11,5,37,2026-02-28,Campus,Completado,3532.00
+10,O00010,179,1,29,2026-03-05,Aula virtual,Completado,636.00
+11,O00011,83,3,2,2026-04-25,Portal del estudiante,Completado,7436.00
+12,O00012,50,2,16,2026-06-14,Admisión telefónica,Completado,4180.00
+13,O00013,115,1,30,2026-06-16,Campus,Observado,2460.00
+14,O00014,107,6,31,2026-05-11,Aula virtual,Completado,1896.00
+15,O00015,111,4,33,2026-05-08,Portal del estudiante,Pendiente,960.00
+16,O00016,107,6,17,2026-03-07,Admisión telefónica,Completado,848.00
+17,O00017,52,5,8,2026-06-16,Campus,Completado,4248.00
+18,O00018,187,6,23,2026-06-26,Aula virtual,Completado,4192.00
+19,O00019,90,2,30,2026-04-13,Portal del estudiante,Pendiente,4436.00
+20,O00020,124,1,2,28/03/2026,Admisión telefónica,Completado,2233.95
+21,O00021,62,3,25,22/05/2026,Campus,Completado,4072.04
+22,O00022,79,4,20,2026-06-14,Aula virtual,Completado,2432.00
+23,O00023,51,3,18,2026-01-20,Portal del estudiante,Pendiente,2580.00
+24,O00024,39,2,6,2026-01-15,Admisión telefónica,Completado,9864.00
+25,O00025,131,1,23,2026-01-09,Campus,Completado,8700.00
+26,O00026,162,4,13,2026-06-07,Aula virtual,Completado,2018.00
+27,O00027,48,1,22,2026-03-28,Portal del estudiante,Completado,3080.00
+28,O00028,108,1,22,2026-03-14,Admisión telefónica,Cancelado,1080.00
+29,O00029,149,6,35,2026-02-24,Campus,Completado,2680.00
+30,O00030,88,5,31,2026-03-05,Aula virtual,Observado,8516.00
+31,O00031,89,4,37,2026-03-07,Portal del estudiante,Cancelado,6892.00
+32,O00032,72,2,28,2026-05-13,Admisión telefónica,Pendiente,180.00
+33,O00033,118,2,19,2026-02-14,Campus,Pendiente,2922.00
+34,O00034,87,2,2,04/03/2026,Aula virtual,Completado,2480.00
+35,O00035,4,6,40,2026-06-21,Portal del estudiante,Completado,1226.00
+36,O00036,32,5,4,2026-06-09,Admisión telefónica,Pendiente,5328.00
+37,O00037,111,4,26,2026-06-14,Campus,Completado,1850.00
+38,O00038,194,2,27,2026-06-05,Aula virtual,Completado,6244.00
+39,O00039,62,5,9,2026-04-01,Portal del estudiante,Pendiente,7140.00
+40,O00040,115,4,8,2026-02-05,Admisión telefónica,Completado,1056.00
+41,O00041,97,5,28,2026-05-06,Campus,Completado,3888.00
+42,O00042,143,6,37,22/01/2026,Aula virtual,Completado,1040.00
+43,O00043,24,5,31,2026-02-28,Portal del estudiante,Cancelado,500.00
+44,O00044,64,5,37,2026-03-26,Admisión telefónica,Observado,1160.00
+45,O00045,46,6,37,2026-05-04,Campus,Cancelado,-3058.78
+46,O00046,84,5,14,2026-03-21,Aula virtual,Completado,8930.00
+47,O00047,57,1,25,2026-06-03,Portal del estudiante,Observado,4984.00
+48,O00048,146,4,19,2026-05-18,Admisión telefónica,Pendiente,4164.00
+49,O00049,70,3,31,2026-03-21,Campus,Completado,1200.00
+50,O00050,154,2,21,2026-06-24,Aula virtual,Completado,10144.00
+51,O00051,185,4,4,2026-06-23,Portal del estudiante,Completado,1200.00
+52,O00052,109,6,28,2026-02-09,Admisión telefónica,Completado,10976.00
+53,O00053,188,4,11,2026-01-17,Campus,Cancelado,3100.00
+54,O00054,44,5,27,2026-03-22,Aula virtual,Cancelado,4320.00
+55,O00055,61,1,5,2026-05-06,Portal del estudiante,Completado,6314.00
+56,O00056,127,3,40,2026-04-16,Admisión telefónica,Completado,2088.00
+57,O00057,13,6,19,2026-05-01,Campus,Completado,536.00
+58,O00058,193,5,39,2026-05-15,Aula virtual,Pendiente,2718.00
+59,O00059,88,3,33,2026-03-03,Portal del estudiante,Cancelado,1570.00
+60,O00060,2,3,10,2026-04-27,Admisión telefónica,Cancelado,7848.00
+61,O00061,110,4,6,2026-05-19,Campus,Cancelado,3214.00
+62,O00062,130,3,9,2026-06-18,Aula virtual,Cancelado,9312.00
+63,O00063,68,5,29,12/01/2026,Portal del estudiante,Completado,7992.00
+64,O00064,97,1,23,2026-02-16,Admisión telefónica,Completado,420.00
+65,O00065,90,1,9,2026-03-19,Campus,Pendiente,2620.00
+66,O00066,125,4,13,2026-06-16,Aula virtual,Completado,712.00
+67,O00067,77,5,8,2026-03-02,Portal del estudiante,Observado,9460.00
+68,O00068,2,4,22,2026-06-18,Admisión telefónica,Completado,5496.00
+69,O00069,159,1,6,2026-03-05,Campus,Pendiente,4930.00
+70,O00070,66,4,10,2026-05-24,Aula virtual,Completado,5356.00
+71,O00071,93,3,2,2026-04-05,Portal del estudiante,Cancelado,4272.00
+72,O00072,140,6,2,2026-04-14,Admisión telefónica,Completado,3512.00
+73,O00073,31,6,7,2026-02-03,Campus,Cancelado,3560.00
+74,O00074,57,5,3,2026-01-12,Aula virtual,Cancelado,-2754.37
+75,O00075,180,4,19,2026-03-23,Portal del estudiante,Cancelado,1980.00
+76,O00076,187,1,30,2026-01-24,Admisión telefónica,Completado,1424.00
+77,O00077,134,5,22,2026-03-05,Campus,Cancelado,140.00
+78,O00078,9,4,38,2026-05-22,Aula virtual,Observado,6538.00
+79,O00079,118,4,39,2026-04-04,Portal del estudiante,Completado,3196.00
+80,O00080,95,5,18,2026-05-16,Admisión telefónica,Completado,1894.58
+81,O00081,82,4,39,2026-06-22,Campus,Observado,2257.52
+82,O00082,8,1,36,2026-04-10,Aula virtual,Completado,7896.00
+83,O00083,196,3,10,2026-04-03,Portal del estudiante,Completado,2484.00
+84,O00084,29,3,35,2026-01-12,Admisión telefónica,Completado,1272.00
+85,O00085,125,3,20,2026-06-13,Campus,Completado,420.00
+86,O00086,61,3,7,2026-05-26,Aula virtual,Completado,2756.00
+87,O00087,28,4,14,2026-02-06,Portal del estudiante,Completado,760.00
+88,O00088,84,1,4,22/01/2026,Admisión telefónica,Pendiente,1182.00
+89,O00089,51,3,19,2026-03-23,Campus,Pendiente,12192.00
+90,O00090,5,1,1,2026-05-18,Aula virtual,Cancelado,360.00
+91,O00091,133,1,27,2026-01-02,Portal del estudiante,Completado,10060.47
+92,O00092,122,3,22,15/03/2026,Admisión telefónica,Completado,1416.00
+93,O00093,156,3,1,2026-06-04,Campus,Pendiente,2496.00
+94,O00094,78,2,26,2026-03-05,Aula virtual,Observado,2710.00
+95,O00095,50,1,4,2026-03-27,Portal del estudiante,Pendiente,1240.00
+96,O00096,35,6,21,2026-06-14,Admisión telefónica,Completado,8420.00
+97,O00097,53,1,28,2026-03-01,Campus,Completado,4008.00
+98,O00098,179,1,12,2026-03-06,Aula virtual,Cancelado,9427.89
+99,O00099,43,1,37,2026-02-13,Portal del estudiante,Completado,12510.00
+100,O00100,150,6,12,2026-05-04,Admisión telefónica,Completado,1064.00
+101,O00101,168,6,4,2026-02-02,Campus,Completado,9764.00
+102,O00102,117,3,36,2026-01-24,Aula virtual,Completado,8400.00
+103,O00103,27,5,25,2026-06-10,Portal del estudiante,Completado,1272.00
+104,O00104,117,3,2,2026-04-13,Admisión telefónica,Completado,10400.00
+105,O00105,67,6,23,2026-03-01,Campus,Pendiente,6176.00
+106,O00106,143,1,16,2026-05-10,Aula virtual,Completado,1860.00
+107,O00107,139,4,10,2026-04-09,Portal del estudiante,Completado,2664.00
+108,O00108,33,3,16,2026-06-28,Admisión telefónica,Pendiente,18560.00
+109,O00109,178,4,12,2026-03-14,Campus,Completado,1060.00
+110,O00110,154,5,27,2026-03-25,Aula virtual,Completado,824.04
+111,O00111,69,3,19,2026-05-19,Portal del estudiante,Completado,2248.00
+112,O00112,195,3,26,2026-03-11,Admisión telefónica,Completado,5624.00
+113,O00113,91,3,36,2026-01-21,Campus,Pendiente,996.00
+114,O00114,90,3,30,2026-02-11,Aula virtual,Completado,8804.00
+115,O00115,166,1,4,2026-03-21,Portal del estudiante,Observado,2832.00
+116,O00116,145,6,35,2026-06-26,Admisión telefónica,Cancelado,2700.00
+117,O00117,115,3,12,2026-03-17,Campus,Completado,1462.00
+118,O00118,9747,5,8,2026-01-24,Aula virtual,Completado,4854.00
+119,O00119,136,5,5,2026-03-26,Portal del estudiante,Completado,7454.00
+120,O00120,93,3,38,2026-02-01,Admisión telefónica,Completado,9446.00
+121,O00121,134,5,2,2026-05-08,Campus,Observado,2694.00
+122,O00122,4,2,35,2026-05-26,Aula virtual,Completado,3120.00
+123,O00123,145,3,1,2026-04-24,Portal del estudiante,Pendiente,9192.00
+124,O00124,45,2,32,2026-03-16,Admisión telefónica,Completado,4908.00
+125,O00125,67,3,,2026-02-10,Campus,Cancelado,4304.00
+126,O00126,84,5,38,2026-02-22,Aula virtual,Completado,4680.00
+127,O00127,81,4,5,2026-02-01,Portal del estudiante,Completado,1476.00
+128,O00128,176,3,22,2026-03-22,Admisión telefónica,Completado,140.00
+129,O00129,198,6,16,2026-01-14,Campus,Completado,8620.00
+130,O00130,177,5,20,2026-04-12,Aula virtual,Completado,4168.00
+131,O00131,150,1,26,2026-04-07,Portal del estudiante,Completado,7160.00
+132,O00132,81,1,40,02/03/2026,Admisión telefónica,Completado,160.00
+133,O00133,42,4,4,2026-03-21,Campus,Pendiente,5904.00
+134,O00134,180,6,23,2026-05-26,Aula virtual,Completado,10232.00
+135,O00135,190,2,5,2026-03-19,Portal del estudiante,Completado,4808.00
+136,O00136,166,3,,2026-06-26,Admisión telefónica,Pendiente,536.00
+137,O00137,78,2,30,2026-06-27,Campus,Completado,1316.00
+138,O00138,88,1,11,17/02/2026,Aula virtual,Pendiente,1252.00
+139,O00139,2,5,37,2026-03-21,Portal del estudiante,Cancelado,540.00
+140,O00140,166,4,27,04/03/2026,Admisión telefónica,Completado,6024.00
+141,O00141,43,3,26,2026-05-17,Campus,Completado,840.00
+142,O00142,165,1,37,2026-05-13,Aula virtual,Observado,5154.23
+143,O00143,130,3,3,2026-06-13,Portal del estudiante,Completado,2383.42
+144,O00144,94,2,35,2026-05-18,Admisión telefónica,Completado,4418.00
+145,O00145,142,1,,2026-01-26,Campus,Completado,3080.00
+146,O00146,20,3,22,2026-04-07,Aula virtual,Observado,7658.00
+147,O00147,154,5,22,2026-03-15,Portal del estudiante,Completado,562.17
+148,O00148,186,2,33,2026-01-09,Admisión telefónica,Completado,7290.00
+149,O00149,87,6,6,2026-02-26,Campus,Completado,5628.00
+150,O00150,135,2,,27/05/2026,Aula virtual,Observado,8084.00
+151,O00151,24,1,26,2026-05-24,Portal del estudiante,Completado,4650.00
+152,O00152,198,3,15,2026-03-03,Admisión telefónica,Completado,4904.00
+153,O00153,74,2,3,2026-06-07,Campus,Completado,2512.00
+154,O00154,151,2,26,2026-06-15,Aula virtual,Pendiente,2448.00
+155,O00155,19,2,17,2026-02-10,Portal del estudiante,Completado,712.00
+156,O00156,37,2,7,2026-04-26,Admisión telefónica,Completado,586.00
+157,O00157,87,2,21,2026-02-05,Campus,Completado,2100.00
+158,O00158,8,4,14,2026-04-23,Aula virtual,Cancelado,4716.00
+159,O00159,164,2,1,2026-03-14,Portal del estudiante,Observado,5144.00
+160,O00160,166,6,,2026-02-02,Admisión telefónica,Completado,4044.00
+161,O00161,178,2,24,2026-02-17,Campus,Completado,2820.00
+162,O00162,48,4,16,2026-02-18,Aula virtual,Pendiente,7992.00
+163,O00163,54,5,32,2026-06-16,Portal del estudiante,Completado,4226.00
+164,O00164,26,5,35,2026-05-08,Admisión telefónica,Observado,1568.00
+165,O00165,131,3,21,2026-01-26,Campus,Completado,1048.00
+166,O00166,109,5,5,2026-04-26,Aula virtual,Completado,2198.00
+167,O00167,32,3,20,2026-04-04,Portal del estudiante,Cancelado,2836.00
+168,O00168,136,2,36,2026-03-02,Admisión telefónica,Observado,360.00
+169,O00169,98,1,17,2026-01-01,Campus,Completado,5240.00
+170,O00170,179,6,13,2026-01-12,Aula virtual,Completado,480.00
+171,O00171,132,3,38,2026-04-24,Portal del estudiante,Pendiente,2224.00
+172,O00172,36,2,37,2026-06-06,Admisión telefónica,Pendiente,1104.00
+173,O00173,139,2,38,24/05/2026,Campus,Cancelado,2300.00
+174,O00174,175,4,31,2026-01-13,Aula virtual,Completado,540.00
+175,O00175,87,3,34,2026-02-17,Portal del estudiante,Completado,7642.00
+176,O00176,25,3,33,2026-03-21,Admisión telefónica,Completado,2208.00
+177,O00177,95,2,18,2026-05-18,Campus,Cancelado,7316.00
+178,O00178,61,2,30,2026-03-21,Aula virtual,Completado,7288.00
+179,O00179,184,4,16,2026-02-20,Portal del estudiante,Pendiente,4192.00
+180,O00180,101,3,11,2026-06-19,Admisión telefónica,Completado,7132.00
+181,O00181,138,5,1,2026-03-25,Campus,Observado,7248.00
+182,O00182,5,3,4,2026-03-06,Aula virtual,Observado,15140.00
+183,O00183,118,6,13,07/04/2026,Portal del estudiante,Pendiente,8960.00
+184,O00184,118,4,9,2026-04-18,Admisión telefónica,Completado,1560.00
+185,O00185,155,4,15,2026-06-02,Campus,Pendiente,7390.00
+186,O00186,31,1,4,2026-05-21,Aula virtual,Completado,268.00
+187,O00187,168,4,38,2026-02-16,Portal del estudiante,Cancelado,6356.00
+188,O00188,100,1,25,2026-01-17,Admisión telefónica,Completado,290.00
+189,O00189,33,2,28,2026-04-18,Campus,Completado,9796.00
+190,O00190,157,4,2,2026-06-22,Aula virtual,Pendiente,6068.00
+191,O00191,159,1,40,2026-04-07,Portal del estudiante,Completado,792.00
+192,O00192,59,1,26,2026-06-06,Admisión telefónica,Pendiente,680.00
+193,O00193,109,1,15,2026-02-26,Campus,Cancelado,4242.00
+194,O00194,190,5,9,2026-05-19,Aula virtual,Cancelado,1908.00
+195,O00195,114,2,24,2026-06-01,Portal del estudiante,Pendiente,1358.00
+196,O00196,180,3,3,2026-03-21,Admisión telefónica,Completado,4880.00
+197,O00197,194,6,6,2026-01-16,Campus,Completado,1420.00
+198,O00198,83,4,34,2026-02-03,Aula virtual,Cancelado,870.00
+199,O00199,167,1,11,25/03/2026,Portal del estudiante,Pendiente,7492.00
+200,O00200,137,2,6,2026-06-03,Admisión telefónica,Pendiente,3700.00
+201,O00201,182,4,14,2026-04-09,Campus,Pendiente,444.00
+202,O00202,129,4,34,2026-06-15,Aula virtual,Completado,7724.00
+203,O00203,79,3,23,2026-06-09,Portal del estudiante,Completado,6822.00
+204,O00204,29,5,5,2026-05-23,Admisión telefónica,Observado,700.00
+205,O00205,91,2,19,2026-03-06,Campus,Completado,1580.00
+206,O00206,187,2,19,2026-05-12,Aula virtual,Pendiente,1020.00
+207,O00207,43,1,28,2026-04-10,Portal del estudiante,Completado,2604.00
+208,O00208,1,3,3,2026-02-09,Admisión telefónica,Pendiente,190.00
+209,O00209,7,6,,2026-06-04,Campus,Completado,3868.00
+210,O00210,75,2,19,2026-05-09,Aula virtual,Completado,906.00
+211,O00211,9703,4,31,2026-06-15,Portal del estudiante,Pendiente,12180.00
+212,O00212,158,1,29,2026-04-20,Admisión telefónica,Cancelado,636.00
+213,O00213,54,1,27,2026-04-26,Campus,Cancelado,6294.00
+214,O00214,116,5,26,2026-02-16,Aula virtual,Completado,3372.00
+215,O00215,147,5,17,28/06/2026,Portal del estudiante,Observado,3144.00
+216,O00216,193,4,34,2026-06-03,Admisión telefónica,Completado,3042.00
+217,O00217,16,6,2,2026-02-03,Campus,Pendiente,4034.00
+218,O00218,1,2,33,2026-05-05,Aula virtual,Completado,-326.52
+219,O00219,107,4,33,2026-05-11,Portal del estudiante,Completado,3800.00
+220,O00220,17,4,16,2026-02-09,Admisión telefónica,Cancelado,2040.00
+221,O00221,194,2,34,2026-01-12,Campus,Completado,2800.00
+222,O00222,108,2,4,05/06/2026,Aula virtual,Cancelado,1880.00
+223,O00223,177,1,27,2026-02-23,Portal del estudiante,Pendiente,4432.00
+224,O00224,148,4,10,2026-04-28,Admisión telefónica,Completado,268.00
+225,O00225,169,1,17,2026-04-22,Campus,Pendiente,3104.00
+226,O00226,181,3,36,2026-05-25,Aula virtual,Completado,6227.72
+227,O00227,173,5,15,2026-01-26,Portal del estudiante,Completado,420.00
+228,O00228,164,4,40,2026-01-26,Admisión telefónica,Completado,9456.00
+229,O00229,103,5,2,2026-05-01,Campus,Pendiente,2072.00
+230,O00230,47,2,24,2026-02-23,Aula virtual,Cancelado,1450.00
+231,O00231,161,1,20,2026-01-27,Portal del estudiante,Cancelado,4124.00
+232,O00232,106,6,23,2026-03-23,Admisión telefónica,Completado,1080.00
+233,O00233,39,3,26,2026-05-16,Campus,Pendiente,-559.44
+234,O00234,115,3,20,2026-02-05,Aula virtual,Completado,3120.00
+235,O00235,9400,1,8,2026-02-02,Portal del estudiante,Completado,2760.00
+236,O00236,106,6,29,2026-05-19,Admisión telefónica,Cancelado,2152.00
+237,O00237,185,3,37,10/05/2026,Campus,Completado,3366.00
+238,O00238,55,1,33,2026-06-26,Aula virtual,Completado,7340.00
+239,O00239,101,3,35,2026-06-22,Portal del estudiante,Pendiente,5436.00
+240,O00240,48,1,27,2026-04-19,Admisión telefónica,Pendiente,7534.00
+241,O00241,91,4,11,2026-02-22,Campus,Cancelado,2524.00
+242,O00242,188,2,31,11/05/2026,Aula virtual,Cancelado,10532.00
+243,O00243,181,3,35,2026-01-22,Portal del estudiante,Completado,6888.00
+244,O00244,178,6,2,2026-04-23,Admisión telefónica,Cancelado,5508.00
+245,O00245,62,1,30,2026-01-02,Campus,Completado,2220.00
+246,O00246,92,2,9,2026-01-05,Aula virtual,Completado,684.00
+247,O00247,7,4,18,2026-04-16,Portal del estudiante,Completado,760.00
+248,O00248,90,4,35,2026-04-21,Admisión telefónica,Pendiente,1160.00
+249,O00249,50,1,3,2026-04-04,Campus,Pendiente,3752.00
+250,O00250,94,3,18,2026-04-15,Aula virtual,Observado,1608.00
+251,O00251,108,6,7,02/04/2026,Portal del estudiante,Completado,2380.00
+252,O00252,172,1,8,2026-04-19,Admisión telefónica,Pendiente,720.00
+253,O00253,37,3,17,2026-03-23,Campus,Completado,2280.00
+254,O00254,75,2,23,2026-04-14,Aula virtual,Completado,3044.00
+255,O00255,142,2,35,2026-02-13,Portal del estudiante,Completado,6744.00
+256,O00256,61,4,3,2026-03-08,Admisión telefónica,Completado,6328.00
+257,O00257,162,5,25,2026-06-04,Campus,Pendiente,13424.00
+258,O00258,181,5,10,2026-05-12,Aula virtual,Completado,2324.00
+259,O00259,157,2,13,2026-04-04,Portal del estudiante,Completado,7788.00
+260,O00260,131,6,40,2026-05-02,Admisión telefónica,Observado,5680.00
+261,O00261,9528,3,17,2026-04-11,Campus,Completado,5614.00
+262,O00262,118,1,6,2026-04-14,Aula virtual,Completado,1378.00
+263,O00263,163,5,35,2026-03-14,Portal del estudiante,Cancelado,4328.00
+264,O00264,35,1,7,2026-06-04,Admisión telefónica,Observado,4732.00
+265,O00265,97,6,28,2026-02-12,Campus,Pendiente,5292.00
+266,O00266,159,3,33,2026-06-07,Aula virtual,Completado,3900.00
+267,O00267,95,2,28,2026-02-13,Portal del estudiante,Completado,1648.00
+268,O00268,199,3,36,2026-01-25,Admisión telefónica,Completado,6458.00
+269,O00269,187,6,5,2026-02-06,Campus,Completado,9320.00
+270,O00270,78,4,22,2026-03-05,Aula virtual,Completado,10052.00
+271,O00271,162,5,19,23/01/2026,Portal del estudiante,Completado,2466.00
+272,O00272,29,4,28,2026-04-14,Admisión telefónica,Completado,8450.00
+273,O00273,164,4,40,2026-03-02,Campus,Pendiente,12252.00
+274,O00274,38,6,37,2026-06-15,Aula virtual,Completado,3192.00
+275,O00275,177,1,6,2026-05-26,Portal del estudiante,Cancelado,3732.00
+276,O00276,181,2,16,2026-03-07,Admisión telefónica,Pendiente,4012.00
+277,O00277,60,6,8,2026-05-25,Campus,Observado,1056.00
+278,O00278,193,1,18,26/02/2026,Aula virtual,Completado,11328.00
+279,O00279,140,1,9,2026-05-07,Portal del estudiante,Completado,2952.00
+280,O00280,100,1,15,2026-06-25,Admisión telefónica,Cancelado,18082.00
+281,O00281,97,1,29,2026-05-21,Campus,Observado,380.00
+282,O00282,24,3,17,2026-06-08,Aula virtual,Completado,754.18
+283,O00283,116,5,34,2026-03-21,Portal del estudiante,Completado,9172.00
+284,O00284,163,5,36,2026-01-18,Admisión telefónica,Completado,13024.00
+285,O00285,143,6,20,2026-05-22,Campus,Completado,13032.00
+286,O00286,157,2,2,2026-02-03,Aula virtual,Pendiente,8836.00
+287,O00287,175,4,2,2026-05-11,Portal del estudiante,Completado,-827.04
+288,O00288,147,5,9,16/05/2026,Admisión telefónica,Completado,3120.00
+289,O00289,143,2,17,2026-02-03,Campus,Completado,2284.00
+290,O00290,107,2,6,2026-03-03,Aula virtual,Completado,2850.00
+291,O00291,12,1,19,2026-04-24,Portal del estudiante,Completado,2136.00
+292,O00292,9745,5,36,2026-05-16,Admisión telefónica,Completado,1680.00
+293,O00293,122,6,34,2026-02-07,Campus,Completado,6156.00
+294,O00294,89,4,39,2026-01-25,Aula virtual,Pendiente,2632.00
+295,O00295,19,5,4,2026-01-24,Portal del estudiante,Completado,8552.00
+296,O00296,15,1,7,2026-01-05,Admisión telefónica,Completado,4740.00
+297,O00297,199,2,10,2026-01-19,Campus,Completado,4929.2
+298,O00298,101,3,3,2026-02-15,Aula virtual,Completado,4080.00
+299,O00299,81,2,24,2026-02-20,Portal del estudiante,Completado,1264.00
+300,O00300,172,4,22,2026-02-04,Admisión telefónica,Completado,11068.00
+301,O00301,49,3,36,2026-05-02,Campus,Completado,5404.00
+302,O00302,82,4,27,2026-03-07,Aula virtual,Observado,2445.83
+303,O00303,165,4,39,2026-05-16,Portal del estudiante,Observado,7884.00
+304,O00304,124,4,35,2026-01-01,Admisión telefónica,Cancelado,7820.00
+305,O00305,71,6,7,2026-06-12,Campus,Pendiente,2714.00
+306,O00306,162,6,7,2026-05-11,Aula virtual,Completado,8132.00
+307,O00307,36,2,30,2026-02-23,Portal del estudiante,Completado,5800.00
+308,O00308,171,2,15,2026-03-18,Admisión telefónica,Observado,1424.00
+309,O00309,88,6,32,2026-06-22,Campus,Pendiente,5220.00
+310,O00310,162,1,2,2026-06-12,Aula virtual,Completado,480.00
+311,O00311,66,2,6,2026-06-09,Portal del estudiante,Completado,4248.00
+312,O00312,119,5,17,2026-03-12,Admisión telefónica,Completado,12956.00
+313,O00313,88,3,5,2026-05-20,Campus,Pendiente,948.00
+314,O00314,119,2,10,2026-03-08,Aula virtual,Completado,5028.00
+315,O00315,64,4,27,2026-03-25,Portal del estudiante,Pendiente,2890.00
+316,O00316,156,2,20,2026-06-11,Admisión telefónica,Completado,15970.00
+317,O00317,100,3,21,2026-05-24,Campus,Pendiente,4590.00
+318,O00318,193,3,10,2026-01-10,Aula virtual,Completado,4952.00
+319,O00319,135,3,6,2026-02-04,Portal del estudiante,Completado,3240.00
+320,O00320,2,3,39,11/05/2026,Admisión telefónica,Pendiente,2664.00
+321,O00321,62,6,13,2026-03-04,Campus,Completado,3150.00
+322,O00322,114,6,17,2026-04-24,Aula virtual,Pendiente,4212.00
+323,O00323,50,1,26,2026-01-18,Portal del estudiante,Observado,3408.00
+324,O00324,147,3,,22/06/2026,Admisión telefónica,Completado,1948.00
+325,O00325,6,2,29,2026-02-03,Campus,Completado,1780.00
+326,O00326,71,1,31,2026-01-19,Aula virtual,Pendiente,3484.00
+327,O00327,151,3,28,2026-04-20,Portal del estudiante,Completado,620.00
+328,O00328,149,2,36,2026-04-24,Admisión telefónica,Pendiente,2100.00
+329,O00329,81,3,23,2026-01-20,Campus,Completado,3113.28
+330,O00330,8,5,3,2026-02-10,Aula virtual,Completado,3936.00
+331,O00331,60,4,34,2026-03-25,Portal del estudiante,Completado,2756.00
+332,O00332,51,3,29,2026-02-13,Admisión telefónica,Cancelado,3048.00
+333,O00333,118,5,36,2026-04-27,Campus,Completado,13986.00
+334,O00334,175,3,39,2026-02-12,Aula virtual,Completado,6740.00
+335,O00335,17,2,23,2026-03-22,Portal del estudiante,Cancelado,6086.00
+336,O00336,100,6,37,2026-06-16,Admisión telefónica,Completado,3716.00
+337,O00337,181,5,6,2026-02-20,Campus,Completado,6547.63
+338,O00338,46,2,7,2026-02-02,Aula virtual,Completado,6646.00
+339,O00339,31,5,40,2026-04-04,Portal del estudiante,Completado,2580.00
+340,O00340,139,2,3,2026-02-19,Admisión telefónica,Pendiente,6080.00
+341,O00341,176,1,25,2026-03-24,Campus,Pendiente,2664.00
+342,O00342,148,1,,2026-04-08,Aula virtual,Completado,1872.00
+343,O00343,103,2,11,2026-05-25,Portal del estudiante,Completado,1325.17
+344,O00344,167,1,24,2026-01-12,Admisión telefónica,Completado,10782.00
+345,O00345,131,1,27,2026-05-14,Campus,Completado,7080.00
+346,O00346,174,6,18,2026-06-11,Aula virtual,Completado,2932.00
+347,O00347,132,4,28,2026-03-24,Portal del estudiante,Completado,796.98
+348,O00348,128,1,20,2026-04-16,Admisión telefónica,Completado,5910.00
+349,O00349,134,2,19,28/03/2026,Campus,Completado,3108.00
+350,O00350,108,3,22,2026-05-11,Aula virtual,Completado,2700.00
+351,O00351,13,3,15,2026-03-27,Portal del estudiante,Completado,4076.00
+352,O00352,153,6,13,2026-01-07,Admisión telefónica,Completado,3272.00
+353,O00353,98,3,9,2026-01-17,Campus,Completado,492.00
+354,O00354,103,3,15,2026-05-07,Aula virtual,Completado,5304.00
+355,O00355,108,6,33,2026-02-22,Portal del estudiante,Cancelado,4680.00
+356,O00356,69,5,32,2026-02-14,Admisión telefónica,Completado,632.00
+357,O00357,110,1,5,2026-03-13,Campus,Completado,4328.00
+358,O00358,176,6,4,2026-06-07,Aula virtual,Completado,700.00
+359,O00359,116,4,37,2026-05-07,Portal del estudiante,Completado,4600.00
+360,O00360,169,3,15,2026-04-06,Admisión telefónica,Completado,13692.00
+361,O00361,176,6,8,2026-06-12,Campus,Pendiente,4244.00
+362,O00362,197,2,22,2026-05-09,Aula virtual,Pendiente,11188.00
+363,O00363,29,2,16,2026-02-16,Portal del estudiante,Completado,1627.95
+364,O00364,123,6,23,2026-05-23,Admisión telefónica,Completado,170.19
+365,O00365,131,5,7,2026-01-02,Campus,Completado,1116.00
+366,O00366,141,2,38,2026-05-12,Aula virtual,Observado,3612.00
+367,O00367,38,6,5,2026-02-04,Portal del estudiante,Completado,1140.00
+368,O00368,198,1,20,2026-03-12,Admisión telefónica,Completado,12884.00
+369,O00369,137,3,25,2026-02-09,Campus,Completado,12916.00
+370,O00370,154,2,27,06/04/2026,Aula virtual,Completado,3468.00
+371,O00371,55,6,16,2026-06-20,Portal del estudiante,Completado,2448.00
+372,O00372,103,1,29,2026-05-16,Admisión telefónica,Cancelado,2656.00
+373,O00373,168,4,6,2026-06-13,Campus,Completado,13404.00
+374,O00374,194,1,17,2026-03-25,Aula virtual,Pendiente,3900.00
+375,O00375,95,6,8,2026-01-28,Portal del estudiante,Observado,636.00
+376,O00376,78,1,20,2026-02-15,Admisión telefónica,Pendiente,10440.00
+377,O00377,77,2,23,2026-03-13,Campus,Completado,90.00
+378,O00378,166,5,4,2026-02-20,Aula virtual,Completado,1608.00
+379,O00379,199,4,4,2026-04-11,Portal del estudiante,Pendiente,8776.00
+380,O00380,47,5,9,01/04/2026,Admisión telefónica,Cancelado,4100.00
+381,O00381,147,3,15,15/04/2026,Campus,Observado,10272.00
+382,O00382,146,3,17,2026-03-21,Aula virtual,Pendiente,1942.00
+383,O00383,182,5,3,2026-06-22,Portal del estudiante,Pendiente,8370.00
+384,O00384,184,5,33,2026-04-02,Admisión telefónica,Observado,5880.00
+385,O00385,77,1,28,2026-05-10,Campus,Completado,4792.09
+386,O00386,29,6,31,2026-01-16,Aula virtual,Completado,1680.00
+387,O00387,49,1,4,2026-04-21,Portal del estudiante,Completado,6870.00
+388,O00388,115,6,18,2026-02-21,Admisión telefónica,Completado,3112.00
+389,O00389,165,6,39,2026-05-01,Campus,Completado,6144.00
+390,O00390,9,3,16,2026-05-27,Aula virtual,Completado,11420.00
+391,O00391,75,1,39,2026-02-03,Portal del estudiante,Completado,6000.00
+392,O00392,33,5,1,2026-03-03,Admisión telefónica,Completado,420.00
+393,O00393,83,1,33,2026-05-23,Campus,Cancelado,6100.00
+394,O00394,22,3,14,2026-04-08,Aula virtual,Completado,1178.00
+395,O00395,84,3,37,2026-01-24,Portal del estudiante,Pendiente,3920.00
+396,O00396,8,6,19,2026-05-16,Admisión telefónica,Completado,2772.00
+397,O00397,165,3,14,2026-05-18,Campus,Completado,4844.00
+398,O00398,146,5,20,2026-03-01,Aula virtual,Completado,2536.00
+399,O00399,122,6,13,2026-03-26,Portal del estudiante,Cancelado,1701.25
+400,O00400,183,3,7,2026-03-18,Admisión telefónica,Completado,6864.00
+401,O00401,19,6,7,2026-01-26,Campus,Cancelado,836.00
+402,O00402,101,5,39,2026-06-19,Aula virtual,Completado,5860.00
+403,O00403,73,5,24,2026-05-16,Portal del estudiante,Completado,1780.00
+404,O00404,6,4,36,2026-06-08,Admisión telefónica,Completado,3540.00
+405,O00405,127,4,28,28/02/2026,Campus,Completado,7454.00
+406,O00406,61,1,9,2026-04-13,Aula virtual,Completado,1444.00
+407,O00407,59,2,34,2026-04-18,Portal del estudiante,Completado,2128.00
+408,O00408,66,3,32,2026-04-24,Admisión telefónica,Completado,1316.00
+409,O00409,102,5,17,2026-02-02,Campus,Pendiente,1860.00
+410,O00410,65,4,35,2026-05-24,Aula virtual,Completado,7294.00
+411,O00411,70,3,25,2026-06-17,Portal del estudiante,Completado,3386.00
+412,O00412,148,2,4,2026-05-25,Admisión telefónica,Completado,181.1
+413,O00413,72,2,3,2026-05-20,Campus,Completado,90.00
+414,O00414,94,6,6,2026-04-01,Aula virtual,Completado,1754.00
+415,O00415,80,6,38,21/01/2026,Portal del estudiante,Cancelado,1730.00
+416,O00416,33,5,39,01/06/2026,Admisión telefónica,Completado,1200.00
+417,O00417,121,3,30,2026-06-05,Campus,Completado,1564.00
+418,O00418,141,3,25,2026-04-21,Aula virtual,Pendiente,4640.00
+419,O00419,180,3,1,2026-03-10,Portal del estudiante,Pendiente,6664.00
+420,O00420,3,1,10,2026-06-17,Admisión telefónica,Completado,6850.00
+421,O00421,105,6,33,2026-02-13,Campus,Cancelado,2900.00
+422,O00422,30,3,16,2026-02-28,Aula virtual,Completado,4848.00
+423,O00423,52,3,13,2026-03-24,Portal del estudiante,Completado,1260.00
+424,O00424,185,2,38,2026-05-04,Admisión telefónica,Completado,368.00
+425,O00425,22,4,25,2026-05-20,Campus,Cancelado,8196.00
+426,O00426,134,1,6,2026-02-08,Aula virtual,Completado,4680.00
+427,O00427,124,2,17,2026-06-04,Portal del estudiante,Completado,5284.00
+428,O00428,123,6,22,2026-01-07,Admisión telefónica,Cancelado,6042.00
+429,O00429,3,4,11,2026-01-22,Campus,Observado,6288.00
+430,O00430,157,4,21,2026-03-10,Aula virtual,Completado,2454.84
+431,O00431,189,2,4,16/02/2026,Portal del estudiante,Completado,7082.00
+432,O00432,40,5,15,2026-01-05,Admisión telefónica,Cancelado,7116.00
+433,O00433,192,6,11,2026-05-24,Campus,Cancelado,570.00
+434,O00434,125,3,7,2026-03-04,Aula virtual,Pendiente,532.00
+435,O00435,99,2,27,2026-03-12,Portal del estudiante,Completado,1680.00
+436,O00436,182,1,27,04/03/2026,Admisión telefónica,Pendiente,1640.00
+437,O00437,17,5,36,2026-02-23,Campus,Pendiente,3384.00
+438,O00438,4,2,19,2026-05-09,Aula virtual,Cancelado,1784.00
+439,O00439,98,4,18,2026-05-05,Portal del estudiante,Cancelado,2012.00
+440,O00440,9,2,21,2026-05-21,Admisión telefónica,Pendiente,4836.00
+441,O00441,172,5,19,2026-04-13,Campus,Completado,6316.00
+442,O00442,22,3,14,2026-01-02,Aula virtual,Completado,4080.00
+443,O00443,28,4,2,20/01/2026,Portal del estudiante,Pendiente,11950.00
+444,O00444,107,5,7,2026-02-22,Admisión telefónica,Completado,2116.00
+445,O00445,74,1,37,21/03/2026,Campus,Completado,2680.00
+446,O00446,200,3,11,2026-06-07,Aula virtual,Pendiente,5800.00
+447,O00447,138,2,15,2026-02-13,Portal del estudiante,Completado,4480.00
+448,O00448,62,6,19,2026-06-11,Admisión telefónica,Cancelado,956.00
+449,O00449,199,3,14,2026-01-26,Campus,Pendiente,5802.00
+450,O00450,88,3,4,2026-03-25,Aula virtual,Completado,6976.00
+451,O00451,182,4,36,2026-04-08,Portal del estudiante,Completado,7072.00
+452,O00452,121,4,30,2026-01-15,Admisión telefónica,Completado,1810.00
+453,O00453,150,1,8,2026-02-28,Campus,Observado,8436.00
+454,O00454,54,3,26,2026-04-14,Aula virtual,Pendiente,2260.00
+455,O00455,94,4,12,2026-05-01,Portal del estudiante,Pendiente,1907.87
+456,O00456,61,3,22,2026-02-19,Admisión telefónica,Completado,3672.00
+457,O00457,189,1,33,2026-01-15,Campus,Pendiente,3867.05
+458,O00458,100,6,11,2026-02-18,Aula virtual,Completado,5604.00
+459,O00459,94,4,38,2026-03-01,Portal del estudiante,Completado,6262.00
+460,O00460,179,1,30,05/06/2026,Admisión telefónica,Completado,13136.00
+461,O00461,79,5,4,02/06/2026,Campus,Pendiente,4914.00
+462,O00462,125,2,21,20/05/2026,Aula virtual,Pendiente,4174.00
+463,O00463,7,2,4,2026-05-01,Portal del estudiante,Pendiente,13130.00
+464,O00464,164,1,22,2026-01-04,Admisión telefónica,Pendiente,6200.00
+465,O00465,139,3,38,2026-02-26,Campus,Completado,1884.00
+466,O00466,170,5,34,2026-04-13,Aula virtual,Completado,3306.00
+467,O00467,120,4,40,2026-03-12,Portal del estudiante,Completado,3948.00
+468,O00468,31,2,17,2026-02-16,Admisión telefónica,Completado,6000.00
+469,O00469,122,1,13,2026-03-12,Campus,Completado,4312.00
+470,O00470,56,5,13,2026-06-21,Aula virtual,Completado,4104.00
+471,O00471,142,4,39,2026-04-27,Portal del estudiante,Pendiente,1450.00
+472,O00472,38,5,7,2026-02-01,Admisión telefónica,Completado,2392.00
+473,O00473,22,2,15,2026-03-05,Campus,Completado,3360.00
+474,O00474,118,5,22,2026-02-22,Aula virtual,Observado,3690.43
+475,O00475,154,4,31,2026-01-06,Portal del estudiante,Completado,6860.00
+476,O00476,9576,5,6,2026-04-14,Admisión telefónica,Completado,2522.00
+477,O00477,176,5,5,2026-03-11,Campus,Completado,7844.00
+478,O00478,32,3,16,2026-02-14,Aula virtual,Completado,4760.00
+479,O00479,175,4,32,2026-03-17,Portal del estudiante,Completado,3180.00
+480,O00480,148,5,2,2026-03-20,Admisión telefónica,Pendiente,1368.00
+481,O00481,9283,4,38,2026-01-17,Campus,Pendiente,2000.00
+482,O00482,161,1,18,2026-02-28,Aula virtual,Cancelado,4936.00
+483,O00483,180,4,15,2026-06-28,Portal del estudiante,Completado,7496.00
+484,O00484,12,2,18,2026-02-04,Admisión telefónica,Pendiente,192.43
+485,O00485,89,2,29,2026-04-14,Campus,Completado,5876.00
+486,O00486,110,4,28,2026-02-17,Aula virtual,Pendiente,4340.00
+487,O00487,3,4,3,2026-05-01,Portal del estudiante,Completado,1892.00
+488,O00488,78,4,31,2026-03-23,Admisión telefónica,Completado,2520.00
+489,O00489,138,3,31,2026-01-22,Campus,Completado,2240.00
+490,O00490,8,3,27,2026-01-18,Aula virtual,Cancelado,2622.00
+491,O00491,151,1,4,2026-06-19,Portal del estudiante,Completado,9334.00
+492,O00492,129,3,5,2026-05-15,Admisión telefónica,Cancelado,4600.00
+493,O00493,22,6,28,2026-06-22,Campus,Cancelado,6024.00
+494,O00494,23,2,13,2026-02-22,Aula virtual,Completado,8040.00
+495,O00495,177,4,6,2026-03-05,Portal del estudiante,Pendiente,4776.00
+496,O00496,5,6,32,2026-05-21,Admisión telefónica,Completado,5830.00
+497,O00497,142,1,35,16/04/2026,Campus,Completado,7464.49
+498,O00498,54,5,33,2026-01-25,Aula virtual,Pendiente,2124.00
+499,O00499,11,3,20,2026-05-09,Portal del estudiante,Completado,532.00
+500,O00500,97,4,21,2026-04-12,Admisión telefónica,Pendiente,7140.00
+501,O00501,36,1,40,2026-05-04,Campus,Cancelado,1908.00
+502,O00502,7,6,37,2026-04-16,Aula virtual,Pendiente,3508.00
+503,O00503,57,5,14,2026-02-09,Portal del estudiante,Completado,3328.00
+504,O00504,158,5,5,2026-04-02,Admisión telefónica,Cancelado,8906.00
+505,O00505,4,6,12,2026-05-28,Campus,Completado,5788.00
+506,O00506,76,1,3,2026-05-05,Aula virtual,Cancelado,2280.00
+507,O00507,38,5,3,2026-05-21,Portal del estudiante,Completado,6148.00
+508,O00508,37,4,36,2026-02-05,Admisión telefónica,Completado,4022.00
+509,O00509,181,4,4,2026-06-28,Campus,Completado,632.00
+510,O00510,164,3,7,2026-05-04,Aula virtual,Pendiente,3464.00
+511,O00511,112,6,31,2026-06-05,Portal del estudiante,Completado,5040.00
+512,O00512,32,4,6,2026-02-20,Admisión telefónica,Pendiente,6328.00
+513,O00513,97,2,34,2026-03-06,Campus,Pendiente,3402.00
+514,O00514,67,4,10,2026-01-14,Aula virtual,Pendiente,4138.00
+515,O00515,27,4,40,2026-04-07,Portal del estudiante,Observado,1936.00
+516,O00516,197,4,36,2026-01-21,Admisión telefónica,Pendiente,4780.00
+517,O00517,151,4,15,2026-03-07,Campus,Completado,3908.00
+518,O00518,60,2,14,2026-05-19,Aula virtual,Pendiente,10742.00
+519,O00519,165,2,4,2026-04-22,Portal del estudiante,Completado,180.00
+520,O00520,101,4,3,2026-01-01,Admisión telefónica,Completado,680.00
+521,O00521,182,5,,2026-04-28,Campus,Pendiente,2508.00
+522,O00522,54,6,24,2026-03-23,Aula virtual,Completado,5096.00
+523,O00523,32,1,9,2026-01-24,Portal del estudiante,Pendiente,3376.00
+524,O00524,176,3,15,2026-01-23,Admisión telefónica,Completado,3620.00
+525,O00525,64,6,2,2026-04-19,Campus,Completado,2280.00
+526,O00526,144,5,31,2026-05-07,Aula virtual,Completado,7278.00
+527,O00527,147,3,14,2026-02-13,Portal del estudiante,Completado,3300.00
+528,O00528,134,3,13,2026-01-03,Admisión telefónica,Pendiente,7124.00
+529,O00529,10,5,,2026-04-18,Campus,Completado,90.00
+530,O00530,168,6,2,07/05/2026,Aula virtual,Completado,1482.67
+531,O00531,89,5,33,2026-03-03,Portal del estudiante,Completado,1780.00
+532,O00532,146,3,18,2026-05-06,Admisión telefónica,Completado,3120.00
+533,O00533,100,6,38,2026-04-12,Campus,Completado,190.00
+534,O00534,177,6,19,2026-02-03,Aula virtual,Completado,9596.00
+535,O00535,63,6,28,2026-05-02,Portal del estudiante,Completado,1128.00
+536,O00536,125,6,35,2026-06-23,Admisión telefónica,Pendiente,2520.00
+537,O00537,129,1,29,2026-04-13,Campus,Observado,6870.00
+538,O00538,38,1,1,2026-04-04,Aula virtual,Completado,2646.00
+539,O00539,48,2,12,2026-03-12,Portal del estudiante,Completado,780.00
+540,O00540,87,6,31,2026-03-05,Admisión telefónica,Observado,9322.00
+541,O00541,46,6,38,2026-06-09,Campus,Cancelado,368.00
+542,O00542,61,3,19,2026-06-28,Aula virtual,Pendiente,5508.00
+543,O00543,26,1,15,2026-06-22,Portal del estudiante,Pendiente,6988.00
+544,O00544,148,4,37,2026-04-01,Admisión telefónica,Observado,2550.00
+545,O00545,35,5,5,2026-04-12,Campus,Completado,960.00
+546,O00546,115,4,35,26/03/2026,Aula virtual,Completado,3790.00
+547,O00547,91,2,1,2026-01-27,Portal del estudiante,Completado,1160.00
+548,O00548,199,5,23,2026-02-14,Admisión telefónica,Completado,942.00
+549,O00549,189,5,1,2026-02-12,Campus,Observado,2688.00
+550,O00550,162,2,29,2026-04-09,Aula virtual,Completado,2312.00
+551,O00551,183,3,8,2026-03-04,Portal del estudiante,Completado,5856.00
+552,O00552,131,6,31,2026-03-13,Admisión telefónica,Pendiente,3000.00
+553,O00553,48,6,30,2026-04-22,Campus,Pendiente,8218.00
+554,O00554,100,5,13,2026-06-27,Aula virtual,Completado,6480.00
+555,O00555,120,4,23,2026-03-21,Portal del estudiante,Completado,4808.25
+556,O00556,51,1,11,2026-02-13,Admisión telefónica,Pendiente,11196.00
+557,O00557,165,3,19,12/06/2026,Campus,Observado,4980.00
+558,O00558,142,4,23,2026-04-24,Aula virtual,Completado,1920.00
+559,O00559,127,2,9,2026-05-18,Portal del estudiante,Completado,13492.00
+560,O00560,36,5,22,2026-01-17,Admisión telefónica,Pendiente,708.00
+561,O00561,44,6,28,2026-04-22,Campus,Completado,9344.00
+562,O00562,171,5,33,2026-06-06,Aula virtual,Observado,8820.00
+563,O00563,178,1,26,2026-02-27,Portal del estudiante,Completado,5580.00
+564,O00564,25,2,11,2026-02-14,Admisión telefónica,Pendiente,2922.00
+565,O00565,121,1,6,2026-05-16,Campus,Pendiente,8420.00
+566,O00566,193,3,7,2026-01-24,Aula virtual,Completado,6048.00
+567,O00567,152,3,2,2026-06-24,Portal del estudiante,Completado,2336.00
+568,O00568,66,5,29,2026-01-04,Admisión telefónica,Completado,3964.00
+569,O00569,36,1,27,2026-03-16,Campus,Pendiente,7974.00
+570,O00570,155,2,32,2026-05-12,Aula virtual,Completado,6116.00
+571,O00571,33,1,20,2026-02-17,Portal del estudiante,Pendiente,1844.00
+572,O00572,10,5,33,2026-05-11,Admisión telefónica,Completado,3108.00
+573,O00573,199,3,5,11/02/2026,Campus,Completado,1870.00
+574,O00574,86,4,22,2026-05-17,Aula virtual,Pendiente,3652.00
+575,O00575,117,5,29,2026-02-23,Portal del estudiante,Pendiente,8770.00
+576,O00576,136,5,19,20/02/2026,Admisión telefónica,Completado,4184.00
+577,O00577,117,3,,2026-06-05,Campus,Completado,7738.00
+578,O00578,143,1,11,2026-03-23,Aula virtual,Completado,6440.00
+579,O00579,30,4,18,2026-05-09,Portal del estudiante,Cancelado,5672.00
+580,O00580,159,1,34,2026-05-05,Admisión telefónica,Completado,2052.00
+581,O00581,29,2,39,2026-05-03,Campus,Completado,4400.00
+582,O00582,21,2,5,2026-03-25,Aula virtual,Pendiente,5464.00
+583,O00583,101,1,36,12/05/2026,Portal del estudiante,Completado,1630.00
+584,O00584,133,6,4,03/02/2026,Admisión telefónica,Pendiente,4482.00
+585,O00585,159,1,3,2026-02-07,Campus,Observado,444.00
+586,O00586,18,3,4,2026-01-05,Aula virtual,Completado,9944.00
+587,O00587,9381,2,34,2026-04-15,Portal del estudiante,Completado,1450.00
+588,O00588,113,5,14,2026-05-23,Admisión telefónica,Cancelado,4236.00
+589,O00589,170,4,16,2026-05-26,Campus,Pendiente,8260.00
+590,O00590,52,1,14,2026-04-27,Aula virtual,Pendiente,1560.00
+591,O00591,114,6,9,2026-04-21,Portal del estudiante,Completado,4224.00
+592,O00592,90,6,,2026-06-12,Admisión telefónica,Completado,268.00
+593,O00593,111,3,33,2026-06-11,Campus,Completado,8496.00
+594,O00594,24,4,34,2026-05-11,Aula virtual,Cancelado,6138.00
+595,O00595,121,4,31,2026-05-26,Portal del estudiante,Observado,2916.00
+596,O00596,127,3,36,23/01/2026,Admisión telefónica,Completado,3028.98
+597,O00597,103,1,5,2026-06-23,Campus,Completado,13002.00
+598,O00598,159,6,30,2026-01-09,Aula virtual,Completado,5516.00
+599,O00599,148,2,23,2026-06-15,Portal del estudiante,Completado,3816.00
+600,O00600,183,5,6,2026-04-22,Admisión telefónica,Pendiente,11660.00
+601,O00601,42,4,38,14/01/2026,Campus,Completado,3096.00
+602,O00602,99,5,28,2026-06-02,Aula virtual,Completado,6924.00
+603,O00603,191,3,34,2026-04-03,Portal del estudiante,Cancelado,7548.00
+604,O00604,40,6,31,2026-02-09,Admisión telefónica,Completado,6608.00
+605,O00605,188,4,17,2026-04-27,Campus,Completado,680.00
+606,O00606,138,3,2,2026-04-02,Aula virtual,Pendiente,3348.00
+607,O00607,98,4,27,2026-02-27,Portal del estudiante,Completado,1476.00
+608,O00608,78,2,20,2026-04-09,Admisión telefónica,Completado,724.00
+609,O00609,12,4,14,2026-03-16,Campus,Completado,960.00
+610,O00610,39,2,4,2026-04-16,Aula virtual,Observado,5276.00
+611,O00611,145,1,25,2026-01-20,Portal del estudiante,Completado,1612.00
+612,O00612,9533,5,40,2026-01-01,Admisión telefónica,Completado,3732.00
+613,O00613,57,2,28,2026-02-06,Campus,Completado,4728.00
+614,O00614,108,6,15,2026-04-17,Aula virtual,Completado,4888.00
+615,O00615,107,5,17,2026-01-06,Portal del estudiante,Completado,2284.00
+616,O00616,176,5,24,2026-02-24,Admisión telefónica,Pendiente,1300.00
+617,O00617,131,5,26,2026-04-25,Campus,Completado,2588.00
+618,O00618,82,5,,2026-06-16,Aula virtual,Completado,3020.00
+619,O00619,138,5,40,2026-02-01,Portal del estudiante,Completado,4691.67
+620,O00620,21,4,,2026-04-05,Admisión telefónica,Completado,8928.00
+621,O00621,189,6,34,2026-06-18,Campus,Cancelado,2116.00
+622,O00622,58,5,9,2026-01-20,Aula virtual,Completado,3480.00
+623,O00623,161,5,31,2026-05-21,Portal del estudiante,Pendiente,1968.00
+624,O00624,55,6,12,2026-05-08,Admisión telefónica,Pendiente,5654.00
+625,O00625,76,3,28,2026-03-28,Campus,Completado,4048.00
+626,O00626,44,6,4,2026-05-24,Aula virtual,Completado,2424.00
+627,O00627,9,1,6,2026-06-11,Portal del estudiante,Cancelado,4418.00
+628,O00628,34,3,22,2026-06-13,Admisión telefónica,Completado,13384.00
+629,O00629,8,2,35,2026-01-06,Campus,Completado,10006.00
+630,O00630,56,3,9,2026-01-19,Aula virtual,Completado,3988.00
+631,O00631,111,6,,2026-05-26,Portal del estudiante,Observado,6732.00
+632,O00632,83,2,13,12/06/2026,Admisión telefónica,Cancelado,4804.00
+633,O00633,120,3,1,03/05/2026,Campus,Observado,1425.63
+634,O00634,116,1,14,2026-02-02,Aula virtual,Completado,450.00
+635,O00635,123,3,12,24/05/2026,Portal del estudiante,Pendiente,4156.00
+636,O00636,101,5,5,2026-04-06,Admisión telefónica,Completado,2100.00
+637,O00637,82,5,12,2026-03-23,Campus,Completado,10192.00
+638,O00638,39,5,15,2026-06-22,Aula virtual,Completado,1048.00
+639,O00639,151,6,11,2026-06-17,Portal del estudiante,Completado,10336.00
+640,O00640,133,2,12,2026-04-20,Admisión telefónica,Completado,190.00
+641,O00641,4,6,1,2026-06-13,Campus,Completado,3540.00
+642,O00642,106,6,17,2026-03-22,Aula virtual,Completado,1740.00
+643,O00643,94,3,36,2026-01-15,Portal del estudiante,Cancelado,3616.00
+644,O00644,185,2,36,2026-05-21,Admisión telefónica,Completado,9332.00
+645,O00645,137,3,1,2026-05-22,Campus,Pendiente,4440.00
+646,O00646,34,3,2,2026-02-07,Aula virtual,Pendiente,6504.00
+647,O00647,198,4,16,2026-05-13,Portal del estudiante,Observado,3338.00
+648,O00648,162,1,26,2026-05-21,Admisión telefónica,Pendiente,3664.00
+649,O00649,166,6,18,2026-01-12,Campus,Completado,9134.00
+650,O00650,157,5,19,2026-03-16,Aula virtual,Cancelado,6188.00
+651,O00651,138,2,10,2026-03-15,Portal del estudiante,Completado,480.00
+652,O00652,20,4,13,2026-04-25,Admisión telefónica,Completado,11420.00
+653,O00653,127,2,22,2026-04-02,Campus,Cancelado,1828.00
+654,O00654,62,3,33,2026-03-05,Aula virtual,Cancelado,2848.64
+655,O00655,189,2,4,2026-04-07,Portal del estudiante,Pendiente,2268.00
+656,O00656,54,5,31,2026-06-27,Admisión telefónica,Observado,1596.00
+657,O00657,147,2,37,2026-02-22,Campus,Completado,1416.00
+658,O00658,107,5,12,2026-05-21,Aula virtual,Completado,1552.00
+659,O00659,89,3,11,2026-05-10,Portal del estudiante,Observado,5448.00
+660,O00660,158,5,18,2026-06-28,Admisión telefónica,Completado,8758.00
+661,O00661,37,4,5,2026-02-02,Campus,Completado,870.00
+662,O00662,162,6,8,2026-04-26,Aula virtual,Completado,3472.00
+663,O00663,166,6,30,2026-05-19,Portal del estudiante,Completado,4078.00
+664,O00664,118,1,32,2026-06-19,Admisión telefónica,Cancelado,6232.00
+665,O00665,151,3,27,2026-02-03,Campus,Completado,444.00
+666,O00666,143,4,,27/06/2026,Aula virtual,Completado,4396.00
+667,O00667,106,3,23,2026-06-27,Portal del estudiante,Pendiente,7174.00
+668,O00668,72,6,21,2026-02-07,Admisión telefónica,Completado,4608.00
+669,O00669,79,5,37,2026-01-05,Campus,Completado,2014.00
+670,O00670,187,2,22,2026-03-19,Aula virtual,Completado,4672.92
+671,O00671,67,1,8,05/04/2026,Portal del estudiante,Completado,8436.00
+672,O00672,53,3,22,2026-01-27,Admisión telefónica,Completado,4792.00
+673,O00673,57,1,13,2026-02-14,Campus,Pendiente,1334.83
+674,O00674,164,3,20,2026-06-07,Aula virtual,Completado,1060.00
+675,O00675,75,5,27,2026-01-10,Portal del estudiante,Completado,212.00
+676,O00676,175,4,31,20/05/2026,Admisión telefónica,Pendiente,9944.00
+677,O00677,198,2,1,2026-02-14,Campus,Completado,3240.00
+678,O00678,181,6,9,2026-01-03,Aula virtual,Completado,6772.00
+679,O00679,170,5,23,2026-04-26,Portal del estudiante,Completado,9044.00
+680,O00680,43,4,18,2026-04-10,Admisión telefónica,Completado,8720.00
+681,O00681,152,1,36,2026-04-21,Campus,Completado,1332.00
+682,O00682,2,2,30,2026-04-21,Aula virtual,Completado,840.00
+683,O00683,80,1,5,2026-04-15,Portal del estudiante,Cancelado,12142.00
+684,O00684,140,5,7,2026-05-14,Admisión telefónica,Completado,2976.00
+685,O00685,180,4,27,27/05/2026,Campus,Completado,4540.00
+686,O00686,67,1,27,2026-04-15,Aula virtual,Completado,3540.00
+687,O00687,198,6,36,2026-01-22,Portal del estudiante,Pendiente,1908.00
+688,O00688,59,6,37,2026-05-18,Admisión telefónica,Pendiente,3090.00
+689,O00689,114,1,23,2026-05-22,Campus,Pendiente,10240.00
+690,O00690,38,3,10,2026-06-16,Aula virtual,Cancelado,2668.00
+691,O00691,112,2,32,2026-02-01,Portal del estudiante,Completado,6264.00
+692,O00692,179,3,16,2026-05-23,Admisión telefónica,Cancelado,6796.00
+693,O00693,145,2,12,2026-01-11,Campus,Cancelado,3124.00
+694,O00694,24,1,8,2026-04-10,Aula virtual,Observado,595.43
+695,O00695,96,5,8,2026-02-07,Portal del estudiante,Completado,4680.00
+696,O00696,34,1,4,2026-01-14,Admisión telefónica,Completado,2448.00
+697,O00697,108,3,23,2026-02-06,Campus,Observado,4360.00
+698,O00698,111,4,20,2026-04-10,Aula virtual,Cancelado,8960.00
+699,O00699,136,3,8,2026-06-09,Portal del estudiante,Completado,7788.00
+700,O00700,137,3,27,22/03/2026,Admisión telefónica,Pendiente,9576.00
+701,O00701,132,2,38,2026-05-11,Campus,Pendiente,948.00
+702,O00702,115,3,1,2026-04-14,Aula virtual,Completado,632.00
+703,O00703,134,4,6,2026-06-04,Portal del estudiante,Cancelado,3372.00
+704,O00704,84,2,13,2026-04-13,Admisión telefónica,Completado,3740.00
+705,O00705,180,3,23,2026-04-01,Campus,Completado,7204.00
+706,O00706,151,5,16,2026-04-01,Aula virtual,Pendiente,8944.00
+707,O00707,44,1,16,2026-04-04,Portal del estudiante,Completado,-323.96
+708,O00708,90,3,1,2026-02-25,Admisión telefónica,Cancelado,-6093.93
+709,O00709,125,2,9,2026-01-28,Campus,Pendiente,6076.00
+710,O00710,159,2,20,2026-04-16,Aula virtual,Completado,7860.00
+711,O00711,119,6,37,2026-01-06,Portal del estudiante,Completado,8280.00
+712,O00712,165,1,38,2026-06-17,Admisión telefónica,Cancelado,2520.00
+713,O00713,90,6,31,2026-05-06,Campus,Completado,9236.00
+714,O00714,120,6,3,2026-06-20,Aula virtual,Completado,4708.00
+715,O00715,107,1,3,2026-03-07,Portal del estudiante,Completado,3132.00
+716,O00716,176,1,38,2026-04-06,Admisión telefónica,Pendiente,950.00
+717,O00717,92,3,8,2026-01-21,Campus,Pendiente,7180.00
+718,O00718,122,4,17,2026-02-10,Aula virtual,Cancelado,1744.00
+719,O00719,14,5,30,2026-04-20,Portal del estudiante,Pendiente,3792.00
+720,O00720,22,3,10,2026-02-22,Admisión telefónica,Completado,6624.00
+721,O00721,179,2,38,2026-05-21,Campus,Cancelado,2664.00
+722,O00722,32,1,38,2026-05-06,Aula virtual,Observado,2192.00
+723,O00723,9473,3,14,2026-06-07,Portal del estudiante,Completado,2900.00
+724,O00724,151,4,30,23/01/2026,Admisión telefónica,Observado,9088.00
+725,O00725,84,5,13,2026-04-22,Campus,Pendiente,5710.00
+726,O00726,89,6,36,2026-01-28,Aula virtual,Completado,1818.00
+727,O00727,86,1,8,2026-01-10,Portal del estudiante,Completado,3180.00
+728,O00728,185,1,24,2026-06-03,Admisión telefónica,Cancelado,5562.00
+729,O00729,153,4,29,2026-04-25,Campus,Cancelado,3460.00
+730,O00730,5,1,,2026-02-02,Aula virtual,Observado,9264.00
+731,O00731,152,2,14,2026-03-21,Portal del estudiante,Completado,360.00
+732,O00732,24,4,4,2026-04-07,Admisión telefónica,Pendiente,1448.00
+733,O00733,126,1,19,2026-04-28,Campus,Completado,3242.00
+734,O00734,143,4,17,2026-02-06,Aula virtual,Cancelado,5564.00
+735,O00735,92,5,37,2026-01-08,Portal del estudiante,Completado,3824.00
+736,O00736,122,4,16,2026-02-16,Admisión telefónica,Completado,2308.00
+737,O00737,62,6,28,2026-03-01,Campus,Cancelado,290.00
+738,O00738,177,5,38,2026-01-06,Aula virtual,Completado,4238.00
+739,O00739,52,2,31,2026-04-09,Portal del estudiante,Completado,7596.00
+740,O00740,53,2,36,08/06/2026,Admisión telefónica,Pendiente,1144.00
+741,O00741,55,3,32,2026-05-09,Campus,Completado,5642.00
+742,O00742,103,3,5,2026-03-13,Aula virtual,Cancelado,5576.00
+743,O00743,188,2,40,2026-04-02,Portal del estudiante,Completado,3370.00
+744,O00744,37,6,27,2026-01-14,Admisión telefónica,Completado,14870.00
+745,O00745,106,2,40,2026-06-10,Campus,Completado,10756.00
+746,O00746,138,6,1,2026-06-13,Aula virtual,Completado,3176.00
+747,O00747,189,4,13,14/04/2026,Portal del estudiante,Pendiente,4598.00
+748,O00748,1,2,,2026-04-05,Admisión telefónica,Completado,3192.00
+749,O00749,99,5,6,2026-05-25,Campus,Observado,623.17
+750,O00750,7,2,15,2026-02-17,Aula virtual,Completado,2324.00
+751,O00751,56,5,11,2026-04-21,Portal del estudiante,Pendiente,10426.00
+752,O00752,89,4,32,2026-03-17,Admisión telefónica,Completado,7016.00
+753,O00753,141,5,,2026-05-02,Campus,Completado,3320.00
+754,O00754,8,4,8,2026-04-16,Aula virtual,Cancelado,560.00
+755,O00755,122,6,30,2026-04-17,Portal del estudiante,Completado,949.55
+756,O00756,10,6,31,2026-06-10,Admisión telefónica,Observado,6660.00
+757,O00757,65,3,35,2026-04-14,Campus,Completado,4680.00
+758,O00758,159,1,3,2026-05-16,Aula virtual,Completado,1020.00
+759,O00759,162,6,2,2026-02-07,Portal del estudiante,Completado,1480.00
+760,O00760,53,2,10,2026-05-28,Admisión telefónica,Completado,1560.00
+761,O00761,161,6,40,2026-03-25,Campus,Completado,1360.00
+762,O00762,65,1,30,2026-02-08,Aula virtual,Completado,1420.00
+763,O00763,24,3,17,2026-04-11,Portal del estudiante,Completado,7228.00
+764,O00764,20,6,33,2026-01-04,Admisión telefónica,Pendiente,10752.00
+765,O00765,119,4,18,2026-02-21,Campus,Completado,7996.00
+766,O00766,98,3,25,2026-03-21,Aula virtual,Completado,2136.00
+767,O00767,98,2,36,12/01/2026,Portal del estudiante,Completado,3888.00
+768,O00768,9603,2,32,2026-06-24,Admisión telefónica,Completado,3880.00
+769,O00769,153,3,15,2026-02-09,Campus,Pendiente,6836.00
+770,O00770,121,2,27,2026-06-25,Aula virtual,Completado,1520.00
+771,O00771,7,2,29,2026-05-12,Portal del estudiante,Completado,4440.00
+772,O00772,68,2,8,2026-03-20,Admisión telefónica,Completado,4740.00
+773,O00773,99,6,38,2026-05-02,Campus,Completado,3560.00
+774,O00774,144,2,3,2026-06-20,Aula virtual,Completado,3354.00
+775,O00775,43,2,10,25/05/2026,Portal del estudiante,Completado,4340.00
+776,O00776,189,4,14,2026-05-19,Admisión telefónica,Completado,3384.00
+777,O00777,116,3,18,2026-02-27,Campus,Completado,7300.00
+778,O00778,172,1,16,2026-06-04,Aula virtual,Completado,3044.00
+779,O00779,48,2,21,2026-02-23,Portal del estudiante,Cancelado,1100.00
+780,O00780,184,1,20,2026-03-04,Admisión telefónica,Cancelado,1080.00
+781,O00781,91,5,25,2026-04-16,Campus,Observado,5026.21
+782,O00782,94,2,35,2026-02-21,Aula virtual,Completado,7872.00
+783,O00783,78,4,17,2026-05-17,Portal del estudiante,Observado,8700.00
+784,O00784,145,1,11,2026-05-02,Admisión telefónica,Completado,5560.00
+785,O00785,123,2,40,2026-01-28,Campus,Completado,4330.00
+786,O00786,182,2,25,2026-03-02,Aula virtual,Completado,4944.00
+787,O00787,152,5,4,2026-04-28,Portal del estudiante,Completado,8112.00
+788,O00788,58,6,2,2026-04-28,Admisión telefónica,Completado,264.00
+789,O00789,118,3,3,2026-02-04,Campus,Completado,7126.00
+790,O00790,75,1,1,2026-06-08,Aula virtual,Cancelado,5312.00
+791,O00791,20,3,6,2026-06-01,Portal del estudiante,Observado,2436.00
+792,O00792,39,5,37,2026-02-09,Admisión telefónica,Cancelado,2944.00
+793,O00793,110,2,2,2026-03-28,Campus,Completado,3688.00
+794,O00794,134,2,23,2026-01-15,Aula virtual,Completado,3560.00
+795,O00795,80,3,18,22/04/2026,Portal del estudiante,Cancelado,5216.00
+796,O00796,30,6,35,02/05/2026,Admisión telefónica,Cancelado,5584.00
+797,O00797,31,4,38,2026-06-20,Campus,Cancelado,8920.00
+798,O00798,42,6,3,2026-05-14,Aula virtual,Completado,2364.00
+799,O00799,34,6,40,2026-03-17,Portal del estudiante,Pendiente,780.00
+800,O00800,96,1,4,2026-04-10,Admisión telefónica,Cancelado,3096.00
+801,O00801,180,5,13,2026-02-25,Campus,Completado,2820.00
+802,O00802,163,1,30,2026-06-27,Aula virtual,Completado,3312.00
+803,O00803,33,5,34,2026-05-24,Portal del estudiante,Pendiente,4480.00
+804,O00804,42,3,36,2026-01-23,Admisión telefónica,Completado,7764.00
+805,O00805,32,3,20,2026-03-07,Campus,Completado,5714.00
+806,O00806,9705,6,22,07/04/2026,Aula virtual,Cancelado,3768.00
+807,O00807,135,4,21,2026-05-05,Portal del estudiante,Cancelado,4224.00
+808,O00808,92,6,16,2026-03-01,Admisión telefónica,Pendiente,960.00
+809,O00809,175,5,4,2026-01-17,Campus,Completado,9202.00
+810,O00810,169,4,17,2026-01-05,Aula virtual,Completado,1856.00
+811,O00811,163,6,5,27/03/2026,Portal del estudiante,Completado,1812.00
+812,O00812,169,6,24,2026-05-26,Admisión telefónica,Completado,4732.00
+813,O00813,9005,2,8,2026-05-03,Campus,Completado,3816.00
+814,O00814,129,2,17,2026-01-22,Aula virtual,Completado,9008.00
+815,O00815,26,2,36,2026-02-04,Portal del estudiante,Completado,10648.00
+816,O00816,82,2,28,2026-01-13,Admisión telefónica,Cancelado,8338.00
+817,O00817,110,4,3,2026-01-07,Campus,Completado,7068.00
+818,O00818,22,5,27,23/02/2026,Aula virtual,Completado,428.42
+819,O00819,120,4,13,2026-03-02,Portal del estudiante,Observado,1680.00
+820,O00820,46,4,12,2026-05-03,Admisión telefónica,Completado,7308.00
+821,O00821,9567,1,18,2026-03-11,Campus,Pendiente,2520.00
+822,O00822,179,4,9,2026-04-13,Aula virtual,Completado,6158.00
+823,O00823,92,6,12,2026-05-04,Portal del estudiante,Completado,6068.00
+824,O00824,52,4,16,2026-03-12,Admisión telefónica,Pendiente,5188.00
+825,O00825,162,2,2,2026-02-08,Campus,Cancelado,2748.00
+826,O00826,44,2,40,2026-01-10,Aula virtual,Cancelado,2984.00
+827,O00827,131,2,26,2026-02-27,Portal del estudiante,Completado,3058.00
+828,O00828,52,6,3,2026-05-19,Admisión telefónica,Completado,3748.00
+829,O00829,88,4,10,2026-01-09,Campus,Completado,1676.00
+830,O00830,144,4,21,2026-05-22,Aula virtual,Completado,5796.00
+831,O00831,109,3,1,2026-01-21,Portal del estudiante,Pendiente,20386.00
+832,O00832,52,1,25,2026-04-17,Admisión telefónica,Pendiente,4570.00
+833,O00833,113,1,29,2026-03-21,Campus,Completado,1182.00
+834,O00834,178,4,28,2026-02-02,Aula virtual,Completado,800.00
+835,O00835,116,5,22,2026-01-07,Portal del estudiante,Pendiente,212.00
+836,O00836,134,4,,2026-05-13,Admisión telefónica,Completado,2768.00
+837,O00837,118,3,35,2026-05-01,Campus,Pendiente,3192.00
+838,O00838,162,3,15,2026-01-17,Aula virtual,Completado,2480.00
+839,O00839,50,2,14,2026-01-09,Portal del estudiante,Completado,9480.00
+840,O00840,88,4,23,2026-04-09,Admisión telefónica,Completado,3548.00
+841,O00841,154,1,7,2026-06-04,Campus,Completado,3464.00
+842,O00842,148,4,7,01/05/2026,Aula virtual,Pendiente,1752.00
+843,O00843,161,1,38,2026-01-13,Portal del estudiante,Completado,1838.00
+844,O00844,18,2,34,2026-02-19,Admisión telefónica,Pendiente,5914.00
+845,O00845,106,6,24,2026-02-04,Campus,Cancelado,3600.00
+846,O00846,33,4,5,05/03/2026,Aula virtual,Completado,4716.00
+847,O00847,32,1,,2026-01-01,Portal del estudiante,Completado,316.00
+848,O00848,169,2,5,2026-05-20,Admisión telefónica,Cancelado,7940.00
+849,O00849,147,4,23,2026-06-23,Campus,Pendiente,9122.00
+850,O00850,136,5,36,2026-02-25,Aula virtual,Cancelado,4728.00
+851,O00851,44,1,21,2026-03-04,Portal del estudiante,Observado,5088.00
+852,O00852,182,2,31,2026-03-17,Admisión telefónica,Completado,2340.00
+853,O00853,88,6,31,2026-03-28,Campus,Completado,10480.00
+854,O00854,95,4,35,2026-06-08,Aula virtual,Pendiente,6204.00
+855,O00855,92,4,22,2026-02-27,Portal del estudiante,Completado,3852.00
+856,O00856,173,6,26,2026-03-21,Admisión telefónica,Pendiente,444.00
+857,O00857,110,5,33,2026-01-22,Campus,Completado,5664.00
+858,O00858,7,4,26,2026-06-02,Aula virtual,Pendiente,5484.00
+859,O00859,129,6,8,2026-06-15,Portal del estudiante,Observado,6336.00
+860,O00860,100,4,40,2026-04-28,Admisión telefónica,Pendiente,2780.00
+861,O00861,125,2,38,2026-02-06,Campus,Observado,7250.00
+862,O00862,200,2,5,2026-01-16,Aula virtual,Completado,6652.00
+863,O00863,10,6,3,2026-02-25,Portal del estudiante,Completado,2136.00
+864,O00864,160,4,35,2026-03-03,Admisión telefónica,Pendiente,12868.00
+865,O00865,114,4,34,2026-04-09,Campus,Completado,14376.00
+866,O00866,81,1,8,2026-06-19,Aula virtual,Pendiente,3404.00
+867,O00867,92,3,34,2026-02-23,Portal del estudiante,Completado,1796.00
+868,O00868,17,2,3,2026-01-27,Admisión telefónica,Pendiente,7010.00
+869,O00869,88,2,8,2026-02-25,Campus,Completado,6332.00
+870,O00870,132,5,17,2026-02-26,Aula virtual,Completado,6580.00
+871,O00871,33,5,7,2026-06-02,Portal del estudiante,Completado,3192.00
+872,O00872,176,4,6,2026-06-19,Admisión telefónica,Completado,5252.00
+873,O00873,78,4,25,2026-03-14,Campus,Cancelado,2532.00
+874,O00874,170,2,35,2026-03-09,Aula virtual,Pendiente,874.00
+875,O00875,139,4,23,2026-03-19,Portal del estudiante,Cancelado,9158.00
+876,O00876,162,4,15,2026-05-25,Admisión telefónica,Observado,5608.00
+877,O00877,8,2,12,2026-04-07,Campus,Completado,5800.00
+878,O00878,2,2,21,2026-04-14,Aula virtual,Completado,4422.51
+879,O00879,185,6,20,28/01/2026,Portal del estudiante,Pendiente,6580.00
+880,O00880,80,1,31,2026-05-08,Admisión telefónica,Cancelado,11912.00
+881,O00881,140,2,24,2026-04-10,Campus,Completado,4284.00
+882,O00882,162,3,22,2026-06-23,Aula virtual,Completado,720.00
+883,O00883,160,5,,2026-03-09,Portal del estudiante,Completado,9590.00
+884,O00884,24,3,37,2026-04-01,Admisión telefónica,Completado,7854.00
+885,O00885,150,2,39,2026-04-08,Campus,Completado,3352.00
+886,O00886,140,3,34,2026-02-02,Aula virtual,Cancelado,2312.00
+887,O00887,91,5,35,2026-02-19,Portal del estudiante,Completado,1020.00
+888,O00888,192,4,24,2026-02-19,Admisión telefónica,Completado,268.00
+889,O00889,172,5,20,2026-02-07,Campus,Pendiente,804.00
+890,O00890,103,4,3,2026-05-11,Aula virtual,Completado,14366.00
+891,O00891,125,5,1,12/05/2026,Portal del estudiante,Completado,2664.00
+892,O00892,100,6,11,10/03/2026,Admisión telefónica,Completado,9898.00
+893,O00893,18,2,27,2026-04-25,Campus,Completado,8314.00
+894,O00894,164,4,22,04/06/2026,Aula virtual,Completado,3442.00
+895,O00895,102,4,12,2026-05-04,Portal del estudiante,Cancelado,2556.00
+896,O00896,141,2,14,2026-06-16,Admisión telefónica,Completado,1064.00
+897,O00897,162,4,17,2026-03-04,Campus,Completado,3100.00
+898,O00898,10,1,12,2026-05-13,Aula virtual,Completado,1770.11
+899,O00899,16,1,15,2026-03-16,Portal del estudiante,Completado,2904.00
+900,O00900,171,1,32,2026-06-11,Admisión telefónica,Completado,4376.00
+901,O00901,20,4,18,2026-03-24,Campus,Completado,3408.59
+902,O00902,184,4,19,2026-03-09,Aula virtual,Pendiente,950.00
+903,O00903,31,5,23,2026-04-11,Portal del estudiante,Completado,1798.00
+904,O00904,162,4,17,2026-05-06,Admisión telefónica,Completado,1060.00
+905,O00905,20,5,28,2026-01-21,Campus,Completado,8084.00
+906,O00906,178,1,17,2026-02-13,Aula virtual,Pendiente,5252.00
+907,O00907,67,6,4,2026-05-03,Portal del estudiante,Cancelado,6372.00
+908,O00908,69,4,29,2026-06-16,Admisión telefónica,Completado,5998.00
+909,O00909,35,4,8,2026-05-11,Campus,Cancelado,10888.00
+910,O00910,191,4,18,2026-04-23,Aula virtual,Completado,6180.00
+911,O00911,162,1,1,2026-04-14,Portal del estudiante,Pendiente,13372.00
+912,O00912,125,5,33,2026-04-15,Admisión telefónica,Cancelado,536.00
+913,O00913,69,4,5,2026-02-01,Campus,Pendiente,4470.00
+914,O00914,11,3,23,2026-06-03,Aula virtual,Completado,4556.00
+915,O00915,30,3,6,2026-01-22,Portal del estudiante,Observado,2656.00
+916,O00916,74,2,6,2026-06-13,Admisión telefónica,Completado,8928.00
+917,O00917,143,4,30,2026-02-23,Campus,Completado,6364.00
+918,O00918,18,1,37,2026-06-17,Aula virtual,Pendiente,2968.00
+919,O00919,72,6,36,2026-06-04,Portal del estudiante,Completado,1780.00
+920,O00920,130,2,37,2026-03-02,Admisión telefónica,Completado,1776.00
+921,O00921,88,1,5,2026-05-21,Campus,Observado,7668.00
+922,O00922,110,3,3,2026-03-06,Aula virtual,Completado,3440.00
+923,O00923,7,5,8,2026-01-08,Portal del estudiante,Completado,3546.00
+924,O00924,54,4,23,2026-06-07,Admisión telefónica,Completado,444.00
+925,O00925,72,5,6,2026-05-24,Campus,Completado,-1496.97
+926,O00926,193,1,40,2026-02-10,Aula virtual,Completado,3768.00
+927,O00927,45,4,20,2026-04-12,Portal del estudiante,Cancelado,6694.00
+928,O00928,37,1,17,2026-03-11,Admisión telefónica,Completado,7824.00
+929,O00929,167,5,40,13/01/2026,Campus,Cancelado,4616.00
+930,O00930,148,6,1,2026-04-10,Aula virtual,Completado,6648.00
+931,O00931,190,2,6,12/04/2026,Portal del estudiante,Completado,4622.00
+932,O00932,118,6,13,2026-03-07,Admisión telefónica,Completado,870.00
+933,O00933,30,2,19,2026-01-16,Campus,Completado,4282.00
+934,O00934,133,4,34,2026-06-18,Aula virtual,Cancelado,3355.18
+935,O00935,42,1,34,2026-01-03,Portal del estudiante,Completado,6980.00
+936,O00936,129,2,23,2026-06-12,Admisión telefónica,Pendiente,1780.00
+937,O00937,48,6,25,2026-03-17,Campus,Completado,4480.00
+938,O00938,125,3,29,2026-01-15,Aula virtual,Cancelado,2100.00
+939,O00939,132,4,16,2026-01-11,Portal del estudiante,Pendiente,2204.00
+940,O00940,139,5,26,2026-05-28,Admisión telefónica,Completado,3412.00
+941,O00941,48,2,24,2026-01-02,Campus,Completado,3290.00
+942,O00942,100,4,35,2026-02-12,Aula virtual,Observado,4260.00
+943,O00943,32,2,21,28/06/2026,Portal del estudiante,Pendiente,680.00
+944,O00944,27,4,37,12/03/2026,Admisión telefónica,Pendiente,2544.00
+945,O00945,97,6,18,2026-03-21,Campus,Pendiente,380.00
+946,O00946,13,6,27,2026-01-27,Aula virtual,Pendiente,9062.00
+947,O00947,72,6,11,2026-03-16,Portal del estudiante,Pendiente,3180.00
+948,O00948,34,2,22,2026-05-17,Admisión telefónica,Cancelado,2410.00
+949,O00949,167,6,36,2026-05-27,Campus,Completado,5680.00
+950,O00950,94,1,32,2026-03-11,Aula virtual,Pendiente,13918.00
+951,O00951,170,3,19,2026-04-24,Portal del estudiante,Pendiente,10404.00
+952,O00952,174,3,14,2026-06-18,Admisión telefónica,Completado,14324.00
+953,O00953,106,3,23,2026-04-26,Campus,Completado,780.00
+954,O00954,70,2,26,2026-02-23,Aula virtual,Pendiente,9266.00
+955,O00955,9158,6,27,2026-04-21,Portal del estudiante,Completado,7026.00
+956,O00956,112,6,23,2026-04-02,Admisión telefónica,Pendiente,1224.00
+957,O00957,57,5,11,2026-05-13,Campus,Cancelado,3532.00
+958,O00958,187,5,11,2026-01-05,Aula virtual,Pendiente,658.89
+959,O00959,171,6,25,2026-05-08,Portal del estudiante,Completado,5790.00
+960,O00960,71,5,2,2026-04-12,Admisión telefónica,Pendiente,5548.00
+961,O00961,176,5,25,2026-06-23,Campus,Pendiente,4584.00
+962,O00962,96,3,31,2026-03-19,Aula virtual,Completado,10848.00
+963,O00963,115,2,19,2026-01-15,Portal del estudiante,Completado,916.00
+964,O00964,51,6,17,2026-01-10,Admisión telefónica,Completado,1514.00
+965,O00965,28,5,10,20/06/2026,Campus,Completado,10848.00
+966,O00966,60,3,40,2026-05-19,Aula virtual,Completado,580.00
+967,O00967,25,3,38,2026-04-16,Portal del estudiante,Completado,2364.00
+968,O00968,45,2,35,2026-02-07,Admisión telefónica,Observado,5432.00
+969,O00969,131,2,40,2026-03-19,Campus,Cancelado,3494.00
+970,O00970,164,3,19,2026-03-25,Aula virtual,Completado,6082.00
+971,O00971,129,3,15,2026-01-13,Portal del estudiante,Pendiente,6808.00
+972,O00972,185,5,33,2026-05-20,Admisión telefónica,Pendiente,7180.00
+973,O00973,48,3,33,2026-01-19,Campus,Completado,2560.00
+974,O00974,138,1,30,2026-03-04,Aula virtual,Completado,1798.00
+975,O00975,36,6,39,2026-04-21,Portal del estudiante,Completado,3120.00
+976,O00976,175,6,1,2026-06-03,Admisión telefónica,Completado,720.00
+977,O00977,10,2,19,2026-05-14,Campus,Observado,6349.52
+978,O00978,112,3,36,2026-06-25,Aula virtual,Completado,5504.00
+979,O00979,151,4,37,2026-04-15,Portal del estudiante,Completado,5512.00
+980,O00980,64,6,18,2026-01-18,Admisión telefónica,Completado,4699.56
+981,O00981,59,2,22,2026-03-09,Campus,Completado,4976.00
+982,O00982,161,6,38,2026-03-09,Aula virtual,Completado,5592.00
+983,O00983,99,6,9,20/05/2026,Portal del estudiante,Completado,2392.00
+984,O00984,153,4,35,2026-06-22,Admisión telefónica,Cancelado,6252.00
+985,O00985,134,6,26,2026-05-21,Campus,Observado,2868.00
+986,O00986,144,1,23,02/05/2026,Aula virtual,Completado,1420.00
+987,O00987,118,3,14,2026-02-17,Portal del estudiante,Completado,7896.00
+988,O00988,100,3,19,2026-01-23,Admisión telefónica,Completado,6228.00
+989,O00989,45,4,29,2026-01-19,Campus,Completado,8952.00
+990,O00990,150,3,24,2026-06-11,Aula virtual,Observado,6816.92
+991,O00991,75,6,15,2026-03-16,Portal del estudiante,Completado,1360.00
+992,O00992,41,1,5,2026-01-23,Admisión telefónica,Cancelado,13032.00
+993,O00993,170,2,2,2026-06-17,Campus,Cancelado,2156.00
+994,O00994,63,5,27,2026-01-20,Aula virtual,Completado,4432.00
+995,O00995,197,6,1,2026-02-23,Portal del estudiante,Cancelado,3948.00
+996,O00996,70,1,5,2026-01-25,Admisión telefónica,Completado,8296.00
+997,O00997,95,3,32,2026-01-28,Campus,Completado,160.00
+998,O00998,152,6,35,2026-04-20,Aula virtual,Pendiente,5800.00
+999,O00999,77,5,24,2026-05-03,Portal del estudiante,Completado,1936.00
+1000,O01000,189,3,1,2026-05-20,Admisión telefónica,Completado,3836.00
+1001,O01001,180,3,1,2026-03-10,Campus,Pendiente,2013.53
+1002,O01002,37,1,17,2026-03-11,Aula virtual,Completado,5790.38
+1003,O01003,80,1,5,2026-04-15,Portal del estudiante,Cancelado,5128.27
+1004,O01004,160,4,35,2026-03-03,Admisión telefónica,Pendiente,6780.08
+1005,O01005,122,4,16,2026-02-16,Campus,Completado,1956.86
+1006,O01006,88,4,10,2026-01-09,Aula virtual,Completado,1887.54
+1007,O01007,30,6,35,2026-05-02,Portal del estudiante,Cancelado,3500.16
+1008,O01008,1,2,33,2026-05-05,Admisión telefónica,Completado,326.52
+1009,O01009,52,1,25,2026-04-17,Campus,Pendiente,661.05
+1010,O01010,177,1,27,2026-02-23,Aula virtual,Pendiente,1292.64

@@ -1,0 +1,1011 @@
+id_operacion,codigo_operacion,id_cliente,id_sede,id_empleado,fecha_operacion,canal,estado,monto_total
+1,O00001,103,5,8,2026-04-17,Centro de atención,Completado,299.70
+2,O00002,190,4,21,2026-06-23,Tienda web,Pendiente,34.82
+3,O00003,163,4,28,17/04/2026,App TelcoNorte,Cancelado,327.25
+4,O00004,85,3,34,2026-05-28,Distribuidor autorizado,Completado,940.57
+5,O00005,32,1,26,2026-06-27,Centro de atención,Cancelado,305.37
+6,O00006,102,5,9,2026-04-04,Tienda web,Completado,287.05
+7,O00007,3,3,18,2026-02-28,App TelcoNorte,Pendiente,2050.00
+8,O00008,30,4,17,2026-02-27,Distribuidor autorizado,Completado,802.94
+9,O00009,184,5,35,2026-06-20,Centro de atención,Observado,80.00
+10,O00010,130,3,24,2026-05-02,Tienda web,Completado,1194.98
+11,O00011,48,4,34,2026-03-24,App TelcoNorte,Completado,6159.10
+12,O00012,31,1,19,2026-03-11,Distribuidor autorizado,Pendiente,467.80
+13,O00013,59,3,8,2026-05-05,Centro de atención,Pendiente,1029.57
+14,O00014,46,5,2,2026-02-26,Tienda web,Completado,527.60
+15,O00015,93,2,39,2026-06-26,App TelcoNorte,Completado,90.00
+16,O00016,115,1,16,2026-01-13,Distribuidor autorizado,Pendiente,3193.10
+17,O00017,114,4,4,2026-01-17,Centro de atención,Completado,80.00
+18,O00018,20,6,8,2026-05-13,Tienda web,Pendiente,833.16
+19,O00019,180,3,14,2026-04-16,App TelcoNorte,Completado,433.08
+20,O00020,54,3,,2026-03-19,Distribuidor autorizado,Observado,269.05
+21,O00021,26,4,14,2026-05-24,Centro de atención,Completado,3624.79
+22,O00022,58,6,21,2026-05-01,Tienda web,Completado,80.22
+23,O00023,137,6,35,2026-03-10,App TelcoNorte,Completado,384.03
+24,O00024,94,4,37,2026-01-25,Distribuidor autorizado,Completado,1247.20
+25,O00025,83,4,7,2026-02-19,Centro de atención,Pendiente,1758.54
+26,O00026,119,3,7,2026-02-21,Tienda web,Pendiente,405.00
+27,O00027,154,4,2,2026-02-23,App TelcoNorte,Completado,1047.03
+28,O00028,99,5,38,2026-02-10,Distribuidor autorizado,Observado,22.98
+29,O00029,106,3,31,2026-01-12,Centro de atención,Completado,22.98
+30,O00030,37,3,27,2026-02-10,Tienda web,Pendiente,1287.47
+31,O00031,15,5,36,2026-01-24,App TelcoNorte,Observado,255.16
+32,O00032,90,4,19,2026-03-26,Distribuidor autorizado,Observado,460.53
+33,O00033,4,3,32,2026-03-05,Centro de atención,Completado,323.70
+34,O00034,172,2,7,2026-06-07,Tienda web,Completado,2808.10
+35,O00035,132,3,28,2026-04-03,App TelcoNorte,Cancelado,327.50
+36,O00036,98,4,13,2026-04-22,Distribuidor autorizado,Completado,456.49
+37,O00037,111,1,32,2026-06-10,Centro de atención,Completado,300.00
+38,O00038,4,6,25,2026-01-26,Tienda web,Completado,1639.24
+39,O00039,121,1,10,2026-05-08,App TelcoNorte,Completado,9799.62
+40,O00040,157,4,4,2026-03-13,Distribuidor autorizado,Completado,2370.12
+41,O00041,132,6,16,2026-05-17,Centro de atención,Completado,240.66
+42,O00042,10,1,36,2026-01-23,Tienda web,Completado,-504.36
+43,O00043,126,6,13,2026-02-19,App TelcoNorte,Completado,2762.02
+44,O00044,45,1,30,2026-05-09,Distribuidor autorizado,Completado,11760.90
+45,O00045,98,3,8,2026-05-21,Centro de atención,Cancelado,560.60
+46,O00046,100,6,39,2026-03-08,Tienda web,Completado,11619.60
+47,O00047,166,4,14,2026-06-13,App TelcoNorte,Completado,700.56
+48,O00048,76,1,17,2026-05-22,Distribuidor autorizado,Completado,2053.48
+49,O00049,29,6,36,2026-01-03,Centro de atención,Completado,87.05
+50,O00050,12,1,11,2026-05-12,Tienda web,Pendiente,278.49
+51,O00051,108,4,29,2026-04-06,App TelcoNorte,Pendiente,1129.87
+52,O00052,183,6,,2026-01-08,Distribuidor autorizado,Completado,476.95
+53,O00053,89,3,37,2026-01-07,Centro de atención,Observado,1008.36
+54,O00054,88,4,24,2026-02-28,Tienda web,Completado,1149.74
+55,O00055,121,1,1,2026-03-15,App TelcoNorte,Completado,11812.68
+56,O00056,84,1,29,2026-01-15,Distribuidor autorizado,Completado,486.58
+57,O00057,64,4,35,2026-03-05,Centro de atención,Completado,9639.36
+58,O00058,25,6,30,2026-02-17,Tienda web,Observado,261.32
+59,O00059,90,4,1,2026-04-15,App TelcoNorte,Observado,322.86
+60,O00060,73,1,19,18/03/2026,Distribuidor autorizado,Completado,2277.65
+61,O00061,98,3,19,2026-01-11,Centro de atención,Completado,69.64
+62,O00062,37,2,13,2026-04-02,Tienda web,Completado,648.66
+63,O00063,30,1,35,2026-05-21,App TelcoNorte,Pendiente,743.60
+64,O00064,28,5,,2026-04-13,Distribuidor autorizado,Pendiente,839.40
+65,O00065,154,6,16,2026-03-17,Centro de atención,Pendiente,465.89
+66,O00066,76,6,27,2026-03-27,Tienda web,Completado,965.74
+67,O00067,161,6,23,2026-03-18,App TelcoNorte,Completado,132.04
+68,O00068,104,1,5,24/04/2026,Distribuidor autorizado,Observado,665.39
+69,O00069,192,6,19,2026-05-06,Centro de atención,Cancelado,45.96
+70,O00070,35,1,12,2026-01-04,Tienda web,Completado,1535.40
+71,O00071,140,5,33,2026-06-17,App TelcoNorte,Completado,2640.72
+72,O00072,68,4,33,2026-01-03,Distribuidor autorizado,Completado,717.50
+73,O00073,8,2,15,2026-01-16,Centro de atención,Completado,12239.20
+74,O00074,26,6,32,2026-06-13,Tienda web,Pendiente,22.98
+75,O00075,3,4,6,2026-02-07,App TelcoNorte,Completado,2302.50
+76,O00076,31,2,6,2026-02-07,Distribuidor autorizado,Pendiente,15.16
+77,O00077,80,4,39,2026-06-12,Centro de atención,Completado,2268.28
+78,O00078,61,2,23,2026-04-02,Tienda web,Completado,4041.02
+79,O00079,126,6,33,2026-02-21,App TelcoNorte,Completado,661.94
+80,O00080,109,6,7,2026-06-26,Distribuidor autorizado,Pendiente,791.40
+81,O00081,158,5,30,14/03/2026,Centro de atención,Pendiente,620.75
+82,O00082,74,3,17,2026-02-13,Tienda web,Pendiente,1534.90
+83,O00083,190,4,35,2026-06-07,App TelcoNorte,Completado,90.00
+84,O00084,137,3,5,12/03/2026,Distribuidor autorizado,Completado,362.67
+85,O00085,141,6,25,2026-04-03,Centro de atención,Pendiente,3159.61
+86,O00086,194,6,10,2026-02-18,Tienda web,Completado,9318.94
+87,O00087,110,2,26,2026-05-09,App TelcoNorte,Completado,3350.08
+88,O00088,189,5,27,2026-03-15,Distribuidor autorizado,Completado,1143.03
+89,O00089,72,5,12,2026-05-06,Centro de atención,Completado,599.80
+90,O00090,114,5,10,2026-02-11,Tienda web,Pendiente,1442.28
+91,O00091,171,4,19,2026-05-24,App TelcoNorte,Completado,699.12
+92,O00092,152,2,26,2026-03-18,Distribuidor autorizado,Completado,653.16
+93,O00093,125,4,11,2026-02-28,Centro de atención,Cancelado,5533.50
+94,O00094,89,4,2,2026-01-10,Tienda web,Completado,1665.65
+95,O00095,148,3,29,2026-05-19,App TelcoNorte,Observado,659.50
+96,O00096,61,4,33,28/03/2026,Distribuidor autorizado,Completado,3700.00
+97,O00097,29,1,37,2026-01-18,Centro de atención,Completado,1032.96
+98,O00098,91,5,2,2026-02-01,Tienda web,Completado,1079.40
+99,O00099,8,4,39,2026-05-17,App TelcoNorte,Completado,656.97
+100,O00100,43,4,16,2026-05-05,Distribuidor autorizado,Completado,628.79
+101,O00101,115,3,25,2026-04-19,Centro de atención,Completado,1877.42
+102,O00102,2,5,17,2026-06-21,Tienda web,Cancelado,120.33
+103,O00103,104,4,15,2026-02-24,App TelcoNorte,Completado,458.08
+104,O00104,113,6,35,2026-02-20,Distribuidor autorizado,Completado,2973.10
+105,O00105,19,2,17,2026-01-22,Centro de atención,Completado,492.06
+106,O00106,82,2,20,2026-04-18,Tienda web,Completado,828.96
+107,O00107,107,6,10,17/06/2026,App TelcoNorte,Completado,5937.32
+108,O00108,198,1,26,2026-02-11,Distribuidor autorizado,Pendiente,1876.59
+109,O00109,122,2,5,2026-01-07,Centro de atención,Completado,469.60
+110,O00110,182,3,3,2026-01-16,Tienda web,Pendiente,321.00
+111,O00111,159,1,6,2026-03-15,App TelcoNorte,Observado,275.55
+112,O00112,108,3,32,2026-02-15,Distribuidor autorizado,Completado,1531.56
+113,O00113,148,5,18,2026-06-28,Centro de atención,Completado,200.00
+114,O00114,148,3,35,2026-04-04,Tienda web,Completado,390.85
+115,O00115,186,4,13,2026-06-27,App TelcoNorte,Completado,7721.83
+116,O00116,124,3,39,2026-06-09,Distribuidor autorizado,Completado,892.68
+117,O00117,182,6,40,2026-04-16,Centro de atención,Pendiente,290.90
+118,O00118,156,4,13,24/06/2026,Tienda web,Completado,180.00
+119,O00119,136,3,19,19/05/2026,App TelcoNorte,Completado,59.90
+120,O00120,27,6,38,2026-04-22,Distribuidor autorizado,Completado,649.50
+121,O00121,171,2,5,2026-01-26,Centro de atención,Completado,6671.14
+122,O00122,126,5,18,2026-02-27,Tienda web,Completado,20.00
+123,O00123,48,6,1,2026-03-27,App TelcoNorte,Completado,322.86
+124,O00124,199,4,8,2026-01-19,Distribuidor autorizado,Completado,225.00
+125,O00125,40,1,7,2026-05-13,Centro de atención,Pendiente,640.05
+126,O00126,134,3,27,2026-05-16,Tienda web,Completado,11914.99
+127,O00127,81,3,39,2026-03-17,App TelcoNorte,Completado,524.34
+128,O00128,22,1,9,02/01/2026,Distribuidor autorizado,Pendiente,6025.32
+129,O00129,112,4,21,13/06/2026,Centro de atención,Completado,309.36
+130,O00130,16,6,25,2026-02-19,Tienda web,Completado,6050.16
+131,O00131,148,6,2,2026-04-17,App TelcoNorte,Completado,51.39
+132,O00132,102,5,34,2026-06-07,Distribuidor autorizado,Completado,1367.10
+133,O00133,122,2,12,2026-05-25,Centro de atención,Pendiente,300.70
+134,O00134,28,2,27,2026-03-01,Tienda web,Completado,299.57
+135,O00135,76,2,28,2026-03-17,App TelcoNorte,Completado,1641.03
+136,O00136,173,1,36,2026-03-14,Distribuidor autorizado,Pendiente,1268.16
+137,O00137,86,5,28,2026-03-24,Centro de atención,Completado,1210.61
+138,O00138,88,3,37,2026-02-05,Tienda web,Completado,1307.86
+139,O00139,145,2,37,2026-02-20,App TelcoNorte,Completado,3208.46
+140,O00140,68,4,7,2026-06-19,Distribuidor autorizado,Completado,2666.32
+141,O00141,29,6,34,2026-01-13,Centro de atención,Completado,150.16
+142,O00142,81,4,29,2026-01-27,Tienda web,Completado,167.80
+143,O00143,35,6,6,2026-02-04,App TelcoNorte,Completado,179.40
+144,O00144,110,1,20,14/04/2026,Distribuidor autorizado,Completado,500.52
+145,O00145,141,2,21,2026-02-23,Centro de atención,Pendiente,2900.68
+146,O00146,96,5,20,2026-05-23,Tienda web,Completado,280.55
+147,O00147,10,2,25,2026-02-11,App TelcoNorte,Completado,7271.41
+148,O00148,125,6,18,2026-03-13,Distribuidor autorizado,Completado,779.50
+149,O00149,167,6,19,2026-06-21,Centro de atención,Observado,7320.79
+150,O00150,181,1,5,2026-05-01,Tienda web,Pendiente,223.29
+151,O00151,75,6,5,2026-05-24,App TelcoNorte,Cancelado,1289.00
+152,O00152,51,6,2,2026-03-05,Distribuidor autorizado,Completado,7847.22
+153,O00153,164,5,29,2026-02-21,Centro de atención,Completado,2119.30
+154,O00154,65,5,33,2026-01-01,Tienda web,Cancelado,252.78
+155,O00155,173,6,15,2026-03-12,App TelcoNorte,Cancelado,1927.00
+156,O00156,52,1,22,2026-03-03,Distribuidor autorizado,Cancelado,3377.15
+157,O00157,151,3,39,2026-01-14,Centro de atención,Completado,3546.88
+158,O00158,125,4,40,2026-06-25,Tienda web,Cancelado,1185.20
+159,O00159,166,4,15,2026-04-13,App TelcoNorte,Cancelado,1559.66
+160,O00160,83,1,33,2026-01-24,Distribuidor autorizado,Completado,610.82
+161,O00161,69,6,5,2026-06-23,Centro de atención,Completado,1786.57
+162,O00162,54,6,2,2026-03-10,Tienda web,Cancelado,131.90
+163,O00163,178,6,11,2026-01-21,App TelcoNorte,Pendiente,659.50
+164,O00164,14,1,1,2026-03-21,Distribuidor autorizado,Cancelado,89.00
+165,O00165,62,4,19,2026-03-01,Centro de atención,Observado,619.50
+166,O00166,187,6,34,2026-01-10,Tienda web,Completado,1196.32
+167,O00167,126,3,40,2026-05-20,App TelcoNorte,Completado,7.58
+168,O00168,43,3,24,2026-03-25,Distribuidor autorizado,Completado,146.35
+169,O00169,10,5,25,2026-03-10,Centro de atención,Pendiente,1329.06
+170,O00170,11,3,36,2026-02-04,Tienda web,Completado,5984.52
+171,O00171,131,2,4,2026-03-03,App TelcoNorte,Completado,2702.4
+172,O00172,122,4,30,2026-04-10,Distribuidor autorizado,Pendiente,8684.15
+173,O00173,196,6,16,2026-03-05,Centro de atención,Cancelado,1855.04
+174,O00174,80,5,32,2026-06-16,Tienda web,Pendiente,127.58
+175,O00175,163,6,11,07/05/2026,App TelcoNorte,Completado,893.10
+176,O00176,76,2,3,2026-01-02,Distribuidor autorizado,Completado,395.70
+177,O00177,124,6,,2026-04-09,Centro de atención,Completado,863.40
+178,O00178,140,6,17,2026-03-16,Tienda web,Completado,11063.90
+179,O00179,95,2,21,2026-02-01,App TelcoNorte,Completado,231.83
+180,O00180,19,6,36,2026-04-07,Distribuidor autorizado,Pendiente,433.08
+181,O00181,190,2,8,2026-05-23,Centro de atención,Completado,760.58
+182,O00182,149,4,26,2026-02-17,Tienda web,Completado,263.80
+183,O00183,41,3,8,2026-02-24,App TelcoNorte,Completado,9856.08
+184,O00184,199,2,4,2026-04-15,Distribuidor autorizado,Completado,0.00
+185,O00185,40,3,31,2026-04-10,Centro de atención,Completado,17.41
+186,O00186,109,6,4,2026-02-20,Tienda web,Pendiente,15115.00
+187,O00187,166,2,28,2026-04-04,App TelcoNorte,Completado,30.00
+188,O00188,74,3,23,2026-04-13,Distribuidor autorizado,Completado,4614.67
+189,O00189,117,1,24,02/01/2026,Centro de atención,Completado,0.00
+190,O00190,116,6,22,2026-01-02,Tienda web,Completado,83.90
+191,O00191,28,2,17,2026-05-20,App TelcoNorte,Pendiente,104.46
+192,O00192,51,6,13,2026-06-17,Distribuidor autorizado,Completado,5838.72
+193,O00193,19,5,11,2026-04-23,Centro de atención,Pendiente,2548.12
+194,O00194,199,4,40,2026-05-28,Tienda web,Pendiente,5911.30
+195,O00195,46,1,39,2026-03-22,App TelcoNorte,Completado,1084.71
+196,O00196,124,2,18,2026-04-18,Distribuidor autorizado,Completado,89.70
+197,O00197,122,5,3,2026-02-03,Centro de atención,Cancelado,1116.67
+198,O00198,118,4,22,26/05/2026,Tienda web,Observado,1085.50
+199,O00199,10,3,37,2026-03-27,App TelcoNorte,Completado,3025.08
+200,O00200,181,1,23,01/03/2026,Distribuidor autorizado,Completado,1552.66
+201,O00201,128,6,9,2026-03-09,Centro de atención,Observado,509.72
+202,O00202,2,4,10,2026-01-19,Tienda web,Completado,2748.10
+203,O00203,70,2,38,2026-01-28,App TelcoNorte,Completado,710.04
+204,O00204,102,2,30,22/03/2026,Distribuidor autorizado,Completado,2714.07
+205,O00205,27,3,17,2026-05-04,Centro de atención,Cancelado,1563.12
+206,O00206,38,5,15,2026-02-22,Tienda web,Cancelado,435.53
+207,O00207,48,3,19,2026-04-20,App TelcoNorte,Completado,2198.48
+208,O00208,152,3,6,2026-06-09,Distribuidor autorizado,Completado,506.90
+209,O00209,137,6,10,2026-01-05,Centro de atención,Completado,2159.20
+210,O00210,65,5,12,2026-04-18,Tienda web,Completado,1414.91
+211,O00211,34,3,25,2026-06-17,App TelcoNorte,Completado,2416.06
+212,O00212,80,3,8,2026-01-23,Distribuidor autorizado,Completado,1768.86
+213,O00213,101,1,,12/05/2026,Centro de atención,Pendiente,323.70
+214,O00214,4,3,24,2026-05-06,Tienda web,Pendiente,90.00
+215,O00215,67,2,30,2026-06-17,App TelcoNorte,Pendiente,174.92
+216,O00216,125,2,15,2026-05-08,Distribuidor autorizado,Pendiente,3716.87
+217,O00217,3,3,25,2026-04-19,Centro de atención,Completado,1277.45
+218,O00218,155,5,26,2026-01-21,Tienda web,Pendiente,450.60
+219,O00219,108,2,29,2026-03-21,App TelcoNorte,Completado,475.09
+220,O00220,60,3,18,2026-01-20,Distribuidor autorizado,Pendiente,290.49
+221,O00221,44,1,16,2026-04-16,Centro de atención,Cancelado,1028.94
+222,O00222,142,2,8,2026-05-01,Tienda web,Pendiente,480.00
+223,O00223,13,3,14,2026-04-02,App TelcoNorte,Completado,576.30
+224,O00224,85,2,33,2026-02-04,Distribuidor autorizado,Completado,2241.18
+225,O00225,170,4,8,2026-02-04,Centro de atención,Completado,1016.04
+226,O00226,20,4,26,2026-03-26,Tienda web,Completado,53.81
+227,O00227,160,3,5,2026-05-23,App TelcoNorte,Completado,2348.22
+228,O00228,54,4,5,2026-06-14,Distribuidor autorizado,Completado,809.50
+229,O00229,69,6,3,2026-06-15,Centro de atención,Cancelado,346.70
+230,O00230,115,5,31,2026-02-03,Tienda web,Pendiente,46.31
+231,O00231,44,5,16,2026-01-25,App TelcoNorte,Cancelado,291.78
+232,O00232,24,4,3,2026-02-11,Distribuidor autorizado,Completado,816.45
+233,O00233,153,5,3,2026-05-21,Centro de atención,Observado,2559.38
+234,O00234,16,2,8,05/02/2026,Tienda web,Observado,5041.80
+235,O00235,126,1,33,2026-02-12,App TelcoNorte,Completado,0.00
+236,O00236,12,5,19,2026-02-25,Distribuidor autorizado,Completado,20650.00
+237,O00237,100,3,11,2026-06-14,Centro de atención,Cancelado,1037.10
+238,O00238,145,1,11,2026-04-24,Tienda web,Pendiente,4562.85
+239,O00239,118,6,21,2026-04-21,App TelcoNorte,Cancelado,11737.50
+240,O00240,179,3,38,2026-06-19,Distribuidor autorizado,Cancelado,818.93
+241,O00241,116,3,23,2026-03-24,Centro de atención,Completado,1382.86
+242,O00242,61,6,36,2026-03-12,Tienda web,Completado,90.00
+243,O00243,132,4,15,2026-04-01,App TelcoNorte,Completado,269.40
+244,O00244,168,5,35,2026-03-26,Distribuidor autorizado,Completado,341.50
+245,O00245,189,4,32,2026-01-01,Centro de atención,Completado,1135.60
+246,O00246,97,6,1,2026-04-06,Tienda web,Completado,589.24
+247,O00247,179,1,8,2026-05-22,App TelcoNorte,Pendiente,984.94
+248,O00248,103,3,13,2026-06-09,Distribuidor autorizado,Completado,124.80
+249,O00249,9040,3,37,2026-01-28,Centro de atención,Pendiente,299.50
+250,O00250,40,4,18,2026-04-17,Tienda web,Cancelado,90.00
+251,O00251,157,1,8,2026-03-27,App TelcoNorte,Completado,1273.00
+252,O00252,110,4,21,2026-01-09,Distribuidor autorizado,Completado,375.00
+253,O00253,116,4,28,2026-05-18,Centro de atención,Completado,265.11
+254,O00254,141,3,4,2026-03-02,Tienda web,Completado,290.87
+255,O00255,39,5,6,2026-06-17,App TelcoNorte,Completado,288.72
+256,O00256,5,4,2,2026-06-09,Distribuidor autorizado,Pendiente,1248.36
+257,O00257,15,1,28,2026-02-14,Centro de atención,Pendiente,6103.46
+258,O00258,58,5,16,28/04/2026,Tienda web,Completado,923.16
+259,O00259,164,5,15,2026-03-11,App TelcoNorte,Pendiente,894.12
+260,O00260,53,1,11,2026-06-11,Distribuidor autorizado,Completado,160.44
+261,O00261,112,1,17,2026-04-07,Centro de atención,Completado,134.96
+262,O00262,178,6,6,07/02/2026,Tienda web,Completado,10.00
+263,O00263,186,3,21,2026-02-03,App TelcoNorte,Cancelado,1657.86
+264,O00264,5,6,18,2026-03-02,Distribuidor autorizado,Pendiente,267.00
+265,O00265,177,3,15,2026-06-05,Centro de atención,Pendiente,75.00
+266,O00266,163,6,20,2026-06-25,Tienda web,Completado,4154.15
+267,O00267,38,1,4,2026-04-22,App TelcoNorte,Observado,6175.67
+268,O00268,25,6,4,2026-02-08,Distribuidor autorizado,Completado,9849.50
+269,O00269,149,2,,2026-01-06,Centro de atención,Completado,965.22
+270,O00270,49,5,35,2026-04-21,Tienda web,Completado,7550.00
+271,O00271,35,2,33,2026-01-15,App TelcoNorte,Completado,240.66
+272,O00272,42,6,3,2026-03-28,Distribuidor autorizado,Completado,338.97
+273,O00273,1,6,19,2026-05-02,Centro de atención,Completado,2198.48
+274,O00274,172,3,,2026-02-21,Tienda web,Cancelado,30.32
+275,O00275,112,5,37,2026-02-22,App TelcoNorte,Completado,973.03
+276,O00276,62,6,38,2026-01-13,Distribuidor autorizado,Cancelado,297.08
+277,O00277,2,2,8,2026-05-25,Centro de atención,Completado,585.48
+278,O00278,50,1,13,2026-05-25,Tienda web,Pendiente,198.12
+279,O00279,168,3,13,2026-03-05,App TelcoNorte,Completado,1134.50
+280,O00280,105,4,19,2026-02-07,Distribuidor autorizado,Completado,2840.49
+281,O00281,21,5,,2026-04-09,Centro de atención,Pendiente,1159.60
+282,O00282,124,5,40,2026-04-15,Tienda web,Pendiente,238.00
+283,O00283,194,2,15,2026-02-28,App TelcoNorte,Completado,2282.55
+284,O00284,140,4,16,2026-06-03,Distribuidor autorizado,Completado,2489.28
+285,O00285,87,2,17,2026-03-02,Centro de atención,Pendiente,34.23
+286,O00286,138,4,4,2026-06-12,Tienda web,Cancelado,90.00
+287,O00287,196,2,19,2026-05-18,App TelcoNorte,Pendiente,5196.20
+288,O00288,86,4,20,2026-05-09,Distribuidor autorizado,Pendiente,420.00
+289,O00289,51,1,13,2026-05-12,Centro de atención,Completado,299.57
+290,O00290,131,4,28,2026-03-21,Tienda web,Completado,712.01
+291,O00291,101,6,2,2026-03-12,App TelcoNorte,Completado,289.92
+292,O00292,190,2,12,2026-03-23,Distribuidor autorizado,Completado,518.14
+293,O00293,9189,4,35,2026-06-13,Centro de atención,Completado,787.40
+294,O00294,112,4,17,2026-02-11,Tienda web,Pendiente,2016.72
+295,O00295,59,1,25,15/05/2026,App TelcoNorte,Completado,647.40
+296,O00296,126,3,27,2026-01-11,Distribuidor autorizado,Pendiente,6993.81
+297,O00297,146,5,27,2026-06-28,Centro de atención,Completado,2551.89
+298,O00298,169,4,3,2026-01-12,Tienda web,Cancelado,5687.94
+299,O00299,160,3,36,2026-03-11,App TelcoNorte,Cancelado,387.32
+300,O00300,155,6,11,2026-05-21,Distribuidor autorizado,Completado,450.93
+301,O00301,187,2,4,2026-03-13,Centro de atención,Completado,159.50
+302,O00302,185,3,40,2026-03-24,Tienda web,Pendiente,643.57
+303,O00303,118,1,13,2026-05-01,App TelcoNorte,Pendiente,22.74
+304,O00304,181,1,8,2026-03-22,Distribuidor autorizado,Cancelado,8207.84
+305,O00305,175,1,35,2026-05-19,Centro de atención,Completado,484.15
+306,O00306,6,6,28,2026-01-23,Tienda web,Completado,447.90
+307,O00307,175,2,29,2026-06-21,App TelcoNorte,Completado,534.00
+308,O00308,125,5,33,2026-05-08,Distribuidor autorizado,Pendiente,1902.02
+309,O00309,182,1,1,2026-04-05,Centro de atención,Pendiente,-3688.0
+310,O00310,122,6,2,2026-04-15,Tienda web,Cancelado,59.82
+311,O00311,13,3,22,2026-03-07,App TelcoNorte,Pendiente,5944.86
+312,O00312,52,5,15,2026-04-11,Distribuidor autorizado,Completado,2578.33
+313,O00313,24,1,38,2026-01-26,Centro de atención,Pendiente,112.78
+314,O00314,8,4,40,2026-06-12,Tienda web,Observado,89.00
+315,O00315,12,6,26,2026-01-08,App TelcoNorte,Cancelado,57.45
+316,O00316,81,1,13,2026-04-17,Distribuidor autorizado,Completado,90.00
+317,O00317,39,2,38,2026-05-21,Centro de atención,Pendiente,564.01
+318,O00318,52,4,22,2026-04-26,Tienda web,Completado,397.74
+319,O00319,172,4,19,2026-06-27,App TelcoNorte,Cancelado,290.49
+320,O00320,74,1,39,2026-02-07,Distribuidor autorizado,Cancelado,163.29
+321,O00321,76,2,17,2026-05-26,Centro de atención,Observado,652.14
+322,O00322,47,2,2,2026-03-28,Tienda web,Pendiente,2277.25
+323,O00323,195,5,29,2026-04-11,App TelcoNorte,Pendiente,3025.08
+324,O00324,9,2,5,2026-02-09,Distribuidor autorizado,Observado,494.50
+325,O00325,25,1,23,2026-05-12,Centro de atención,Observado,979.74
+326,O00326,74,2,23,2026-01-09,Tienda web,Cancelado,15.16
+327,O00327,143,3,31,2026-03-13,App TelcoNorte,Completado,661.50
+328,O00328,170,3,28,2026-05-26,Distribuidor autorizado,Completado,796.78
+329,O00329,103,2,15,2026-05-05,Centro de atención,Completado,200.00
+330,O00330,182,6,26,2026-04-06,Tienda web,Pendiente,30.00
+331,O00331,106,2,31,2026-01-19,App TelcoNorte,Cancelado,2908.10
+332,O00332,42,6,2,2026-04-21,Distribuidor autorizado,Completado,1889.52
+333,O00333,56,4,1,2026-04-02,Centro de atención,Pendiente,1203.22
+334,O00334,42,3,37,2026-02-08,Tienda web,Completado,688.93
+335,O00335,108,3,35,2026-03-21,App TelcoNorte,Completado,1007.26
+336,O00336,46,1,2,2026-02-06,Distribuidor autorizado,Cancelado,525.00
+337,O00337,166,1,1,2026-03-19,Centro de atención,Completado,450.49
+338,O00338,6,6,34,2026-03-23,Tienda web,Cancelado,400.55
+339,O00339,127,4,38,2026-04-26,App TelcoNorte,Pendiente,1371.54
+340,O00340,150,4,2,13/03/2026,Distribuidor autorizado,Completado,6246.92
+341,O00341,148,6,20,2026-01-24,Centro de atención,Cancelado,1154.05
+342,O00342,135,3,34,2026-02-03,Tienda web,Completado,495.48
+343,O00343,132,1,16,2026-04-22,App TelcoNorte,Cancelado,3488.16
+344,O00344,19,2,27,2026-05-25,Distribuidor autorizado,Cancelado,7519.80
+345,O00345,65,5,19,2026-01-16,Centro de atención,Pendiente,0.00
+346,O00346,140,4,38,2026-03-09,Tienda web,Cancelado,963.94
+347,O00347,182,2,17,2026-04-25,App TelcoNorte,Observado,659.50
+348,O00348,79,3,37,2026-03-02,Distribuidor autorizado,Pendiente,1207.69
+349,O00349,4,3,25,2026-02-12,Centro de atención,Pendiente,1409.66
+350,O00350,77,4,15,04/01/2026,Tienda web,Cancelado,681.87
+351,O00351,12,6,34,03/06/2026,App TelcoNorte,Observado,721.22
+352,O00352,75,1,35,2026-05-19,Distribuidor autorizado,Completado,1665.78
+353,O00353,103,6,7,2026-02-27,Centro de atención,Cancelado,436.70
+354,O00354,98,5,22,2026-03-22,Tienda web,Completado,1677.85
+355,O00355,137,2,23,2026-05-14,App TelcoNorte,Completado,107.90
+356,O00356,170,3,3,2026-03-14,Distribuidor autorizado,Completado,899.97
+357,O00357,87,3,11,2026-03-09,Centro de atención,Observado,9314.39
+358,O00358,48,4,36,2026-03-01,Tienda web,Completado,1797.42
+359,O00359,2,2,25,2026-03-19,App TelcoNorte,Completado,6313.96
+360,O00360,139,5,23,2026-04-28,Distribuidor autorizado,Completado,857.40
+361,O00361,111,5,5,2026-06-18,Centro de atención,Completado,481.76
+362,O00362,167,1,17,07/03/2026,Tienda web,Completado,225.00
+363,O00363,173,6,29,2026-01-10,App TelcoNorte,Completado,10016.75
+364,O00364,21,2,40,2026-01-27,Distribuidor autorizado,Completado,1711.62
+365,O00365,18,2,36,2026-02-11,Centro de atención,Pendiente,59.80
+366,O00366,76,3,39,2026-05-28,Tienda web,Completado,839.20
+367,O00367,62,4,23,2026-01-20,App TelcoNorte,Completado,19007.74
+368,O00368,93,3,24,2026-06-22,Distribuidor autorizado,Completado,2950.88
+369,O00369,72,2,31,2026-05-19,Centro de atención,Completado,83.90
+370,O00370,170,6,15,2026-02-09,Tienda web,Completado,368.34
+371,O00371,140,3,27,2026-02-16,App TelcoNorte,Cancelado,1662.66
+372,O00372,138,5,20,2026-06-26,Distribuidor autorizado,Completado,1801.80
+373,O00373,159,2,37,2026-05-21,Centro de atención,Completado,2170.20
+374,O00374,113,3,23,2026-04-25,Tienda web,Completado,158.34
+375,O00375,84,3,25,2026-02-18,App TelcoNorte,Completado,749.62
+376,O00376,40,1,4,2026-02-12,Distribuidor autorizado,Pendiente,777.41
+377,O00377,148,3,13,2026-05-17,Centro de atención,Completado,357.02
+378,O00378,136,4,10,2026-03-13,Tienda web,Cancelado,180.00
+379,O00379,37,4,39,2026-04-18,App TelcoNorte,Observado,3030.47
+380,O00380,136,2,39,2026-04-28,Distribuidor autorizado,Cancelado,7.58
+381,O00381,138,1,35,2026-06-10,Centro de atención,Completado,6172.41
+382,O00382,109,1,10,2026-04-01,Tienda web,Completado,359.40
+383,O00383,61,2,32,2026-05-27,App TelcoNorte,Completado,2123.78
+384,O00384,159,6,5,2026-02-26,Distribuidor autorizado,Completado,1552.25
+385,O00385,159,2,9,2026-05-20,Centro de atención,Completado,9992.09
+386,O00386,52,4,21,2026-03-06,Tienda web,Observado,626.02
+387,O00387,83,6,39,2026-03-06,App TelcoNorte,Pendiente,845.30
+388,O00388,27,2,30,20/02/2026,Distribuidor autorizado,Pendiente,763.29
+389,O00389,80,2,33,2026-06-16,Centro de atención,Completado,6503.94
+390,O00390,42,3,25,2026-05-02,Tienda web,Completado,294.26
+391,O00391,41,6,29,2026-02-14,App TelcoNorte,Completado,8339.52
+392,O00392,80,2,12,2026-04-24,Distribuidor autorizado,Completado,69.64
+393,O00393,142,6,24,2026-01-25,Centro de atención,Pendiente,3107.19
+394,O00394,67,6,21,2026-04-11,Tienda web,Observado,1445.20
+395,O00395,152,1,8,2026-01-01,App TelcoNorte,Completado,9470.11
+396,O00396,153,5,5,2026-06-16,Distribuidor autorizado,Completado,249.35
+397,O00397,159,4,18,2026-02-05,Centro de atención,Completado,364.03
+398,O00398,194,1,16,2026-06-03,Tienda web,Completado,670.00
+399,O00399,169,6,6,2026-06-12,App TelcoNorte,Completado,2072.88
+400,O00400,145,2,8,02/02/2026,Distribuidor autorizado,Completado,419.50
+401,O00401,53,2,15,2026-05-22,Centro de atención,Pendiente,288.72
+402,O00402,156,2,32,2026-06-25,Tienda web,Cancelado,288.72
+403,O00403,177,2,12,2026-02-08,App TelcoNorte,Completado,420.96
+404,O00404,9485,6,28,2026-06-10,Distribuidor autorizado,Completado,120.00
+405,O00405,73,5,7,2026-03-22,Centro de atención,Pendiente,659.50
+406,O00406,57,1,15,24/06/2026,Tienda web,Completado,200.00
+407,O00407,155,4,5,2026-04-12,App TelcoNorte,Pendiente,744.06
+408,O00408,33,6,35,2026-02-24,Distribuidor autorizado,Observado,100.00
+409,O00409,144,5,19,2026-01-16,Centro de atención,Completado,1350.45
+410,O00410,159,4,3,2026-04-18,Tienda web,Completado,219.92
+411,O00411,177,1,33,2026-03-23,App TelcoNorte,Completado,849.64
+412,O00412,57,2,13,2026-04-03,Distribuidor autorizado,Cancelado,961.22
+413,O00413,196,2,34,2026-05-02,Centro de atención,Completado,803.99
+414,O00414,131,6,1,2026-01-18,Tienda web,Completado,1328.92
+415,O00415,190,1,1,2026-01-25,App TelcoNorte,Completado,689.50
+416,O00416,8,4,35,2026-03-28,Distribuidor autorizado,Cancelado,433.08
+417,O00417,15,1,21,19/06/2026,Centro de atención,Completado,301.39
+418,O00418,138,5,18,2026-05-03,Tienda web,Observado,2949.24
+419,O00419,14,4,33,2026-03-01,App TelcoNorte,Completado,1850.00
+420,O00420,58,6,35,2026-05-08,Distribuidor autorizado,Cancelado,193.00
+421,O00421,78,1,36,2026-02-20,Centro de atención,Completado,1850.00
+422,O00422,55,2,9,2026-03-16,Tienda web,Pendiente,1120.99
+423,O00423,136,4,4,2026-06-24,App TelcoNorte,Completado,90.00
+424,O00424,96,5,35,2026-06-15,Distribuidor autorizado,Completado,134.70
+425,O00425,196,4,25,2026-06-15,Centro de atención,Pendiente,1235.40
+426,O00426,55,1,5,2026-05-02,Tienda web,Completado,1920.01
+427,O00427,73,5,30,2026-02-25,App TelcoNorte,Cancelado,524.19
+428,O00428,27,4,22,2026-05-22,Distribuidor autorizado,Pendiente,564.36
+429,O00429,87,2,19,2026-05-11,Centro de atención,Pendiente,209.40
+430,O00430,21,1,22,2026-04-19,Tienda web,Pendiente,333.70
+431,O00431,147,2,34,2026-01-17,App TelcoNorte,Pendiente,660.47
+432,O00432,57,6,7,2026-01-04,Distribuidor autorizado,Observado,8313.20
+433,O00433,53,3,26,2026-04-03,Centro de atención,Completado,311.80
+434,O00434,135,6,19,2026-01-27,Tienda web,Completado,1885.17
+435,O00435,46,5,24,26/03/2026,App TelcoNorte,Completado,60.00
+436,O00436,181,5,3,12/06/2026,Distribuidor autorizado,Completado,467.70
+437,O00437,123,4,38,2026-06-28,Centro de atención,Completado,534.00
+438,O00438,154,5,28,28/04/2026,Tienda web,Observado,489.87
+439,O00439,115,4,35,2026-05-13,App TelcoNorte,Completado,83.90
+440,O00440,69,2,14,2026-06-12,Distribuidor autorizado,Completado,11834.29
+441,O00441,147,4,31,2026-02-12,Centro de atención,Completado,876.04
+442,O00442,180,5,33,2026-02-28,Tienda web,Completado,553.41
+443,O00443,146,4,37,2026-04-16,App TelcoNorte,Observado,520.72
+444,O00444,129,3,9,2026-01-27,Distribuidor autorizado,Pendiente,326.58
+445,O00445,153,1,7,2026-04-09,Centro de atención,Completado,649.50
+446,O00446,92,6,16,2026-06-15,Tienda web,Pendiente,1078.71
+447,O00447,96,6,10,2026-01-24,App TelcoNorte,Completado,1712.52
+448,O00448,75,5,32,19/02/2026,Distribuidor autorizado,Cancelado,4474.73
+449,O00449,157,6,34,2026-01-13,Centro de atención,Pendiente,644.50
+450,O00450,79,1,36,2026-01-18,Tienda web,Completado,69.64
+451,O00451,134,1,11,2026-04-25,App TelcoNorte,Pendiente,3190.78
+452,O00452,171,1,24,28/05/2026,Distribuidor autorizado,Observado,137.52
+453,O00453,6,1,9,2026-02-09,Centro de atención,Completado,3700.00
+454,O00454,20,6,12,2026-01-17,Tienda web,Completado,277.90
+455,O00455,36,4,30,2026-06-21,App TelcoNorte,Pendiente,627.00
+456,O00456,115,3,25,2026-03-13,Distribuidor autorizado,Pendiente,475.49
+457,O00457,41,1,1,2026-03-17,Centro de atención,Completado,1079.19
+458,O00458,154,4,35,2026-02-27,Tienda web,Completado,4323.93
+459,O00459,14,3,26,2026-04-28,App TelcoNorte,Completado,4342.57
+460,O00460,18,5,36,2026-03-19,Distribuidor autorizado,Pendiente,686.60
+461,O00461,15,5,13,2026-03-22,Centro de atención,Observado,190.00
+462,O00462,173,4,19,2026-03-03,Tienda web,Pendiente,1002.78
+463,O00463,44,1,,2026-06-19,App TelcoNorte,Completado,105.00
+464,O00464,42,3,13,2026-06-15,Distribuidor autorizado,Observado,1048.47
+465,O00465,100,1,23,2026-05-14,Centro de atención,Cancelado,350.49
+466,O00466,177,1,38,12/05/2026,Tienda web,Pendiente,179.70
+467,O00467,46,5,7,2026-02-23,App TelcoNorte,Completado,0.00
+468,O00468,65,6,4,2026-04-25,Distribuidor autorizado,Cancelado,431.60
+469,O00469,10,6,35,2026-03-23,Centro de atención,Completado,107.62
+470,O00470,12,6,35,2026-04-06,Tienda web,Completado,539.70
+471,O00471,2,4,32,2026-05-28,App TelcoNorte,Completado,3738.24
+472,O00472,188,6,14,2026-03-27,Distribuidor autorizado,Completado,573.80
+473,O00473,105,3,19,02/02/2026,Centro de atención,Completado,188.00
+474,O00474,175,5,20,13/05/2026,Tienda web,Completado,2461.72
+475,O00475,135,6,4,2026-04-25,App TelcoNorte,Completado,444.77
+476,O00476,160,6,25,2026-06-01,Distribuidor autorizado,Cancelado,1759.84
+477,O00477,24,6,38,2026-06-03,Centro de atención,Pendiente,2433.42
+478,O00478,86,3,20,2026-05-18,Tienda web,Completado,898.71
+479,O00479,112,6,30,2026-04-27,App TelcoNorte,Completado,649.50
+480,O00480,9,3,5,2026-01-18,Distribuidor autorizado,Cancelado,719.60
+481,O00481,104,1,35,2026-06-24,Centro de atención,Completado,340.44
+482,O00482,170,1,3,2026-05-17,Tienda web,Completado,1264.24
+483,O00483,34,6,2,2026-03-13,App TelcoNorte,Completado,535.35
+484,O00484,23,5,7,2026-02-21,Distribuidor autorizado,Completado,2459.04
+485,O00485,172,4,38,2026-05-10,Centro de atención,Pendiente,615.09
+486,O00486,57,1,36,2026-01-26,Tienda web,Observado,1074.76
+487,O00487,163,1,8,2026-03-01,App TelcoNorte,Pendiente,60.00
+488,O00488,147,3,5,2026-06-13,Distribuidor autorizado,Completado,5280.54
+489,O00489,54,2,2,2026-06-05,Centro de atención,Pendiente,642.41
+490,O00490,178,6,36,2026-04-06,Tienda web,Completado,8727.81
+491,O00491,76,4,8,2026-01-27,App TelcoNorte,Pendiente,187.99
+492,O00492,114,2,17,2026-04-23,Distribuidor autorizado,Completado,476.58
+493,O00493,63,2,3,2026-05-25,Centro de atención,Completado,1098.90
+494,O00494,165,2,26,2026-03-24,Tienda web,Completado,180.00
+495,O00495,54,1,33,2026-02-13,App TelcoNorte,Completado,749.92
+496,O00496,28,4,11,2026-06-17,Distribuidor autorizado,Pendiente,332.48
+497,O00497,84,1,33,2026-06-20,Centro de atención,Cancelado,747.05
+498,O00498,187,2,39,2026-03-07,Tienda web,Pendiente,11095.20
+499,O00499,9013,6,30,2026-05-28,App TelcoNorte,Pendiente,2004.50
+500,O00500,70,4,18,2026-03-23,Distribuidor autorizado,Completado,270.00
+501,O00501,182,5,33,2026-01-16,Centro de atención,Observado,11650.61
+502,O00502,133,6,17,2026-04-18,Tienda web,Completado,256.12
+503,O00503,153,6,12,2026-05-08,App TelcoNorte,Cancelado,2207.75
+504,O00504,24,6,31,2026-05-19,Distribuidor autorizado,Completado,931.48
+505,O00505,180,1,9,2026-02-20,Centro de atención,Completado,903.29
+506,O00506,120,2,18,2026-01-18,Tienda web,Completado,215.24
+507,O00507,17,3,14,2026-06-11,App TelcoNorte,Completado,493.00
+508,O00508,200,5,37,2026-01-03,Distribuidor autorizado,Pendiente,1384.44
+509,O00509,121,4,31,2026-01-01,Centro de atención,Completado,396.54
+510,O00510,86,4,,2026-05-10,Tienda web,Completado,3608.10
+511,O00511,175,6,20,04/05/2026,App TelcoNorte,Observado,1213.44
+512,O00512,58,4,40,2026-02-21,Distribuidor autorizado,Completado,16397.12
+513,O00513,159,1,26,2026-01-23,Centro de atención,Completado,682.26
+514,O00514,157,4,6,2026-04-05,Tienda web,Pendiente,1154.62
+515,O00515,77,5,13,2026-04-07,App TelcoNorte,Cancelado,371.49
+516,O00516,138,6,6,2026-02-09,Distribuidor autorizado,Cancelado,206.95
+517,O00517,14,1,15,2026-03-27,Centro de atención,Completado,1420.9
+518,O00518,128,1,14,2026-04-10,Tienda web,Completado,89.70
+519,O00519,9669,6,32,2026-01-06,App TelcoNorte,Observado,311.80
+520,O00520,107,2,3,2026-06-10,Distribuidor autorizado,Completado,493.08
+521,O00521,170,5,14,2026-05-03,Centro de atención,Completado,215.80
+522,O00522,155,2,15,2026-06-19,Tienda web,Cancelado,1274.00
+523,O00523,173,6,23,2026-05-28,App TelcoNorte,Completado,9444.64
+524,O00524,76,3,27,2026-01-28,Distribuidor autorizado,Completado,1079.40
+525,O00525,110,3,2,2026-04-12,Centro de atención,Cancelado,1227.92
+526,O00526,9251,2,5,2026-06-10,Tienda web,Completado,489.87
+527,O00527,184,6,38,10/05/2026,App TelcoNorte,Completado,225.00
+528,O00528,163,5,20,2026-03-15,Distribuidor autorizado,Completado,2236.52
+529,O00529,118,2,1,2026-02-24,Centro de atención,Completado,687.40
+530,O00530,194,6,17,2026-04-22,Tienda web,Completado,1114.16
+531,O00531,78,3,22,2026-02-11,App TelcoNorte,Completado,90.00
+532,O00532,149,6,25,2026-06-24,Distribuidor autorizado,Cancelado,11152.78
+533,O00533,34,2,7,2026-06-09,Centro de atención,Completado,2075.63
+534,O00534,53,1,2,2026-04-23,Tienda web,Completado,889.49
+535,O00535,4,3,33,2026-02-07,App TelcoNorte,Completado,3039.15
+536,O00536,26,6,2,2026-04-20,Distribuidor autorizado,Completado,619.70
+537,O00537,42,3,6,12/05/2026,Centro de atención,Completado,247.49
+538,O00538,24,2,6,2026-04-17,Tienda web,Completado,282.46
+539,O00539,197,3,18,2026-03-25,App TelcoNorte,Completado,536.70
+540,O00540,57,2,11,2026-01-06,Distribuidor autorizado,Completado,463.00
+541,O00541,12,1,32,2026-06-11,Centro de atención,Pendiente,539.70
+542,O00542,22,5,37,2026-06-19,Tienda web,Completado,359.92
+543,O00543,47,3,16,2026-01-20,App TelcoNorte,Cancelado,166.29
+544,O00544,166,5,28,2026-02-01,Distribuidor autorizado,Completado,824.30
+545,O00545,134,6,34,2026-04-25,Centro de atención,Completado,375.16
+546,O00546,122,1,31,2026-06-16,Tienda web,Cancelado,120.96
+547,O00547,71,3,6,2026-06-22,App TelcoNorte,Completado,53.81
+548,O00548,88,5,38,2026-03-28,Distribuidor autorizado,Pendiente,622.14
+549,O00549,181,4,22,2026-04-07,Centro de atención,Completado,490.16
+550,O00550,166,4,26,2026-05-14,Tienda web,Cancelado,2892.33
+551,O00551,142,4,16,2026-04-22,App TelcoNorte,Pendiente,673.29
+552,O00552,179,1,12,2026-02-10,Distribuidor autorizado,Completado,1560.30
+553,O00553,42,4,38,2026-05-19,Centro de atención,Pendiente,742.88
+554,O00554,134,3,23,2026-01-17,Tienda web,Pendiente,4683.12
+555,O00555,107,6,25,2026-02-24,App TelcoNorte,Completado,5889.47
+556,O00556,9295,4,17,2026-06-23,Distribuidor autorizado,Completado,45.00
+557,O00557,127,4,27,2026-02-26,Centro de atención,Completado,3084.25
+558,O00558,10,3,4,2026-02-04,Tienda web,Cancelado,1390.51
+559,O00559,85,1,19,2026-01-17,App TelcoNorte,Completado,68.94
+560,O00560,88,1,20,2026-05-04,Distribuidor autorizado,Completado,1023.00
+561,O00561,80,3,24,2026-04-20,Centro de atención,Completado,946.04
+562,O00562,77,2,14,04/02/2026,Tienda web,Cancelado,4409.99
+563,O00563,102,1,15,2026-06-24,App TelcoNorte,Observado,0.00
+564,O00564,32,2,,2026-05-10,Distribuidor autorizado,Completado,7670.00
+565,O00565,181,6,14,03/06/2026,Centro de atención,Pendiente,225.00
+566,O00566,95,5,17,2026-06-05,Tienda web,Completado,3427.72
+567,O00567,49,2,17,08/03/2026,App TelcoNorte,Completado,3882.98
+568,O00568,33,5,6,2026-02-24,Distribuidor autorizado,Observado,250.70
+569,O00569,90,2,23,2026-04-14,Centro de atención,Pendiente,12830.08
+570,O00570,68,3,8,2026-01-26,Tienda web,Completado,260.24
+571,O00571,5,3,29,2026-03-17,App TelcoNorte,Cancelado,1010.21
+572,O00572,182,5,5,23/04/2026,Distribuidor autorizado,Completado,2148.67
+573,O00573,26,3,24,2026-05-10,Centro de atención,Completado,372.74
+574,O00574,81,4,27,2026-01-26,Tienda web,Completado,655.98
+575,O00575,68,5,6,2026-06-19,App TelcoNorte,Completado,164.70
+576,O00576,34,6,9,2026-06-26,Distribuidor autorizado,Observado,290.49
+577,O00577,58,1,24,2026-01-17,Centro de atención,Completado,45.00
+578,O00578,39,2,35,2026-03-27,Tienda web,Completado,13395.31
+579,O00579,57,6,34,2026-03-20,App TelcoNorte,Observado,975.49
+580,O00580,80,5,7,2026-01-01,Distribuidor autorizado,Cancelado,2138.73
+581,O00581,79,1,2,2026-01-20,Centro de atención,Pendiente,8495.82
+582,O00582,14,2,39,2026-03-11,Tienda web,Completado,2748.10
+583,O00583,187,5,35,2026-02-01,App TelcoNorte,Completado,96.83
+584,O00584,141,6,14,2026-03-24,Distribuidor autorizado,Completado,543.34
+585,O00585,6,6,31,2026-01-20,Centro de atención,Pendiente,10.00
+586,O00586,154,3,6,2026-04-25,Tienda web,Cancelado,79.17
+587,O00587,77,4,4,2026-02-23,App TelcoNorte,Completado,0.00
+588,O00588,104,6,11,2026-06-15,Distribuidor autorizado,Completado,180.00
+589,O00589,166,2,22,2026-02-20,Centro de atención,Completado,137.67
+590,O00590,46,2,36,2026-04-04,Tienda web,Completado,899.50
+591,O00591,195,4,12,2026-01-28,App TelcoNorte,Pendiente,3297.72
+592,O00592,100,1,21,2026-02-03,Distribuidor autorizado,Observado,1045.83
+593,O00593,135,2,38,2026-06-07,Centro de atención,Completado,1905.32
+594,O00594,61,3,8,2026-04-10,Tienda web,Cancelado,329.01
+595,O00595,54,4,9,2026-01-15,App TelcoNorte,Completado,4052.35
+596,O00596,43,3,30,2026-04-26,Distribuidor autorizado,Pendiente,815.55
+597,O00597,13,3,22,2026-03-23,Centro de atención,Cancelado,211.12
+598,O00598,49,5,3,2026-02-27,Tienda web,Observado,659.50
+599,O00599,103,5,33,2026-01-02,App TelcoNorte,Completado,683.80
+600,O00600,176,5,17,05/06/2026,Distribuidor autorizado,Completado,903.44
+601,O00601,198,6,17,04/02/2026,Centro de atención,Completado,3292.25
+602,O00602,125,1,36,2026-03-10,Tienda web,Pendiente,47.98
+603,O00603,157,1,8,2026-05-16,App TelcoNorte,Observado,1323.32
+604,O00604,113,5,32,19/03/2026,Distribuidor autorizado,Observado,9746.84
+605,O00605,17,2,40,2026-04-21,Centro de atención,Completado,470.56
+606,O00606,29,1,37,28/02/2026,Tienda web,Pendiente,301.20
+607,O00607,16,3,32,2026-02-10,App TelcoNorte,Cancelado,3207.88
+608,O00608,129,6,1,2026-05-01,Distribuidor autorizado,Pendiente,90.00
+609,O00609,132,3,19,2026-03-24,Centro de atención,Completado,551.38
+610,O00610,45,1,16,2026-01-27,Tienda web,Completado,45.00
+611,O00611,9866,5,26,2026-01-12,App TelcoNorte,Completado,1133.71
+612,O00612,45,2,7,2026-02-09,Distribuidor autorizado,Completado,5749.10
+613,O00613,12,1,,2026-06-13,Centro de atención,Cancelado,588.62
+614,O00614,165,1,37,2026-03-23,Tienda web,Pendiente,644.62
+615,O00615,141,2,39,2026-03-28,App TelcoNorte,Completado,251.78
+616,O00616,60,1,14,2026-03-04,Distribuidor autorizado,Completado,3144.64
+617,O00617,113,4,22,2026-03-19,Centro de atención,Completado,84.64
+618,O00618,174,3,28,2026-01-18,Tienda web,Observado,1009.15
+619,O00619,134,5,39,2026-05-25,App TelcoNorte,Cancelado,435.66
+620,O00620,124,6,11,2026-05-03,Distribuidor autorizado,Completado,93.92
+621,O00621,149,1,33,2026-01-07,Centro de atención,Pendiente,3492.06
+622,O00622,128,2,36,2026-05-24,Tienda web,Observado,519.60
+623,O00623,130,1,25,2026-05-12,App TelcoNorte,Completado,22.74
+624,O00624,59,5,11,2026-03-15,Distribuidor autorizado,Observado,180.00
+625,O00625,74,3,11,2026-04-12,Centro de atención,Completado,1170.26
+626,O00626,192,5,36,2026-05-26,Tienda web,Completado,2145.95
+627,O00627,39,6,18,2026-06-06,App TelcoNorte,Completado,1022.22
+628,O00628,180,3,17,2026-05-05,Distribuidor autorizado,Completado,9369.80
+629,O00629,170,1,26,2026-03-02,Centro de atención,Completado,979.74
+630,O00630,37,3,21,2026-02-25,Tienda web,Completado,-2309.85
+631,O00631,191,4,21,2026-02-21,App TelcoNorte,Completado,57.45
+632,O00632,87,4,14,2026-01-19,Distribuidor autorizado,Completado,193.66
+633,O00633,9447,4,17,2026-02-20,Centro de atención,Completado,7400.00
+634,O00634,72,6,34,2026-01-13,Tienda web,Cancelado,5484.85
+635,O00635,158,2,22,2026-01-27,App TelcoNorte,Pendiente,983.20
+636,O00636,99,2,29,2026-01-01,Distribuidor autorizado,Pendiente,2896.66
+637,O00637,155,2,34,2026-01-17,Centro de atención,Cancelado,1971.72
+638,O00638,127,3,20,2026-06-17,Tienda web,Completado,248.84
+639,O00639,149,2,7,2026-05-02,App TelcoNorte,Completado,359.80
+640,O00640,67,6,6,2026-05-23,Distribuidor autorizado,Pendiente,2441.78
+641,O00641,13,6,19,2026-02-09,Centro de atención,Observado,160.44
+642,O00642,198,5,2,2026-01-02,Tienda web,Completado,322.86
+643,O00643,41,5,22,2026-02-12,App TelcoNorte,Completado,51.88
+644,O00644,7,1,32,2026-05-09,Distribuidor autorizado,Completado,959.70
+645,O00645,25,6,34,2026-02-20,Centro de atención,Completado,651.55
+646,O00646,172,1,2,2026-02-13,Tienda web,Cancelado,10459.55
+647,O00647,82,5,34,2026-05-01,App TelcoNorte,Completado,6050.16
+648,O00648,183,2,19,2026-03-20,Distribuidor autorizado,Completado,569.70
+649,O00649,127,1,23,2026-04-07,Centro de atención,Completado,1127.64
+650,O00650,186,6,11,2026-04-28,Tienda web,Completado,3072.60
+651,O00651,11,6,2,2026-06-01,App TelcoNorte,Pendiente,491.49
+652,O00652,146,6,14,2026-04-10,Distribuidor autorizado,Completado,712.34
+653,O00653,74,2,2,2026-04-11,Centro de atención,Cancelado,485.39
+654,O00654,129,5,6,2026-02-27,Tienda web,Pendiente,338.00
+655,O00655,18,3,34,2026-05-17,App TelcoNorte,Pendiente,2397.58
+656,O00656,118,6,23,2026-02-09,Distribuidor autorizado,Pendiente,10543.77
+657,O00657,42,1,7,20/06/2026,Centro de atención,Pendiente,2759.50
+658,O00658,66,6,27,2026-04-08,Tienda web,Completado,7900.16
+659,O00659,197,5,27,2026-02-27,App TelcoNorte,Cancelado,2989.88
+660,O00660,53,3,9,2026-05-01,Distribuidor autorizado,Completado,506.58
+661,O00661,98,2,34,2026-05-03,Centro de atención,Completado,329.40
+662,O00662,196,2,1,2026-01-20,Tienda web,Completado,105.00
+663,O00663,88,5,26,2026-02-21,App TelcoNorte,Completado,779.14
+664,O00664,120,2,40,20/05/2026,Distribuidor autorizado,Pendiente,588.52
+665,O00665,133,6,40,2026-05-09,Centro de atención,Observado,1560.30
+666,O00666,26,3,1,2026-04-10,Tienda web,Pendiente,107.90
+667,O00667,200,5,19,2026-05-01,App TelcoNorte,Observado,1156.13
+668,O00668,151,2,22,2026-05-25,Distribuidor autorizado,Pendiente,167.80
+669,O00669,65,4,4,2026-02-18,Centro de atención,Completado,653.16
+670,O00670,36,4,25,2026-03-07,Tienda web,Pendiente,349.76
+671,O00671,28,4,19,2026-06-13,App TelcoNorte,Cancelado,60.00
+672,O00672,179,2,17,2026-05-10,Distribuidor autorizado,Cancelado,179.40
+673,O00673,101,5,15,2026-05-23,Centro de atención,Pendiente,869.10
+674,O00674,7,5,31,2026-05-20,Tienda web,Completado,964.00
+675,O00675,89,5,39,2026-04-15,App TelcoNorte,Pendiente,441.83
+676,O00676,71,1,11,24/05/2026,Distribuidor autorizado,Completado,178.00
+677,O00677,197,5,29,2026-03-06,Centro de atención,Completado,7.58
+678,O00678,11,6,16,2026-01-07,Tienda web,Completado,115.20
+679,O00679,73,3,3,07/04/2026,App TelcoNorte,Completado,4434.32
+680,O00680,11,1,24,2026-01-24,Distribuidor autorizado,Pendiente,59.90
+681,O00681,83,6,7,2026-03-25,Centro de atención,Pendiente,11379.27
+682,O00682,174,5,,2026-06-12,Tienda web,Completado,105.16
+683,O00683,167,3,36,2026-01-28,App TelcoNorte,Completado,1701.76
+684,O00684,36,2,37,2026-03-09,Distribuidor autorizado,Completado,89.00
+685,O00685,23,2,9,2026-03-23,Centro de atención,Completado,550.90
+686,O00686,137,5,9,2026-03-02,Tienda web,Pendiente,420.00
+687,O00687,96,1,30,2026-01-01,App TelcoNorte,Completado,407.32
+688,O00688,115,6,20,2026-05-06,Distribuidor autorizado,Completado,182.13
+689,O00689,151,6,21,2026-04-24,Centro de atención,Pendiente,653.12
+690,O00690,173,2,6,2026-02-22,Tienda web,Pendiente,240.00
+691,O00691,200,2,37,2026-01-07,App TelcoNorte,Completado,45.00
+692,O00692,197,4,28,2026-02-19,Distribuidor autorizado,Completado,439.50
+693,O00693,56,3,22,13/02/2026,Centro de atención,Completado,4165.34
+694,O00694,183,3,3,2026-02-20,Tienda web,Completado,60.00
+695,O00695,33,2,35,2026-06-22,App TelcoNorte,Pendiente,591.42
+696,O00696,133,2,22,2026-05-06,Distribuidor autorizado,Completado,627.81
+697,O00697,149,2,31,2026-01-19,Centro de atención,Completado,754.46
+698,O00698,200,2,17,2026-05-01,Tienda web,Completado,12668.53
+699,O00699,1,5,6,2026-03-26,App TelcoNorte,Completado,-3461.4
+700,O00700,192,2,4,2026-02-13,Distribuidor autorizado,Pendiente,59.90
+701,O00701,16,2,6,2026-04-18,Centro de atención,Cancelado,356.00
+702,O00702,131,1,15,09/05/2026,Tienda web,Completado,1695.55
+703,O00703,186,5,4,2026-04-26,App TelcoNorte,Completado,789.08
+704,O00704,119,2,5,2026-04-15,Distribuidor autorizado,Completado,239.00
+705,O00705,53,6,,2026-03-11,Centro de atención,Completado,1752.98
+706,O00706,40,2,5,2026-01-08,Tienda web,Observado,-2191.35
+707,O00707,66,2,19,2026-02-07,App TelcoNorte,Completado,5547.12
+708,O00708,33,4,12,2026-06-09,Distribuidor autorizado,Completado,790.45
+709,O00709,188,5,28,2026-01-08,Centro de atención,Completado,671.90
+710,O00710,9281,3,5,2026-01-01,Tienda web,Completado,119.80
+711,O00711,120,6,11,2026-03-04,App TelcoNorte,Cancelado,119.80
+712,O00712,1,3,34,2026-04-17,Distribuidor autorizado,Pendiente,1327.68
+713,O00713,170,5,38,2026-01-02,Centro de atención,Cancelado,719.60
+714,O00714,121,4,31,2026-01-06,Tienda web,Completado,807.01
+715,O00715,99,2,27,2026-03-05,App TelcoNorte,Pendiente,722.72
+716,O00716,115,3,4,2026-01-10,Distribuidor autorizado,Completado,34.82
+717,O00717,131,5,1,2026-01-19,Centro de atención,Cancelado,519.05
+718,O00718,35,2,11,2026-01-06,Tienda web,Pendiente,15.00
+719,O00719,2,3,16,2026-05-21,App TelcoNorte,Completado,3960.48
+720,O00720,51,1,5,2026-05-09,Distribuidor autorizado,Completado,4198.88
+721,O00721,64,2,13,2026-04-08,Centro de atención,Completado,1945.56
+722,O00722,117,6,36,2026-02-28,Tienda web,Completado,416.00
+723,O00723,9891,5,36,2026-02-09,App TelcoNorte,Completado,5041.80
+724,O00724,181,3,17,2026-06-09,Distribuidor autorizado,Completado,6971.61
+725,O00725,20,4,11,01/03/2026,Centro de atención,Pendiente,13209.71
+726,O00726,50,6,23,2026-03-16,Tienda web,Observado,1167.30
+727,O00727,30,2,37,2026-03-03,App TelcoNorte,Completado,638.40
+728,O00728,161,3,,2026-02-10,Distribuidor autorizado,Observado,674.40
+729,O00729,33,4,39,2026-03-10,Centro de atención,Completado,0.00
+730,O00730,62,3,25,2026-02-09,Tienda web,Pendiente,419.50
+731,O00731,164,4,3,2026-01-09,App TelcoNorte,Pendiente,20.00
+732,O00732,130,4,34,2026-02-12,Distribuidor autorizado,Pendiente,450.57
+733,O00733,85,4,5,2026-02-14,Centro de atención,Completado,816.45
+734,O00734,193,5,30,2026-02-15,Tienda web,Pendiente,224.40
+735,O00735,140,1,30,2026-04-01,App TelcoNorte,Completado,5954.12
+736,O00736,109,2,10,2026-03-05,Distribuidor autorizado,Completado,104.46
+737,O00737,111,1,18,2026-05-09,Centro de atención,Completado,760.55
+738,O00738,32,5,14,2026-05-08,Tienda web,Completado,374.53
+739,O00739,84,6,38,2026-01-21,App TelcoNorte,Completado,1196.08
+740,O00740,200,6,1,2026-01-09,Distribuidor autorizado,Completado,6414.06
+741,O00741,97,6,23,2026-06-07,Centro de atención,Pendiente,1268.16
+742,O00742,16,3,6,15/05/2026,Tienda web,Completado,446.95
+743,O00743,51,4,17,2026-01-18,App TelcoNorte,Pendiente,156.83
+744,O00744,145,6,1,2026-05-27,Distribuidor autorizado,Completado,1049.96
+745,O00745,175,5,32,2026-01-26,Centro de atención,Completado,435.14
+746,O00746,14,2,2,2026-03-17,Tienda web,Completado,11207.90
+747,O00747,34,4,13,2026-01-03,App TelcoNorte,Cancelado,937.99
+748,O00748,78,2,16,2026-04-26,Distribuidor autorizado,Completado,3867.80
+749,O00749,36,3,26,2026-06-09,Centro de atención,Completado,551.19
+750,O00750,32,4,9,2026-05-05,Tienda web,Observado,326.72
+751,O00751,149,3,17,2026-06-06,App TelcoNorte,Observado,3700.00
+752,O00752,128,6,13,2026-04-03,Distribuidor autorizado,Pendiente,983.19
+753,O00753,9906,3,3,2026-01-06,Centro de atención,Pendiente,52.23
+754,O00754,117,6,11,2026-06-16,Tienda web,Cancelado,259.80
+755,O00755,197,2,19,2026-01-11,App TelcoNorte,Pendiente,659.50
+756,O00756,185,6,21,2026-03-24,Distribuidor autorizado,Pendiente,653.16
+757,O00757,143,5,21,2026-04-18,Centro de atención,Completado,382.78
+758,O00758,78,2,38,2026-05-02,Tienda web,Pendiente,287.62
+759,O00759,18,2,11,2026-02-21,App TelcoNorte,Pendiente,1267.14
+760,O00760,3,2,25,2026-01-23,Distribuidor autorizado,Completado,1497.85
+761,O00761,39,5,6,2026-06-16,Centro de atención,Completado,0.00
+762,O00762,122,6,16,2026-05-24,Tienda web,Completado,674.40
+763,O00763,172,5,16,2026-04-19,App TelcoNorte,Completado,780.90
+764,O00764,3,4,11,2026-04-28,Distribuidor autorizado,Completado,120.00
+765,O00765,40,2,8,2026-05-12,Centro de atención,Completado,4177.80
+766,O00766,176,4,9,2026-05-23,Tienda web,Observado,755.26
+767,O00767,97,3,27,15/04/2026,App TelcoNorte,Completado,1977.46
+768,O00768,45,5,25,2026-02-18,Distribuidor autorizado,Pendiente,298.00
+769,O00769,14,6,30,2026-05-15,Centro de atención,Completado,8678.94
+770,O00770,196,1,34,2026-03-24,Tienda web,Completado,1739.26
+771,O00771,18,1,4,2026-05-10,App TelcoNorte,Completado,1827.42
+772,O00772,155,1,29,11/04/2026,Distribuidor autorizado,Pendiente,5.00
+773,O00773,26,6,9,2026-01-19,Centro de atención,Completado,1315.40
+774,O00774,137,1,24,2026-05-22,Tienda web,Pendiente,641.62
+775,O00775,172,3,33,2026-04-24,App TelcoNorte,Pendiente,275.80
+776,O00776,97,4,12,2026-06-16,Distribuidor autorizado,Completado,4854.65
+777,O00777,107,4,,2026-02-12,Centro de atención,Completado,40.11
+778,O00778,89,2,18,2026-01-20,Tienda web,Completado,276.70
+779,O00779,63,6,8,2026-03-25,App TelcoNorte,Cancelado,45.96
+780,O00780,29,1,,2026-06-13,Distribuidor autorizado,Pendiente,3457.61
+781,O00781,138,3,4,21/06/2026,Centro de atención,Pendiente,161.43
+782,O00782,96,4,,2026-03-19,Tienda web,Completado,762.49
+783,O00783,119,3,12,2026-06-10,App TelcoNorte,Pendiente,17.41
+784,O00784,106,6,15,2026-03-28,Distribuidor autorizado,Observado,45.48
+785,O00785,2,1,39,2026-05-09,Centro de atención,Cancelado,6706.63
+786,O00786,85,5,40,2026-06-23,Tienda web,Cancelado,3131.36
+787,O00787,2,4,24,2026-06-22,App TelcoNorte,Completado,585.00
+788,O00788,39,3,13,11/06/2026,Distribuidor autorizado,Pendiente,662.86
+789,O00789,2,1,4,2026-06-21,Centro de atención,Completado,479.40
+790,O00790,188,6,8,2026-04-05,Tienda web,Completado,443.20
+791,O00791,17,5,17,2026-04-14,App TelcoNorte,Completado,309.64
+792,O00792,30,6,14,2026-06-10,Distribuidor autorizado,Completado,-2528.36
+793,O00793,146,5,19,2026-01-10,Centro de atención,Completado,809.82
+794,O00794,164,3,29,2026-02-13,Tienda web,Completado,6164.70
+795,O00795,92,3,10,2026-04-09,App TelcoNorte,Pendiente,163.29
+796,O00796,25,6,24,2026-06-04,Distribuidor autorizado,Completado,327.91
+797,O00797,184,2,21,17/02/2026,Centro de atención,Completado,261.63
+798,O00798,66,2,35,2026-06-14,Tienda web,Completado,15.16
+799,O00799,189,2,31,2026-01-20,App TelcoNorte,Completado,57.45
+800,O00800,36,4,7,2026-04-24,Distribuidor autorizado,Completado,242.46
+801,O00801,193,2,40,2026-01-12,Centro de atención,Completado,2939.98
+802,O00802,116,1,11,2026-01-12,Tienda web,Pendiente,899.50
+803,O00803,119,4,37,2026-05-06,App TelcoNorte,Cancelado,8748.71
+804,O00804,42,3,34,2026-05-26,Distribuidor autorizado,Completado,633.55
+805,O00805,30,6,3,2026-05-12,Centro de atención,Pendiente,450.00
+806,O00806,67,2,17,2026-04-24,Tienda web,Pendiente,2492.17
+807,O00807,191,1,6,22/02/2026,App TelcoNorte,Cancelado,5531.72
+808,O00808,115,4,1,2026-02-03,Distribuidor autorizado,Completado,1144.83
+809,O00809,154,2,40,2026-02-22,Centro de atención,Observado,1151.20
+810,O00810,193,5,37,06/06/2026,Tienda web,Cancelado,497.70
+811,O00811,38,4,27,2026-03-11,App TelcoNorte,Completado,3247.25
+812,O00812,99,2,32,2026-06-22,Distribuidor autorizado,Completado,1598.00
+813,O00813,119,3,31,2026-04-15,Centro de atención,Completado,3258.89
+814,O00814,190,6,32,2026-02-24,Tienda web,Observado,746.08
+815,O00815,48,3,13,2026-03-07,App TelcoNorte,Completado,3025.08
+816,O00816,118,3,8,07/05/2026,Distribuidor autorizado,Pendiente,6169.72
+817,O00817,150,5,9,2026-03-11,Centro de atención,Completado,4093.07
+818,O00818,46,6,38,2026-01-27,Tienda web,Completado,1079.40
+819,O00819,183,2,40,2026-06-05,App TelcoNorte,Cancelado,427.09
+820,O00820,56,3,10,2026-06-26,Distribuidor autorizado,Cancelado,492.18
+821,O00821,95,1,28,2026-06-07,Centro de atención,Completado,851.50
+822,O00822,137,5,1,2026-04-13,Tienda web,Cancelado,1299.00
+823,O00823,131,5,2,17/04/2026,App TelcoNorte,Cancelado,1019.89
+824,O00824,67,2,4,2026-05-21,Distribuidor autorizado,Cancelado,589.21
+825,O00825,191,3,22,2026-05-20,Centro de atención,Completado,1455.24
+826,O00826,178,5,22,2026-04-15,Tienda web,Completado,776.94
+827,O00827,200,6,11,2026-04-07,App TelcoNorte,Pendiente,1099.24
+828,O00828,72,4,25,2026-04-06,Distribuidor autorizado,Completado,869.40
+829,O00829,67,3,25,2026-04-07,Centro de atención,Completado,1259.00
+830,O00830,122,5,35,2026-06-05,Tienda web,Completado,1542.27
+831,O00831,19,4,18,2026-03-19,App TelcoNorte,Cancelado,2196.72
+832,O00832,112,6,21,2026-01-12,Distribuidor autorizado,Observado,59.80
+833,O00833,9,4,24,01/01/2026,Centro de atención,Pendiente,2176.72
+834,O00834,51,2,11,2026-02-28,Tienda web,Cancelado,60.00
+835,O00835,35,2,3,2026-06-06,App TelcoNorte,Cancelado,-1268.8
+836,O00836,5,1,21,2026-05-20,Distribuidor autorizado,Cancelado,779.30
+837,O00837,115,3,15,2026-04-22,Centro de atención,Completado,1842.25
+838,O00838,112,1,40,2026-01-06,Tienda web,Observado,230.52
+839,O00839,200,1,26,26/04/2026,App TelcoNorte,Completado,335.00
+840,O00840,58,2,2,2026-03-25,Distribuidor autorizado,Completado,72.18
+841,O00841,91,1,23,2026-02-08,Centro de atención,Completado,83.90
+842,O00842,200,2,20,2026-01-06,Tienda web,Completado,96.83
+843,O00843,11,4,1,2026-06-06,App TelcoNorte,Observado,90.00
+844,O00844,68,3,27,2026-06-28,Distribuidor autorizado,Pendiente,468.42
+845,O00845,157,3,35,2026-03-20,Centro de atención,Pendiente,542.60
+846,O00846,101,3,1,2026-05-06,Tienda web,Completado,1278.28
+847,O00847,160,3,39,2026-05-06,App TelcoNorte,Completado,3320.46
+848,O00848,90,3,,2026-05-20,Distribuidor autorizado,Completado,290.49
+849,O00849,12,6,35,2026-02-11,Centro de atención,Completado,3369.90
+850,O00850,23,4,26,2026-05-12,Tienda web,Pendiente,0.00
+851,O00851,52,2,40,2026-01-25,App TelcoNorte,Completado,344.50
+852,O00852,41,3,18,2026-01-08,Distribuidor autorizado,Completado,240.00
+853,O00853,58,2,18,2026-02-10,Centro de atención,Observado,2016.72
+854,O00854,50,4,35,2026-03-24,Tienda web,Cancelado,60.00
+855,O00855,92,3,26,2026-01-04,App TelcoNorte,Completado,1369.33
+856,O00856,148,3,6,2026-03-03,Distribuidor autorizado,Completado,553.86
+857,O00857,89,4,40,2026-02-21,Centro de atención,Completado,7426.39
+858,O00858,100,6,1,2026-06-18,Tienda web,Pendiente,1030.12
+859,O00859,147,4,24,2026-05-24,App TelcoNorte,Cancelado,1090.90
+860,O00860,135,6,11,07/06/2026,Distribuidor autorizado,Pendiente,22.74
+861,O00861,23,2,5,2026-02-20,Centro de atención,Completado,2928.12
+862,O00862,74,4,22,2026-06-11,Tienda web,Pendiente,1411.78
+863,O00863,15,2,11,2026-03-18,App TelcoNorte,Observado,150.64
+864,O00864,147,3,22,2026-01-22,Distribuidor autorizado,Completado,278.34
+865,O00865,157,2,23,2026-06-08,Centro de atención,Completado,311.11
+866,O00866,193,4,24,2026-03-28,Tienda web,Completado,10082.28
+867,O00867,135,4,32,2026-03-03,App TelcoNorte,Completado,11140.00
+868,O00868,131,6,1,2026-01-22,Distribuidor autorizado,Completado,2268.48
+869,O00869,118,1,31,2026-01-25,Centro de atención,Completado,475.04
+870,O00870,95,1,23,11/04/2026,Tienda web,Completado,20.00
+871,O00871,123,3,34,2026-06-11,App TelcoNorte,Pendiente,1996.82
+872,O00872,92,1,35,25/02/2026,Distribuidor autorizado,Completado,4668.53
+873,O00873,81,2,25,19/06/2026,Centro de atención,Pendiente,797.73
+874,O00874,108,3,25,2026-02-15,Tienda web,Completado,762.24
+875,O00875,83,6,5,2026-03-09,App TelcoNorte,Cancelado,1678.47
+876,O00876,107,1,32,2026-04-26,Distribuidor autorizado,Cancelado,539.30
+877,O00877,102,6,7,18/06/2026,Centro de atención,Cancelado,270.00
+878,O00878,96,6,24,2026-05-23,Tienda web,Cancelado,450.00
+879,O00879,4,4,5,2026-04-28,App TelcoNorte,Completado,339.90
+880,O00880,56,2,10,2026-03-02,Distribuidor autorizado,Completado,1648.86
+881,O00881,114,2,14,2026-01-24,Centro de atención,Cancelado,539.60
+882,O00882,132,2,18,2026-04-16,Tienda web,Completado,37.90
+883,O00883,141,5,12,2026-02-14,App TelcoNorte,Completado,2251.92
+884,O00884,140,2,27,2026-01-19,Distribuidor autorizado,Completado,623.60
+885,O00885,89,4,11,2026-05-04,Centro de atención,Completado,1205.26
+886,O00886,9,6,17,2026-01-27,Tienda web,Completado,4183.44
+887,O00887,111,2,12,2026-04-07,App TelcoNorte,Completado,0.00
+888,O00888,22,6,33,2026-04-14,Distribuidor autorizado,Completado,839.14
+889,O00889,178,1,8,2026-01-07,Centro de atención,Completado,155.90
+890,O00890,164,4,28,2026-06-21,Tienda web,Completado,179.50
+891,O00891,110,1,,2026-03-01,App TelcoNorte,Completado,0.00
+892,O00892,122,2,16,2026-03-24,Distribuidor autorizado,Cancelado,135.00
+893,O00893,19,4,24,2026-04-01,Centro de atención,Completado,3224.50
+894,O00894,158,1,18,2026-05-02,Tienda web,Completado,3268.4
+895,O00895,159,5,37,2026-01-04,App TelcoNorte,Pendiente,934.42
+896,O00896,57,4,25,2026-05-16,Distribuidor autorizado,Completado,11140.11
+897,O00897,25,3,34,2026-05-22,Centro de atención,Completado,5087.76
+898,O00898,92,2,22,20/06/2026,Tienda web,Observado,389.70
+899,O00899,87,2,8,2026-03-04,App TelcoNorte,Pendiente,150.00
+900,O00900,107,3,19,2026-04-10,Distribuidor autorizado,Observado,692.28
+901,O00901,143,5,20,2026-04-26,Centro de atención,Cancelado,299.50
+902,O00902,9988,5,18,2026-03-24,Tienda web,Pendiente,534.00
+903,O00903,128,2,32,2026-04-15,App TelcoNorte,Pendiente,734.60
+904,O00904,66,4,35,2026-03-16,Distribuidor autorizado,Completado,225.00
+905,O00905,119,6,40,2026-02-28,Centro de atención,Pendiente,-2455.28
+906,O00906,106,4,22,2026-04-10,Tienda web,Completado,783.67
+907,O00907,97,1,3,2026-04-19,App TelcoNorte,Completado,961.30
+908,O00908,179,6,27,2026-06-03,Distribuidor autorizado,Completado,1390.26
+909,O00909,89,5,,2026-04-09,Centro de atención,Pendiente,359.80
+910,O00910,51,4,30,2026-02-07,Tienda web,Completado,3985.05
+911,O00911,131,6,21,2026-03-23,App TelcoNorte,Completado,72.18
+912,O00912,77,2,4,2026-05-19,Distribuidor autorizado,Completado,857.40
+913,O00913,24,5,19,2026-02-09,Centro de atención,Completado,30.00
+914,O00914,70,2,37,2026-05-02,Tienda web,Completado,6164.88
+915,O00915,76,3,16,2026-02-18,App TelcoNorte,Completado,2828.92
+916,O00916,12,3,13,2026-01-24,Distribuidor autorizado,Cancelado,2879.60
+917,O00917,54,4,5,2026-04-24,Centro de atención,Pendiente,150.00
+918,O00918,144,3,35,2026-01-17,Tienda web,Completado,896.45
+919,O00919,92,1,3,2026-06-27,App TelcoNorte,Pendiente,7939.50
+920,O00920,199,1,38,2026-02-26,Distribuidor autorizado,Completado,789.17
+921,O00921,102,3,35,2026-01-14,Centro de atención,Pendiente,6635.00
+922,O00922,188,4,13,2026-05-03,Tienda web,Pendiente,30.32
+923,O00923,106,1,37,2026-03-12,App TelcoNorte,Pendiente,747.00
+924,O00924,168,3,2,2026-02-19,Distribuidor autorizado,Completado,419.50
+925,O00925,190,4,13,2026-04-22,Centro de atención,Completado,4309.24
+926,O00926,178,2,19,2026-06-04,Tienda web,Completado,2198.48
+927,O00927,45,5,22,2026-02-24,App TelcoNorte,Completado,1655.59
+928,O00928,190,4,35,10/05/2026,Distribuidor autorizado,Completado,206.85
+929,O00929,180,3,16,2026-04-18,Centro de atención,Pendiente,692.70
+930,O00930,59,1,16,2026-01-12,Tienda web,Completado,1603.70
+931,O00931,5,1,37,2026-02-14,App TelcoNorte,Completado,440.80
+932,O00932,72,4,33,2026-04-25,Distribuidor autorizado,Completado,335.57
+933,O00933,116,1,27,2026-02-22,Centro de atención,Pendiente,323.70
+934,O00934,104,1,,2026-04-14,Tienda web,Observado,678.36
+935,O00935,76,4,24,2026-05-02,App TelcoNorte,Completado,577.60
+936,O00936,9,4,24,2026-03-17,Distribuidor autorizado,Completado,11100.00
+937,O00937,43,5,10,2026-05-04,Centro de atención,Completado,667.56
+938,O00938,146,3,23,2026-06-19,Tienda web,Completado,330.66
+939,O00939,186,5,37,2026-03-03,App TelcoNorte,Pendiente,299.50
+940,O00940,189,4,33,2026-04-20,Distribuidor autorizado,Completado,2912.85
+941,O00941,192,5,1,2026-06-17,Centro de atención,Observado,493.08
+942,O00942,40,6,34,2026-01-18,Tienda web,Completado,855.16
+943,O00943,147,6,38,2026-04-18,App TelcoNorte,Completado,2505.90
+944,O00944,198,2,12,2026-02-27,Distribuidor autorizado,Pendiente,1008.36
+945,O00945,104,1,31,2026-01-12,Centro de atención,Cancelado,8190.39
+946,O00946,154,2,38,2026-05-14,Tienda web,Completado,6277.62
+947,O00947,135,1,23,2026-06-04,App TelcoNorte,Cancelado,131.90
+948,O00948,87,3,7,2026-02-25,Distribuidor autorizado,Completado,687.63
+949,O00949,179,1,22,2026-01-01,Centro de atención,Completado,836.02
+950,O00950,92,3,19,2026-01-11,Tienda web,Pendiente,1373.61
+951,O00951,123,2,18,2026-03-20,App TelcoNorte,Completado,772.54
+952,O00952,93,5,2,2026-03-21,Distribuidor autorizado,Pendiente,1124.24
+953,O00953,166,1,1,2026-04-11,Centro de atención,Cancelado,45.48
+954,O00954,100,2,35,2026-03-07,Tienda web,Completado,549.73
+955,O00955,151,6,36,2026-06-18,App TelcoNorte,Cancelado,155.90
+956,O00956,3,4,38,2026-02-04,Distribuidor autorizado,Completado,821.92
+957,O00957,178,1,17,2026-02-28,Centro de atención,Observado,606.97
+958,O00958,9597,1,27,2026-06-28,Tienda web,Cancelado,839.92
+959,O00959,65,1,18,2026-06-18,App TelcoNorte,Completado,534.70
+960,O00960,152,5,19,2026-03-17,Distribuidor autorizado,Completado,467.54
+961,O00961,175,2,27,2026-05-01,Centro de atención,Cancelado,59.90
+962,O00962,36,2,39,2026-05-19,Tienda web,Completado,40.00
+963,O00963,97,5,3,2026-06-22,App TelcoNorte,Completado,3025.08
+964,O00964,9303,3,39,2026-02-22,Distribuidor autorizado,Completado,301.19
+965,O00965,174,2,33,2026-03-09,Centro de atención,Observado,335.60
+966,O00966,6,5,35,2026-03-22,Tienda web,Completado,12499.66
+967,O00967,180,1,36,2026-04-06,App TelcoNorte,Pendiente,837.36
+968,O00968,48,1,26,2026-04-24,Distribuidor autorizado,Completado,90.00
+969,O00969,198,5,4,2026-01-02,Centro de atención,Observado,210.00
+970,O00970,181,4,33,2026-01-26,Tienda web,Pendiente,69.64
+971,O00971,132,4,3,2026-06-01,App TelcoNorte,Completado,72.18
+972,O00972,25,2,16,2026-04-23,Distribuidor autorizado,Completado,669.81
+973,O00973,82,3,25,2026-01-28,Centro de atención,Completado,713.31
+974,O00974,81,2,11,2026-04-12,Tienda web,Completado,2319.02
+975,O00975,200,3,1,07/05/2026,App TelcoNorte,Completado,193.66
+976,O00976,119,4,18,2026-03-04,Distribuidor autorizado,Completado,1259.10
+977,O00977,156,5,6,2026-06-08,Centro de atención,Completado,42.41
+978,O00978,139,1,2,2026-06-04,Tienda web,Completado,193.66
+979,O00979,3,1,17,2026-05-05,App TelcoNorte,Completado,7046.01
+980,O00980,105,5,12,2026-03-19,Distribuidor autorizado,Completado,6393.02
+981,O00981,53,6,9,2026-01-17,Centro de atención,Completado,433.08
+982,O00982,80,4,36,25/01/2026,Tienda web,Completado,2016.72
+983,O00983,13,1,31,2026-01-15,App TelcoNorte,Observado,791.40
+984,O00984,195,5,5,2026-06-12,Distribuidor autorizado,Cancelado,234.77
+985,O00985,91,2,25,28/03/2026,Centro de atención,Observado,3722.98
+986,O00986,115,2,39,04/02/2026,Tienda web,Completado,4494.74
+987,O00987,72,4,17,2026-06-19,App TelcoNorte,Completado,11749.50
+988,O00988,103,4,35,2026-02-03,Distribuidor autorizado,Completado,4128.34
+989,O00989,161,2,7,2026-04-02,Centro de atención,Completado,1080.06
+990,O00990,56,2,32,2026-05-15,Tienda web,Completado,310.00
+991,O00991,154,6,2,2026-01-19,App TelcoNorte,Completado,1015.50
+992,O00992,13,5,13,2026-06-03,Distribuidor autorizado,Pendiente,1575.58
+993,O00993,162,5,16,2026-02-25,Centro de atención,Completado,3700.00
+994,O00994,117,1,23,2026-04-13,Tienda web,Pendiente,10.00
+995,O00995,47,5,4,2026-06-10,App TelcoNorte,Observado,1510.44
+996,O00996,189,4,16,19/01/2026,Distribuidor autorizado,Completado,149.50
+997,O00997,69,1,27,2026-02-17,Centro de atención,Cancelado,131.90
+998,O00998,187,6,9,2026-05-20,Tienda web,Observado,120.00
+999,O00999,104,1,19,2026-04-03,App TelcoNorte,Completado,7437.90
+1000,O01000,98,2,14,2026-06-21,Distribuidor autorizado,Observado,715.40
+1001,O01001,196,6,16,2026-03-05,Centro de atención,Cancelado,2609.61
+1002,O01002,108,3,35,2026-03-21,Tienda web,Completado,836.97
+1003,O01003,170,1,26,2026-03-02,App TelcoNorte,Completado,1447.95
+1004,O01004,175,5,32,2026-01-26,Distribuidor autorizado,Completado,2328.28
+1005,O01005,138,1,35,2026-06-10,Centro de atención,Completado,2793.09
+1006,O01006,67,2,17,2026-04-24,Tienda web,Pendiente,2580.15
+1007,O01007,155,5,26,2026-01-21,App TelcoNorte,Pendiente,3867.49
+1008,O01008,49,2,17,2026-03-08,Distribuidor autorizado,Completado,3308.54
+1009,O01009,92,3,26,2026-01-04,Centro de atención,Completado,5915.69
+1010,O01010,101,5,15,2026-05-23,Tienda web,Pendiente,4315.43
