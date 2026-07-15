@@ -18,7 +18,7 @@ La dirección necesita **ordenar, auditar y gobernar** estos datos (semanas 9 a 
 |---|---|
 | `sedes` | Locales / puntos de atención. |
 | `empleados` | Personal (incluye datos personales y sueldo). |
-| `clientes` | Pacientes — incluye PII y el dato sensible `diagnostico`. |
+| `clientes` | Pacientes — incluye datos personales y el dato sensible de salud `diagnostico`. |
 | `productos_servicios` | Catálogo de servicios médicos. |
 | `operaciones` | Transacciones (tabla de hechos). |
 | `detalle_operacion` | Líneas por operación (N:M con productos). |
@@ -34,7 +34,7 @@ La dirección necesita **ordenar, auditar y gobernar** estos datos (semanas 9 a 
 ```python
 import requests, sqlite3, pandas as pd
 caso = "01_clinica_vitalsalud"
-url = "https://raw.githubusercontent.com/Rociosayan/-PMD2_FGD_Bases_Oficiales_FDG/main/casos/01_clinica_vitalsalud/01_clinica_vitalsalud.db"
+url = "https://raw.githubusercontent.com/Rociosayan/PMD2_FDG_Casos/main/casos/01_clinica_vitalsalud/01_clinica_vitalsalud.db"
 open("base.sqlite","wb").write(requests.get(url).content)
 conn = sqlite3.connect("base.sqlite")
 display(pd.read_sql_query("SELECT name FROM sqlite_master WHERE type='table' ORDER BY name", conn))

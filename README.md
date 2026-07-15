@@ -35,6 +35,17 @@ display(tablas)
 
 Cada caso utiliza las tablas `sedes`, `empleados`, `clientes`, `productos_servicios`, `operaciones`, `detalle_operacion`, `pagos` e `incidencias`. Algunos campos de `clientes` cambian según el sector para incorporar el dato específico del caso.
 
+## Clasificación de datos
+
+El campo `sensibilidad` de cada diccionario utiliza cuatro categorías:
+
+- `No sensible`: dato operativo o contextual sin protección especial.
+- `Personal`: dato que identifica o puede asociarse con una persona.
+- `Confidencial`: dato personal o empresarial que requiere acceso restringido, aunque no sea sensible según la ley.
+- `Sensible legal`: dato comprendido en las categorías de protección reforzada, como salud o ingresos económicos.
+
+La última columna de `clientes` es el dato contextual del rubro. Su clasificación depende de su naturaleza y no se considera sensible automáticamente.
+
 ## Casos disponibles
 
 | Caso | Nombre |

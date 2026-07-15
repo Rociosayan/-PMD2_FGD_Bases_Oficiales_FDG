@@ -1,209 +1,209 @@
 id_cliente,codigo_cliente,tipo_documento,num_documento,nombres,apellidos,correo,telefono,distrito,segmento,fecha_registro,diagnostico
-1,C0001,CE,82826473,Óscar,Mendoza Chávez,óscar1@correo.com,915648318,San Borja,Paciente particular,2026-05-11,Seguimiento
-2,C0002,DNI,35887318,Álvaro,Flores Salazar,álvaro2@correo.com,920367073,Miraflores,Paciente EPS,2026-05-09,Control
-3,C0003,DNI,73711717,Karla,Espinoza Villanueva,,979226196,Chorrillos,Paciente asegurado,2026-02-13,Seguimiento
-4,C0004,DNI,19550501,Álvaro,Salazar Flores,álvaro4@correo.com,,Comas,Programa preventivo,2026-02-08,Control
-5,C0005,CE,28013063,Verónica,Salazar Mendoza,verónica5@correo.com,920710997,Villa El Salvador,Paciente particular,2026-01-24,Emergencia
-6,C0006,DNI,68806833,Óscar,Flores Cárdenas,óscar6@correo.com,969199343,Miraflores,Paciente EPS,2026-04-20,Preventivo
-7,C0007,DNI,25730522,Bruno,Vargas Ríos,bruno7correo.com,942896070,Villa El Salvador,Paciente asegurado,2026-04-04,Control
-8,C0008,DNI,47471436,Manuel,Vargas Bautista,manuel8@correo.com,938104159,Independencia,Programa preventivo,2026-05-20,Emergencia
-9,C0009,CE,27346640,Carmen,Zevallos Ponce,carmen9correo.com,983540619,Comas,Paciente particular,2026-03-22,Emergencia
-10,C0010,RUC,32029320,Luis,Salazar Cruz,luis10@correo.com,987734895,Ate,Paciente EPS,2026-04-15,Post-operatorio
-11,C0011,CE,78029470,Karla,Ríos Gutiérrez,karla11@correo.com,968666393,Comas,Paciente asegurado,2026-02-13,Seguimiento
-12,C0012,RUC,34192727,Daniela,Huamán Rojas,daniela12@correo.com,983956129,San Miguel,Programa preventivo,2026-03-16,Post-operatorio
-13,C0013,DNI,25737298,Fernando,Ponce Díaz,fernando13@correo.com,934920188,Los Olivos,Paciente particular,2026-02-12,Seguimiento
-14,C0014,DNI,89462453,Karla,Cornejo Zevallos,karla14@correo.com,931064067,Ate,Paciente EPS,2026-02-19,Preventivo
-15,C0015,DNI,68964379,Karla,Mendoza Ponce,karla15@correo.com,915943902,Lince,Paciente asegurado,2026-05-03,Consulta general
-16,C0016,DNI,94307416,Iván,Díaz Bautista,iván16@correo.com,980782195,,Programa preventivo,2026-04-03,Seguimiento
-17,C0017,RUC,32178650,Sergio,Paredes Ríos,sergio17@correo.com,924971311,Independencia,Paciente particular,2026-05-27,Seguimiento
-18,C0018,DNI,27177189,Hugo,Aguirre Chávez,hugo18@correo.com,,Los Olivos,Paciente EPS,2026-02-07,Seguimiento
-19,C0019,DNI,50793788,Daniela,Díaz Sánchez,daniela19@correo.com,913948109,La Molina,Paciente asegurado,2026-05-26,Seguimiento
-20,C0020,DNI,40102106,Manuel,Zevallos Sánchez,manuel20@correo.com,997632143,Surco,Programa preventivo,2026-05-16,Seguimiento
-21,C0021,DNI,29010643,Pamela,Palomino Castillo,pamela21@correo.com,981717811,Comas,Paciente particular,2026-03-17,Post-operatorio
-22,C0022,CE,85324145,Luis,Zevallos Cornejo,luis22@correo.com,989646326,Villa El Salvador,Paciente EPS,2026-03-02,Preventivo
-23,C0023,DNI,69154458,Sofía,Vargas Castillo,sofía23@correo.com,928058127,Rímac,Paciente asegurado,2026-04-24,Consulta general
-24,C0024,DNI,15674507,Isabel,Ponce Sánchez,,928064123,Chorrillos,Programa preventivo,2026-03-17,Preventivo
-25,C0025,RUC,65664258,Gabriela,Palomino Flores,gabriela25@correo.com,922972815,,Paciente particular,2026-03-15,Emergencia
-26,C0026,DNI,67161867,Claudia,Salazar Salazar,claudia26correo.com,984456398,Breña,Paciente EPS,2026-02-01,Control
-27,C0027,DNI,25179556,Pedro,Espinoza Chávez,pedro27@correo.com,924266948,Ate,Paciente asegurado,2026-04-15,Seguimiento
-28,C0028,DNI,754331,Carmen,Espinoza Villanueva,carmen28@correo.com,,Villa El Salvador,Programa preventivo,2026-01-27,Emergencia
-29,C0029,DNI,24153406,Diego,Mendoza Villanueva,diego29@correo.com,946837695,Comas,Paciente particular,2026-02-28,Emergencia
-30,C0030,DNI,71149515,Manuel,Rivera Mendoza,manuel30@correo.com,936506498,Breña,Paciente EPS,2026-02-25,Control
-31,C0031,CE,63379172,Sergio,Bautista Díaz,sergio31@correo.com,941069769,,Paciente asegurado,2026-03-15,Emergencia
-32,C0032,RUC,21875088,Ricardo,Castillo Rivera,ricardo32@correo.com,939675832,Surco,Programa preventivo,2026-05-05,Post-operatorio
-33,C0033,CE,87322433,Paola,Mendoza Gutiérrez,paola33@correo.com,942983496,Chorrillos,Paciente particular,2026-05-23,Consulta general
-34,C0034,RUC,33292706,Daniela,Flores Flores,,916195204,Comas,Paciente EPS,2026-01-15,Seguimiento
-35,C0035,RUC,94227527,Julia,Chávez Villanueva,julia35@correo.com,927698036,Comas,Paciente asegurado,2026-02-12,Emergencia
-36,C0036,CE,58257262,Pamela,Zevallos Aguirre,pamela36@correo.com,988684374,Los Olivos,Programa preventivo,2026-02-11,Post-operatorio
-37,C0037,DNI,34166263,Isabel,Mendoza Quispe,isabel37@correo.com,988991887,Chorrillos,Paciente particular,2026-01-04,Emergencia
-38,C0038,CE,13518661,Pamela,Gutiérrez Flores,pamela38@correo.com,918053011,San Borja,Paciente EPS,2026-01-23,Emergencia
-39,C0039,DNI,98399897,Renzo,Quispe Huamán,renzo39@correo.com,985860250,Villa El Salvador,Paciente asegurado,2026-04-02,Consulta general
-40,C0040,CE,65657741,Ricardo,Cornejo Romero,ricardo40@correo.com,972112190,Comas,Programa preventivo,2026-01-23,Seguimiento
-41,C0041,CE,88020078,Patricia,Vargas Villanueva,patricia41@correo.com,959784546,Breña,Paciente particular,2026-04-28,Emergencia
-42,C0042,RUC,73465143,Melissa,Rivera Sánchez,melissa42@correo.com,916602369,Lince,Paciente EPS,2026-03-10,Post-operatorio
-43,C0043,CE,39471183,Bruno,Salazar Zevallos,bruno43@correo.com,947794464,Villa El Salvador,Paciente asegurado,2026-05-23,Consulta general
-44,C0044,CE,31805393,Renzo,Ríos Sánchez,renzo44@correo.com,936035391,Callao,Programa preventivo,2026-05-03,Preventivo
-45,C0045,RUC,61660659,Miguel,Villanueva Gutiérrez,miguel45@correo.com,998592663,Ate,Paciente particular,2026-05-26,Preventivo
-46,C0046,RUC,84465986,Raúl,Zevallos Aguirre,,959383833,Independencia,Paciente EPS,2026-03-18,Emergencia
-47,C0047,RUC,252350,Gabriela,Castillo Villanueva,gabriela47@correo.com,943578811,Lince,Paciente asegurado,2026-02-24,Control
-48,C0048,DNI,89411902,Carlos,Torres Espinoza,carlos48@correo.com,975391188,Surco,Programa preventivo,2026-05-25,Seguimiento
-49,C0049,DNI,40954405,Óscar,Torres Vargas,óscar49@correo.com,964225428,Los Olivos,Paciente particular,2026-04-05,Preventivo
-50,C0050,RUC,19480658,Elena,Flores Díaz,elena50@correo.com,969398679,Los Olivos,Paciente EPS,2026-05-04,Seguimiento
-51,C0051,RUC,387979,Fernando,Rivera Cornejo,fernando51@correo.com,938384546,Comas,Paciente asegurado,2026-05-25,Seguimiento
-52,C0052,DNI,43769143,Miguel,Aguirre Castillo,miguel52@correo.com,,Callao,Programa preventivo,2026-03-14,Preventivo
-53,C0053,DNI,47841337,Ana,Aguirre Villanueva,ana53@correo.com,933949524,San Miguel,Paciente particular,2026-05-17,Emergencia
-54,C0054,DNI,48424041,Karla,Castillo Aguirre,karla54@correo.com,921139103,San Juan de Lurigancho,Paciente EPS,2026-03-02,Consulta general
-55,C0055,DNI,85131916,Raúl,Villanueva Cárdenas,,987643059,Callao,Paciente asegurado,2026-03-17,Seguimiento
-56,C0056,DNI,32629609,Natalia,Díaz Flores,,920335397,Miraflores,Programa preventivo,2026-04-26,Seguimiento
-57,C0057,DNI,82530869,Daniela,Díaz Rojas,daniela57@correo.com,917503106,Lince,Paciente particular,2026-04-05,Seguimiento
-58,C0058,DNI,98196781,Sofía,Villanueva Torres,sofía58@correo.com,996783647,Los Olivos,Paciente EPS,2026-02-09,Emergencia
-59,C0059,DNI,68821839,Sofía,Cornejo Flores,sofía59@correo.com,978031067,Miraflores,Paciente asegurado,2026-03-08,Control
-60,C0060,DNI,31937240,Pamela,Villanueva Flores,pamela60@correo.com,982171851,Surco,Programa preventivo,2026-03-04,Post-operatorio
-61,C0061,DNI,90967560,Pedro,Villanueva Zevallos,pedro61@correo.com,959212641,Chorrillos,Paciente particular,2026-03-08,Preventivo
-62,C0062,DNI,60316329,Daniela,Aguirre Vargas,daniela62@correo.com,917235550,Independencia,Paciente EPS,2026-03-25,Consulta general
-63,C0063,DNI,35735573,Bruno,Rojas Rojas,bruno63@correo.com,,Callao,Paciente asegurado,2026-02-15,Preventivo
-64,C0064,DNI,28115390,Fernando,Cárdenas Romero,fernando64@correo.com,962813418,,Programa preventivo,2026-01-09,Control
-65,C0065,DNI,41357755,Jorge,Cárdenas Cruz,jorge65@correo.com,912539958,Callao,Paciente particular,2026-05-06,Control
-66,C0066,CE,85046583,Ana,Zevallos Cruz,ana66@correo.com,919575917,Callao,Paciente EPS,2026-02-05,Emergencia
-67,C0067,DNI,11630414,Sofía,Mendoza Sánchez,sofía67@correo.com,971534781,Breña,Paciente asegurado,2026-03-08,Control
-68,C0068,CE,88755218,Rosa,Bautista Quispe,rosa68correo.com,916040943,Independencia,Programa preventivo,2026-01-21,Control
-69,C0069,RUC,95722699,Álvaro,Vargas Castillo,álvaro69@correo.com,998959898,Chorrillos,Paciente particular,2026-01-22,Consulta general
-70,C0070,DNI,875981,Sergio,Díaz Palomino,sergio70@correo.com,960117654,San Miguel,Paciente EPS,2026-05-04,Seguimiento
-71,C0071,DNI,13887836,Daniela,Sánchez Villanueva,daniela71@correo.com,924439492,Rímac,Paciente asegurado,2026-04-06,Control
-72,C0072,DNI,11625947,Milagros,Zevallos Gutiérrez,milagros72correo.com,,Villa El Salvador,Programa preventivo,2026-01-18,Control
-73,C0073,DNI,21901124,Carmen,Huamán Mendoza,carmen73@correo.com,947589853,San Borja,Paciente particular,2026-04-10,Seguimiento
-74,C0074,DNI,671496,Ana,Palomino Quispe,ana74@correo.com,929874643,Villa El Salvador,Paciente EPS,2026-05-02,Seguimiento
-75,C0075,DNI,28111215,Isabel,Huamán Flores,isabel75@correo.com,957699081,San Borja,Paciente asegurado,2026-05-19,Emergencia
-76,C0076,RUC,62119712,Álvaro,Ramos Villanueva,álvaro76correo.com,934437475,Ate,Programa preventivo,2026-02-13,Emergencia
-77,C0077,DNI,95625223,Fernando,Sánchez Huamán,fernando77@correo.com,982410663,San Miguel,Paciente particular,2026-02-07,Consulta general
-78,C0078,RUC,71214459,Verónica,Cruz Díaz,verónica78@correo.com,919025465,Ate,Paciente EPS,2026-04-20,Consulta general
-79,C0079,CE,532241,Carlos,Palomino Cruz,carlos79@correo.com,973776387,La Molina,Paciente asegurado,2026-03-04,Emergencia
-80,C0080,DNI,23061116,Natalia,Ponce Villanueva,,930127831,Ate,Programa preventivo,2026-02-12,Seguimiento
-81,C0081,CE,38294708,Claudia,Gutiérrez Mendoza,claudia81correo.com,998115466,Rímac,Paciente particular,2026-05-14,Control
-82,C0082,DNI,55315384,Patricia,Rivera Quispe,patricia82@correo.com,951145001,Lince,Paciente EPS,2026-01-03,Seguimiento
-83,C0083,CE,28224149,Carlos,Flores Rojas,carlos83@correo.com,932820524,La Molina,Paciente asegurado,2026-02-20,Preventivo
-84,C0084,CE,31260063,Bruno,Rojas Palomino,bruno84@correo.com,973346226,Breña,Programa preventivo,2026-01-25,Emergencia
-85,C0085,DNI,61063339,Julia,Flores Ramos,julia85@correo.com,973141699,Rímac,Paciente particular,2026-04-03,Control
-86,C0086,DNI,73438073,Lucía,Quispe Villanueva,lucía86correo.com,942071421,San Juan de Lurigancho,Paciente EPS,2026-03-21,Emergencia
-87,C0087,RUC,71837925,Víctor,Torres Huamán,víctor87@correo.com,934445915,Los Olivos,Paciente asegurado,2026-04-09,Post-operatorio
-88,C0088,DNI,94272197,Daniela,Sánchez Castillo,daniela88@correo.com,915122283,Breña,Programa preventivo,2026-02-01,Consulta general
-89,C0089,DNI,12358172,Iván,Ninaquispe Cruz,iván89@correo.com,946381181,Comas,Paciente particular,2026-05-25,Control
-90,C0090,DNI,715054,Carmen,Espinoza Palomino,carmen90@correo.com,929276822,Lince,Paciente EPS,2026-01-07,Consulta general
-91,C0091,RUC,14355828,Melissa,Castillo Sánchez,melissa91@correo.com,916690978,Chorrillos,Paciente asegurado,2026-05-23,Control
-92,C0092,RUC,89448267,Isabel,Díaz Paredes,isabel92@correo.com,936570739,San Borja,Programa preventivo,2026-05-27,Preventivo
-93,C0093,DNI,82872520,Claudia,Cárdenas Ninaquispe,claudia93@correo.com,920687286,San Miguel,Paciente particular,2026-05-14,Control
-94,C0094,DNI,21224387,Carmen,Bautista Palomino,carmen94@correo.com,963427243,Rímac,Paciente EPS,2026-01-13,Consulta general
-95,C0095,CE,53380231,Ana,Villanueva Palomino,,,Miraflores,Paciente asegurado,2026-03-20,Preventivo
-96,C0096,DNI,69700778,Andrés,Rivera Bautista,andrés96@correo.com,981885476,San Miguel,Programa preventivo,2026-03-09,Seguimiento
-97,C0097,RUC,80869176,Luis,Díaz Paredes,luis97@correo.com,951642548,Breña,Paciente particular,2026-05-14,Preventivo
-98,C0098,RUC,75056712,Julia,Aguirre Salazar,julia98@correo.com,914704870,Chorrillos,Paciente EPS,2026-01-07,Post-operatorio
-99,C0099,DNI,21305523,Pedro,Quispe Rojas,pedro99@correo.com,977005531,Miraflores,Paciente asegurado,2026-05-18,Control
-100,C0100,DNI,98102180,Ana,Villanueva Ramos,ana100@correo.com,975523147,Villa El Salvador,Programa preventivo,2026-05-03,Seguimiento
-101,C0101,CE,13378654,Diego,Vargas Lévano,diego101@correo.com,979050178,San Juan de Lurigancho,Paciente particular,2026-03-26,Control
-102,C0102,CE,69148668,Carmen,Vargas Ramos,carmen102@correo.com,983354809,San Juan de Lurigancho,Paciente EPS,2026-01-02,Preventivo
-103,C0103,DNI,99712785,José,Vargas Rivera,josé103@correo.com,926256072,San Juan de Lurigancho,Paciente asegurado,2026-04-27,Emergencia
-104,C0104,DNI,37578857,Bruno,Zevallos Cornejo,bruno104@correo.com,961560011,Miraflores,Programa preventivo,2026-03-10,Post-operatorio
-105,C0105,DNI,17023407,Fernando,Ríos Sánchez,fernando105@correo.com,960308711,Comas,Paciente particular,2026-03-10,Seguimiento
-106,C0106,DNI,51220630,Sergio,Sánchez Huamán,sergio106@correo.com,951490730,Breña,Paciente EPS,2026-01-04,Control
-107,C0107,CE,70090261,Álvaro,Ríos Torres,álvaro107@correo.com,933586426,San Juan de Lurigancho,Paciente asegurado,2026-04-01,Emergencia
-108,C0108,DNI,57833997,Natalia,Cornejo Ninaquispe,natalia108@correo.com,917944845,Callao,Programa preventivo,2026-05-17,Preventivo
-109,C0109,DNI,94808896,Lucía,Ninaquispe Espinoza,,942620761,Callao,Paciente particular,2026-02-03,Post-operatorio
-110,C0110,DNI,78094829,Claudia,Rivera Villanueva,claudia110@correo.com,957626600,Lince,Paciente EPS,2026-04-21,Emergencia
-111,C0111,CE,54121044,Manuel,Romero Zevallos,manuel111@correo.com,953614606,Ate,Paciente asegurado,2026-03-04,Preventivo
-112,C0112,DNI,59484555,Isabel,Rivera Bautista,isabel112@correo.com,,,Programa preventivo,2026-01-24,Post-operatorio
-113,C0113,DNI,88111960,Pamela,Espinoza Vargas,pamela113@correo.com,931115146,Chorrillos,Paciente particular,2026-01-28,Seguimiento
-114,C0114,DNI,16882067,Paola,Aguirre Salazar,paola114@correo.com,934141006,Villa El Salvador,Paciente EPS,2026-04-22,Seguimiento
-115,C0115,DNI,99872215,Andrés,Romero Ríos,andrés115@correo.com,928487874,Comas,Paciente asegurado,2026-01-23,Consulta general
-116,C0116,DNI,91868266,Fernando,Gutiérrez Ramos,fernando116@correo.com,936242516,Ate,Programa preventivo,2026-02-02,Preventivo
-117,C0117,DNI,49714668,Carmen,Chávez Gutiérrez,carmen117@correo.com,938811953,Callao,Paciente particular,2026-04-27,Post-operatorio
-118,C0118,DNI,26332199,María,Quispe Huamán,maría118@correo.com,915369829,San Miguel,Paciente EPS,2026-01-21,Seguimiento
-119,C0119,CE,92047546,Karla,Ramos Rojas,karla119@correo.com,953759624,Breña,Paciente asegurado,2026-03-26,Post-operatorio
-120,C0120,DNI,64059396,Claudia,Rojas Cruz,claudia120@correo.com,927500837,Los Olivos,Programa preventivo,2026-03-10,Emergencia
-121,C0121,CE,87031220,Hugo,Cárdenas Ninaquispe,hugo121@correo.com,964237958,Comas,Paciente particular,2026-02-10,Consulta general
-122,C0122,DNI,47768885,Natalia,Cárdenas Huamán,natalia122@correo.com,963183799,Breña,Paciente EPS,2026-02-03,Post-operatorio
-123,C0123,DNI,92890568,Ana,Flores Espinoza,ana123@correo.com,,San Borja,Paciente asegurado,2026-03-18,Post-operatorio
-124,C0124,CE,20994311,Álvaro,Vargas Aguirre,,982275225,San Juan de Lurigancho,Programa preventivo,2026-04-25,Post-operatorio
-125,C0125,DNI,95883289,Renzo,Flores Ninaquispe,renzo125@correo.com,,Lince,Paciente particular,2026-02-21,Seguimiento
-126,C0126,DNI,32357038,Andrés,Cornejo Lévano,andrés126@correo.com,933870639,Rímac,Paciente EPS,2026-05-19,Consulta general
-127,C0127,RUC,54353447,Ana,Cárdenas Chávez,ana127@correo.com,973350377,La Molina,Paciente asegurado,2026-03-26,Post-operatorio
-128,C0128,DNI,56059241,Julia,Paredes Ríos,julia128@correo.com,938915374,Breña,Programa preventivo,2026-01-03,Control
-129,C0129,RUC,415132,María,Vargas Aguirre,maría129@correo.com,963958168,Miraflores,Paciente particular,2026-04-01,Consulta general
-130,C0130,DNI,31341392,José,Vargas Vargas,josé130@correo.com,991290137,Miraflores,Paciente EPS,2026-01-13,Emergencia
-131,C0131,DNI,61541494,Carlos,Cruz Lévano,carlos131@correo.com,976481785,Villa El Salvador,Paciente asegurado,2026-01-04,Seguimiento
-132,C0132,RUC,81182962,Paola,Castillo Villanueva,paola132@correo.com,992781042,Los Olivos,Programa preventivo,2026-02-24,Consulta general
-133,C0133,DNI,44813086,Rosa,Zevallos Lévano,rosa133@correo.com,937684247,Comas,Paciente particular,2026-03-07,Seguimiento
-134,C0134,RUC,56372431,Lucía,Castillo Vargas,lucía134@correo.com,955814681,Independencia,Paciente EPS,2026-04-09,Control
-135,C0135,DNI,14506462,Julia,Bautista Paredes,julia135@correo.com,973136520,Villa El Salvador,Paciente asegurado,2026-01-07,Consulta general
-136,C0136,DNI,49232897,Miguel,Bautista Romero,miguel136@correo.com,974489295,San Miguel,Programa preventivo,2026-01-25,Post-operatorio
-137,C0137,CE,62221605,Ana,Castillo Chávez,ana137@correo.com,995021271,San Miguel,Paciente particular,2026-04-22,Consulta general
-138,C0138,CE,63502330,Karla,Aguirre Mendoza,karla138@correo.com,934095028,Surco,Paciente EPS,2026-03-18,Control
-139,C0139,RUC,14005183,Fernando,Díaz Ramos,fernando139@correo.com,945241799,Ate,Paciente asegurado,2026-03-27,Seguimiento
-140,C0140,DNI,35732098,Iván,Díaz Ríos,iván140@correo.com,991131669,San Borja,Programa preventivo,2026-03-17,Preventivo
-141,C0141,DNI,61751350,Pamela,Ponce Cruz,pamela141@correo.com,986365631,Los Olivos,Paciente particular,2026-01-01,Control
-142,C0142,DNI,27870800,Rosa,Mendoza Zevallos,rosa142@correo.com,999687279,Chorrillos,Paciente EPS,2026-01-04,Preventivo
-143,C0143,DNI,63431351,Verónica,Huamán Cárdenas,verónica143@correo.com,949565584,San Juan de Lurigancho,Paciente asegurado,2026-03-24,Preventivo
-144,C0144,DNI,77070703,Patricia,Cruz Salazar,patricia144@correo.com,969868497,San Juan de Lurigancho,Programa preventivo,2026-01-25,Seguimiento
-145,C0145,DNI,75819215,Gabriela,Ninaquispe Rivera,gabriela145@correo.com,974694163,San Miguel,Paciente particular,2026-04-04,Consulta general
-146,C0146,DNI,11238838,Carmen,Villanueva Romero,carmen146@correo.com,978592804,Breña,Paciente EPS,2026-04-20,Consulta general
-147,C0147,CE,71908505,Daniela,Huamán Ponce,daniela147@correo.com,964909336,San Borja,Paciente asegurado,2026-01-27,Control
-148,C0148,DNI,66506485,Daniela,Villanueva Ninaquispe,daniela148@correo.com,929260872,Rímac,Programa preventivo,2026-04-05,Control
-149,C0149,DNI,49164427,Lucía,Ponce Lévano,lucía149@correo.com,,Villa El Salvador,Paciente particular,2026-03-28,Emergencia
-150,C0150,DNI,64203422,Pamela,Ponce Ninaquispe,pamela150correo.com,993856841,Los Olivos,Paciente EPS,2026-04-24,Post-operatorio
-151,C0151,DNI,57534609,Diego,Espinoza Flores,diego151@correo.com,932688581,Chorrillos,Paciente asegurado,2026-05-01,Consulta general
-152,C0152,DNI,408618,Iván,Flores Gutiérrez,iván152@correo.com,993048232,Surco,Programa preventivo,2026-05-26,Post-operatorio
-153,C0153,RUC,50274461,Carmen,Huamán Zevallos,carmen153@correo.com,926785575,Miraflores,Paciente particular,2026-05-17,Emergencia
-154,C0154,RUC,59110589,Iván,Bautista Paredes,iván154@correo.com,992534317,Independencia,Paciente EPS,2026-04-02,Seguimiento
-155,C0155,DNI,19992371,Luis,Huamán Cornejo,luis155@correo.com,985423066,Rímac,Paciente asegurado,2026-02-07,Consulta general
-156,C0156,CE,83950268,Pedro,Gutiérrez Flores,pedro156@correo.com,918102593,Independencia,Programa preventivo,2026-05-15,Post-operatorio
-157,C0157,DNI,57466356,José,Cornejo Cárdenas,,945593455,Surco,Paciente particular,2026-03-01,Post-operatorio
-158,C0158,RUC,12438425,Carlos,Chávez Salazar,carlos158@correo.com,914560126,Breña,Paciente EPS,2026-02-03,Preventivo
-159,C0159,DNI,74067666,Natalia,Mendoza Huamán,natalia159@correo.com,970407055,Miraflores,Paciente asegurado,2026-03-15,Emergencia
-160,C0160,RUC,11309925,Iván,Bautista Cruz,iván160@correo.com,962425051,,Programa preventivo,2026-02-06,Control
-161,C0161,CE,82384685,Verónica,Ninaquispe Flores,,965794051,,Paciente particular,2026-03-03,Emergencia
-162,C0162,DNI,94226738,Manuel,Bautista Bautista,manuel162@correo.com,981203734,Surco,Paciente EPS,2026-04-12,Post-operatorio
-163,C0163,CE,76223683,Miguel,Flores Castillo,miguel163@correo.com,975230226,Callao,Paciente asegurado,2026-02-09,Preventivo
-164,C0164,DNI,29768643,Isabel,Villanueva Palomino,isabel164@correo.com,977594635,San Miguel,Programa preventivo,2026-03-22,Preventivo
-165,C0165,DNI,70047884,Melissa,Mendoza Flores,melissa165@correo.com,925019973,Los Olivos,Paciente particular,2026-03-03,Control
-166,C0166,CE,22388113,Raúl,Torres Vargas,raúl166@correo.com,963711097,San Miguel,Paciente EPS,2026-05-27,Control
-167,C0167,DNI,50602378,Verónica,Espinoza Villanueva,verónica167@correo.com,993236989,,Paciente asegurado,2026-01-20,Post-operatorio
-168,C0168,DNI,10873723,Patricia,Aguirre Sánchez,patricia168correo.com,994520018,Surco,Programa preventivo,2026-05-27,Preventivo
-169,C0169,DNI,86591239,Elena,Chávez Aguirre,,,Breña,Paciente particular,2026-03-09,Preventivo
-170,C0170,DNI,36699102,María,Ramos Sánchez,maría170@correo.com,919815234,Surco,Paciente EPS,2026-05-01,Post-operatorio
-171,C0171,RUC,85736536,Isabel,Huamán Flores,isabel171@correo.com,,Los Olivos,Paciente asegurado,2026-01-16,Seguimiento
-172,C0172,DNI,20796139,María,Sánchez Rivera,maría172@correo.com,935801379,Chorrillos,Programa preventivo,2026-02-21,Seguimiento
-173,C0173,DNI,17325636,Melissa,Sánchez Rivera,,962374824,Callao,Paciente particular,2026-01-08,Control
-174,C0174,CE,77874862,Lucía,Paredes Cruz,lucía174@correo.com,972495838,San Juan de Lurigancho,Paciente EPS,2026-03-07,Control
-175,C0175,DNI,81623876,Jorge,Ramos Paredes,jorge175@correo.com,962619754,Breña,Paciente asegurado,2026-02-25,Emergencia
-176,C0176,DNI,41450430,Natalia,Ríos Ninaquispe,natalia176@correo.com,976010105,,Programa preventivo,2026-02-08,Consulta general
-177,C0177,CE,30039807,Álvaro,Lévano Torres,álvaro177@correo.com,915065529,Chorrillos,Paciente particular,2026-04-17,Seguimiento
-178,C0178,CE,17614612,Álvaro,Ninaquispe Díaz,álvaro178@correo.com,963690679,Ate,Paciente EPS,2026-05-01,Preventivo
-179,C0179,RUC,26372415,Diego,Gutiérrez Ponce,diego179@correo.com,924828980,Callao,Paciente asegurado,2026-05-28,Preventivo
-180,C0180,DNI,82562780,Lucía,Rojas Torres,lucía180@correo.com,944828052,San Miguel,Programa preventivo,2026-01-08,Preventivo
-181,C0181,RUC,89302065,Iván,Aguirre Flores,iván181@correo.com,,Breña,Paciente particular,2026-02-15,Consulta general
-182,C0182,RUC,74704935,Fernando,Huamán Quispe,fernando182@correo.com,950642845,Los Olivos,Paciente EPS,2026-01-15,Emergencia
-183,C0183,CE,58362915,Óscar,Gutiérrez Díaz,óscar183@correo.com,918913251,Lince,Paciente asegurado,2026-05-13,Emergencia
-184,C0184,DNI,93144891,Verónica,Ríos Zevallos,verónica184@correo.com,911322858,Surco,Programa preventivo,2026-03-27,Preventivo
-185,C0185,DNI,81808066,Gabriela,Díaz Torres,gabriela185@correo.com,919282912,Callao,Paciente particular,2026-01-08,Post-operatorio
-186,C0186,RUC,16540611,Sergio,Ríos Zevallos,sergio186@correo.com,,Chorrillos,Paciente EPS,2026-04-04,Emergencia
-187,C0187,RUC,39000702,Milagros,Aguirre Huamán,milagros187correo.com,986601831,San Miguel,Paciente asegurado,2026-02-19,Consulta general
-188,C0188,RUC,31485697,Ricardo,Flores Paredes,ricardo188@correo.com,984728359,San Miguel,Programa preventivo,2026-03-06,Seguimiento
-189,C0189,DNI,36681388,Raúl,Espinoza Vargas,raúl189@correo.com,918318500,San Juan de Lurigancho,Paciente particular,2026-03-01,Control
-190,C0190,DNI,50785107,Fernando,Flores Torres,fernando190@correo.com,953697027,Chorrillos,Paciente EPS,2026-05-20,Control
-191,C0191,RUC,50576078,Ricardo,Villanueva Romero,ricardo191@correo.com,917776914,Rímac,Paciente asegurado,2026-01-18,Preventivo
-192,C0192,DNI,83476502,Luis,Rojas Castillo,luis192@correo.com,948899121,Lince,Programa preventivo,2026-05-04,Seguimiento
-193,C0193,DNI,44274268,Carlos,Palomino Zevallos,carlos193@correo.com,914815883,Comas,Paciente particular,2026-02-18,Preventivo
-194,C0194,DNI,49938601,Bruno,Palomino Lévano,bruno194@correo.com,935354698,Villa El Salvador,Paciente EPS,2026-02-22,Preventivo
-195,C0195,DNI,21820178,Julia,Ninaquispe Torres,julia195@correo.com,974471585,Rímac,Paciente asegurado,2026-03-20,Post-operatorio
-196,C0196,CE,90044316,Hugo,Quispe Vargas,hugo196@correo.com,,Comas,Programa preventivo,2026-04-04,Emergencia
-197,C0197,DNI,84479673,Álvaro,Salazar Villanueva,álvaro197@correo.com,950645166,San Borja,Paciente particular,2026-04-26,Post-operatorio
-198,C0198,CE,67581806,María,Rojas Huamán,maría198@correo.com,956172165,Surco,Paciente EPS,2026-05-11,Emergencia
-199,C0199,DNI,22506999,Hugo,Mendoza Cornejo,hugo199@correo.com,996575099,Miraflores,Paciente asegurado,2026-02-01,Emergencia
-200,C0200,CE,53481264,Sofía,Zevallos Ponce,sofía200@correo.com,956242125,San Miguel,Programa preventivo,2026-03-17,Post-operatorio
-201,C0201,DNI,610633,Julia,Flores Ramos,julia85@correo.com,973141699,Rímac,Paciente particular,2026-04-03,Control
-202,C0202,RUC,14005183,Fernando,Díaz Ramos,fernando139@correo.com,945241799,Ate,Paciente EPS,2026-03-27,Seguimiento
-203,C0203,DNI,89411902,Carlos,Torres Espinoza,carlos48@correo.com,975391188,Surco,Paciente asegurado,2026-05-25,Seguimiento
-204,C0204,DNI,32629609,Natalia,Díaz Flores,,920335397,Miraflores,Programa preventivo,2026-04-26,Seguimiento
-205,C0205,RUC,14355828,Melissa,Castillo Sánchez,melissa91@correo.com,916690978,Chorrillos,Paciente particular,2026-05-23,Control
-206,C0206,DNI,61541494,Carlos,Cruz Lévano,carlos131@correo.com,976481785,Villa El Salvador,Paciente EPS,2026-01-04,Seguimiento
-207,C0207,RUC,32029320,Luis,Salazar Cruz,luis10@correo.com,987734895,Ate,Paciente asegurado,2026-04-15,Post-operatorio
-208,C0208,DNI,95883289,Renzo,Flores Ninaquispe,renzo125@correo.com,,Lince,Programa preventivo,2026-02-21,Seguimiento
+1,C0001,CE,82826473,Óscar,Mendoza Chávez,óscar1@correo.com,915648318,San Borja,Paciente particular,2026-05-11,Hipertensión arterial
+2,C0002,DNI,35887318,Álvaro,Flores Salazar,álvaro2@correo.com,920367073,Miraflores,Paciente EPS,2026-05-09,Diabetes mellitus tipo 2
+3,C0003,DNI,73711717,Karla,Espinoza Villanueva,,979226196,Chorrillos,Paciente asegurado,2026-02-13,Infección respiratoria aguda
+4,C0004,DNI,19550501,Álvaro,Salazar Flores,álvaro4@correo.com,,Comas,Programa preventivo,2026-02-08,Gastritis
+5,C0005,CE,28013063,Verónica,Salazar Mendoza,verónica5@correo.com,920710997,Villa El Salvador,Paciente particular,2026-01-24,Lumbalgia
+6,C0006,DNI,68806833,Óscar,Flores Cárdenas,óscar6@correo.com,969199343,Miraflores,Paciente EPS,2026-04-20,Migraña
+7,C0007,DNI,25730522,Bruno,Vargas Ríos,bruno7correo.com,942896070,Villa El Salvador,Paciente asegurado,2026-04-04,Dermatitis alérgica
+8,C0008,DNI,47471436,Manuel,Vargas Bautista,manuel8@correo.com,938104159,Independencia,Programa preventivo,2026-05-20,Anemia ferropénica
+9,C0009,CE,27346640,Carmen,Zevallos Ponce,carmen9correo.com,983540619,Comas,Paciente particular,2026-03-22,Asma bronquial
+10,C0010,RUC,32029320,Luis,Salazar Cruz,luis10@correo.com,987734895,Ate,Paciente EPS,2026-04-15,Dislipidemia
+11,C0011,CE,78029470,Karla,Ríos Gutiérrez,karla11@correo.com,968666393,Comas,Paciente asegurado,2026-02-13,Artrosis de rodilla
+12,C0012,RUC,34192727,Daniela,Huamán Rojas,daniela12@correo.com,983956129,San Miguel,Programa preventivo,2026-03-16,Infección urinaria
+13,C0013,DNI,25737298,Fernando,Ponce Díaz,fernando13@correo.com,934920188,Los Olivos,Paciente particular,2026-02-12,Hipertensión arterial
+14,C0014,DNI,89462453,Karla,Cornejo Zevallos,karla14@correo.com,931064067,Ate,Paciente EPS,2026-02-19,Diabetes mellitus tipo 2
+15,C0015,DNI,68964379,Karla,Mendoza Ponce,karla15@correo.com,915943902,Lince,Paciente asegurado,2026-05-03,Infección respiratoria aguda
+16,C0016,DNI,94307416,Iván,Díaz Bautista,iván16@correo.com,980782195,,Programa preventivo,2026-04-03,Gastritis
+17,C0017,RUC,32178650,Sergio,Paredes Ríos,sergio17@correo.com,924971311,Independencia,Paciente particular,2026-05-27,Lumbalgia
+18,C0018,DNI,27177189,Hugo,Aguirre Chávez,hugo18@correo.com,,Los Olivos,Paciente EPS,2026-02-07,Migraña
+19,C0019,DNI,50793788,Daniela,Díaz Sánchez,daniela19@correo.com,913948109,La Molina,Paciente asegurado,2026-05-26,Dermatitis alérgica
+20,C0020,DNI,40102106,Manuel,Zevallos Sánchez,manuel20@correo.com,997632143,Surco,Programa preventivo,2026-05-16,Anemia ferropénica
+21,C0021,DNI,29010643,Pamela,Palomino Castillo,pamela21@correo.com,981717811,Comas,Paciente particular,2026-03-17,Asma bronquial
+22,C0022,CE,85324145,Luis,Zevallos Cornejo,luis22@correo.com,989646326,Villa El Salvador,Paciente EPS,2026-03-02,Dislipidemia
+23,C0023,DNI,69154458,Sofía,Vargas Castillo,sofía23@correo.com,928058127,Rímac,Paciente asegurado,2026-04-24,Artrosis de rodilla
+24,C0024,DNI,15674507,Isabel,Ponce Sánchez,,928064123,Chorrillos,Programa preventivo,2026-03-17,Infección urinaria
+25,C0025,RUC,65664258,Gabriela,Palomino Flores,gabriela25@correo.com,922972815,,Paciente particular,2026-03-15,Hipertensión arterial
+26,C0026,DNI,67161867,Claudia,Salazar Salazar,claudia26correo.com,984456398,Breña,Paciente EPS,2026-02-01,Diabetes mellitus tipo 2
+27,C0027,DNI,25179556,Pedro,Espinoza Chávez,pedro27@correo.com,924266948,Ate,Paciente asegurado,2026-04-15,Infección respiratoria aguda
+28,C0028,DNI,754331,Carmen,Espinoza Villanueva,carmen28@correo.com,,Villa El Salvador,Programa preventivo,2026-01-27,Gastritis
+29,C0029,DNI,24153406,Diego,Mendoza Villanueva,diego29@correo.com,946837695,Comas,Paciente particular,2026-02-28,Lumbalgia
+30,C0030,DNI,71149515,Manuel,Rivera Mendoza,manuel30@correo.com,936506498,Breña,Paciente EPS,2026-02-25,Migraña
+31,C0031,CE,63379172,Sergio,Bautista Díaz,sergio31@correo.com,941069769,,Paciente asegurado,2026-03-15,Dermatitis alérgica
+32,C0032,RUC,21875088,Ricardo,Castillo Rivera,ricardo32@correo.com,939675832,Surco,Programa preventivo,2026-05-05,Anemia ferropénica
+33,C0033,CE,87322433,Paola,Mendoza Gutiérrez,paola33@correo.com,942983496,Chorrillos,Paciente particular,2026-05-23,Asma bronquial
+34,C0034,RUC,33292706,Daniela,Flores Flores,,916195204,Comas,Paciente EPS,2026-01-15,Dislipidemia
+35,C0035,RUC,94227527,Julia,Chávez Villanueva,julia35@correo.com,927698036,Comas,Paciente asegurado,2026-02-12,Artrosis de rodilla
+36,C0036,CE,58257262,Pamela,Zevallos Aguirre,pamela36@correo.com,988684374,Los Olivos,Programa preventivo,2026-02-11,Infección urinaria
+37,C0037,DNI,34166263,Isabel,Mendoza Quispe,isabel37@correo.com,988991887,Chorrillos,Paciente particular,2026-01-04,Hipertensión arterial
+38,C0038,CE,13518661,Pamela,Gutiérrez Flores,pamela38@correo.com,918053011,San Borja,Paciente EPS,2026-01-23,Diabetes mellitus tipo 2
+39,C0039,DNI,98399897,Renzo,Quispe Huamán,renzo39@correo.com,985860250,Villa El Salvador,Paciente asegurado,2026-04-02,Infección respiratoria aguda
+40,C0040,CE,65657741,Ricardo,Cornejo Romero,ricardo40@correo.com,972112190,Comas,Programa preventivo,2026-01-23,Gastritis
+41,C0041,CE,88020078,Patricia,Vargas Villanueva,patricia41@correo.com,959784546,Breña,Paciente particular,2026-04-28,Lumbalgia
+42,C0042,RUC,73465143,Melissa,Rivera Sánchez,melissa42@correo.com,916602369,Lince,Paciente EPS,2026-03-10,Migraña
+43,C0043,CE,39471183,Bruno,Salazar Zevallos,bruno43@correo.com,947794464,Villa El Salvador,Paciente asegurado,2026-05-23,Dermatitis alérgica
+44,C0044,CE,31805393,Renzo,Ríos Sánchez,renzo44@correo.com,936035391,Callao,Programa preventivo,2026-05-03,Anemia ferropénica
+45,C0045,RUC,61660659,Miguel,Villanueva Gutiérrez,miguel45@correo.com,998592663,Ate,Paciente particular,2026-05-26,Asma bronquial
+46,C0046,RUC,84465986,Raúl,Zevallos Aguirre,,959383833,Independencia,Paciente EPS,2026-03-18,Dislipidemia
+47,C0047,RUC,252350,Gabriela,Castillo Villanueva,gabriela47@correo.com,943578811,Lince,Paciente asegurado,2026-02-24,Artrosis de rodilla
+48,C0048,DNI,89411902,Carlos,Torres Espinoza,carlos48@correo.com,975391188,Surco,Programa preventivo,2026-05-25,Infección urinaria
+49,C0049,DNI,40954405,Óscar,Torres Vargas,óscar49@correo.com,964225428,Los Olivos,Paciente particular,2026-04-05,Hipertensión arterial
+50,C0050,RUC,19480658,Elena,Flores Díaz,elena50@correo.com,969398679,Los Olivos,Paciente EPS,2026-05-04,Diabetes mellitus tipo 2
+51,C0051,RUC,387979,Fernando,Rivera Cornejo,fernando51@correo.com,938384546,Comas,Paciente asegurado,2026-05-25,Infección respiratoria aguda
+52,C0052,DNI,43769143,Miguel,Aguirre Castillo,miguel52@correo.com,,Callao,Programa preventivo,2026-03-14,Gastritis
+53,C0053,DNI,47841337,Ana,Aguirre Villanueva,ana53@correo.com,933949524,San Miguel,Paciente particular,2026-05-17,Lumbalgia
+54,C0054,DNI,48424041,Karla,Castillo Aguirre,karla54@correo.com,921139103,San Juan de Lurigancho,Paciente EPS,2026-03-02,Migraña
+55,C0055,DNI,85131916,Raúl,Villanueva Cárdenas,,987643059,Callao,Paciente asegurado,2026-03-17,Dermatitis alérgica
+56,C0056,DNI,32629609,Natalia,Díaz Flores,,920335397,Miraflores,Programa preventivo,2026-04-26,Anemia ferropénica
+57,C0057,DNI,82530869,Daniela,Díaz Rojas,daniela57@correo.com,917503106,Lince,Paciente particular,2026-04-05,Asma bronquial
+58,C0058,DNI,98196781,Sofía,Villanueva Torres,sofía58@correo.com,996783647,Los Olivos,Paciente EPS,2026-02-09,Dislipidemia
+59,C0059,DNI,68821839,Sofía,Cornejo Flores,sofía59@correo.com,978031067,Miraflores,Paciente asegurado,2026-03-08,Artrosis de rodilla
+60,C0060,DNI,31937240,Pamela,Villanueva Flores,pamela60@correo.com,982171851,Surco,Programa preventivo,2026-03-04,Infección urinaria
+61,C0061,DNI,90967560,Pedro,Villanueva Zevallos,pedro61@correo.com,959212641,Chorrillos,Paciente particular,2026-03-08,Hipertensión arterial
+62,C0062,DNI,60316329,Daniela,Aguirre Vargas,daniela62@correo.com,917235550,Independencia,Paciente EPS,2026-03-25,Diabetes mellitus tipo 2
+63,C0063,DNI,35735573,Bruno,Rojas Rojas,bruno63@correo.com,,Callao,Paciente asegurado,2026-02-15,Infección respiratoria aguda
+64,C0064,DNI,28115390,Fernando,Cárdenas Romero,fernando64@correo.com,962813418,,Programa preventivo,2026-01-09,Gastritis
+65,C0065,DNI,41357755,Jorge,Cárdenas Cruz,jorge65@correo.com,912539958,Callao,Paciente particular,2026-05-06,Lumbalgia
+66,C0066,CE,85046583,Ana,Zevallos Cruz,ana66@correo.com,919575917,Callao,Paciente EPS,2026-02-05,Migraña
+67,C0067,DNI,11630414,Sofía,Mendoza Sánchez,sofía67@correo.com,971534781,Breña,Paciente asegurado,2026-03-08,Dermatitis alérgica
+68,C0068,CE,88755218,Rosa,Bautista Quispe,rosa68correo.com,916040943,Independencia,Programa preventivo,2026-01-21,Anemia ferropénica
+69,C0069,RUC,95722699,Álvaro,Vargas Castillo,álvaro69@correo.com,998959898,Chorrillos,Paciente particular,2026-01-22,Asma bronquial
+70,C0070,DNI,875981,Sergio,Díaz Palomino,sergio70@correo.com,960117654,San Miguel,Paciente EPS,2026-05-04,Dislipidemia
+71,C0071,DNI,13887836,Daniela,Sánchez Villanueva,daniela71@correo.com,924439492,Rímac,Paciente asegurado,2026-04-06,Artrosis de rodilla
+72,C0072,DNI,11625947,Milagros,Zevallos Gutiérrez,milagros72correo.com,,Villa El Salvador,Programa preventivo,2026-01-18,Infección urinaria
+73,C0073,DNI,21901124,Carmen,Huamán Mendoza,carmen73@correo.com,947589853,San Borja,Paciente particular,2026-04-10,Hipertensión arterial
+74,C0074,DNI,671496,Ana,Palomino Quispe,ana74@correo.com,929874643,Villa El Salvador,Paciente EPS,2026-05-02,Diabetes mellitus tipo 2
+75,C0075,DNI,28111215,Isabel,Huamán Flores,isabel75@correo.com,957699081,San Borja,Paciente asegurado,2026-05-19,Infección respiratoria aguda
+76,C0076,RUC,62119712,Álvaro,Ramos Villanueva,álvaro76correo.com,934437475,Ate,Programa preventivo,2026-02-13,Gastritis
+77,C0077,DNI,95625223,Fernando,Sánchez Huamán,fernando77@correo.com,982410663,San Miguel,Paciente particular,2026-02-07,Lumbalgia
+78,C0078,RUC,71214459,Verónica,Cruz Díaz,verónica78@correo.com,919025465,Ate,Paciente EPS,2026-04-20,Migraña
+79,C0079,CE,532241,Carlos,Palomino Cruz,carlos79@correo.com,973776387,La Molina,Paciente asegurado,2026-03-04,Dermatitis alérgica
+80,C0080,DNI,23061116,Natalia,Ponce Villanueva,,930127831,Ate,Programa preventivo,2026-02-12,Anemia ferropénica
+81,C0081,CE,38294708,Claudia,Gutiérrez Mendoza,claudia81correo.com,998115466,Rímac,Paciente particular,2026-05-14,Asma bronquial
+82,C0082,DNI,55315384,Patricia,Rivera Quispe,patricia82@correo.com,951145001,Lince,Paciente EPS,2026-01-03,Dislipidemia
+83,C0083,CE,28224149,Carlos,Flores Rojas,carlos83@correo.com,932820524,La Molina,Paciente asegurado,2026-02-20,Artrosis de rodilla
+84,C0084,CE,31260063,Bruno,Rojas Palomino,bruno84@correo.com,973346226,Breña,Programa preventivo,2026-01-25,Infección urinaria
+85,C0085,DNI,61063339,Julia,Flores Ramos,julia85@correo.com,973141699,Rímac,Paciente particular,2026-04-03,Hipertensión arterial
+86,C0086,DNI,73438073,Lucía,Quispe Villanueva,lucía86correo.com,942071421,San Juan de Lurigancho,Paciente EPS,2026-03-21,Diabetes mellitus tipo 2
+87,C0087,RUC,71837925,Víctor,Torres Huamán,víctor87@correo.com,934445915,Los Olivos,Paciente asegurado,2026-04-09,Infección respiratoria aguda
+88,C0088,DNI,94272197,Daniela,Sánchez Castillo,daniela88@correo.com,915122283,Breña,Programa preventivo,2026-02-01,Gastritis
+89,C0089,DNI,12358172,Iván,Ninaquispe Cruz,iván89@correo.com,946381181,Comas,Paciente particular,2026-05-25,Lumbalgia
+90,C0090,DNI,715054,Carmen,Espinoza Palomino,carmen90@correo.com,929276822,Lince,Paciente EPS,2026-01-07,Migraña
+91,C0091,RUC,14355828,Melissa,Castillo Sánchez,melissa91@correo.com,916690978,Chorrillos,Paciente asegurado,2026-05-23,Dermatitis alérgica
+92,C0092,RUC,89448267,Isabel,Díaz Paredes,isabel92@correo.com,936570739,San Borja,Programa preventivo,2026-05-27,Anemia ferropénica
+93,C0093,DNI,82872520,Claudia,Cárdenas Ninaquispe,claudia93@correo.com,920687286,San Miguel,Paciente particular,2026-05-14,Asma bronquial
+94,C0094,DNI,21224387,Carmen,Bautista Palomino,carmen94@correo.com,963427243,Rímac,Paciente EPS,2026-01-13,Dislipidemia
+95,C0095,CE,53380231,Ana,Villanueva Palomino,,,Miraflores,Paciente asegurado,2026-03-20,Artrosis de rodilla
+96,C0096,DNI,69700778,Andrés,Rivera Bautista,andrés96@correo.com,981885476,San Miguel,Programa preventivo,2026-03-09,Infección urinaria
+97,C0097,RUC,80869176,Luis,Díaz Paredes,luis97@correo.com,951642548,Breña,Paciente particular,2026-05-14,Hipertensión arterial
+98,C0098,RUC,75056712,Julia,Aguirre Salazar,julia98@correo.com,914704870,Chorrillos,Paciente EPS,2026-01-07,Diabetes mellitus tipo 2
+99,C0099,DNI,21305523,Pedro,Quispe Rojas,pedro99@correo.com,977005531,Miraflores,Paciente asegurado,2026-05-18,Infección respiratoria aguda
+100,C0100,DNI,98102180,Ana,Villanueva Ramos,ana100@correo.com,975523147,Villa El Salvador,Programa preventivo,2026-05-03,Gastritis
+101,C0101,CE,13378654,Diego,Vargas Lévano,diego101@correo.com,979050178,San Juan de Lurigancho,Paciente particular,2026-03-26,Lumbalgia
+102,C0102,CE,69148668,Carmen,Vargas Ramos,carmen102@correo.com,983354809,San Juan de Lurigancho,Paciente EPS,2026-01-02,Migraña
+103,C0103,DNI,99712785,José,Vargas Rivera,josé103@correo.com,926256072,San Juan de Lurigancho,Paciente asegurado,2026-04-27,Dermatitis alérgica
+104,C0104,DNI,37578857,Bruno,Zevallos Cornejo,bruno104@correo.com,961560011,Miraflores,Programa preventivo,2026-03-10,Anemia ferropénica
+105,C0105,DNI,17023407,Fernando,Ríos Sánchez,fernando105@correo.com,960308711,Comas,Paciente particular,2026-03-10,Asma bronquial
+106,C0106,DNI,51220630,Sergio,Sánchez Huamán,sergio106@correo.com,951490730,Breña,Paciente EPS,2026-01-04,Dislipidemia
+107,C0107,CE,70090261,Álvaro,Ríos Torres,álvaro107@correo.com,933586426,San Juan de Lurigancho,Paciente asegurado,2026-04-01,Artrosis de rodilla
+108,C0108,DNI,57833997,Natalia,Cornejo Ninaquispe,natalia108@correo.com,917944845,Callao,Programa preventivo,2026-05-17,Infección urinaria
+109,C0109,DNI,94808896,Lucía,Ninaquispe Espinoza,,942620761,Callao,Paciente particular,2026-02-03,Hipertensión arterial
+110,C0110,DNI,78094829,Claudia,Rivera Villanueva,claudia110@correo.com,957626600,Lince,Paciente EPS,2026-04-21,Diabetes mellitus tipo 2
+111,C0111,CE,54121044,Manuel,Romero Zevallos,manuel111@correo.com,953614606,Ate,Paciente asegurado,2026-03-04,Infección respiratoria aguda
+112,C0112,DNI,59484555,Isabel,Rivera Bautista,isabel112@correo.com,,,Programa preventivo,2026-01-24,Gastritis
+113,C0113,DNI,88111960,Pamela,Espinoza Vargas,pamela113@correo.com,931115146,Chorrillos,Paciente particular,2026-01-28,Lumbalgia
+114,C0114,DNI,16882067,Paola,Aguirre Salazar,paola114@correo.com,934141006,Villa El Salvador,Paciente EPS,2026-04-22,Migraña
+115,C0115,DNI,99872215,Andrés,Romero Ríos,andrés115@correo.com,928487874,Comas,Paciente asegurado,2026-01-23,Dermatitis alérgica
+116,C0116,DNI,91868266,Fernando,Gutiérrez Ramos,fernando116@correo.com,936242516,Ate,Programa preventivo,2026-02-02,Anemia ferropénica
+117,C0117,DNI,49714668,Carmen,Chávez Gutiérrez,carmen117@correo.com,938811953,Callao,Paciente particular,2026-04-27,Asma bronquial
+118,C0118,DNI,26332199,María,Quispe Huamán,maría118@correo.com,915369829,San Miguel,Paciente EPS,2026-01-21,Dislipidemia
+119,C0119,CE,92047546,Karla,Ramos Rojas,karla119@correo.com,953759624,Breña,Paciente asegurado,2026-03-26,Artrosis de rodilla
+120,C0120,DNI,64059396,Claudia,Rojas Cruz,claudia120@correo.com,927500837,Los Olivos,Programa preventivo,2026-03-10,Infección urinaria
+121,C0121,CE,87031220,Hugo,Cárdenas Ninaquispe,hugo121@correo.com,964237958,Comas,Paciente particular,2026-02-10,Hipertensión arterial
+122,C0122,DNI,47768885,Natalia,Cárdenas Huamán,natalia122@correo.com,963183799,Breña,Paciente EPS,2026-02-03,Diabetes mellitus tipo 2
+123,C0123,DNI,92890568,Ana,Flores Espinoza,ana123@correo.com,,San Borja,Paciente asegurado,2026-03-18,Infección respiratoria aguda
+124,C0124,CE,20994311,Álvaro,Vargas Aguirre,,982275225,San Juan de Lurigancho,Programa preventivo,2026-04-25,Gastritis
+125,C0125,DNI,95883289,Renzo,Flores Ninaquispe,renzo125@correo.com,,Lince,Paciente particular,2026-02-21,Lumbalgia
+126,C0126,DNI,32357038,Andrés,Cornejo Lévano,andrés126@correo.com,933870639,Rímac,Paciente EPS,2026-05-19,Migraña
+127,C0127,RUC,54353447,Ana,Cárdenas Chávez,ana127@correo.com,973350377,La Molina,Paciente asegurado,2026-03-26,Dermatitis alérgica
+128,C0128,DNI,56059241,Julia,Paredes Ríos,julia128@correo.com,938915374,Breña,Programa preventivo,2026-01-03,Anemia ferropénica
+129,C0129,RUC,415132,María,Vargas Aguirre,maría129@correo.com,963958168,Miraflores,Paciente particular,2026-04-01,Asma bronquial
+130,C0130,DNI,31341392,José,Vargas Vargas,josé130@correo.com,991290137,Miraflores,Paciente EPS,2026-01-13,Dislipidemia
+131,C0131,DNI,61541494,Carlos,Cruz Lévano,carlos131@correo.com,976481785,Villa El Salvador,Paciente asegurado,2026-01-04,Artrosis de rodilla
+132,C0132,RUC,81182962,Paola,Castillo Villanueva,paola132@correo.com,992781042,Los Olivos,Programa preventivo,2026-02-24,Infección urinaria
+133,C0133,DNI,44813086,Rosa,Zevallos Lévano,rosa133@correo.com,937684247,Comas,Paciente particular,2026-03-07,Hipertensión arterial
+134,C0134,RUC,56372431,Lucía,Castillo Vargas,lucía134@correo.com,955814681,Independencia,Paciente EPS,2026-04-09,Diabetes mellitus tipo 2
+135,C0135,DNI,14506462,Julia,Bautista Paredes,julia135@correo.com,973136520,Villa El Salvador,Paciente asegurado,2026-01-07,Infección respiratoria aguda
+136,C0136,DNI,49232897,Miguel,Bautista Romero,miguel136@correo.com,974489295,San Miguel,Programa preventivo,2026-01-25,Gastritis
+137,C0137,CE,62221605,Ana,Castillo Chávez,ana137@correo.com,995021271,San Miguel,Paciente particular,2026-04-22,Lumbalgia
+138,C0138,CE,63502330,Karla,Aguirre Mendoza,karla138@correo.com,934095028,Surco,Paciente EPS,2026-03-18,Migraña
+139,C0139,RUC,14005183,Fernando,Díaz Ramos,fernando139@correo.com,945241799,Ate,Paciente asegurado,2026-03-27,Dermatitis alérgica
+140,C0140,DNI,35732098,Iván,Díaz Ríos,iván140@correo.com,991131669,San Borja,Programa preventivo,2026-03-17,Anemia ferropénica
+141,C0141,DNI,61751350,Pamela,Ponce Cruz,pamela141@correo.com,986365631,Los Olivos,Paciente particular,2026-01-01,Asma bronquial
+142,C0142,DNI,27870800,Rosa,Mendoza Zevallos,rosa142@correo.com,999687279,Chorrillos,Paciente EPS,2026-01-04,Dislipidemia
+143,C0143,DNI,63431351,Verónica,Huamán Cárdenas,verónica143@correo.com,949565584,San Juan de Lurigancho,Paciente asegurado,2026-03-24,Artrosis de rodilla
+144,C0144,DNI,77070703,Patricia,Cruz Salazar,patricia144@correo.com,969868497,San Juan de Lurigancho,Programa preventivo,2026-01-25,Infección urinaria
+145,C0145,DNI,75819215,Gabriela,Ninaquispe Rivera,gabriela145@correo.com,974694163,San Miguel,Paciente particular,2026-04-04,Hipertensión arterial
+146,C0146,DNI,11238838,Carmen,Villanueva Romero,carmen146@correo.com,978592804,Breña,Paciente EPS,2026-04-20,Diabetes mellitus tipo 2
+147,C0147,CE,71908505,Daniela,Huamán Ponce,daniela147@correo.com,964909336,San Borja,Paciente asegurado,2026-01-27,Infección respiratoria aguda
+148,C0148,DNI,66506485,Daniela,Villanueva Ninaquispe,daniela148@correo.com,929260872,Rímac,Programa preventivo,2026-04-05,Gastritis
+149,C0149,DNI,49164427,Lucía,Ponce Lévano,lucía149@correo.com,,Villa El Salvador,Paciente particular,2026-03-28,Lumbalgia
+150,C0150,DNI,64203422,Pamela,Ponce Ninaquispe,pamela150correo.com,993856841,Los Olivos,Paciente EPS,2026-04-24,Migraña
+151,C0151,DNI,57534609,Diego,Espinoza Flores,diego151@correo.com,932688581,Chorrillos,Paciente asegurado,2026-05-01,Dermatitis alérgica
+152,C0152,DNI,408618,Iván,Flores Gutiérrez,iván152@correo.com,993048232,Surco,Programa preventivo,2026-05-26,Anemia ferropénica
+153,C0153,RUC,50274461,Carmen,Huamán Zevallos,carmen153@correo.com,926785575,Miraflores,Paciente particular,2026-05-17,Asma bronquial
+154,C0154,RUC,59110589,Iván,Bautista Paredes,iván154@correo.com,992534317,Independencia,Paciente EPS,2026-04-02,Dislipidemia
+155,C0155,DNI,19992371,Luis,Huamán Cornejo,luis155@correo.com,985423066,Rímac,Paciente asegurado,2026-02-07,Artrosis de rodilla
+156,C0156,CE,83950268,Pedro,Gutiérrez Flores,pedro156@correo.com,918102593,Independencia,Programa preventivo,2026-05-15,Infección urinaria
+157,C0157,DNI,57466356,José,Cornejo Cárdenas,,945593455,Surco,Paciente particular,2026-03-01,Hipertensión arterial
+158,C0158,RUC,12438425,Carlos,Chávez Salazar,carlos158@correo.com,914560126,Breña,Paciente EPS,2026-02-03,Diabetes mellitus tipo 2
+159,C0159,DNI,74067666,Natalia,Mendoza Huamán,natalia159@correo.com,970407055,Miraflores,Paciente asegurado,2026-03-15,Infección respiratoria aguda
+160,C0160,RUC,11309925,Iván,Bautista Cruz,iván160@correo.com,962425051,,Programa preventivo,2026-02-06,Gastritis
+161,C0161,CE,82384685,Verónica,Ninaquispe Flores,,965794051,,Paciente particular,2026-03-03,Lumbalgia
+162,C0162,DNI,94226738,Manuel,Bautista Bautista,manuel162@correo.com,981203734,Surco,Paciente EPS,2026-04-12,Migraña
+163,C0163,CE,76223683,Miguel,Flores Castillo,miguel163@correo.com,975230226,Callao,Paciente asegurado,2026-02-09,Dermatitis alérgica
+164,C0164,DNI,29768643,Isabel,Villanueva Palomino,isabel164@correo.com,977594635,San Miguel,Programa preventivo,2026-03-22,Anemia ferropénica
+165,C0165,DNI,70047884,Melissa,Mendoza Flores,melissa165@correo.com,925019973,Los Olivos,Paciente particular,2026-03-03,Asma bronquial
+166,C0166,CE,22388113,Raúl,Torres Vargas,raúl166@correo.com,963711097,San Miguel,Paciente EPS,2026-05-27,Dislipidemia
+167,C0167,DNI,50602378,Verónica,Espinoza Villanueva,verónica167@correo.com,993236989,,Paciente asegurado,2026-01-20,Artrosis de rodilla
+168,C0168,DNI,10873723,Patricia,Aguirre Sánchez,patricia168correo.com,994520018,Surco,Programa preventivo,2026-05-27,Infección urinaria
+169,C0169,DNI,86591239,Elena,Chávez Aguirre,,,Breña,Paciente particular,2026-03-09,Hipertensión arterial
+170,C0170,DNI,36699102,María,Ramos Sánchez,maría170@correo.com,919815234,Surco,Paciente EPS,2026-05-01,Diabetes mellitus tipo 2
+171,C0171,RUC,85736536,Isabel,Huamán Flores,isabel171@correo.com,,Los Olivos,Paciente asegurado,2026-01-16,Infección respiratoria aguda
+172,C0172,DNI,20796139,María,Sánchez Rivera,maría172@correo.com,935801379,Chorrillos,Programa preventivo,2026-02-21,Gastritis
+173,C0173,DNI,17325636,Melissa,Sánchez Rivera,,962374824,Callao,Paciente particular,2026-01-08,Lumbalgia
+174,C0174,CE,77874862,Lucía,Paredes Cruz,lucía174@correo.com,972495838,San Juan de Lurigancho,Paciente EPS,2026-03-07,Migraña
+175,C0175,DNI,81623876,Jorge,Ramos Paredes,jorge175@correo.com,962619754,Breña,Paciente asegurado,2026-02-25,Dermatitis alérgica
+176,C0176,DNI,41450430,Natalia,Ríos Ninaquispe,natalia176@correo.com,976010105,,Programa preventivo,2026-02-08,Anemia ferropénica
+177,C0177,CE,30039807,Álvaro,Lévano Torres,álvaro177@correo.com,915065529,Chorrillos,Paciente particular,2026-04-17,Asma bronquial
+178,C0178,CE,17614612,Álvaro,Ninaquispe Díaz,álvaro178@correo.com,963690679,Ate,Paciente EPS,2026-05-01,Dislipidemia
+179,C0179,RUC,26372415,Diego,Gutiérrez Ponce,diego179@correo.com,924828980,Callao,Paciente asegurado,2026-05-28,Artrosis de rodilla
+180,C0180,DNI,82562780,Lucía,Rojas Torres,lucía180@correo.com,944828052,San Miguel,Programa preventivo,2026-01-08,Infección urinaria
+181,C0181,RUC,89302065,Iván,Aguirre Flores,iván181@correo.com,,Breña,Paciente particular,2026-02-15,Hipertensión arterial
+182,C0182,RUC,74704935,Fernando,Huamán Quispe,fernando182@correo.com,950642845,Los Olivos,Paciente EPS,2026-01-15,Diabetes mellitus tipo 2
+183,C0183,CE,58362915,Óscar,Gutiérrez Díaz,óscar183@correo.com,918913251,Lince,Paciente asegurado,2026-05-13,Infección respiratoria aguda
+184,C0184,DNI,93144891,Verónica,Ríos Zevallos,verónica184@correo.com,911322858,Surco,Programa preventivo,2026-03-27,Gastritis
+185,C0185,DNI,81808066,Gabriela,Díaz Torres,gabriela185@correo.com,919282912,Callao,Paciente particular,2026-01-08,Lumbalgia
+186,C0186,RUC,16540611,Sergio,Ríos Zevallos,sergio186@correo.com,,Chorrillos,Paciente EPS,2026-04-04,Migraña
+187,C0187,RUC,39000702,Milagros,Aguirre Huamán,milagros187correo.com,986601831,San Miguel,Paciente asegurado,2026-02-19,Dermatitis alérgica
+188,C0188,RUC,31485697,Ricardo,Flores Paredes,ricardo188@correo.com,984728359,San Miguel,Programa preventivo,2026-03-06,Anemia ferropénica
+189,C0189,DNI,36681388,Raúl,Espinoza Vargas,raúl189@correo.com,918318500,San Juan de Lurigancho,Paciente particular,2026-03-01,Asma bronquial
+190,C0190,DNI,50785107,Fernando,Flores Torres,fernando190@correo.com,953697027,Chorrillos,Paciente EPS,2026-05-20,Dislipidemia
+191,C0191,RUC,50576078,Ricardo,Villanueva Romero,ricardo191@correo.com,917776914,Rímac,Paciente asegurado,2026-01-18,Artrosis de rodilla
+192,C0192,DNI,83476502,Luis,Rojas Castillo,luis192@correo.com,948899121,Lince,Programa preventivo,2026-05-04,Infección urinaria
+193,C0193,DNI,44274268,Carlos,Palomino Zevallos,carlos193@correo.com,914815883,Comas,Paciente particular,2026-02-18,Hipertensión arterial
+194,C0194,DNI,49938601,Bruno,Palomino Lévano,bruno194@correo.com,935354698,Villa El Salvador,Paciente EPS,2026-02-22,Diabetes mellitus tipo 2
+195,C0195,DNI,21820178,Julia,Ninaquispe Torres,julia195@correo.com,974471585,Rímac,Paciente asegurado,2026-03-20,Infección respiratoria aguda
+196,C0196,CE,90044316,Hugo,Quispe Vargas,hugo196@correo.com,,Comas,Programa preventivo,2026-04-04,Gastritis
+197,C0197,DNI,84479673,Álvaro,Salazar Villanueva,álvaro197@correo.com,950645166,San Borja,Paciente particular,2026-04-26,Lumbalgia
+198,C0198,CE,67581806,María,Rojas Huamán,maría198@correo.com,956172165,Surco,Paciente EPS,2026-05-11,Migraña
+199,C0199,DNI,22506999,Hugo,Mendoza Cornejo,hugo199@correo.com,996575099,Miraflores,Paciente asegurado,2026-02-01,Dermatitis alérgica
+200,C0200,CE,53481264,Sofía,Zevallos Ponce,sofía200@correo.com,956242125,San Miguel,Programa preventivo,2026-03-17,Anemia ferropénica
+201,C0201,DNI,610633,Julia,Flores Ramos,julia85@correo.com,973141699,Rímac,Paciente particular,2026-04-03,Asma bronquial
+202,C0202,RUC,14005183,Fernando,Díaz Ramos,fernando139@correo.com,945241799,Ate,Paciente EPS,2026-03-27,Dislipidemia
+203,C0203,DNI,89411902,Carlos,Torres Espinoza,carlos48@correo.com,975391188,Surco,Paciente asegurado,2026-05-25,Artrosis de rodilla
+204,C0204,DNI,32629609,Natalia,Díaz Flores,,920335397,Miraflores,Programa preventivo,2026-04-26,Infección urinaria
+205,C0205,RUC,14355828,Melissa,Castillo Sánchez,melissa91@correo.com,916690978,Chorrillos,Paciente particular,2026-05-23,Hipertensión arterial
+206,C0206,DNI,61541494,Carlos,Cruz Lévano,carlos131@correo.com,976481785,Villa El Salvador,Paciente EPS,2026-01-04,Diabetes mellitus tipo 2
+207,C0207,RUC,32029320,Luis,Salazar Cruz,luis10@correo.com,987734895,Ate,Paciente asegurado,2026-04-15,Infección respiratoria aguda
+208,C0208,DNI,95883289,Renzo,Flores Ninaquispe,renzo125@correo.com,,Lince,Programa preventivo,2026-02-21,Gastritis
